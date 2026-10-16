@@ -9,6 +9,7 @@ import { createPortal, flushSync } from "react-dom";
 import { Icon } from "@/components/Icon";
 import { buildVisitSheet, SHEET_STATUS, type SheetEntry, type SheetPlace } from "@/lib/client/visit";
 import { renderSheetPng } from "@/lib/client/sheetImage";
+import { COMMON_FORM, formAttachments, formChecks } from "@/lib/client/applyForm";
 
 const fileOf = (i: number) => `복지나침반-준비물-${i + 1}.png`;
 /** 문의 문구에서 전화번호만 ('한부모상담전화 1577-4206' → '15774206'). 번호가 없으면 null */
@@ -88,6 +89,7 @@ function PlacePage({ pl, i, n, region, date, forPrint, actions }: { pl: SheetPla
           )}
         </>
       )}
+      {pl.key === "center" && <FormHelp pl={pl} tid={tid} />}
       {pl.phones.length > 0 && (
         <p className="vs-note" data-testid={tid("vs-phones")}>
           문의:{" "}
@@ -242,3 +244,35 @@ export function VisitSheet({ entries, region, sido, loading, extra, teen, onClos
     </section>
   );
 }
+
+/**
+ * 주민센터 장: 공통 신청서 「사회보장급여 신청(변경)서」에서 체크할 칸 (2026-10-16 회의: 신청서 자동 채우기).
+ * 칸 이름은 서식 원문 그대로, 개인정보는 적지 않는다 — 창구에서 받은 서식에 이 칸만 체크하면 된다.
+ */
+function FormHelp({ pl, tid }: { pl: SheetPlace; tid: (s: string) => string | undefined }) {
+  const checks = formChecks(pl.programs);
+  if (!checks.length) return null;
+  const attach = formAttachments(checks);
+  return (
+    <div className="vs-form" data-testid={tid("vs-form")}>
+      <p className="vs-k">신청서에서 체크할 칸</p>
+      <p className="vs-note">
+        창구의 「{COMMON_FORM.title}」 2쪽 &lsquo;사회보장급여 내용&rsquo;에서 (근거: {COMMON_FORM.basis})
+      </p>
+      <ul className="vs-check">
+        {checks.map((c) => (
+          <li key={`${c.section}-${c.label}`}>
+            <span className="vs-box" aria-hidden="true" />
+            <span>
+              <b>{c.section}</b> · {c.label}
+              {(c.for.length > 1 || c.for[0] !== c.label) && <span className="vs-for"> ({c.for.join(", ")})</span>}
+            </span>
+          </li>
+        ))}
+      </ul>
+      {attach.length > 0 && <p className="vs-note">함께 쓰는 서식(창구에 있어요): {attach.join(", ")}</p>}
+      <p className="vs-note">이름·주민등록번호·계좌는 창구에서 직접 적어요. 이 한 장에는 적지 않아요.</p>
+    </div>
+  );
+}
+
