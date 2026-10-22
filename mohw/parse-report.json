@@ -1,15 +1,15 @@
 {
  "posts": 230,
+ "parsed": 1,
  "rows": 12565,
  "stats": {
-  "continued": 557,
-  "skipped_rows": 835,
-  "reused": 29965,
-  "id_kept": 9471,
-  "id_new": 2239,
-  "guessed": 4040,
-  "id_new_version": 467,
-  "id_moved": 388
+  "kept_rows": 12497,
+  "reused": 231,
+  "id_kept": 30,
+  "guessed": 12,
+  "id_new_version": 3,
+  "id_moved": 34,
+  "id_new": 1
  },
  "byBoard": {
   "서울특별시": 1565,
@@ -49,49 +49,57 @@
    "title": "서울특별시 중랑구 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "중랑구",
    "updated": "2026-06",
-   "rows": 115
+   "rows": 115,
+   "kept": true
   },
   {
    "title": "서울특별시 중구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "중구",
    "updated": "2026-03",
-   "rows": 34
+   "rows": 34,
+   "kept": true
   },
   {
    "title": "서울특별시 종로구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "종로구",
    "updated": "2026-03",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "서울특별시 은평구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "은평구",
    "updated": "2026-03",
-   "rows": 69
+   "rows": 69,
+   "kept": true
   },
   {
    "title": "서울특별시 용산구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "용산구",
    "updated": "2026-03",
-   "rows": 61
+   "rows": 61,
+   "kept": true
   },
   {
    "title": "서울특별시 영등포구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "영등포구",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "서울특별시 양천구 통합돌봄 서비스 메뉴판",
    "sigungu": "양천구",
    "updated": "2026-03",
-   "rows": 42
+   "rows": 42,
+   "kept": true
   },
   {
    "title": "서울특별시 송파구 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "송파구",
    "updated": "2026-04",
-   "rows": 108
+   "rows": 108,
+   "kept": true
   },
   {
    "title": "서울특별시 성북구 통합돌봄 서비스 메뉴판 (26년 9월 기준)",
@@ -103,1327 +111,1548 @@
    "title": "서울특별시 성동구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "성동구",
    "updated": "2026-03",
-   "rows": 66
+   "rows": 66,
+   "kept": true
   },
   {
    "title": "서울특별시 서초구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "서초구",
    "updated": "2026-03",
-   "rows": 58
+   "rows": 58,
+   "kept": true
   },
   {
    "title": "서울특별시 서대문구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "서대문구",
    "updated": "2026-03",
-   "rows": 25
+   "rows": 25,
+   "kept": true
   },
   {
    "title": "서울특별시 마포구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "마포구",
    "updated": "2026-03",
-   "rows": 52
+   "rows": 52,
+   "kept": true
   },
   {
    "title": "서울특별시 동작구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "동작구",
    "updated": "2026-03",
-   "rows": 77
+   "rows": 77,
+   "kept": true
   },
   {
    "title": "서울특별시 동대문구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "동대문구",
    "updated": "2026-03",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "서울특별시 도봉구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "도봉구",
    "updated": "2026-03",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "서울특별시 노원구 통합돌봄 서비스 메뉴판",
    "sigungu": "노원구",
    "updated": "2026-03",
-   "rows": 86
+   "rows": 86,
+   "kept": true
   },
   {
    "title": "서울특별시 금천구 통합돌봄 서비스 메뉴판",
    "sigungu": "금천구",
    "updated": "2026-03",
-   "rows": 62
+   "rows": 62,
+   "kept": true
   },
   {
    "title": "서울특별시 구로구 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "구로구",
    "updated": "2026-05",
-   "rows": 45
+   "rows": 45,
+   "kept": true
   },
   {
    "title": "서울특별시 광진구 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "광진구",
    "updated": "2026-07",
-   "rows": 67
+   "rows": 67,
+   "kept": true
   },
   {
    "title": "서울특별시 관악구 통합돌봄 서비스 메뉴판",
    "sigungu": "관악구",
    "updated": "2026-03",
-   "rows": 55
+   "rows": 55,
+   "kept": true
   },
   {
    "title": "서울특별시 강서구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "강서구",
    "updated": "2026-03",
-   "rows": 79
+   "rows": 79,
+   "kept": true
   },
   {
    "title": "서울특별시 강북구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "강북구",
    "updated": "2026-03",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "서울특별시 강동구 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "강동구",
    "updated": "2026-07",
-   "rows": 73
+   "rows": 73,
+   "kept": true
   },
   {
    "title": "서울특별시 강남구 통합돌봄 서비스 메뉴판",
    "sigungu": "강남구",
    "updated": "2026-03",
-   "rows": 79
+   "rows": 79,
+   "kept": true
   },
   {
    "title": "부산광역시 해운대구 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "해운대구",
    "updated": "2026-05",
-   "rows": 67
+   "rows": 67,
+   "kept": true
   },
   {
    "title": "부산광역시 중구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "중구",
    "updated": "2026-03",
-   "rows": 52
+   "rows": 52,
+   "kept": true
   },
   {
    "title": "부산광역시 영도구 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "영도구",
    "updated": "2026-03",
-   "rows": 44
+   "rows": 44,
+   "kept": true
   },
   {
    "title": "부산광역시 연제구 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "연제구",
    "updated": "2026-06",
-   "rows": 70
+   "rows": 70,
+   "kept": true
   },
   {
    "title": "부산광역시 수영구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "수영구",
    "updated": "2026-03",
-   "rows": 56
+   "rows": 56,
+   "kept": true
   },
   {
    "title": "부산광역시 서구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "서구",
    "updated": "2026-03",
-   "rows": 76
+   "rows": 76,
+   "kept": true
   },
   {
    "title": "부산광역시 사하구 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "사하구",
    "updated": "2026-07",
-   "rows": 202
+   "rows": 202,
+   "kept": true
   },
   {
    "title": "부산광역시 사상구 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "사상구",
    "updated": "2026-06",
-   "rows": 155
+   "rows": 155,
+   "kept": true
   },
   {
    "title": "부산광역시 북구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "북구",
    "updated": "2026-03",
-   "rows": 55
+   "rows": 55,
+   "kept": true
   },
   {
    "title": "부산광역시 부산진구 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "부산진구",
    "updated": "2026-03",
-   "rows": 48
+   "rows": 48,
+   "kept": true
   },
   {
    "title": "부산광역시 동래구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "동래구",
    "updated": "2026-03",
-   "rows": 60
+   "rows": 60,
+   "kept": true
   },
   {
    "title": "부산광역시 동구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "동구",
    "updated": "2026-03",
-   "rows": 25
+   "rows": 25,
+   "kept": true
   },
   {
    "title": "부산광역시 남구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "남구",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "부산광역시 기장군 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "기장군",
    "updated": "2026-03",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "부산광역시 금정구 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "금정구",
    "updated": "2026-07",
-   "rows": 54
+   "rows": 54,
+   "kept": true
   },
   {
    "title": "부산광역시 강서구 통합돌봄 서비스 메뉴판(26년 3월말 기준)",
    "sigungu": "강서구",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "대구광역시 군위군 통합돌봄 서비스 메뉴판",
    "sigungu": "군위군",
    "updated": "2026-03",
-   "rows": 106
+   "rows": 106,
+   "kept": true
   },
   {
    "title": "대구광역시 남구 통합돌봄 서비스 메뉴판",
    "sigungu": "남구",
    "updated": "2026-03",
-   "rows": 106
+   "rows": 106,
+   "kept": true
   },
   {
    "title": "대구광역시 달서구 통합돌봄 서비스 메뉴판",
    "sigungu": "달서구",
    "updated": "2026-03",
-   "rows": 105
+   "rows": 105,
+   "kept": true
   },
   {
    "title": "대구광역시 달성군 통합돌봄 서비스 메뉴판",
    "sigungu": "달성군",
    "updated": "2026-03",
-   "rows": 99
+   "rows": 99,
+   "kept": true
   },
   {
    "title": "대구광역시 동구 통합돌봄 서비스 메뉴판",
    "sigungu": "동구",
    "updated": "2026-03",
-   "rows": 102
+   "rows": 102,
+   "kept": true
   },
   {
    "title": "대구광역시 북구 통합돌봄 서비스 메뉴판",
    "sigungu": "북구",
    "updated": "2026-03",
-   "rows": 102
+   "rows": 102,
+   "kept": true
   },
   {
    "title": "대구광역시 서구 통합돌봄 서비스 메뉴판",
    "sigungu": "서구",
    "updated": "2026-03",
-   "rows": 101
+   "rows": 101,
+   "kept": true
   },
   {
    "title": "대구광역시 수성구 통합돌봄 서비스 메뉴판",
    "sigungu": "수성구",
    "updated": "2026-03",
-   "rows": 103
+   "rows": 103,
+   "kept": true
   },
   {
    "title": "대구광역시 중구 통합돌봄 서비스 메뉴판",
    "sigungu": "중구",
    "updated": "2026-03",
-   "rows": 100
+   "rows": 100,
+   "kept": true
   },
   {
    "title": "인천광역시 검단구 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "검단구",
    "updated": "2026-07",
-   "rows": 124
+   "rows": 124,
+   "kept": true
   },
   {
    "title": "인천광역시 서해구(舊 서구) 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "인천광역시",
    "updated": "2026-03",
-   "rows": 132
+   "rows": 132,
+   "kept": true
   },
   {
    "title": "인천광역시 계양구 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "계양구",
    "updated": "2026-03",
-   "rows": 54
+   "rows": 54,
+   "kept": true
   },
   {
    "title": "인천광역시 부평구 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "부평구",
    "updated": "2026-03",
-   "rows": 95
+   "rows": 95,
+   "kept": true
   },
   {
    "title": "인천광역시 남동구 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "남동구",
    "updated": "2026-03",
-   "rows": 98
+   "rows": 98,
+   "kept": true
   },
   {
    "title": "인천광역시 연수구 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "연수구",
    "updated": "2026-03",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "인천광역시 미추홀구 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "미추홀구",
    "updated": "2026-03",
-   "rows": 64
+   "rows": 64,
+   "kept": true
   },
   {
    "title": "인천광역시 제물포구(舊 동구) 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "인천광역시",
    "updated": "2026-03",
-   "rows": 91
+   "rows": 91,
+   "kept": true
   },
   {
    "title": "인천광역시 영종구(舊 중구) 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "인천광역시",
    "updated": "2026-03",
-   "rows": 50
+   "rows": 50,
+   "kept": true
   },
   {
    "title": "인천광역시 옹진군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "옹진군",
    "updated": "2026-03",
-   "rows": 41
+   "rows": 41,
+   "kept": true
   },
   {
    "title": "인천광역시 강화군 통합돌봄 서비스 메뉴판 (26년 5월말 기준)",
    "sigungu": "강화군",
    "updated": "2026-03",
-   "rows": 53
+   "rows": 53,
+   "kept": true
   },
   {
    "title": "광주광역시 서구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "서구",
    "updated": "2026-03",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "광주광역시 북구 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "북구",
    "updated": "2026-05",
-   "rows": 51
+   "rows": 51,
+   "kept": true
   },
   {
    "title": "광주광역시 동구 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "동구",
    "updated": "2026-05",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "광주광역시 남구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "남구",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "광주광역시 광산구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "광산구",
    "updated": "2026-03",
-   "rows": 70
+   "rows": 70,
+   "kept": true
   },
   {
    "title": "대전광역시 중구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "중구",
    "updated": "2026-03",
-   "rows": 48
+   "rows": 48,
+   "kept": true
   },
   {
    "title": "대전광역시 유성구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "유성구",
    "updated": "2026-03",
-   "rows": 47
+   "rows": 47,
+   "kept": true
   },
   {
    "title": "대전광역시 서구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "서구",
    "updated": "2026-03",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "대전광역시 동구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "동구",
    "updated": "2026-03",
-   "rows": 47
+   "rows": 47,
+   "kept": true
   },
   {
    "title": "대전광역시 대덕구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "대덕구",
    "updated": "2026-03",
-   "rows": 47
+   "rows": 47,
+   "kept": true
   },
   {
    "title": "울산광역시 울주군 통합돌봄 서비스 메뉴판입니다.",
    "sigungu": "울주군",
    "updated": "2026-03",
-   "rows": 31
+   "rows": 31,
+   "kept": true
   },
   {
    "title": "울산광역시 북구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "북구",
    "updated": "2026-03",
-   "rows": 56
+   "rows": 56,
+   "kept": true
   },
   {
    "title": "울산광역시 동구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "동구",
    "updated": "2026-03",
-   "rows": 34
+   "rows": 34,
+   "kept": true
   },
   {
    "title": "울산광역시 남구 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "남구",
    "updated": "2026-03",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "울산광역시 중구 통합돌봄 서비스 메뉴판입니다.",
    "sigungu": "중구",
    "updated": "2026-03",
-   "rows": 66
+   "rows": 66,
+   "kept": true
   },
   {
    "title": "세종특별자치시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "세종특별자치시",
    "updated": "2026-03",
-   "rows": 45
+   "rows": 45,
+   "kept": true
   },
   {
    "title": "강원도 양양군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "양양군",
    "updated": "2026-04",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "강원도 고성군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "고성군",
    "updated": "2026-04",
-   "rows": 57
+   "rows": 57,
+   "kept": true
   },
   {
    "title": "강원도 인제군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "인제군",
    "updated": "2026-04",
-   "rows": 62
+   "rows": 62,
+   "kept": true
   },
   {
    "title": "강원도 양구군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "양구군",
    "updated": "2026-04",
-   "rows": 52
+   "rows": 52,
+   "kept": true
   },
   {
    "title": "강원도 화천군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "화천군",
    "updated": "2026-04",
-   "rows": 65
+   "rows": 65,
+   "kept": true
   },
   {
    "title": "강원도 철원군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "철원군",
    "updated": "2026-04",
-   "rows": 56
+   "rows": 56,
+   "kept": true
   },
   {
    "title": "강원도 정선군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "정선군",
    "updated": "2026-04",
-   "rows": 62
+   "rows": 62,
+   "kept": true
   },
   {
    "title": "강원도 평창군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "평창군",
    "updated": "2026-04",
-   "rows": 61
+   "rows": 61,
+   "kept": true
   },
   {
    "title": "강원도 영월군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "영월군",
    "updated": "2026-04",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "강원도 횡성군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "횡성군",
    "updated": "2026-04",
-   "rows": 58
+   "rows": 58,
+   "kept": true
   },
   {
    "title": "강원도 홍천군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "홍천군",
    "updated": "2026-04",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "강원도 삼척시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "삼척시",
    "updated": "2026-04",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "강원도 속초시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "속초시",
    "updated": "2026-04",
-   "rows": 62
+   "rows": 62,
+   "kept": true
   },
   {
    "title": "강원도 태백시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "태백시",
    "updated": "2026-04",
-   "rows": 45
+   "rows": 45,
+   "kept": true
   },
   {
    "title": "강원도 동해시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "동해시",
    "updated": "2026-04",
-   "rows": 74
+   "rows": 74,
+   "kept": true
   },
   {
    "title": "강원도 강릉시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "강릉시",
    "updated": "2026-04",
-   "rows": 35
+   "rows": 35,
+   "kept": true
   },
   {
    "title": "강원도 원주시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "원주시",
    "updated": "2026-04",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "강원도 춘천시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "춘천시",
    "updated": "2026-04",
-   "rows": 60
+   "rows": 60,
+   "kept": true
   },
   {
    "title": "제주특별자치도 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "제주특별자치도",
    "updated": "2026-07",
-   "rows": 65
+   "rows": 65,
+   "kept": true
   },
   {
    "title": "경기도 연천군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "연천군",
    "updated": "2026-03",
-   "rows": 41
+   "rows": 41,
+   "kept": true
   },
   {
    "title": "경기도 가평군 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "가평군",
    "updated": "2026-04",
-   "rows": 62
+   "rows": 62,
+   "kept": true
   },
   {
    "title": "경기도 과천시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "과천시",
    "updated": "2026-03",
-   "rows": 37
+   "rows": 37,
+   "kept": true
   },
   {
    "title": "경기도 동두천시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "동두천시",
    "updated": "2026-03",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "경기도 여주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "여주시",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "경기도 양평군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "양평군",
    "updated": "2026-03",
-   "rows": 36
+   "rows": 36,
+   "kept": true
   },
   {
    "title": "경기도 의왕시 통합돌봄 서비스 메뉴판",
    "sigungu": "의왕시",
    "updated": "2026-03",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "경기도 포천시 통합돌봄 서비스 메뉴판",
    "sigungu": "포천시",
    "updated": "2026-03",
-   "rows": 74
+   "rows": 74,
+   "kept": true
   },
   {
    "title": "경기도 구리시 통합돌봄 서비스 메뉴판",
    "sigungu": "구리시",
    "updated": "2026-03",
-   "rows": 65
+   "rows": 65,
+   "kept": true
   },
   {
    "title": "경기도 안성시 통합돌봄 서비스 메뉴판",
    "sigungu": "안성시",
    "updated": "2026-03",
-   "rows": 54
+   "rows": 54,
+   "kept": true
   },
   {
    "title": "경기도 이천시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "이천시",
    "updated": "2026-03",
-   "rows": 42
+   "rows": 42,
+   "kept": true
   },
   {
    "title": "경기도 오산시 통합돌봄 서비스 메뉴판 (26년 6월 기준)",
    "sigungu": "오산시",
    "updated": "2026-06",
-   "rows": 42
+   "rows": 42,
+   "kept": true
   },
   {
    "title": "경기도 군포시 통합돌봄 서비스 메뉴판 (26년 6월 기준)",
    "sigungu": "군포시",
    "updated": "2026-06",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "경기도 광명시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "광명시",
    "updated": "2026-04",
-   "rows": 72
+   "rows": 72,
+   "kept": true
   },
   {
    "title": "경기도 양주시 통합돌봄 서비스 메뉴판",
    "sigungu": "양주시",
    "updated": "2026-03",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "경기도 하남시 통합돌봄 서비스 메뉴판 (26년 6월 기준)",
    "sigungu": "하남시",
    "updated": "2026-06",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "경기도 광주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "광주시",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "경기도 의정부시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "의정부시",
    "updated": "2026-04",
-   "rows": 71
+   "rows": 71,
+   "kept": true
   },
   {
    "title": "경기도 김포시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "김포시",
    "updated": "2026-03",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "경기도 파주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "파주시",
    "updated": "2026-03",
-   "rows": 76
+   "rows": 76,
+   "kept": true
   },
   {
    "title": "경기도 시흥시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "시흥시",
    "updated": "2026-04",
-   "rows": 89
+   "rows": 89,
+   "kept": true
   },
   {
    "title": "경기도 안양시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "안양시",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "경기도 평택시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "평택시",
    "updated": "2026-03",
-   "rows": 34
+   "rows": 34,
+   "kept": true
   },
   {
    "title": "경기도 안산시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "안산시",
    "updated": "2026-03",
-   "rows": 51
+   "rows": 51,
+   "kept": true
   },
   {
    "title": "경기도 남양주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "남양주시",
    "updated": "2026-03",
-   "rows": 60
+   "rows": 60,
+   "kept": true
   },
   {
    "title": "경기도 부천시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "부천시",
    "updated": "2026-04",
-   "rows": 45
+   "rows": 45,
+   "kept": true
   },
   {
    "title": "경기도 성남시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "성남시",
    "updated": "2026-03",
-   "rows": 31
+   "rows": 31,
+   "kept": true
   },
   {
    "title": "경기도 화성시 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "화성시",
    "updated": "2026-03",
-   "rows": 53
+   "rows": 53,
+   "kept": true
   },
   {
    "title": "경기도 고양시 통합돌봄 서비스 메뉴판",
    "sigungu": "고양시",
    "updated": "2026-03",
-   "rows": 66
+   "rows": 66,
+   "kept": true
   },
   {
    "title": "경기도 용인시 통합돌봄 서비스 메뉴판(26년 4월 기준)",
    "sigungu": "용인시",
    "updated": "2026-04",
-   "rows": 60
+   "rows": 60,
+   "kept": true
   },
   {
    "title": "경기도 수원시 통합돌봄 서비스 메뉴판",
    "sigungu": "수원시",
    "updated": "2026-03",
-   "rows": 79
+   "rows": 79,
+   "kept": true
   },
   {
    "title": "충청북도 충주시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "충주시",
    "updated": "2026-04",
-   "rows": 55
+   "rows": 55,
+   "kept": true
   },
   {
    "title": "충청북도 청주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "청주시",
    "updated": "2026-03",
-   "rows": 82
+   "rows": 82,
+   "kept": true
   },
   {
    "title": "충청북도 진천군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "진천군",
    "updated": "2026-03",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "충청북도 증평군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "증평군",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "충청북도 제천시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "제천시",
    "updated": "2026-03",
-   "rows": 21
+   "rows": 21,
+   "kept": true
   },
   {
    "title": "충청북도 음성군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "음성군",
    "updated": "2026-03",
-   "rows": 80
+   "rows": 80,
+   "kept": true
   },
   {
    "title": "충청북도 옥천군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "옥천군",
    "updated": "2026-03",
-   "rows": 37
+   "rows": 37,
+   "kept": true
   },
   {
    "title": "충청북도 영동군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "영동군",
    "updated": "2026-03",
-   "rows": 34
+   "rows": 34,
+   "kept": true
   },
   {
    "title": "충청북도 보은군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "보은군",
    "updated": "2026-03",
-   "rows": 44
+   "rows": 44,
+   "kept": true
   },
   {
    "title": "충청북도 단양군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "단양군",
    "updated": "2026-03",
-   "rows": 23
+   "rows": 23,
+   "kept": true
   },
   {
    "title": "충청북도 괴산군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "괴산군",
    "updated": "2026-03",
-   "rows": 28
+   "rows": 28,
+   "kept": true
   },
   {
    "title": "충청남도 태안군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "태안군",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "충청남도 예산군 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "예산군",
    "updated": "2026-03",
-   "rows": 36
+   "rows": 36,
+   "kept": true
   },
   {
    "title": "충청남도 홍성군 통합돌봄 서비스 메뉴판입니다.",
    "sigungu": "홍성군",
    "updated": "2026-03",
-   "rows": 37
+   "rows": 37,
+   "kept": true
   },
   {
    "title": "충청남도 청양군 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "청양군",
    "updated": "2026-03",
-   "rows": 41
+   "rows": 41,
+   "kept": true
   },
   {
    "title": "충청남도 서천군 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "서천군",
    "updated": "2026-03",
-   "rows": 54
+   "rows": 54,
+   "kept": true
   },
   {
    "title": "충청남도 서천군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "서천군",
    "updated": "2026-03",
-   "rows": 56
+   "rows": 56,
+   "kept": true
   },
   {
    "title": "충청남도 부여군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "부여군",
    "updated": "2026-03",
-   "rows": 29
+   "rows": 29,
+   "kept": true
   },
   {
    "title": "충청남도 금산군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "금산군",
    "updated": "2026-03",
-   "rows": 31
+   "rows": 31,
+   "kept": true
   },
   {
    "title": "충청남도 당진시 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "당진시",
    "updated": "2026-03",
-   "rows": 53
+   "rows": 53,
+   "kept": true
   },
   {
    "title": "충청남도 계룡시 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "계룡시",
    "updated": "2026-03",
-   "rows": 44
+   "rows": 44,
+   "kept": true
   },
   {
    "title": "충청남도 논산시 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "논산시",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "충청남도 서산시 통합돌봄 서비스 메뉴판입니다.",
    "sigungu": "서산시",
    "updated": "2026-03",
-   "rows": 25
+   "rows": 25,
+   "kept": true
   },
   {
    "title": "충청남도 아산시 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "아산시",
    "updated": "2026-03",
-   "rows": 91
+   "rows": 91,
+   "kept": true
   },
   {
    "title": "충청남도 보령시 통합돌봄 서비스 메뉴판입니다.",
    "sigungu": "보령시",
    "updated": "2026-03",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "충청남도 공주시 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "공주시",
    "updated": "2026-03",
-   "rows": 91
+   "rows": 91,
+   "kept": true
   },
   {
    "title": "충청남도 천안시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "천안시",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "전북특별자치도 부안군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "부안군",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "전북특별자치도 고창군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "고창군",
    "updated": "2026-03",
-   "rows": 31
+   "rows": 31,
+   "kept": true
   },
   {
    "title": "전북특별자치도 순창군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "순창군",
    "updated": "2026-03",
-   "rows": 30
+   "rows": 30,
+   "kept": true
   },
   {
    "title": "전북특별자치도 임실군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "임실군",
    "updated": "2026-03",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "전북특별자치도 장수군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "장수군",
    "updated": "2026-03",
-   "rows": 30
+   "rows": 30,
+   "kept": true
   },
   {
    "title": "전북특별자치도 무주군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "무주군",
    "updated": "2026-03",
-   "rows": 20
+   "rows": 20,
+   "kept": true
   },
   {
    "title": "전북특별자치도 진안군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "진안군",
    "updated": "2026-03",
-   "rows": 76
+   "rows": 76,
+   "kept": true
   },
   {
    "title": "전북특별자치도 완주군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "완주군",
    "updated": "2026-03",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "전북특별자치도 김제시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "김제시",
    "updated": "2026-03",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "전북특별자치도 남원시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "남원시",
    "updated": "2026-03",
-   "rows": 35
+   "rows": 35,
+   "kept": true
   },
   {
    "title": "전북특별자치도 정읍시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "정읍시",
    "updated": "2026-03",
-   "rows": 70
+   "rows": 70,
+   "kept": true
   },
   {
    "title": "전북특별자치도 익산시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "익산시",
    "updated": "2026-03",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "전북특별자치도 군산시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "군산시",
    "updated": "2026-03",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "전북특별자치도 전주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "전주시",
    "updated": "2026-03",
-   "rows": 74
+   "rows": 74,
+   "kept": true
   },
   {
    "title": "전라남도 신안군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "신안군",
    "updated": "2026-04",
-   "rows": 51
+   "rows": 51,
+   "kept": true
   },
   {
    "title": "전라남도 진도군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "진도군",
    "updated": "2026-04",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "전라남도 완도군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "완도군",
    "updated": "2026-04",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "전라남도 장성군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "장성군",
    "updated": "2026-04",
-   "rows": 61
+   "rows": 61,
+   "kept": true
   },
   {
    "title": "전라남도 영광군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "영광군",
    "updated": "2026-04",
-   "rows": 46
+   "rows": 46,
+   "kept": true
   },
   {
    "title": "전라남도 함평군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "함평군",
    "updated": "2026-04",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "전라남도 무안군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "무안군",
    "updated": "2026-04",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "전라남도 영암군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "영암군",
    "updated": "2026-04",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "전라남도 해남군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "해남군",
    "updated": "2026-04",
-   "rows": 34
+   "rows": 34,
+   "kept": true
   },
   {
    "title": "전라남도 장흥군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "장흥군",
    "updated": "2026-04",
-   "rows": 103
+   "rows": 103,
+   "kept": true
   },
   {
    "title": "전라남도 강진군 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "강진군",
    "updated": "2026-05",
-   "rows": 51
+   "rows": 51,
+   "kept": true
   },
   {
    "title": "전라남도 화순군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "화순군",
    "updated": "2026-04",
-   "rows": 73
+   "rows": 73,
+   "kept": true
   },
   {
    "title": "전라남도 보성군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "보성군",
    "updated": "2026-04",
-   "rows": 42
+   "rows": 42,
+   "kept": true
   },
   {
    "title": "전라남도 고흥군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "고흥군",
    "updated": "2026-04",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "전라남도 구례군 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "구례군",
    "updated": "2026-05",
-   "rows": 41
+   "rows": 41,
+   "kept": true
   },
   {
    "title": "전라남도 곡성군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "곡성군",
    "updated": "2026-04",
-   "rows": 51
+   "rows": 51,
+   "kept": true
   },
   {
    "title": "전라남도 담양군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "담양군",
    "updated": "2026-04",
-   "rows": 63
+   "rows": 63,
+   "kept": true
   },
   {
    "title": "전라남도 광양시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "광양시",
    "updated": "2026-04",
-   "rows": 36
+   "rows": 36,
+   "kept": true
   },
   {
    "title": "전라남도 나주시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "나주시",
    "updated": "2026-04",
-   "rows": 70
+   "rows": 70,
+   "kept": true
   },
   {
    "title": "전라남도 순천시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "순천시",
    "updated": "2026-04",
-   "rows": 39
+   "rows": 39,
+   "kept": true
   },
   {
    "title": "전라남도 여수시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "여수시",
    "updated": "2026-04",
-   "rows": 33
+   "rows": 33,
+   "kept": true
   },
   {
    "title": "전라남도 목포시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "목포시",
    "updated": "2026-04",
-   "rows": 41
+   "rows": 41,
+   "kept": true
   },
   {
    "title": "경상북도 울릉군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "울릉군",
    "updated": "2026-03",
-   "rows": 16
+   "rows": 16,
+   "kept": true
   },
   {
    "title": "경상북도 울진군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "울진군",
    "updated": "2026-04",
-   "rows": 30
+   "rows": 30,
+   "kept": true
   },
   {
    "title": "경상북도 봉화군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "봉화군",
    "updated": "2026-03",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "경상북도 예천군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "예천군",
    "updated": "2026-04",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "경상북도 칠곡군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "칠곡군",
    "updated": "2026-03",
-   "rows": 47
+   "rows": 47,
+   "kept": true
   },
   {
    "title": "경상북도 성주군 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "성주군",
    "updated": "2026-03",
-   "rows": 18
+   "rows": 18,
+   "kept": true
   },
   {
    "title": "경상북도 고령군 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "고령군",
    "updated": "2026-03",
-   "rows": 42
+   "rows": 42,
+   "kept": true
   },
   {
    "title": "경상북도 청도군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "청도군",
    "updated": "2026-03",
-   "rows": 63
+   "rows": 63,
+   "kept": true
   },
   {
    "title": "경상북도 영덕군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "영덕군",
    "updated": "2026-03",
-   "rows": 28
+   "rows": 28,
+   "kept": true
   },
   {
    "title": "경상북도 영양군 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "영양군",
    "updated": "2026-06",
-   "rows": 42
+   "rows": 42,
+   "kept": true
   },
   {
    "title": "경상북도 청송군 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "청송군",
    "updated": "2026-04",
-   "rows": 32
+   "rows": 32,
+   "kept": true
   },
   {
    "title": "경상북도 의성군 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "의성군",
    "updated": "2026-03",
-   "rows": 36
+   "rows": 36,
+   "kept": true
   },
   {
    "title": "경상북도 경산시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "경산시",
    "updated": "2026-04",
-   "rows": 17
+   "rows": 17,
+   "kept": true
   },
   {
    "title": "경상북도 문경시 통합돌봄 서비스 메뉴판(26년 4월 기준)입니다.",
    "sigungu": "문경시",
    "updated": "2026-04",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "경상북도 상주시 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "상주시",
    "updated": "2026-06",
-   "rows": 44
+   "rows": 44,
+   "kept": true
   },
   {
    "title": "경상북도 영천시 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "영천시",
    "updated": "2026-03",
-   "rows": 32
+   "rows": 32,
+   "kept": true
   },
   {
    "title": "경상북도 영주시 통합돌봄 서비스 메뉴판 (26년 7월 기준)",
    "sigungu": "영주시",
    "updated": "2026-07",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "경상북도 구미시 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "구미시",
    "updated": "2026-06",
-   "rows": 70
+   "rows": 70,
+   "kept": true
   },
   {
    "title": "경상북도 안동시 통합돌봄 서비스 메뉴판(26년 5월말 기준)",
    "sigungu": "안동시",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   },
   {
    "title": "경상북도 김천시 통합돌봄 서비스 메뉴판(26년 4월말 기준)",
    "sigungu": "김천시",
    "updated": "2026-03",
-   "rows": 25
+   "rows": 25,
+   "kept": true
   },
   {
    "title": "경상북도 경주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "경주시",
    "updated": "2026-03",
-   "rows": 32
+   "rows": 32,
+   "kept": true
   },
   {
    "title": "경상북도 포항시 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "포항시",
    "updated": "2026-06",
-   "rows": 139
+   "rows": 139,
+   "kept": true
   },
   {
    "title": "경상남도 합천군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "합천군",
    "updated": "2026-03",
-   "rows": 23
+   "rows": 23,
+   "kept": true
   },
   {
    "title": "경상남도 거창군 통합돌봄 서비스 메뉴판(26년 6월 기준)",
    "sigungu": "거창군",
    "updated": "2026-06",
-   "rows": 49
+   "rows": 49,
+   "kept": true
   },
   {
    "title": "경상남도 함양군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "함양군",
    "updated": "2026-03",
-   "rows": 35
+   "rows": 35,
+   "kept": true
   },
   {
    "title": "경상남도 산청군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "산청군",
    "updated": "2026-03",
-   "rows": 30
+   "rows": 30,
+   "kept": true
   },
   {
    "title": "경상남도 하동군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "하동군",
    "updated": "2026-03",
-   "rows": 59
+   "rows": 59,
+   "kept": true
   },
   {
    "title": "경상남도 남해군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "남해군",
    "updated": "2026-03",
-   "rows": 40
+   "rows": 40,
+   "kept": true
   },
   {
    "title": "경상남도 고성군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "고성군",
    "updated": "2026-03",
-   "rows": 38
+   "rows": 38,
+   "kept": true
   },
   {
    "title": "경상남도 창녕군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "창녕군",
    "updated": "2026-03",
-   "rows": 32
+   "rows": 32,
+   "kept": true
   },
   {
    "title": "경상남도 함안군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "함안군",
    "updated": "2026-03",
-   "rows": 61
+   "rows": 61,
+   "kept": true
   },
   {
    "title": "경상남도 의령군 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "의령군",
    "updated": "2026-03",
-   "rows": 30
+   "rows": 30,
+   "kept": true
   },
   {
    "title": "경상남도 양산시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "양산시",
    "updated": "2026-03",
-   "rows": 45
+   "rows": 45,
+   "kept": true
   },
   {
    "title": "경상남도 거제시 통합돌봄 서비스 메뉴판(26년 5월 기준)",
    "sigungu": "거제시",
    "updated": "2026-05",
-   "rows": 53
+   "rows": 53,
+   "kept": true
   },
   {
    "title": "경상남도 밀양시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "밀양시",
    "updated": "2026-03",
-   "rows": 33
+   "rows": 33,
+   "kept": true
   },
   {
    "title": "경상남도 김해시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "김해시",
    "updated": "2026-03",
-   "rows": 53
+   "rows": 53,
+   "kept": true
   },
   {
    "title": "경상남도 사천시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "사천시",
    "updated": "2026-03",
-   "rows": 31
+   "rows": 31,
+   "kept": true
   },
   {
    "title": "경상남도 통영시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "통영시",
    "updated": "2026-03",
-   "rows": 48
+   "rows": 48,
+   "kept": true
   },
   {
    "title": "경상남도 진주시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "진주시",
    "updated": "2026-03",
-   "rows": 67
+   "rows": 67,
+   "kept": true
   },
   {
    "title": "경상남도 창원시 통합돌봄 서비스 메뉴판(26년 3월 기준)입니다.",
    "sigungu": "창원시",
    "updated": "2026-03",
-   "rows": 43
+   "rows": 43,
+   "kept": true
   }
  ]
 }
