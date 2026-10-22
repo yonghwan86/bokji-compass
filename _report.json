@@ -1,0 +1,79 @@
+{
+ "checkedAt": "2026-10-22T12:03:58.692Z",
+ "date": "2026-10-22",
+ "mode": "baseline",
+ "gate": {
+  "ok": true,
+  "warnings": []
+ },
+ "sources": [
+  {
+   "source": "gov24",
+   "status": "ok",
+   "total": 10970,
+   "previous": 10970,
+   "added": 0,
+   "removed": 0,
+   "changed": 0,
+   "sample": {
+    "added": [],
+    "removed": [],
+    "changed": []
+   }
+  },
+  {
+   "source": "bokjiro-central",
+   "status": "ok",
+   "total": 461,
+   "previous": 461,
+   "added": 0,
+   "removed": 0,
+   "changed": 0,
+   "sample": {
+    "added": [],
+    "removed": [],
+    "changed": []
+   }
+  },
+  {
+   "source": "bokjiro-local",
+   "status": "ok",
+   "total": 4820,
+   "previous": 4820,
+   "added": 0,
+   "removed": 0,
+   "changed": 0,
+   "sample": {
+    "added": [],
+    "removed": [],
+    "changed": []
+   }
+  },
+  {
+   "source": "mohw",
+   "status": "ok",
+   "total": 230,
+   "previous": 230,
+   "added": 0,
+   "removed": 0,
+   "changed": 0,
+   "sample": {
+    "added": [],
+    "removed": [],
+    "changed": []
+   }
+  }
+ ],
+ "bokjiroDetail": {
+  "central": {
+   "fetched": 0,
+   "cached": 378,
+   "remaining": 83
+  },
+  "local": {
+   "fetched": 0,
+   "cached": 3789,
+   "remaining": 1031
+  }
+ }
+}
