@@ -1,22 +1,16 @@
 {
-  "checkedAt": "2026-10-21T15:43:34.108Z",
+  "checkedAt": "2026-10-22T13:10:01.679Z",
   "central": {
-    "status": "ok",
-    "list": 461,
-    "detail": {
-      "fetched": 0,
-      "cached": 378,
-      "remaining": 83
-    }
+    "status": "error",
+    "httpStatus": 0,
+    "code": "BUDGET",
+    "message": "일일 호출 예산 소진 (central 95)"
   },
   "local": {
-    "status": "ok",
-    "list": 4820,
-    "detail": {
-      "fetched": 0,
-      "cached": 3789,
-      "remaining": 1031
-    }
+    "status": "error",
+    "httpStatus": 0,
+    "code": "BUDGET",
+    "message": "일일 호출 예산 소진 (local 950)"
   },
   "budget": {
     "central": 95,

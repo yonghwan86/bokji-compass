@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-17T11:19:39.324Z",
+ "checkedAt": "2026-10-22T13:11:10.835Z",
  "source": "https://www.mohw.go.kr/menu.es?mid=a60600000000",
  "posts": [
   {
@@ -128,14 +128,14 @@
    "listNo": "1489537",
    "seq": "1",
    "boardSido": "서울특별시",
-   "title": "서울특별시 성북구 통합돌봄 서비스 메뉴판 (26년 6월 기준)",
+   "title": "서울특별시 성북구 통합돌봄 서비스 메뉴판 (26년 9월 기준)",
    "postedAt": "2026-03-20",
-   "file": "메뉴판(2026.6.8.기준).pdf",
-   "sizeLabel": "122.41KB",
+   "file": "9월말).pdf",
+   "sizeLabel": "125.67KB",
    "viewUrl": "https://www.mohw.go.kr/board.es?mid=a60601000000&bid=0075&act=view&list_no=1489537&tag=&nPage=1",
    "downloadUrl": "https://www.mohw.go.kr/boardDownload.es?bid=0075&list_no=1489537&seq=1",
-   "sha256": "66b0d0e98bd5d7db06e1955e9128599482a0d7bc4222922f1562243484c6a941",
-   "fetchedAt": "2026-10-17T11:13:18.594Z"
+   "sha256": "c257d8a3239ecc156f2a3fcd1b740bba7db12879ec292daf5409b929ecb846da",
+   "fetchedAt": "2026-10-22T13:11:10.132Z"
   },
   {
    "mid": "a60601000000",
