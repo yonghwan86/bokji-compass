@@ -1,20 +1,30 @@
 {
-  "checkedAt": "2026-10-22T13:10:01.679Z",
+  "checkedAt": "2026-10-22T19:13:32.458Z",
   "central": {
-    "status": "error",
-    "httpStatus": 0,
-    "code": "BUDGET",
-    "message": "일일 호출 예산 소진 (central 95)"
+    "status": "ok",
+    "list": 461,
+    "refreshed": 0,
+    "detail": {
+      "fetched": 83,
+      "cached": 378,
+      "remaining": 0,
+      "stale": 0
+    }
   },
   "local": {
-    "status": "error",
-    "httpStatus": 0,
-    "code": "BUDGET",
-    "message": "일일 호출 예산 소진 (local 950)"
+    "status": "ok",
+    "list": 4826,
+    "refreshed": 234,
+    "detail": {
+      "fetched": 930,
+      "cached": 3555,
+      "remaining": 341,
+      "stale": 0
+    }
   },
   "budget": {
-    "central": 95,
-    "local": 950,
-    "date": "2026-10-22"
+    "central": 84,
+    "local": 940,
+    "date": "2026-10-23"
   }
 }
