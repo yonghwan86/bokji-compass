@@ -79,5 +79,46 @@
     "changed": 0
    }
   ]
+ },
+ {
+  "date": "2026-10-24",
+  "checkedAt": "2026-10-23T19:11:56.907Z",
+  "mode": "daily",
+  "gateOk": false,
+  "moneyChanged": 1,
+  "sources": [
+   {
+    "source": "gov24",
+    "status": "ok",
+    "total": 10957,
+    "added": 5,
+    "removed": 6,
+    "changed": 377
+   },
+   {
+    "source": "bokjiro-central",
+    "status": "error",
+    "total": 461,
+    "added": 0,
+    "removed": 0,
+    "changed": 0
+   },
+   {
+    "source": "bokjiro-local",
+    "status": "error",
+    "total": 4826,
+    "added": 0,
+    "removed": 0,
+    "changed": 0
+   },
+   {
+    "source": "mohw",
+    "status": "error",
+    "total": 230,
+    "added": 0,
+    "removed": 0,
+    "changed": 0
+   }
+  ]
  }
 ]
