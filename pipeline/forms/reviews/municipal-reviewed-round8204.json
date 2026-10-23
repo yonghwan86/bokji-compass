@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "verificationMethod": "Exact original and legal-family linkage reviewed by coordinator, native Codex source researcher and actual Herdr Claude; restricted to the birth-registration integrated application route.",
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "lawId": "2001319",
+      "lawTitle": "서울특별시 광진구 출산ㆍ양육 및 다자녀가정 지원에 관한 조례",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2001319",
+      "annexId": "18989767",
+      "annexNumber": "1",
+      "flSeq": "147562805",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=147562805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C+%3C%EA%B0%9C%EC%A0%95+2024.5.2.%3E",
+      "dateKind": "effective",
+      "effectiveDate": "2024-12-30",
+      "regionCode": "11215",
+      "regionLabel": "서울특별시 광진구",
+      "formId": "ordin-18989767",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서 <개정 2024.5.2.>",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서 <개정 2024.5.2.>",
+      "verifiedDocumentTitle": "출산서비스 통합처리 신청서 — 광진구 장애인 양육지원금 부분",
+      "programIds": [
+        "g11215.bokjiro-WLF00004044",
+        "g11215.gov24-304000000105"
+      ],
+      "programNames": [
+        "장애인 양육지원금 지원사업",
+        "장애인가정 양육지원금 지급"
+      ],
+      "use": "conditional",
+      "condition": "광진구에 신청일 기준 1년 전부터 계속 주민등록을 두고 거주하는 등록 장애인이 본인 또는 배우자가 출산한 7세 미만 아동을 양육하는 경우, 출생신고와 함께 출산서비스를 통합신청할 때 앞면 「광진구 장애인 양육지원금」 칸을 표시하는 용도로 사용합니다. 바로 위 「장애인 출산비용」 칸은 다른 조례의 별개 사업이므로 구분하여 표시하세요. 양육지원금만 따로 신청하거나 전입·기존 아동으로 신청하는 경우에는 이 서식이 아니라 동주민센터에 비치된 양육지원금 신청서를 사용합니다. 접수는 관할 동주민센터이며 사업 문의는 광진구 장애인복지과 장애인복지팀(02-450-7626)입니다. 장애인 본인 명의 입금계좌 통장 사본과 별도의 개인정보 제공·활용 동의서가 필요하고, 그 밖의 구비서류는 동주민센터 안내에 따릅니다. 뒤쪽에 적힌 별지 제2호서식 인용은 추가 필수서류로 보지 않습니다. 아동의 부모가 모두 장애인이면 중복 지원되지 않습니다. 첫돌축하금·출산지원금·전국 공통급여 신청용으로는 사용하지 않습니다. 묶음 안의 다른 서비스와 과거 연도 문구는 검증 범위가 아닙니다.",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "publicationApproved": true,
+      "coordinatorApproved": true,
+      "officialAttachmentMatched": true,
+      "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1822227&gubun=ELIS",
+      "evidenceNote": "2026-10-23 총괄·독립Codex조사자와 실제Herdr Claude가 원본SHA/89277바이트·전체본문 및 현행 법규 계열을 교차검토했다.1822227 부칙제1284호제2조는2022년에출산통합별지1의장애인양육지원금칸을개정했고,그문구가현재2001319의2024-05-02개정별지1에남아있다.2001319 부칙제1374호제3·4조로구제명에서현제명으로의계열을확인했다. 현재정확정부24·복지로의7세미만/광진1년/월10만원/장애인본인명의통장/동주민센터신청과대조했다. 이통합원본은출생신고와함께해당양육지원금칸을표시할때만연결하며전입·기존아동의별도신청서로확대하지않는다.별도개인정보동의는현재정부24안내에따른다.현재구청페이지의옛성별표현과원문다른급여의옛연도·인접출산비용을승인하지않고,조례별지2삭제와공통규정별지2인용을같다고단정하지않는다.실제한글4쪽을총괄이모두확인했고4쪽은원본자체빈쪽이다.공식원문바이트는그대로유지한다.",
+      "sha256": "7964c66ed5e1fbccd0c220afd57f4244eeb5ec659637b6a133c599d4b5116057",
+      "bytes": 89277,
+      "originalFormat": "hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 6411,
+      "textSha256": "c8f61c2a56df0d4a643eb63cac72358db449edbf239f064597c37132b5a266de",
+      "role": "application",
+      "roleBasis": "2026-10-23 총괄·독립Codex조사자와 실제Herdr Claude가 원본SHA/89277바이트·전체본문 및 현행 법규 계열을 교차검토했다.1822227 부칙제1284호제2조는2022년에출산통합별지1의장애인양육지원금칸을개정했고,그문구가현재2001319의2024-05-02개정별지1에남아있다.2001319 부칙제1374호제3·4조로구제명에서현제명으로의계열을확인했다. 현재정확정부24·복지로의7세미만/광진1년/월10만원/장애인본인명의통장/동주민센터신청과대조했다. 이통합원본은출생신고와함께해당양육지원금칸을표시할때만연결하며전입·기존아동의별도신청서로확대하지않는다.별도개인정보동의는현재정부24안내에따른다.현재구청페이지의옛성별표현과원문다른급여의옛연도·인접출산비용을승인하지않고,조례별지2삭제와공통규정별지2인용을같다고단정하지않는다.실제한글4쪽을총괄이모두확인했고4쪽은원본자체빈쪽이다.공식원문바이트는그대로유지한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1822227&gubun=ELIS",
+      "roleCheckedAt": "2026-10-23",
+      "bodyEvidenceArticle": "장애인 양육지원금 지급 조례 제3~5조 및 부칙 <조례 제1284호, 2022.6.24.> 제2조",
+      "bodyEvidenceText": "별지 제1호서식의 광진구 장애인 양육지원금란 중 “광진구 1년 이상 거주중인 중증 남성장애인”을 “광진구 1년 이상 거주중인 장애인”으로 하고 “광진구 1년 이상 거주중인 여성장애인”을 삭제한다.",
+      "relatedLawIds": [
+        "1822227"
+      ],
+      "lawFamilyReference": {
+        "sourceLawId": "2001319",
+        "referringLawId": "1822227",
+        "article": "부칙 제1284호 제2조",
+        "text": "별지 제1호서식의 광진구 장애인 양육지원금란 중 “광진구 1년 이상 거주중인 중증 남성장애인”을 “광진구 1년 이상 거주중인 장애인”으로 하고 “광진구 1년 이상 거주중인 여성장애인”을 삭제한다."
+      },
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 중 광진구 장애인 양육지원금 신청",
+          "use": "conditional",
+          "author": "출생신고 시 통합신청하는 광진구 거주 등록장애인 본인",
+          "condition": "광진구에 신청일 기준 1년 전부터 계속 주민등록을 두고 거주하는 등록 장애인이 본인 또는 배우자가 출산한 7세 미만 아동을 양육하는 경우, 출생신고와 함께 출산서비스를 통합신청할 때 앞면 「광진구 장애인 양육지원금」 칸을 표시하는 용도로 사용합니다. 바로 위 「장애인 출산비용」 칸은 다른 조례의 별개 사업이므로 구분하여 표시하세요. 양육지원금만 따로 신청하거나 전입·기존 아동으로 신청하는 경우에는 이 서식이 아니라 동주민센터에 비치된 양육지원금 신청서를 사용합니다. 접수는 관할 동주민센터이며 사업 문의는 광진구 장애인복지과 장애인복지팀(02-450-7626)입니다. 장애인 본인 명의 입금계좌 통장 사본과 별도의 개인정보 제공·활용 동의서가 필요하고, 그 밖의 구비서류는 동주민센터 안내에 따릅니다. 뒤쪽에 적힌 별지 제2호서식 인용은 추가 필수서류로 보지 않습니다. 아동의 부모가 모두 장애인이면 중복 지원되지 않습니다. 첫돌축하금·출산지원금·전국 공통급여 신청용으로는 사용하지 않습니다. 묶음 안의 다른 서비스와 과거 연도 문구는 검증 범위가 아닙니다.",
+          "sourceLocation": "Contents/section0.xml 앞면 서울 광진구 서비스 표의 「광진구 장애인 양육지원금」 및 급여계좌, 뒤쪽 해당 동의·신청인 서명",
+          "fullBodyReviewed": true,
+          "scope": "앞면 장애인 양육지원금 표시와 해당 신청인·출생자·본인명의계좌·서명;별도동의서와실제구비서류는동주민센터안내"
+        }
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004044&wlfareInfoReldBztpCd=02",
+      "programEvidenceById": {
+        "g11215.bokjiro-WLF00004044": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004044",
+        "g11215.gov24-304000000105": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000105"
+      },
+      "additionalEvidenceUrls": [
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000105",
+        "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=201545"
+      ],
+      "embeddedResources": [],
+      "privacyReview": {
+        "blankForm": true,
+        "filledPersonalDataFound": false,
+        "reviewScope": "원본 전체 XML 본문, ZIP entry 및 그림/바이너리 목록 확인"
+      },
+      "sourceIssues": [
+        "현행 별지1은 조례 제1433호 <개정 2024.5.2.> 판이며 2022년 부칙 제1284호보다 나중이다. 부칙은 현행 문구의 유래이고 현재 직접 개정 중인 것이 아니다.",
+        "조례 1822227 제7조가 규칙에 위임했으나 별도 시행규칙은 이번 검색에서 확인하지 못했다. 부존재로 단정하지 않는다.",
+        "광진구 운영기관 페이지(menuNo=201545)의 지원대상 문구는 2022년 부칙이 폐지한 성별 기준이 남은 낡은 내용이므로 지원대상 근거로 인용하지 않는다.",
+        "뒤쪽 '신청서(별지 제2호서식)' 는 현행 공통 규정의 별지 등재상 출산서비스 통합처리 신청서 자체를 가리킬 가능성이 높다. 조례 별지2~4 삭제(2024.12.30.)와 동일시하지 않는다. 별지2 본문은 미확인.",
+        "앞면 「장애인 출산비용」 칸은 조례 1841771(장애인가정 출산지원금 지원 조례) 소관의 별개 사업으로 승인 범위가 아니다.",
+        "공통 규정 [별표 2]가 '지방자치단체 자체 서비스' 행과 '(예시) 출산양육지원금 ○○구' 를 두어 지자체 자체 서비스의 통합서식 수록을 명시적으로 예정한다.",
+        "주민센터 비치 별도 양육지원금 신청서 및 그 별도 동의서 실물의 공개 다운로드는 확보하지 못했다. 이 통합서식을 그 파일의 대체본으로 소개하지 않는다."
+      ],
+      "reviewedBy": "/root/forms_source_audit",
+      "evidenceFiles": [
+        {
+          "requestedUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1822227&gubun=ELIS",
+          "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1822227&gubun=ELIS",
+          "httpStatus": 200,
+          "bytes": 13794,
+          "sha256": "820b893df71376a2eb121d67b639603050e5d49f1d8fca5b02a8ac07be0a1ae7",
+          "checkedAt": "2026-10-22T18:44:46.006825+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\childcare-law.body",
+          "textPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\childcare-law.txt"
+        },
+        {
+          "requestedUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2001319&gubun=ELIS",
+          "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2001319&gubun=ELIS",
+          "httpStatus": 200,
+          "bytes": 58090,
+          "sha256": "b6b7d341258be28e853bcd9622576fc414841217b0d2d0a8670bf429aa0f99bf",
+          "checkedAt": "2026-10-22T18:34:45.458254+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\current-law.body",
+          "textPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\current-law.txt"
+        },
+        {
+          "requestedUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004044",
+          "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004044",
+          "httpStatus": 200,
+          "bytes": 94888,
+          "sha256": "2e916d1f202c0e9e9477f133f150839c792570fb50c8bf96f96c1fd7ffce5875",
+          "checkedAt": "2026-10-22T18:44:09.499567+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\bokjiro-childcare.body",
+          "textPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\bokjiro-childcare.txt"
+        },
+        {
+          "requestedUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260818UUWBM1529360205201011&atcflSn=1&wlfareInfoId=WLF00004044",
+          "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260818UUWBM1529360205201011&atcflSn=1&wlfareInfoId=WLF00004044",
+          "httpStatus": 200,
+          "bytes": 25004,
+          "sha256": "2a4f7bdcd03c926ed261a7b4b37fedd65d619a7cd0672b26c221b0735bdccbcd",
+          "checkedAt": "2026-10-22T18:44:55.297586+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\childcare-law-bokjiro-file.body",
+          "textPath": null
+        },
+        {
+          "requestedUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000105",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000105",
+          "httpStatus": 200,
+          "bytes": 185413,
+          "sha256": "d4362c1c62fa38a8ebc9d5ea23216a50a47e1941f82ba2ea6dd69598fc8a0336",
+          "checkedAt": "2026-10-22T18:45:57.414855+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\gov24-childcare.body",
+          "textPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\gov24-childcare.txt"
+        },
+        {
+          "requestedUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=201545",
+          "finalUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=201545",
+          "httpStatus": 200,
+          "bytes": 182458,
+          "sha256": "05e3dfcd46cabce448d89e1e3d9fc99700d791f050faef7f034748997b4382c1",
+          "checkedAt": "2026-10-22T18:46:10.051357+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\current-childcare.body",
+          "textPath": "logs\\forms-followup-20261023b\\team1\\gwangjin\\current-childcare.txt"
+        },
+        {
+          "requestedUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=147562805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C+%3C%EA%B0%9C%EC%A0%95+2024.5.2.%3E",
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=147562805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C+%3C%EA%B0%9C%EC%A0%95+2024.5.2.%3E",
+          "httpStatus": 200,
+          "bytes": 89277,
+          "sha256": "7964c66ed5e1fbccd0c220afd57f4244eeb5ec659637b6a133c599d4b5116057",
+          "checkedAt": "2026-10-22T18:29:21.690233+00:00",
+          "bodyPath": "logs\\forms-followup-20261023b\\team1\\originals\\ordin-18989767.body",
+          "textPath": null
+        }
+      ],
+      "originalPath": "logs/forms-followup-20261023b/root/evidence/ordin-18989767.hwpx",
+      "textEvidencePath": "logs\\forms-followup-20261023b\\team1\\originals\\ordin-18989767-extracted.json",
+      "displayTitle": "광진구 장애인 양육지원금 통합신청서(출생신고 시)",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2001319",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "proposalStatus": "coordinator_and_actual_claude_birth_registration_route_only_verified",
+      "independentReviewSHA256": "c25bc9fb9cd0f776ee678851c6012a4eb96191814a6861cb2b632a6deb93e5db",
+      "sourceProposalSHA256": "2473bad8e100cb46ea71161386ed8b99d8cf37b1d473ba5a8447250527442c09",
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 중 광진구 장애인 양육지원금 신청",
+          "use": "conditional",
+          "author": "출생신고 시 통합신청하는 광진구 거주 등록장애인 본인",
+          "condition": "광진구에 신청일 기준 1년 전부터 계속 주민등록을 두고 거주하는 등록 장애인이 본인 또는 배우자가 출산한 7세 미만 아동을 양육하는 경우, 출생신고와 함께 출산서비스를 통합신청할 때 앞면 「광진구 장애인 양육지원금」 칸을 표시하는 용도로 사용합니다. 바로 위 「장애인 출산비용」 칸은 다른 조례의 별개 사업이므로 구분하여 표시하세요. 양육지원금만 따로 신청하거나 전입·기존 아동으로 신청하는 경우에는 이 서식이 아니라 동주민센터에 비치된 양육지원금 신청서를 사용합니다. 접수는 관할 동주민센터이며 사업 문의는 광진구 장애인복지과 장애인복지팀(02-450-7626)입니다. 장애인 본인 명의 입금계좌 통장 사본과 별도의 개인정보 제공·활용 동의서가 필요하고, 그 밖의 구비서류는 동주민센터 안내에 따릅니다. 뒤쪽에 적힌 별지 제2호서식 인용은 추가 필수서류로 보지 않습니다. 아동의 부모가 모두 장애인이면 중복 지원되지 않습니다. 첫돌축하금·출산지원금·전국 공통급여 신청용으로는 사용하지 않습니다. 묶음 안의 다른 서비스와 과거 연도 문구는 검증 범위가 아닙니다.",
+          "sourceLocation": "Contents/section0.xml 앞면 서울 광진구 서비스 표의 「광진구 장애인 양육지원금」 및 급여계좌, 뒤쪽 해당 동의·신청인 서명",
+          "fullBodyReviewed": true,
+          "scope": "앞면 장애인 양육지원금 표시와 해당 신청인·출생자·본인명의계좌·서명;별도동의서와실제구비서류는동주민센터안내"
+        }
+      ],
+      "coordinatorNativeReview": {
+        "label": "gwangjin-childcare",
+        "sourceSHA256": "7964c66ed5e1fbccd0c220afd57f4244eeb5ec659637b6a133c599d4b5116057",
+        "sourceBytes": 89277,
+        "hancomPages": 4,
+        "pdfSHA256": "cf6c7be74ea0ad73b746f0a63cd025acf18eb86400fe5a5e34398bc6051b70ac",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true,
+        "blankTrailingPageRetained": true,
+        "checkedAt": "2026-10-23"
+      }
+    }
+  ]
+}

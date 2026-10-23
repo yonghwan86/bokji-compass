@@ -593,15 +593,23 @@
     {
       "formId": "ordin-22429465",
       "sha256": "8e1bf9df8dfe1bbc6e7f66a7b1466cafd2b44174fdce0976281cc41d7aeb302f",
-      "disposition": "requires_external_confirmation",
-      "reason": "현행 2026.8.20 의료비 조례 제5조는 수술 후 1년 이내 별지1 신청서 및 개인정보 동의 제출을 요구한다. 그러나 국가법령정보센터 원본의 전체 section0을 확인하면 출산장려금 신청서이고, 자치법규정보시스템 현재 003차 별지1을 독립 GET한 결과도 46,225바이트·동일 SHA인 출산장려금 신청서여서 오첨부가 두 공식 경로에 공통으로 남아 있다. 보건소 현재 고정 공지(2025.1.13 게시)를 확인하여 65세 이상/1년 거주/1안30만원·2안60만원/방문접수/구비서류는 재확인했으나 게시물은 안내 이미지뿐이고 별도 신청서 다운로드는 없다. 시청 민원사무편람의 백내장·수술비 제목 검색에도 신청서를 확보하지 못했다. 출산장려금 파일을 의료비 혜택에 연결하지 않으며 올바른 현행 신청서를 접수기관에서 확보하기 전까지 보류한다.",
+      "disposition": "excluded",
+      "reason": "실제본문은부모·신생아·출생순위·출생신고일·출산장려금근거및지급계좌이고백내장진단·수술·의료비항목이없다. 정상출산법2164361/22429439/flSeq168367907의원본과46225B 및SHA8e1bf9...가완전히동일하며해당출산사업에이미공개되어있다. 의료비법2164367제2·3·5조는백내장65세이상·수술신청으로다르므로잘못결속된22429465/flSeq168367933을의료비2사업에서제외하는직접근거가충분하다. 제외는 의료비법2164367/fl168367933에 잘못 결속된 이원본identity와 정확의료비2쌍에 한정한다. 동일SHA 정상출산22429439의 기존공개를 유지하며 SHA전역차단을하지않는다. 올바른백내장별지1은 여전히 별도확보가필요하다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
+          "programId": "g44250.bokjiro-WLF00006176",
+          "formId": "ordin-22429465",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "출산장려금빈서식은백내장의료비신청이아니다."
+        },
+        {
           "programId": "g44250.icare-0087-1489655-1-2-5",
-          "programName": "백내장 수술비 등 의료비 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "공식 의료비 첨부가 출산장려금 원본을 반환하는 소스 오류. 정상 수술비 신청서 확보 필요."
+          "formId": "ordin-22429465",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "출산장려금빈서식은백내장의료비신청이아니다."
         }
       ],
       "sourceEvidence": {
@@ -634,7 +642,7 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "officialDownloadMismatch": {
           "checkedAt": "2026-10-19",
@@ -648,62 +656,114 @@
         }
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=44&sggCd=250&ctpvSggCd=44250&alrNm=%EA%B3%84%EB%A3%A1%EC%8B%9C+%EC%88%98%EC%88%A0%EB%B9%84+%EB%93%B1+%EC%9D%98%EB%A3%8C%EB%B9%84+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/root/gyeryong-elis-current-list.json",
-                "sha256": "32639a8efb9f649eea52d37df66f032dce675f4ddc23cabaf6d25399d828167d",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=44250113000044&histNo=003",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/root/gyeryong-elis-medical-body.json",
-                "sha256": "07be2c55f24fdb798566574992982f2567fad681f8ce10464f28dc88dbb9777f",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.elis.go.kr/allalr/attListDown?alrNo=44250113000044&histNo=003&attlistSn=002",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/root/gyeryong-elis-medical-annex2.json",
-                "sha256": "5077abc38f02625550911838f3e9eb5f1e179159e37885394962a0c379e4a5ab",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://gyeryong.go.kr/health/html/sub05/0501.html?mode=V&no=271d6f196ddbe035b1dfc3148fcdc9b8&GotoPage=1",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/root/gyeryong-health-cataract-20250113.json",
-                "sha256": "16c3e835505b21ca4b36f8a33b188877d123ab0ac686cb72f8b9b7470fc84e10",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/official-source-exclusions-20261023e.json",
+        "sourceResultSHA256": "0a2c9d1cfe9189aa3520698de3464629f2583b11e5880104fd18d8dcb10ac1d0",
+        "allOriginalsMatched": false,
+        "wrongSourcePairOnly": true
       },
       "relatedProgramIds": [
         "g44250.bokjiro-WLF00006176",
         "g44250.icare-0087-1489655-1-2-5"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현행 2026.8.20 의료비 조례 제5조는 수술 후 1년 이내 별지1 신청서 및 개인정보 동의 제출을 요구한다. 그러나 국가법령정보센터 원본의 전체 section0을 확인하면 출산장려금 신청서이고, 자치법규정보시스템 현재 003차 별지1을 독립 GET한 결과도 46,225바이트·동일 SHA인 출산장려금 신청서여서 오첨부가 두 공식 경로에 공통으로 남아 있다. 보건소 현재 고정 공지(2025.1.13 게시)를 확인하여 65세 이상/1년 거주/1안30만원·2안60만원/방문접수/구비서류는 재확인했으나 게시물은 안내 이미지뿐이고 별도 신청서 다운로드는 없다. 시청 민원사무편람의 백내장·수술비 제목 검색에도 신청서를 확보하지 못했다. 출산장려금 파일을 의료비 혜택에 연결하지 않으며 올바른 현행 신청서를 접수기관에서 확보하기 전까지 보류한다.",
+          "reviewedProgramPairs": [
+            {
+              "programId": "g44250.icare-0087-1489655-1-2-5",
+              "programName": "백내장 수술비 등 의료비 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "공식 의료비 첨부가 출산장려금 원본을 반환하는 소스 오류. 정상 수술비 신청서 확보 필요."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=44&sggCd=250&ctpvSggCd=44250&alrNm=%EA%B3%84%EB%A3%A1%EC%8B%9C+%EC%88%98%EC%88%A0%EB%B9%84+%EB%93%B1+%EC%9D%98%EB%A3%8C%EB%B9%84+%EC%A7%80%EC%9B%90%EC%97%90+%EA%B4%80%ED%95%9C+%EC%A1%B0%EB%A1%80",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/root/gyeryong-elis-current-list.json",
+                    "sha256": "32639a8efb9f649eea52d37df66f032dce675f4ddc23cabaf6d25399d828167d",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=44250113000044&histNo=003",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/root/gyeryong-elis-medical-body.json",
+                    "sha256": "07be2c55f24fdb798566574992982f2567fad681f8ce10464f28dc88dbb9777f",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.elis.go.kr/allalr/attListDown?alrNo=44250113000044&histNo=003&attlistSn=002",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/root/gyeryong-elis-medical-annex2.json",
+                    "sha256": "5077abc38f02625550911838f3e9eb5f1e179159e37885394962a0c379e4a5ab",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://gyeryong.go.kr/health/html/sub05/0501.html?mode=V&no=271d6f196ddbe035b1dfc3148fcdc9b8&GotoPage=1",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/root/gyeryong-health-cataract-20250113.json",
+                    "sha256": "16c3e835505b21ca4b36f8a33b188877d123ab0ac686cb72f8b9b7470fc84e10",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "sourceLawId": "2164367",
+      "actualPurpose": "계룡 출산장려금 신청",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168367933&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EC%88%A0%EB%B9%84+%EB%93%B1+%EC%9D%98%EB%A3%8C%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2164367",
+      "correctCounterpart": {
+        "formId": "ordin-22429439",
+        "programId": "g44250.gov24-558000000112",
+        "lawId": "2164361",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168367907&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "sha256": "8e1bf9df8dfe1bbc6e7f66a7b1466cafd2b44174fdce0976281cc41d7aeb302f",
+        "bytes": 46225,
+        "publicFilePath": "public/forms/files/ordin-22429439-8e1bf9df8dfe.hwpx",
+        "publicFileSHA256Verified": true,
+        "publicCataloguePath": "public/forms/v1/catalog.json",
+        "publicProgrammePath": "public/forms/v1/programs/g44250.json",
+        "publicProgrammeSHA256": "f195bf64bd515dd92c18f1eb77c3cc49bca6a4ee372f5c2c2bb692f1ff14be76",
+        "existingLink": {
+          "formId": "ordin-22429439",
+          "use": "main",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2164361",
+          "evidenceNote": "계룡 출생아 순위·출생신고일·양육자·지급계좌를 작성하는 별지1로 조례 제5조③ 및 출산장려금 사업과 일치한다. 잘못된 의료비 법규의 동형 첨부는 별도 승인하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+          "checkedAt": "2026-10-19"
+        }
+      },
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true,
+      "reviewCheckedAt": "2026-10-23"
     },
     {
       "formId": "ordin-22430113",
@@ -1862,21 +1922,23 @@
     {
       "formId": "ordin-22583083",
       "sha256": "232590f1ebaedfbf2cdc6a78d03a57724a1aead4058f1319633e5e4d0c14d742",
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 공식 flSeq를 다시 GET해도 참전유공자 전용 본문의 SHA가 동일하다. 현 복지로의 관련조례 ZIP도 새로 받아 두 HWPML을 전체 구조 추출했으나 별지·표·그림이 없는 옛 조문 문서이며 일반 보훈 사망 신청서가 아니다. 다른 목적의 서식을 일반 보훈 대상으로 확대하지 않는다.",
+      "disposition": "excluded",
+      "reason": "실제전체본문은참전유공자·참전대상자·참전법제6조를명시한다. 일반국가보훈법2165359제8조④는참전명예수당수급자를제외하고제9조②가일반사망별지2를요구하므로이본문을일반보훈사망용으로확대할수없다. 올바른참전법2165413/22484275가같은전체665자본문을가지며정확복합WLF00004138의참전사망부분에이미조건부공개되어있다. 명절위문Gov108은사망급여조차아니다. 따라서잘못된일반보훈출처22583083을별도공개하지않고정확한참전출처기존연결을유지하는판정이적합하다. 일반보훈 출처의 이identity를 승인하지않고 정상참전22484275의 참전사망부분 기존공개를유지한다. 본문같음은 바이너리/SHA동일이라는뜻이아니다. 일반보훈사망의올바른별지는별도미해소다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51820.gov24-434000000108",
-          "programName": "보훈대상자 가구 위문",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22583083",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "명절위문품과사망위로금목적불일치"
         },
         {
           "programId": "g51820.bokjiro-WLF00004138",
-          "programName": "보훈수당 및 위로금",
-          "disposition": "requires_external_confirmation",
-          "reason": "국가보훈대상자 조례의 별지2에 참전유공자 전용 서식이 첨부됨. 일반 보훈 사망용 원본 확인 필요."
+          "formId": "ordin-22583083",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "참전사망부분은정상22484275로이미공개;일반보훈사망부분에는22583083의참전전용본문불가"
         }
       ],
       "sourceEvidence": {
@@ -1909,7 +1971,7 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "sourcePurposeMismatch": {
           "actualTitle": "참전유공자 사망위로금 지급신청서",
@@ -1921,53 +1983,112 @@
         }
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165359&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "4ea104be96cc641720945466af79f64fec8425dc4c9939887765da85556d62f2",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2165359.json",
-                "sha256": "9a0328ce6c78853159bfedf53e6e15f4ba71d198161637f24a52d22b1d8cf8e2",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169190135&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/rechecked-ordin-22583083.json",
-                "sha256": "ba6b8d8d57a9b89ae2e5177f6e1ea998340c1a27ce7413b043e036f5be53a03c",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004138&wlfareInfoReldBztpCd=02",
-            "httpStatus": 200,
-            "bodyTextSha256": "19b577a46894a0c2d947c1380c51b11db7ae48811afeea8d6a5fad49d163019d",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-g51820.bokjiro-WLF00004138.json",
-                "sha256": "2568305b37c281a7951fa6245a9ac91ed37d7b608a096b53a2ed12db298df816",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/official-source-exclusions-20261023e.json",
+        "sourceResultSHA256": "0a2c9d1cfe9189aa3520698de3464629f2583b11e5880104fd18d8dcb10ac1d0",
+        "allOriginalsMatched": false,
+        "wrongSourcePairOnly": true
       },
       "relatedProgramIds": [
         "g51820.gov24-434000000108",
         "g51820.bokjiro-WLF00004138"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 공식 flSeq를 다시 GET해도 참전유공자 전용 본문의 SHA가 동일하다. 현 복지로의 관련조례 ZIP도 새로 받아 두 HWPML을 전체 구조 추출했으나 별지·표·그림이 없는 옛 조문 문서이며 일반 보훈 사망 신청서가 아니다. 다른 목적의 서식을 일반 보훈 대상으로 확대하지 않는다.",
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51820.gov24-434000000108",
+              "programName": "보훈대상자 가구 위문",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g51820.bokjiro-WLF00004138",
+              "programName": "보훈수당 및 위로금",
+              "disposition": "requires_external_confirmation",
+              "reason": "국가보훈대상자 조례의 별지2에 참전유공자 전용 서식이 첨부됨. 일반 보훈 사망용 원본 확인 필요."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165359&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "4ea104be96cc641720945466af79f64fec8425dc4c9939887765da85556d62f2",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2165359.json",
+                    "sha256": "9a0328ce6c78853159bfedf53e6e15f4ba71d198161637f24a52d22b1d8cf8e2",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169190135&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/rechecked-ordin-22583083.json",
+                    "sha256": "ba6b8d8d57a9b89ae2e5177f6e1ea998340c1a27ce7413b043e036f5be53a03c",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004138&wlfareInfoReldBztpCd=02",
+                "httpStatus": 200,
+                "bodyTextSha256": "19b577a46894a0c2d947c1380c51b11db7ae48811afeea8d6a5fad49d163019d",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-g51820.bokjiro-WLF00004138.json",
+                    "sha256": "2568305b37c281a7951fa6245a9ac91ed37d7b608a096b53a2ed12db298df816",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "sourceLawId": "2165359",
+      "actualPurpose": "강원고성 참전유공자 사망위로금",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169190135&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165359",
+      "correctCounterpart": {
+        "formId": "ordin-22484275",
+        "programId": "g51820.bokjiro-WLF00004138",
+        "lawId": "2165413",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168698639&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "sha256": "246c9952832946ff8e2149a3cdb4feab0c035422e23437084bffcc26476bc46b",
+        "bytes": 40765,
+        "publicFilePath": "public/forms/files/ordin-22484275-246c99528329.hwpx",
+        "publicFileSHA256Verified": true,
+        "publicCataloguePath": "public/forms/v1/catalog.json",
+        "publicProgrammePath": "public/forms/v1/programs/g51820.json",
+        "publicProgrammeSHA256": "11f499520074bd59d65e313ed340ea2a1605b3f3b90beda71dc10ee57b5bede5",
+        "existingLink": {
+          "formId": "ordin-22484275",
+          "use": "conditional",
+          "condition": "참전유공자 사망위로금에 한하여 사용합니다. 일반 국가보훈대상자 사망위로금용으로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2165413",
+          "evidenceNote": "참전유공자 사망정보·유족관계·계좌를 기재하는 별지2이며 정확 출처인 참전 조례 제6조가 지정한다. 일반 국가보훈 조례에 잘못 붙은 별도22583083 원본과 구분하여 이 정확 출처를 승인한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+          "checkedAt": "2026-10-19"
+        }
+      },
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true,
+      "reviewCheckedAt": "2026-10-23"
     },
     {
       "formId": "ordin-22484227",
@@ -2230,15 +2351,18 @@
     {
       "formId": "ordin-22484269",
       "sha256": "c4d28777502093cd37baa083bc1cf02cf71a9500fa08d596d4ce1b7b711c396e",
-      "disposition": "non_applicant",
-      "reason": "운송사업자·조합이 운행구간·요금·보조금과 기관계좌를 청구하는 별지2이다. 실제 사이트 사업은 주민의 바우처카드 이용이며 운송업체 정산신청을 주민신청서에 붙이지 않는다.",
+      "disposition": "approved",
+      "reason": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51820.icare-0083-1489636-1-2-10",
-          "programName": "희망택시",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22484269",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "강원특별자치도 고성군 희망택시가 지원대상 주민을 실제 운송한 뒤, 해당 운송사업자·법인·조합이 운행비용을 청구할 때 사용하는 기관작성 부속 서류입니다. 운행일·차량·기점과 종점·운행요금·보조금 및 자부담과 계좌를 운송사업자가 작성하고 운행 증빙자료를 제출합니다. 주민이 희망택시 바우처카드를 처음 신청하는 양식은 별지1로 별도입니다. 교통카드로 신청하는 경우에는 조례 제7조제1항에 따라 전산자료로 처리할 수 있으므로 모든 운송에 이 종이서식 제출이 필수인 것은 아닙니다. 고성군 희망택시의 실제 운행 정산에만 사용합니다.",
+          "reason": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2271,7 +2395,43 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19"
+      "checkedAt": "2026-10-23",
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "non_applicant",
+          "reason": "운송사업자·조합이 운행구간·요금·보조금과 기관계좌를 청구하는 별지2이다. 실제 사이트 사업은 주민의 바우처카드 이용이며 운송업체 정산신청을 주민신청서에 붙이지 않는다.",
+          "relatedProgramIds": null,
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51820.icare-0083-1489636-1-2-10",
+              "programName": "희망택시",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": null
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-hwpx-source-review",
+      "relatedProgramIds": [
+        "g51820.icare-0083-1489636-1-2-10"
+      ],
+      "approvedAssociations": [
+        {
+          "programId": "g51820.icare-0083-1489636-1-2-10",
+          "formId": "ordin-22484269",
+          "use": "conditional"
+        }
+      ],
+      "officialFollowup": {
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8213.json",
+        "sourceResultSHA256": "f0514f99f3a574bf0580fe3cdaabdf6b83f573a50e19d77fa7b037b433329120",
+        "proposedStatus": "approved_exact_followup_not_citizen_main",
+        "allOriginalsMatched": false
+      }
     },
     {
       "formId": "ordin-22484273",
@@ -2654,15 +2814,18 @@
     {
       "formId": "ordin-22498207",
       "sha256": "914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9",
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 원주시 상품권 전용 공식 안내는 온라인뿐 아니라 오프라인도 Chak 가입 후 충전이며 앱·카드형이다. 지류권 가맹점 환전의 현재 접수 공고·원본은 찾지 못했다. 종이권 환전서를 모바일 정산에 연결하지 않고 지류 운영 여부를 미해소로 유지한다.",
+      "disposition": "approved",
+      "reason": "2026-10-23 새 GET한 원주시 전용 공식 소개는 카드·모바일·지류를 함께 명시하고 지류발행 축소와2천원권을 안내한다. 공식 가맹점 준수사항은 지정은행 방문→환전신청서 작성→가맹점 지정여부 및 상품권금액 확인→입금 순서를 직접 안내하고 실제 매출없는 수취·과다거래 환전을 금지한다. 같은 날 현행규칙2165511(2026-08-28시행) 본문 제8조는 등록가맹점의 별지10 환전청구서와 접수후3일 환전을 명시하고 별지목록의22498207을 확인했다. 고정원본과 새 다운로드의36352바이트/SHA914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9가 같고 전체401자를 읽었다. 한글에서1쪽을 렌더링하여 빈 가맹점 신청서·하단 접수증,2천원권 포함권종,은행수신/계좌/서명과 원본불변을 확인했다. 현재 정확 정부24 원주사랑상품권 사업은 소비자와 가맹점 혜택을 함께 안내한다. 기존 카드앱 안내만으로는 부족했던 지류 가맹점 환전 사용근거를 공식 별도 안내와 현행 별지 지정으로 보완한다. 개인 현금할인구매 별지12의 현재판매 여부는 이 승인에 포함하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51130.gov24-419000000129",
-          "programName": "원주사랑상품권",
-          "disposition": "requires_external_confirmation",
-          "reason": "현행 지류상품권 환전 접수 및 해당 별지10 사용 여부 필요."
+          "formId": "ordin-22498207",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "원주시 등록가맹점이 실제 물품 판매나 용역 제공으로 받은 지류 원주사랑상품권을 지정 판매대행점(은행)에서 환전할 때 쓰는 청구서입니다. 가맹점 번호·권종별 수량과 금액·대표자·입금계좌를 적고 원본의 서명란을 준비합니다. 카드·모바일 QR 결제 자동정산이나 소비자 잔액환불, 상품권 할인구매 신청에는 쓰지 않습니다. 지류 발행은 축소 중이므로 현재 취급 권종과 방문은행은 원주시 공식 가맹점 안내 및 담당부서에서 확인합니다. 하단 접수증의 접수일·담당자란은 접수기관 작성 부분입니다.",
+          "reason": "2026-10-23 새 GET한 원주시 전용 공식 소개는 카드·모바일·지류를 함께 명시하고 지류발행 축소와2천원권을 안내한다. 공식 가맹점 준수사항은 지정은행 방문→환전신청서 작성→가맹점 지정여부 및 상품권금액 확인→입금 순서를 직접 안내하고 실제 매출없는 수취·과다거래 환전을 금지한다. 같은 날 현행규칙2165511(2026-08-28시행) 본문 제8조는 등록가맹점의 별지10 환전청구서와 접수후3일 환전을 명시하고 별지목록의22498207을 확인했다. 고정원본과 새 다운로드의36352바이트/SHA914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9가 같고 전체401자를 읽었다. 한글에서1쪽을 렌더링하여 빈 가맹점 신청서·하단 접수증,2천원권 포함권종,은행수신/계좌/서명과 원본불변을 확인했다. 현재 정확 정부24 원주사랑상품권 사업은 소비자와 가맹점 혜택을 함께 안내한다. 기존 카드앱 안내만으로는 부족했던 지류 가맹점 환전 사용근거를 공식 별도 안내와 현행 별지 지정으로 보완한다. 개인 현금할인구매 별지12의 현재판매 여부는 이 승인에 포함하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2697,71 +2860,115 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "officialCurrentGuide": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=7"
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "ed101232d2b274085ee317e52c7320dfee437b017c5a3a9c8a4ce3422d13d2f2",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2165511.json",
-                "sha256": "7795e71ca38ed496010988dd5cfb5cdf66394bd86ab03d7179d5ad94cd65babc",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=7",
-            "httpStatus": 200,
-            "responseSha256": "07dee472bfa67665563f83ed41d24d89fcd34bcfdc87a5697bcfc121ce53c673",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/wonju.json",
-                "sha256": "9a65840d7ff9be1397a7eba3f8258078dbe7874e86b615c07f7de7b624ea7cb7",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/419000000129",
-            "httpStatus": 200,
-            "bodyTextSha256": "0775466af7e17ab6851c592502d24d0945e0922a8a0a0b21cd62b082b6c751db",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-g51130.gov24-419000000129.json",
-                "sha256": "659b291c0b0f938c9d1ccf09d8bbb1cc22a9144cd591827eb13641052f5306a2",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8203.json",
+        "sourceResultSHA256": "72e75acb4a05ba1a8bebca9b3ceb36b014fc6341ba8c4c80cf71256935d7b5ac",
+        "independentReviewSHA256": "ba1d6001eaf6bc0f6acb86f1b5c23eae0351707eb2a5ab3af47b000356a17be6",
+        "sourceProposalSHA256": "b7bc72086cc70c0853575cd23ef4e24d1f648bef0d5e8ea88727891611f6c519",
+        "proposedStatus": "approved_conditional_registered_merchant_paper_exchange_only",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g51130.gov24-419000000129"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 원주시 상품권 전용 공식 안내는 온라인뿐 아니라 오프라인도 Chak 가입 후 충전이며 앱·카드형이다. 지류권 가맹점 환전의 현재 접수 공고·원본은 찾지 못했다. 종이권 환전서를 모바일 정산에 연결하지 않고 지류 운영 여부를 미해소로 유지한다.",
+          "relatedProgramIds": [
+            "g51130.gov24-419000000129"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51130.gov24-419000000129",
+              "programName": "원주사랑상품권",
+              "disposition": "requires_external_confirmation",
+              "reason": "현행 지류상품권 환전 접수 및 해당 별지10 사용 여부 필요."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "ed101232d2b274085ee317e52c7320dfee437b017c5a3a9c8a4ce3422d13d2f2",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2165511.json",
+                    "sha256": "7795e71ca38ed496010988dd5cfb5cdf66394bd86ab03d7179d5ad94cd65babc",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=7",
+                "httpStatus": 200,
+                "responseSha256": "07dee472bfa67665563f83ed41d24d89fcd34bcfdc87a5697bcfc121ce53c673",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/wonju.json",
+                    "sha256": "9a65840d7ff9be1397a7eba3f8258078dbe7874e86b615c07f7de7b624ea7cb7",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/419000000129",
+                "httpStatus": 200,
+                "bodyTextSha256": "0775466af7e17ab6851c592502d24d0945e0922a8a0a0b21cd62b082b6c751db",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-g51130.gov24-419000000129.json",
+                    "sha256": "659b291c0b0f938c9d1ccf09d8bbb1cc22a9144cd591827eb13641052f5306a2",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-review",
+      "approvedAssociations": [
+        {
+          "programId": "g51130.gov24-419000000129",
+          "formId": "ordin-22498207",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2165511",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22498211",
       "sha256": "8018eecb694d4c1ccd89aae3ed9f62825f45d006c92d7094e39c3e1e8ea4733d",
-      "disposition": "requires_external_confirmation",
-      "reason": "원주시의 현재 구매 안내를 다시 GET해 앱설치·가입 후 온라인 또는 금융기관 오프라인 충전임을 확인했다. 원본의 종이권 권종별 현금구매와 다르며 별지12를 요구하는 현행 지류 판매를 입증하지 못했다.",
+      "disposition": "approved",
+      "reason": "지류존재는이번에재입증하지않고총괄의기존원주현재자료를사용했다. 앱구매안내가있다는사실은현행규칙10조④의지류개인할인구매절차를폐지하지않는다. 원본에는고정할인율·구매한도·잘못된자격확약이없고개인선택·금액·권종·신분증·서명이직접있다. 은행별현재지류판매여부와재고를새로확정한것은아니므로현재취급하는지류개인구매경로만조건부제안한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51130.gov24-419000000129",
-          "programName": "원주사랑상품권",
-          "disposition": "requires_external_confirmation",
-          "reason": "현재 지류 할인판매와 별지12 접수 여부 확인 필요. 앱충전만으로는 종이권 신청 양식을 요구하지 않음."
+          "formId": "ordin-22498211",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "원주사랑상품권을 개인이 지류권으로 현금(계좌이체 포함) 할인구매하는 법정 경로를 이용할 때만 사용하는 별지12입니다. 개인 구분과 구매금액·현재 판매하는 권종/매수·서명 및 해당 개인정보 동의를 작성하고 실명확인증표를 준비하여 취급 운영대행사 또는 판매대행점에 제출합니다. 앱의 카드·모바일 충전에 필요한 서식이라는 뜻은 아니며 법인·단체 구매에 연결하지 않습니다. 실제 지류 판매 여부·취급 영업점·권종·할인율·개인한도는 판매 당시 원주시 및 취급점 안내를 따릅니다. 규칙의 최대100만원을 현재 구매한도로 안내하지 않으며, 현재 일반 안내의 월30만원·6~10% 지원과 달라질 수 있는 지류 판매조건은 별도로 확인해야 합니다.",
+          "reason": "지류존재는이번에재입증하지않고총괄의기존원주현재자료를사용했다. 앱구매안내가있다는사실은현행규칙10조④의지류개인할인구매절차를폐지하지않는다. 원본에는고정할인율·구매한도·잘못된자격확약이없고개인선택·금액·권종·신분증·서명이직접있다. 은행별현재지류판매여부와재고를새로확정한것은아니므로현재취급하는지류개인구매경로만조건부제안한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2794,58 +3001,99 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "officialCurrentGuide": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=7"
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "ed101232d2b274085ee317e52c7320dfee437b017c5a3a9c8a4ce3422d13d2f2",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2165511.json",
-                "sha256": "7795e71ca38ed496010988dd5cfb5cdf66394bd86ab03d7179d5ad94cd65babc",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=7",
-            "httpStatus": 200,
-            "responseSha256": "07dee472bfa67665563f83ed41d24d89fcd34bcfdc87a5697bcfc121ce53c673",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/wonju.json",
-                "sha256": "9a65840d7ff9be1397a7eba3f8258078dbe7874e86b615c07f7de7b624ea7cb7",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/419000000129",
-            "httpStatus": 200,
-            "bodyTextSha256": "0775466af7e17ab6851c592502d24d0945e0922a8a0a0b21cd62b082b6c751db",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-g51130.gov24-419000000129.json",
-                "sha256": "659b291c0b0f938c9d1ccf09d8bbb1cc22a9144cd591827eb13641052f5306a2",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
         "g51130.gov24-419000000129"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "원주시의 현재 구매 안내를 다시 GET해 앱설치·가입 후 온라인 또는 금융기관 오프라인 충전임을 확인했다. 원본의 종이권 권종별 현금구매와 다르며 별지12를 요구하는 현행 지류 판매를 입증하지 못했다.",
+          "relatedProgramIds": [
+            "g51130.gov24-419000000129"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51130.gov24-419000000129",
+              "programName": "원주사랑상품권",
+              "disposition": "requires_external_confirmation",
+              "reason": "현재 지류 할인판매와 별지12 접수 여부 확인 필요. 앱충전만으로는 종이권 신청 양식을 요구하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "ed101232d2b274085ee317e52c7320dfee437b017c5a3a9c8a4ce3422d13d2f2",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2165511.json",
+                    "sha256": "7795e71ca38ed496010988dd5cfb5cdf66394bd86ab03d7179d5ad94cd65babc",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=7",
+                "httpStatus": 200,
+                "responseSha256": "07dee472bfa67665563f83ed41d24d89fcd34bcfdc87a5697bcfc121ce53c673",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/wonju.json",
+                    "sha256": "9a65840d7ff9be1397a7eba3f8258078dbe7874e86b615c07f7de7b624ea7cb7",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/419000000129",
+                "httpStatus": 200,
+                "bodyTextSha256": "0775466af7e17ab6851c592502d24d0945e0922a8a0a0b21cd62b082b6c751db",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-g51130.gov24-419000000129.json",
+                    "sha256": "659b291c0b0f938c9d1ccf09d8bbb1cc22a9144cd591827eb13641052f5306a2",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g51130.gov24-419000000129",
+          "formId": "ordin-22498211",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2165511",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22625507",

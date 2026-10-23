@@ -1,0 +1,438 @@
+{
+  "schema": 1,
+  "kind": "hwpx-writing-followup-documentation",
+  "checkedAt": "2026-10-23",
+  "reviewer": "Codex /root integrated verification",
+  "snapshotState": "source_verified_pending_operating_repository_final_checks",
+  "publicationApprovalGrantedByThisReport": false,
+  "counts": {
+    "archivedOriginalRecords": 4918,
+    "uniqueArchivedContentHashes": 4882,
+    "publishedOriginals": 2844,
+    "publishedNativeHwpxOriginals": 315,
+    "publishedHwpOriginals": 2511,
+    "linkedProgramRecords": 2564,
+    "publishedAssociations": 3576,
+    "detailRecordPlacements": 23578,
+    "distinctDetailIds": 23578,
+    "deduplicatedProgrammeRecords": 23575,
+    "incheonExtraDistrictPlacements": 3,
+    "downloadableVerifiedHwpDerivatives": 2509,
+    "downloadShards": 256,
+    "nativePlusDerivedDownloadableHwpx": 2824,
+    "verifiedConversionPages": 4285,
+    "partialPaperWritingForms": 1508,
+    "preservedBaselinePartialForms": 1219,
+    "newPartialForms": 289,
+    "newAllowedUniqueSlots": 4539,
+    "unsupportedConvertedForms": 1001,
+    "separateCommonNativeHwpxWritingTemplates": 2
+  },
+  "userConversionFolder": {
+    "relativeCheckoutPath": "bokji-hwpx-writer-20261020/logs/hwp-conversion/converted",
+    "files": 2379,
+    "structuralChecks": "ZIP/CRC/XML and exact current source identity passed; not equivalent to full native rendering validation",
+    "overlapWithExistingVerified2509": 2377,
+    "existingVerifiedNotPresentInThisFolder": 132,
+    "newCurrentSourceFiles": 2,
+    "newCurrentSourceHeldIds": [
+      "ordin-19981527",
+      "ordin-21458043"
+    ],
+    "heldReason": "Native conversion changed original special-symbol text/page rendering; official HWP retained and derivative withheld.",
+    "existingVerifiedAssetsOverwritten": false
+  },
+  "writingScope": {
+    "candidateForms": 329,
+    "wholeBodyReviewed": 329,
+    "unreviewed": 0,
+    "semanticApprovedBeforeTechnicalCapacityQA": 295,
+    "dateCapacityQa": {
+      "forms": 43,
+      "slots": 144,
+      "sampleDate": "2026/12/31",
+      "reason": "An identified date position did not imply capacity for valid year/month/day text. Every slot in the failing date paragraph was removed.",
+      "evidence": {
+        "path": "logs/hwpx-live-20261023/coordinator-date-capacity-holds.json",
+        "bytes": 27790,
+        "sha256": "35f6c4a5d483c2ad2b946400d81cd25db96e92309ce231e64c9269f72914f21e"
+      }
+    },
+    "withdrawnNewDateOnlyDrafts": {
+      "forms": [
+        "ordin-19437609",
+        "ordin-20377219",
+        "ordin-20864925",
+        "ordin-21184325",
+        "ordin-21211099",
+        "ordin-21446321"
+      ],
+      "old1219Touched": false,
+      "originalsOrAssetsDeleted": false,
+      "reason": "Only newly generated, uncommitted date-only drafts with insufficient capacity for a valid four-digit year were removed before the final regeneration."
+    },
+    "providerScopeNarrowing": {
+      "formId": "ordin-19998845",
+      "programmeId": "g28245.bokjiro-WLF00005324",
+      "removedSlots": 149,
+      "browserScope": "Resident application annex3 only; provider annex5/6 remain in whole downloadable file.",
+      "reason": "No browser role selector for resident/provider is implemented."
+    },
+    "finalAdditionalForms": 289,
+    "finalAdditionalSlots": 4539,
+    "binding": [
+      "sourceSHA256",
+      "assetSHA256",
+      "exact programmeId",
+      "exact slotId"
+    ],
+    "baselineAudit": {
+      "checkedAt": "2026-10-23",
+      "baselineForms": 1219,
+      "allSourceAndAssetIdentitiesUnchanged": true,
+      "allUnlockedSlotSetsExactlyUnchanged": true,
+      "extraSlotsInExistingForms": 0,
+      "missingExistingSlots": 0
+    }
+  },
+  "nativeHwpxRematch": {
+    "initialUnlinkedScope": 155,
+    "wholeBodyReviewCompleted": 155,
+    "existingNativeOriginalsNewlyLinked": [
+      "ordin-13620757",
+      "ordin-20017903",
+      "ordin-21494683",
+      "ordin-22068451",
+      "ordin-22484269",
+      "ordin-22537305",
+      "ordin-22742385"
+    ],
+    "newAgencyOriginals": [
+      "agency-27000-daegu-school-entry-2026",
+      "agency-43720-notice1415-current-application"
+    ],
+    "existingCommonTemplateReused": {
+      "formId": "rule-3211501",
+      "programId": "g31710.gov24-373000000110",
+      "notANewPhysicalOriginal": true
+    },
+    "originalSupportNotInferredFromFilenameOrFormat": true
+  },
+  "implementation": {
+    "downloads": "Separate256-shard byte-verified derivative index; HWPX link leaves official HWP original available.",
+    "input": "Browser React state and locally generated Blob; public blank template GETs only, no filled input upload/store/API submission in PaperFormWriter.",
+    "output": "Patch exact source section/table/cell/paragraph ranges in verified HWPX and repack locally; validate original text, insertion charPr, measured glyph advance, paragraph/table counts, source/asset/manifest identity.",
+    "unmodifiedParts": "Unselected original text, legal wording, styles, tables and resource entries are retained. Consent/signature/staff and irrelevant-service slots are excluded/locked in new scope.",
+    "preview": "Rebuild PrvText from written body; remove unreferenced stale blank preview image only after checking XML/HPF references. Browser preview is not a native pagination guarantee.",
+    "fonts": "Only measured exact regular 휴먼명조/한컴바탕/한컴돋움 added in this expansion; no global font substitution or new HFT measurement.",
+    "metadata": "Derivative lastsaveby is anonymized to a public converter label. Existing creator metadata is separate and is not asserted to be uniformly empty/anonymized. Official source HWP bytes remain untouched."
+  },
+  "validation": {
+    "python": {
+      "passed": 375,
+      "proof": {
+        "path": "logs/hwpx-live-20261023/python-v3.log",
+        "bytes": 659,
+        "sha256": "75016b9d0c0d8e3285943bd5d043722ad6b69db0b8387ee5ec2f7b901a1b56fa"
+      }
+    },
+    "downloadRecheck": {
+      "shards": 256,
+      "entries": 2509,
+      "allSourceAndAssetBytesRehashed": true,
+      "problems": []
+    },
+    "nativeOriginalRecheck": {
+      "entries": 315,
+      "allBytesRehashed": true,
+      "problems": []
+    },
+    "baseline1219": "Source and asset identity plus unlocked slot sets exactly preserved; extra/missing slots0.",
+    "compile": {
+      "compiled": 1508,
+      "scoped": 289,
+      "fromBaseline": 1219,
+      "drift": 0,
+      "rebound": 0,
+      "proof": {
+        "path": "logs/hwpx-live-20261023/writing-compile-final.json",
+        "bytes": 1612975,
+        "sha256": "828c01f189e957619e94488e2078737a0016f1c2026171d204c7db3fda308376"
+      }
+    },
+    "scopeLimit": "Blank-conversion all-page equality, selected-input semantic review, text-width safety, filled native rendering and production deployment are distinct checks.",
+    "historicalProofCaveat": "hwpx-link-byte-audit.json proves315 native+2509 derivative bytes; its partialEntry1514 is the pre-capacity-QA snapshot and is not the final writer count.",
+    "unit": {
+      "passed": 1267,
+      "failed": 0,
+      "proof": {
+        "path": "logs/hwpx-rematch-20261023/root/vitest-final.json",
+        "bytes": 476687,
+        "sha256": "4e278c274f8ab4a32b01dcb3198d799dbb98f61e352467964789a3bd681646ee"
+      }
+    },
+    "browser": {
+      "passedDistinctCases": 288,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "batches": [
+        {
+          "cases": 270,
+          "proof": {
+            "path": "logs/hwpx-live-20261023/source-regression-e2e-final.json",
+            "bytes": 316273,
+            "sha256": "03196ddef46e821796d7a4a795330e1daf6b17f7321d062cdd9cc9953e7157e6"
+          }
+        },
+        {
+          "cases": 18,
+          "proof": {
+            "path": "logs/hwpx-live-20261023/reviewed-e2e-final.json",
+            "bytes": 23519,
+            "sha256": "e6fd07f2fa2931cfeb69cba2b4e97391269a6205717da04e8e170d17a39831e5"
+          }
+        }
+      ],
+      "changedCheckboxRecheck": {
+        "cases": 2,
+        "proof": {
+          "path": "logs/hwpx-live-20261023/reviewed-checkbox-e2e-final.json",
+          "bytes": 5128,
+          "sha256": "c4a79cf84ad58de7eb75c9791ba7dd9df4a4f4c5f475ff3a03aeff78df8787aa"
+        }
+      }
+    },
+    "filledNative": {
+      "downloads": 12,
+      "identicalPairs": 6,
+      "documents": 6,
+      "pages": 9,
+      "allPagesVisuallyInspected": true,
+      "proof": {
+        "path": "logs/hwpx-live-20261023/native-filled/verification-final.json",
+        "bytes": 3164,
+        "sha256": "27b166734ba8afac7dd95742a6dd136effc1e2f1c4d213461f7f18c020b156a8"
+      }
+    },
+    "nextBuild": "passed",
+    "typeScript": "passed",
+    "changedCodeEslint": "passed",
+    "independentFinalPolicy": {
+      "blockers": [],
+      "forms": 1508,
+      "programmeScopes": 358,
+      "displayParagraphsCompared": 180649,
+      "remainingDateSlotsChecked": 721,
+      "proof": {
+        "path": "logs/hwpx-live-20261023/final-policy-audit/results-v1.json",
+        "bytes": 3085,
+        "sha256": "dd5523a247ff8d461192d455d50c6cad1a53c1ed1180efdeb9fb614b6eb50bda"
+      }
+    }
+  },
+  "deployment": {
+    "actualOperatingRepository": "yonghwan86/bokji-compass",
+    "operatingMainObservedCommit": "110be2e44c988a15abdcae9f319803d01b0109aa",
+    "sourceRepository": "dlrmsals1425-dotcom/bokji",
+    "sourcePullRequest": 12,
+    "operatingPortBranch": "feat/verified-hwpx-writing-20261023",
+    "portState": "three_way_merge_in_progress_coordinator_report",
+    "userProductionUrl": "https://bokji-compass.vercel.app/",
+    "newFeatureDeployed": false,
+    "accountPermissionObserved": "READ; pull true/push false",
+    "requiredNextStep": "Complete port and final tests/native QA, then obtain operating repository owner merge/deploy. Source PR12 merge alone is not evidence of production update.",
+    "proof": {
+      "path": "logs/hwpx-live-20261023/deployment-audit/results-v1.json",
+      "bytes": 7596,
+      "sha256": "9f1a18c56c563ab87023cdadd6288333a5ed1c0fa47d0326ac48a4a8df5dac0e"
+    }
+  },
+  "collaboration": {
+    "actualClaudeCode": "Implemented part of download/index and scope/font expansion; session quota ended, coordinator completed remaining integration.",
+    "actualGrokCLI": "Independently audited user2379 conversion batch and emitted2509 download entries/source/asset bytes; earlier scope0 findings precede final scope registry.",
+    "nativeCodex": "Coordinator and separate Codex workers performed whole-document programme/slot scope review, integration, technical QA and documentation. Codex workers are not labelled Claude or Grok."
+  },
+  "evidence": [
+    {
+      "path": "pipeline/forms/download-audit.json",
+      "bytes": 6573400,
+      "sha256": "f823f19e37e906803d5279df2eb5f49615c22fa254c27d75edddedfb78a00242"
+    },
+    {
+      "path": "public/forms/v1/catalog.json",
+      "bytes": 6998008,
+      "sha256": "1c95478629a606fead3e39b4aa7b2a47968f27d883fe6353046c7a73fc1067d2"
+    },
+    {
+      "path": "public/forms/v1/coverage.json",
+      "bytes": 37025,
+      "sha256": "dc2f724d8cae9d54b81de5e781a8170956075b1361833b2f8916c00516bf7f74"
+    },
+    {
+      "path": "public/forms/writing/v1/downloads.json",
+      "bytes": 1405,
+      "sha256": "f806e9c0b462c2a3ecd557654a5413c0904af181569a5f64d748c1b695a611b6"
+    },
+    {
+      "path": "public/forms/writing/v1/index.json",
+      "bytes": 28067,
+      "sha256": "3b2c05a8a216d82f5abb2013749e334abbf2a07bc6cdd4bd694ef40a19a38aac"
+    },
+    {
+      "path": "public/forms/writing/v1/conversion-audit.json",
+      "bytes": 1017,
+      "sha256": "083919deda879674a1932ad0188c828213c65f8c90c4aaefc3551eb8553293a1"
+    },
+    {
+      "path": "public/forms/writing/v1/conversions.json",
+      "bytes": 1870712,
+      "sha256": "253785f7eed90cd1cd2a7aa13776d941e3ead9c7ec0c572096c6136e43a0286b"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/grok/live-conversion-audit.json",
+      "bytes": 33659,
+      "sha256": "d9f56ee24be379abd540f540173cd6239becd222c1ebe3ef8745cc7a4a3f4c37"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/grok-review/download-byte-check.json",
+      "bytes": 704,
+      "sha256": "30da10b6d89b7eef0d120f857a49420df1394d140cd3b5281b7f8050a408ef75"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/grok-review/review.json",
+      "bytes": 1224,
+      "sha256": "e35dfb6504f79e3505ff6184b2eefb4b5e0c48e24c380bb8d2b4955d9b429ddc"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/baseline-preservation-audit.json",
+      "bytes": 223,
+      "sha256": "1830ee0b1bb568cc43714b162cc111cffa746f4b7e84589d8a9e4533e13bec2a"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/scope-assembly-audit.json",
+      "bytes": 7026,
+      "sha256": "946eb10542fe586e7ddbe06b876476c7fab14f7540b4b760a23e11e9e5b44eca"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/coordinator-date-capacity-holds.json",
+      "bytes": 27790,
+      "sha256": "35f6c4a5d483c2ad2b946400d81cd25db96e92309ce231e64c9269f72914f21e"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/writing-compile-final.json",
+      "bytes": 1612975,
+      "sha256": "828c01f189e957619e94488e2078737a0016f1c2026171d204c7db3fda308376"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/python-v3.log",
+      "bytes": 659,
+      "sha256": "75016b9d0c0d8e3285943bd5d043722ad6b69db0b8387ee5ec2f7b901a1b56fa"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/deployment-audit/results-v1.json",
+      "bytes": 7596,
+      "sha256": "9f1a18c56c563ab87023cdadd6288333a5ed1c0fa47d0326ac48a4a8df5dac0e"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/root/production-readonly-check.json",
+      "bytes": 1080,
+      "sha256": "82bca6f35f3a6d75adc5b57db55ac803d25d4b259cad645378fd10fc01518ec2"
+    },
+    {
+      "path": "logs/hwpx-rematch-20261023/scope.json",
+      "bytes": 680118,
+      "sha256": "daf3df381e35d8ea01d7ece3ad71a3bd8551dee847a2bcc34c36b31404b961b6"
+    },
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8212.json",
+      "bytes": 19253,
+      "sha256": "44960e3e77c7817136a8f70136ef2d9ce979d095847dae1aec3927dac8459f79"
+    },
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8213.json",
+      "bytes": 48387,
+      "sha256": "f0514f99f3a574bf0580fe3cdaabdf6b83f573a50e19d77fa7b037b433329120"
+    },
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8214.json",
+      "bytes": 35614,
+      "sha256": "547e765f7ba4f88df951a92bbdcdcc8ab2ea9d3405763d2ac25f757a7a4a3686"
+    },
+    {
+      "path": "pipeline/forms/reviews/agency-originals-scope-round8021.json",
+      "bytes": 1015,
+      "sha256": "ca597cffd3458806feed91be5069a37f03e4d7d81e07697c49d00636c3dc81b8"
+    },
+    {
+      "path": "pipeline/forms/reviews/agency-originals-scope-round8022.json",
+      "bytes": 1592,
+      "sha256": "4cd6b63836f1b8a3cf12975566f7615593150ea9e03d60bd5ae67a46becb1330"
+    },
+    {
+      "path": "public/bundles/v1/meta.json",
+      "bytes": 2333,
+      "sha256": "a03f1a1c03ad5623cbba18b8c52595b24b24708abc6fdcdb0e0b6727226243bc"
+    },
+    {
+      "path": "src/lib/data/dataProvenance.json",
+      "bytes": 8939,
+      "sha256": "88568dcd4f9e11e49608b08b2346ca4b075dfd8d4259cf17fe9d8aedd1b57747"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/withdrawn-unpublished-draft-manifests.json",
+      "bytes": 394,
+      "sha256": "5782907cf8a774a95fa249ee24ca32ac9944aa2780b53756066ff0ce4f8ca8df"
+    },
+    {
+      "path": "logs/hwpx-rematch-20261023/root/hwpx-link-byte-audit.json",
+      "bytes": 2509119,
+      "sha256": "b3615169d4e0fcd52009fe1177dd1e7b682acf3679a97f69a4079abdceb60ab5"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/doc-review/read-only-data-check.json",
+      "bytes": 6879,
+      "sha256": "96311b8f46fb5e3c1fe1c4d3193379d1c9de9f826c56418fb32c1edf262bff3b"
+    },
+    {
+      "path": "logs/hwpx-rematch-20261023/root/vitest-final.json",
+      "bytes": 476687,
+      "sha256": "4e278c274f8ab4a32b01dcb3198d799dbb98f61e352467964789a3bd681646ee"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/source-regression-e2e-final.json",
+      "bytes": 316273,
+      "sha256": "03196ddef46e821796d7a4a795330e1daf6b17f7321d062cdd9cc9953e7157e6"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/reviewed-e2e-final.json",
+      "bytes": 23519,
+      "sha256": "e6fd07f2fa2931cfeb69cba2b4e97391269a6205717da04e8e170d17a39831e5"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/reviewed-checkbox-e2e-final.json",
+      "bytes": 5128,
+      "sha256": "c4a79cf84ad58de7eb75c9791ba7dd9df4a4f4c5f475ff3a03aeff78df8787aa"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/native-filled/verification-final.json",
+      "bytes": 3164,
+      "sha256": "27b166734ba8afac7dd95742a6dd136effc1e2f1c4d213461f7f18c020b156a8"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/final-policy-audit/results-v1.json",
+      "bytes": 3085,
+      "sha256": "dd5523a247ff8d461192d455d50c6cad1a53c1ed1180efdeb9fb614b6eb50bda"
+    }
+  ],
+  "documentationEditsOnly": false,
+  "documentationWorkerActions": {
+    "codeOrPublicWrites": false,
+    "sourceByteEdits": false,
+    "COM": false,
+    "git": false,
+    "deployment": false,
+    "delegation": false
+  },
+  "evidenceBytesBasis": "Git index canonical blobs for versioned files; actual file bytes for ignored private audit logs. Government original and converted assets are binary and never line-ending-normalized."
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "formCount": 1,
+  "forms": [
+    {
+      "formId": "agency-48120-baro-453-1401",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "전세보증금반환보증 보증료 지원 신청서 및 서약서",
+      "sourceKind": "agency",
+      "regionCode": "48120",
+      "sourceUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+      "sourcePageUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+      "attachmentId": "1401",
+      "sha256": "7b216cf387911fa163115c3b87a3ad09d228f7db048c3ee4040bbc2707a30456",
+      "bytes": 50176,
+      "format": "hwp",
+      "relativePath": "agency-48120-baro-453-1401.hwp"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

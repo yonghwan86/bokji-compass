@@ -4,3 +4,4 @@ pipeline/forms/originals/** binary
 pipeline/forms/previews/** binary
 pipeline/forms/source-archives/** binary
 public/forms/files/** binary
+public/forms/writing/v1/converted/** binary

@@ -117,7 +117,7 @@ test("사업을 지정하지 않으면 작성 화면이 열리지 않는다 @mob
 });
 
 test("등록되지 않은 서식 주소는 404다 @mobile", async ({ page }) => {
-  for (const id of ["ordin-19970267", "%25"]) {
+  for (const id of ["ordin-99999999999999999999", "%25"]) {
     const response = await page.goto(`/forms/write/${id}`);
     expect(response?.status()).toBe(404);
   }

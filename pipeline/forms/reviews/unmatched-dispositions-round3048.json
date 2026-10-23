@@ -3177,45 +3177,18 @@
     {
       "formId": "ordin-21685783",
       "sha256": "c6713e5df348d8103c5b3a294fa8f61ae9ba0ee0cdecd1390379eb1987f6557c",
-      "disposition": "requires_external_confirmation",
-      "reason": "정부24의2026.8.12 최신 공식 상세를 직접 GET하여 신청불필요·담당자 직접관리·신청서 및 구비서류 해당없음을 재확인했다. 현재 월3만원 건강지원에서 옛 건강음료 신청/변경 원본을 예외적으로 받는다는 근거는 확인되지 않았다. 다른 장애아동수당의 전국 서류를 같은 건강지원으로 전용하지 않는다.",
+      "disposition": "approved",
+      "reason": "정부24의 일반 자동지원은 등록대상자의 통상 운영 설명이다. 현재 조례는 건강지원을 제23조에 포함하고 신청을 희망하는 사람의 별지1 제출을 제24조에 직접 정한다. 같은 canonical 사업에 병합된 정확WLF81은 건강음료대금 월3만원·읍면동 신청을 안내하므로 원본의 건강음료 항목이 다른 옛 급여라는 추정을 뒷받침하지 않는다. 모든 대상자에게 제출의무를 추가하지 않고 법정 신청/변경 경로의 해당 부분을 제공할 수 있다. 고정원본전체 BodyText/Section0 1624자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
-          "programId": "g44270.bokjiro-WLF00000633",
-          "programName": "장애인자산형성지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
           "programId": "g44270.gov24-568000000105",
-          "programName": "중증장애아동 건강 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "법정 신청/변경 서식과 현재 사업의 신청불필요 안내가 충돌하며 실제 변경접수 용도 미확인"
-        },
-        {
-          "programId": "g44270.gov24-568000000112",
-          "programName": "장애인가정 임신 진료비 및 출산지원금 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.bokjiro-WLF00002196",
-          "programName": "장애인복지카드, 홈배달서비스지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.bokjiro-WLF00002175",
-          "programName": "장애인가정 임신진료비, 출산지원금 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.gov24-568000000115",
-          "programName": "중증장애인 자산형성 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-21685783",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "당진시 중증장애아동 건강지원에 관하여 현행 조례 제23조제1호·제24조제1항의 신청 또는 변경 절차를 이용하는 경우에만 사용합니다. 앞면의 「건강음료 지원」 칸과 대상아동·주소·연락처·지급계좌, 해당 신청인·개인정보 확인 부분에 한정합니다. 정부24는 일반 대상자를 담당자가 관리하여 별도 신청 없이 지원한다고 안내하므로 자동지원 중인 모든 가구가 이 서식을 새로 제출해야 한다는 뜻은 아닙니다. 같은 사업의 복지로는 읍·면·동 신청을 안내합니다. 의료비·보조기구·발달재활 등 다른 신청란에는 이번 연결을 적용하지 않습니다.",
+          "reason": "정부24의 일반 자동지원은 등록대상자의 통상 운영 설명이다. 현재 조례는 건강지원을 제23조에 포함하고 신청을 희망하는 사람의 별지1 제출을 제24조에 직접 정한다. 같은 canonical 사업에 병합된 정확WLF81은 건강음료대금 월3만원·읍면동 신청을 안내하므로 원본의 건강음료 항목이 다른 옛 급여라는 추정을 뒷받침하지 않는다. 모든 대상자에게 제출의무를 추가하지 않고 법정 신청/변경 경로의 해당 부분을 제공할 수 있다. 고정원본전체 BodyText/Section0 1624자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         }
       ],
       "sourceEvidence": {
@@ -3252,98 +3225,143 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "unresolvedExternalCondition": "당진 중증장애아동 건강지원의 현행 자동지급 및 변경접수 절차, 건강음료 표기 원본의 실제 사용 여부 확인"
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000105",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "384485a33e1217f441206b3b2e917f6870cb5187bb784ebfab3f488f1f24fba1",
-            "newEvidence": "최신 정부24 건강지원은 신청불필요·신청서/구비서류해당없음",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/dangjin-health-gov24.json",
-                "sha256": "785cb9a09c036fe8e6ddf51983e8d9f55c669775f4ab170613c85e8f45d101be",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.dangjin.go.kr/bokji/sub05_02_03.do",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "dec84eec9dd41047e36905e4e233f0184b62078dfe18ee61e2b59b92a120f347",
-            "newEvidence": "별도 전국 장애아동수당은 건강음료 지원과 지급금액·대상이 다른 사업임을 구분",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/dangjin-child-allowance.json",
-                "sha256": "20219e616d5082359135056f25c45720ebd096a7fdd6aa80ff48e7b269aae67e",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8205.json",
+        "sourceResultSHA256": "7efc2c2e3d6dd1925c531e4c815c29e4b031331e06842a145396923b3501c461",
+        "sourceProposalSHA256": "2383b6c9e221a6d1d7e71f750530f59a69f9fc46d4a3983264a85d15d4f7954f",
+        "coordinatorDecisionSHA256": "a2da956c9d4bc732984517d47d50072774aad05ed2bc3e4327de1f54637fc2ff",
+        "proposedStatus": "approved_exact_current_annex_conditional_path",
+        "allOriginalsMatched": false,
+        "actualGrokCrossreviewSHA256": "a97131fd8b4c1d451724604ad99a91b39d5616834a61f3d2d7d80242ba6458ce"
       },
       "relatedProgramIds": [
-        "g44270.bokjiro-WLF00000633",
-        "g44270.gov24-568000000105",
-        "g44270.gov24-568000000112",
-        "g44270.bokjiro-WLF00002196",
-        "g44270.bokjiro-WLF00002175",
-        "g44270.gov24-568000000115"
-      ]
+        "g44270.gov24-568000000105"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "정부24의2026.8.12 최신 공식 상세를 직접 GET하여 신청불필요·담당자 직접관리·신청서 및 구비서류 해당없음을 재확인했다. 현재 월3만원 건강지원에서 옛 건강음료 신청/변경 원본을 예외적으로 받는다는 근거는 확인되지 않았다. 다른 장애아동수당의 전국 서류를 같은 건강지원으로 전용하지 않는다.",
+          "relatedProgramIds": [
+            "g44270.bokjiro-WLF00000633",
+            "g44270.gov24-568000000105",
+            "g44270.gov24-568000000112",
+            "g44270.bokjiro-WLF00002196",
+            "g44270.bokjiro-WLF00002175",
+            "g44270.gov24-568000000115"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g44270.bokjiro-WLF00000633",
+              "programName": "장애인자산형성지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.gov24-568000000105",
+              "programName": "중증장애아동 건강 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "법정 신청/변경 서식과 현재 사업의 신청불필요 안내가 충돌하며 실제 변경접수 용도 미확인"
+            },
+            {
+              "programId": "g44270.gov24-568000000112",
+              "programName": "장애인가정 임신 진료비 및 출산지원금 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.bokjiro-WLF00002196",
+              "programName": "장애인복지카드, 홈배달서비스지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.bokjiro-WLF00002175",
+              "programName": "장애인가정 임신진료비, 출산지원금 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.gov24-568000000115",
+              "programName": "중증장애인 자산형성 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000105",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "384485a33e1217f441206b3b2e917f6870cb5187bb784ebfab3f488f1f24fba1",
+                "newEvidence": "최신 정부24 건강지원은 신청불필요·신청서/구비서류해당없음",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/dangjin-health-gov24.json",
+                    "sha256": "785cb9a09c036fe8e6ddf51983e8d9f55c669775f4ab170613c85e8f45d101be",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.dangjin.go.kr/bokji/sub05_02_03.do",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "dec84eec9dd41047e36905e4e233f0184b62078dfe18ee61e2b59b92a120f347",
+                "newEvidence": "별도 전국 장애아동수당은 건강음료 지원과 지급금액·대상이 다른 사업임을 구분",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/dangjin-child-allowance.json",
+                    "sha256": "20219e616d5082359135056f25c45720ebd096a7fdd6aa80ff48e7b269aae67e",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g44270.gov24-568000000105",
+          "formId": "ordin-21685783",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2092475",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-21685785",
       "sha256": "75f0574b032abacabad0685540a11eafa036724c7359dc54132dcdf5a3b1e553",
-      "disposition": "requires_external_confirmation",
-      "reason": "정부242026.8.12 건강지원 상세가 신청·제출서류 불필요로 안내하여 이 금융정보 동의서의 현재 제출근거를 해소하지 못했다. 별지1의 옛 장애아동 복지지원에 종속된 원본을 자산형성통장·임신출산 등 별도 사업의 동의서로 확대하지 않는다.",
+      "disposition": "approved",
+      "reason": "동의서는그자체로별도지원신청이아니라제24조①신청에종속된②의법정첨부다. 일반자동지원전원에게금융동의를받으라는뜻으로연결하지않고해당법정신청경로에서만제공하면자동지원안내와병존가능하다. 접수서식의직접지정을다시증명하기위해현재운영기관이같은문구를반복하는별도패키지를필수로요구할필요는없다. 고정원본전체 BodyText/Section0 2859자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
-          "programId": "g44270.bokjiro-WLF00000633",
-          "programName": "장애인자산형성지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
           "programId": "g44270.gov24-568000000105",
-          "programName": "중증장애아동 건강 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.gov24-568000000112",
-          "programName": "장애인가정 임신 진료비 및 출산지원금 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.bokjiro-WLF00002196",
-          "programName": "장애인복지카드, 홈배달서비스지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.bokjiro-WLF00002175",
-          "programName": "장애인가정 임신진료비, 출산지원금 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
-        },
-        {
-          "programId": "g44270.gov24-568000000115",
-          "programName": "중증장애인 자산형성 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-21685785",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "당진시 중증장애아동 건강지원의 조례 제24조제1항 신청 경로를 이용할 때 제24조제2항이 신청서와 함께 제출하도록 정한 금융정보 제공 동의서입니다. 해당 장애아동과 가구원의 동의 범위를 확인하여 사용하는 경우에 한정하며, 일반 자동지원 가구 전원에게 새로 금융동의를 요구하거나 반복 제출을 안내하는 용도가 아닙니다. 원본의 기초노령연금 등 옛 국가급여 명칭은 그대로 남아 있으므로 그 급여의 현재 신청서로 사용하지 않습니다. 제출 대상·실제 조회 범위 및 대체서식 안내는 읍·면·동 접수 과정에서 확인하세요.",
+          "reason": "동의서는그자체로별도지원신청이아니라제24조①신청에종속된②의법정첨부다. 일반자동지원전원에게금융동의를받으라는뜻으로연결하지않고해당법정신청경로에서만제공하면자동지원안내와병존가능하다. 접수서식의직접지정을다시증명하기위해현재운영기관이같은문구를반복하는별도패키지를필수로요구할필요는없다. 고정원본전체 BodyText/Section0 2859자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         }
       ],
       "sourceEvidence": {
@@ -3376,56 +3394,128 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "unresolvedExternalCondition": "자동 건강지원에 금융재산조사 동의가 실제 필요한지 및 현재 서식 사용 여부의 공식 확인 필요",
         "sourceIssue": "기초노령연금법·과거 금융기관 등 이전 명칭을 포함한 원본이며 임의 수정하지 않음"
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000105",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "384485a33e1217f441206b3b2e917f6870cb5187bb784ebfab3f488f1f24fba1",
-            "newEvidence": "최신 정부24 건강지원은 신청불필요·신청서/구비서류해당없음",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/dangjin-health-gov24.json",
-                "sha256": "785cb9a09c036fe8e6ddf51983e8d9f55c669775f4ab170613c85e8f45d101be",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.dangjin.go.kr/bokji/sub05_02_03.do",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "dec84eec9dd41047e36905e4e233f0184b62078dfe18ee61e2b59b92a120f347",
-            "newEvidence": "별도 전국 장애아동수당은 건강음료 지원과 지급금액·대상이 다른 사업임을 구분",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/dangjin-child-allowance.json",
-                "sha256": "20219e616d5082359135056f25c45720ebd096a7fdd6aa80ff48e7b269aae67e",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8205.json",
+        "sourceResultSHA256": "7efc2c2e3d6dd1925c531e4c815c29e4b031331e06842a145396923b3501c461",
+        "sourceProposalSHA256": "2383b6c9e221a6d1d7e71f750530f59a69f9fc46d4a3983264a85d15d4f7954f",
+        "coordinatorDecisionSHA256": "a2da956c9d4bc732984517d47d50072774aad05ed2bc3e4327de1f54637fc2ff",
+        "proposedStatus": "approved_exact_current_annex_conditional_path",
+        "allOriginalsMatched": false,
+        "actualGrokCrossreviewSHA256": "a97131fd8b4c1d451724604ad99a91b39d5616834a61f3d2d7d80242ba6458ce"
       },
       "relatedProgramIds": [
-        "g44270.bokjiro-WLF00000633",
-        "g44270.gov24-568000000105",
-        "g44270.gov24-568000000112",
-        "g44270.bokjiro-WLF00002196",
-        "g44270.bokjiro-WLF00002175",
-        "g44270.gov24-568000000115"
-      ]
+        "g44270.gov24-568000000105"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "정부242026.8.12 건강지원 상세가 신청·제출서류 불필요로 안내하여 이 금융정보 동의서의 현재 제출근거를 해소하지 못했다. 별지1의 옛 장애아동 복지지원에 종속된 원본을 자산형성통장·임신출산 등 별도 사업의 동의서로 확대하지 않는다.",
+          "relatedProgramIds": [
+            "g44270.bokjiro-WLF00000633",
+            "g44270.gov24-568000000105",
+            "g44270.gov24-568000000112",
+            "g44270.bokjiro-WLF00002196",
+            "g44270.bokjiro-WLF00002175",
+            "g44270.gov24-568000000115"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g44270.bokjiro-WLF00000633",
+              "programName": "장애인자산형성지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.gov24-568000000105",
+              "programName": "중증장애아동 건강 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.gov24-568000000112",
+              "programName": "장애인가정 임신 진료비 및 출산지원금 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.bokjiro-WLF00002196",
+              "programName": "장애인복지카드, 홈배달서비스지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.bokjiro-WLF00002175",
+              "programName": "장애인가정 임신진료비, 출산지원금 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g44270.gov24-568000000115",
+              "programName": "중증장애인 자산형성 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000105",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "384485a33e1217f441206b3b2e917f6870cb5187bb784ebfab3f488f1f24fba1",
+                "newEvidence": "최신 정부24 건강지원은 신청불필요·신청서/구비서류해당없음",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/dangjin-health-gov24.json",
+                    "sha256": "785cb9a09c036fe8e6ddf51983e8d9f55c669775f4ab170613c85e8f45d101be",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.dangjin.go.kr/bokji/sub05_02_03.do",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "dec84eec9dd41047e36905e4e233f0184b62078dfe18ee61e2b59b92a120f347",
+                "newEvidence": "별도 전국 장애아동수당은 건강음료 지원과 지급금액·대상이 다른 사업임을 구분",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/dangjin-child-allowance.json",
+                    "sha256": "20219e616d5082359135056f25c45720ebd096a7fdd6aa80ff48e7b269aae67e",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g44270.gov24-568000000105",
+          "formId": "ordin-21685785",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2092475",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-21685787",

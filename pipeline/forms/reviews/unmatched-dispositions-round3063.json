@@ -335,8 +335,8 @@
     {
       "formId": "ordin-22282177",
       "sha256": "2129a6988fb231bf180d5b4ad537edd2d82e91cf5900b360ef2029f7e4eef29b",
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 정부24 자연채 포장재 지원은 인증 생산자 등의 포장재 구입비50% 지원과 농업정책과 사업신청서 제출을 안내한다. 상표 표시·포장재 사용허가 원본이 그 보조금 수요·교부 신청을 겸한다는 광주시 공식 공고나 해당 첨부는 찾지 못했다. 상표 사용허가와 구입비 보조 신청을 분리하여 보류한다.",
+      "disposition": "approved",
+      "reason": "정확 정부24 554000000158은 자연채 인증 생산자단체·개인의 자연채 포장재 구입비 50% 지원과 같은 상위조례를 명시한다. 현행 상위조례 1992815 제12~14조·18조는 상표사용권과 그 생산자 자금지원, 현행 규칙 2156975 제7조1항은 사용권자가 포장재 등에 자연채를 표시할 때 별지7 제출을 직접 의무화한다. 원본 전체311자는 승인번호·허가품목·포장재 규격과 수량·사용기한·대표 서명을 담으므로 그 포장재의 법정 사용절차에만 연결한다. 신청자 제작비 부담이라는 제7조2항을 50% 보조사업 부존재로 해석하지 않으며, 이 서식이 별도 보조금 사업신청을 겸한다는 주장도 하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
@@ -347,9 +347,12 @@
         },
         {
           "programId": "g41610.gov24-554000000158",
-          "programName": "자연채 포장재 지원사업",
-          "disposition": "requires_external_confirmation",
-          "reason": "포장재 사용허가와50% 구입비 보조사업 신청의 동일서식 여부 미확인."
+          "formId": "ordin-22282177",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "경기도 광주시 자연채 포장재 지원사업 대상인 인증 생산자단체·개인이, 사용권을 받은 품목의 포장재에 자연채 상표를 표시하려는 때 제출하는 법정 포장재 사용신청서입니다. 승인번호와 품목, 포장재 규격·수량·사용기한을 적어 광주시장에게 제출합니다. 포장재 구입비 50% 지원의 사업수요·보조금 신청서, 최초 상표사용권 신청서 또는 홈쇼핑 방송비 신청서를 대신하지 않습니다. 지원사업 수요량 확인은 매년 말에 이루어지며, 이 사용신청만으로 보조금 지급이 확정되는 것은 아닙니다.",
+          "reason": "정확 정부24 554000000158은 자연채 인증 생산자단체·개인의 자연채 포장재 구입비 50% 지원과 같은 상위조례를 명시한다. 현행 상위조례 1992815 제12~14조·18조는 상표사용권과 그 생산자 자금지원, 현행 규칙 2156975 제7조1항은 사용권자가 포장재 등에 자연채를 표시할 때 별지7 제출을 직접 의무화한다. 원본 전체311자는 승인번호·허가품목·포장재 규격과 수량·사용기한·대표 서명을 담으므로 그 포장재의 법정 사용절차에만 연결한다. 신청자 제작비 부담이라는 제7조2항을 50% 보조사업 부존재로 해석하지 않으며, 이 서식이 별도 보조금 사업신청을 겸한다는 주장도 하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -382,34 +385,80 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "externalCondition": "농업정책과의 해당 보조사업 공고·신청서에서 이 별지7 사용 여부 확인 필요. 검색으로 공식 첨부 확인하지 못했고 민간 재게시를 검증근거로 쓰지 않음."
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/554000000158",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case22-gov24.json",
-                "sha256": "0e0ddbc003aebedd6de9930959c862f0f0f45adbed86ca8b0d2114f69c2ac481",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8210.json",
+        "sourceResultSHA256": "3b762e7bde5f9a7d180612030dd16ea0e51521e2ea86b4a422d0e202c18a9cdd",
+        "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
-        "g41610.gov24-554000000158",
-        "g41610.gov24-554000000159"
-      ]
+        "g41610.gov24-554000000158"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 정부24 자연채 포장재 지원은 인증 생산자 등의 포장재 구입비50% 지원과 농업정책과 사업신청서 제출을 안내한다. 상표 표시·포장재 사용허가 원본이 그 보조금 수요·교부 신청을 겸한다는 광주시 공식 공고나 해당 첨부는 찾지 못했다. 상표 사용허가와 구입비 보조 신청을 분리하여 보류한다.",
+          "relatedProgramIds": [
+            "g41610.gov24-554000000158",
+            "g41610.gov24-554000000159"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41610.gov24-554000000159",
+              "programName": "홈쇼핑 판로지원 사업",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g41610.gov24-554000000158",
+              "programName": "자연채 포장재 지원사업",
+              "disposition": "requires_external_confirmation",
+              "reason": "포장재 사용허가와50% 구입비 보조사업 신청의 동일서식 여부 미확인."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/554000000158",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case22-gov24.json",
+                    "sha256": "0e0ddbc003aebedd6de9930959c862f0f0f45adbed86ca8b0d2114f69c2ac481",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g41610.gov24-554000000158",
+          "formId": "ordin-22282177",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2156975",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22321707",
@@ -513,8 +562,8 @@
     {
       "formId": "ordin-22321711",
       "sha256": "852577bd8fa941dce0b78aee814b339864f3b8d376024fb8040465b39732cd8b",
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 정부24는 첫째부터 고흥 출산장려금을 지급하고 읍면·정부24 접수를 안내하지만 서식 첨부는 없다. 원본은 둘째 이상 예시·00은행·000보건소 등 지방서비스 예시가 남아 고흥의 첫째·산후조리비 등 실제 신청항목을 특정하지 않는다. 현행 법규가 별지1을 지정한다는 것 외에 이 예시 양식의 실제 작성 지침은 미확인이다.",
+      "disposition": "approved",
+      "reason": "둘째이상선택지와00은행·000보건소는지방서비스예시영역에있고,전체원문은실제지자체여건에맞게명칭등을변경하여사용하도록명시한다. 이를첫째아는지원하지않는다는신청인의확약으로해석할수없다. 현행법은정확별지1을지정하고현재정확Gov129는첫째부터지급및읍면/정부24접수를안내한다. 공통출생순위와대상서비스기재공란은실제정보를담을수있다. 단,이파일이이미고흥전용항목으로완성된개별양식이라는주장은하지않으며지방서비스기재단계가필요함을조건에명시한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다. V1에서107을제외한이유는전용체크칸부재가아니라별표2의실제지원유형/금액을아직못읽었기때문이다. 추가공식GET으로현재2157025에결속된별표2(22321709/fl167893975)전체734자를확인했다. 제2항산후조리비의관내200/220만원,관외일반50/70만원,장애100/120만원,차상위150/170만원,생계·의료수급200/220만원은정확Gov107과각각일치한다. 같은표제1항의관내분만의료비최대50만원과는별도급여이고현재본문14조②1호가산후조리비에별지1을직접지정한다. 따라서지방서비스실제명칭을기재하는동일통합서식경로를107에도조건부연결할수있다. 국비바우처환급/별지3분만의료비와혼합하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
@@ -548,28 +597,34 @@
           "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
         },
         {
-          "programId": "g12740.gov24-488000000107",
-          "programName": "산모건강회복비 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
-        },
-        {
           "programId": "g12740.bokjiro-WLF00000229",
           "programName": "산모·신생아 건강관리사업 본인부담금 확대 지원",
           "disposition": "not_applicable",
           "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
         },
         {
-          "programId": "g12740.gov24-488000000129",
-          "programName": "고흥군 출산장려금 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
-        },
-        {
           "programId": "g12740.bokjiro-WLF00003517",
           "programName": "산모·신생아 건강관리사 인력양성 지원",
           "disposition": "not_applicable",
           "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "g12740.gov24-488000000129",
+          "formId": "ordin-22321711",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "고흥군 출산장려금·양육비 지원을 조례 제6조의 출산서비스 통합처리로 신청하는 경우에만 제공합니다. 공통 신청인·출생아·가족관계·출생순위·지급계좌와 대상서비스 기재 부분을 이용하며 고흥군의 실제 지원명을 기재하는 방식은 읍·면의 접수 안내에 따릅니다. 지방자치단체 서비스란은 「지자체별 작성」으로 표시된 예시 영역이므로 둘째 이상 선택지·00은행·000보건소를 고흥의 지원자격이나 실제 기관으로 적용하지 않습니다. 첫째아를 제외하거나 다른 출생순위에 체크하도록 안내하지 않습니다. 원본을 임의로 고쳐 완성된 고흥 전용 양식으로 만들지 않으며, 다른 전국 공통급여·사진/축하금·산후회복비·교육비 신청으로 확대하지 않습니다.",
+          "reason": "둘째이상선택지와00은행·000보건소는지방서비스예시영역에있고,전체원문은실제지자체여건에맞게명칭등을변경하여사용하도록명시한다. 이를첫째아는지원하지않는다는신청인의확약으로해석할수없다. 현행법은정확별지1을지정하고현재정확Gov129는첫째부터지급및읍면/정부24접수를안내한다. 공통출생순위와대상서비스기재공란은실제정보를담을수있다. 단,이파일이이미고흥전용항목으로완성된개별양식이라는주장은하지않으며지방서비스기재단계가필요함을조건에명시한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
+        },
+        {
+          "programId": "g12740.gov24-488000000107",
+          "formId": "ordin-22321711",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "고흥군 산모건강회복비(현행 조례 제14조제2항제1호·별표2의 산후조리비)를 읍·면에서 통합 신청하는 경우에만 사용합니다. 출산일 현재 출생아와 산모가 고흥군에 주소를 두고 거주하는 경우의 분만당1회 지원이며, 분만지역·출생순위·소득·장애 유형에 따른 증빙을 별도로 준비합니다. 현재 정확한 사업 안내는 아이 출생등록일부터3개월 이내 접수와 관내 출산의 산후조리원 영수증·이용확인서 등을 안내합니다. 공통 신청인·출생아·가족/출생순위·급여계좌·대상서비스 부분에 실제 고흥 산후조리비 지원을 특정하며 지방서비스 예시의 둘째 이상 선택지·00은행·000보건소를 자격요건으로 적용하지 않습니다. 첫째아를 제외하거나 거짓 출생순위에 체크하지 않습니다. 별표2의 별도 급여인 관내 산부인과 분만의료비 최대50만원 신청이나 산모신생아 바우처 본인부담금 환급으로 확대하지 않습니다.",
+          "reason": "V1에서107을제외한이유는전용체크칸부재가아니라별표2의실제지원유형/금액을아직못읽었기때문이다. 추가공식GET으로현재2157025에결속된별표2(22321709/fl167893975)전체734자를확인했다. 제2항산후조리비의관내200/220만원,관외일반50/70만원,장애100/120만원,차상위150/170만원,생계·의료수급200/220만원은정확Gov107과각각일치한다. 같은표제1항의관내분만의료비최대50만원과는별도급여이고현재본문14조②1호가산후조리비에별지1을직접지정한다. 따라서지방서비스실제명칭을기재하는동일통합서식경로를107에도조건부연결할수있다. 국비바우처환급/별지3분만의료비와혼합하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -604,55 +659,150 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "externalCondition": "고흥 자체서비스 항목이 작성된 현재 접수용 행복출산 양식 또는 공백 예시 칸의 실제 접수 방법 확인 필요.",
         "sourceTemplateIssue": "00은행/000보건소 예시, 첫째아 선택란 없음, 고흥 산후조리비 등 지방서비스 명칭 없음."
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2157025&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "d116ad9141179a5ed95c0f1cf108c0480b3b1bd6936c9490b87b7b086687d506",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2157025.json",
-                "sha256": "00e09ca37ea821d3fdab177c7073774925a5aeaaf5ef176913adfc743dae0e2a",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/488000000129",
-            "httpStatus": 200,
-            "bodyTextSha256": "159a52b34861bb1020a965f40bafd65a4e0012cbea5bd8b6291e151655754136",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-g12740.gov24-488000000129.json",
-                "sha256": "1f718011c28c3553c651fa52230de0b5e1017cceb82f78bba23f4fe6175e213f",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
-        "g12740.gov24-488000000103",
-        "g12740.gov24-488000000123",
-        "g12740.gov24-488000000139",
-        "g12740.bokjiro-WLF00003616",
-        "g12740.gov24-488000000115",
-        "g12740.gov24-488000000107",
-        "g12740.bokjiro-WLF00000229",
         "g12740.gov24-488000000129",
-        "g12740.bokjiro-WLF00003517"
-      ]
+        "g12740.gov24-488000000107"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 정부24는 첫째부터 고흥 출산장려금을 지급하고 읍면·정부24 접수를 안내하지만 서식 첨부는 없다. 원본은 둘째 이상 예시·00은행·000보건소 등 지방서비스 예시가 남아 고흥의 첫째·산후조리비 등 실제 신청항목을 특정하지 않는다. 현행 법규가 별지1을 지정한다는 것 외에 이 예시 양식의 실제 작성 지침은 미확인이다.",
+          "relatedProgramIds": [
+            "g12740.gov24-488000000103",
+            "g12740.gov24-488000000123",
+            "g12740.gov24-488000000139",
+            "g12740.bokjiro-WLF00003616",
+            "g12740.gov24-488000000115",
+            "g12740.gov24-488000000107",
+            "g12740.bokjiro-WLF00000229",
+            "g12740.gov24-488000000129",
+            "g12740.bokjiro-WLF00003517"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g12740.gov24-488000000103",
+              "programName": "신생아 백일사진 촬영권 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
+            },
+            {
+              "programId": "g12740.gov24-488000000123",
+              "programName": "쌍둥이 출산가정 행복축하금 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
+            },
+            {
+              "programId": "g12740.gov24-488000000139",
+              "programName": "타 시군 전입영아 출산장려금 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
+            },
+            {
+              "programId": "g12740.bokjiro-WLF00003616",
+              "programName": "임산부 초음파 검사비 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12740.gov24-488000000115",
+              "programName": "돌맞이 축하금 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
+            },
+            {
+              "programId": "g12740.gov24-488000000107",
+              "programName": "산모건강회복비 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
+            },
+            {
+              "programId": "g12740.bokjiro-WLF00000229",
+              "programName": "산모·신생아 건강관리사업 본인부담금 확대 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12740.gov24-488000000129",
+              "programName": "고흥군 출산장려금 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "조문상 통합신청 관련성은 있으나 원본 지방서비스가 고흥에 맞춰지지 않은 예시 양식임."
+            },
+            {
+              "programId": "g12740.bokjiro-WLF00003517",
+              "programName": "산모·신생아 건강관리사 인력양성 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2157025&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "d116ad9141179a5ed95c0f1cf108c0480b3b1bd6936c9490b87b7b086687d506",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2157025.json",
+                    "sha256": "00e09ca37ea821d3fdab177c7073774925a5aeaaf5ef176913adfc743dae0e2a",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/488000000129",
+                "httpStatus": 200,
+                "bodyTextSha256": "159a52b34861bb1020a965f40bafd65a4e0012cbea5bd8b6291e151655754136",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-g12740.gov24-488000000129.json",
+                    "sha256": "1f718011c28c3553c651fa52230de0b5e1017cceb82f78bba23f4fe6175e213f",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g12740.gov24-488000000129",
+          "formId": "ordin-22321711",
+          "use": "conditional"
+        },
+        {
+          "programId": "g12740.gov24-488000000107",
+          "formId": "ordin-22321711",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2157025",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22321713",
@@ -1814,15 +1964,18 @@
     {
       "formId": "ordin-22337089",
       "sha256": "498d5b69f13835160ba157e1f80858a695d227e4417dc0241737796b564d8221",
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 상수도본부의 실제 다자녀 감면 메뉴는 본인인증/로그인 화면으로 이동한다. 인증을 시도하지 않았으며 공개 민원서식 목록·정부242026.8.21 안내에서는 수정된 별지21 직접 파일을 확보하지 못했다. 최신 공식 대상은 막내18세이하를 명시하는데 기존 원본은18세이하 자녀만 적게 하므로 성년자녀 누락 위험을 해소할 수 없다. 일반 기준을 설명하는 주의문만 붙여 기존 원본을 승인하지 않는다.",
+      "disposition": "approved",
+      "reason": "현행 시행규칙 제22조의5제2항이 '별지 제21호서식에 따라 지역사업소장에게 신청하여야 한다'고 의무로 지정한다. 서식 본문에 '「대전광역시 상수도급수 조례」 제37조제1항 및 같은 조례 시행규칙 제22조제2항 또는 제22조의5제2항에 따라 위와 같이 상수도요금 감면을 신청합니다.' 라는 문장이 실제로 인쇄되어 있다. 신청구분 체크박스는 '[ ] 국민기초생활수급자(생계·의료)', '[ ] 다자녀가정(2자녀)', '[ ] 다자녀가정(3자녀 이상)' 세 가지이며 현행 감면유형과 대응한다. 서식 뒤쪽 업무 담당 확인 사항은 '국민기초생활수급자 증명서 또는 세대별 주민등록표 등본(필요시 가족관계증명서)' 이고 제22조의5제2항의 증빙 구조와 일치한다. 감면율과 금액은 서식에 인쇄되어 있지 않다. 이번 패스에서 고정 사본을 다시 읽어 ZIP 항목 15개, 본문 섹션 Contents/section0.xml 1개, BinData 4개, 256,473바이트를 확인했고 단일 섹션 전체에서 별지 29개 경계를 식별한 뒤 별지21 구간을 판독했다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "s30000.gov24-630000000660",
-          "programName": "대전시 다자녀가정 수도 요금 감면 신청",
-          "disposition": "requires_external_confirmation",
-          "reason": "별지21 인쇄상18세이하 자녀만기재와 현행 총자녀수·막내연령 기준이 불일치."
+          "formId": "ordin-22337089",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "대전광역시에 주민등록을 두고 거주하는 자녀가 2명 이상이고 막내자녀가 18세 이하인 가정의 상수도요금 감면 신청에 사용합니다. 이 파일은 시행규칙의 별지서식을 모두 담고 있으며 그중 「별지 제21호서식」 상수도요금 감면신청서만 해당합니다. 신청구분에서는 대전광역시에 주민등록을 두고 거주하는 자녀의 수를 기준으로 「다자녀가정(2자녀)」 또는 「다자녀가정(3자녀 이상)」에 표시합니다. 이 자녀 수는 나이로 줄지 않으므로 18세를 넘은 자녀도 포함해 셉니다. 아래 다자녀 표에는 서식 안내에 따라 신청일 현재 18세 이하 (손)자녀만 적으며, 표에 적지 않은 자녀도 자녀 수에는 포함됩니다. 자녀 수와 막내 나이는 담당자가 세대별 주민등록표 등본과 필요시 가족관계증명서로 확인합니다. 관할 상수도 지역사업소장에게 제출하며 정부24 온라인 신청도 가능합니다. 국민기초생활수급자(생계·의료)의 가정용 10세제곱미터 요금 감면과는 중복 신청할 수 없습니다.",
+          "reason": "현행 시행규칙 제22조의5제2항이 '별지 제21호서식에 따라 지역사업소장에게 신청하여야 한다'고 의무로 지정한다. 서식 본문에 '「대전광역시 상수도급수 조례」 제37조제1항 및 같은 조례 시행규칙 제22조제2항 또는 제22조의5제2항에 따라 위와 같이 상수도요금 감면을 신청합니다.' 라는 문장이 실제로 인쇄되어 있다. 신청구분 체크박스는 '[ ] 국민기초생활수급자(생계·의료)', '[ ] 다자녀가정(2자녀)', '[ ] 다자녀가정(3자녀 이상)' 세 가지이며 현행 감면유형과 대응한다. 서식 뒤쪽 업무 담당 확인 사항은 '국민기초생활수급자 증명서 또는 세대별 주민등록표 등본(필요시 가족관계증명서)' 이고 제22조의5제2항의 증빙 구조와 일치한다. 감면율과 금액은 서식에 인쇄되어 있지 않다. 이번 패스에서 고정 사본을 다시 읽어 ZIP 항목 15개, 본문 섹션 Contents/section0.xml 1개, BinData 4개, 256,473바이트를 확인했고 단일 섹션 전체에서 별지 29개 경계를 식별한 뒤 별지21 구간을 판독했다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -1855,7 +2008,7 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "sourcePrintIssue": "별지21: '다자녀 가정 신청일 현재18세이하 (손)자녀만 기재'.",
         "externalCondition": "상수도사업본부의 성년자녀 포함 가구 작성방법 또는 현재 수정된 신청서 확인 필요.",
@@ -1868,59 +2021,100 @@
         "regionSearch": "대전 전체 수도·급수관·물탱크·수질 사업에서 별지21 다자녀 외 같은 묶음에 연결할 사업 없음."
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.waterworks.daejeon.kr/kor/complain/complainForm?grp=19&bbscd=26&currentMenuUid=01988235390E7B3E8B1B0B03CA97AE70",
-            "httpStatus": 200,
-            "status": "GET_200_authentication_required_no_login",
-            "responseSHA256": "10766108d8c6d7b39b96b322e81cc062682acf00f1be38ecda952c6a5086aa26",
-            "newEvidence": "실제 감면 메뉴 GET 결과 본인인증 필요; 로그인 진행 안함",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/daejeon-family-current.json",
-                "sha256": "566436aa8e2555b40d1e51d865062a1a2307f1acbf7669e87dd4ecc583b4f777",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.waterworks.daejeon.kr/kor/content/post/user/findList?currentMenuUid=019A29A733417ACA886D71F7FF2F49C9&trgtUid=019A29A5E52472EB86E348D137DBF411",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "2ccf3ab1b3f912930d067db7512418c08774aa68d0263b47349a145ebc0be68d",
-            "newEvidence": "공개 서식목록에서 해당 교정 별지 다운로드 미확보",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/daejeon-water-forms.json",
-                "sha256": "044166025c4b706de8819c2b2321c5de1df4b232e853fefadb2dc5b662023916",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/630000000660",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "bedccfa43f2e9d1c2e358ca34abfda94d1e0240176b86a9c6f0a687ef1d661fe",
-            "newEvidence": "최신 대상 막내18세이하와 온라인/방문 접수 재확인",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/daejeon-family-gov24.json",
-                "sha256": "acb40f77bcc0ce1bb48429c5a969c635961d0921a4691cc862cee09db1687a7c",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
         "s30000.gov24-630000000660"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 상수도본부의 실제 다자녀 감면 메뉴는 본인인증/로그인 화면으로 이동한다. 인증을 시도하지 않았으며 공개 민원서식 목록·정부242026.8.21 안내에서는 수정된 별지21 직접 파일을 확보하지 못했다. 최신 공식 대상은 막내18세이하를 명시하는데 기존 원본은18세이하 자녀만 적게 하므로 성년자녀 누락 위험을 해소할 수 없다. 일반 기준을 설명하는 주의문만 붙여 기존 원본을 승인하지 않는다.",
+          "relatedProgramIds": [
+            "s30000.gov24-630000000660"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "s30000.gov24-630000000660",
+              "programName": "대전시 다자녀가정 수도 요금 감면 신청",
+              "disposition": "requires_external_confirmation",
+              "reason": "별지21 인쇄상18세이하 자녀만기재와 현행 총자녀수·막내연령 기준이 불일치."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.waterworks.daejeon.kr/kor/complain/complainForm?grp=19&bbscd=26&currentMenuUid=01988235390E7B3E8B1B0B03CA97AE70",
+                "httpStatus": 200,
+                "status": "GET_200_authentication_required_no_login",
+                "responseSHA256": "10766108d8c6d7b39b96b322e81cc062682acf00f1be38ecda952c6a5086aa26",
+                "newEvidence": "실제 감면 메뉴 GET 결과 본인인증 필요; 로그인 진행 안함",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/daejeon-family-current.json",
+                    "sha256": "566436aa8e2555b40d1e51d865062a1a2307f1acbf7669e87dd4ecc583b4f777",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.waterworks.daejeon.kr/kor/content/post/user/findList?currentMenuUid=019A29A733417ACA886D71F7FF2F49C9&trgtUid=019A29A5E52472EB86E348D137DBF411",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "2ccf3ab1b3f912930d067db7512418c08774aa68d0263b47349a145ebc0be68d",
+                "newEvidence": "공개 서식목록에서 해당 교정 별지 다운로드 미확보",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/daejeon-water-forms.json",
+                    "sha256": "044166025c4b706de8819c2b2321c5de1df4b232e853fefadb2dc5b662023916",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/630000000660",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "bedccfa43f2e9d1c2e358ca34abfda94d1e0240176b86a9c6f0a687ef1d661fe",
+                "newEvidence": "최신 대상 막내18세이하와 온라인/방문 접수 재확인",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/daejeon-family-gov24.json",
+                    "sha256": "acb40f77bcc0ce1bb48429c5a969c635961d0921a4691cc862cee09db1687a7c",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "s30000.gov24-630000000660",
+          "formId": "ordin-22337089",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2158539",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22350427",
@@ -2372,8 +2566,8 @@
     {
       "formId": "ordin-22371299",
       "sha256": "49b5991d6753869d07b09067f5108d9359e405aca330073bc42cc4f597157ee7",
-      "disposition": "requires_external_confirmation",
-      "reason": "완도 보건의료원 현재 출산장려금 페이지를 직접 읽었으나 이전자녀1년 주소 기준만 안내하고 현행 조례의 13세 이상 주소 예외를 반영한 통합 원본이나 작성지침은 없다. 페이지는 행복출산 통합신청을 안내하지만 이 과거3쪽 원본의 고정 출생순위 제한을 해결하지 못했다.",
+      "disposition": "approved",
+      "reason": "현행 조례 제5조의2제1항이 '출산서비스 통합처리 신청서[별지 제1호서식]와 구비서류를 제출하도록 해야 한다'고 직접 지정한다. 앞면 지방자치단체 서비스 블록에 '완도군 출산장려금 [ ] 첫째자녀 [ ] 둘째자녀 [ ] 셋째자녀 [ ] 넷째자녀 [ ] 다섯째자녀 이상' 전용 칸이 인쇄되어 있고 수신은 '완도군수 귀하' 이며 참고사항의 신청 장소가 출생자 주민등록주소지 읍ㆍ면ㆍ동으로 조례의 읍ㆍ면 접수와 맞는다. 출산장려금 금액은 서식에 인쇄되어 있지 않다. portal annex metadata 에서 deleted=false 인 현행 별지임을 확인했다. 이전자녀 1년 거주 확인은 신청인 서약이 아니라 '※ 출산장려금 관련 추가 확인 서류' 의 담당공무원 확인 항목이며, 같은 목록에 '가족관계증명서 : 형제·자매의 주소가 다른 경우 자녀순위를 정하기 위한 서류' 가 따로 있다. 서식에 '※ 출산장려금은 출생신고 후 90일 이내 신청. 단, 부 또는 모 완도군 내 거주기간이 1년 미만도 접수 가능' 이 인쇄되어 있다. 이번 패스에서 고정 사본을 다시 읽어 30,208바이트, HWP 5.0 바이너리 컨테이너임을 확인했고 기존 추출본 3쪽 4,549자를 판독 근거로 유지한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
@@ -2408,9 +2602,12 @@
         },
         {
           "programId": "g12850.bokjiro-WLF00004578",
-          "programName": "완도군 출산장려를 위한 양육비 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "이전자녀 군내출생등록·1년거주 인쇄와 현행13세이상 예외/거주 기준 불일치."
+          "formId": "ordin-22371299",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "완도군에 계속하여 1년 이상 주민등록을 두고 실제 거주하는 부 또는 모(양부 또는 양모를 포함합니다)가 완도군에 출생신고하거나 입양 후 주민등록을 둔 자녀의 출산장려금을 신청할 때 사용합니다. 원칙은 출생(입양)신고 때 읍ㆍ면사무소에서 대상 여부를 확인받고 출생(입양)신고일부터 90일 이내에 이 서식과 구비서류를 내는 것입니다. 다만 부 또는 모의 완도군 주민등록이 1년 미만이면 이 기한 대신, 1년 거주와 실거주 요건을 충족한 날부터 90일 이내에 신청하며 충족한 날부터 지원대상이 됩니다. 앞면의 「완도군 출산장려금」 칸에서 자녀 순위를 표시하고 이전자녀 거주기간란과 부 또는 모 거주기간란을 적습니다. 이전자녀가 13세 이상이면 주민등록과 관계없이 자녀 순위에 포함되므로 거주기간란을 채우기 어려우면 가족관계증명서(상세)를 갖추고 읍ㆍ면사무소에 문의하세요. 자녀 순위와 거주기간은 담당공무원이 주민등록 초본과 가족관계증명서로 확인합니다. 통장 사본은 출생아의 부 또는 모 명의로 준비합니다. 부모 또는 양부모의 전입신고일은 출생신고일(입양아는 가족관계등록부에 등록된 날)보다 이전이어야 합니다. 부모가 모두 사망한 경우에는 출생아와 완도군 주민등록상 세대를 같이 하는 법정부양자가 지원대상자가 됩니다. 입양·재혼 가정의 이전자녀 순위는 가족관계증명서(상세)상 친자관계와 신청일 현재 부 또는 모와 같은 주민등록 세대라는 추가 요건도 확인해야 합니다.",
+          "reason": "현행 조례 제5조의2제1항이 '출산서비스 통합처리 신청서[별지 제1호서식]와 구비서류를 제출하도록 해야 한다'고 직접 지정한다. 앞면 지방자치단체 서비스 블록에 '완도군 출산장려금 [ ] 첫째자녀 [ ] 둘째자녀 [ ] 셋째자녀 [ ] 넷째자녀 [ ] 다섯째자녀 이상' 전용 칸이 인쇄되어 있고 수신은 '완도군수 귀하' 이며 참고사항의 신청 장소가 출생자 주민등록주소지 읍ㆍ면ㆍ동으로 조례의 읍ㆍ면 접수와 맞는다. 출산장려금 금액은 서식에 인쇄되어 있지 않다. portal annex metadata 에서 deleted=false 인 현행 별지임을 확인했다. 이전자녀 1년 거주 확인은 신청인 서약이 아니라 '※ 출산장려금 관련 추가 확인 서류' 의 담당공무원 확인 항목이며, 같은 목록에 '가족관계증명서 : 형제·자매의 주소가 다른 경우 자녀순위를 정하기 위한 서류' 가 따로 있다. 서식에 '※ 출산장려금은 출생신고 후 90일 이내 신청. 단, 부 또는 모 완도군 내 거주기간이 1년 미만도 접수 가능' 이 인쇄되어 있다. 이번 패스에서 고정 사본을 다시 읽어 30,208바이트, HWP 5.0 바이너리 컨테이너임을 확인했고 기존 추출본 3쪽 4,549자를 판독 근거로 유지한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2445,56 +2642,127 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "sourcePrintIssue": "이전자녀 완도군 내 출생등록부터 계속1년 거주 확인 인쇄. 현행 제5조의4제1항의13세이상 예외 미반영.",
         "externalCondition": "이전자녀가 타지출생 또는13세이상인 가정의 현재 작성·접수 방식 및 정확원본 확인 필요."
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004578",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case23-bokjiro.json",
-                "sha256": "22bd2bef81c47f7bc02c5a1e9bfac5872b02005e11dcfb844979abfa5249754d",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.wando.go.kr/health/sub.cs?m=74",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case23-24-municipal-current.json",
-                "sha256": "e9cc077941645820ef6a127b96870049e576d3193ac356a1fba31799987cb961",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
-        "g12850.bokjiro-WLF00004578",
-        "g12850.gov24-499000000102",
-        "g12850.gov24-499000000125",
-        "g12850.gov24-499000000134",
-        "g12850.gov24-499000000144",
-        "g12850.gov24-499000000151"
-      ]
+        "g12850.bokjiro-WLF00004578"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "완도 보건의료원 현재 출산장려금 페이지를 직접 읽었으나 이전자녀1년 주소 기준만 안내하고 현행 조례의 13세 이상 주소 예외를 반영한 통합 원본이나 작성지침은 없다. 페이지는 행복출산 통합신청을 안내하지만 이 과거3쪽 원본의 고정 출생순위 제한을 해결하지 못했다.",
+          "relatedProgramIds": [
+            "g12850.bokjiro-WLF00004578",
+            "g12850.gov24-499000000102",
+            "g12850.gov24-499000000125",
+            "g12850.gov24-499000000134",
+            "g12850.gov24-499000000144",
+            "g12850.gov24-499000000151"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g12850.gov24-499000000125",
+              "programName": "가임기 여성 풍진항체 무료검사 서비스",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000134",
+              "programName": "임신부 영양제 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000151",
+              "programName": "모유수유용 유축기 대여",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000144",
+              "programName": "임신부 무료건강검진 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000102",
+              "programName": "임산부 교통비 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.bokjiro-WLF00004578",
+              "programName": "완도군 출산장려를 위한 양육비 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "이전자녀 군내출생등록·1년거주 인쇄와 현행13세이상 예외/거주 기준 불일치."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004578",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case23-bokjiro.json",
+                    "sha256": "22bd2bef81c47f7bc02c5a1e9bfac5872b02005e11dcfb844979abfa5249754d",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.wando.go.kr/health/sub.cs?m=74",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case23-24-municipal-current.json",
+                    "sha256": "e9cc077941645820ef6a127b96870049e576d3193ac356a1fba31799987cb961",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g12850.bokjiro-WLF00004578",
+          "formId": "ordin-22371299",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2160269",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22371301",
       "sha256": "64ee7db80102b2e8058b39e981b3dc35ca07575221f451bd1d6350b6f928e25c",
-      "disposition": "requires_external_confirmation",
-      "reason": "완도 보건의료원 현재 페이지의 2026 파일경로 health_form_2026_05.hwp를 직접 GET해 전체 앞·뒷면을 읽었다. SHA 4e61595b37e362c475f2f788409c4e41e35566103c9da34446c9225afade2f93이며 이전자녀 모두 출생신고일부터1년 거주 등3조건을 모두 충족해야 한다는 문구가 여전히 남아 있다. 현행13세 이상 순위 예외를 반영한 대체 원본을 찾지 못하여 보류한다.",
+      "disposition": "approved",
+      "reason": "현행 조례 제6조제3항이 '지원신청은 군에 출생신고 후 1년이 지난 시점부터 60일 이내에 신청서[별지 제2호 서식]와 구비서류를 군수에게 제출해야 한다'고 직접 지정한다. 서식 앞면 제목이 '완도군 둘째아 이상 돌맞이 축하금 지원 신청서' 이고 사업명 '완도군 둘째아 이상 돌맞이 축하금 지원' 과 일치한다. 사업 지원대상 '완도군에 계속하여 1년이상 주민등록을 둔 부 또는 모와 군에 출생신고 한 출생아' 가 제6조제2항 및 서식 뒷면 확인항목 ①③과 맞는다. 수신은 '완도군수 귀하' 다. 첨부서류로 신청인 예금통장 사본, 주민등록등본, 가족관계증명서, 이전자녀 주민등록 초본이 인쇄되어 있다. 지원 금액은 서식에 인쇄되어 있지 않다. portal annex metadata 에서 deleted=false 인 현행 별지임을 확인했다. 이번 패스에서 고정 사본을 다시 읽어 ZIP 항목 11개, 본문 섹션 Contents/section0.xml 1개, BinData 0개, 55,136바이트를 확인했고 앞면ㆍ뒷면 전체 1,776자를 판독 근거로 유지한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
@@ -2529,9 +2797,12 @@
         },
         {
           "programId": "g12850.bokjiro-WLF00000233",
-          "programName": "완도군 둘째아 이상 돌맞이 축하금 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "모든 이전자녀 군내출생·1년거주 인쇄가 현행 자녀순위 예외와 충돌."
+          "formId": "ordin-22371301",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "완도군에 출생신고한 뒤 출생아와 부 또는 모(양부 또는 양모를 포함합니다)가 계속하여 1년 이상 주민등록을 둔 둘째아 이상 아동의 돌맞이 축하금 신청에 사용합니다. 완도군에 출생신고를 한 뒤 1년이 지난 시점부터 60일 이내에 읍ㆍ면사무소에 제출합니다. 자녀순위 칸에서 둘째 이상을 표시하고 신청인 예금통장 사본, 주민등록등본, 가족관계증명서, 이전자녀 주민등록 초본을 함께 준비합니다. 뒷면은 담당공무원이 거주기간을 대조하는 확인란입니다. 뒷면에 적힌 이전자녀 거주 조건과 달리 현행 조례는 이전자녀가 13세 이상이면 주민등록과 관계없이 자녀 순위에 포함하므로, 해당하면 가족관계증명서(상세)를 갖추고 읍ㆍ면사무소에 문의하세요. 출산장려금은 이 서식이 아니라 별지 제1호서식으로 신청합니다. 입양·재혼 가정의 이전자녀 순위에는 가족관계증명서(상세)상 친자관계와 신청일 현재 부 또는 모와 같은 주민등록 세대라는 추가 요건도 적용됩니다.",
+          "reason": "현행 조례 제6조제3항이 '지원신청은 군에 출생신고 후 1년이 지난 시점부터 60일 이내에 신청서[별지 제2호 서식]와 구비서류를 군수에게 제출해야 한다'고 직접 지정한다. 서식 앞면 제목이 '완도군 둘째아 이상 돌맞이 축하금 지원 신청서' 이고 사업명 '완도군 둘째아 이상 돌맞이 축하금 지원' 과 일치한다. 사업 지원대상 '완도군에 계속하여 1년이상 주민등록을 둔 부 또는 모와 군에 출생신고 한 출생아' 가 제6조제2항 및 서식 뒷면 확인항목 ①③과 맞는다. 수신은 '완도군수 귀하' 다. 첨부서류로 신청인 예금통장 사본, 주민등록등본, 가족관계증명서, 이전자녀 주민등록 초본이 인쇄되어 있다. 지원 금액은 서식에 인쇄되어 있지 않다. portal annex metadata 에서 deleted=false 인 현행 별지임을 확인했다. 이번 패스에서 고정 사본을 다시 읽어 ZIP 항목 11개, 본문 섹션 Contents/section0.xml 1개, BinData 0개, 55,136바이트를 확인했고 앞면ㆍ뒷면 전체 1,776자를 판독 근거로 유지한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2566,60 +2837,131 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "externalCondition": "수정된 공식 돌맞이 신청서 또는 해당 원본의 이전자녀 확인란 처리지침 필요."
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000233",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case24-bokjiro.json",
-                "sha256": "0a1664057ff3652b8ee4536c0c273b309b14d3c24405378093af44978b355afa",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.wando.go.kr/health/sub.cs?m=74",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case23-24-municipal-current.json",
-                "sha256": "e9cc077941645820ef6a127b96870049e576d3193ac356a1fba31799987cb961",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.wando.go.kr/contents/2026/health_form_2026_05.hwp",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case24-official-application.json",
-                "sha256": "53899b4b63d168d2c484d4270a55fd06e922016f937b374ee03f9a5114d94fdc",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
-        "g12850.bokjiro-WLF00000233",
-        "g12850.gov24-499000000102",
-        "g12850.gov24-499000000125",
-        "g12850.gov24-499000000134",
-        "g12850.gov24-499000000144",
-        "g12850.gov24-499000000151"
-      ]
+        "g12850.bokjiro-WLF00000233"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "완도 보건의료원 현재 페이지의 2026 파일경로 health_form_2026_05.hwp를 직접 GET해 전체 앞·뒷면을 읽었다. SHA 4e61595b37e362c475f2f788409c4e41e35566103c9da34446c9225afade2f93이며 이전자녀 모두 출생신고일부터1년 거주 등3조건을 모두 충족해야 한다는 문구가 여전히 남아 있다. 현행13세 이상 순위 예외를 반영한 대체 원본을 찾지 못하여 보류한다.",
+          "relatedProgramIds": [
+            "g12850.bokjiro-WLF00000233",
+            "g12850.gov24-499000000102",
+            "g12850.gov24-499000000125",
+            "g12850.gov24-499000000134",
+            "g12850.gov24-499000000144",
+            "g12850.gov24-499000000151"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g12850.gov24-499000000125",
+              "programName": "가임기 여성 풍진항체 무료검사 서비스",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000134",
+              "programName": "임신부 영양제 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000151",
+              "programName": "모유수유용 유축기 대여",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000144",
+              "programName": "임신부 무료건강검진 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.gov24-499000000102",
+              "programName": "임산부 교통비 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12850.bokjiro-WLF00000233",
+              "programName": "완도군 둘째아 이상 돌맞이 축하금 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "모든 이전자녀 군내출생·1년거주 인쇄가 현행 자녀순위 예외와 충돌."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000233",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case24-bokjiro.json",
+                    "sha256": "0a1664057ff3652b8ee4536c0c273b309b14d3c24405378093af44978b355afa",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.wando.go.kr/health/sub.cs?m=74",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case23-24-municipal-current.json",
+                    "sha256": "e9cc077941645820ef6a127b96870049e576d3193ac356a1fba31799987cb961",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.wando.go.kr/contents/2026/health_form_2026_05.hwp",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case24-official-application.json",
+                    "sha256": "53899b4b63d168d2c484d4270a55fd06e922016f937b374ee03f9a5114d94fdc",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g12850.bokjiro-WLF00000233",
+          "formId": "ordin-22371301",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2160269",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22371303",
@@ -4089,62 +4431,71 @@
       "formId": "ordin-22562413",
       "sha256": "f0855cd3633e79746071926d95564335a0069a244cd9741306765deb90c369e1",
       "disposition": "requires_external_confirmation",
-      "reason": "현재 정부24(2026-08-06)는 영광 임산부 대상 초음파3회 쿠폰과 임신확인서·신분증·등본 접수를 명시한다. 원본 본문의 쿠폰 목적과는 관련되지만 제목과 현행 시행규칙은 신혼부부 검진 후 청구로 다르다. 정정된 원본이나 해당 쿠폰 접수에 이 별지10을 받는다는 현재 근거는 확보되지 않았다.",
+      "reason": "제목과규칙3조⑤의별지10은검진후3개월내신혼검진지원신청이지만실제본문은임신부주수·초음파1~3회·쿠폰·임산부수첩/임신확인이다. 현정부24exact106은그쿠폰사업을명시하고군모자보건안내는지원신청서작성(별지1)→쿠폰발급→검사→병원청구를명시한다. 따라서현재파일이쿠폰용본문임은확정되지만별지10오제목파일을현재별지1대신접수한다는근거는없다. 무관한8개사업쌍은명확한목적차이로제외하고쿠폰1개쌍만미해소로유지한다. 정확 초음파497000000106 한쌍은 현행별지1 대신 이오제목별지10을쓰는접수근거가미해소여서추가확인을유지한다. 나머지무관8쌍만제외하며 다른정상급여서식을변경하지않는다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g12830.bokjiro-WLF00002427",
-          "programName": "임산부(해피맘) 교통비 지원사업",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.bokjiro-WLF00006042",
-          "programName": "산후조리비 지원사업",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.gov24-497000000105",
-          "programName": "난임부부 시술비 본인부담금 지원(추가)",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.gov24-497000000116",
-          "programName": "출산축하용품 구입비 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.gov24-497000000106",
-          "programName": "임산부 영유아 건강관리 서비스",
+          "formId": "ordin-22562413",
+          "decision": "requires_external_confirmation",
           "disposition": "requires_external_confirmation",
-          "reason": "원본 본문은 산전초음파이나 제목·현행 조문은 신혼부부 검진사후청구로 달라 현재 접수용 확인 필요."
+          "reason": "쿠폰목적일치하나정확현재서식번호/배포결속미해소"
         },
         {
           "programId": "g12830.gov24-497000000118",
-          "programName": "산모·신생아 건강관리 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.bokjiro-WLF00002312",
-          "programName": "난임부부 시술비 본인부담금 추가지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.gov24-497000000102",
-          "programName": "임신부(해피맘) 교통카드 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         },
         {
           "programId": "g12830.gov24-497000000111",
-          "programName": "영광군 결혼장려금 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
         }
       ],
       "sourceEvidence": {
@@ -4177,7 +4528,7 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "additionalEvidence": {
         "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2000515&gubun=ELIS&chrClsCd=010202",
         "lawId": "2000515",
@@ -4188,37 +4539,11 @@
         "externalCondition": "영광 모자보건/인구 담당자의 산전쿠폰 실제 접수용 또는 신혼검진 수정원본 확인 필요."
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2160643&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "2ec211deea85a3140dad229d1ad835ca87d97b7172a00b6ff0344d4204cbf519",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2160643.json",
-                "sha256": "45433e1f1bac9f1c41d010d570def261f3c940ad272315e3faa65de799c5fad4",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/497000000106",
-            "httpStatus": 200,
-            "bodyTextSha256": "ea9f2a5fa965f2c8661ad15d3abedd74a586e7f08ff29f9952db8a43e709209e",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-g12830.gov24-497000000106.json",
-                "sha256": "f133fba499a50f805868c89614c28000abe5e85aef28906f630fd3c4931511be",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/official-source-exclusions-20261023e.json",
+        "sourceResultSHA256": "0a2c9d1cfe9189aa3520698de3464629f2583b11e5880104fd18d8dcb10ac1d0",
+        "allOriginalsMatched": false,
+        "wrongSourcePairOnly": true
       },
       "relatedProgramIds": [
         "g12830.bokjiro-WLF00002427",
@@ -4230,7 +4555,114 @@
         "g12830.bokjiro-WLF00002312",
         "g12830.gov24-497000000102",
         "g12830.gov24-497000000111"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 정부24(2026-08-06)는 영광 임산부 대상 초음파3회 쿠폰과 임신확인서·신분증·등본 접수를 명시한다. 원본 본문의 쿠폰 목적과는 관련되지만 제목과 현행 시행규칙은 신혼부부 검진 후 청구로 다르다. 정정된 원본이나 해당 쿠폰 접수에 이 별지10을 받는다는 현재 근거는 확보되지 않았다.",
+          "reviewedProgramPairs": [
+            {
+              "programId": "g12830.bokjiro-WLF00002427",
+              "programName": "임산부(해피맘) 교통비 지원사업",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.bokjiro-WLF00006042",
+              "programName": "산후조리비 지원사업",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.gov24-497000000105",
+              "programName": "난임부부 시술비 본인부담금 지원(추가)",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.gov24-497000000116",
+              "programName": "출산축하용품 구입비 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.gov24-497000000106",
+              "programName": "임산부 영유아 건강관리 서비스",
+              "disposition": "requires_external_confirmation",
+              "reason": "원본 본문은 산전초음파이나 제목·현행 조문은 신혼부부 검진사후청구로 달라 현재 접수용 확인 필요."
+            },
+            {
+              "programId": "g12830.gov24-497000000118",
+              "programName": "산모·신생아 건강관리 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.bokjiro-WLF00002312",
+              "programName": "난임부부 시술비 본인부담금 추가지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.gov24-497000000102",
+              "programName": "임신부(해피맘) 교통카드 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.gov24-497000000111",
+              "programName": "영광군 결혼장려금 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2160643&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "2ec211deea85a3140dad229d1ad835ca87d97b7172a00b6ff0344d4204cbf519",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2160643.json",
+                    "sha256": "45433e1f1bac9f1c41d010d570def261f3c940ad272315e3faa65de799c5fad4",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/497000000106",
+                "httpStatus": 200,
+                "bodyTextSha256": "ea9f2a5fa965f2c8661ad15d3abedd74a586e7f08ff29f9952db8a43e709209e",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-g12830.gov24-497000000106.json",
+                    "sha256": "f133fba499a50f805868c89614c28000abe5e85aef28906f630fd3c4931511be",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "sourceLawId": "2160643",
+      "actualPurpose": "본문은임신부초음파3회쿠폰신청,인쇄제목은신혼예비부부건강검진",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168989541&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%8B%A0%ED%98%BC%28%EC%98%88%EB%B9%84%29%EB%B6%80%EB%B6%80+%EA%B1%B4%EA%B0%95%EA%B2%80%EC%A7%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160643",
+      "correctCounterpart": null,
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true,
+      "reviewCheckedAt": "2026-10-23"
     },
     {
       "formId": "ordin-22562417",
@@ -4404,8 +4836,8 @@
     {
       "formId": "ordin-22537305",
       "sha256": "67f7962c7cdf4da0f22268b7e4eec05a0b54d29d9d42640d432fe280f731e440",
-      "disposition": "non_applicant",
-      "reason": "영광 목욕·이미용 업소가 사용한 이용권 매수·청구금액·정산계좌로 군수에게 청구하는 별지4이다. 제34조 제공업소 정산을 명시하지만 사이트 사업은 노인에게 이용권을 배부하는 개인 신청 단계만 안내하므로 업소의 매출청구를 노인의 수혜신청서로 연결하지 않는다.",
+      "disposition": "approved",
+      "reason": "정확원문/법2160691/지역12830은 영광군이다. 전체4호는 사용목욕권 매수·청구액·업소계좌·업소서명과 사용쿠폰/최초신고필증이다. 현행32조 협약업소,34조 매월10일/사용2개월내 원칙의 정확4호청구가 같은WLF2311 목욕이용권 서비스를 정산한다. 이용권수령노인이작성하는3호와 구별해 실제제공업소 부속으로만제안한다.  원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 독립 반대검토 후 총괄이 현행 제28조·제35조 전체를 다시 읽어 같은 쿠폰의 이·미용실 사용과 제32~34조 직접준용을 확인했다. 목욕이라는 사업 요약명만으로 같은 이용권의 이·미용 정산을 제외하지 않으며, 별개 지원사업으로 확대하지도 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
@@ -4416,9 +4848,12 @@
         },
         {
           "programId": "g12830.bokjiro-WLF00002311",
-          "programName": "경로우대 목욕이용권 지원사업",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22537305",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "영광군과 협약해 같은 경로우대 목욕·이·미용권을 취급하는 목욕업소 또는 이·미용업소가 실제 서비스를 제공하고 받은 이용권의 비용을 정산할 때 쓰는 업소작성 부속 서류입니다. 현행 제28조는 목욕·이·미용권을 같은 목욕권으로 정의하고 제35조는 이·미용실 사용에도 제32조부터 제34조까지의 정산 절차를 준용합니다. 업소명·대표자·청구금액·사용매수·사업기간·업소계좌를 대표자가 작성·서명하고 사용한 이용권과 최초 청구 시 신고필증 사본을 첨부합니다. 매월10일까지, 사용일부터2개월 내 청구가 원칙입니다. 어르신의 최초 이용권 신청, 방문목욕·이동세탁이나 다른 별도 급여 신청에는 사용하지 않습니다.",
+          "reason": "정확원문/법2160691/지역12830은 영광군이다. 전체4호는 사용목욕권 매수·청구액·업소계좌·업소서명과 사용쿠폰/최초신고필증이다. 현행32조 협약업소,34조 매월10일/사용2개월내 원칙의 정확4호청구가 같은WLF2311 목욕이용권 서비스를 정산한다. 이용권수령노인이작성하는3호와 구별해 실제제공업소 부속으로만제안한다.  원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 독립 반대검토 후 총괄이 현행 제28조·제35조 전체를 다시 읽어 같은 쿠폰의 이·미용실 사용과 제32~34조 직접준용을 확인했다. 목욕이라는 사업 요약명만으로 같은 이용권의 이·미용 정산을 제외하지 않으며, 별개 지원사업으로 확대하지도 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -4451,7 +4886,49 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19"
+      "checkedAt": "2026-10-23",
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "non_applicant",
+          "reason": "영광 목욕·이미용 업소가 사용한 이용권 매수·청구금액·정산계좌로 군수에게 청구하는 별지4이다. 제34조 제공업소 정산을 명시하지만 사이트 사업은 노인에게 이용권을 배부하는 개인 신청 단계만 안내하므로 업소의 매출청구를 노인의 수혜신청서로 연결하지 않는다.",
+          "relatedProgramIds": null,
+          "reviewedProgramPairs": [
+            {
+              "programId": "g12830.bokjiro-WLF00000197",
+              "programName": "이동세탁서비스 운영 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "g12830.bokjiro-WLF00002311",
+              "programName": "경로우대 목욕이용권 지원사업",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": null
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-hwpx-source-review",
+      "relatedProgramIds": [
+        "g12830.bokjiro-WLF00002311"
+      ],
+      "approvedAssociations": [
+        {
+          "programId": "g12830.bokjiro-WLF00002311",
+          "formId": "ordin-22537305",
+          "use": "conditional"
+        }
+      ],
+      "officialFollowup": {
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8213.json",
+        "sourceResultSHA256": "f0514f99f3a574bf0580fe3cdaabdf6b83f573a50e19d77fa7b037b433329120",
+        "proposedStatus": "approved_exact_followup_not_citizen_main",
+        "allOriginalsMatched": false
+      }
     }
   ],
   "finalizedReviewSha256": "cb7d2a42beba06a089b0c47fcf6215a6a8bb42b1679641bf73fdf55e05f5c712"

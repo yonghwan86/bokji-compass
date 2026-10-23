@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "reviewedOriginals": 10,
+  "reviewedLaws": 8,
+  "baselineExternalOriginals": 88,
+  "otherExternalOriginalsNotRevisitedThisPass": 78,
+  "originalDispositionChanges": 0,
+  "newAgencyOriginalsPublished": 1,
+  "newProgramAssociationsPublished": 1,
+  "allOriginalsMatched": false,
+  "scope": "Follow-up of ten fixed4006 originals requiring external confirmation. New official agency form is a separate identity; the old law original is unchanged.",
+  "sourceReportSHA256": "3ab7a733b357065d4363b102dfcc4094afbe15718edbfac94d8173fc64a21028",
+  "items": [
+    {
+      "formId": "ordin-20113043",
+      "sha256": "1e45a2022a94a7ee868dc67dc4925074f90c78c22ec7b110963bd1989c5ac50c",
+      "lawId": "1220731",
+      "lawTitle": "합천군 저소득주민의 생활안정지원 및 노인복지 증진에 관한 조례 시행규칙",
+      "title": "[별지 제1호서식] 청소년보호법 위반신고자 포상금 신청서",
+      "regionCode": "48890",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "현재 MCP는 합천 저소득주민 시행규칙1220731을 반환하고 제2조는 긴급지원 별지1을 지정한다. 그러나 오늘 직접 받은 flSeq152490437 원본은 같은SHA의 청소년보호법 위반신고자 포상금(실제인쇄별지2)이다. 현재 정부24 정확548000000104의 생활안정/생계곤란 구호비 및 복지로 WLF00002897과 목적·작성사항이 다르다. 같은 법규목록에 붙었다는 이유로 오첨부를 긴급구호 신청서로 승인하지 않는다. 공식 검색에서 교정된 지원신청 원본을 찾지 못했다.",
+      "newEvidence": "10월22일 exact 정부24/복지로 본문 및 현행검색·원본바이트 재확인. 잘못된 원본 결속은 지속.",
+      "applicantPurposeReview": "청소년보호법 위반 신고자; 검토대상 긴급생계지원 신청인과 목적 다름",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002897&wlfareInfoReldBztpCd=02",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/548000000104"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-20232531",
+      "sha256": "b4a2181da762104a9d44e5ea91eba750b02dd9562a74a987882cb53c8ae57e78",
+      "lawId": "1986069",
+      "lawTitle": "양구군 출생아 건강보험 가입지원에 관한 조례",
+      "title": "[별지 제1호서식] 출생아 건강보험 가입지원 신청서",
+      "regionCode": "51800",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "양구 보건소 현재 안내는 출생신고 시 읍면사무소에서 신청서 작성을 안내하지만 판본을 지정·배포하지 않는다. 현행1986069 제5조제2호는 임신·출산 서비스 통합처리 규정을 준용한다. 잔존 개별별지1의 현재 접수 사용 여부는 여전히 미확인이다. 제4조 월3만원 이하/5년 범위와 사이트 기존 월2만원 및 보건소3년납5년보장은 각각 다른 기준이므로 임의 통일하지 않았다.",
+      "newEvidence": "현행MST와 실제개별서식SHA불변, 현재 보건소 동일응답SHA까지 재확인.",
+      "applicantPurposeReview": "출생아의 보호자",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://yanggu.go.kr/health/user_sub?gfnc=health&mu_idx=441"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-20589281",
+      "sha256": "27a18064215adb1a12ca5239a277cb8cb1a2f76a3c7908dbf932cec7b8401990",
+      "lawId": "2058863",
+      "lawTitle": "파주시 출생축하 및 다자녀가정 지원에 관한 조례",
+      "title": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "regionCode": "41480",
+      "originalFormat": "hwpx",
+      "baselineState": "requires_external_confirmation",
+      "reason": "현행2058863 제5조와 현재 파주시·복지로는 최초10/30/100만원 후1년뒤90/170/200만원 분할지급을 명시한다. 원본의10/30/100만원은 현재최초분과 일치하므로 단순히 옛 금액이라 단정한 사유는 정밀화했다. 다만 경기도1년거주 산후조리비 및 옛 전국서비스가 섞인 이 통합파일을 파주 출생축하금 최초부분만 사용하는 실제 접수지시, 현행 통합규정 판본 채택 근거는 새로 확보하지 못했다. 제한 문구만 붙여 오래된 혼합서식을 승인하지 않는다.",
+      "newEvidence": "현재 최초지급분과 인쇄액의 일치 확인. 지원총액 불일치라는 단순 설명은 부정확하지만 원본 현행사용 문제는 미해소.",
+      "applicantPurposeReview": "출생아 보호자; 지방출생축하금 부분만 검토가능성이 있음",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001658&wlfareInfoReldBztpCd=02",
+        "https://www.paju.go.kr/www/open_info/open_info_12.jsp"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-21127609",
+      "sha256": "b6100833b99537ce6e62a7fb00a82d5721d4226943c5f84a73d9d1c3e3a77599",
+      "lawId": "1891429",
+      "lawTitle": "아산시 산후관리비 지원 조례",
+      "title": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "regionCode": "44200",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "현행1891429 제3조는 출산일전6개월 거주, 제5조는 통합처리 신청과출생후6개월내 신청을 명시한다. 시청현재페이지와2026-06-04보건소 공식보도도6개월이다. 반면 오늘복지로 exactWLF00005064는12개월 안내와2022 통합신청서를 계속배포하여 공식출처간 불일치가 지속된다. 기존21127609도옛영아수당·범용지역작성란을 포함한 같은원본이다. 아산 산후관리비에 채택된 현재 지역기입완료 서식 또는 작성지시 없이 승인하지 않는다.",
+      "newEvidence": "2026보건소 공식보도를 추가확보하여6개월 법규·시청안내를 교차확인했으나 복지로12개월 불일치와 별지판본 문제는 남음.",
+      "applicantPurposeReview": "신생아의 부 또는 모",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://abn.asan.go.kr/develop/m_news/?PageNo=37&a_no=5&cate=news&m_mode=view&pds_no=2026060405545966126",
+        "https://www.asan.go.kr/main/cms/?no=432",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005064&wlfareInfoReldBztpCd=02"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-21331033",
+      "sha256": "e94a84ef3706dc334c10265f07d067683f4b63bbfe1f04db6f56628edccb462e",
+      "lawId": "2104785",
+      "lawTitle": "제주특별자치도 장애인복지 등에 관한 조례",
+      "title": "[별지 8호서식] 재활보조기구 교부(대여·수리)신청서",
+      "regionCode": "50000",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "현행2104785 제17조 삭제와 잔존별지8을 재대조했다. 현재보건복지부 제주메뉴판3쪽 전국2-4-2는 저소득장애인46종 보조기기교부와 제주보조기기센터를 명시하지만 구조례별지8 접수는 지정하지 않는다. 이사업을 여성장애인 가사도우미650000000284에 연결하지 않는다. 공개공식검색에서 제주가 실제채택한 현행독립신청서/법정대체양식의 제출관계를 확보하지 못했다.",
+      "newEvidence": "보건복지부 현재26년7월메뉴PDF 실제GET·3쪽시각확인; 제공기관/대상/사업목적은 보완, 별지8 사용은 미확인.",
+      "applicantPurposeReview": "보조기기 교부·대여·수리 신청 장애인; 가사도우미 신청과 다름",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.mohw.go.kr/board.es?mid=a60610000000&bid=0084&act=view&list_no=1489830&tag=&nPage=1",
+        "https://www.mohw.go.kr/boardDownload.es?bid=0084&list_no=1489830&seq=1"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-21543487",
+      "sha256": "a73d4cd0843328c154b16e5a253b2e20c2b15500477ad61cc360a7107aff2ec8",
+      "lawId": "2103029",
+      "lawTitle": "예산군 인구증가 시책추진 지원에 관한 조례 시행규칙",
+      "title": "[별지 제18호서식] 임산부 교통비 지원 신청서",
+      "regionCode": "44810",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "현재보건소는 예산군주소 임산부를 안내하고 복지로WLF00006602는 임산부본인6개월거주를 안내한다. 그러나 현재공식자료실의2026-01-13별도HWP를 다시받아도 이전과같은SHA이며 부부모두6개월·미달시충족후지급 문구가 남는다. 현행규칙제16조의18호지정만으로 각출처의대상불일치와배우자조건을 해소할수없어 보류한다.",
+      "newEvidence": "원조례원본과 별도2026보건소배포본을 모두직접재GET; 보건소배포SHA도10월19일과동일.",
+      "applicantPurposeReview": "임산부 본인, 배우자 거주기간 요구가 현재 안내와 불일치",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006602&wlfareInfoReldBztpCd=02",
+        "https://www.yesan.go.kr/bbs/BBSMSTR_000000000099/list.do",
+        "https://www.yesan.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000036611Ss1&fileSn=0",
+        "https://yesan.go.kr/health/sub03_06_02.do",
+        "https://yesan.go.kr/health/sub04_01.do"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-21543489",
+      "sha256": "e96f605f528d9071fdf11c74dc3e4a64f127bddd45dfe92b33252eeb6c4f25cf",
+      "lawId": "2103029",
+      "lawTitle": "예산군 인구증가 시책추진 지원에 관한 조례 시행규칙",
+      "title": "[별지 제19호서식] 산후조리원 비용 지원 신청서",
+      "regionCode": "44810",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "보건소현재의료비표는 산후조리원이용90%/최대100만원, 복지로WLF00006603은6개월거주산모의산후조리비100만원을안내한다. 공식자료실2026-01-10대체HWPX도이전동일SHA로부부모두6개월·미달시충족후지급을기재한다. 원본은산후조리원90%상한인쇄가있고현재사업은범위/배우자조건이확정되지않아두파일모두이번승인없음.",
+      "newEvidence": "새게시일이아닌동일대체파일재확인. 보건소실비안내와복지로정액안내차이를개별보존.",
+      "applicantPurposeReview": "산모 본인, 배우자 조건 및 지원범위 불일치",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006603&wlfareInfoReldBztpCd=02",
+        "https://www.yesan.go.kr/bbs/BBSMSTR_000000000099/list.do",
+        "https://www.yesan.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000036547Um5&fileSn=0",
+        "https://yesan.go.kr/health/sub04_01.do"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-22159377",
+      "sha256": "07b456899de5b4b3d6c28f9d9359f2f6e4be817e5af45239c1719c8b53906f19",
+      "lawId": "2003473",
+      "lawTitle": "창원시 전세보증금 반환보증 보증료 지원 조례",
+      "title": "[별지 제1호서식] 전세보증금 반환보증 보증료 지원 신청서",
+      "regionCode": "48120",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "구조례2003473 제4조2억원 경로의원본22159377은승인하지않는다. 대신현재정확한정부24567000000116과경남바로서비스453은국토부3억원·최대40만원사업으로일치하고,2026공고186호가신청서및서약서제출을명시한다. 해당페이지의HWP1401은실제빈신청서1~2쪽과2026서약3쪽이며공식PDF전3쪽과공백/쪽번호제외전본문동일,서명·본인계좌·동의사항을모두확인했다. 새agency원본1개/사업쌍1개를검증제안하며원래ID/SHA/처분은유지한다.",
+      "newEvidence": "정확한 현재접수창구의독립신청서+서약서실물확보 및전체페이지검토.",
+      "applicantPurposeReview": "창원시거주무주택임차인개인;기관교부신청/대리수령서아님",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1071&filenameOrg=%EA%B3%B5%EA%B3%A0%EB%AC%B8(2026%EB%85%84%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85).hwp&service_no=453",
+        "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1080&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.pdf&service_no=453",
+        "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+        "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/567000000116"
+      ],
+      "followupState": "new_agency_form_published",
+      "replacementFormId": "agency-48120-baro-453-1401",
+      "replacementProgramId": "g48120.gov24-567000000116",
+      "replacementSHA256": "7b216cf387911fa163115c3b87a3ad09d228f7db048c3ee4040bbc2707a30456",
+      "replacementReview": "pipeline/forms/reviews/agency-dispositions-round8013.json"
+    },
+    {
+      "formId": "ordin-20004411",
+      "sha256": "1f6567f2bceb85cd84f1849222f354f32922c1cadf60374455b1daea20cd39e1",
+      "lawId": "2041475",
+      "lawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+      "title": "[별지 제11호서식]아동의료비 본인부담 100만원 상한제 지원 금액 지급 계좌(변경) 신청서",
+      "regionCode": "41130",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "현재복지로 exactWLF00001629는지급신청1호·개인정보9호·타지원수령내역10호만배포한다. 실제11호는가족/제3자/이해관계인계좌 및사망·파산·압류예외를포함하고,현행규칙제7조일반지정계좌와제9조의료기관직접청구만으로그예외수령조건을확정할수없다. 새공식지급지침이나11호현재제출안내를확보하지못해보류.",
+      "newEvidence": "현재정확복지로첨부3개와현행법규/기존원본SHA불변확인;11호특례계좌공식근거추가없음.",
+      "applicantPurposeReview": "환자 또는 법정대리인; 예외 계좌 수령자 조건은 외부확인 필요",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001629&wlfareInfoReldBztpCd=02"
+      ],
+      "followupState": "unresolved"
+    },
+    {
+      "formId": "ordin-20004423",
+      "sha256": "13354e643ec9ecac326ca7d29d68fa2bd1919f10e75f4a5552342a404e5ef390",
+      "lawId": "2041475",
+      "lawTitle": "성남시 아동의료비 본인부담 100만원 상한제 조례 시행규칙",
+      "title": "[별지 제17호서식]아동의료비 본인부담 100만원 상한제 지원금 상속대표 합의 동의서",
+      "regionCode": "41130",
+      "originalFormat": "hwp",
+      "baselineState": "requires_external_confirmation",
+      "reason": "실제17호는사망환자지원금의상속대표선정과공동상속인동의를받는양식이다. 오늘현재복지로의일반아동의료비3개첨부와현행규칙의일반지급조항에는사망후지원금청구권·대표상속인수령절차를특정하는직접지침이없다. 일반신청용자료를상속대표수령근거로확대하지않고보류.",
+      "newEvidence": "현재사업공식첨부및현행법규재대조,상속대표단계새공개근거미확보.",
+      "applicantPurposeReview": "사망환자의 대표상속인 및 공동상속인",
+      "checkedAt": "2026-10-22",
+      "originalDispositionChanged": false,
+      "evidenceUrls": [
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001629&wlfareInfoReldBztpCd=02"
+      ],
+      "followupState": "unresolved"
+    }
+  ]
+}

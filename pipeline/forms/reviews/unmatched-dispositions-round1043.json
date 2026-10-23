@@ -2191,22 +2191,23 @@
       },
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2069271",
         "currentBodyUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2069271",
         "currentAnnexBinding": "bound"
       },
-      "disposition": "requires_external_confirmation",
-      "reason": "정선군의 2026-03-17 수정 인구정책 안내와 현재 복지로는 부부 중 1명 이상 거주를 명시하고, 복지로는 별지2 이행서약 제출을 요구한다. 그러나 구 문구의 '지원 대상자가 군 외로 전출'과 현행 제8조의 '부부 모두 전출' 사이 명확한 정정 또는 작성 기준은 확인되지 않아 그대로 보류한다.",
+      "disposition": "approved",
+      "reason": "원본327자전체는조례에따른대상자확인및관련규정에따른지급중단·부정수급반환의이행서약이다. 현행제2조는지원금을결혼가구에지급하고그결혼가구를부부단위의기본신청단위로정한다. 제5조는부부중1명이상거주를요구하고제8조2호는부부모두전출한경우중지한다. 서약에는한명이라도전출하면중지한다는문구가없고관련규정에따른다고명시하므로지원대상자를개인1명으로확대해새로운중지조건을확약한다고단정할수없다. 제7조②4호와정확복지로는이별지2제출을직접요구한다. 현재법의결혼가구및중지조건그대로읽는용도로제안하며공식정정문이새로발급되었다고주장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51770.bokjiro-WLF00006371",
-          "disposition": "not_connected",
-          "reason": "제7조제2항제4호의 별지2 전체는 결혼장려금 이행서약서로 사업도 동일 서약을 요구한다. 그러나 원본은 지원대상자가 군외로 전출하면 중단된다고 서약하고, 현행 제5조는 부부 중1명 이상 거주를 허용하며 제8조제2호는 부부 모두 전출한 경우로 한정한다. 신청인이 현행보다 넓은 중단 조건에 서약하게 될 수 있어 정정 원본 또는 접수기관의 현행 작성 기준 확인 전 보류한다.",
-          "applyType": "self",
-          "applyMethod": "❍ 신청방법 - 접 수 처 : 신청자 본인의 주민등록상 주소지 관할 읍·면 행정복지센터 - 신청자격 : 본인 또는 배우자 원칙(단, 불가피한 경우 대상자의 위임을 받은 자 - 제출서류 ① 결혼장려금 지원 신청서 1부【별지 제1호 서식】 ② 결혼장려금 지급 이행 서약서 1부【별지 제2호 서식】 ③ 부부 각자의 혼인관계증명서(상세) 1부 ④ 부부 각자의 주민등록표 초본(주소 변동 이력 전체포함) 1부 ⑤ 외국인과 혼인한 경우 배우자의 외국인등록사실증명서 1부.",
-          "target": "❍ 지원대상 - 45세 이하 결혼가구로 혼인신고일로부터 6개월이 경과하지 않은 자 ※ 2026년 1월 1일 혼인신고일부터 적용 - 혼인신고일 1년 전부터 최초지급 신청일까지 계속하여 부부 중 1명 이상이 정선군에 주민등록을 두고 실제로 거주 - 재혼의 경우도 신청 가능(단, 부부중 1명이라도 이전에 결혼장려금을 지원받은 경우 지급 제외)"
+          "formId": "ordin-21184717",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "additional",
+          "condition": "정선군 결혼장려금을 신청하는 결혼가구가 현행 조례 제7조제2항제4호에 따라 함께 제출하는 이행서약서입니다. 서약의 「지원대상자」와 「관련 규정에 따라」라는 문구는 현행 조례의 부부 단위 결혼가구 및 지급중지 규정과 함께 확인해야 합니다. 현행 제8조제2호는 부부가 모두 군 외로 전출하여 거주요건을 상실한 경우를 정하며, 한 명만 전출하면 자동 중지한다는 추가 조건으로 확대하지 않습니다. 혼인관계 유지·차수별 신청기한·부정수급 반환 등은 현행 조례와 접수 안내에 따르며 원문을 읽고 직접 서명합니다.",
+          "reason": "원본327자전체는조례에따른대상자확인및관련규정에따른지급중단·부정수급반환의이행서약이다. 현행제2조는지원금을결혼가구에지급하고그결혼가구를부부단위의기본신청단위로정한다. 제5조는부부중1명이상거주를요구하고제8조2호는부부모두전출한경우중지한다. 서약에는한명이라도전출하면중지한다는문구가없고관련규정에따른다고명시하므로지원대상자를개인1명으로확대해새로운중지조건을확약한다고단정할수없다. 제7조②4호와정확복지로는이별지2제출을직접요구한다. 현재법의결혼가구및중지조건그대로읽는용도로제안하며공식정정문이새로발급되었다고주장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "relatedArticles": [
@@ -2214,58 +2215,94 @@
         "제7조(지급신청)① 결혼장려금을 지급받고자 하는 결혼가구의 부부(이하 “신청인”이라 한다)는 다음 각 호의 구분에 따른 기간 내에 주소지를 관할하는 읍ㆍ면장에게 신청하여야 한다.1. 최초 지급: 내국인은 혼인신고일부터 6개월 이내, 결혼이민자는 결혼비자 발급일부터 6개월 이내2. 2차 및 3차 지급: 각 지급기준일이 도래한 날로부터 3개월 이내② 제1항에 따라 결혼장려금을 신청하는 경우 다음 각 호의 서류를 제출하여야 한다.1. 결혼장려금 지급 신청서(별지 제1호서식) 1부2. 부부 각자의 혼인관계증명서(상세) 1부3. 부부 각자의 주민등록표 초본(주소 변동 이력 전체 포함) 1부4. 결혼장려금 지급 이행 서약서(별지 제2호서식) 1부",
         "제8조(지급중지) 군수는 지급대상자가 다음 각 호의 어느 하나에 해당하는 경우에는 결혼장려금의 지급을 중지하여야 한다.1. 부부의 혼인관계가 해소된 경우2. 부부가 모두 군 외의 지역으로 전출하여 거주 요건을 상실한 경우3. 지급대상자가 결혼장려금 수령을 거부한 경우4. 거짓이나 그 밖의 부정한 방법으로 결혼장려금을 지급받은 사실이 확인된 경우"
       ],
-      "reviewedBy": "codex-national_form_audit",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
       "reviewedAt": "2026-10-19",
       "sourceBodyPath": "logs/forms-completion/law-bodies/2069271.json.gz",
       "sourceBodySHA256": "8661868af87e8747b404c26e5cf67af9dee84d8eb9b2001db0bee860ce77c6ef",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2069271&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "bf782f26d0eaf4e58658ed919e4ae0e6f1eb068b56d9912a6d5a7331a8300afc",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2069271.json",
-                "sha256": "05abcb7de28345cb0f00552d5634e41d15f00772bd4f2ae1b97a4beeb8a41740",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.jeongseon.go.kr/portal/partinfo/lifewelfare/populationpolicy/movein",
-            "httpStatus": 200,
-            "responseSha256": "2369caec8ae8067fa603c2a0134bbb67e208b65bd99ab7b6f7c94518e2223f94",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/jeongseon.json",
-                "sha256": "41f06d72d838bc2f3ed6c28b833568563c9dd80b29e7c504d30fa33e57a2d642",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006371&wlfareInfoReldBztpCd=02",
-            "httpStatus": 200,
-            "bodyTextSha256": "988a2e5ad24e8858caa2319a8cadbadd7e769668c20be22d2dcb3960a1990405",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-g51770.bokjiro-WLF00006371.json",
-                "sha256": "31d41d675e30c441adf9808c7be5a9022548f49a4d024a3bd489e093230ebbc1",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8210.json",
+        "sourceResultSHA256": "3b762e7bde5f9a7d180612030dd16ea0e51521e2ea86b4a422d0e202c18a9cdd",
+        "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g51770.bokjiro-WLF00006371"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "정선군의 2026-03-17 수정 인구정책 안내와 현재 복지로는 부부 중 1명 이상 거주를 명시하고, 복지로는 별지2 이행서약 제출을 요구한다. 그러나 구 문구의 '지원 대상자가 군 외로 전출'과 현행 제8조의 '부부 모두 전출' 사이 명확한 정정 또는 작성 기준은 확인되지 않아 그대로 보류한다.",
+          "relatedProgramIds": [
+            "g51770.bokjiro-WLF00006371"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51770.bokjiro-WLF00006371",
+              "disposition": "not_connected",
+              "reason": "제7조제2항제4호의 별지2 전체는 결혼장려금 이행서약서로 사업도 동일 서약을 요구한다. 그러나 원본은 지원대상자가 군외로 전출하면 중단된다고 서약하고, 현행 제5조는 부부 중1명 이상 거주를 허용하며 제8조제2호는 부부 모두 전출한 경우로 한정한다. 신청인이 현행보다 넓은 중단 조건에 서약하게 될 수 있어 정정 원본 또는 접수기관의 현행 작성 기준 확인 전 보류한다.",
+              "applyType": "self",
+              "applyMethod": "❍ 신청방법 - 접 수 처 : 신청자 본인의 주민등록상 주소지 관할 읍·면 행정복지센터 - 신청자격 : 본인 또는 배우자 원칙(단, 불가피한 경우 대상자의 위임을 받은 자 - 제출서류 ① 결혼장려금 지원 신청서 1부【별지 제1호 서식】 ② 결혼장려금 지급 이행 서약서 1부【별지 제2호 서식】 ③ 부부 각자의 혼인관계증명서(상세) 1부 ④ 부부 각자의 주민등록표 초본(주소 변동 이력 전체포함) 1부 ⑤ 외국인과 혼인한 경우 배우자의 외국인등록사실증명서 1부.",
+              "target": "❍ 지원대상 - 45세 이하 결혼가구로 혼인신고일로부터 6개월이 경과하지 않은 자 ※ 2026년 1월 1일 혼인신고일부터 적용 - 혼인신고일 1년 전부터 최초지급 신청일까지 계속하여 부부 중 1명 이상이 정선군에 주민등록을 두고 실제로 거주 - 재혼의 경우도 신청 가능(단, 부부중 1명이라도 이전에 결혼장려금을 지원받은 경우 지급 제외)"
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2069271&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "bf782f26d0eaf4e58658ed919e4ae0e6f1eb068b56d9912a6d5a7331a8300afc",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2069271.json",
+                    "sha256": "05abcb7de28345cb0f00552d5634e41d15f00772bd4f2ae1b97a4beeb8a41740",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.jeongseon.go.kr/portal/partinfo/lifewelfare/populationpolicy/movein",
+                "httpStatus": 200,
+                "responseSha256": "2369caec8ae8067fa603c2a0134bbb67e208b65bd99ab7b6f7c94518e2223f94",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/jeongseon.json",
+                    "sha256": "41f06d72d838bc2f3ed6c28b833568563c9dd80b29e7c504d30fa33e57a2d642",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006371&wlfareInfoReldBztpCd=02",
+                "httpStatus": 200,
+                "bodyTextSha256": "988a2e5ad24e8858caa2319a8cadbadd7e769668c20be22d2dcb3960a1990405",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-g51770.bokjiro-WLF00006371.json",
+                    "sha256": "31d41d675e30c441adf9808c7be5a9022548f49a4d024a3bd489e093230ebbc1",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "approvedAssociations": [
+        {
+          "programId": "g51770.bokjiro-WLF00006371",
+          "formId": "ordin-21184717",
+          "use": "additional"
+        }
       ]
     },
     {

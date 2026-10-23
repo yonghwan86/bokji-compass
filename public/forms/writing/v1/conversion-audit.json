@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "publishedHwpOriginals": 2511,
+  "verifiedConversions": 2509,
+  "verifiedPages": 4285,
+  "multiSectionConversions": 96,
+  "conversionsWithBinData": 23,
+  "metadataSanitized": 2509,
+  "originalDownloadsModified": false,
+  "held": [
+    {
+      "formId": "ordin-19981527",
+      "sourceSHA256": "d379ca56082090068c8a5819fdca93f0729fd7ae271f9e5af5e0f508a2a7b299",
+      "title": "[별지 제1호서식] 유족수당신청서",
+      "reason": "실제 한글 변환에서 원본의 특수기호 본문과 페이지 렌더가 달라 작성용으로 공개하지 않음. 공식 HWP 다운로드 유지."
+    },
+    {
+      "formId": "ordin-21458043",
+      "sourceSHA256": "888d03b21d6f263b45476ab0029444e72d396a101420e33a25e2afa8c000de15",
+      "title": "별지 제1호~제7호 서식",
+      "reason": "실제 한글 변환에서 원본의 특수기호 본문과 페이지 렌더가 달라 작성용으로 공개하지 않음. 공식 HWP 다운로드 유지."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "note": "현행 법률·시행규칙·고시가 지정한 국가 공통 신청서를 정확한 사업·지역·원본에 한정해 재사용한다. 근거법 인용과 사용 조건, 출처 판본 및 증거 해시를 함께 보존한다.",
+  "applications": {
+    "ulju-maternal-voucher-initial": {
+      "referenceId": "ulju-maternal-voucher-initial",
+      "programmeId": "g31710.gov24-373000000110",
+      "programmeUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/373000000110",
+      "sido": "31000",
+      "sigungu": "31710",
+      "municipality": "울주군",
+      "formId": "rule-3211501",
+      "lawId": "2100000278060",
+      "referencedLawTitle": "사회보장급여 관련 공통서식에 관한 고시",
+      "annexNumber": "000104",
+      "printedAnnexNumber": "1호의4",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163660131&bylClsCd=200203",
+      "sourceSHA256": "f922a89ff89c09bfb6325d493d03104bdc23c123fc1c4b469bfc77bb1597bde1",
+      "sourceBytes": 41935,
+      "sourceFormat": "hwpx",
+      "stage": "initial-application",
+      "use": "main",
+      "serviceField": "산모신생아 건강관리지원",
+      "serviceFieldLocation": {
+        "section": "Contents/section0.xml",
+        "printedPage": 2,
+        "rowAddr": 34,
+        "colAddr": 1,
+        "tableIndex": 1,
+        "indexBasis": "zero-based table/row/column XML addresses",
+        "exactCellText": "[  ]산모신생아건강관리지원",
+        "sectionXmlSHA256": "e375bce2d04d02f4f50364e2758c3f62b1c6a3f05e6029cfa7700f268ceb1efe"
+      },
+      "chain": [
+        {
+          "step": "law",
+          "lawId": "257855",
+          "stableLawId": "011444",
+          "title": "사회서비스 이용 및 이용권 관리에 관한 법률",
+          "article": "제9조",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0009&lsiSeq=257855&urlMode=lsScJoRltInfoR",
+          "claim": "제9조제1항은 발급대상자·친족·법정대리인의 발급신청을 허용하고, 제5항은 발급신청·발급대상자의 동의 등에 필요한 사항을 보건복지부령으로 정하도록 위임한다.",
+          "currentState": "source_current",
+          "checkedAt": "2026-10-23",
+          "effectiveDate": "2025-01-03",
+          "evidenceSHA256": "61eb0584c2f0840c0c4662daaa7e526cbca3d211e7bde5bfaa95b01b7616ceab",
+          "currentIdentityEvidenceSHA256": "107024ddca81526bf898d02838da2f7455ed3fe06364a518c888d8ec02a7f604",
+          "applicationArticle": "제9조제1항",
+          "delegationArticle": "제9조제5항"
+        },
+        {
+          "step": "regulation",
+          "lawId": "269841",
+          "stableLawId": "011543",
+          "title": "사회서비스 이용 및 이용권 관리에 관한 법률 시행규칙",
+          "article": "제3조",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=269841&urlMode=lsScJoRltInfoR",
+          "claim": "제3조제1항은 이용권 발급·이용 신청서와 장관이 정한 대상자 부양관계·소득재산·건강 증빙을 시장·군수·구청장에게 제출하도록 한다. 제2항은 제1항 외 발급에 필요한 사항을 장관이 정하도록 한다. 고시 제5조가 제1항의 신청서 자체를 별지1호의4로 특정한다.",
+          "currentState": "source_current",
+          "checkedAt": "2026-10-23",
+          "effectiveDate": "2025-03-11",
+          "evidenceSHA256": "5cf946bbbaca6235a4dbe4514499532ca2a9e3e809d49d254f3068f3e7e2a1a8",
+          "currentIdentityEvidenceSHA256": "107024ddca81526bf898d02838da2f7455ed3fe06364a518c888d8ec02a7f604",
+          "applicationArticle": "제3조제1항",
+          "delegationArticle": "제3조제2항"
+        },
+        {
+          "step": "notice",
+          "lawId": "2100000278060",
+          "title": "사회보장급여 관련 공통서식에 관한 고시",
+          "article": "제5조",
+          "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278060",
+          "claim": "고시 제5조는 이용권법 시행규칙 제3조제1항의 발급신청서·이용신청서와 제4조제3항의 재발급 신청서를 별지 제1호의4로 직접 지정한다. 이번 사업 연결은 그중 초기 발급·이용 신청만이다.",
+          "currentState": "source_current",
+          "checkedAt": "2026-10-23",
+          "effectiveDate": "2026-05-01",
+          "evidenceSHA256": "0c46e4a2a3f6e252c01acf8bca378f87b67df7f474080bb3c9d868f36e27ec4a",
+          "currentIdentityEvidenceSHA256": "a7db2037a7ef8b98ed525c1a524a5246fa702b150e0ea164d1d071a608f1ff8c",
+          "stableLawId": "36551",
+          "referencedApplicationArticle": "제3조제1항",
+          "annexBinding": {
+            "annexNumber": "000104",
+            "flSeq": "163660131",
+            "officialPdfFlSeq": "163660139",
+            "evidenceSHA256": "0c46e4a2a3f6e252c01acf8bca378f87b67df7f474080bb3c9d868f36e27ec4a"
+          }
+        }
+      ],
+      "receivingAgency": {
+        "url": "https://www.ulju.ulsan.kr/health/contents.do?mId=0303030000",
+        "claim": "울주군보건소의 2026 지원사업 안내가 같은 바우처의 목적·대상·신청기간과 사회보장급여(사회서비스이용권) 신청(변경)서를 구비서류로 직접 적고 접수처를 보건소·보건지소·읍면행정복지센터로 안내한다.",
+        "checkedAt": "2026-10-23",
+        "httpStatus": 200,
+        "evidenceSHA256": "1291bc58dbeea50bd6cd5166388a9151134b8b21008602bee960ed8c4b3be176"
+      },
+      "checkedAt": "2026-10-23",
+      "sourceDateCaveat": "현행 고시 제2026-90호의 일반 시행일은 2026-05-01이다. 부칙은 별지 제1호의4·제6호 개정규정 중 사회서비스 이용권 발급 안내 및 첫만남이용권 발급 안내 부분을 2026-07-01부터 시행하도록 정한다. 원본 머리말의 2026-07-01 인쇄를 전체 고시 시행일이나 별지 전체의 단일 효력발생일로 대체하지 않는다. 확인일 2026-10-23에는 두 날짜가 모두 지났다.",
+      "scopeRestriction": "울주군 산모·신생아 건강관리 서비스 이용권의 초기 신청에만 쓴다. 서비스 개시 후 등급·유형·기간 변경, 본인부담금 환급·현금지원, 산후회복지원금, 임산부 가사돌봄서비스로 넓히지 않는다.",
+      "unresolvedLocalForm": "ordin-22083017",
+      "citedLawTitle": "사회서비스 이용 및 이용권 관리에 관한 법률",
+      "programmeLawField": "laws",
+      "programmeEvidenceSHA256": "96c63120b16e1982b00e0429aa737c91478c7b3ef2605eaf226d471eeb9610b2",
+      "condition": "울주군 산모·신생아 건강관리 서비스 이용권(바우처)의 초기 신청에 사용하는 전국 공통 양식입니다. 2쪽 보건소 항목의 산모신생아 건강관리지원을 선택하고 대상자·출산(예정)일·태아/인력유형·기본 또는 예외요건·서비스 장소와 해당 공통정보·동의·서명을 작성합니다. 울주군 현재 안내에 따라 출산예정일40일 전부터 출산 후60일 이내 주소지 관할 보건소·보건지소 또는 읍면행정복지센터에 신청하며, 입원·유산·사산 등의 예외기한과 신분·출산·소득·가족 증빙은 해당 안내를 따릅니다. 지방 본인부담금 현금지원, 산후회복지원금, 임산부 가사돌봄서비스 신청용 연결은 아닙니다. 서비스 개시 후 등급·유형·기간을 바꾸는 신청까지 이 양식의 제목만으로 허용된다고 안내하지 않습니다. 근거 고시 시행일은2026-05-01이며, 원본의2026-07-01 표시는 일부 발급 안내의 지연 시행과 구분해 보존합니다.",
+      "sourceEffectiveDate": "2026-05-01",
+      "sourcePrintedRevisionDate": "2026-07-01",
+      "deferredGuidanceEffectiveDate": "2026-07-01",
+      "sourceDateCaveatEvidenceSHA256": "0c46e4a2a3f6e252c01acf8bca378f87b67df7f474080bb3c9d868f36e27ec4a"
+    }
+  }
+}

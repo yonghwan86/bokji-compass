@@ -2,7 +2,7 @@
 import { mkdir, readdir, readFile, writeFile, realpath, unlink } from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
-import { inflateRawSync } from "node:zlib";
+import { crc32, inflateRawSync } from "node:zlib";
 import type { Program } from "../src/lib/data/types";
 import type { ApplicationForm, FormFileFormat, FormLink, FormsRegion, FormsCoverage, ProgramFormEntry, FormStatus } from "../src/lib/data/forms";
 import { normalizeCensus, censusLinkConflict } from "../src/lib/data/forms";
@@ -63,7 +63,7 @@ export function validateDownloadManifest(value: unknown): DownloadManifest {
     const agency=registeredAgencyForm(id);
     // An image original is only ever a registered agency attachment; the law
     // portal keeps exactly the formats it already had.
-    const formats=agency?["hwp", "hwpx", "pdf", "jpg"]:["hwp", "hwpx", "pdf", "txt", "gif"];
+    const formats=agency?["hwp", "hwpx", "pdf", "jpg", "png"]:["hwp", "hwpx", "pdf", "txt", "gif"];
     if ((!/^(ordin|law|rule)-\d+$/.test(id) && !agency) || !recordObject(entry) || !formats.includes(String(entry.format))) throw new Error("Invalid downloaded form id/format");
     if (agency && (entry.sourceUrl!==agency.sourceUrl || entry.finalUrl!==agency.finalUrl || entry.sha256!==agency.sha256
         || entry.bytes!==agency.bytes || entry.format!==agency.format || entry.pdf!==undefined || entry.archive!==undefined)) throw new Error("Agency download identity mismatch: "+id);
@@ -84,6 +84,39 @@ export function validateDownloadManifest(value: unknown): DownloadManifest {
     if (typeof entry.downloadedAt !== "string" || !/^\d{4}-\d{2}-\d{2}T/.test(entry.downloadedAt) || !Number.isFinite(Date.parse(entry.downloadedAt))) throw new Error("Invalid download timestamp: " + id);
   }
   return value as unknown as DownloadManifest;
+}
+
+/**
+ * PNG 원본의 실제 프레임. 이미지를 다시 그리지 않고 청크 구조만 읽는다.
+ * 서명·IHDR(위치·길이·크기)·IDAT 존재·IEND 종료·잘림·CRC를 확인하고, 애니메이션(acTL)은
+ * 한 장 원본이 아니므로 받지 않는다. CRC는 Node 기본 zlib.crc32 를 쓰고 표를 따로 만들지 않는다.
+ */
+export function pngFrame(bytes: Buffer): { width: number; height: number } {
+  const invalid = () => new Error("Invalid PNG original");
+  const signature = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+  if (bytes.length < 45 || !bytes.subarray(0, 8).equals(signature)) throw invalid();
+  let position = 8, frame: { width: number; height: number } | undefined, data = false;
+  while (position + 12 <= bytes.length) {
+    const length = bytes.readUInt32BE(position);
+    if (length > 0x7fffffff || position + 12 + length > bytes.length) throw invalid();
+    const type = bytes.subarray(position + 4, position + 8).toString("latin1");
+    if (!/^[A-Za-z]{4}$/.test(type)) throw invalid();
+    const chunk = bytes.subarray(position + 4, position + 8 + length);
+    if (crc32(chunk) !== bytes.readUInt32BE(position + 8 + length)) throw invalid();
+    if (type === "IHDR") {
+      if (frame || length !== 13 || position !== 8) throw invalid();
+      const width = chunk.readUInt32BE(4), height = chunk.readUInt32BE(8);
+      if (!width || !height || width * height > 50_000_000) throw invalid();
+      frame = { width, height };
+    } else if (type === "acTL") throw invalid();
+    else if (type === "IDAT") { if (!frame) throw invalid(); data = true; }
+    else if (type === "IEND") {
+      if (length !== 0 || position + 12 !== bytes.length || !frame || !data) throw invalid();
+      return frame;
+    }
+    position += 12 + length;
+  }
+  throw invalid();
 }
 
 /**
@@ -205,6 +238,7 @@ export function validateOriginalFile(bytes: Buffer, format: FormFileFormat): voi
     return;
   }
   if (format === "jpg") { jpegFrame(bytes); return; }
+  if (format === "png") { pngFrame(bytes); return; }
   if (format === "txt") {
     let text: string;
     try { text=new TextDecoder("utf-8",{fatal:true}).decode(bytes); }
@@ -258,8 +292,8 @@ export async function loadDownloadedOriginals(input: string, value: unknown, for
     } else if (!metadata || metadata.id !== id || !officialDownloadUrl(metadata.sourceUrl) || new URL(metadata.sourceUrl).searchParams.get("flSeq") !== new URL(entry.sourceUrl).searchParams.get("flSeq")) throw new Error("Downloaded source does not match form metadata: " + id);
     const bytes = await load(entry);
     validateOriginalFile(bytes, entry.format);
-    if (entry.format === "jpg") {
-      const review = registered?.visualReview, frame = jpegFrame(bytes);
+    if (entry.format === "jpg" || entry.format === "png") {
+      const review = registered?.visualReview, frame = entry.format === "png" ? pngFrame(bytes) : jpegFrame(bytes);
       if (review?.kind !== "whole-original-image" || frame.width !== review.width || frame.height !== review.height) throw new Error("Image original differs from the reviewed whole image: " + id);
     }
     // A scanned PDF original is published on a whole-original page review, so
@@ -282,6 +316,21 @@ export async function loadDownloadedOriginals(input: string, value: unknown, for
     originals.set(id, { bytes, format: entry.format, ...(pdf ? { pdf } : {}) });
   }
   return originals;
+}
+
+/**
+ * 링크 검증은 form.file 을 쓰기 전에 돈다. 법정 체인 경로만은 원본 SHA 에 묶여야 하므로,
+ * 그 링크를 볼 때만 실제 내려받아 둔 바이트에서 같은 방식으로 파일 신원을 만들어 건넨다.
+ * 공개 단계는 그대로 승인된 원본을 요구하며, 여기서 만든 값은 검증에만 쓰고 저장하지 않는다.
+ */
+export function withStatutoryOriginalIdentity(form: ApplicationForm | undefined, link: { formId: string; scopeReference?: { kind?: string } },
+    originals: Map<string, StoredOriginal>, hash: (bytes: Buffer) => string): ApplicationForm | undefined {
+  if (!form || form.file || link.scopeReference?.kind !== "statutory-chain") return form;
+  const original = originals.get(link.formId);
+  if (!original) return form;
+  const digest = hash(original.bytes);
+  return { ...form, file: { hwp: `/forms/files/${link.formId}-${digest.slice(0, 12)}.${original.format}`,
+    format: original.format, bytes: original.bytes.length, sha256: digest } };
 }
 
 export function requireApprovedOriginals(published: Set<string>, originals: Map<string, StoredOriginal>, manifestPresent: boolean): void {
@@ -391,7 +440,7 @@ async function main() {
       const program = programs.get(id);
       if (!program) throw new Error("Reviewed program no longer exists: " + id);
       if (rejected.has(id+"/"+link.formId)) throw new Error("Association has conflicting approval and rejection: "+id+"/"+link.formId);
-      validateFormLink(program, forms[link.formId], link);
+      validateFormLink(program, withStatutoryOriginalIdentity(forms[link.formId], link, originals, hash), link);
       if (links.get(id)?.some(other => other.formId === link.formId)) throw new Error("Duplicate reviewed association");
       links.set(id, [...(links.get(id) || []), link]);
       published.add(link.formId);
@@ -417,7 +466,7 @@ async function main() {
     const check = pdfChecks[id];
     let pdf = format === "pdf" ? undefined : original.pdf;
     // An image original gets no rendered stand-in: only its own bytes are published.
-    if (format !== "pdf" && format !== "jpg" && !pdf && check?.verified) {
+    if (format !== "pdf" && format !== "jpg" && format !== "png" && !pdf && check?.verified) {
       const pdfPath = path.join(input, "previews", id + ".pdf");
       pdf = await readFile(pdfPath);
       if (check.originalSha256 !== digest || hash(pdf) !== check.pdfSha256 || check.pages < 1 || pdf.subarray(0, 5).toString() !== "%PDF-") throw new Error("PDF preview no longer matches checked original");
@@ -432,7 +481,7 @@ async function main() {
   // Revoke only files owned by this generator; never recursively delete a directory.
   const assetsDirectory = path.resolve(output, "files");
   for (const name of await readdir(assetsDirectory)) {
-    if (!/^(?:(ordin|law|rule)-\d+|agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79})-[a-f0-9]{12}\.(hwp|hwpx|pdf|txt|gif|jpg)$/.test(name) || expectedAssets.has(name)) continue;
+    if (!/^(?:(ordin|law|rule)-\d+|agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79})-[a-f0-9]{12}\.(hwp|hwpx|pdf|txt|gif|jpg|png)$/.test(name) || expectedAssets.has(name)) continue;
     const target = path.resolve(assetsDirectory, name);
     if (path.dirname(target) !== assetsDirectory) throw new Error("Unexpected asset path");
     await unlink(target);

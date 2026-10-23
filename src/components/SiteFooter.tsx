@@ -1,4 +1,6 @@
 import Link from "next/link";
+import provenance from "@/lib/data/dataProvenance.json";
+import { koCount } from "@/lib/data/dataProvenance";
 import styles from "./SiteChrome.module.css";
 
 export function SiteFooter() {
@@ -8,6 +10,7 @@ export function SiteFooter() {
         <div className={styles.footerTop}>
           <span>복지나침반</span>
           <ul className={styles.footerLinks}>
+            <li><Link href="/about#sources">자료 출처 {koCount(provenance.basis.programRecords)}건</Link></li>
             <li><Link href="/search">서비스 검색</Link></li>
             <li><Link href="/about">출처·판정 기준</Link></li>
             <li><Link href="/about#privacy">개인정보</Link></li>

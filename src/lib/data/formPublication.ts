@@ -3,6 +3,7 @@ import type { AgencyAuthorityBasis, AgencyOriginalReview, AgencyPdfReview, Agenc
 import sourceExclusions from "./sourceExclusions.json";
 import verifiedLawHistories from "./verifiedLawHistories.json";
 import verifiedAgencyForms from "./verifiedAgencyForms.json";
+import verifiedStatutoryApplications from "./verifiedStatutoryApplications.json";
 
 export type VerifiedAgencyForm = Omit<(typeof verifiedAgencyForms.forms)[keyof typeof verifiedAgencyForms.forms], "publishedAt" | "attachmentIdentifier"> & {
   publishedAt?: string; attachmentIdentifier: { queryParam?: string; value?: string; path?: string };
@@ -10,6 +11,7 @@ export type VerifiedAgencyForm = Omit<(typeof verifiedAgencyForms.forms)[keyof t
   authorityBasis?: AgencyAuthorityBasis;
   /** 스캔 원본에만 있다. 사람이 이미지 전체(jpg) 또는 모든 페이지(pdf)를 본 기록이며 다른 형식은 가질 수 없다. */
   visualReview?: AgencyOriginalReview;
+  nationalMunicipalIntakeReference?: NonNullable<FormLink["nationalMunicipalIntakeReference"]>;
 };
 const AGENCY_ID = /^agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$/;
 const AGENCY_SECRET = /^oc$|api[-_]?key|service[-_]?key|token|secret|password|auth|session|login|email|phone|resident|jumin/i;
@@ -95,14 +97,15 @@ function agencyWholePdfReview(e: VerifiedAgencyForm, row: Record<string,unknown>
 }
 
 /**
- * 본문 글자가 없는 이미지 원본(jpg)의 유일한 근거 — 사람이 그 이미지 전체를 직접 본 기록이다.
+ * 본문 글자가 없는 이미지 원본(jpg 또는 png)의 유일한 근거 — 사람이 그 이미지 전체를 직접 본 기록이다.
  * 등록된 바이트(SHA)·확인일·프레임·픽셀 크기에 묶으므로, 바이트가 바뀌거나 다른 이미지가
- * 이 확인을 물려받지 못한다. jpg만 가질 수 있고, 본문을 읽을 수 있는 형식은 주장할 수 없다.
+ * 이 확인을 물려받지 못한다. jpg와 png만 가질 수 있고, 본문을 읽을 수 있는 형식은 주장할 수 없다.
  * null은 등록 거부, 빈 결과는 이미지가 아닌 기존 형식이다. kind가 스캔 PDF면 위의
  * 페이지 단위 확인으로 넘기므로, 두 형식이 서로의 kind를 주장할 수 없다.
  */
 function agencyWholeImageReview(e: VerifiedAgencyForm): { review?: AgencyOriginalReview } | null {
-  const value: unknown = e.visualReview, image = (e as unknown as Record<string,unknown>).format==="jpg";
+  const format = (e as unknown as Record<string,unknown>).format;
+  const value: unknown = e.visualReview, image = format==="jpg" || format==="png";
   if (value===undefined) return image ? null : {};
   if (!value || typeof value!=="object" || Array.isArray(value)) return null;
   if ((value as Record<string,unknown>).kind==="whole-original-pdf") return agencyWholePdfReview(e, value as Record<string,unknown>);
@@ -145,6 +148,33 @@ function sameAuthorityBasis(value: unknown, basis: AgencyAuthorityBasis | undefi
   return Object.keys(row).length===BASIS_FIELDS.length && BASIS_FIELDS.every(key=>row[key]===basis[key]);
 }
 
+const NATIONAL_INTAKE_FIELDS = ["kind","programmeId","sigungu","municipality","municipalPageUrl","downloadUrl",
+  "sourceSHA256","municipalPageSHA256","httpStatus","checkedAt","stage","sameServiceEvidence","populationEvidence","scopeRestriction"] as const;
+function sameNationalIntakeReference(value: FormLink["nationalMunicipalIntakeReference"], expected: FormLink["nationalMunicipalIntakeReference"]): boolean {
+  if (value === undefined || expected === undefined) return value === expected;
+  return !!value && Object.keys(value).length === NATIONAL_INTAKE_FIELDS.length
+    && NATIONAL_INTAKE_FIELDS.every(key => value[key] === expected[key]);
+}
+function registeredNationalIntake(e: VerifiedAgencyForm): boolean {
+  const ref=e.nationalMunicipalIntakeReference;
+  if (ref === undefined) return true;
+  if (!ref || Object.keys(ref).length!==NATIONAL_INTAKE_FIELDS.length
+      || !NATIONAL_INTAKE_FIELDS.every(key=>Object.hasOwn(ref,key))
+      || ref.kind!=="municipal-intake" || ref.stage!=="initial-application"
+      || typeof ref.sigungu!=="string" || !/^\d{5}$/.test(ref.sigungu) || ref.sigungu.endsWith("000") || ref.sigungu!==e.regionCode
+      || typeof ref.municipality!=="string" || ref.municipality.trim().length<2 || !e.regionLabel.includes(ref.municipality)
+      || e.use!=="conditional" || !(e.condition??"").includes(ref.municipality)
+      || ref.sourceSHA256!==e.sha256 || ref.checkedAt!==e.checkedAt || ref.httpStatus!==200
+      || e.authorityBasis?.kind!=="official-program" || ref.municipalPageUrl!==e.authorityBasis.evidenceUrl
+      || ref.municipalPageSHA256!==e.authorityBasis.pageSHA256
+      || ref.municipalPageUrl!==e.sourcePageUrl || ref.downloadUrl!==e.sourceUrl
+      || ![ref.municipalPageUrl,ref.downloadUrl].every(url=>!!safeAgencyUrl(url) && /^(gov\.kr|.+\.(go|gov)\.kr)$/.test(new URL(url).hostname))
+      || e.programs.length!==1 || e.programs[0].id!==ref.programmeId) return false;
+  for (const text of [ref.sameServiceEvidence,ref.populationEvidence,ref.scopeRestriction])
+    if (typeof text!=="string" || text.trim().length<30 || !text.includes(ref.municipality)) return false;
+  return /전용|한정|선택/.test(ref.scopeRestriction);
+}
+
 export function registeredAgencyForm(id: string): VerifiedAgencyForm | null {
   const e = (verifiedAgencyForms.forms as Record<string, VerifiedAgencyForm>)[id];
   if (!AGENCY_ID.test(id) || !e || e.id !== id || e.sourceKind !== "agency" || id.split("-")[1] !== e.regionCode) return null;
@@ -165,7 +195,7 @@ export function registeredAgencyForm(id: string): VerifiedAgencyForm | null {
       || (e.authorityKind==="delegated" && new URL(e.authorityEvidenceUrl).hostname===new URL(e.sourceUrl).hostname)
       || e.authorityEvidenceNote.length<30
       || (e.publishedAt!==undefined && (!exactDay(e.publishedAt) || e.publishedAt>e.checkedAt))
-      || !/^[a-f0-9]{64}$/.test(e.sha256) || !Number.isSafeInteger(e.bytes) || e.bytes<=0 || !["hwp","hwpx","pdf","jpg"].includes(e.format)
+      || !/^[a-f0-9]{64}$/.test(e.sha256) || !Number.isSafeInteger(e.bytes) || e.bytes<=0 || !["hwp","hwpx","pdf","jpg","png"].includes(e.format)
       || !e.attachmentId || (!queryIdentity && !pathIdentity)
       || !e.programs.length || new Set(e.programs.map(p=>p.id)).size!==e.programs.length
       || !["application","consent","delegation","supporting"].includes(e.role) || !["main","additional","conditional"].includes(e.use)
@@ -173,7 +203,7 @@ export function registeredAgencyForm(id: string): VerifiedAgencyForm | null {
       || e.textScope!==(review?.kind==="whole-original-image"?"all_original_image_frames":"all_body_sections_or_pages")
       || !e.sectionsRead.length || new Set(e.sectionsRead).size!==e.sectionsRead.length
       || !e.applicant || !e.selectedParts.length || e.selectedParts.some(p=>!p.number || !p.title || !p.author || !["main","additional","conditional"].includes(p.use))) return null;
-  return e;
+  return registeredNationalIntake(e) ? e : null;
 }
 
 /**
@@ -214,7 +244,10 @@ export function agencyProgramLinkMatches(id: string, form: ApplicationForm, link
   const p=e.programs.find(p=>p.id===id);
   return !!p && link.formId===e.id && link.programEvidenceUrl===p.url && link.evidenceUrl===e.sourcePageUrl
     && link.checkedAt===e.checkedAt && link.use===e.use && (link.condition??"")===(e.condition??"")
-    && !link.scopeBasis && !link.renamedLawReference && !link.municipalApplicationReference
+    && (e.nationalMunicipalIntakeReference ? link.scopeBasis==="national-municipal-intake-reference"
+      && sameNationalIntakeReference(link.nationalMunicipalIntakeReference,e.nationalMunicipalIntakeReference)
+      : !link.scopeBasis && !link.nationalMunicipalIntakeReference)
+    && !link.renamedLawReference && !link.municipalApplicationReference
     && (link.displayTitle===undefined || link.displayTitle===e.title);
 }
 
@@ -236,7 +269,7 @@ export function formAssetUrl(value: unknown): string | null {
   if (typeof value!=="string") return null;
   if (/^\/forms\/files\/(ordin|law|rule)-\d+-[a-f0-9]{12}\.(hwp|hwpx|pdf|txt|gif)$/.test(value)) return value;
   // jpg exists only as a registered agency original; the portal keeps its own formats.
-  const match=/^\/forms\/files\/(agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79})-([a-f0-9]{12})\.(hwp|hwpx|pdf|jpg)$/.exec(value);
+  const match=/^\/forms\/files\/(agency-\d{5}-[a-zA-Z0-9][a-zA-Z0-9_-]{0,79})-([a-f0-9]{12})\.(hwp|hwpx|pdf|jpg|png)$/.exec(value);
   const e=match && registeredAgencyForm(match[1]);
   return e && match[2]===e.sha256.slice(0,12) && match[3]===e.format ? value : null;
 }
@@ -298,11 +331,105 @@ function reviewedRenamedLaw(program: Program, form: ApplicationForm, link: FormL
     && referencedFormLaw({...program,laws:[ref.citedLawTitle]},{...form,lawTitle:ref.priorRuleTitle});
 }
 
+const STATUTORY_FIELDS = ["kind","referenceId","referencedLawTitle","annexNumber","sourceSHA256","basis"] as const;
+const STATUTORY_CHAIN_STEPS = ["law","regulation","notice"] as const;
+
+/**
+ * 법이 그 급여의 신청서로 전국 공통 서식 하나를 지정한 경로. 사업마다 따로 검토해
+ * verifiedStatutoryApplications 에 등록한 항목에만 열리며, 링크는 그 등록을 그대로 되비춘다.
+ * 사업ID·지역·인용 법률·서식·별지번호·원본 SHA·현행 3단계 조문이 모두 맞아야 하고,
+ * 법령 제목 별칭이나 승인 플래그로는 통과하지 않는다. 초기 신청 단계만 받는다.
+ */
+function reviewedStatutoryApplication(program: Program, form: ApplicationForm, link: FormLink): boolean {
+  const ref=link.scopeReference as Record<string,unknown>|undefined;
+  if (!ref || ref.kind!=="statutory-chain") return false;
+  // 불투명한 승인 칸을 끼워 넣지 못하게 키 집합을 정확히 맞춘다.
+  if (Object.keys(ref).length!==STATUTORY_FIELDS.length || STATUTORY_FIELDS.some(key=>!(key in ref))) return false;
+  const entry=(verifiedStatutoryApplications.applications as Record<string,Record<string,unknown>>)[String(ref.referenceId??"")];
+  if (!entry || entry.referenceId!==ref.referenceId) return false;
+  const region=program.region, place=entry.serviceFieldLocation as Record<string,unknown>|undefined;
+  if (typeof entry.citedLawTitle!=="string" || !(program.laws??[]).some(title=>normalizedLaw(title)===normalizedLaw(entry.citedLawTitle as string))) return false;
+  if (link.condition!==entry.condition || typeof entry.condition!=="string" || entry.condition.trim().length<30) return false;
+  if (String(form.effectiveDate??"").replace(/-/g,"")!==String(entry.sourceEffectiveDate??"").replace(/-/g,"")) return false;
+  if (entry.programmeId!==program.id || program.scope!=="sigungu"
+      || region?.sigungu!==entry.sigungu || region?.sido!==entry.sido
+      || entry.formId!==form.id || form.regionCode!=="national"
+      || entry.lawId!==form.lawId || entry.annexNumber!==form.annexNumber
+      || normalizedLaw(String(entry.referencedLawTitle))!==normalizedLaw(form.lawTitle)
+      || entry.sourceUrl!==form.sourceUrl
+      || entry.stage!=="initial-application" || entry.use!==link.use
+      || entry.checkedAt!==link.checkedAt
+      || typeof entry.sourceSHA256!=="string" || !/^[a-f0-9]{64}$/.test(entry.sourceSHA256)
+      || ref.sourceSHA256!==entry.sourceSHA256
+      || form.file?.sha256!==entry.sourceSHA256 || form.file?.bytes!==entry.sourceBytes
+      || (form.file?.format??"hwp")!==entry.sourceFormat
+      || typeof place!=="object" || !place || !Number.isSafeInteger(place.rowAddr) || !Number.isSafeInteger(place.colAddr)
+      || typeof entry.serviceField!=="string" || entry.serviceField.trim().length<2) return false;
+  for (const key of ["scopeRestriction","sourceDateCaveat"] as const)
+    if (typeof entry[key]!=="string" || (entry[key] as string).trim().length<30) return false;
+  if (typeof entry.municipality!=="string" || entry.municipality.length<2
+      || !link.condition?.includes(entry.municipality)
+      || !String(entry.scopeRestriction).includes(entry.municipality)) return false;
+  // 현행 3단계가 순서대로 모두 있고 각각 공식 법령 주소여야 한다.
+  const chain=entry.chain;
+  if (!Array.isArray(chain) || chain.length!==STATUTORY_CHAIN_STEPS.length) return false;
+  for (const [index, step] of STATUTORY_CHAIN_STEPS.entries()) {
+    const row=chain[index] as Record<string,unknown>|undefined;
+    if (!row || row.step!==step || typeof row.lawId!=="string" || !/^\d+$/.test(row.lawId)
+        || typeof row.title!=="string" || !row.title.trim()
+        || !/^제\d+조(?:의\d+)?(?:제\d+항)?$/.test(String(row.article??""))
+        || typeof row.claim!=="string" || row.claim.trim().length<20
+        || row.currentState!=="source_current" || row.checkedAt!==entry.checkedAt
+        || !/^\d{4}-\d{2}-\d{2}$/.test(String(row.effectiveDate??""))
+        || String(row.effectiveDate)>String(entry.checkedAt)
+        || !/^[a-f0-9]{64}$/.test(String(row.evidenceSHA256??""))
+        || !/^[a-f0-9]{64}$/.test(String(row.currentIdentityEvidenceSHA256??""))
+        || !officialFormUrl(String(row.url??""))) return false;
+    const url=new URL(String(row.url)), idKey=step==="notice" ? "admRulSeq" : "lsiSeq";
+    if (url.searchParams.getAll(idKey).length!==1 || url.searchParams.get(idKey)!==row.lawId) return false;
+    if (step!=="notice" && (url.searchParams.getAll("joNo").length!==1
+        || url.searchParams.get("joNo")!==/^제(\d+)조/.exec(String(row.article))?.[1].padStart(4,"0"))) return false;
+  }
+  if (normalizedLaw(String((chain[0] as Record<string,unknown>).title))!==normalizedLaw(String(entry.citedLawTitle))) return false;
+  if ((chain[2] as Record<string,unknown>).lawId!==entry.lawId) return false;
+  const receiving=entry.receivingAgency as Record<string,unknown>|undefined;
+  const governmentPage=(url: unknown)=>{ const safe=externalFormUrl(url); return !!safe && /^(?:gov\.kr|.+\.(?:go|gov)\.kr)$/.test(new URL(safe).hostname); };
+  // 접수기관 페이지는 광역시 산하 누리집처럼 go.kr 이 아닌 공식 주소도 있다. 안전한 공개 주소만
+  // 요구하고, 정부 도메인 확인은 공개에 쓰이는 사업 페이지 쪽에 둔다.
+  if (!receiving || !externalFormUrl(receiving.url) || typeof receiving.claim!=="string" || receiving.claim.trim().length<30
+      || receiving.checkedAt!==entry.checkedAt || receiving.httpStatus!==200
+      || !/^[a-f0-9]{64}$/.test(String(receiving.evidenceSHA256??""))
+      || !/^[a-f0-9]{64}$/.test(String(entry.programmeEvidenceSHA256??""))) return false;
+  if (!governmentPage(entry.programmeUrl) || externalFormUrl(link.evidenceUrl)!==externalFormUrl(entry.programmeUrl)
+      || externalFormUrl(link.programEvidenceUrl)!==externalFormUrl(entry.programmeUrl)) return false;
+  return [program.url,...(program.sources??[]).map(source=>source.url)].some(url=>externalFormUrl(url)===externalFormUrl(entry.programmeUrl));
+}
+
+/** 내려받은 정적 자료가 등록된 법정 체인과 같은 서식·바이트를 가리키는지. 클라이언트도 같은 기준으로 막는다. */
+export function statutoryApplicationMatches(programId: string, form: ApplicationForm | undefined, link: FormLink): boolean {
+  const ref=link.scopeReference;
+  if (!form || ref?.kind!=="statutory-chain") return false;
+  const entry=(verifiedStatutoryApplications.applications as Record<string,Record<string,unknown>>)[String(ref.referenceId??"")];
+  return !!entry && Object.keys(ref).length===STATUTORY_FIELDS.length && STATUTORY_FIELDS.every(key=>key in ref)
+    && link.scopeBasis==="official-application-reference"
+    && entry.programmeId===programId && entry.formId===form.id && entry.annexNumber===form.annexNumber
+    && entry.sourceSHA256===ref.sourceSHA256 && entry.sourceSHA256===form.file?.sha256
+    && entry.sourceBytes===form.file?.bytes && entry.sourceUrl===form.sourceUrl
+    && entry.use===link.use && entry.condition===link.condition && entry.checkedAt===link.checkedAt
+    && entry.stage==="initial-application" && entry.lawId===form.lawId
+    && normalizedLaw(String(entry.referencedLawTitle))===normalizedLaw(ref.referencedLawTitle)
+    && entry.annexNumber===ref.annexNumber && ref.basis.trim().length>=30
+    && entry.programmeUrl===link.evidenceUrl && entry.programmeUrl===link.programEvidenceUrl
+    && entry.sourceFormat===(form.file?.format??"hwp")
+    && String(entry.sourceEffectiveDate??"").replace(/-/g,"")===String(form.effectiveDate??"").replace(/-/g,"");
+}
+
 function reviewedApplicationReference(program: Program, form: ApplicationForm, link: FormLink): boolean {
   const ref=link.scopeReference;
   if (link.scopeBasis!=="official-application-reference" || form.regionCode!=="national" || !ref
       || normalizedLaw(ref.referencedLawTitle)!==normalizedLaw(form.lawTitle)
       || ref.annexNumber!==form.annexNumber || ref.basis.trim().length<30) return false;
+  if (ref.kind==="statutory-chain") return reviewedStatutoryApplication(program,form,link);
   if (ref.kind==="cited-local-law") {
     const safe=officialFormUrl(link.evidenceUrl);
     return !!safe && !!ref.sourceLawId && new URL(safe).searchParams.get("ordinSeq")===ref.sourceLawId
@@ -334,6 +461,15 @@ function reviewedMunicipalRoute(program: Program, form: ApplicationForm, link: F
     && [program.url,...(program.sources??[]).map(source=>source.url)].some(url=>externalFormUrl(url)===exact);
 }
 
+function reviewedNationalMunicipalIntake(program: Program, form: ApplicationForm, link: FormLink): boolean {
+  if (link.scopeBasis!=="national-municipal-intake-reference" || !link.nationalMunicipalIntakeReference
+      || form.sourceKind!=="agency" || program.scope!=="national" || program.region!=null) return false;
+  const entry=registeredAgencyForm(form.id), ref=entry?.nationalMunicipalIntakeReference;
+  return !!entry && !!ref && ref.programmeId===program.id
+    && sameNationalIntakeReference(link.nationalMunicipalIntakeReference,ref)
+    && form.agency?.sha256===ref.sourceSHA256 && agencyProgramLinkMatches(program.id,form,link);
+}
+
 export function sameFormJurisdiction(program: Pick<Program, "scope" | "region">, form: ApplicationForm): boolean {
   if (form.regionCode === "national") return program.scope === "national";
   if (program.scope === "sigungu") return form.regionCode === program.region?.sigungu;
@@ -344,11 +480,17 @@ export function sameFormJurisdiction(program: Pick<Program, "scope" | "region">,
 /** Fail a publication build instead of silently accepting an invalid reviewed link. */
 export function validateFormLink(program: Program, form: ApplicationForm | undefined, link: FormLink): void {
   if (!form || form.id !== link.formId) throw new Error("Unknown form in reviewed association");
+  const nationalIntake=reviewedNationalMunicipalIntake(program,form,link);
+  if ((link.nationalMunicipalIntakeReference || link.scopeBasis==="national-municipal-intake-reference") && !nationalIntake)
+    throw new Error("National municipal intake route lacks exact municipal source evidence");
   if (form.sourceKind==="agency" || form.id.startsWith("agency-")) {
     const e=validateAgencyForm(form), p=e.programs.find(p=>p.id===program.id);
-    if (!p || !agencyProgramLinkMatches(program.id,form,link) || !sameFormJurisdiction(program,form)
+    // 이 선택 접수 경로만 전국 사업과 시·군·구 기관 원본의 관할 차이를 허용한다.
+    if (!p || !agencyProgramLinkMatches(program.id,form,link) || (!sameFormJurisdiction(program,form) && !nationalIntake)
         || ![program.url,...(program.sources??[]).map(s=>s.url)].includes(p.url)) throw new Error("Agency program binding mismatch");
   }
+  if (link.scopeReference?.kind==="statutory-chain" && !reviewedStatutoryApplication(program,form,link))
+    throw new Error("Statutory application reference lacks exact registered chain evidence");
   const municipalRoute=reviewedMunicipalRoute(program,form,link);
   const renamedLaw=reviewedRenamedLaw(program,form,link);
   if (link.renamedLawReference && !renamedLaw) throw new Error("Renamed law reference lacks exact program and official history evidence");
@@ -356,7 +498,7 @@ export function validateFormLink(program: Program, form: ApplicationForm | undef
   if (!sameFormJurisdiction(program, form)) {
     const sameProvince = link.scopeBasis === "provincial-law-reference" && program.scope === "sigungu" && program.region?.sido === form.regionCode;
     const nationalReference = link.scopeBasis === "national-law-reference" && form.regionCode === "national";
-    if (!municipalRoute && !renamedLaw && !reviewedApplicationReference(program,form,link) && ((!sameProvince && !nationalReference) || !referencedFormLaw(program, form))) throw new Error(`Form jurisdiction does not match program: ${program.id} / ${form.id}`);
+    if (!municipalRoute && !renamedLaw && !nationalIntake && !reviewedApplicationReference(program,form,link) && ((!sameProvince && !nationalReference) || !referencedFormLaw(program, form))) throw new Error(`Form jurisdiction does not match program: ${program.id} / ${form.id}`);
   }
   if (!["application", "consent", "delegation", "supporting"].includes(form.role)) throw new Error("Non-applicant form cannot be published as an application");
   if (!externalFormUrl(link.evidenceUrl) || link.evidenceNote.trim().length < 10 || !/^\d{4}-\d{2}-\d{2}$/.test(link.checkedAt)) throw new Error("Reviewed association needs dated source evidence");

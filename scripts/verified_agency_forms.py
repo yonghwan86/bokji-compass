@@ -15,6 +15,13 @@ BASIS_FIELDS = ('kind', 'title', 'evidenceUrl', 'checkedAt', 'evidenceNote', 'pa
 VISUAL_FIELDS = ('kind', 'checkedAt', 'sha256', 'width', 'height', 'frames', 'blankApplicantForm', 'noFilledPersonalData', 'evidenceNote')
 PDF_REVIEW_FIELDS = ('kind', 'checkedAt', 'sha256', 'pageCount', 'pagesRead', 'blankApplicantForm', 'noFilledPersonalData', 'evidenceNote')
 IMAGE_SECTIONS = ['frame-1']
+LAW_DATE_EVIDENCE = ('lawId', 'promulgationDate', 'promulgationNumber', 'bodySHA256', 'addendumText', 'effectiveDate')
+NATIONAL_INTAKE_FIELDS = frozenset({'kind','programmeId','sigungu','municipality','municipalPageUrl','downloadUrl',
+    'sourceSHA256','municipalPageSHA256','httpStatus','checkedAt','stage','sameServiceEvidence','populationEvidence','scopeRestriction'})
+ADDENDUM = re.compile(r'부\s*칙\s*[(<]\s*([^)>]{4,160}?)\s*[)>]')
+KOREAN_DAY = re.compile(r'(\d{4})\s*년\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일')
+DOTTED_DAY = re.compile(r'(\d{4})\s*\.\s*(\d{1,2})\s*\.\s*(\d{1,2})\s*\.')
+ENFORCEMENT = re.compile(r'이\s*조례는[^.]{0,120}?시행한다')
 
 
 def review_fields(review):
@@ -108,12 +115,12 @@ def whole_image_review(entry):
     It records that every frame of these exact bytes was looked at and found to
     be a blank applicant form. The reader only decodes the image; it never
     decides this. Bound to the registered SHA, day and pixel size, so changed
-    bytes or another image cannot inherit the review. Only jpg may carry it —
-    a format whose body text is readable must prove itself by that text.
-    A pdf original carries the page-based review above instead; neither format
-    can claim the other's kind.
+    bytes or another image cannot inherit the review. Only jpg or png may carry
+    it — a format whose body text is readable must prove itself by that text.
+    A pdf original carries the page-based review above instead; neither an
+    image nor a pdf can claim the other's kind.
     """
-    image = entry.get('format') == 'jpg'
+    image = entry.get('format') in ('jpg', 'png')
     if 'visualReview' not in entry:
         if image:raise ValueError('image_original_lacks_whole_image_review')
         return None
@@ -142,6 +149,118 @@ def ordinance_authority(entry, law):
             and str(entry.get('lawId', '')).isdigit()
             and all(valid_day(entry.get(k)) for k in ('lawEffectiveDate', 'lawCurrentCheckedAt'))
             and entry['lawCurrentCheckedAt'] == entry['checkedAt'] and entry['lawEffectiveDate'] <= entry['checkedAt'])
+
+
+def iso_day(value):
+    """'YYYYMMDD' 와 'YYYY-MM-DD' 만 ISO 로 읽는다. 그 밖에는 None."""
+    text = str(value or '').strip()
+    if re.fullmatch(r'\d{8}', text):text = f'{text[:4]}-{text[4:6]}-{text[6:]}'
+    return text if valid_day(text) else None
+
+
+def korean_day(text):
+    """'YYYY년 M월 D일' 하나를 ISO 로. 없으면 None."""
+    found = KOREAN_DAY.search(text or '')
+    return f'{int(found[1]):04d}-{int(found[2]):02d}-{int(found[3]):02d}' if found else None
+
+
+def addendum_head_day(text):
+    """부칙 머리말의 공포일. 법령포털은 '2024. 12. 20.' 과 'YYYY년 M월 D일' 을 함께 쓴다."""
+    found = DOTTED_DAY.search(text or '') or KOREAN_DAY.search(text or '')
+    if not found:return None
+    value = f'{int(found[1]):04d}-{int(found[2]):02d}-{int(found[3]):02d}'
+    return value if valid_day(value) else None
+
+
+def validate_current_law_date(entry, law_record, body, explicit_evidence=None):
+    """선언한 시행일이 실제 현행 부칙과 맞는지 본문으로 확인한다.
+
+    API 메타의 시행일과 선언이 같으면 기존 경로 그대로 그 날짜를 돌려주고 아무것도 더 묻지
+    않는다. 다를 때만, 같은 법규ID·공포일·공포번호·본문 SHA 에 결속된 증거를 요구하고 본문
+    에서 그 공포 정보를 머리말에 가진 부칙 하나를 직접 찾아 시행일을 읽어 대조한다. 플래그나
+    날짜 문자열만으로는 통과하지 않으며, 부칙을 특정하지 못하거나 시행일이 여럿·불명확하면
+    추측하지 않고 실패한다. 반환값은 검증된 ISO 시행일이다.
+    """
+    law_id = str(entry.get('lawId') or '')
+    if not law_id.isdigit() or str(law_record.get('lawId') or '') != law_id:raise ValueError('law_record_mismatch')
+    declared = entry.get('lawEffectiveDate')
+    if not valid_day(declared):raise ValueError('invalid_declared_effective_date')
+    meta = iso_day(law_record.get('effectiveDate'))
+    if meta is None:raise ValueError('invalid_law_record_effective_date')
+    if meta == declared and explicit_evidence is None:return declared
+    if not isinstance(explicit_evidence, dict):raise ValueError('law_date_meta_mismatch')
+    if set(explicit_evidence) != set(LAW_DATE_EVIDENCE):raise ValueError('law_date_evidence_fields')
+    promulgated, number = iso_day(law_record.get('promulgationDate')), str(law_record.get('promulgationNumber') or '')
+    if promulgated is None or not number.isdigit():raise ValueError('law_record_promulgation_missing')
+    if (str(explicit_evidence['lawId']) != law_id or iso_day(explicit_evidence['promulgationDate']) != promulgated
+            or str(explicit_evidence['promulgationNumber']) != number
+            or explicit_evidence['effectiveDate'] != declared):raise ValueError('law_date_evidence_binding')
+    raw = bytes(body) if isinstance(body, (bytes, bytearray)) else str(body).encode('utf-8')
+    if hashlib.sha256(raw).hexdigest() != str(explicit_evidence['bodySHA256']):raise ValueError('law_body_changed')
+    text = raw.decode('utf-8')
+    marks = list(ADDENDUM.finditer(text))
+    blocks = [text[mark.end():(marks[i+1].start() if i+1 < len(marks) else len(text))]
+              for i, mark in enumerate(marks)
+              if addendum_head_day(mark[1]) == promulgated and f'제{number}호' in re.sub(r'\s+', '', mark[1])]
+    if len(blocks) != 1:raise ValueError('current_addendum_not_identified')
+    block = blocks[0]
+    sentences = ENFORCEMENT.findall(block)
+    if len(sentences) != 1 or len(re.findall(r'부터\s*시행', block)) != 1 or '다만' in block:
+        raise ValueError('ambiguous_enforcement_date')
+    enforced = korean_day(sentences[0])
+    if enforced is None:raise ValueError('no_explicit_enforcement_date')
+    if enforced != declared:raise ValueError('enforcement_date_conflict')
+    quoted = re.sub(r'\s+', ' ', str(explicit_evidence['addendumText'])).strip()
+    if len(quoted) < 10 or korean_day(quoted) != declared or quoted not in re.sub(r'\s+', ' ', block):
+        raise ValueError('addendum_quote_mismatch')
+    return declared
+
+
+def national_intake_reference(entry):
+    """A reviewed municipal intake is bound to this exact registry source and page."""
+    ref = entry.get('nationalMunicipalIntakeReference')
+    if ref is None:return None
+    basis = entry.get('authorityBasis') or {}
+    city = str(ref.get('municipality', '')) if isinstance(ref, dict) else ''
+    code = str(ref.get('sigungu', '')) if isinstance(ref, dict) else ''
+    if (not isinstance(ref, dict) or set(ref) != NATIONAL_INTAKE_FIELDS
+            or ref.get('kind') != 'municipal-intake' or ref.get('stage') != 'initial-application'
+            or not re.fullmatch(r'\d{5}', code) or code.endswith('000') or code != entry.get('regionCode')
+            or len(city.strip()) < 2 or city not in str(entry.get('regionLabel', ''))
+            or entry.get('sourceKind') != 'agency' or entry.get('use') != 'conditional'
+            or city not in str(entry.get('condition', ''))
+            or ref.get('sourceSHA256') != entry.get('sha256')
+            or not re.fullmatch(r'[a-f0-9]{64}', str(ref.get('sourceSHA256', '')))
+            or ref.get('municipalPageUrl') != entry.get('sourcePageUrl') or ref.get('downloadUrl') != entry.get('sourceUrl')
+            or basis.get('kind') != 'official-program' or basis.get('evidenceUrl') != ref.get('municipalPageUrl')
+            or not re.fullmatch(r'[a-f0-9]{64}', str(ref.get('municipalPageSHA256', '')))
+            or ref['municipalPageSHA256'] != basis.get('pageSHA256')
+            or ref.get('httpStatus') != 200 or not valid_day(ref.get('checkedAt')) or ref['checkedAt'] != entry.get('checkedAt')
+            or any(not safe_url(ref.get(k)) or not re.fullmatch(r'gov\.kr|.+\.(?:go|gov)\.kr', urlsplit(ref[k]).hostname or '') for k in ('municipalPageUrl','downloadUrl'))
+            or any(not isinstance(ref.get(k), str) or len(ref[k].strip()) < 30 or city not in ref[k]
+                   for k in ('sameServiceEvidence','populationEvidence','scopeRestriction'))
+            or not re.search(r'전용|한정|선택', ref['scopeRestriction'])
+            or [p.get('id') for p in entry.get('programs', [])] != [ref.get('programmeId')]):
+        raise ValueError('invalid_national_municipal_intake_reference')
+    return ref
+
+
+def validate_national_intake(entry, program, record):
+    """The programme and imported record must reproduce the reviewed registry route."""
+    ref = national_intake_reference(entry)
+    matched = next((p for p in entry['programs'] if p['id'] == program.get('id')), None)
+    sources = [program.get('url')] + [s.get('url') for s in program.get('sources', []) if isinstance(s, dict)]
+    if (not ref or record.get('nationalMunicipalIntakeReference') != ref
+            or program.get('scope') != 'national' or program.get('region') is not None
+            or ref['programmeId'] != program.get('id') or not matched or matched['url'] not in sources
+            or record.get('formId') != entry.get('id') or record.get('scopeBasis') != 'national-municipal-intake-reference'
+            or record.get('programEvidenceUrl') != matched['url'] or record.get('evidenceUrl') != entry['sourcePageUrl']
+            or record.get('checkedAt') != entry['checkedAt'] or record.get('use') != entry['use']
+            or record.get('condition', '') != entry.get('condition', '') or record.get('sha256') != entry['sha256']
+            or record.get('verificationStatus') != 'verified' or record.get('officialAttachmentMatched') is not True
+            or record.get('renamedLawReference') or record.get('municipalApplicationReference')
+            or (record.get('displayTitle') is not None and record['displayTitle'] != entry['title'])):
+        raise ValueError('agency_national_intake_binding_mismatch')
 
 
 def registry_entry(form_id):
@@ -178,7 +297,7 @@ def registry_entry(form_id):
             or (entry.get('publishedAt') is not None and (not valid_day(entry['publishedAt']) or entry['publishedAt'] > entry['checkedAt']))
             or not re.fullmatch(r'[a-f0-9]{64}', str(entry.get('sha256', '')))
             or type(entry.get('bytes')) is not int or entry['bytes'] <= 0
-            or entry.get('format') not in ('hwp', 'hwpx', 'pdf', 'jpg')
+            or entry.get('format') not in ('hwp', 'hwpx', 'pdf', 'jpg', 'png')
             or not entry.get('attachmentId') or not (query_identity or path_identity)
             or not programs or any(not p.get('id') or not safe_url(p.get('url')) for p in programs)
             or len({p['id'] for p in programs}) != len(programs)
@@ -192,6 +311,7 @@ def registry_entry(form_id):
             or any(not all(isinstance(p.get(k), str) and p[k].strip() for k in ('number', 'title', 'author'))
                    or p.get('use') not in ('main', 'additional', 'conditional') for p in parts)):
         raise ValueError('invalid_agency_registry_entry')
+    national_intake_reference(entry)
     return entry
 
 
@@ -216,6 +336,8 @@ def agency_metadata(e):
 
 
 def validate_program(e, program, record):
+    if e.get('nationalMunicipalIntakeReference') is not None or record.get('nationalMunicipalIntakeReference') is not None or record.get('scopeBasis') == 'national-municipal-intake-reference':
+        return validate_national_intake(e, program, record)
     matched = next((p for p in e['programs'] if p['id'] == program.get('id')), None)
     region = program.get('region') or {}
     code = region.get('sigungu') if program.get('scope') == 'sigungu' else region.get('sido') if program.get('scope') == 'sido' else None
@@ -262,6 +384,7 @@ def prepare_review(record, inspect_document):
         selectedParts=e['selectedParts'], reviewedParts=e['selectedParts'], annexId='', annexNumber='',
         roleEvidenceUrl=e['sourceUrl'], roleCheckedAt=e['checkedAt'], authorityBasis=e.get('authorityBasis'),
         visualReview=e.get('visualReview'))
+    expected['nationalMunicipalIntakeReference'] = e.get('nationalMunicipalIntakeReference')
     if (any(record.get(k) != v for k, v in expected.items())
             or record.get('verificationStatus') != 'verified' or record.get('officialAttachmentMatched') is not True
             or record.get('fullBodyReviewed') is not True or len(str(record.get('roleBasis', ''))) < 30

@@ -1033,72 +1033,96 @@
         "sourceArticlesAvailable": true,
         "sourceArticleCount": 10
       },
-      "disposition": "requires_external_confirmation",
-      "reason": "2026년 공식 기금운용계획9쪽 전체 및 지출6쪽 도표를 재확인했다. 자립활동·자립구직·사회보험료·의료검사비는 일반보전금이고 자활기업 세무·교육·안전지원은 별도 민간이전으로 구분된다. 정부242026.8.12도 개인신청 없이 센터 발굴·안내라고 명시한다. 별지 제4호는 자활사업 실시기관이 지원대상의 사업자금 사용과 대여금 상환을 지도·감독하겠다는 서약이다. 규칙 제2조의 첨부서류임은 확인했으나 현 사업은 주민 자립활동·구직·의료비 등 위탁지원이며 기관 자체 또는 사업대여를 지원대상으로 하지 않는다. 기관 명칭만으로 제외하지 않고 해당 사업의 지원 항목·신청경로와 대조한 결과 이 사업의 필수 부속서류 근거가 없다. 현행 센터 내부서식과 이 별지의 실제 제출관계는 새 공개자료에서도 해소되지 않았다.",
+      "disposition": "non_applicant",
+      "reason": "2026-10-23 독립 조사자와 총괄이 고정원본12800바이트/SHA 및 전체414자를 각각 확인했다. 원본의 유일한 서약자·날인자는 자활사업 실시기관이며, 지원대상의 사업자금 용도·대여금 상환을 지도감독하고 경영지도계획을 첨부하는 기관의 관리책임 서약이다. 현행규칙1715997 제2조는 직접기금 신청서류와 센터위탁 내부서식 경로를 구분한다. 상위조례1971779 제3·8·9·11조는 기관·기업이 실제 지원대상인 점포·설비·대여 경로도 두므로 기관 명칭 자체를 보편적 제외사유로 삼지 않는다. 다만 현재 정확한 정부24 394000000124는 참여주민의 자립활동·구직·의료비·사회보험료4항목과 센터발굴·안내를 명시한다. 이 현재 주민급여 신청인의 서식으로 기관의 대여상환 관리서약을 붙이지 않는 non_applicant로 분류한다. 서약서 자체의 폐지나 별도 기관직접지원사업에서도 사용할 수 없다는 결론은 아니다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g41280.gov24-394000000124",
           "disposition": "not_connected",
-          "reason": "별지 제4호는 자활사업 실시기관이 지원대상의 사업자금 사용과 대여금 상환을 지도·감독하겠다는 서약이다. 규칙 제2조의 첨부서류임은 확인했으나 현 사업은 주민 자립활동·구직·의료비 등 위탁지원이며 기관 자체 또는 사업대여를 지원대상으로 하지 않는다. 기관 명칭만으로 제외하지 않고 해당 사업의 지원 항목·신청경로와 대조한 결과 이 사업의 필수 부속서류 근거가 없다.",
-          "applyType": "auto",
-          "applyMethod": "○ 개인 신청절차 없음\n- 고양지역자활센터에서 관련 대상자 발굴하여 신청 안내",
-          "target": "○ 자활사업 참여주민"
+          "reason": "2026-10-23 독립 조사자와 총괄이 고정원본12800바이트/SHA 및 전체414자를 각각 확인했다. 원본의 유일한 서약자·날인자는 자활사업 실시기관이며, 지원대상의 사업자금 용도·대여금 상환을 지도감독하고 경영지도계획을 첨부하는 기관의 관리책임 서약이다. 현행규칙1715997 제2조는 직접기금 신청서류와 센터위탁 내부서식 경로를 구분한다. 상위조례1971779 제3·8·9·11조는 기관·기업이 실제 지원대상인 점포·설비·대여 경로도 두므로 기관 명칭 자체를 보편적 제외사유로 삼지 않는다. 다만 현재 정확한 정부24 394000000124는 참여주민의 자립활동·구직·의료비·사회보험료4항목과 센터발굴·안내를 명시한다. 이 현재 주민급여 신청인의 서식으로 기관의 대여상환 관리서약을 붙이지 않는 non_applicant로 분류한다. 서약서 자체의 폐지나 별도 기관직접지원사업에서도 사용할 수 없다는 결론은 아니다."
         }
       ],
       "relatedArticles": [
         "제2조(지원신청) 「고양시 자활기금 설치 및 운용 조례」(이하 “조례”라 한다) 제9조에 따른 자활기금(이하 “기금”이라 한다) 지원신청 서류는 다음 각 호와 같다. 다만, 기금운용계획에 따라 지역자활센터에 위탁하여 관련 대상자에게 자활기금을 지원하는 경우에는 내부 신청 서식으로 사용할 수 있다.1. 별지 제1호서식의 자활기금 지원 신청서 또는 별지 제2호서식의 자활기금 대여 신청서2. 별지 제3호서식의 사업계획서3. 별지 제4호서식의 서약서4. 그 밖에 지원신청에 필요한 서류"
       ],
-      "reviewedBy": "codex-national_form_audit",
-      "reviewedAt": "2026-10-18",
+      "reviewedBy": "codex-coordinator-with-independent-review",
+      "reviewedAt": "2026-10-23",
       "sourceBodyPath": "logs/forms-completion/law-bodies/1715997.json.gz",
       "sourceBodySHA256": "a1fb7d602122b2606ba0a5d6ded97587bf8a9651711d34cdb9a52c54fd2f890a",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.goyang.go.kr/www/www04/www04_10/www04_10_2/www04_10_2_tab4.jsp",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "b7b400f4f79dd810598deb6a2f7d1ed9b5a0f472078fcec631b308fe2625ec15",
-            "newEvidence": "2026 현재 기금계획 배포",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/goyang-fund-current.json",
-                "sha256": "5b8cd8a3373d327c9c71b7532adf01c63ddbdbe926b6bb3f69a07337088b804a",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.goyang.go.kr/component/resrce/file/ND_resrceFileDownload.do?resrceSn=1254&resrceVer=1&fileSn=1",
-            "status": "official_pdf_all_9_pages_text_and_page6_visual_reviewed",
-            "newEvidence": "9쪽 전체추출·6쪽 도표 시각대조, 주민과 기관 사업 구분",
-            "savedEvidence": []
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/394000000124",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "e51f8ab2fe404fee81ac62621c11b1b7c22e77d5893c45ee7cb9b81d647ba6bc",
-            "newEvidence": "개인신청 없음·센터 발굴 경로 현재 유지",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/gov24-current-14.json",
-                "sha256": "2f3defcb11603f1f9ab014452664c67518a1a9c6417038ec52245c05a4c3f3d6",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResultSHA256": "9bd88c318a2967adc2bbdedd4f60709a2cbf63c1564e85d734a7ffb73072c233",
+        "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+        "proposedStatus": "non_applicant_for_current_resident_benefit",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g41280.gov24-394000000124"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "2026년 공식 기금운용계획9쪽 전체 및 지출6쪽 도표를 재확인했다. 자립활동·자립구직·사회보험료·의료검사비는 일반보전금이고 자활기업 세무·교육·안전지원은 별도 민간이전으로 구분된다. 정부242026.8.12도 개인신청 없이 센터 발굴·안내라고 명시한다. 별지 제4호는 자활사업 실시기관이 지원대상의 사업자금 사용과 대여금 상환을 지도·감독하겠다는 서약이다. 규칙 제2조의 첨부서류임은 확인했으나 현 사업은 주민 자립활동·구직·의료비 등 위탁지원이며 기관 자체 또는 사업대여를 지원대상으로 하지 않는다. 기관 명칭만으로 제외하지 않고 해당 사업의 지원 항목·신청경로와 대조한 결과 이 사업의 필수 부속서류 근거가 없다. 현행 센터 내부서식과 이 별지의 실제 제출관계는 새 공개자료에서도 해소되지 않았다.",
+          "relatedProgramIds": [
+            "g41280.gov24-394000000124"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41280.gov24-394000000124",
+              "disposition": "not_connected",
+              "reason": "별지 제4호는 자활사업 실시기관이 지원대상의 사업자금 사용과 대여금 상환을 지도·감독하겠다는 서약이다. 규칙 제2조의 첨부서류임은 확인했으나 현 사업은 주민 자립활동·구직·의료비 등 위탁지원이며 기관 자체 또는 사업대여를 지원대상으로 하지 않는다. 기관 명칭만으로 제외하지 않고 해당 사업의 지원 항목·신청경로와 대조한 결과 이 사업의 필수 부속서류 근거가 없다.",
+              "applyType": "auto",
+              "applyMethod": "○ 개인 신청절차 없음\n- 고양지역자활센터에서 관련 대상자 발굴하여 신청 안내",
+              "target": "○ 자활사업 참여주민"
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.goyang.go.kr/www/www04/www04_10/www04_10_2/www04_10_2_tab4.jsp",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "b7b400f4f79dd810598deb6a2f7d1ed9b5a0f472078fcec631b308fe2625ec15",
+                "newEvidence": "2026 현재 기금계획 배포",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/goyang-fund-current.json",
+                    "sha256": "5b8cd8a3373d327c9c71b7532adf01c63ddbdbe926b6bb3f69a07337088b804a",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.goyang.go.kr/component/resrce/file/ND_resrceFileDownload.do?resrceSn=1254&resrceVer=1&fileSn=1",
+                "status": "official_pdf_all_9_pages_text_and_page6_visual_reviewed",
+                "newEvidence": "9쪽 전체추출·6쪽 도표 시각대조, 주민과 기관 사업 구분",
+                "savedEvidence": []
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/394000000124",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "e51f8ab2fe404fee81ac62621c11b1b7c22e77d5893c45ee7cb9b81d647ba6bc",
+                "newEvidence": "개인신청 없음·센터 발굴 경로 현재 유지",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/gov24-current-14.json",
+                    "sha256": "2f3defcb11603f1f9ab014452664c67518a1a9c6417038ec52245c05a4c3f3d6",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
       ]
     },
     {
@@ -3058,26 +3082,65 @@
         "sourceArticlesAvailable": true,
         "sourceArticleCount": 6
       },
-      "disposition": "non_applicant",
-      "reason": "규칙 제6조는 난임치료 수행기관이 치료 종료 후 비용을 청구하도록 정한다. 실제 원본은 의료기관 사업자번호·기관 계좌·기관장 서명 및 여러 치료자의 명단이며 신청인인 남성 환자의 지원 신청서가 아니다. 현 사업의 환자 보건소 신청 절차와 구분하여 연결하지 않는다.",
+      "disposition": "approved",
+      "reason": "정부24 exact322000000108을2026-10-23 GET200/서비스ID일치로 읽어 강남거주 이상소견 남성의 난임검진·상담 비용과 같은조례 인용을 확인했다. 현행 상위조례1886217 제5조2항1호·제6조·제8조·제9조 및 시행규칙1729361 제4~6조를 읽었다. 규칙 별표1은 이 남성사업의 정액검사·고환검진·음낭초음파 등 검진과 지정 비뇨의학과 수행기관을 직접 특정한다. 원본7호 전체 앞뒤596자는 기관명/사업자/기관계좌/기관장서명과 치료자명단으로서 바로 그 수행기관의 진료종료후 청구다. 기관이라는 이유나 주민신청 안내만을 이유로 배제하던 이전판정을, 이 법정 제공기관 단계에만 한정해 정정한다. 원본의 한방조건부 첨부항목은 보존하되 이번 남성사업의 적용범위를 넓히지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g11680.gov24-322000000108",
-          "disposition": "not_connected",
-          "reason": "규칙 제6조는 난임치료 수행기관이 치료 종료 후 비용을 청구하도록 정한다. 실제 원본은 의료기관 사업자번호·기관 계좌·기관장 서명 및 여러 치료자의 명단이며 신청인인 남성 환자의 지원 신청서가 아니다. 현 사업의 환자 보건소 신청 절차와 구분하여 연결하지 않는다.",
-          "applyType": "self",
-          "applyMethod": "○ 방문 신청\n- 보건소 : 관할 보건소 방문",
-          "target": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성"
+          "formId": "ordin-13620757",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "강남구 남성 난임 지원사업에서 지원결정을 받은 대상자에게 사업 범위의 검진·상담을 시행한 지정 난임치료 수행기관(비뇨의학과 병·의원)이 진료 종료 후 비용을 청구할 때 쓰는 기관작성 부속서류입니다. 기관계좌·대표자 서명·치료자 명단을 작성하고 지원결정통지서, 진료영수증·진료상세내역, 사업자등록증·통장사본 등 법정 증빙을 준비합니다. 남성 주민의 최초 보건소 신청서나 모든 의료기관의 일반 진료비 청구서가 아닙니다. 같은 파일의 한방치료용 선택적 첨부 안내를 근거로 이 사업 연결을 한방난임·국가 난임시술비 또는 여성 난임치료에 확대하지 않습니다. 지원결정된 남성 난임 검진·상담의 인정 비용만 청구합니다.",
+          "reason": "정부24 exact322000000108을2026-10-23 GET200/서비스ID일치로 읽어 강남거주 이상소견 남성의 난임검진·상담 비용과 같은조례 인용을 확인했다. 현행 상위조례1886217 제5조2항1호·제6조·제8조·제9조 및 시행규칙1729361 제4~6조를 읽었다. 규칙 별표1은 이 남성사업의 정액검사·고환검진·음낭초음파 등 검진과 지정 비뇨의학과 수행기관을 직접 특정한다. 원본7호 전체 앞뒤596자는 기관명/사업자/기관계좌/기관장서명과 치료자명단으로서 바로 그 수행기관의 진료종료후 청구다. 기관이라는 이유나 주민신청 안내만을 이유로 배제하던 이전판정을, 이 법정 제공기관 단계에만 한정해 정정한다. 원본의 한방조건부 첨부항목은 보존하되 이번 남성사업의 적용범위를 넓히지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
         }
       ],
       "relatedArticles": [
         "제6조(치료비 청구 및 지급 등) 조례 제9조제3항에 따라 난임치료 수행기관은 난임치료 종료 시 다음 각 호의 서류를 첨부하여 구청장에게 제출하여 치료비를 청구할 수 있다.1. 난임치료 지원사업 치료비 청구서2. 지원결정통지서 사본3. 진료영수증 및 진료상세내역서4. 사업자등록증, 통장 사본5. 그 밖에 필요하다고 인정하는 서류 등"
       ],
-      "reviewedBy": "codex-national_form_audit",
+      "reviewedBy": "codex-coordinator-with-independent-hwpx-source-review",
       "reviewedAt": "2026-10-18",
       "sourceBodyPath": "logs/forms-completion/law-bodies/1729361.json.gz",
-      "sourceBodySHA256": "945faf0254c1d6bdae134bcd87181f21072aeea787c57110d8343ddb35e806d1"
+      "sourceBodySHA256": "945faf0254c1d6bdae134bcd87181f21072aeea787c57110d8343ddb35e806d1",
+      "priorDispositions": [
+        {
+          "checkedAt": null,
+          "disposition": "non_applicant",
+          "reason": "규칙 제6조는 난임치료 수행기관이 치료 종료 후 비용을 청구하도록 정한다. 실제 원본은 의료기관 사업자번호·기관 계좌·기관장 서명 및 여러 치료자의 명단이며 신청인인 남성 환자의 지원 신청서가 아니다. 현 사업의 환자 보건소 신청 절차와 구분하여 연결하지 않는다.",
+          "relatedProgramIds": null,
+          "reviewedProgramPairs": [
+            {
+              "programId": "g11680.gov24-322000000108",
+              "disposition": "not_connected",
+              "reason": "규칙 제6조는 난임치료 수행기관이 치료 종료 후 비용을 청구하도록 정한다. 실제 원본은 의료기관 사업자번호·기관 계좌·기관장 서명 및 여러 치료자의 명단이며 신청인인 남성 환자의 지원 신청서가 아니다. 현 사업의 환자 보건소 신청 절차와 구분하여 연결하지 않는다.",
+              "applyType": "self",
+              "applyMethod": "○ 방문 신청\n- 보건소 : 관할 보건소 방문",
+              "target": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성"
+            }
+          ],
+          "officialFollowup": null
+        }
+      ],
+      "checkedAt": "2026-10-23",
+      "reviewCheckedAt": "2026-10-23",
+      "relatedProgramIds": [
+        "g11680.gov24-322000000108"
+      ],
+      "approvedAssociations": [
+        {
+          "programId": "g11680.gov24-322000000108",
+          "formId": "ordin-13620757",
+          "use": "conditional"
+        }
+      ],
+      "officialFollowup": {
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8214.json",
+        "sourceResultSHA256": "547e765f7ba4f88df951a92bbdcdcc8ab2ea9d3405763d2ac25f757a7a4a3686",
+        "proposedStatus": "approved_exact_followup_not_citizen_main",
+        "allOriginalsMatched": false
+      }
     },
     {
       "formId": "ordin-21361431",

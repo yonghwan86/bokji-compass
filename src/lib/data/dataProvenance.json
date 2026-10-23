@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "basis": {
+    "detailDir": "public/bundles/v1/details",
+    "shardFiles": 256,
+    "programRecords": 23578,
+    "duplicateIds": 0,
+    "programsWithoutSources": 0
+  },
+  "bundleGeneratedAt": "2026-10-08T14:57:47.456Z",
+  "metaUniquePrograms": 23575,
+  "metaPlacements": 23578,
+  "districtCopies": {
+    "extraRecords": 3,
+    "groups": 3,
+    "regions": [
+      "인천 영종구",
+      "인천 제물포구"
+    ],
+    "sourceKinds": [
+      "bokjiro"
+    ]
+  },
+  "overlap": {
+    "sourceKindLinkSum": 24889,
+    "programsWithMultipleSourceKinds": 1263,
+    "byKindCount": {
+      "2": 1215,
+      "3": 48
+    }
+  },
+  "urlCoverage": {
+    "programsWithRecordedUrl": 23528,
+    "programsWithoutAnyUrl": 50,
+    "welfare100OnlyWithoutUrl": 50
+  },
+  "sources": [
+    {
+      "id": "gov24",
+      "title": "정부24 공공서비스(혜택)",
+      "programLinks": 9336,
+      "sourceRefs": 9703,
+      "refsWithoutUrl": 0,
+      "fetchedAt": {
+        "min": "2026-10-02",
+        "max": "2026-10-02",
+        "datedRefs": 9703,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 9703
+        }
+      },
+      "documentDate": {
+        "min": "2025-11-27",
+        "max": "2026-10-02",
+        "datedRefs": 9703,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 9703
+        },
+        "label": "서비스 수정일",
+        "meaning": "원문이 수정된 날이며 수집일이 아닙니다."
+      },
+      "urlHosts": [
+        {
+          "host": "www.gov.kr",
+          "refs": 9703
+        }
+      ],
+      "distinctUrls": 9703,
+      "distinctBoards": 0,
+      "links": [
+        {
+          "href": "https://www.gov.kr/portal/rcvfvrSvc/main",
+          "label": "정부24 혜택 원문",
+          "role": "original"
+        },
+        {
+          "href": "https://www.data.go.kr/data/15113968/openapi.do",
+          "label": "공공데이터포털에서 정부24 API 보기",
+          "role": "provider-api"
+        }
+      ]
+    },
+    {
+      "id": "bokjiro",
+      "title": "복지로 복지서비스",
+      "programLinks": 5232,
+      "sourceRefs": 5271,
+      "refsWithoutUrl": 0,
+      "fetchedAt": {
+        "min": "2026-10-06",
+        "max": "2026-10-06",
+        "datedRefs": 5271,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 5271
+        }
+      },
+      "documentDate": {
+        "min": "2022-06-29",
+        "max": "2026-10-02",
+        "datedRefs": 5271,
+        "missingRefs": 0,
+        "precision": "mixed",
+        "granularity": {
+          "year": 461,
+          "month": 0,
+          "day": 4810
+        },
+        "label": "기준 시점·최종수정일",
+        "meaning": "연도만 기록된 기준값 461개를 포함합니다. 연도 기준 표기는 정확한 수정 날짜나 수집일이 아니며, 날짜까지 있는 기록과 구분해서 보아야 합니다."
+      },
+      "urlHosts": [
+        {
+          "host": "www.bokjiro.go.kr",
+          "refs": 5271
+        }
+      ],
+      "distinctUrls": 5268,
+      "distinctBoards": 0,
+      "links": [
+        {
+          "href": "https://www.bokjiro.go.kr/",
+          "label": "복지로 누리집",
+          "role": "original"
+        },
+        {
+          "href": "https://www.data.go.kr/data/15090532/openapi.do",
+          "label": "공공데이터포털에서 복지로 중앙부처 API 보기",
+          "role": "provider-api"
+        },
+        {
+          "href": "https://www.data.go.kr/data/15108347/openapi.do",
+          "label": "공공데이터포털에서 복지로 지자체 API 보기",
+          "role": "provider-api"
+        }
+      ]
+    },
+    {
+      "id": "icare",
+      "title": "통합돌봄 메뉴판",
+      "programLinks": 10218,
+      "sourceRefs": 10294,
+      "refsWithoutUrl": 0,
+      "fetchedAt": {
+        "min": "2026-10-01",
+        "max": "2026-10-01",
+        "datedRefs": 10294,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 10294
+        }
+      },
+      "documentDate": {
+        "min": "2026-03",
+        "max": "2026-07",
+        "datedRefs": 10294,
+        "missingRefs": 0,
+        "precision": "mixed",
+        "granularity": {
+          "year": 0,
+          "month": 7140,
+          "day": 3154
+        },
+        "label": "기준 시점",
+        "meaning": "메뉴판 문서에 적힌 기준 시점입니다. 월만 있는 값과 날짜까지 있는 값이 함께 있으며, 수집일이 아닙니다."
+      },
+      "urlHosts": [
+        {
+          "host": "www.mohw.go.kr",
+          "refs": 10294
+        }
+      ],
+      "distinctUrls": 230,
+      "distinctBoards": 17,
+      "links": [
+        {
+          "href": "https://www.mohw.go.kr/menu.es?mid=a60600000000",
+          "label": "보건복지부 통합돌봄 메뉴판 목록",
+          "role": "original"
+        }
+      ],
+      "limitation": "이 묶음의 통합돌봄 자료는 OpenAPI로 직접 수집한 것이 아니라 선행 대시보드 수집본을 읽은 것이고, 공적 원출처는 보건복지부 통합돌봄 메뉴판입니다. 나중에 원문을 다시 받는 코드가 이 묶음에 반영된 것은 아닙니다."
+    },
+    {
+      "id": "welfare100",
+      "title": "핵심 복지 100선",
+      "programLinks": 100,
+      "sourceRefs": 100,
+      "refsWithoutUrl": 100,
+      "fetchedAt": {
+        "min": "2026-10-06",
+        "max": "2026-10-06",
+        "datedRefs": 100,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 100
+        }
+      },
+      "documentDate": {
+        "min": "2026-09-24",
+        "max": "2026-09-24",
+        "datedRefs": 100,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 100
+        },
+        "label": "색인 기준일",
+        "meaning": "개별 원문 주소가 없는 요약의 기준일이며 수집일과 다릅니다."
+      },
+      "urlHosts": [],
+      "distinctUrls": 0,
+      "distinctBoards": 0,
+      "links": [],
+      "limitation": "핵심 복지 100선은 운영자가 정리한 요약이고 공식 API가 아닙니다. 개별 원문 주소가 비어 있어 복지로 페이지로 이어 주지 않습니다."
+    },
+    {
+      "id": "manual",
+      "title": "수동 보강",
+      "programLinks": 3,
+      "sourceRefs": 3,
+      "refsWithoutUrl": 0,
+      "fetchedAt": {
+        "min": "2026-10-07",
+        "max": "2026-10-07",
+        "datedRefs": 3,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 3
+        }
+      },
+      "documentDate": {
+        "min": "2026-10-07",
+        "max": "2026-10-07",
+        "datedRefs": 3,
+        "missingRefs": 0,
+        "precision": "day",
+        "granularity": {
+          "year": 0,
+          "month": 0,
+          "day": 3
+        },
+        "label": "누리집 확인일",
+        "meaning": "자료에 적힌 날짜는 확인일이며, 별도의 문서 날짜는 없습니다."
+      },
+      "urlHosts": [
+        {
+          "host": "www.nhis.or.kr",
+          "refs": 2
+        },
+        {
+          "host": "www.suwon.go.kr",
+          "refs": 1
+        }
+      ],
+      "distinctUrls": 3,
+      "distinctBoards": 0,
+      "links": [
+        {
+          "href": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+          "label": "65세 이상 건강보험 틀니 (본인부담 경감)",
+          "role": "evidence"
+        },
+        {
+          "href": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+          "label": "65세 이상 건강보험 치과임플란트 (본인부담 경감)",
+          "role": "evidence"
+        },
+        {
+          "href": "https://www.suwon.go.kr/sw-www/saebitinfo/saebitinfo-01.jsp",
+          "label": "수원시 어르신 교통비 지원",
+          "role": "evidence"
+        }
+      ]
+    }
+  ],
+  "forms": {
+    "downloadOriginals": 2844,
+    "linkedPrograms": 2564,
+    "censusPrograms": 23578,
+    "formBundleGeneratedAt": "2026-10-23T02:37:36.150Z",
+    "lawReviewCheckedAt": "2026-10-23",
+    "portalListCheckedAt": "2026-10-16T16:26:04.977154+00:00"
+  },
+  "pipelineInputs": [
+    {
+      "id": "gov24",
+      "records": 10949
+    },
+    {
+      "id": "bokjiro",
+      "records": 5283
+    },
+    {
+      "id": "icare",
+      "records": 12526
+    },
+    {
+      "id": "welfare100",
+      "records": 100
+    },
+    {
+      "id": "manual",
+      "records": 3
+    }
+  ],
+  "outsideDetail": {
+    "rawInputRecords": 28861,
+    "regionalOperations": 2359
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "rows": [
+    {
+      "formId": "agency-43770-eumseong-pepper-148280",
+      "sourceKind": "agency",
+      "programIds": [
+        "g43770.gov24-447000000111"
+      ],
+      "programNames": [
+        "노력절감형 고추 지원"
+      ],
+      "programs": [
+        {
+          "id": "g43770.gov24-447000000111",
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/447000000111"
+        }
+      ],
+      "formTitle": "2026 회차자료 · 접수종료(금왕읍 2026.2.9) — 고추 생산장비 사업 신청서",
+      "displayTitle": "2026 회차자료 · 접수종료(금왕읍 2026.2.9) — 고추 생산장비 사업 신청서",
+      "verifiedDocumentTitle": "2026년 노력절감형 고추지원(고추 생산장비)사업 신청서",
+      "sourceMetadataTitle": "노력절감형 고추지원(고추 생산장비) 신청서.hwp",
+      "role": "application",
+      "use": "conditional",
+      "condition": "2026 회차 모집자료이며 금왕읍 공지의 신청기한은 2026.2.9에 종료됐습니다(정부24 일반안내는2.10, 게시노출 종료2.26과 구분). 해당 고추건조기·세척기 지원의 최초선정 신청서이고 현재 신규·차기모집, 선정후 교부·지급청구·정산용이 아닙니다. 원문에는 성별 ‘남’, 개인정보 동의항목 선체크2곳과 ‘2026.1.’이 인쇄돼 있습니다. 이 기본값은 내려받는 이용자의 개인정보·동의를 확인한 것이 아닙니다. 공식배포 원문을 그대로 제공하며 웹 자동작성·동의생성은 제공하지 않습니다.",
+      "regionCode": "43770",
+      "regionLabel": "충청북도 음성군",
+      "agencyName": "음성군 금왕읍·농정과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+      "authorityEvidenceNote": "공식 금왕읍 게시184347과 직접첨부148280, 추진계획148279를 앞선23b에서 실제GET했다. 이번에는 실제HWP134656바이트/SHA9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a를 재해시하고 전체Section0 609자·BinData0·원문미리보기를 재대조했다. 정확 g43770.gov24-447000000111의 농가/법인·1000㎡이상·건조기/세척기50%사업과 같다. 실제개인 식별정보나 서명이 채워진 사례문서가 아니라 인쇄기본값이 있는 정부배포 템플릿이다. 완전비선택양식으로 표시하지 않으며 blankApplicantForm=false/noFilledPersonalDataObserved=true를 구분했다. 현재접수열림은 이2026회차자료의 출처일치 요건이 아니다. 옛일반교부19640907의 후반3인서약·옛벌칙을 승인하거나 이최초신청원본으로 치환하지 않는다. 다운로드와 자동작성을 분리하며 기존 paper-writing-holds 계약으로 exactID/SHA를 보류해야 한다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 노력절감형 고추지원(고추 생산장비)사업 신청 알림",
+        "evidenceUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "공식 금왕읍 게시184347과 직접첨부148280, 추진계획148279를 앞선23b에서 실제GET했다. 이번에는 실제HWP134656바이트/SHA9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a를 재해시하고 전체Section0 609자·BinData0·원문미리보기를 재대조했다. 정확 g43770.gov24-447000000111의 농가/법인·1000㎡이상·건조기/세척기50%사업과 같다. 실제개인 식별정보나 서명이 채워진 사례문서가 아니라 인쇄기본값이 있는 정부배포 템플릿이다. 완전비선택양식으로 표시하지 않으며 blankApplicantForm=false/noFilledPersonalDataObserved=true를 구분했다. 현재접수열림은 이2026회차자료의 출처일치 요건이 아니다. 옛일반교부19640907의 후반3인서약·옛벌칙을 승인하거나 이최초신청원본으로 치환하지 않는다. 다운로드와 자동작성을 분리하며 기존 paper-writing-holds 계약으로 exactID/SHA를 보류해야 한다. 2026-10-23 총괄이 공식공고를다시조회하여 정확첨부ID·접수기한을직접확인하고 고정SHA·전체본문·모든실제한글쪽을대조했다. 종료된2026모집회차의원본다운로드에한정하고 현재/차기접수나선정후별도교부서식으로표시하지않는다. 인쇄된선택값을사용자선택으로간주하지않고 정확ID/SHA화면작성보류를먼저수입한다. 옛일반교부원본은자동covered·approved로바꾸지않는다.",
+        "pageSHA256": "1b460c03dcf4173e5e961300c471a120e40933595c57b996e38f3ae58e82a42f"
+      },
+      "sourcePageUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+      "sourceUrl": "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280",
+      "finalUrl": "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280",
+      "attachmentId": "148280",
+      "attachmentIdentifier": {
+        "queryParam": "atchmnflNo",
+        "value": "148280"
+      },
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/447000000111",
+      "evidenceUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+      "evidenceNote": "공식 금왕읍 게시184347과 직접첨부148280, 추진계획148279를 앞선23b에서 실제GET했다. 이번에는 실제HWP134656바이트/SHA9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a를 재해시하고 전체Section0 609자·BinData0·원문미리보기를 재대조했다. 정확 g43770.gov24-447000000111의 농가/법인·1000㎡이상·건조기/세척기50%사업과 같다. 실제개인 식별정보나 서명이 채워진 사례문서가 아니라 인쇄기본값이 있는 정부배포 템플릿이다. 완전비선택양식으로 표시하지 않으며 blankApplicantForm=false/noFilledPersonalDataObserved=true를 구분했다. 현재접수열림은 이2026회차자료의 출처일치 요건이 아니다. 옛일반교부19640907의 후반3인서약·옛벌칙을 승인하거나 이최초신청원본으로 치환하지 않는다. 다운로드와 자동작성을 분리하며 기존 paper-writing-holds 계약으로 exactID/SHA를 보류해야 한다.",
+      "sha256": "9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a",
+      "bytes": 134656,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-43770-eumseong-pepper-148280.hwp",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 609,
+      "embeddedResourceCount": 0,
+      "blankApplicantForm": false,
+      "blankApplicantFormDefinition": "공고의 인적사항과 서명란에 실제 신청인의 개인정보가 없는지와 별도로, 이 값은 선택값까지 미리 기입되지 않은 신청양식을 뜻한다. 음성은 인쇄된 성별·동의 선택 기본값이 있어 false이다. 일반 HWP 출처검증에 이를 true로 조작하지 않는다.",
+      "noFilledPersonalDataObserved": true,
+      "personalInputFieldsBlank": true,
+      "printedDefaults": [
+        "성별 남",
+        "개인정보 동의 선체크2곳",
+        "2026.1."
+      ],
+      "reviewedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "2026년 노력절감형 고추지원(고추 생산장비)사업 신청서",
+          "use": "main",
+          "author": "음성군에 주소를 두고 고추1000㎡ 이상을 재배하는 농업인 또는 농업법인",
+          "scope": "최초선정 신청의 인적사항·사업계획·서명란; 인쇄된 성별·동의 기본값은 실제 이용자 선택으로 간주하지 않음"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "2026년 노력절감형 고추지원(고추 생산장비)사업 신청서",
+          "use": "main",
+          "author": "음성군에 주소를 두고 고추1000㎡ 이상을 재배하는 농업인 또는 농업법인",
+          "scope": "최초선정 신청의 인적사항·사업계획·서명란; 인쇄된 성별·동의 기본값은 실제 이용자 선택으로 간주하지 않음"
+        }
+      ],
+      "applicant": "음성군에 주소를 두고 고추1000㎡ 이상을 재배하는 농업인 또는 농업법인",
+      "roleBasis": "공식 금왕읍 게시184347과 직접첨부148280, 추진계획148279를 앞선23b에서 실제GET했다. 이번에는 실제HWP134656바이트/SHA9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a를 재해시하고 전체Section0 609자·BinData0·원문미리보기를 재대조했다. 정확 g43770.gov24-447000000111의 농가/법인·1000㎡이상·건조기/세척기50%사업과 같다. 실제개인 식별정보나 서명이 채워진 사례문서가 아니라 인쇄기본값이 있는 정부배포 템플릿이다. 완전비선택양식으로 표시하지 않으며 blankApplicantForm=false/noFilledPersonalDataObserved=true를 구분했다. 현재접수열림은 이2026회차자료의 출처일치 요건이 아니다. 옛일반교부19640907의 후반3인서약·옛벌칙을 승인하거나 이최초신청원본으로 치환하지 않는다. 다운로드와 자동작성을 분리하며 기존 paper-writing-holds 계약으로 exactID/SHA를 보류해야 한다.",
+      "roleEvidenceUrl": "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "published",
+      "effectiveDate": "2026-01-26",
+      "publishedAt": "2026-01-26",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "roundSpecificUseConfirmed": true,
+      "currentNewApplicationConfirmed": false,
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_verified_closed_2026_round_download_with_exact_writing_hold",
+      "relatedUnmatchedOriginalId": "ordin-19640907",
+      "oldOriginalStatusNotAutomaticallyResolved": true,
+      "screenWritingApproved": false,
+      "noOriginalContentEdits": true,
+      "sourceProof": {
+        "pageRecord": "logs/forms-followup-20261023b/team2/eumseong-pepper-2026-notice.json",
+        "downloadRecord": "logs/forms-followup-20261023b/team2/eumseong-pepper-2026-application.json",
+        "planRecord": "logs/forms-followup-20261023b/team2/eumseong-pepper-2026-plan.json",
+        "unchangedBytesRechecked": true
+      },
+      "coordinatorApproved": true,
+      "coordinatorReason": "공식 금왕읍 게시184347과 직접첨부148280, 추진계획148279를 앞선23b에서 실제GET했다. 이번에는 실제HWP134656바이트/SHA9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a를 재해시하고 전체Section0 609자·BinData0·원문미리보기를 재대조했다. 정확 g43770.gov24-447000000111의 농가/법인·1000㎡이상·건조기/세척기50%사업과 같다. 실제개인 식별정보나 서명이 채워진 사례문서가 아니라 인쇄기본값이 있는 정부배포 템플릿이다. 완전비선택양식으로 표시하지 않으며 blankApplicantForm=false/noFilledPersonalDataObserved=true를 구분했다. 현재접수열림은 이2026회차자료의 출처일치 요건이 아니다. 옛일반교부19640907의 후반3인서약·옛벌칙을 승인하거나 이최초신청원본으로 치환하지 않는다. 다운로드와 자동작성을 분리하며 기존 paper-writing-holds 계약으로 exactID/SHA를 보류해야 한다. 2026-10-23 총괄이 공식공고를다시조회하여 정확첨부ID·접수기한을직접확인하고 고정SHA·전체본문·모든실제한글쪽을대조했다. 종료된2026모집회차의원본다운로드에한정하고 현재/차기접수나선정후별도교부서식으로표시하지않는다. 인쇄된선택값을사용자선택으로간주하지않고 정확ID/SHA화면작성보류를먼저수입한다. 옛일반교부원본은자동covered·approved로바꾸지않는다.",
+      "sourcePageSHA256": "1b460c03dcf4173e5e961300c471a120e40933595c57b996e38f3ae58e82a42f",
+      "sourcePageSha256": "1b460c03dcf4173e5e961300c471a120e40933595c57b996e38f3ae58e82a42f",
+      "coordinatorSourcePageProof": {
+        "url": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+        "finalUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+        "httpStatus": 200,
+        "sha256": "1b460c03dcf4173e5e961300c471a120e40933595c57b996e38f3ae58e82a42f",
+        "bytes": 76985,
+        "attachmentIdentifierPresent": true,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "agency-43770-eumseong-pepper-148280",
+        "sourceSHA256": "9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a",
+        "sourceBytes": 134656,
+        "hancomPages": 1,
+        "pdfSHA256": "8a92575b723232c466b41c120d6194f486c1d092a1b3cf3cbba4a0a9057a2421",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true,
+        "blankApplicantForm": false
+      }
+    },
+    {
+      "formId": "agency-12150-suncheon-small-71811",
+      "sourceKind": "agency",
+      "programIds": [
+        "g12150.gov24-482000000133"
+      ],
+      "programNames": [
+        "시설원예 생산시설 지원"
+      ],
+      "programs": [
+        {
+          "id": "g12150.gov24-482000000133",
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/482000000133"
+        }
+      ],
+      "formTitle": "2026 회차자료 · 접수종료(2026.1.16) — 영세농가 소형 비닐하우스 신청·동의서 포함 계획",
+      "displayTitle": "2026 회차자료 · 접수종료(2026.1.16) — 영세농가 소형 비닐하우스 신청·동의서 포함 계획",
+      "verifiedDocumentTitle": "2026년 영세농가 소형 비닐하우스 지원사업 신청서",
+      "sourceMetadataTitle": "2026년 영세농가 소형비닐하우스 지원사업 계획.hwp",
+      "role": "application",
+      "use": "conditional",
+      "condition": "2026 회차 시설원예 시비사업 중 영세농가 소형 비닐하우스 모집자료이며 접수는2026.1.16에 종료됐습니다. 현재 신규·차기모집 또는 선정후 일반 보조금교부 신청용이 아닙니다. 0.8ha이하 등 해당지침 요건을 갖춘 농가의165~330㎡ 하우스1동, 시비50%·자담50% 조건입니다. 신청인은 별지1 사업신청서와 무번호 개인정보동의 부분을 확인하며, 뒤의 별지2 평가표는 기관 평가·확인용입니다. 계획·참조규격·평가표가 함께 포함된 공식원문 전체를 그대로 제공합니다. 부가세 환급금 선차감 안내와2026 고정문구는 바꾸지 않으며 웹 자동작성은 제공하지 않습니다. 동의서의 동의항목3곳에는 V표시가 선인쇄되어 있으므로 내려받는 이용자의 실제 동의로 간주하지 않습니다. 원문을 사용할 때 해당 표시를 직접 확인하세요. 정원수 자재지원 사업으로 확대하지 않습니다.",
+      "regionCode": "12150",
+      "regionLabel": "전남광주통합특별시 순천시",
+      "agencyName": "순천시 농업기술센터 친환경농업과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+      "authorityEvidenceNote": "순천시 농업기술센터의2026시설원예 시비사업 공고1906이 직접 배포한 FILE_000001000071811을 보관된 실바이트로 재해시했다. HWP65536바이트/SHAdb42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093, 전체Section0 5933자와 BinData0을 읽었다. 신청서·동의서·사업계획·내재해규격·기관평가표를 구분했으며 실제 개인식별정보와 서명은 없다. 정확 g12150.gov24-482000000133의 시설원예 중0.8ha이하 소형하우스, 관내주소/사업예정지·농업경영체·시비50%와 맞는다. 법2062937 제4조제6호의 생산기자재·시설지원이 근거이고,12조의 일반보조금조례 적용관계도 확인했다. 이 파일은2026최초사업신청으로 일반교부20214487을 대체하지 않는다. 접수종료를 제목·조건에 표시하여 해당회차자료로 제공하고, 신청인용과기관평가표가 섞인 원문의 자동작성은 별도검증전까지 exactID/SHA hold로 차단한다. 총괄은 실제한글출력7쪽을 모두보았고,6쪽의boxed V동의3표시를추가확인했다. 텍스트추출이이표시를누락했으므로완전비선택양식이라는제안을정정하고blankApplicantForm=false로기록한다. 원본은변경하지않는다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 시설원예분야 시비 지원사업 신청·접수 안내",
+        "evidenceUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "순천시 농업기술센터의2026시설원예 시비사업 공고1906이 직접 배포한 FILE_000001000071811을 보관된 실바이트로 재해시했다. HWP65536바이트/SHAdb42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093, 전체Section0 5933자와 BinData0을 읽었다. 신청서·동의서·사업계획·내재해규격·기관평가표를 구분했으며 실제 개인식별정보와 서명은 없다. 정확 g12150.gov24-482000000133의 시설원예 중0.8ha이하 소형하우스, 관내주소/사업예정지·농업경영체·시비50%와 맞는다. 법2062937 제4조제6호의 생산기자재·시설지원이 근거이고,12조의 일반보조금조례 적용관계도 확인했다. 이 파일은2026최초사업신청으로 일반교부20214487을 대체하지 않는다. 접수종료를 제목·조건에 표시하여 해당회차자료로 제공하고, 신청인용과기관평가표가 섞인 원문의 자동작성은 별도검증전까지 exactID/SHA hold로 차단한다. 총괄은 실제한글출력7쪽을 모두보았고,6쪽의boxed V동의3표시를추가확인했다. 텍스트추출이이표시를누락했으므로완전비선택양식이라는제안을정정하고blankApplicantForm=false로기록한다. 원본은변경하지않는다. 2026-10-23 총괄이 공식공고를다시조회하여 정확첨부ID·접수기한을직접확인하고 고정SHA·전체본문·모든실제한글쪽을대조했다. 종료된2026모집회차의원본다운로드에한정하고 현재/차기접수나선정후별도교부서식으로표시하지않는다. 인쇄된선택값을사용자선택으로간주하지않고 정확ID/SHA화면작성보류를먼저수입한다. 옛일반교부원본은자동covered·approved로바꾸지않는다.",
+        "pageSHA256": "a5549e6d64f36a239ed155c5636d96f570a2df2a7fc0aed931e67e3d39736c60"
+      },
+      "sourcePageUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+      "sourceUrl": "https://sc.go.kr/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618",
+      "finalUrl": "https://sc.go.kr/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618",
+      "attachmentId": "FILE_000001000071811",
+      "attachmentIdentifier": {
+        "path": "/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618"
+      },
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/482000000133",
+      "evidenceUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+      "evidenceNote": "순천시 농업기술센터의2026시설원예 시비사업 공고1906이 직접 배포한 FILE_000001000071811을 보관된 실바이트로 재해시했다. HWP65536바이트/SHAdb42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093, 전체Section0 5933자와 BinData0을 읽었다. 신청서·동의서·사업계획·내재해규격·기관평가표를 구분했으며 실제 개인식별정보와 서명은 없다. 정확 g12150.gov24-482000000133의 시설원예 중0.8ha이하 소형하우스, 관내주소/사업예정지·농업경영체·시비50%와 맞는다. 법2062937 제4조제6호의 생산기자재·시설지원이 근거이고,12조의 일반보조금조례 적용관계도 확인했다. 이 파일은2026최초사업신청으로 일반교부20214487을 대체하지 않는다. 접수종료를 제목·조건에 표시하여 해당회차자료로 제공하고, 신청인용과기관평가표가 섞인 원문의 자동작성은 별도검증전까지 exactID/SHA hold로 차단한다. 총괄은 실제한글출력7쪽을 모두보았고,6쪽의boxed V동의3표시를추가확인했다. 텍스트추출이이표시를누락했으므로완전비선택양식이라는제안을정정하고blankApplicantForm=false로기록한다. 원본은변경하지않는다.",
+      "sha256": "db42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093",
+      "bytes": 65536,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-12150-suncheon-small-71811.hwp",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 5933,
+      "embeddedResourceCount": 0,
+      "blankApplicantForm": false,
+      "blankApplicantFormDefinition": "실제 신청인의 인적사항·자필서명이 채워진 사례문서는 아니지만, 원문 동의서에 boxed V 선택표시3곳이 선인쇄되어 있으므로 완전 비선택 양식은 아니다.",
+      "noFilledPersonalDataObserved": true,
+      "personalInputFieldsBlank": true,
+      "printedDefaults": [
+        "2026년 회차",
+        "시비50%·자담50%",
+        "참조 시설규격·기관평가 기준 인쇄",
+        "개인정보·고유식별정보·제3자제공 동의의 boxed V3곳 선인쇄"
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 1",
+          "title": "2026년 영세농가 소형 비닐하우스 지원사업 신청서",
+          "use": "main",
+          "author": "해당2026회차에 지원하는 순천시 농업인",
+          "scope": "신청농가·농지·사업비·부가세환급금 차감동의 여부·신청인 서명"
+        },
+        {
+          "number": "무번호 동의서",
+          "title": "개인정보 수집·이용 및 제공 동의서",
+          "use": "additional",
+          "author": "사업신청 농업인",
+          "scope": "개인정보 처리내용과 신청인 동의 서명; 원문안내 전체"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 1",
+          "title": "2026년 영세농가 소형 비닐하우스 지원사업 신청서",
+          "use": "main",
+          "author": "해당2026회차에 지원하는 순천시 농업인",
+          "scope": "신청농가·농지·사업비·부가세환급금 차감동의 여부·신청인 서명"
+        },
+        {
+          "number": "무번호 동의서",
+          "title": "개인정보 수집·이용 및 제공 동의서",
+          "use": "additional",
+          "author": "사업신청 농업인",
+          "scope": "개인정보 처리내용과 신청인 동의 서명; 원문안내 전체"
+        }
+      ],
+      "applicant": "해당2026회차에 지원하는 순천시 농업인",
+      "roleBasis": "순천시 농업기술센터의2026시설원예 시비사업 공고1906이 직접 배포한 FILE_000001000071811을 보관된 실바이트로 재해시했다. HWP65536바이트/SHAdb42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093, 전체Section0 5933자와 BinData0을 읽었다. 신청서·동의서·사업계획·내재해규격·기관평가표를 구분했으며 실제 개인식별정보와 서명은 없다. 정확 g12150.gov24-482000000133의 시설원예 중0.8ha이하 소형하우스, 관내주소/사업예정지·농업경영체·시비50%와 맞는다. 법2062937 제4조제6호의 생산기자재·시설지원이 근거이고,12조의 일반보조금조례 적용관계도 확인했다. 이 파일은2026최초사업신청으로 일반교부20214487을 대체하지 않는다. 접수종료를 제목·조건에 표시하여 해당회차자료로 제공하고, 신청인용과기관평가표가 섞인 원문의 자동작성은 별도검증전까지 exactID/SHA hold로 차단한다. 총괄은 실제한글출력7쪽을 모두보았고,6쪽의boxed V동의3표시를추가확인했다. 텍스트추출이이표시를누락했으므로완전비선택양식이라는제안을정정하고blankApplicantForm=false로기록한다. 원본은변경하지않는다.",
+      "roleEvidenceUrl": "https://sc.go.kr/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "published",
+      "effectiveDate": "2026-01-06",
+      "publishedAt": "2026-01-06",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "roundSpecificUseConfirmed": true,
+      "currentNewApplicationConfirmed": false,
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_verified_closed_2026_round_download_with_exact_writing_hold",
+      "relatedUnmatchedOriginalId": "ordin-20214487",
+      "oldOriginalStatusNotAutomaticallyResolved": true,
+      "screenWritingApproved": false,
+      "noOriginalContentEdits": true,
+      "excludedParts": [
+        {
+          "number": "별지 2",
+          "title": "2026년 영세농가 소형 비닐하우스 평가표",
+          "reason": "기관 평가·확인용; 신청인 입력용으로 제공하지 않음"
+        }
+      ],
+      "sourceProof": {
+        "pageRecord": "logs/forms-completion/official-followup/team3/suncheon-2026.json",
+        "downloadRecord": "logs/forms-completion/official-followup/team3/suncheon-small-extracted.json",
+        "agriculturalLawRecord": "logs/forms-completion/official-followup/team3/suncheon-law.json",
+        "currentLawIdentityEvidence": "logs/forms-followup-20261023e/team2/current-suncheon-law-identities.json",
+        "unchangedBytesRechecked": true
+      },
+      "sourceIssues": [
+        "plain text extraction omitted three boxed V consent marks; native Hancom page6 confirms all3. Applicant identifiers/signature are blank; consent selection is not blank."
+      ],
+      "coordinatorApproved": true,
+      "coordinatorReason": "순천시 농업기술센터의2026시설원예 시비사업 공고1906이 직접 배포한 FILE_000001000071811을 보관된 실바이트로 재해시했다. HWP65536바이트/SHAdb42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093, 전체Section0 5933자와 BinData0을 읽었다. 신청서·동의서·사업계획·내재해규격·기관평가표를 구분했으며 실제 개인식별정보와 서명은 없다. 정확 g12150.gov24-482000000133의 시설원예 중0.8ha이하 소형하우스, 관내주소/사업예정지·농업경영체·시비50%와 맞는다. 법2062937 제4조제6호의 생산기자재·시설지원이 근거이고,12조의 일반보조금조례 적용관계도 확인했다. 이 파일은2026최초사업신청으로 일반교부20214487을 대체하지 않는다. 접수종료를 제목·조건에 표시하여 해당회차자료로 제공하고, 신청인용과기관평가표가 섞인 원문의 자동작성은 별도검증전까지 exactID/SHA hold로 차단한다. 총괄은 실제한글출력7쪽을 모두보았고,6쪽의boxed V동의3표시를추가확인했다. 텍스트추출이이표시를누락했으므로완전비선택양식이라는제안을정정하고blankApplicantForm=false로기록한다. 원본은변경하지않는다. 2026-10-23 총괄이 공식공고를다시조회하여 정확첨부ID·접수기한을직접확인하고 고정SHA·전체본문·모든실제한글쪽을대조했다. 종료된2026모집회차의원본다운로드에한정하고 현재/차기접수나선정후별도교부서식으로표시하지않는다. 인쇄된선택값을사용자선택으로간주하지않고 정확ID/SHA화면작성보류를먼저수입한다. 옛일반교부원본은자동covered·approved로바꾸지않는다.",
+      "sourcePageSHA256": "a5549e6d64f36a239ed155c5636d96f570a2df2a7fc0aed931e67e3d39736c60",
+      "sourcePageSha256": "a5549e6d64f36a239ed155c5636d96f570a2df2a7fc0aed931e67e3d39736c60",
+      "coordinatorSourcePageProof": {
+        "url": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+        "finalUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+        "httpStatus": 200,
+        "sha256": "a5549e6d64f36a239ed155c5636d96f570a2df2a7fc0aed931e67e3d39736c60",
+        "bytes": 48888,
+        "attachmentIdentifierPresent": true,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "agency-12150-suncheon-small-71811",
+        "sourceSHA256": "db42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093",
+        "sourceBytes": 65536,
+        "hancomPages": 7,
+        "pdfSHA256": "2c08d4e822224625c31a193b8111f3e70d2a583b3229b6b7181d4f3c3e2a9c5b",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true,
+        "blankApplicantForm": false
+      }
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "08c8f75619be7f98c7c48c3c19ebb740c196edb14ecbe17555a5027e80e20d44",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8018.json",
+    "frozenScopeSHA256": "781a3126a2bc83eae27e4ab36a8ad160f0279ec4e262dbfa01ab7c7d33f646db"
+  }
+}

@@ -5313,25 +5313,31 @@
         "g41130.bokjiro-WLF00001629",
         "g41130.gov24-378000000137"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g41130.bokjiro-WLF00001629",
           "formId": "ordin-20004411",
-          "decision": "requires_external_confirmation",
-          "reason": "대상사업 일치하나 별지11의 현재 계좌 예외처리 운영근거가 조문에서 확인되지 않음."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "성남시 아동의료비 본인부담 100만원 상한제 지원금을 환자(법정대리인) 본인 계좌로 받기 어려운 사망·파산·압류 등 부득이한 사유가 있고, 이를 입증하여 가족·제3자·이해관계인 계좌로 지급계좌 변경을 신청하는 경우에만 사용합니다. 서식의 수령인 관계별 통장사본·신분증·관계증명·위임장 등 구비서류를 갖추고, 이해관계인 계좌는 관계증명과 인우보증서·보증인 본인서명사실확인서 등 해당 증빙도 준비합니다. 대리 신청은 위임장을 첨부하며, 지원금 수령인은 부정수령 시 반환 확약에 서명합니다. 일반 의료비 최초신청이나 가족이라는 이유만의 임의 대리수령 신청서가 아닙니다.",
+          "reason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004411를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 11 전체 1193자에는 본인 계좌 지급 원칙, 사망·파산·압류 등 부득이한 경우 입증서류 제출 시에만 계좌변경 가능하다는 제한, 가족·제3자·이해관계인별 증빙, 수령인 반환 확약이 직접 적혀 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         },
         {
           "programId": "g41130.gov24-378000000137",
           "formId": "ordin-20004411",
-          "decision": "requires_external_confirmation",
-          "reason": "대상사업 일치하나 별지11의 현재 계좌 예외처리 운영근거가 조문에서 확인되지 않음."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "성남시 아동의료비 본인부담 100만원 상한제 지원금을 환자(법정대리인) 본인 계좌로 받기 어려운 사망·파산·압류 등 부득이한 사유가 있고, 이를 입증하여 가족·제3자·이해관계인 계좌로 지급계좌 변경을 신청하는 경우에만 사용합니다. 서식의 수령인 관계별 통장사본·신분증·관계증명·위임장 등 구비서류를 갖추고, 이해관계인 계좌는 관계증명과 인우보증서·보증인 본인서명사실확인서 등 해당 증빙도 준비합니다. 대리 신청은 위임장을 첨부하며, 지원금 수령인은 부정수령 시 반환 확약에 서명합니다. 일반 의료비 최초신청이나 가족이라는 이유만의 임의 대리수령 신청서가 아닙니다.",
+          "reason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004411를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 11 전체 1193자에는 본인 계좌 지급 원칙, 사망·파산·압류 등 부득이한 경우 입증서류 제출 시에만 계좌변경 가능하다는 제한, 가족·제3자·이해관계인별 증빙, 수령인 반환 확약이 직접 적혀 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         }
       ],
-      "reviewCheckedAt": "2026-10-19",
+      "reviewCheckedAt": "2026-10-23",
       "verifiedDocumentTitle": "아동의료비 본인부담 100만원 상한제 지원 금액 지급 계좌(변경) 신청서",
-      "reason": "성남 아동의료비 현재 정부24는 18세 미만의 의료비 지원과 상담 후 방문 신청을 안내하나 가족·제3자 계좌 수령의 예외 요건이나 별지11 계좌변경서를 지정하지 않는다. 공식 시 자료 검색에서도 현행 별도 지급기준은 확보하지 못했다. 통상의 본인 지정계좌 지급 근거로 사망·압류 등 제3자 수령을 허용하지 않는다.",
+      "reason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004411를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 11 전체 1193자에는 본인 계좌 지급 원칙, 사망·파산·압류 등 부득이한 경우 입증서류 제출 시에만 계좌변경 가능하다는 제한, 가족·제3자·이해관계인별 증빙, 수령인 반환 확약이 직접 적혀 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -5352,39 +5358,86 @@
           "note": "상위 조례 제1조~제18조 전체 확인: 별지11 지정이나 계좌변경 예외 규정 없음. 규칙은 제3조제5항에서 추가절차를 시장에게 위임."
         }
       ],
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "g41130.bokjiro-WLF00001629",
+          "formId": "ordin-20004411",
+          "use": "conditional"
+        },
+        {
+          "programId": "g41130.gov24-378000000137",
+          "formId": "ordin-20004411",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2041475",
         "binding": "bound",
         "officialFlSeq": "152239515"
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/378000000137",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case08-gov24.json",
-                "sha256": "7ab3a95d98c8cd60f9fdf321f66c31f8a2675e995aee3b6c111627284a5b6b22",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8205.json",
+        "sourceResultSHA256": "7efc2c2e3d6dd1925c531e4c815c29e4b031331e06842a145396923b3501c461",
+        "sourceProposalSHA256": "e864c68fd5fe10cf7de3e29ba471232409f3847dd38cf142ed485d3256ce5b1b",
+        "coordinatorDecisionSHA256": "a2da956c9d4bc732984517d47d50072774aad05ed2bc3e4327de1f54637fc2ff",
+        "proposedStatus": "approved_exact_current_annex_conditional_path",
+        "allOriginalsMatched": false,
+        "actualGrokCrossreviewSHA256": null
       },
       "relatedProgramIds": [
         "g41130.bokjiro-WLF00001629",
         "g41130.gov24-378000000137"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "성남 아동의료비 현재 정부24는 18세 미만의 의료비 지원과 상담 후 방문 신청을 안내하나 가족·제3자 계좌 수령의 예외 요건이나 별지11 계좌변경서를 지정하지 않는다. 공식 시 자료 검색에서도 현행 별도 지급기준은 확보하지 못했다. 통상의 본인 지정계좌 지급 근거로 사망·압류 등 제3자 수령을 허용하지 않는다.",
+          "relatedProgramIds": [
+            "g41130.bokjiro-WLF00001629",
+            "g41130.gov24-378000000137"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41130.bokjiro-WLF00001629",
+              "formId": "ordin-20004411",
+              "decision": "requires_external_confirmation",
+              "reason": "대상사업 일치하나 별지11의 현재 계좌 예외처리 운영근거가 조문에서 확인되지 않음."
+            },
+            {
+              "programId": "g41130.gov24-378000000137",
+              "formId": "ordin-20004411",
+              "decision": "requires_external_confirmation",
+              "reason": "대상사업 일치하나 별지11의 현재 계좌 예외처리 운영근거가 조문에서 확인되지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/378000000137",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case08-gov24.json",
+                    "sha256": "7ab3a95d98c8cd60f9fdf321f66c31f8a2675e995aee3b6c111627284a5b6b22",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewedBy": "codex-coordinator-with-independent-source-review"
     },
     {
       "index": 57,
@@ -5420,25 +5473,31 @@
         "g41130.bokjiro-WLF00001629",
         "g41130.gov24-378000000137"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g41130.bokjiro-WLF00001629",
           "formId": "ordin-20004423",
-          "decision": "requires_external_confirmation",
-          "reason": "공식 별지17이나 현행 법조문에 상속대표 지급 및 이 서식 사용을 정한 근거 미확인."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "사망한 환자에게 지급되는 성남시 아동의료비 본인부담 100만원 상한제 지원금의 상속대상액이 있는 경우, 상속인들이 대표상속인을 선정하고 그 대표에게 지급하는 데 합의·동의하는 부속서류로만 사용합니다. 사망환자·지원금 상속대상액·대표상속인·동의하는 상속인들의 관계 및 서명을 작성하고 가족관계증명서를 첨부합니다. 이 동의서만으로 새로운 의료비 지원요건이나 상속권이 생기지 않으며, 생존 환자의 일반 가족 대리신청·계좌변경 신청을 대신하지 않습니다.",
+          "reason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004423를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 17 전체 325자는 환자(사망인), 아동의료비지원금액(상속대상액), 대표상속인, 망인에게 지급되는 지원금의 대표 선정·지급 동의와 상속인 서명 및 가족관계증명서로 구성되어 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         },
         {
           "programId": "g41130.gov24-378000000137",
           "formId": "ordin-20004423",
-          "decision": "requires_external_confirmation",
-          "reason": "공식 별지17이나 현행 법조문에 상속대표 지급 및 이 서식 사용을 정한 근거 미확인."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "사망한 환자에게 지급되는 성남시 아동의료비 본인부담 100만원 상한제 지원금의 상속대상액이 있는 경우, 상속인들이 대표상속인을 선정하고 그 대표에게 지급하는 데 합의·동의하는 부속서류로만 사용합니다. 사망환자·지원금 상속대상액·대표상속인·동의하는 상속인들의 관계 및 서명을 작성하고 가족관계증명서를 첨부합니다. 이 동의서만으로 새로운 의료비 지원요건이나 상속권이 생기지 않으며, 생존 환자의 일반 가족 대리신청·계좌변경 신청을 대신하지 않습니다.",
+          "reason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004423를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 17 전체 325자는 환자(사망인), 아동의료비지원금액(상속대상액), 대표상속인, 망인에게 지급되는 지원금의 대표 선정·지급 동의와 상속인 서명 및 가족관계증명서로 구성되어 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         }
       ],
-      "reviewCheckedAt": "2026-10-19",
+      "reviewCheckedAt": "2026-10-23",
       "verifiedDocumentTitle": "아동의료비 본인부담 100만원 상한제 지원금 상속대표 합의 동의서",
-      "reason": "성남 아동의료비 현재 정부24와 공식 시 자료 검색에서 사망환자 지원금의 상속채권·대표상속인 합의·별지17 제출 절차를 특정하지 못했다. 일반 의료비 지원 안내는 확인되었지만 사망 이후 대표수령 조건을 보완하지 못하여 상속 합의서의 실제 접수 여부는 계속 미확인이다.",
+      "reason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004423를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 17 전체 325자는 환자(사망인), 아동의료비지원금액(상속대상액), 대표상속인, 망인에게 지급되는 지원금의 대표 선정·지급 동의와 상속인 서명 및 가족관계증명서로 구성되어 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -5459,39 +5518,86 @@
           "note": "상위 조례 제1조~제18조 전체 확인에도 별지17 지정 또는 사망환자 상속대표 지급절차 없음."
         }
       ],
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "g41130.bokjiro-WLF00001629",
+          "formId": "ordin-20004423",
+          "use": "conditional"
+        },
+        {
+          "programId": "g41130.gov24-378000000137",
+          "formId": "ordin-20004423",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2041475",
         "binding": "bound",
         "officialFlSeq": "152239527"
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/378000000137",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case08-gov24.json",
-                "sha256": "7ab3a95d98c8cd60f9fdf321f66c31f8a2675e995aee3b6c111627284a5b6b22",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8205.json",
+        "sourceResultSHA256": "7efc2c2e3d6dd1925c531e4c815c29e4b031331e06842a145396923b3501c461",
+        "sourceProposalSHA256": "e864c68fd5fe10cf7de3e29ba471232409f3847dd38cf142ed485d3256ce5b1b",
+        "coordinatorDecisionSHA256": "a2da956c9d4bc732984517d47d50072774aad05ed2bc3e4327de1f54637fc2ff",
+        "proposedStatus": "approved_exact_current_annex_conditional_path",
+        "allOriginalsMatched": false,
+        "actualGrokCrossreviewSHA256": null
       },
       "relatedProgramIds": [
         "g41130.bokjiro-WLF00001629",
         "g41130.gov24-378000000137"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "성남 아동의료비 현재 정부24와 공식 시 자료 검색에서 사망환자 지원금의 상속채권·대표상속인 합의·별지17 제출 절차를 특정하지 못했다. 일반 의료비 지원 안내는 확인되었지만 사망 이후 대표수령 조건을 보완하지 못하여 상속 합의서의 실제 접수 여부는 계속 미확인이다.",
+          "relatedProgramIds": [
+            "g41130.bokjiro-WLF00001629",
+            "g41130.gov24-378000000137"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41130.bokjiro-WLF00001629",
+              "formId": "ordin-20004423",
+              "decision": "requires_external_confirmation",
+              "reason": "공식 별지17이나 현행 법조문에 상속대표 지급 및 이 서식 사용을 정한 근거 미확인."
+            },
+            {
+              "programId": "g41130.gov24-378000000137",
+              "formId": "ordin-20004423",
+              "decision": "requires_external_confirmation",
+              "reason": "공식 별지17이나 현행 법조문에 상속대표 지급 및 이 서식 사용을 정한 근거 미확인."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/378000000137",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case08-gov24.json",
+                    "sha256": "7ab3a95d98c8cd60f9fdf321f66c31f8a2675e995aee3b6c111627284a5b6b22",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewedBy": "codex-coordinator-with-independent-source-review"
     }
   ],
   "summary": {

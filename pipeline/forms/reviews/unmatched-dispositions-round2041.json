@@ -486,37 +486,29 @@
         "g11215.gov24-304000000123",
         "g11215.gov24-304000000233"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
-          "programId": "g11215.bokjiro-WLF00002162",
-          "formId": "ordin-22425515",
-          "decision": "requires_external_confirmation",
-          "reason": "종합사업에는 배우자수당이 있으나 신청위임과 달리 예외 계좌 대리수령 운영근거 미확인."
-        },
-        {
-          "programId": "g11215.gov24-304000000122",
-          "formId": "ordin-22425515",
-          "decision": "not_matched",
-          "reason": "별지6 전체는 채무압류·거동불가 등으로 수급권자 대신 친족 계좌에서 배우자복지수당을 수령하려는 신청이며 위임장과 다르다. 현행 제9조의5는 별지4 신청서·별지5 신청위임장만 지정하고 별지6 대리수령 요건·계좌범위는 확인되지 않았다. 종합사업 및 배우자수당 사이트에도 대리 신청 안내만 있으며, 보훈예우수당 페이지의 대리수령 안내를 별개 배우자수당에 전용할 수 없어 실제 운영근거 확인이 필요하다."
-        },
-        {
-          "programId": "g11215.gov24-304000000123",
-          "formId": "ordin-22425515",
-          "decision": "not_matched",
-          "reason": "별지6 전체는 채무압류·거동불가 등으로 수급권자 대신 친족 계좌에서 배우자복지수당을 수령하려는 신청이며 위임장과 다르다. 현행 제9조의5는 별지4 신청서·별지5 신청위임장만 지정하고 별지6 대리수령 요건·계좌범위는 확인되지 않았다. 종합사업 및 배우자수당 사이트에도 대리 신청 안내만 있으며, 보훈예우수당 페이지의 대리수령 안내를 별개 배우자수당에 전용할 수 없어 실제 운영근거 확인이 필요하다."
-        },
-        {
           "programId": "g11215.gov24-304000000233",
           "formId": "ordin-22425515",
-          "decision": "requires_external_confirmation",
-          "reason": "배우자복지수당 실제 대리수령 요건·별지6 적용의 현행 운영근거 미확인."
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "참전유공자 배우자 복지수당의 지급대상자가 본인 명의 계좌로 수령하기 어려워 대리인 계좌 수령을 신청할 때 사용하는 별지6호입니다. 지급대상자·법정대리인 해당란·대리수령인·대리수령기간·금융기관과 계좌를 기재하고, 신청사유 및 원문에 기재된 친족관계의 증빙과 양쪽 서명을 준비해 광진구청 복지돌봄과에 제출합니다. 최초 지급신청은 별지4호, 신청 절차의 위임은 별지5호로 별도입니다. 원문에는 한정치산·금치산 등 종전 용어가 남아 있으므로 실제 인정 사유와 증빙은 접수부서에 확인합니다.",
+          "reason": "2026-10-23 광진구 공식 민원편람6553903(등록2026-08-05)을 직접 GET하였다. 이 페이지는 참전유공자 배우자 복지수당의 월10만원·연중상시·구청10층 복지돌봄과 접수와 두 근거 조례를 명시하고, 별지4 지급신청서·별지5 신청위임장·별지6 대리수령신청서를 별개 다운로드로 배포한다. fileSn=3 원본을 실제 GET한 SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909/59139B가 법령포털 원본22425515 및22425553과 각각 정확히 일치한다. HWPX의 Contents/section0.xml 전체974자를 읽고 BinData0개를 확인했다. 본문은 국가보훈조례2060833 제9조의5에 따른 참전유공자 배우자 복지수당 대리수령, 지급사유·대리수령기간·법정대리인·친족관계·계좌·서명·구비서류를 명시한다. 현재 정부24 304000000233과 복지로WLF00002162의 배우자 복지수당 부분에 한정한다. 304000000122 사망위로금과304000000123 일반 보훈예우수당에는 연결하지 않는다. 이전 보류의 핵심인 현재 별지6 직접 배포 근거를 새로 확보했으며 신청 위임을 대리수령으로 추정한 것이 아니다."
+        },
+        {
+          "programId": "g11215.bokjiro-WLF00002162",
+          "formId": "ordin-22425515",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "참전유공자 배우자 복지수당의 지급대상자가 본인 명의 계좌로 수령하기 어려워 대리인 계좌 수령을 신청할 때 사용하는 별지6호입니다. 지급대상자·법정대리인 해당란·대리수령인·대리수령기간·금융기관과 계좌를 기재하고, 신청사유 및 원문에 기재된 친족관계의 증빙과 양쪽 서명을 준비해 광진구청 복지돌봄과에 제출합니다. 최초 지급신청은 별지4호, 신청 절차의 위임은 별지5호로 별도입니다. 원문에는 한정치산·금치산 등 종전 용어가 남아 있으므로 실제 인정 사유와 증빙은 접수부서에 확인합니다.",
+          "reason": "2026-10-23 광진구 공식 민원편람6553903(등록2026-08-05)을 직접 GET하였다. 이 페이지는 참전유공자 배우자 복지수당의 월10만원·연중상시·구청10층 복지돌봄과 접수와 두 근거 조례를 명시하고, 별지4 지급신청서·별지5 신청위임장·별지6 대리수령신청서를 별개 다운로드로 배포한다. fileSn=3 원본을 실제 GET한 SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909/59139B가 법령포털 원본22425515 및22425553과 각각 정확히 일치한다. HWPX의 Contents/section0.xml 전체974자를 읽고 BinData0개를 확인했다. 본문은 국가보훈조례2060833 제9조의5에 따른 참전유공자 배우자 복지수당 대리수령, 지급사유·대리수령기간·법정대리인·친족관계·계좌·서명·구비서류를 명시한다. 현재 정부24 304000000233과 복지로WLF00002162의 배우자 복지수당 부분에 한정한다. 304000000122 사망위로금과304000000123 일반 보훈예우수당에는 연결하지 않는다. 이전 보류의 핵심인 현재 별지6 직접 배포 근거를 새로 확보했으며 신청 위임을 대리수령으로 추정한 것이 아니다."
         }
       ],
       "reviewCheckedAt": "2026-10-19",
       "verifiedDocumentTitle": "배우자 복지수당 대리 수령 신청서",
-      "reason": "정부242026.8.9 최신 배우자수당 안내가 별지4 지급신청 및 대리 신청시 가족관계·위임장을 지정함을 직접 확인했다. 별지6은 대리인의 계좌에서 수령하는 별도 금융 절차로, 대리 신청 허용만으로 수령까지 허용된다고 추정할 수 없다. 현재 배우자수당에서 대리수령6호를 받는 직접 근거가 남아 미해소이다.",
+      "reason": "2026-10-23 광진구 공식 민원편람6553903(등록2026-08-05)을 직접 GET하였다. 이 페이지는 참전유공자 배우자 복지수당의 월10만원·연중상시·구청10층 복지돌봄과 접수와 두 근거 조례를 명시하고, 별지4 지급신청서·별지5 신청위임장·별지6 대리수령신청서를 별개 다운로드로 배포한다. fileSn=3 원본을 실제 GET한 SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909/59139B가 법령포털 원본22425515 및22425553과 각각 정확히 일치한다. HWPX의 Contents/section0.xml 전체974자를 읽고 BinData0개를 확인했다. 본문은 국가보훈조례2060833 제9조의5에 따른 참전유공자 배우자 복지수당 대리수령, 지급사유·대리수령기간·법정대리인·친족관계·계좌·서명·구비서류를 명시한다. 현재 정부24 304000000233과 복지로WLF00002162의 배우자 복지수당 부분에 한정한다. 304000000122 사망위로금과304000000123 일반 보훈예우수당에는 연결하지 않는다. 이전 보류의 핵심인 현재 별지6 직접 배포 근거를 새로 확보했으며 신청 위임을 대리수령으로 추정한 것이 아니다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -533,7 +525,18 @@
       "excludedParts": [],
       "role": "application",
       "regionSearch": {},
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "g11215.gov24-304000000233",
+          "formId": "ordin-22425515",
+          "use": "conditional"
+        },
+        {
+          "programId": "g11215.bokjiro-WLF00002162",
+          "formId": "ordin-22425515",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
         "checkedAt": "2026-10-19",
@@ -541,41 +544,87 @@
         "binding": "bound",
         "officialFlSeq": "168362067"
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000233",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "855e7117fdd6491e93697d53f0494158cfc0361ccaa89aad58907050ea94ca68",
-            "newEvidence": "현재 정부24 서비스 전체 핵심내용·신청경로·신청서/서류·수정일 직접 확인",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/gov24-current-35.json",
-                "sha256": "2c38bce74c9ed3dcdb021802250e43efc0a0a37e8fce8f93449a7ca051a53409",
-                "kind": "official_evidence_metadata"
-              },
-              {
-                "path": "logs/forms-completion/official-followup/team2/case27-gov24.json",
-                "sha256": "962400f5acc4fc953d417ecae1f11f694d0f959329d9ba034b868bda51256e59",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8202.json",
+        "sourceResultSHA256": "d1773500f28cc522eeb2abe49255737d842e3d4487a27543c03d1eca88c90db0",
+        "sourceProposalSHA256": "91b36675eaa6bbfc823ce2fba6a8a3527a804c4b89ccfbd320793c25688c62d1",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
-        "g11215.bokjiro-WLF00002162",
-        "g11215.gov24-304000000122",
-        "g11215.gov24-304000000123",
-        "g11215.gov24-304000000233"
-      ]
+        "g11215.gov24-304000000233",
+        "g11215.bokjiro-WLF00002162"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "정부242026.8.9 최신 배우자수당 안내가 별지4 지급신청 및 대리 신청시 가족관계·위임장을 지정함을 직접 확인했다. 별지6은 대리인의 계좌에서 수령하는 별도 금융 절차로, 대리 신청 허용만으로 수령까지 허용된다고 추정할 수 없다. 현재 배우자수당에서 대리수령6호를 받는 직접 근거가 남아 미해소이다.",
+          "relatedProgramIds": [
+            "g11215.bokjiro-WLF00002162",
+            "g11215.gov24-304000000122",
+            "g11215.gov24-304000000123",
+            "g11215.gov24-304000000233"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g11215.bokjiro-WLF00002162",
+              "formId": "ordin-22425515",
+              "decision": "requires_external_confirmation",
+              "reason": "종합사업에는 배우자수당이 있으나 신청위임과 달리 예외 계좌 대리수령 운영근거 미확인."
+            },
+            {
+              "programId": "g11215.gov24-304000000122",
+              "formId": "ordin-22425515",
+              "decision": "not_matched",
+              "reason": "별지6 전체는 채무압류·거동불가 등으로 수급권자 대신 친족 계좌에서 배우자복지수당을 수령하려는 신청이며 위임장과 다르다. 현행 제9조의5는 별지4 신청서·별지5 신청위임장만 지정하고 별지6 대리수령 요건·계좌범위는 확인되지 않았다. 종합사업 및 배우자수당 사이트에도 대리 신청 안내만 있으며, 보훈예우수당 페이지의 대리수령 안내를 별개 배우자수당에 전용할 수 없어 실제 운영근거 확인이 필요하다."
+            },
+            {
+              "programId": "g11215.gov24-304000000123",
+              "formId": "ordin-22425515",
+              "decision": "not_matched",
+              "reason": "별지6 전체는 채무압류·거동불가 등으로 수급권자 대신 친족 계좌에서 배우자복지수당을 수령하려는 신청이며 위임장과 다르다. 현행 제9조의5는 별지4 신청서·별지5 신청위임장만 지정하고 별지6 대리수령 요건·계좌범위는 확인되지 않았다. 종합사업 및 배우자수당 사이트에도 대리 신청 안내만 있으며, 보훈예우수당 페이지의 대리수령 안내를 별개 배우자수당에 전용할 수 없어 실제 운영근거 확인이 필요하다."
+            },
+            {
+              "programId": "g11215.gov24-304000000233",
+              "formId": "ordin-22425515",
+              "decision": "requires_external_confirmation",
+              "reason": "배우자복지수당 실제 대리수령 요건·별지6 적용의 현행 운영근거 미확인."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000233",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "855e7117fdd6491e93697d53f0494158cfc0361ccaa89aad58907050ea94ca68",
+                "newEvidence": "현재 정부24 서비스 전체 핵심내용·신청경로·신청서/서류·수정일 직접 확인",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/gov24-current-35.json",
+                    "sha256": "2c38bce74c9ed3dcdb021802250e43efc0a0a37e8fce8f93449a7ca051a53409",
+                    "kind": "official_evidence_metadata"
+                  },
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case27-gov24.json",
+                    "sha256": "962400f5acc4fc953d417ecae1f11f694d0f959329d9ba034b868bda51256e59",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-review"
     },
     {
       "index": 5,

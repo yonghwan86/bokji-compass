@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-10-23",
   "pendingLaws": 0,
   "scope": "Additional current-law evidence supporting individually reviewed agency originals. Existing frozen source scopes are unchanged.",
   "laws": {
@@ -115,6 +115,33 @@
       "fullBodyAndAddendaReviewed": true,
       "bodyScope": "본칙 및 부칙 전체, 담당 원문 검토와 현재판 ID를 대조함",
       "individualUseStillRequired": true
+    },
+    "2121601": {
+      "bodyEvidenceSHA256": "5b3f0acbb55eaf45ad2d1fabf5c486ea17e4a9e5176790f33fc981120fab88d9",
+      "bodyPublicUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2121601",
+      "checkedAt": "2026-10-23",
+      "currentLaw": {
+        "effectiveDate": "20260409",
+        "lawId": "2121601",
+        "title": "예산군 인구증가 시책추진 지원에 관한 조례"
+      },
+      "currentLawId": "2121601",
+      "followupEvidence": {
+        "checkedAt": "2026-10-23",
+        "coordinatorReviewFile": "municipal-reviewed-round8019.json",
+        "currentIdentityProofSHA256": "5698b10ff80bfc90666915f8b25f9ae82a77d59c653baf9624e3e8f3e8d70031",
+        "currentIdentityQuery": "예산군 인구증가 시책추진 지원에 관한 조례",
+        "kind": "current_official_body_and_native_current_identity",
+        "sha256": "5b3f0acbb55eaf45ad2d1fabf5c486ea17e4a9e5176790f33fc981120fab88d9",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2121601&gubun=ELIS"
+      },
+      "lawId": "2121601",
+      "reviewedArticles": [
+        "제3조",
+        "현행 별표1 21752559",
+        "현행 별표2 21752561"
+      ],
+      "state": "source_current"
     }
   }
 }

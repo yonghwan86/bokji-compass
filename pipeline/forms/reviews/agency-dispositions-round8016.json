@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-26110-bokjiro-wlf00006649-20260720-1",
+      "sha256": "6caa2fb4b460d4b841be849958f2af44e251be1eddbed48a9d219ddff03b7afb",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026-10-23 총괄이 현재 정확한 복지로WLF00006649 HTML의 동일 사업·첨부식별자20260720UUWBM1801570201761423과 실제 HWP119808바이트/SHA6caa2fb4b460d4b841be849958f2af44e251be1eddbed48a9d219ddff03b7afb를 다시 GET했다. 전체Section0 6628자와 실제한글3쪽을 모두 읽고 빈 신청인·출생자·가족·해당 지방서비스 체크란·보호자 계좌·서명·동의 및 선택동의 구분을 확인했다. 현행2109641 제2·5~8조/부칙과 중구 현재출산보육시책은2025-10-01이후 출생아의 출생6개월내 통합신청/통장사본 제출 및1~7세 분할지급을 직접 명시하며 실제 서식도 이전/이후 출생아를 구분한다. 제안의 날짜를 출생신고일 기준으로 오해하지 않도록 출생일 기준으로 명확히 고쳤다. 공통규정 인쇄별지2를 지방조례 별표ID로 쓰지 않고 정확기관원본의 직접배포 근거로 별도등록한다. 종전21161135 원본 상태·바이트는 유지하고 새원본을 이 정확사업의 신규출생아 해당부분에만 연결한다.",
+      "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006649&wlfareInfoReldBztpCd=02",
+      "checkedAt": "2026-10-23",
+      "relatedProgramIds": [
+        "g26110.bokjiro-WLF00006649"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g26110.bokjiro-WLF00006649",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8016.json",
+      "sourceProposalSHA256": "f5729e48bf339dc750222eacf8b991f4c9a881400312ed6fc3e9906c5a8b3f4a",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "fdc740e65b51ba781d405777f68459f5c0ee8f4af3b2fae642c5d81a9a2a05e0",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "출산축하금 지원 사업",
+        "evidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006649&wlfareInfoReldBztpCd=02",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "2026-10-23 총괄이 현재 정확한 복지로WLF00006649 HTML의 동일 사업·첨부식별자20260720UUWBM1801570201761423과 실제 HWP119808바이트/SHA6caa2fb4b460d4b841be849958f2af44e251be1eddbed48a9d219ddff03b7afb를 다시 GET했다. 전체Section0 6628자와 실제한글3쪽을 모두 읽고 빈 신청인·출생자·가족·해당 지방서비스 체크란·보호자 계좌·서명·동의 및 선택동의 구분을 확인했다. 현행2109641 제2·5~8조/부칙과 중구 현재출산보육시책은2025-10-01이후 출생아의 출생6개월내 통합신청/통장사본 제출 및1~7세 분할지급을 직접 명시하며 실제 서식도 이전/이후 출생아를 구분한다. 제안의 날짜를 출생신고일 기준으로 오해하지 않도록 출생일 기준으로 명확히 고쳤다. 공통규정 인쇄별지2를 지방조례 별표ID로 쓰지 않고 정확기관원본의 직접배포 근거로 별도등록한다. 종전21161135 원본 상태·바이트는 유지하고 새원본을 이 정확사업의 신규출생아 해당부분에만 연결한다.",
+        "pageSHA256": "fdc740e65b51ba781d405777f68459f5c0ee8f4af3b2fae642c5d81a9a2a05e0"
+      },
+      "selectedParts": [
+        {
+          "number": "공통규정 인쇄 별지 제2호서식",
+          "title": "출산서비스 통합처리 신청서 중 부산 중구 출산축하금",
+          "use": "conditional",
+          "author": "출생아를 실제 양육하는 보호자",
+          "condition": "2025년 10월 1일 이후 태어나 출생일을 기준으로 부산광역시 중구에 출생신고된 아동의 보호자가 중구 출산축하금을 신청할 때 사용하는 통합신청서입니다. 출생일부터 지원 기준일까지 아동과 주민등록상 같은 세대에서 실제 거주·양육하는 조건을 확인하세요. 지방자치단체 서비스의 「(구군) 출산지원금 / 2025.10.1. 이후 출생아」 칸을 선택해 출생일 6개월 이내 주소지 동주민센터에 제출하고 보호자 통장 사본과 해당 증빙을 준비합니다. 지원금은 0세를 제외하고 1~6세 매년150만원,7세100만원으로 나누어 지급합니다. 해외출생 예외 대상은 입국일 기준 신청기한·지급기준을, 친족·후견인 보호자는 추가 증빙과 접수절차를 확인하세요. 다른 통합 서비스나 종전 출생아 장려금 신청까지 검증한 서식은 아닙니다.",
+          "sourceLocation": "BodyText/Section0 인쇄1쪽 지방자치단체서비스의 (구군) 출산지원금·2025.10.1. 이후 출생아 및 해당 공통정보/동의/서명",
+          "scope": "중구의2025-10-01이후출생아출산축하금 신청부분과 해당신청인·출생자·보호자계좌·서명·증빙·동의"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8016.json",
+  "scopeSHA256": "34fedc14262b1e1692448842c2731535c740c06f8114aa40660b774ebba2424d"
+}

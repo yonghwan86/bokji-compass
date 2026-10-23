@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "rows": [
+    {
+      "formId": "agency-27000-daegu-school-entry-2026",
+      "sourceKind": "agency",
+      "programIds": [
+        "s27000.bokjiro-WLF00004976"
+      ],
+      "programNames": [
+        "다자녀가정 고등학교 입학축하금 지원"
+      ],
+      "programs": [
+        {
+          "id": "s27000.bokjiro-WLF00004976",
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004976&wlfareInfoReldBztpCd=02"
+        }
+      ],
+      "formTitle": "2026 추가접수 회차자료 · 접수종료(8.24~9.30) — 대구 고등학교 입학축하금 방문 신청서",
+      "displayTitle": "2026 추가접수 회차자료 · 접수종료(8.24~9.30) — 대구 고등학교 입학축하금 방문 신청서",
+      "verifiedDocumentTitle": "다자녀가정 고등학교 입학축하금지원 신청서 (방문 신청용)",
+      "sourceMetadataTitle": "대구광역시 출산보육과_신청서_방문용.hwpx",
+      "role": "application",
+      "use": "conditional",
+      "condition": "2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 회차의 방문용 원본입니다. 접수는 2026.8.24~9.30에 종료됐으며 현재 신규 접수나 다음 회차 신청용이 아닙니다. 당초 4.1~6.2 미신청자 중 2025.4.1부터 대구 거주 등 원공고 요건을 유지한 부·모, 또는 동일 주민등록 조손가정의 조부·조모가 2026년 대구 소재 고교 1학년 입학 둘째 이상 자녀에 대해 작성하는 양식입니다. 둘째 30만원·셋째 이상 50만원을 신청인과 명의가 같은 실명등록 대구로페이 카드에 지급하는 해당 회차 자료이며, 본문의 2026년과 카드번호 9460 표시는 원문 그대로입니다. 공무원 확인란은 담당기관 영역입니다. 동의란과 서명은 선택·기입되지 않은 상태로 제공하고 화면작성·동의생성은 제공하지 않습니다. 내려받기는 접수 완료를 뜻하지 않습니다.",
+      "regionCode": "27000",
+      "regionLabel": "대구광역시",
+      "agencyName": "대구광역시 출산보육과 / 호산고등학교 공식 재배포",
+      "authorityKind": "public_institution",
+      "authorityEvidenceKind": "public_institution",
+      "authorityEvidenceUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+      "authorityEvidenceNote": "호산고등학교 공식 공지 41264820(2026-08-25)의 2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 안내를 비로그인 공개 GET으로 읽었다. 페이지가 대구광역시 출산보육과_신청서_방문용.hwpx의 정확 경로·84715바이트를 직접 지정한다. 해당 실제 HWPX의 SHA와 전체 Contents/section0.xml 1962자 및 내장 미리보기 1쪽을 대조했다. BinData는 0개다. 부·모/조손 신청인, 2026 고교1학년 둘째 이상 자녀, 카드 명의일치, 구청장/군수 수신이 현재 사업 WLF00004976과 맞는다. 출산보육과 파일명과 대구 전역 구·군 접수처를 명시한 공고 및 원문의 광역 공통 수신 범위가 27000 관할의 근거이며 학교 자체 급여로 간주하지 않는다. 개인정보 기입·서명·선체크는 없고 2026년·9460은 인쇄된 서식 기본값이다. 담당공무원 확인 영역도 원문에 남지만 신청인 작성 범위로 승격하지 않는다. 현행 시행규칙1867151 제4조는 연도별 지급조건·기간 공고 및 신청을 정한다. 구 법령 별지는 계좌확인 및 구 조례 제10조의2를 인쇄하지만 이 별도 2026 기관배포본은 조례 제9조/규칙 제4조제2항과 카드 확인을 인쇄한다. 새 파일을 법령포털 별지와 동일 원본으로 표시하지 않는다. 공식 공고가 9월30일 이후 신청 불가를 명시하므로 종료된 추가접수 회차 자료로만 제공한다. 개인정보 부분의 정보통신망법 등 인쇄 인용은 원문 그대로 보존하며 법률적 적정성의 별도 보증이나 동의 대행을 뜻하지 않는다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년도 다자녀가정 고등학교 입학축하금 추가 접수 안내",
+        "evidenceUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "호산고등학교 공식 공지 41264820(2026-08-25)의 2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 안내를 비로그인 공개 GET으로 읽었다. 페이지가 대구광역시 출산보육과_신청서_방문용.hwpx의 정확 경로·84715바이트를 직접 지정한다. 해당 실제 HWPX의 SHA와 전체 Contents/section0.xml 1962자 및 내장 미리보기 1쪽을 대조했다. BinData는 0개다. 부·모/조손 신청인, 2026 고교1학년 둘째 이상 자녀, 카드 명의일치, 구청장/군수 수신이 현재 사업 WLF00004976과 맞는다. 출산보육과 파일명과 대구 전역 구·군 접수처를 명시한 공고 및 원문의 광역 공통 수신 범위가 27000 관할의 근거이며 학교 자체 급여로 간주하지 않는다. 개인정보 기입·서명·선체크는 없고 2026년·9460은 인쇄된 서식 기본값이다. 담당공무원 확인 영역도 원문에 남지만 신청인 작성 범위로 승격하지 않는다. 현행 시행규칙1867151 제4조는 연도별 지급조건·기간 공고 및 신청을 정한다. 구 법령 별지는 계좌확인 및 구 조례 제10조의2를 인쇄하지만 이 별도 2026 기관배포본은 조례 제9조/규칙 제4조제2항과 카드 확인을 인쇄한다. 새 파일을 법령포털 별지와 동일 원본으로 표시하지 않는다. 공식 공고가 9월30일 이후 신청 불가를 명시하므로 종료된 추가접수 회차 자료로만 제공한다. 개인정보 부분의 정보통신망법 등 인쇄 인용은 원문 그대로 보존하며 법률적 적정성의 별도 보증이나 동의 대행을 뜻하지 않는다. 총괄은 실제 한글에서 새로 출력한 1쪽 전체를 읽고 신청인·자녀·9460 카드번호·2026년·공무원 확인란·미선택 동의 4개와 서명 공란을 확인했다. 별도 검토자가 재수신한 공식 공지의 실제 응답 바이트 및 정확 첨부 식별자를 다시 대조했다. 2026.9.30 종료 추가접수 회차의 원본 다운로드만 승인하고 현재 접수·다음 회차·웹 자동작성으로 확대하지 않는다. 구 법령포털 원본16491395는 자동 대체·해소하지 않는다.",
+        "pageSHA256": "676b0b79a260c0b364585638a7285a2ed54aa94130ed95ed0280bddd4e1c7088"
+      },
+      "sourcePageUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+      "sourcePageSHA256": "676b0b79a260c0b364585638a7285a2ed54aa94130ed95ed0280bddd4e1c7088",
+      "sourceUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+      "finalUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+      "attachmentId": "a97902c8b270c32a0b2d977317d8f1fc",
+      "attachmentIdentifier": {
+        "path": "/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx"
+      },
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004976&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+      "evidenceNote": "호산고등학교 공식 공지 41264820(2026-08-25)의 2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 안내를 비로그인 공개 GET으로 읽었다. 페이지가 대구광역시 출산보육과_신청서_방문용.hwpx의 정확 경로·84715바이트를 직접 지정한다. 해당 실제 HWPX의 SHA와 전체 Contents/section0.xml 1962자 및 내장 미리보기 1쪽을 대조했다. BinData는 0개다. 부·모/조손 신청인, 2026 고교1학년 둘째 이상 자녀, 카드 명의일치, 구청장/군수 수신이 현재 사업 WLF00004976과 맞는다. 출산보육과 파일명과 대구 전역 구·군 접수처를 명시한 공고 및 원문의 광역 공통 수신 범위가 27000 관할의 근거이며 학교 자체 급여로 간주하지 않는다. 개인정보 기입·서명·선체크는 없고 2026년·9460은 인쇄된 서식 기본값이다. 담당공무원 확인 영역도 원문에 남지만 신청인 작성 범위로 승격하지 않는다. 현행 시행규칙1867151 제4조는 연도별 지급조건·기간 공고 및 신청을 정한다. 구 법령 별지는 계좌확인 및 구 조례 제10조의2를 인쇄하지만 이 별도 2026 기관배포본은 조례 제9조/규칙 제4조제2항과 카드 확인을 인쇄한다. 새 파일을 법령포털 별지와 동일 원본으로 표시하지 않는다. 공식 공고가 9월30일 이후 신청 불가를 명시하므로 종료된 추가접수 회차 자료로만 제공한다. 개인정보 부분의 정보통신망법 등 인쇄 인용은 원문 그대로 보존하며 법률적 적정성의 별도 보증이나 동의 대행을 뜻하지 않는다.",
+      "sha256": "36dd742e2060d64f989ed3f4d4cda54e3da6f76e94d4fe7d3eaffdd86a9cfb2b",
+      "bytes": 84715,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-27000-daegu-school-entry-2026.hwpx",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 1962,
+      "embeddedResourceCount": 0,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "blankApplicantFormMeaning": "개별 인적사항·카드 후속12자리·선택·서명이 기입되지 않은 빈 배포 양식. 고정2026년·카드공통prefix9460·기관확인 안내 인쇄가 없다는 뜻은 아님.",
+      "preselectedChoicesObserved": false,
+      "reviewedParts": [
+        {
+          "number": "인쇄번호 없음",
+          "title": "다자녀가정 고등학교 입학축하금지원 신청서 (방문 신청용)",
+          "use": "conditional",
+          "author": "해당 2026 추가접수 대상 부 또는 모; 공고 요건에 맞는 조손가정의 조부 또는 조모",
+          "scope": "신청인·자녀·카드번호·신청서명 및 하단 행정정보/금융·개인정보 동의·확인·서명. 접수번호와 담당공무원 확인사항은 기관 작성 영역."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "인쇄번호 없음",
+          "title": "다자녀가정 고등학교 입학축하금지원 신청서 (방문 신청용)",
+          "use": "conditional",
+          "author": "해당 2026 추가접수 대상 부 또는 모; 공고 요건에 맞는 조손가정의 조부 또는 조모",
+          "scope": "신청인·자녀·카드번호·신청서명 및 하단 행정정보/금융·개인정보 동의·확인·서명. 접수번호와 담당공무원 확인사항은 기관 작성 영역."
+        }
+      ],
+      "applicant": "해당 2026 추가접수 대상 부 또는 모; 공고 요건에 맞는 조손가정의 조부 또는 조모",
+      "roleBasis": "호산고등학교 공식 공지 41264820(2026-08-25)의 2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 안내를 비로그인 공개 GET으로 읽었다. 페이지가 대구광역시 출산보육과_신청서_방문용.hwpx의 정확 경로·84715바이트를 직접 지정한다. 해당 실제 HWPX의 SHA와 전체 Contents/section0.xml 1962자 및 내장 미리보기 1쪽을 대조했다. BinData는 0개다. 부·모/조손 신청인, 2026 고교1학년 둘째 이상 자녀, 카드 명의일치, 구청장/군수 수신이 현재 사업 WLF00004976과 맞는다. 출산보육과 파일명과 대구 전역 구·군 접수처를 명시한 공고 및 원문의 광역 공통 수신 범위가 27000 관할의 근거이며 학교 자체 급여로 간주하지 않는다. 개인정보 기입·서명·선체크는 없고 2026년·9460은 인쇄된 서식 기본값이다. 담당공무원 확인 영역도 원문에 남지만 신청인 작성 범위로 승격하지 않는다. 현행 시행규칙1867151 제4조는 연도별 지급조건·기간 공고 및 신청을 정한다. 구 법령 별지는 계좌확인 및 구 조례 제10조의2를 인쇄하지만 이 별도 2026 기관배포본은 조례 제9조/규칙 제4조제2항과 카드 확인을 인쇄한다. 새 파일을 법령포털 별지와 동일 원본으로 표시하지 않는다. 공식 공고가 9월30일 이후 신청 불가를 명시하므로 종료된 추가접수 회차 자료로만 제공한다. 개인정보 부분의 정보통신망법 등 인쇄 인용은 원문 그대로 보존하며 법률적 적정성의 별도 보증이나 동의 대행을 뜻하지 않는다.",
+      "roleEvidenceUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "published",
+      "effectiveDate": "2026-08-25",
+      "publishedAt": "2026-08-25",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "supportingLawReference": {
+        "lawId": "1867151",
+        "stableLawId": "2177474",
+        "lawTitle": "대구광역시 출산장려 및 양육지원에 관한 조례 시행규칙",
+        "effectiveDate": "2023-10-30",
+        "currentCheckedAt": "2026-10-23",
+        "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1867151",
+        "articles": [
+          "제2조",
+          "제4조 제1항·제2항·제3항"
+        ],
+        "caveat": "§4③의 계좌확인 문구와 기존별지의 구 제10조의2 인용이 남아 있다. 새 회차 공고/배포본을 법령첨부와 동일시하지 않고 official-program 근거로만 제안한다."
+      },
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "roundSpecificUseConfirmed": true,
+      "currentNewApplicationConfirmed": false,
+      "publicationApproved": true,
+      "proposalStatus": "independent_review_complete_pending_coordinator",
+      "oldOriginalStatusUnchanged": true,
+      "relatedUnmatchedOriginalId": "ordin-16491395",
+      "relatedUnmatchedOriginalSHA256": "9bbfb70b56596fe5aa4f2f7bb2da712ae0f1fc5aa6ceae8528593baa25c65f67",
+      "applicationWindow": {
+        "roundYear": 2026,
+        "round": "추가접수",
+        "applicationStartsAt": "2026-08-24T09:00:00+09:00",
+        "applicationEndsAt": "2026-09-30T18:00:00+09:00",
+        "onlineEndsAt": "2026-09-30T24:00:00+09:00",
+        "closedAtCheck": true,
+        "paymentMonthAsNotice": "2026-10",
+        "currentOrFutureApplicationNotAuthorized": true
+      },
+      "sourceProof": {
+        "pageRecord": "logs/forms-followup-20261023i/team2/daegu-hosan-2026-attachment-proof.json",
+        "downloadRecord": "logs/forms-followup-20261023i/team2/daegu-2026-visit-application.json",
+        "pageHTTPStatus": 200,
+        "downloadHTTPStatus": 200,
+        "noCredentialsUsed": true,
+        "publicGuestNavigationOnly": true,
+        "originalSHARechecked": true,
+        "previewPath": "logs/forms-followup-20261023i/team2/daegu-2026-visit-preview.png",
+        "previewMethod": "HWPX embedded preview, not a fresh rendered PDF",
+        "wholeSectionRead": true,
+        "previewVisuallyReviewed": true
+      },
+      "presentationPlan": {
+        "usesExistingFields": true,
+        "displayTitleAndFormTitleEqual": true,
+        "closedConditionBeforeDownload": true,
+        "writerAllowed": false,
+        "exactSHAWritingHoldRequiredBeforeImport": true,
+        "noCustomWritingTemplateRegistration": true,
+        "noConversionRegistration": true
+      },
+      "coordinatorApproved": true,
+      "coordinatorReason": "호산고등학교 공식 공지 41264820(2026-08-25)의 2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 안내를 비로그인 공개 GET으로 읽었다. 페이지가 대구광역시 출산보육과_신청서_방문용.hwpx의 정확 경로·84715바이트를 직접 지정한다. 해당 실제 HWPX의 SHA와 전체 Contents/section0.xml 1962자 및 내장 미리보기 1쪽을 대조했다. BinData는 0개다. 부·모/조손 신청인, 2026 고교1학년 둘째 이상 자녀, 카드 명의일치, 구청장/군수 수신이 현재 사업 WLF00004976과 맞는다. 출산보육과 파일명과 대구 전역 구·군 접수처를 명시한 공고 및 원문의 광역 공통 수신 범위가 27000 관할의 근거이며 학교 자체 급여로 간주하지 않는다. 개인정보 기입·서명·선체크는 없고 2026년·9460은 인쇄된 서식 기본값이다. 담당공무원 확인 영역도 원문에 남지만 신청인 작성 범위로 승격하지 않는다. 현행 시행규칙1867151 제4조는 연도별 지급조건·기간 공고 및 신청을 정한다. 구 법령 별지는 계좌확인 및 구 조례 제10조의2를 인쇄하지만 이 별도 2026 기관배포본은 조례 제9조/규칙 제4조제2항과 카드 확인을 인쇄한다. 새 파일을 법령포털 별지와 동일 원본으로 표시하지 않는다. 공식 공고가 9월30일 이후 신청 불가를 명시하므로 종료된 추가접수 회차 자료로만 제공한다. 개인정보 부분의 정보통신망법 등 인쇄 인용은 원문 그대로 보존하며 법률적 적정성의 별도 보증이나 동의 대행을 뜻하지 않는다. 총괄은 실제 한글에서 새로 출력한 1쪽 전체를 읽고 신청인·자녀·9460 카드번호·2026년·공무원 확인란·미선택 동의 4개와 서명 공란을 확인했다. 별도 검토자가 재수신한 공식 공지의 실제 응답 바이트 및 정확 첨부 식별자를 다시 대조했다. 2026.9.30 종료 추가접수 회차의 원본 다운로드만 승인하고 현재 접수·다음 회차·웹 자동작성으로 확대하지 않는다. 구 법령포털 원본16491395는 자동 대체·해소하지 않는다.",
+      "sourcePageSha256": "676b0b79a260c0b364585638a7285a2ed54aa94130ed95ed0280bddd4e1c7088",
+      "coordinatorNativeReview": {
+        "label": "agency-27000-daegu-school-entry-2026",
+        "sourceSHA256": "36dd742e2060d64f989ed3f4d4cda54e3da6f76e94d4fe7d3eaffdd86a9cfb2b",
+        "sourceBytes": 84715,
+        "hancomPages": 1,
+        "pdfSHA256": "b9ae18d0ca61ce8524520c1c869773a72134181a640a69dc3f71980dac4f926c",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      },
+      "coordinatorPageProof": {
+        "path": "logs/forms-followup-20261023i/root-agency-peer/daegu-independent-response.body",
+        "sha256": "676b0b79a260c0b364585638a7285a2ed54aa94130ed95ed0280bddd4e1c7088",
+        "httpStatus": 200,
+        "directAttachmentIdentityPresent": true
+      }
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "ee259a73cce588c6b8d117ee46113397c05acd4e524da92a8bbe3f880a925c0d",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8021.json",
+    "frozenScopeSHA256": "ca597cffd3458806feed91be5069a37f03e4d7d81e07697c49d00636c3dc81b8"
+  }
+}

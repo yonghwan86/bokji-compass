@@ -6,9 +6,9 @@ export const FORM_STATUS_LABEL: Record<FormStatus, string> = {
   available: "신청 서류 연결 확인", online: "온라인 신청 안내", review: "연결 검토 중", missing: "신청서 찾는 중",
 };
 export type FormRole = "application" | "consent" | "delegation" | "supporting" | "reference" | "administrative" | "deleted" | "unclassified";
-export type FormFileFormat = "hwp" | "hwpx" | "pdf" | "txt" | "gif" | "jpg";
+export type FormFileFormat = "hwp" | "hwpx" | "pdf" | "txt" | "gif" | "jpg" | "png";
 /**
- * 본문 글자가 없는 이미지 원본(jpg)의 근거 — 사람이 그 이미지 전체를 직접 본 기록이다.
+ * 본문 글자가 없는 이미지 원본(jpg 또는 png)의 근거 — 사람이 그 이미지 전체를 직접 본 기록이다.
  * 기계 판독이 아니라 검토자의 확인이며, 등록된 SHA·확인일·크기에 묶인다.
  * 빈 신청 서식이고 기입된 개인정보가 없다는 확인을 그대로 싣는다.
  */
@@ -76,11 +76,11 @@ export interface ApplicationForm {
   /** Exact reviewed agency source; no Law.go.kr annex identity is implied. */
   agency?: {
     agencyName: string; sourcePageUrl: string; finalUrl: string; attachmentId: string;
-    sha256: string; bytes: number; format: "hwp" | "hwpx" | "pdf" | "jpg";
+    sha256: string; bytes: number; format: "hwp" | "hwpx" | "pdf" | "jpg" | "png";
     checkedAt: string; authorityEvidenceUrl: string;
     /** 공식 신청 안내를 근거로 등록한 경우에만 실린다. */
     authorityBasis?: AgencyAuthorityBasis;
-    /** 스캔 원본(jpg 전체 이미지 / pdf 전체 페이지)에만 실린다. 다른 형식은 이 확인을 주장할 수 없다. */
+    /** 스캔 원본(jpg·png 전체 이미지 / pdf 전체 페이지)에만 실린다. 다른 형식은 이 확인을 주장할 수 없다. */
     visualReview?: AgencyOriginalReview;
   };
   officialPdfUrl?: string;
@@ -96,7 +96,7 @@ export interface FormLink {
   evidenceUrl: string;
   evidenceNote: string;
   checkedAt: string;
-  scopeBasis?: "provincial-law-reference" | "national-law-reference" | "official-application-reference" | "municipal-application-reference";
+  scopeBasis?: "provincial-law-reference" | "national-law-reference" | "official-application-reference" | "municipal-application-reference" | "national-municipal-intake-reference";
   programEvidenceUrl?: string;
   /** Exact official law history reviewed for this benefit; never a global title alias. */
   renamedLawReference?: {
@@ -119,6 +119,29 @@ export interface FormLink {
     transitionBasis: string;
     scopeRestriction: string;
   };
+  /** 전국 사업의 한 시·군·구가 자기 주민에게 따로 배포하는 선택 접수 서식.
+   *  기관 원본에만 쓰며 관할을 바꾸지 않는다. 그 도시를 고른 사람에게만 보인다. */
+  nationalMunicipalIntakeReference?: {
+    kind: "municipal-intake";
+    programmeId: string;
+    sigungu: string;
+    municipality: string;
+    /** 그 도시의 현행 안내 페이지와 거기서 실제로 내려받는 파일. */
+    municipalPageUrl: string;
+    downloadUrl: string;
+    sourceSHA256: string;
+    municipalPageSHA256: string;
+    httpStatus: number;
+    checkedAt: string;
+    /** 초기 신청만. 환급·정산 단계로 넓히지 않는다. */
+    stage: "initial-application";
+    /** 그 페이지가 같은 서비스의 같은 단계임을 말하는 문장. */
+    sameServiceEvidence: string;
+    /** 그 페이지가 어떤 주민까지 이 서식으로 받는지 말하는 문장. */
+    populationEvidence: string;
+    /** 이 도시 주민의 선택 경로라는 제한. */
+    scopeRestriction: string;
+  };
   municipalApplicationReference?: {
     sido: string;
     sigungu: string;
@@ -133,13 +156,18 @@ export interface FormLink {
     scopeRestriction: string;
   };
   scopeReference?: {
-    kind: "cited-local-law" | "program-documents";
+    /** statutory-chain 은 법이 전국 공통 서식 하나를 그 급여의 신청서로 지정한 경우만이며,
+     *  별도로 선별한 verifiedStatutoryApplications 등록에 referenceId 로 묶인다. */
+    kind: "cited-local-law" | "program-documents" | "statutory-chain";
     referencedLawTitle: string;
     annexNumber: string;
     basis: string;
     sourceLawTitle?: string;
     sourceLawId?: string;
     article?: string;
+    /** statutory-chain 전용 — 등록 항목의 키와 그 원본 바이트의 해시를 그대로 적는다. */
+    referenceId?: string;
+    sourceSHA256?: string;
   };
 }
 export interface ProgramFormEntry {

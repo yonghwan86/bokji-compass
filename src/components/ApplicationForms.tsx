@@ -4,8 +4,12 @@ import Link from "next/link";
 import type { Program } from "@/lib/data/types";
 import { lawPortalUrl, loadProgramForms, type LoadedProgramForms } from "@/lib/client/forms";
 import { externalFormUrl, formAssetUrl, agencyFormUrl, agencyProgramGuideUrl } from "@/lib/data/formPublication";
-import { FORM_STATUS_LABEL, INVESTIGATION_LABEL, INVESTIGATION_NOTE, publicSourceUrl, type ApplicationForm } from "@/lib/data/forms";
+import { FORM_STATUS_LABEL, INVESTIGATION_LABEL, INVESTIGATION_NOTE, publicSourceUrl, type ApplicationForm, type FormLink } from "@/lib/data/forms";
 import { writingTemplate } from "@/lib/data/formWritingRegistry";
+import { loadPaperEntries } from "@/lib/client/paperWriting";
+import { loadHwpxDownloads, hwpxDownloadFor } from "@/lib/client/verifiedHwpxDownloads";
+import type { HwpxDownloadEntry } from "@/lib/data/paperWritingTypes";
+import type { PaperIndexEntry } from "@/lib/data/paperWritingTypes";
 import styles from "./ApplicationForms.module.css";
 
 const SOURCE_LABEL = { ordin: "조례", law: "법령", rule: "행정규칙", agency: "기관 공식 배포" } as const;
@@ -31,7 +35,9 @@ export function basisText(form: ApplicationForm) {
 export function ApplicationForms({ program, parentMode = false, preferredSigungu }: { program: Program; parentMode?: boolean; preferredSigungu?: string | null }) {
   const [result, setResult] = useState<{ id: string; value: LoadedProgramForms | null } | null>(null);
   const [attempt, setAttempt] = useState(0);
-  const [selectedMunicipality, setSelectedMunicipality] = useState<string | null>(null);
+  const [selectedMunicipality, setSelectedMunicipality] = useState<{ programId: string; code: string } | null>(null);
+  const [paper, setPaper] = useState<{ id: string; rows: Record<string, PaperIndexEntry> } | null>(null);
+  const [hwpx, setHwpx] = useState<{ id: string; rows: Record<string, HwpxDownloadEntry> } | null>(null);
   useEffect(() => {
     let alive = true;
     loadProgramForms(program.id).then(value => { if (alive) setResult({ id: program.id, value }); });
@@ -39,14 +45,31 @@ export function ApplicationForms({ program, parentMode = false, preferredSigungu
   }, [program.id, attempt]);
   const loading = !result || result.id !== program.id;
   const data = loading ? null : result.value;
-  const municipalities = [...new Map((data?.entry.links ?? []).flatMap(link => link.municipalApplicationReference
-    ? [[link.municipalApplicationReference.sigungu, link.municipalApplicationReference.municipality] as const] : [])).entries()]
-    .sort((a, b) => a[1].localeCompare(b[1], "ko"));
-  const chooseMunicipality = municipalities.length > 1;
-  const hasCommonForm = (data?.entry.links ?? []).some(link => !link.municipalApplicationReference);
-  const municipality = selectedMunicipality ?? (municipalities.some(([code]) => code === preferredSigungu) ? preferredSigungu! : "");
-  const visibleLinks = (data?.entry.links ?? []).filter(link => !chooseMunicipality || !link.municipalApplicationReference
-    || link.municipalApplicationReference.sigungu === municipality);
+  // 검증된 변환본이 있는 서식만 화면 작성을 열어 준다. 읽지 못하면 원본 받기만 남는다.
+  const linkedFormIds = (data?.entry.links ?? []).map(link => link.formId).join(",");
+  useEffect(() => {
+    if (!linkedFormIds) return;
+    let alive = true;
+    loadPaperEntries(linkedFormIds.split(",")).then(rows => { if (alive) setPaper({ id: program.id, rows }); });
+    loadHwpxDownloads(linkedFormIds.split(",")).then(rows => { if (alive) setHwpx({ id: program.id, rows }); });
+    return () => { alive = false; };
+  }, [program.id, linkedFormIds]);
+  const paperRows = paper?.id === program.id ? paper.rows : {};
+  const hwpxRows = hwpx?.id === program.id ? hwpx.rows : {};
+  // 지역 전용 대안은 그 지역을 고른 사람에게만 보인다. 하나뿐이어도 기본으로 보여 주지 않는다.
+  const regionalOf = (link: FormLink) => link.municipalApplicationReference ?? link.nationalMunicipalIntakeReference ?? null;
+  const municipalities = [...new Map((data?.entry.links ?? []).flatMap(link => {
+    const ref = regionalOf(link);
+    return ref ? [[ref.sigungu, ref.municipality] as const] : [];
+  })).entries()].sort((a, b) => a[1].localeCompare(b[1], "ko"));
+  const chooseMunicipality = municipalities.length > 1 || !!data?.entry.links.some(link => link.nationalMunicipalIntakeReference);
+  const hasCommonForm = (data?.entry.links ?? []).some(link => !regionalOf(link));
+  const municipality = selectedMunicipality?.programId === program.id ? selectedMunicipality.code
+    : municipalities.some(([code]) => code === preferredSigungu) ? preferredSigungu! : "";
+  const visibleLinks = (data?.entry.links ?? []).filter(link => {
+    const ref = regionalOf(link);
+    return !ref || !chooseMunicipality || ref.sigungu === municipality;
+  });
   const official = externalFormUrl(program.url);
   const online = externalFormUrl(data?.entry.applyUrl);
   const portal = data?.entry.portalSearch;
@@ -77,12 +100,12 @@ export function ApplicationForms({ program, parentMode = false, preferredSigungu
           <p>아래는 원문과의 연결을 확인한 작성용 서식이에요. 접수기관의 신청 안내도 함께 확인해 주세요.</p>
           {!data.entry.links.some(link => link.use === "main") && <p className={styles.note}>현재 연결한 것은 함께 준비하거나 해당되는 경우에 내는 서류예요. 주신청서와 전체 구비서류는 공식 신청 안내에서 확인해 주세요.</p>}
           {chooseMunicipality && <div className={styles.municipalityPicker}>
-            <label htmlFor="application-forms-municipality">신청할 시·군</label>
-            <select id="application-forms-municipality" value={municipality} onChange={event => setSelectedMunicipality(event.target.value)}>
+            <label htmlFor="application-forms-municipality">신청할 시·군·구</label>
+            <select id="application-forms-municipality" value={municipality} onChange={event => setSelectedMunicipality({ programId: program.id, code: event.target.value })}>
               <option value="">{hasCommonForm ? "공통 서식 보기" : "시·군을 선택해 주세요"}</option>
               {municipalities.map(([code, name]) => <option key={code} value={code}>{name}</option>)}
             </select>
-            <p className="small muted">{hasCommonForm ? "지역을 선택하면 공통 서식과 해당 시·군의 신청서를 함께 보여드려요." : "지역을 선택하면 해당 시·군의 신청서를 보여드려요."}</p>
+            <p className="small muted">{hasCommonForm ? "공통 서식은 지역 선택 없이 볼 수 있어요. 지역을 선택하면 해당 시·군·구 접수용 서식도 함께 보여드려요." : "지역을 선택하면 해당 시·군·구의 신청서를 보여드려요."}</p>
           </div>}
           <ul className={styles.files}>
             {visibleLinks.map(link => {
@@ -94,7 +117,7 @@ export function ApplicationForms({ program, parentMode = false, preferredSigungu
               const programGuide = lawSource ? null : agencyProgramGuideUrl(form);
               const hwp = formAssetUrl(form.file?.hwp), pdf = formAssetUrl(form.file?.pdf);
               const format = form.file?.format ?? (hwp?.endsWith(".hwpx") ? "hwpx" : "hwp");
-              const downloadLabel = format === "hwp" || format === "hwpx" ? "한글 원본 받기" : format === "txt" ? "텍스트 원본 받기" : format === "gif" || format === "jpg" ? "이미지 원본 받기" : "PDF 원본 받기";
+              const downloadLabel = format === "hwp" || format === "hwpx" ? "한글 원본 받기" : format === "txt" ? "텍스트 원본 받기" : format === "gif" || format === "jpg" || format === "png" ? "이미지 원본 받기" : "PDF 원본 받기";
               // 받아 둔 파일이 없는 서식은 법령포털 원본을 그대로 연다 (후보가 아니라 연결을 확인한 서식만 여기 온다).
               const original = hwp ? null : lawPortalUrl(form.sourceUrl);
               const preview = pdf ?? (original ? lawPortalUrl(form.officialPdfUrl) : null);
@@ -103,17 +126,29 @@ export function ApplicationForms({ program, parentMode = false, preferredSigungu
               const writer = writingTemplate(form.id);
               const writable = writer && format === "hwpx" && hwp === writer.asset.path
                 && form.file?.bytes === writer.asset.bytes && form.file?.sha256 === writer.asset.sha256;
+              // HWP 원본은 검증된 변환본이 있고 그 변환이 이 원본 바이트·SHA에 묶여 있을 때만 작성을 연다.
+              const converted = paperRows[form.id];
+              // 사업별 검토표가 있는 서식은 그 사업에서만 작성 버튼을 연다.
+              const scopedHere = !converted?.programmeIds?.length || converted.programmeIds.includes(program.id);
+              const paperWritable = !writable && !!converted && scopedHere && format === "hwp" && hwp === converted.source.path
+                && form.file?.bytes === converted.source.bytes && form.file?.sha256 === converted.source.sha256;
+              const canWrite = writable || paperWritable;
+              // 공식 원본(HWP)과 같은 내용임을 확인한 변환본. 화면 입력을 지원하지 않아도 받을 수 있다.
+              const hwpxFile = hwpxDownloadFor(hwpxRows[form.id], form.file);
               return <li key={form.id}>
-                <p className={styles.kind}>{link.municipalApplicationReference ? `${link.municipalApplicationReference.municipality} 방문 접수용` : link.use === "main" ? "신청서" : link.use === "conditional" ? "해당하는 경우" : "함께 확인할 서류"}</p>
+                <p className={styles.kind}>{link.nationalMunicipalIntakeReference ? `${link.nationalMunicipalIntakeReference.municipality} 접수용 (선택)` : link.municipalApplicationReference ? `${link.municipalApplicationReference.municipality} 방문 접수용` : link.use === "main" ? "신청서" : link.use === "conditional" ? "해당하는 경우" : "함께 확인할 서류"}</p>
                 <h4>{title}</h4>
                 {link.condition && <p>{link.condition}</p>}
                 <div className={styles.actions}>
-                  {preview && <a className={`btn ${writable ? "btn-ghost" : "btn-primary"}`} href={preview} target="_blank" rel="noopener noreferrer">서식 보기·인쇄 <span className="sr-only">(PDF, 새 창)</span></a>}
-                  {writable && <Link className="btn btn-primary" href={`/forms/write/${form.id}?program=${encodeURIComponent(program.id)}`} data-testid="form-writer-link">화면에서 작성하기</Link>}
-                  {hwp && <a className={`btn ${pdf || writable ? "btn-ghost" : "btn-primary"}`} href={hwp} download={title.replace(/\.(hwpx?|pdf|txt|gif|jpe?g)$/i, "") + "." + format}>{downloadLabel} <span>({format.toUpperCase()})</span></a>}
+                  {preview && <a className={`btn ${canWrite ? "btn-ghost" : "btn-primary"}`} href={preview} target="_blank" rel="noopener noreferrer">서식 보기·인쇄 <span className="sr-only">(PDF, 새 창)</span></a>}
+                  {canWrite && <Link className="btn btn-primary" href={`/forms/write/${form.id}?program=${encodeURIComponent(program.id)}`} data-testid={paperWritable ? "paper-writer-link" : "form-writer-link"}>화면에서 작성하기</Link>}
+                  {hwp && <a className={`btn ${pdf || canWrite ? "btn-ghost" : "btn-primary"}`} href={hwp} download={title.replace(/\.(hwpx?|pdf|txt|gif|jpe?g|png)$/i, "") + "." + format}>{downloadLabel} <span>({format.toUpperCase()})</span></a>}
+                  {hwpxFile && <a className="btn btn-ghost" href={hwpxFile.asset.path} download={title.replace(/\.(hwpx?|pdf|txt|gif|jpe?g|png)$/i, "") + ".hwpx"} data-testid="hwpx-download-link">HWPX로 받기 <span>(HWPX)</span></a>}
                   {original && <a className={`btn ${preview ? "btn-ghost" : "btn-primary"}`} href={original} target="_blank" rel="noopener noreferrer">법령포털 원본 받기{originalType ? ` (${originalType})` : ""}<span className="sr-only"> (새 창)</span></a>}
                 </div>
+                {hwpxFile && <p className="small muted">같은 서식을 <strong>한글 원본(HWP)</strong>과 <strong>HWPX</strong> 두 가지로 받을 수 있어요. 내용은 같고, 최신 한글에서 열기 편한 쪽을 고르면 돼요.</p>}
                 {writable && <p className="small muted">화면에서 작성하면 원본 서식의 해당 칸에 적은 내용이 들어간 한글 파일을 받을 수 있어요. 서명·날인은 인쇄한 뒤 직접 해야 해요.</p>}
+                {paperWritable && <p className="small muted">원본의 항목 순서에 맞춰 빈칸을 채울 수 있어요. 화면에서 쓰는 파일은 공식 원본(HWP)을 작성용으로 변환한 양식이고, 위 <strong>한글 원본 받기</strong>로 공식 원본을 그대로 받을 수 있어요. 서명·날인과 동의 표시는 인쇄한 뒤 직접 해야 해요.</p>}
                 <p className={styles.dates}>{basisText(form)} · {`연결 확인일 ${link.checkedAt}`}</p>
                 <p className={styles.source}><a href={agencySource ?? (original ? lawSource ?? original : externalFormUrl(form.sourceUrl)!)} target="_blank" rel="noopener noreferrer">{original ? "근거 법령 원문" : "공식 서식 원본"}<span className="sr-only"> (새 창)</span></a>{agencySource && lawSource && <> · <a href={lawSource} target="_blank" rel="noopener noreferrer">근거 조례 원문<span className="sr-only"> (새 창)</span></a></>}{agencySource && programGuide && <> · <a href={programGuide} target="_blank" rel="noopener noreferrer">공식 신청 안내<span className="sr-only"> (새 창)</span></a></>}{externalFormUrl(link.evidenceUrl) && <> · <a href={externalFormUrl(link.evidenceUrl)!} target="_blank" rel="noopener noreferrer">신청 근거 확인<span className="sr-only"> (새 창)</span></a></>}</p>
               </li>;

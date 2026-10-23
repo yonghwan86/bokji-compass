@@ -1,0 +1,548 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "scope": "Correct exact Asan and Wando slot counts; no change to original downloads, verified conversions or unrelated writing support.",
+  "asan": {
+    "formId": "ordin-21127609",
+    "sourceSHA256": "b6100833b99537ce6e62a7fb00a82d5721d4226943c5f84a73d9d1c3e3a77599",
+    "sourceBytes": 207360,
+    "assetSHA256": "8113fda9877aa3cd51c46e51cd2a9953bfb009f5533455ede4e5d0778a73f7bb",
+    "manifestSHA256": "40fa224dfb26f755ea065365016442d929c2ea3a3b239458beb756074464164c",
+    "totalSlotsIncludingLocked": 59,
+    "openedBeforeHold": 57,
+    "confirmedStaffSlotsAlreadyLocked": [
+      {
+        "id": "0/0/3/2/0",
+        "label": "접수번호",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 3,
+          "col": 2,
+          "p": 0
+        },
+        "locked": {
+          "kind": "agency",
+          "reason": "접수기관이 적는 칸이에요. 신청인이 채우지 않아요."
+        }
+      },
+      {
+        "id": "0/0/3/13/0",
+        "label": "접수일자",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 3,
+          "col": 13,
+          "p": 0
+        },
+        "locked": {
+          "kind": "agency",
+          "reason": "접수기관이 적는 칸이에요. 신청인이 채우지 않아요."
+        }
+      }
+    ],
+    "confirmedOutOfScopeSlots": [
+      {
+        "id": "0/0/28/10/0#cb0",
+        "label": "첫만남이용권(바우처)",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 28,
+          "col": 10,
+          "p": 0
+        }
+      },
+      {
+        "id": "0/0/30/10/0#cb0",
+        "label": "가정양육수당",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 30,
+          "col": 10,
+          "p": 0
+        }
+      },
+      {
+        "id": "0/0/31/10/0#cb0",
+        "label": "아동수당",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 31,
+          "col": 10,
+          "p": 0
+        }
+      }
+    ],
+    "nativePagesViewed": 3,
+    "sourceAndVerifiedConversionRetained": true,
+    "scope": "The two reception fields are correctly locked, not a hold reason. Coordinator confirms3 open national-benefit choices outside approved Asan postpartum use. Other54 unlocked slots and all other forms are not declared fully semantically audited."
+  },
+  "asanIndependentClaudeReviewSHA256": "2ae69f38cdbbc52f3c0cacc0e8472540d749f40d5ac651c5447e6a864b85775c",
+  "wando": {
+    "formId": "ordin-22371299",
+    "sourceSHA256": "49b5991d6753869d07b09067f5108d9359e405aca330073bc42cc4f597157ee7",
+    "assetSHA256": "7b628a7bf6c72ee1da832c5cbd8047dd33183235ac192623a2a21a5fc0425790",
+    "reconstructedManifestSHA256": "57833a7e7e231f8dfcacf5eb1b72c714eab8d45fb2d73fa538f46dc72fb55083",
+    "matchesDBeforeHoldManifest": true,
+    "conversionPresent": true,
+    "actualConversionRecordUsed": true,
+    "counts": {
+      "total": 109,
+      "open": 106,
+      "locked": 3
+    },
+    "staff": {
+      "total": 22,
+      "open": 20,
+      "locked": 2
+    },
+    "otherBenefits": {
+      "total": 13,
+      "open": 13,
+      "locked": 0
+    },
+    "staffSlots": [
+      {
+        "id": "0/0/3/2/0",
+        "label": "접수번호",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 3,
+          "col": 2,
+          "p": 0
+        },
+        "locked": {
+          "kind": "agency",
+          "reason": "접수기관이 적는 칸이에요. 신청인이 채우지 않아요."
+        }
+      },
+      {
+        "id": "0/0/3/8/0",
+        "label": "접수일자",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 3,
+          "col": 8,
+          "p": 0
+        },
+        "locked": {
+          "kind": "agency",
+          "reason": "접수기관이 적는 칸이에요. 신청인이 채우지 않아요."
+        }
+      },
+      {
+        "id": "0/2/0/2/0#i5",
+        "label": "월",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 0,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/0/2/0#i9",
+        "label": "일",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 0,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/0/2/1#i3",
+        "label": "소속",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 0,
+          "col": 2,
+          "p": 1
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/0/2/2#i3",
+        "label": "직급",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 0,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/0/2/2#i14",
+        "label": "성명",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 0,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/1/2/0#i5",
+        "label": "월",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 1,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/1/2/0#i9",
+        "label": "일",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 1,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/1/2/1#i3",
+        "label": "소속",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 1,
+          "col": 2,
+          "p": 1
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/1/2/2#i3",
+        "label": "직급",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 1,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/2/1/2/2#i14",
+        "label": "성명",
+        "at": {
+          "section": 0,
+          "table": 2,
+          "row": 1,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/0/2/0#i5",
+        "label": "월",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 0,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/0/2/0#i9",
+        "label": "일",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 0,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/0/2/1#i3",
+        "label": "소속",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 0,
+          "col": 2,
+          "p": 1
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/0/2/2#i3",
+        "label": "직급",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 0,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/0/2/2#i14",
+        "label": "성명",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 0,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/1/2/0#i5",
+        "label": "월",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 1,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/1/2/0#i9",
+        "label": "일",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 1,
+          "col": 2,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/1/2/1#i3",
+        "label": "소속",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 1,
+          "col": 2,
+          "p": 1
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/1/2/2#i3",
+        "label": "직급",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 1,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      },
+      {
+        "id": "0/4/1/2/2#i14",
+        "label": "성명",
+        "at": {
+          "section": 0,
+          "table": 4,
+          "row": 1,
+          "col": 2,
+          "p": 2
+        },
+        "locked": null
+      }
+    ],
+    "otherBenefitSlots": [
+      {
+        "id": "0/0/38/6/0#cb0",
+        "label": "해산급여(출산자의 주민등록 주소지에서만 신청 가능)",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 38,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/40/6/0#cb0",
+        "label": "출산가구",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 40,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/40/6/0#cb1",
+        "label": "다자녀(3명 이상)",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 40,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/40/18/0#i6",
+        "label": "고객명",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 40,
+          "col": 18,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/40/18/0#i20",
+        "label": "고객번호",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 40,
+          "col": 18,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/41/6/0#cb0",
+        "label": "도시가스사업자명 : 고객명 : 고객번호 :",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 41,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/41/6/0#i14",
+        "label": "] 도시가스사업자명",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 41,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/41/6/0#i35",
+        "label": "고객명",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 41,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/41/6/0#i49",
+        "label": "고객번호",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 41,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/42/6/0#cb0",
+        "label": "지역난방사업자명(코드) : 고객명 : 고객번호 :",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 42,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/42/6/0#i18",
+        "label": "코드)",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 42,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/42/6/0#i33",
+        "label": "고객명",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 42,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      },
+      {
+        "id": "0/0/42/6/0#i47",
+        "label": "고객번호",
+        "at": {
+          "section": 0,
+          "table": 0,
+          "row": 42,
+          "col": 6,
+          "p": 0
+        },
+        "locked": null
+      }
+    ],
+    "policyFileUnchanged": true,
+    "originalAndConversionUnchanged": true,
+    "publiclyEnabled": false
+  },
+  "priorDCountsCorrected": true,
+  "wandoConversionWasPresentUnderFormsKey": true,
+  "claudeEarlierMissingConversionClaimCorrectedByActualCurrentRecord": true,
+  "policyOrPublicFilesChangedByReconstructionProcess": false,
+  "holdsRemainActive": true,
+  "allOtherFormsAudited": false
+}

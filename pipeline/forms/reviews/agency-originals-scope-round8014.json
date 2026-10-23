@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "formCount": 1,
+  "forms": [
+    {
+      "formId": "agency-47000-bokjiro-wlf00004401-allowance-application",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "경상북도 의사상자 특별위로금·수당지급 신청서",
+      "sourceKind": "agency",
+      "regionCode": "47000",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240703UUWBM1634190092425119&atcflSn=1&wlfareInfoId=WLF00004401",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004401&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20240703UUWBM1634190092425119",
+      "sha256": "6402b5bea3df64d266234775f15b05d8dc76c4098391a0c6ae1e73bc9601d552",
+      "bytes": 15872,
+      "format": "hwp",
+      "relativePath": "agency-47000-bokjiro-wlf00004401-allowance-application.hwp"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

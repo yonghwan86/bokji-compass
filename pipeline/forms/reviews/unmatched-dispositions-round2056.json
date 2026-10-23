@@ -1119,19 +1119,22 @@
       "candidateProgramIds": [
         "g43110.gov24-571000000197"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g43110.gov24-571000000197",
           "formId": "ordin-21714439",
-          "decision": "not_matched",
-          "reason": "원문 1호 전체와 현행 제6조제3항의 1호 면제 신청, 제5조의 유공자·수급자·한부모·장애인 수강 순위 및 제6조제2항의 기당 1과목 면제를 읽었다. 후보는 청년 2030 혼밥 요리교육이며 사이트에 유료 학습비 부과 또는 이 면제 적용 여부가 명시되어 있지 않다. 동일 지역 전체 검색에도 별도 평생학습관 면제 사업은 없다. 해당 강좌의 학습비 및 면제 적용을 확인해야 정확히 연결할 수 있어 보류한다."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "청주시 평생학습관의 유료 정규과정 수강생 중 국가유공자와 그 유족·기초생활수급자·한부모가족 보호대상자·등록장애인 등 현행 규칙의 면제요건에 해당하는 경우에만 사용합니다. 기당 1과목에 한하며 해당 교육 종료 전 면제 사유 증빙을 함께 제출합니다. 일반 강좌 수강신청서나 환불청구서가 아닙니다. 2026년 하반기 혼밥 강좌의 교육기간은 9월1일~12월15일이며 수강 모집과 면제 신청을 구분하고 실제 접수방법·증빙 제출기한은 학습관에 확인하세요.",
+          "reason": "2026-10-23 현재 운영기관의 실제 강좌 목록과 상세(6722 상반기, 7189 하반기)를 확인했다. 2030 혼밥족을 위한 건강밥상이 수강료4만원의 정규프로그램(C0020001)이고 학습비 면제를 적용하는 강좌(useExempt:true)임을 명시하여 이전의 유료과정 여부 미확정이 해소됐다. 2026.9.1~12.15 진행 중인 하반기 과정과 현행 규칙2119115 제6조제3항의 교육종료 전 별지1 제출, 제5조의 국가유공자·유족/수급자/한부모/등록장애인, 제6조제2항 기당1과목을 대조했다. 운영기관 수강안내는 면제 인터넷·방문 신청과 증빙서류 제출을 안내한다. 법령포털 원본15872바이트의 SHA와 전체 Section0의 면제 사유·신청인·교육기간·증빙·수신기관을 다시 확인했다. 일반 수강신청서 또는 환불청구로 표시하지 않고 해당 수강생의 학습비 면제에만 연결한다."
         }
       ],
-      "reviewCheckedAt": "2026-10-19",
+      "reviewCheckedAt": "2026-10-23",
       "verifiedDocumentTitle": "학습비 면제 신청서",
-      "reason": "현재 학습관 수강안내는 정규프로그램4만원과1인1과목 면제·증빙을 명시한다. 다만 대상 사업2030혼밥 강좌가 그 유료 정규과정에 포함되는지 또는 별도 특화과정인지 공개자료에서 확정하지 못해, 제1호 면제서식을 해당 강좌용으로 연결하지 않는다. 면제 제도 자체가 없다는 뜻은 아니다.",
+      "reason": "2026-10-23 현재 운영기관의 실제 강좌 목록과 상세(6722 상반기, 7189 하반기)를 확인했다. 2030 혼밥족을 위한 건강밥상이 수강료4만원의 정규프로그램(C0020001)이고 학습비 면제를 적용하는 강좌(useExempt:true)임을 명시하여 이전의 유료과정 여부 미확정이 해소됐다. 2026.9.1~12.15 진행 중인 하반기 과정과 현행 규칙2119115 제6조제3항의 교육종료 전 별지1 제출, 제5조의 국가유공자·유족/수급자/한부모/등록장애인, 제6조제2항 기당1과목을 대조했다. 운영기관 수강안내는 면제 인터넷·방문 신청과 증빙서류 제출을 안내한다. 법령포털 원본15872바이트의 SHA와 전체 Section0의 면제 사유·신청인·교육기간·증빙·수신기관을 다시 확인했다. 일반 수강신청서 또는 환불청구로 표시하지 않고 해당 수강생의 학습비 면제에만 연결한다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -1151,41 +1154,75 @@
         ],
         "basis": "Full same-jurisdiction corpus name/summary/benefit search; hits alone are not approvals."
       },
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "g43110.gov24-571000000197",
+          "formId": "ordin-21714439",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2119115",
         "binding": "bound",
         "officialFlSeq": "163070987"
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://lll.cheongju.go.kr/papp/P020102",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "754804b06b73cc8eace6660f5f63ab15c589d4277246d9d6fd0f1d262f0d1957",
-            "newEvidence": "정규프로그램 학습비·면제 및 제출증빙의 현행 안내 확인",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/cheongju-registration-guide.json",
-                "sha256": "da9739b1bf1cd61654dd94af99ebc378554dea0105d7ded0bc4693d0bbace2c9",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8201.json",
+        "sourceResultSHA256": "e87423779a4576bb741cf1ea27d0c9b18d5b3025dbe130e8d5644ab505d05c39",
+        "independentReviewSHA256": "203d7b4888dce302e00890e8347458690e1590d4ca5129c93a0d973d06dccaf4",
+        "sourceEvidenceSHA256": "1d61774e1566784cf4a13aafa03532de8fd25cde55c8a44b562db8c7544c8016",
+        "proposedStatus": "approved_conditional_exemption_only",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g43110.gov24-571000000197"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 학습관 수강안내는 정규프로그램4만원과1인1과목 면제·증빙을 명시한다. 다만 대상 사업2030혼밥 강좌가 그 유료 정규과정에 포함되는지 또는 별도 특화과정인지 공개자료에서 확정하지 못해, 제1호 면제서식을 해당 강좌용으로 연결하지 않는다. 면제 제도 자체가 없다는 뜻은 아니다.",
+          "relatedProgramIds": [
+            "g43110.gov24-571000000197"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g43110.gov24-571000000197",
+              "formId": "ordin-21714439",
+              "decision": "not_matched",
+              "reason": "원문 1호 전체와 현행 제6조제3항의 1호 면제 신청, 제5조의 유공자·수급자·한부모·장애인 수강 순위 및 제6조제2항의 기당 1과목 면제를 읽었다. 후보는 청년 2030 혼밥 요리교육이며 사이트에 유료 학습비 부과 또는 이 면제 적용 여부가 명시되어 있지 않다. 동일 지역 전체 검색에도 별도 평생학습관 면제 사업은 없다. 해당 강좌의 학습비 및 면제 적용을 확인해야 정확히 연결할 수 있어 보류한다."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://lll.cheongju.go.kr/papp/P020102",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "754804b06b73cc8eace6660f5f63ab15c589d4277246d9d6fd0f1d262f0d1957",
+                "newEvidence": "정규프로그램 학습비·면제 및 제출증빙의 현행 안내 확인",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/cheongju-registration-guide.json",
+                    "sha256": "da9739b1bf1cd61654dd94af99ebc378554dea0105d7ded0bc4693d0bbace2c9",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewedBy": "codex-coordinator-with-independent-review"
     },
     {
       "index": 15,

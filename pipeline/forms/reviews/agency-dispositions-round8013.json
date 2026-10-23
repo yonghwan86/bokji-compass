@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-48120-baro-453-1401",
+      "sha256": "7b216cf387911fa163115c3b87a3ad09d228f7db048c3ee4040bbc2707a30456",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "정확한 정부24 567000000116의 현재 국비 보증료 사업과 경남바로서비스453의 창원 거주·보증금3억원 이하·최대40만원·구청접수 경로를 대조했다. 공식 HWP50176바이트/SHA와 같은 페이지의 PDF3쪽 전체를 검토했으며 개인 신청서1~2쪽과 2026서약서3쪽이 한 원본이다. 인쇄된 계좌는 신청인 본인 명의에 한정하고 개인정보 동의·유의사항·서명과 별도 증빙을 함께 안내한다. 예산 소진 시 조기 종료와 2026년 사용 제한을 명시했다. 2026-10-23 총괄이 공식 안내와 정확한 파일1401을 다시 GET하여 동일 원본을 확인했다. 기존 지방 조례2억원 서식22159377을 바꾸거나 승인한 것이 아니라 현재 국비사업용 별도 원본을 추가한다.",
+      "evidenceUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+      "checkedAt": "2026-10-23",
+      "relatedProgramIds": [
+        "g48120.gov24-567000000116"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48120.gov24-567000000116",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8013.json",
+      "sourceProposalSHA256": "64b1929260191e7c2c4462580d36ed0ca179b39f4fe775bb84b85ba8a2d2b59a",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "be8f615a2490392b5e4c770933a0b37758d3e44bd65c76f7e30c6978f233ead6",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "[창원시]전세보증금 반환보증 보증료 지원사업(국비)",
+        "evidenceUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "정확한 정부24 567000000116의 현재 국비 보증료 사업과 경남바로서비스453의 창원 거주·보증금3억원 이하·최대40만원·구청접수 경로를 대조했다. 공식 HWP50176바이트/SHA와 같은 페이지의 PDF3쪽 전체를 검토했으며 개인 신청서1~2쪽과 2026서약서3쪽이 한 원본이다. 인쇄된 계좌는 신청인 본인 명의에 한정하고 개인정보 동의·유의사항·서명과 별도 증빙을 함께 안내한다. 예산 소진 시 조기 종료와 2026년 사용 제한을 명시했다. 2026-10-23 총괄이 공식 안내와 정확한 파일1401을 다시 GET하여 동일 원본을 확인했다. 기존 지방 조례2억원 서식22159377을 바꾸거나 승인한 것이 아니라 현재 국비사업용 별도 원본을 추가한다.",
+        "pageSHA256": "be8f615a2490392b5e4c770933a0b37758d3e44bd65c76f7e30c6978f233ead6"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호 신청서(1~2쪽)",
+          "title": "전세보증금반환보증 보증료 지원 신청서",
+          "use": "main",
+          "author": "창원시 거주 무주택 임차인인 신청인",
+          "scope": "앞쪽 신청사항과 뒤쪽 개인정보 수집 및 활용 동의·유의사항·서명란 전체"
+        },
+        {
+          "number": "무번호 서약서(3쪽)",
+          "title": "'전세보증금반환보증 보증료 지원' 서약서",
+          "use": "additional",
+          "author": "지원 신청인",
+          "scope": "2026년으로 인쇄된 서약 및 성명·서명란 전체"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8013.json",
+  "scopeSHA256": "67d525f930b599e10a513e60efdd4c959981301ff00fee500af833fc465ff2d9"
+}

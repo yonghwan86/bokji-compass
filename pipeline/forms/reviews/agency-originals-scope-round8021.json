@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "formCount": 1,
+  "forms": [
+    {
+      "formId": "agency-27000-daegu-school-entry-2026",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026 추가접수 회차자료 · 접수종료(8.24~9.30) — 대구 고등학교 입학축하금 방문 신청서",
+      "sourceKind": "agency",
+      "regionCode": "27000",
+      "sourceUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+      "sourcePageUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+      "attachmentId": "a97902c8b270c32a0b2d977317d8f1fc",
+      "sha256": "36dd742e2060d64f989ed3f4d4cda54e3da6f76e94d4fe7d3eaffdd86a9cfb2b",
+      "bytes": 84715,
+      "format": "hwpx",
+      "relativePath": "agency-27000-daegu-school-entry-2026.hwpx"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

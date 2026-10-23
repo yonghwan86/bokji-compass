@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "formCount": 5,
+  "forms": [
+    {
+      "formId": "agency-48310-geoje-payment-238389",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026 회차자료 · 접수종료(4.6~4.10) — 고등학교 우수 장학금 지급 신청서",
+      "sourceKind": "agency",
+      "regionCode": "48310",
+      "sourceUrl": "https://www.geoje.go.kr/welfare/board/download.geoje?boardId=BBS_0000313&menuCd=DOM_000009607003000000&paging=ok&startPage=1&dataSid=306397542&command=update&fileSid=238389",
+      "sourcePageUrl": "https://www.geoje.go.kr/welfare/board/view.geoje?boardId=BBS_0000313&dataSid=306397542&menuCd=DOM_000009607003000000&paging=ok&startPage=1",
+      "attachmentId": "238389",
+      "sha256": "b978745ab400d7aac11bf2f9bd4ce99355de607355357ef7fcf82af664631e3d",
+      "bytes": 38400,
+      "format": "hwp",
+      "relativePath": "agency-48310-geoje-payment-238389.hwp"
+    },
+    {
+      "formId": "agency-48310-geoje-payment-238390",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026 회차자료 · 접수종료(4.6~4.10) — 대학교 입학 우수 장학금 지급 신청서",
+      "sourceKind": "agency",
+      "regionCode": "48310",
+      "sourceUrl": "https://www.geoje.go.kr/welfare/board/download.geoje?boardId=BBS_0000313&menuCd=DOM_000009607003000000&paging=ok&startPage=1&dataSid=306397542&command=update&fileSid=238390",
+      "sourcePageUrl": "https://www.geoje.go.kr/welfare/board/view.geoje?boardId=BBS_0000313&dataSid=306397542&menuCd=DOM_000009607003000000&paging=ok&startPage=1",
+      "attachmentId": "238390",
+      "sha256": "a2191e6b92053baeae8aa09c9ddbf1ec378992c8d49e3bb5be23eb6868ed0da4",
+      "bytes": 38400,
+      "format": "hwp",
+      "relativePath": "agency-48310-geoje-payment-238390.hwp"
+    },
+    {
+      "formId": "agency-43745-gazette825-independent-14",
+      "lawId": "1995491",
+      "lawTitle": "증평군 독립유공자 지원 조례",
+      "title": "독립유공자 보훈명예수당 지급 신청(변경신고)서 — 증평군보 제825호 14쪽",
+      "sourceKind": "agency",
+      "regionCode": "43745",
+      "sourceUrl": "https://www.jp.go.kr/media/cmm/fms/FileDown.do?atchFileId=F00000055429yw4oU4bg&fileSn=1",
+      "sourcePageUrl": "https://www.jp.go.kr/media/prog/eBook/EB02/sub03_02/list.do?pageIndex=9",
+      "attachmentId": "F00000055429yw4oU4bg",
+      "sha256": "ba6d5ce8245e005bac71e369a8933a5f7fe2243942f12283bcd141015a83a3ee",
+      "bytes": 415730,
+      "format": "pdf",
+      "relativePath": "agency-43745-gazette825-independent-14.pdf"
+    },
+    {
+      "formId": "agency-44810-yesan-postpartum-36547",
+      "lawId": "2121601",
+      "lawTitle": "예산군 인구증가 시책추진 지원에 관한 조례",
+      "title": "산후조리 비용 지원 신청서",
+      "sourceKind": "agency",
+      "regionCode": "44810",
+      "sourceUrl": "https://www.yesan.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000036547Um5&fileSn=0",
+      "sourcePageUrl": "https://www.yesan.go.kr/bbs/BBSMSTR_000000000099/list.do",
+      "attachmentId": "FILE_000000036547Um5",
+      "sha256": "9ad606e8ce71741d2d094325c5b9acd164f2fc18808a4bacf65ca3556d0162c9",
+      "bytes": 54521,
+      "format": "hwpx",
+      "relativePath": "agency-44810-yesan-postpartum-36547.hwpx"
+    },
+    {
+      "formId": "agency-47000-bokjiro-wlf00003658-20260713-1",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026년 산모신생아 본인부담금 지원 안내·서식 — 서비스 해지 통보서(15쪽)",
+      "sourceKind": "agency",
+      "regionCode": "47000",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260713UUWBM1354590200902744&atcflSn=1&wlfareInfoId=WLF00003658",
+      "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003658&wlfareInfoReldBztpCd=02",
+      "attachmentId": "20260713UUWBM1354590200902744",
+      "sha256": "0058363ddb46393e957f4a4ed1c4d807fee8baab40ac783ddfcaa89022a62026",
+      "bytes": 364718,
+      "format": "pdf",
+      "relativePath": "agency-47000-bokjiro-wlf00003658-20260713-1.pdf"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

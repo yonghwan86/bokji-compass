@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "rows": [
+    {
+      "formId": "agency-47230-health-kit-080701",
+      "relatedUnmatchedOriginalId": "ordin-17542133",
+      "doesNotResolveRelatedUnmatchedOriginal": true,
+      "programIds": [
+        "g47230.bokjiro-WLF00004929"
+      ],
+      "programNames": [
+        "예비·신혼부부 임신준비물품 지원"
+      ],
+      "programs": [
+        {
+          "id": "g47230.bokjiro-WLF00004929",
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004929&wlfareInfoReldBztpCd=02"
+        }
+      ],
+      "sourceKind": "agency",
+      "formTitle": "임신준비 키트 지원 신청서",
+      "sourceMetadataTitle": "임신준비 키트 지원 사업 신청서.hwp",
+      "verifiedDocumentTitle": "임신준비 키트 지원 신청서",
+      "displayTitle": "임신준비 키트 지원 신청서",
+      "role": "application",
+      "use": "main",
+      "condition": "임신준비 중인 예비부부(결혼식 일정 확정) 또는 혼인신고일부터 5년 이내 신혼부부의 임신준비 키트 신청에만 사용합니다. 부부 중 1명 이상 영천시에 주민등록을 두어야 하며 1가구당 1회 지원입니다. 개인정보 동의와 서명을 포함하여 보건소 모자보건실에 방문 제출하고, 신혼부부는 혼인관계증명서, 예비부부는 청첩장 또는 예식장 계약서와 주소 확인서류·신분증을 준비합니다. 당해연도 키트 소진 시 종료되므로 방문 전 배부 여부를 확인하세요. 이 복합 사업의 건강검진 이용권 신청이나 산모·신생아 본인부담금 환급용 서식은 아닙니다.",
+      "regionCode": "47230",
+      "regionLabel": "경상북도 영천시",
+      "agencyName": "영천시 보건소 건강관리과",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+      "authorityEvidenceNote": "2026-10-23 영천시 보건소 공식 모자보건 안내의 임신준비 키트 항목과 현재 복지로 WLF00004929를 직접 GET했다. 양쪽 모두 결혼식 일정을 확정한 예비부부 또는 혼인신고일부터 5년 이내 신혼부부 중 임신준비 중인 부부, 부부 중 1명 이상 영천시 주민등록, 보건소 방문신청을 명시한다. 보건소의 goFile 공개 다운로드 연결로 받은 HWP 102912바이트와 복지로 현재 첨부 HWP 52736바이트의 SHA는 다르나, 전체 BodyText/Section0 684자 내용이 완전히 일치한다. 두 원본 모두 BinData 0개이고 신청인·배우자 정보, 영천시장 수신, 1가구당 1회 확인, 개인정보 수집·이용 동의 및 5년 보유, 혼인관계증명서 또는 청첩장/예식장 계약서, 주소 확인용 등본란을 실제 읽었다. 두 원본의 내장 미리보기도 시각 대조했다. 기입된 개인정보와 고정 인쇄 연도는 없으며 년·월·일은 빈칸이다. 현행 조례1930577의 제2조제9·10호, 제3조제8호, 제4조제5항, 제6조제7항의 예비·신혼 지원과 대상이 맞는다. 다만 이 파일은 조례별지가 아닌 보건소 별도 배포본이며, 건강검진 이용권·일반 임신 사전건강관리 검사비·산모 본인부담금 환급에 확대하지 않는다. 당해연도 키트 소진 시 종료이고 보건소 방문 후 현장 수령이다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "예비·신혼부부 건강관리 지원 [임신준비 키트 지원]",
+        "evidenceUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "2026-10-23 총괄이 영천시 보건소의 정확한 임신준비 키트 안내(c27)와 해당 다운로드를 다시 GET하여 102912바이트/SHA를 확인했다. 실제 한글1쪽 전체를 시각 검토했고, 신청인·배우자 정보와 예비/기혼 표시·1가구1회확인·영천시장 수신·개인정보동의·혼인/예식증빙·주소확인란이 빈 양식임을 확인했다. 복지로WLF00004929의 정확한 지원대상과 키트 지원 부분 및 그곳의 동일전본문 별도첨부를 교차검토했다. 키트 소진 종료와 현장 수령 조건은 유지하고 건강검진 이용권 또는 산모 본인부담금 환급에 확대하지 않는다. 전체본문이 같은 복지로 배포본은 SHA차이를 증거로만 남겨 중복 신청서를 추가하지 않는다. 기존17542133의 환급형 원본 상태와 바이트는 그대로 유지한다.",
+        "pageSHA256": "d66af2af6c46d2163d3fbaf7c547fbd246ff85679a15aa3afe24ebc151358eac"
+      },
+      "sourcePageUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+      "sourceUrl": "https://www.yc.go.kr/common/jsp/common/contentFileDownload.jsp?path=%2Fhealth%2F08%2F&file=%EC%9E%84%EC%8B%A0%EC%A4%80%EB%B9%84+%ED%82%A4%ED%8A%B8+%EC%A7%80%EC%9B%90+%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+      "finalUrl": "https://www.yc.go.kr/common/jsp/common/contentFileDownload.jsp?path=%2Fhealth%2F08%2F&file=%EC%9E%84%EC%8B%A0%EC%A4%80%EB%B9%84+%ED%82%A4%ED%8A%B8+%EC%A7%80%EC%9B%90+%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+      "attachmentId": "임신준비 키트 지원 사업 신청서.hwp",
+      "attachmentIdentifier": {
+        "queryParam": "file",
+        "value": "임신준비 키트 지원 사업 신청서.hwp"
+      },
+      "sourcePageSha256": "d66af2af6c46d2163d3fbaf7c547fbd246ff85679a15aa3afe24ebc151358eac",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "0807010000#c27",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004929&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+      "evidenceNote": "2026-10-23 영천시 보건소 공식 모자보건 안내의 임신준비 키트 항목과 현재 복지로 WLF00004929를 직접 GET했다. 양쪽 모두 결혼식 일정을 확정한 예비부부 또는 혼인신고일부터 5년 이내 신혼부부 중 임신준비 중인 부부, 부부 중 1명 이상 영천시 주민등록, 보건소 방문신청을 명시한다. 보건소의 goFile 공개 다운로드 연결로 받은 HWP 102912바이트와 복지로 현재 첨부 HWP 52736바이트의 SHA는 다르나, 전체 BodyText/Section0 684자 내용이 완전히 일치한다. 두 원본 모두 BinData 0개이고 신청인·배우자 정보, 영천시장 수신, 1가구당 1회 확인, 개인정보 수집·이용 동의 및 5년 보유, 혼인관계증명서 또는 청첩장/예식장 계약서, 주소 확인용 등본란을 실제 읽었다. 두 원본의 내장 미리보기도 시각 대조했다. 기입된 개인정보와 고정 인쇄 연도는 없으며 년·월·일은 빈칸이다. 현행 조례1930577의 제2조제9·10호, 제3조제8호, 제4조제5항, 제6조제7항의 예비·신혼 지원과 대상이 맞는다. 다만 이 파일은 조례별지가 아닌 보건소 별도 배포본이며, 건강검진 이용권·일반 임신 사전건강관리 검사비·산모 본인부담금 환급에 확대하지 않는다. 당해연도 키트 소진 시 종료이고 보건소 방문 후 현장 수령이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "f1e5886e5e39ead2ffe928b62b24b32607a52af14a0bf2f5cdafa65966329005",
+      "bytes": 102912,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-47230-health-kit-080701.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "임신준비 키트 지원 신청서",
+          "use": "main",
+          "author": "임신준비 중인 예비부부 또는 혼인신고일 기준 5년 이내 신혼부부의 신청인",
+          "scope": "신청인·배우자 기본정보, 1가구 1회 확인, 신청 및 서명, 개인정보 수집·이용 동의, 제출·확인서류를 포함한 원본 전체"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "임신준비 키트 지원 신청서",
+          "use": "main",
+          "author": "임신준비 중인 예비부부 또는 혼인신고일 기준 5년 이내 신혼부부의 신청인",
+          "scope": "신청인·배우자 기본정보, 1가구 1회 확인, 신청 및 서명, 개인정보 수집·이용 동의, 제출·확인서류를 포함한 원본 전체"
+        }
+      ],
+      "applicant": "임신준비 중인 예비부부 또는 혼인신고일 기준 5년 이내 신혼부부의 신청인",
+      "roleBasis": "2026-10-23 영천시 보건소 공식 모자보건 안내의 임신준비 키트 항목과 현재 복지로 WLF00004929를 직접 GET했다. 양쪽 모두 결혼식 일정을 확정한 예비부부 또는 혼인신고일부터 5년 이내 신혼부부 중 임신준비 중인 부부, 부부 중 1명 이상 영천시 주민등록, 보건소 방문신청을 명시한다. 보건소의 goFile 공개 다운로드 연결로 받은 HWP 102912바이트와 복지로 현재 첨부 HWP 52736바이트의 SHA는 다르나, 전체 BodyText/Section0 684자 내용이 완전히 일치한다. 두 원본 모두 BinData 0개이고 신청인·배우자 정보, 영천시장 수신, 1가구당 1회 확인, 개인정보 수집·이용 동의 및 5년 보유, 혼인관계증명서 또는 청첩장/예식장 계약서, 주소 확인용 등본란을 실제 읽었다. 두 원본의 내장 미리보기도 시각 대조했다. 기입된 개인정보와 고정 인쇄 연도는 없으며 년·월·일은 빈칸이다. 현행 조례1930577의 제2조제9·10호, 제3조제8호, 제4조제5항, 제6조제7항의 예비·신혼 지원과 대상이 맞는다. 다만 이 파일은 조례별지가 아닌 보건소 별도 배포본이며, 건강검진 이용권·일반 임신 사전건강관리 검사비·산모 본인부담금 환급에 확대하지 않는다. 당해연도 키트 소진 시 종료이고 보건소 방문 후 현장 수령이다.",
+      "roleEvidenceUrl": "https://www.yc.go.kr/common/jsp/common/contentFileDownload.jsp?path=%2Fhealth%2F08%2F&file=%EC%9E%84%EC%8B%A0%EC%A4%80%EB%B9%84+%ED%82%A4%ED%8A%B8+%EC%A7%80%EC%9B%90+%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-23",
+      "publishedAt": null,
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "영천시 출산ㆍ양육 장려금 등에 관한 조례 제2조제9·10호, 제3조제8호, 제4조제5항, 제6조제7항"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "blankApplicantForm": true,
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_exact_byte_and_whole_native_page_reviewed",
+      "printedYear": null,
+      "applicationWindow": {
+        "fixedCalendarWindowPrinted": false,
+        "kitExhaustionCanCloseCurrentYear": true,
+        "kitSpecificClosureNoticeObserved": false,
+        "stockAvailabilityConfirmed": false,
+        "distinctProgramNotice": "같은 페이지의 2026-08-21 이후 검사비 지급 지연 공지는 임신 사전건강관리 검사비 사업이며 키트 사업의 마감으로 해석하지 않음"
+      },
+      "sourceProof": {
+        "freshDownloadRecord": "logs/forms-followup-20261023/team2/yeongcheon-kit-form.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/forms-followup-20261023/team2/yeongcheon-guide.json",
+        "exactProgrammeRecord": "logs/forms-followup-20261023/team2/yeongcheon-kit-bokjiro.json",
+        "exactProgrammePageSHA256": "60fd53e0b96eaf295a61fbcbe02013925ba3d6005ff51fae003beba7ece8d5d7",
+        "downloadHandlerRecord": "logs/forms-followup-20261023/team2/yeongcheon-file-handler.json",
+        "sourcePagePublishedDateNotConfirmed": true,
+        "directAttachmentOnExactProgramPage": true,
+        "freshHTTPStatus": 200
+      },
+      "wholeBodyCorroboration": {
+        "method": "Both downloaded HWP whole BodyText/Section0 strings are identical; no BinData; both embedded PrvImage previews independently inspected. Preview is supplemental and is not a claimed full Hancom rendering.",
+        "hwpEmbeddedResourceCount": 0,
+        "textLength": 684,
+        "textSHA256": "9d188c30d8e44ebab3f59ee229a4ed599f1bdea337fe620a0d3a3fc07f48d19c",
+        "wholeTextExactEqual": true,
+        "duplicateSourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260617UUWBM1549330197437718&atcflSn=1&wlfareInfoId=WLF00004929",
+        "duplicateSHA256": "a754a023c85a103ff03fc163255db568dff7cc62fef129967b555672914186a8",
+        "duplicateBytes": 52736,
+        "duplicateOriginalPath": "logs/forms-followup-20261023/team2/yeongcheon-kit-bokjiro-form.hwp",
+        "duplicateRecord": "logs/forms-followup-20261023/team2/yeongcheon-kit-bokjiro-form.json",
+        "duplicateWillNotBeSeparatePublishedForm": true,
+        "previewImages": [
+          "logs/forms-followup-20261023/team2/yeongcheon-kit-form.preview.png",
+          "logs/forms-followup-20261023/team2/yeongcheon-kit-bokjiro-form.preview.png"
+        ],
+        "coordinatorNativeReview": {
+          "label": "yeongcheon",
+          "sourceSHA256": "f1e5886e5e39ead2ffe928b62b24b32607a52af14a0bf2f5cdafa65966329005",
+          "sourceBytes": 102912,
+          "hancomPages": 1,
+          "pdfSHA256": "f4464a527728ca9e2373533872f88d85a82b2b9642604b14063c5061ad235d4d",
+          "sourceUnchanged": true,
+          "allPagesViewed": true,
+          "blankApplicantForm": true,
+          "noFilledPersonalDataObserved": true,
+          "checkedAt": "2026-10-23"
+        }
+      },
+      "currentLawCorroboration": {
+        "lawId": "1930577",
+        "title": "영천시 출산ㆍ양육 장려금 등에 관한 조례",
+        "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1930577",
+        "effectiveDate": "2024-05-17",
+        "currentIdentityEvidence": "logs/forms-followup-20261023/team2/current-law-identities.json",
+        "bodyPath": "logs/forms-completion/law-bodies/1930577.json.gz",
+        "bodySHA256": "26074b18d198bc9b1d49677c89f67298aa2843f1ac94a48c64951286cc7c0bc2",
+        "bindingNote": "현행 대상·지원사업의 보조 근거이며 이 신청서를 조례 별지로 주장하지 않음"
+      },
+      "coordinatorReason": "2026-10-23 총괄이 영천시 보건소의 정확한 임신준비 키트 안내(c27)와 해당 다운로드를 다시 GET하여 102912바이트/SHA를 확인했다. 실제 한글1쪽 전체를 시각 검토했고, 신청인·배우자 정보와 예비/기혼 표시·1가구1회확인·영천시장 수신·개인정보동의·혼인/예식증빙·주소확인란이 빈 양식임을 확인했다. 복지로WLF00004929의 정확한 지원대상과 키트 지원 부분 및 그곳의 동일전본문 별도첨부를 교차검토했다. 키트 소진 종료와 현장 수령 조건은 유지하고 건강검진 이용권 또는 산모 본인부담금 환급에 확대하지 않는다. 전체본문이 같은 복지로 배포본은 SHA차이를 증거로만 남겨 중복 신청서를 추가하지 않는다. 기존17542133의 환급형 원본 상태와 바이트는 그대로 유지한다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "15808f41c9cda28a4ba8e6b04d3756362417536fe50f9f195c1a209ab91bb3e6",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8015.json",
+    "frozenScopeSHA256": "a1eb5fe88336325a3877e6adb18c0f7ad0cf6c12d84d00310687eca907c4f044"
+  }
+}

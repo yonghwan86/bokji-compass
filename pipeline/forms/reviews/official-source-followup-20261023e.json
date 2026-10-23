@@ -1,0 +1,302 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "baselineCommit": "b18b65fd3f07d5b5f4307e323cd4dc347dc717ff",
+  "scope": "E-source reassessment:11 fixed original identities,2 separate closed-round agency originals,and1 current national original. Publish2 exact fixed originals+2 agencies+1 national as6 conditional associations;3 wrong-source originals become terminal exclusions while exact Yeonggwang coupon remains unresolved. The4006 scope remains incomplete.",
+  "newPublishedOriginals": 5,
+  "newFixedOriginalsLinked": 2,
+  "newAgencyOriginals": 2,
+  "newNationalOriginals": 1,
+  "newAssociations": 6,
+  "newlyConnectedProgramRecords": 5,
+  "newOriginals": [
+    {
+      "formId": "agency-12150-suncheon-small-71811",
+      "sourceKind": "agency",
+      "sourceUrl": "https://sc.go.kr/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618",
+      "sha256": "db42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093",
+      "bytes": 65536,
+      "format": "hwp",
+      "publicPath": "/forms/files/agency-12150-suncheon-small-71811-db42f2522e41.hwp",
+      "associations": [
+        {
+          "programId": "g12150.gov24-482000000133",
+          "title": "2026 회차자료 · 접수종료(2026.1.16) — 영세농가 소형 비닐하우스 신청·동의서 포함 계획",
+          "use": "conditional",
+          "condition": "2026 회차 시설원예 시비사업 중 영세농가 소형 비닐하우스 모집자료이며 접수는2026.1.16에 종료됐습니다. 현재 신규·차기모집 또는 선정후 일반 보조금교부 신청용이 아닙니다. 0.8ha이하 등 해당지침 요건을 갖춘 농가의165~330㎡ 하우스1동, 시비50%·자담50% 조건입니다. 신청인은 별지1 사업신청서와 무번호 개인정보동의 부분을 확인하며, 뒤의 별지2 평가표는 기관 평가·확인용입니다. 계획·참조규격·평가표가 함께 포함된 공식원문 전체를 그대로 제공합니다. 부가세 환급금 선차감 안내와2026 고정문구는 바꾸지 않으며 웹 자동작성은 제공하지 않습니다. 동의서의 동의항목3곳에는 V표시가 선인쇄되어 있으므로 내려받는 이용자의 실제 동의로 간주하지 않습니다. 원문을 사용할 때 해당 표시를 직접 확인하세요. 정원수 자재지원 사업으로 확대하지 않습니다.",
+          "evidenceUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98"
+        }
+      ]
+    },
+    {
+      "formId": "agency-43770-eumseong-pepper-148280",
+      "sourceKind": "agency",
+      "sourceUrl": "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280",
+      "sha256": "9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a",
+      "bytes": 134656,
+      "format": "hwp",
+      "publicPath": "/forms/files/agency-43770-eumseong-pepper-148280-9d65c74524d8.hwp",
+      "associations": [
+        {
+          "programId": "g43770.gov24-447000000111",
+          "title": "2026 회차자료 · 접수종료(금왕읍 2026.2.9) — 고추 생산장비 사업 신청서",
+          "use": "conditional",
+          "condition": "2026 회차 모집자료이며 금왕읍 공지의 신청기한은 2026.2.9에 종료됐습니다(정부24 일반안내는2.10, 게시노출 종료2.26과 구분). 해당 고추건조기·세척기 지원의 최초선정 신청서이고 현재 신규·차기모집, 선정후 교부·지급청구·정산용이 아닙니다. 원문에는 성별 ‘남’, 개인정보 동의항목 선체크2곳과 ‘2026.1.’이 인쇄돼 있습니다. 이 기본값은 내려받는 이용자의 개인정보·동의를 확인한 것이 아닙니다. 공식배포 원문을 그대로 제공하며 웹 자동작성·동의생성은 제공하지 않습니다.",
+          "evidenceUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-20214487",
+      "sourceKind": "ordin",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152887853&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%9C%EC%B2%9C%EC%8B%9C+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "sha256": "2a4a805d19cb24737fc2656145672ce83188a4bdbc93cfd3c1afaf5d1b5c1483",
+      "bytes": 44544,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-20214487-2a4a805d19cb.hwp",
+      "associations": [
+        {
+          "programId": "g12150.gov24-482000000133",
+          "title": "순천시 지방보조금 교부 신청서(조례 별지 제1호)",
+          "use": "conditional",
+          "condition": "「순천시 지방보조금 관리 조례」 별지 제1호서식 교부 신청서입니다. 「순천시 농업 보조금 관리 운영 조례」 제12조는 농업 보조금에서 정하지 않은 사항에 이 일반 조례를 적용하도록 하고, 일반 조례 제5조제1항은 지방보조금을 교부받으려는 자가 별지 1호·1-1호·1-2호·1-3호 서식을 작성해 시장이 지정한 기일 내에 제출하도록 합니다. 2026년 영세농가 소형 비닐하우스 지원사업의 모집은 공고가 배포한 자체 신청서(공고 붙임 「별지 1」)로 접수했고 그 접수는 2026.1.16에 종료되었습니다. 공고 붙임 「별지 1」과 이 조례 별지 제1호서식은 번호가 비슷하지만 서로 다른 서식입니다. 이 서식을 언제 추가로 내야 하는지, 또는 내지 않아도 되는지는 공고에 적혀 있지 않으므로 제출 필요 여부와 기일을 순천시 담당부서에 확인하세요. 이 1장으로 서류가 완비되지 않으며 1-1호·1-2호·1-3호 부속서식과 사업계획서·지방보조사업자 관리카드·보조금 관리 통장 사본을 따로 준비해야 합니다. 원문 첨부 안내의 단체 공익활동 실적은 법인 또는 단체에 해당하는 항목이고, 통장 안내의 '예금주 명의는 단체명과 대표자를 명기'도 단체를 전제한 문장이므로 개인 농업인은 담당부서 안내에 따르세요. 정원수 자재지원 사업에는 적용하지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1934335"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-21127609",
+      "sourceKind": "ordin",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158681961&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "sha256": "b6100833b99537ce6e62a7fb00a82d5721d4226943c5f84a73d9d1c3e3a77599",
+      "bytes": 207360,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-21127609-b6100833b995.hwp",
+      "associations": [
+        {
+          "programId": "g44200.gov24-452000000339",
+          "title": "아산시 산후관리비 통합신청서(조례 첨부 별지1)",
+          "use": "conditional",
+          "condition": "아산시 산후관리비를 조례 제5조의 출산서비스 통합처리로 신청할 때 공통 신청인·출산자·출생아·가족정보·급여계좌 및 대상서비스 기재 부분에 한정하여 사용합니다. 산후관리비는 신생아 출생일부터6개월 이내에 관할 읍·면·동장에게 신청합니다. 지방서비스의 둘째 이상·00은행·000보건소는 지자체별 작성 예시로, 아산의 지원자격이나 실제 기관으로 적용하지 않습니다. 현재 조례와 아산시 안내는 출산일 전6개월 거주, 정부24·복지로 안내는12개월 거주로 서로 달라 실제 대상 확인은 접수처의 현행 기준과 대조해야 합니다. 이 원본에 거주기간 또는 금액을 잘못 확약하는 문구는 없습니다. 다른 전국급여·출생축하금·산후도우미 환급으로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891429"
+        }
+      ]
+    },
+    {
+      "formId": "rule-3249999",
+      "sourceKind": "rule",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166471293",
+      "sha256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+      "bytes": 37825,
+      "format": "hwpx",
+      "publicPath": "/forms/files/rule-3249999-4b3961ff5ce2.hwpx",
+      "associations": [
+        {
+          "programId": "g47110.gov24-502000000209",
+          "title": "출산서비스 통합처리 신청서",
+          "use": "conditional",
+          "condition": "포항시 출생축하금의 출생·입양·전입 신고 후90일 이내 통합신청에 사용하는 현행 국가 별지2 원본입니다. 공통 신청인·출생아·가족·급여계좌 정보와 해당 지방서비스 부분을 작성하며, 원본의 지방서비스는 지자체별 작성 예시이므로 실제 포항 출생축하금 명칭과 기재 방법을 읍·면·동 안내에 맞춰 확인하세요. 예시의 둘째 이상 선택지를 이유로 첫째아를 제외하거나 거짓 출생순위에 표시하지 않습니다. 보호자 또는 출생아 명의 통장 사본을 준비합니다. 다자녀 특별양육금의 별도 연간 신청이나 원본 안의 다른 국가급여까지 이 연결로 승인한 것은 아닙니다. 옛 포항 첨부 별지1과 동일 판본으로 표시하지 않으며, 제출만으로 지급이 결정되지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2125237"
+        },
+        {
+          "programId": "g51800.gov24-432000000240",
+          "title": "출산서비스 통합처리 신청서",
+          "use": "conditional",
+          "condition": "양구군 출생아 건강보험가입 지원을 현행 조례 제5조의 출산서비스 통합처리로 신청할 때 쓰는 국가 별지2 원본입니다. 공통 신청인·출생아·가족정보를 작성하며 지방서비스의 보험가입 지원 명칭과 기재 방법은 읍·면 안내에 맞춰 확인하세요. 지방서비스의 둘째 이상 등은 지자체별 작성 예시로, 쌍생아·입양아 등 실제 지원대상은 양구 조례의 기준을 따릅니다. 현재 조례의2025년 이후 출생아 월3만원 이하·5년 지원, 정부24의 월2만원, 보건소의3년납5년보장 안내가 서로 달라 해당 아동의 적용계약과 보험기간은 확인이 필요합니다. 이 통합원본에는 그 보험료·기간이 인쇄되어 있지 않습니다. 보험사 계약서·가입승인서나 모든 신청인에게 별도 개별신청서를 더 요구한다는 뜻이 아닙니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1986069"
+        }
+      ]
+    }
+  ],
+  "publishedOriginals": 2821,
+  "publishedPrograms": 2551,
+  "publishedAssociations": 3549,
+  "savedOriginals": 4909,
+  "uniqueOriginalContents": 4873,
+  "fixedScopeCounts": {
+    "reviewed_not_linked": 1986,
+    "linked": 1945,
+    "covered_by_existing": 14,
+    "requires_external_confirmation": 60,
+    "replacement_available": 1
+  },
+  "fullScopeMatchingComplete": false,
+  "allOriginalsMatched": false,
+  "remainingExternalOriginals": 60,
+  "protectedReplacementPending": 1,
+  "wrongSourceExclusionReport": "official-source-exclusions-20261023e.json",
+  "wrongSourceTerminalDecisions": 3,
+  "existingProperBirthAndCombatLinksPreserved": true,
+  "noGlobalSHAExclusion": true,
+  "unresolvedSpecificOriginals": [
+    {
+      "formId": "ordin-21785751",
+      "state": "requires_external_confirmation",
+      "note": "Existing municipal edition or exact filing relationship remains unconfirmed; a newly published different original does not automatically approve or cover it."
+    },
+    {
+      "formId": "ordin-20232531",
+      "state": "requires_external_confirmation",
+      "note": "Existing municipal edition or exact filing relationship remains unconfirmed; a newly published different original does not automatically approve or cover it."
+    },
+    {
+      "formId": "ordin-22562413",
+      "state": "requires_external_confirmation",
+      "note": "Existing municipal edition or exact filing relationship remains unconfirmed; a newly published different original does not automatically approve or cover it."
+    },
+    {
+      "formId": "ordin-22083017",
+      "state": "requires_external_confirmation",
+      "note": "Existing municipal edition or exact filing relationship remains unconfirmed; a newly published different original does not automatically approve or cover it."
+    },
+    {
+      "formId": "ordin-19640907",
+      "state": "requires_external_confirmation",
+      "note": "Existing municipal edition or exact filing relationship remains unconfirmed; a newly published different original does not automatically approve or cover it."
+    },
+    {
+      "formId": "ordin-19241495",
+      "state": "requires_external_confirmation",
+      "note": "Existing municipal edition or exact filing relationship remains unconfirmed; a newly published different original does not automatically approve or cover it."
+    }
+  ],
+  "underlyingApplicationGapsNotErasedByExclusions": [
+    {
+      "purpose": "Hapcheon living-stability emergency application annex1",
+      "sourceLawId": "1220731"
+    },
+    {
+      "purpose": "Gyeryeong cataract medical aid annex1",
+      "sourceLawId": "2164367"
+    },
+    {
+      "purpose": "Goseong general veterans death assistance annex2",
+      "sourceLawId": "2165359"
+    },
+    {
+      "purpose": "Yeonggwang prenatal ultrasound current annex1 or explicit correction of annex10",
+      "sourceLawId": "2160643"
+    }
+  ],
+  "nativeReview": {
+    "allInspectedOriginals": 7,
+    "allNativePagesViewed": 18,
+    "newlyPublishedOriginals": 5,
+    "newlyPublishedPagesViewed": 15,
+    "originalBytesChanged": false
+  },
+  "writing": {
+    "hwpOriginals": 2503,
+    "newVerifiedConversions": 4,
+    "verifiedConversions": 2501,
+    "verifiedPages": 4277,
+    "writableManifests": 1218,
+    "unsupportedConversions": 1283,
+    "newExactSourceHolds": [
+      "ordin-21127609",
+      "agency-43770-eumseong-pepper-148280",
+      "agency-12150-suncheon-small-71811"
+    ],
+    "totalExactSourceHolds": 6,
+    "slotRecountReport": "official-writing-slot-recount-20261023e.json",
+    "newOriginalScreenWritingEnabled": false,
+    "allOriginalsAndVerifiedConversionsRetained": true
+  },
+  "orchestration": {
+    "codex": "Coordinator original/current-law/native-page checks,admission,integration,slot-count correction,production tests,staged bytes and UI verification. Native Codex source researchers are not represented as Claude/Grok.",
+    "actualClaudePane": "w4:p2",
+    "actualGrokPane": "w4:p3",
+    "completedEReviewProofHashes": {
+      "claudeLegalAndPreselectedConsentReview": "b854d45be9b6cdfdbe52fc8e6f8163e51b2b53e0da098fbde9036a67d9564cfa",
+      "claudeAsanScopeReview": "2ae69f38cdbbc52f3c0cacc0e8472540d749f40d5ac651c5447e6a864b85775c",
+      "claudeE2EImplementation": "3e518e43295bb66dffe4c37d3d09e5e7934fbd7e2d5cd84235a777f2c187b43a",
+      "grokWrongSourceOpposingReview": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "grokCurrentNationalAndGeneralGrantReview": "3d1f1a6dcbdd4b1aa30f6a1c25f123c3d6a5a54a6657bcae6170f3ab08964ebc"
+    },
+    "claudeAddedStaticE2ECases": 9,
+    "coordinatorE2EFollowups": "Added Asan hold/no-writer checks and exact unchanged Goseong source SHA; final spec SHA stored below.",
+    "finalE2ESpecSHA256": "9549b00fd8e2617ae5bb9f56c315d7c306d46ce7d48288c9636e33a6e84d53c8"
+  },
+  "validation": {
+    "productionBuild": "passed",
+    "typescript": "passed",
+    "changedTestsESLint": "passed",
+    "unitTests": 1188,
+    "pythonTests": 277,
+    "desktopAndMobileE2E": 174,
+    "e2eFailed": 0,
+    "e2eSkipped": 0,
+    "e2eFlaky": 0,
+    "writingTestsAfterRecount": 81,
+    "conversionAudit": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "publishedHwpOriginals": 2503,
+      "verifiedConversions": 2501,
+      "verifiedPages": 4277,
+      "multiSectionConversions": 96,
+      "conversionsWithBinData": 23,
+      "metadataSanitized": 2501,
+      "originalDownloadsModified": false,
+      "held": [
+        {
+          "formId": "ordin-19981527",
+          "sourceSHA256": "d379ca56082090068c8a5819fdca93f0729fd7ae271f9e5af5e0f508a2a7b299",
+          "title": "[별지 제1호서식] 유족수당신청서",
+          "reason": "실제 한글 변환에서 원본의 특수기호 본문과 페이지 렌더가 달라 작성용으로 공개하지 않음. 공식 HWP 다운로드 유지."
+        },
+        {
+          "formId": "ordin-21458043",
+          "sourceSHA256": "888d03b21d6f263b45476ab0029444e72d396a101420e33a25e2afa8c000de15",
+          "title": "별지 제1호~제7호 서식",
+          "reason": "실제 한글 변환에서 원본의 특수기호 본문과 페이지 렌더가 달라 작성용으로 공개하지 않음. 공식 HWP 다운로드 유지."
+        }
+      ]
+    },
+    "runtimeManifestValidation": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "runtimeValidatedManifests": 1218,
+      "identityAndShaVerified": true,
+      "unsupported": 1283,
+      "allConvertedFormsAccountedFor": true
+    },
+    "stagedVerification": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "stagedConversionBlobsVerified": 2501,
+      "stagedManifestBlobsVerified": 1218,
+      "newOfficialOriginalBlobsVerified": 5,
+      "allPublishedOriginalBlobsVerified": 2821,
+      "originalArchiveCopiesMatch": true,
+      "writingScopeHoldRetainsSourceAndConversion": true,
+      "sourceLawCurrencyChangedOnlyTwoRecheckedLaws": true,
+      "original4006ScopeUnchanged": true,
+      "welfareBundlesUnchanged": true,
+      "protectedOriginalUnchanged": true
+    },
+    "uiCardsViewed": 6,
+    "horizontalOverflowObserved": false,
+    "initialProvenanceSyncFailureFixedByRegeneration": true,
+    "fixedScopeByteAudit": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "fixedScopeOriginals": 4006,
+      "exactOriginalBytesVerified": 4006,
+      "bytesRead": 182351140,
+      "mismatches": [],
+      "protectedFilesOnlyHashedNotDecrypted": true,
+      "sourceBytesModified": false,
+      "seconds": 1.16
+    }
+  },
+  "limits": [
+    "Current national annex2 is provided for the exact statutory local routes; leftover Pohang/Yanggu originals are not automatically approved or covered.",
+    "Suncheon does not assert a mandatory postselection filing stage or that the programme packet legally replaces all general annexes.",
+    "Eumseong and Suncheon agency originals are closed2026intakes,with actual preprinted consent marks disclosed and screen writing held.",
+    "F/G proposals are private research,not approved or included in these counts.",
+    "A slot count is not automatically an editable-field count. D Wando counts were corrected with exact SHA reproduction; writing holds remain."
+  ],
+  "mainMerged": false,
+  "deploymentPerformed": false
+}

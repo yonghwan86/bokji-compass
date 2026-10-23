@@ -1,0 +1,1286 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "scope": "Bounded follow-up with final reports for45 of53 assigned originals. The other8 assigned reports have not been finalized and are not counted as completed. New agency identity is separate from the fixed originals.",
+  "revisitedFixedOriginals": 45,
+  "freshOriginalGETSameSHA": 45,
+  "fullOriginalBodiesReviewed": 44,
+  "protectedUnreadOriginals": 1,
+  "originalStateChanges": 3,
+  "initialExternalOriginals": 84,
+  "remainingExternalOriginals": 81,
+  "protectedOriginalReplacementPending": 1,
+  "fullScopeMatchingComplete": false,
+  "fixedScopeCounts": {
+    "reviewed_not_linked": 1983,
+    "linked": 1927,
+    "requires_external_confirmation": 81,
+    "covered_by_existing": 14,
+    "replacement_available": 1
+  },
+  "newlyPublishedOriginals": [
+    {
+      "formId": "agency-26110-bokjiro-wlf00006649-20260720-1",
+      "sourceKind": "agency",
+      "title": "출산서비스 통합처리 신청서(중구) — 2025.10.1. 이후 출생아 출산축하금",
+      "sha256": "6caa2fb4b460d4b841be849958f2af44e251be1eddbed48a9d219ddff03b7afb",
+      "bytes": 119808,
+      "format": "hwp",
+      "publicPath": "/forms/files/agency-26110-bokjiro-wlf00006649-20260720-1-6caa2fb4b460.hwp",
+      "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260720UUWBM1801570201761423&atcflSn=1&wlfareInfoId=WLF00006649",
+      "programIds": [
+        "g26110.bokjiro-WLF00006649"
+      ],
+      "newAgencyIdentity": true
+    },
+    {
+      "formId": "ordin-18989767",
+      "sourceKind": "ordin",
+      "title": "[별지 제1호서식] 출산서비스 통합처리 신청서 <개정 2024.5.2.>",
+      "sha256": "7964c66ed5e1fbccd0c220afd57f4244eeb5ec659637b6a133c599d4b5116057",
+      "bytes": 89277,
+      "format": "hwpx",
+      "publicPath": "/forms/files/ordin-18989767-7964c66ed5e1.hwpx",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=147562805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C+%3C%EA%B0%9C%EC%A0%95+2024.5.2.%3E",
+      "programIds": [
+        "g11215.bokjiro-WLF00004044",
+        "g11215.gov24-304000000105"
+      ],
+      "newAgencyIdentity": false
+    },
+    {
+      "formId": "ordin-22498207",
+      "sourceKind": "ordin",
+      "title": "[별지 제10호서식] 원주사랑상품권 환전 청구서",
+      "sha256": "914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9",
+      "bytes": 36352,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-22498207-914df6e67426.hwp",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168772559&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9B%90%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "programIds": [
+        "g51130.gov24-419000000129"
+      ],
+      "newAgencyIdentity": false
+    }
+  ],
+  "newPublishedOriginals": 3,
+  "newAgencyOriginals": 1,
+  "newProgramAssociations": 4,
+  "newlyConnectedProgramRecords": 3,
+  "publishedOriginals": 2799,
+  "publishedPrograms": 2535,
+  "publishedAssociations": 3523,
+  "allOriginalsMatched": false,
+  "reports": [
+    {
+      "reviewer": "Codex coordinator",
+      "sha256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "items": 10
+    },
+    {
+      "reviewer": "native Codex reviewer 1",
+      "sha256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "items": 10,
+      "limitations": [
+        "새 검색에서 찾지 못했다는 이유만으로 no_match를 확정하지 않았다.",
+        "법령의 고정MST 본문은 실제재GET했다. 본 회차에서 전국/지자체 최신판목록 전체를 새로 수집했다고 주장하지 않는다. 기존 현행감사와 현재 접수기관·정확사업 증거를 대조했다.",
+        "법규 전문읽기와 서식 전체읽기는 구분한다. 고정10서식및본문인용한새9자료는모든본문섹션을판독했고, 일부긴법규는필요조문·부칙범위대조다.",
+        "서산 초기신청서·울주2019자료·부산남구2024자료는확보파일이며추가게시승인아니다.",
+        "공개카탈로그/정본/공유코드/Git/COM/배포를변경하지않았다."
+      ]
+    },
+    {
+      "reviewer": "native Codex reviewer 2",
+      "sha256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "items": 13,
+      "originalBodiesRead": 12,
+      "protectedUnread": 1
+    },
+    {
+      "reviewer": "native Codex reviewer 3",
+      "sha256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "items": 12,
+      "originalBodiesRead": 12,
+      "sourceConflicts": [
+        {
+          "programId": "g44270.gov24-568000000105",
+          "government24": "신청불필요·담당자관리",
+          "exactMergedBokjiro": "WLF00000081: 건강음료대금월3만원/읍면동신청",
+          "currentLaw": "2092475 제23조건강지원·제24조별지1/2지정",
+          "outcome": "현재신청/변경실무확인전일괄필수서류로승격하지않으며서식부재로도닫지않음"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "formId": "ordin-15092343",
+      "sha256": "2d0964c9d36fb0c7c8aba2cce47a72d5b1706dbd8e421c46b79e97a6b918ee82",
+      "lawId": "1634557",
+      "lawTitle": "계룡시 저소득 주민 생활안정을 위한 특별지원 조례 시행규칙",
+      "title": "[별지 제1호서식] 사회복지서비스 및 급여 제공(변경) 신청서",
+      "regionCode": "44250",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 조례6조 본문은 수급권자·친족·관계인의 신청을 허용하고 단서에서 법정 저소득 자격자의 무신청 지원을 허용한다. 규칙3조는 별지1을 정확히 지정하며 규칙2조의 기타 긴급지원대상도 있다. 따라서 자동지원이라는 이유로 원본 부재나 비신청인으로 닫을 수 없다. 다만 정확 사이트사업558000000116은 법정저소득층의 월동대책·건강증진·교육 지원에 개인신청 없이 지원한다고 현재도 명시한다. 원본은 기초노령연금 등 종전 전국제도 명칭을 포함한 포괄서식이므로 이 사업의 예외/변경/연장 접수에 어떤 항목을 쓰는지 현재 운영 근거가 필요하다. 남은 확인: 계룡시 사회복지과의 현재 연도 지원계획 또는 민원편람에서 해당 사업의 누락자 신청/변경·연장에 이 별지1을 접수하는 지시 및 선택항목 확인",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=124866215&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%84%9C%EB%B9%84%EC%8A%A4+%EB%B0%8F+%EA%B8%89%EC%97%AC+%EC%A0%9C%EA%B3%B5%28%EB%B3%80%EA%B2%BD%29+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1880197",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1634557",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/558000000116"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "기타 긴급생계/의료/주거비에 대한 별도 2026 운영계획·접수원본 미확보",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-16418403",
+      "sha256": "0012a6927787e38e53d542f313cbb398351dfe57b76ce0ddadc556c1629147c7",
+      "lawId": "1868231",
+      "lawTitle": "부산광역시 남구 산후조리비 지원 조례",
+      "title": "[별지 제1호 서식] 출산 서비스 통합처리 신청서",
+      "regionCode": "26290",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 남구보건소·부산시·정확 복지로는 2025년 미신청 및 2026년 부산 출생등록 가구의 실제 산후조리 지출을 최대100만원 환급한다. 고정 통합원본의 남구1년 거주 조건과 옛 서비스는 이 경로와 다르다. 정확 복지로가 계속 배포하는 별도2024 신청서도 남구1년 거주·운동프로그램 등을 인쇄하여 현재 사용처와 다르다. 현재 안내의 보건소 방문작성 주신청서를 다운로드 가능한 현대 원본으로 확보하지 못했다. 부산시2026공식 안내를 새로 GET했고, 복지로의 현재 사업본문과 실제 첨부를 각각 GET해 본문 갱신과 첨부2024의 불일치를 확인했다. 기존 위임·사실혼 3보조원본은 이미 공개되어 새 중복 제안하지 않았다. 남은 확인: 남구 보건소가 현재 부산형 산후조리경비 신청에 사용하는 주신청서·개인정보동의서 원본 또는 기존 통합원본의 적용을 명시한 공식 보완.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=134369693&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000904008000000",
+        "https://www.busan.go.kr/depart/ahlifepeople0304",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005693&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240712UUWBM1503240093742587&atcflSn=1&wlfareInfoId=WLF00005693",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1868231&gubun=ELIS"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-17515497",
+      "sha256": "1a80b81ea541fd7a19a67759ac1434cc0eeeac5e474189a4cd1e009951d18394",
+      "lawId": "1927175",
+      "lawTitle": "대구광역시 서구 저소득주민 국민건강보험료 및 노인장기요양보험료 지원에 관한 조례",
+      "title": "별지 제1호 서식",
+      "regionCode": "27170",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현행 제5조는 공단의 월별 명단 통보·지원 적정성 검토·필요시 가구 조사로 규정하고 제6조 삭제 표시가 있다. 동시에 현재 정부24는 동행정복지센터 방문 신청을 안내하고 현재 법규에 별지1 다운로드도 남아 있다. 새로 받은 복지로 첨부는2022년판 조례본문이며 현재 별지1의 누락세대·조사보완 접수를 입증하는 정정 안내가 아니다. 현행 명단방식과 방문접수 안내가 병존하므로 원본을 폐지/비신청인으로 확정하거나 최초신청 필수서류로 승격하지 않는다. 남은 확인: 공단 명단 누락 또는 조사보완을 위한 주민 접수에 별지1 사용 여부를 명시한 현재 서구 생활보장과 안내",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=140391533&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8+%EC%84%9C%EC%8B%9D",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1927175",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/343000000117",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002803&wlfareInfoReldBztpCd=02",
+        "https://www.dgs.go.kr/portal/minwonGuide/list.do?mid=0202040100&searchType=CVLCPT_DEPT_NM&searchTxt=%EB%B3%B4%ED%97%98%EB%A3%8C",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20230601UUWBM1846050037460322&atcflSn=1&wlfareInfoId=WLF00002803"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "현재 민원편람 보험료 검색은0건; 외부/비공개 동주민센터 업무서식 적용 여부는 미확인",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-17576457",
+      "sha256": "2fb8f36cad92d882d308cefab914cefad6251852ac14eabafac1268a6d4743e8",
+      "lawId": "1911725",
+      "lawTitle": "옹진군 노인복지증진에 관한 조례",
+      "title": "[별지1~4호 서식]",
+      "regionCode": "28720",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 조례7~10조는 장수노인활동비 대상·신청·별지1을 그대로 규정하지만 exact 복지로는2022년부터 신규신청 불가 및 장수노인활동비(폐지사업) 표기를 유지한다. 기존수급자의 계속지급과 신규접수/변경접수는 구분해야 한다. 별지2~4는 관리대장·기관발급통지이며 별도 장기요양부담금 제도도 섞여 있으므로 묶음이라는 이유로 모든 부분을 주민신청으로 연결하지 않는다. 신규접수 재개, 기존수급자의 별지1 재신청·계좌변경 용도를 현재 운영자료로 확인하지 못했다. 남은 확인: 옹진군 노인복지팀의2026 기존수급자 관리/변경 신고 절차 및 별지1 실제 접수 지시 또는 신규 재개 근거",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=140737061&flNm=%5B%EB%B3%84%EC%A7%801~4%ED%98%B8+%EC%84%9C%EC%8B%9D%5D",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1911725",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001475&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=7278GOWF14GOWF147278&atcflSn=1&wlfareInfoId=WLF00001475"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "복지로 HWPML첨부는구조전체추출되었으나구판조례; 추가업무계획내기존수급자서식운영세칙미확보",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-17655279",
+      "sha256": "34fc167e1f3ba2338e991ec1d541be12ce7bdc27adcbf110e6e1947819b05048",
+      "lawId": "1937811",
+      "lawTitle": "강릉사랑상품권 발행 및 운영 조례 시행규칙",
+      "title": "[별지 제9호서식] 강릉사랑상품권 구매 신청서(개인)",
+      "regionCode": "51150",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "강릉시 공식 사용안내를 TLS 검증을 유지한 curl.exe HTTP/1.1로 새 GET하였다. 마지막 수정일은 2026-10-01이며 9~12월 월50만원 사용액의10% 캐시백이다. 오프라인은 앱이용불가자의 가입·카드등록과 지정농협 현금충전으로 나뉜다. 521자 원본의 현금 할인구매·할인없는 구매시 개인정보 불필요 절차를 이 카드결제 캐시백/현금충전 신청에 사용하는 직접 근거는 없다. 단순히 월한도 숫자가 달라졌다는 이유로 원본을 폐지로 분류하지 않고 실제 사용 여부를 미해소로 남긴다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1937811&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=141144107&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C9%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B0%95%EB%A6%89%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%9D%B8%29"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-18091959",
+      "sha256": "49dbbb7c758a4db22aa3f70513be4f5500c4b4246f35237b1ac3666194596a6c",
+      "lawId": "638666",
+      "lawTitle": "구례군 친환경농업 육성 및 지원에 관한 조례 시행규칙",
+      "title": "별지서식",
+      "regionCode": "12730",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "공식 군 통합검색의 출하장려금 정확검색은0건, 출하 확장검색은277건으로 새 경로를 확인했다. 정확 정부24는 여전히 출하약정 업체에 벼를 출하한 뒤 읍면 산업팀의 비치 신청서를 작성하게 한다. 규칙 제3조는 사업별 지침을 우선하고 별도 지침이 없을 때만 일반서식을 준용하므로, 이 투자·사업계획 묶음을 출하량별 장려금 신청으로 연결할 직접 근거가 부족하다. 남은 확인: 해당 연도 친환경벼 출하장려금 시행지침 또는 읍면 비치 빈 신청서의 공식 공개본과 일반규칙 준용 여부.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=142448079&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=638666"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "확장 검색277건 전체를 읽은 것은 아님; 해당 출하장려금 전용 접수 파일은 미확보.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-18989767",
+      "sha256": "7964c66ed5e1fbccd0c220afd57f4244eeb5ec659637b6a133c599d4b5116057",
+      "lawId": "2001319",
+      "lawTitle": "서울특별시 광진구 출산ㆍ양육 및 다자녀가정 지원에 관한 조례",
+      "title": "[별지 제1호서식] 출산서비스 통합처리 신청서 <개정 2024.5.2.>",
+      "regionCode": "11215",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "linked",
+      "dispositionChanged": true,
+      "reason": "2026-10-23 총괄·독립Codex조사자와 실제Herdr Claude가 원본SHA/89277바이트·전체본문 및 현행 법규 계열을 교차검토했다.1822227 부칙제1284호제2조는2022년에출산통합별지1의장애인양육지원금칸을개정했고,그문구가현재2001319의2024-05-02개정별지1에남아있다.2001319 부칙제1374호제3·4조로구제명에서현제명으로의계열을확인했다. 현재정확정부24·복지로의7세미만/광진1년/월10만원/장애인본인명의통장/동주민센터신청과대조했다. 이통합원본은출생신고와함께해당양육지원금칸을표시할때만연결하며전입·기존아동의별도신청서로확대하지않는다.별도개인정보동의는현재정부24안내에따른다.현재구청페이지의옛성별표현과원문다른급여의옛연도·인접출산비용을승인하지않고,조례별지2삭제와공통규정별지2인용을같다고단정하지않는다.실제한글4쪽을총괄이모두확인했고4쪽은원본자체빈쪽이다.공식원문바이트는그대로유지한다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=147562805&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C+%3C%EA%B0%9C%EC%A0%95+2024.5.2.%3E",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2001319&gubun=ELIS",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1822227&gubun=ELIS",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004044",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000105",
+        "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=201545",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260818UUWBM1529360205201011&atcflSn=1&wlfareInfoId=WLF00004044"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-19241495",
+      "sha256": "17fa14e717e43356e1101e9721b7a71f290af0990b7fc811a3e2476578cee534",
+      "lawId": "1850483",
+      "lawTitle": "충청북도 지방보조금 관리 조례 시행규칙",
+      "title": "별지",
+      "regionCode": "43000",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "충북문화재단 최신 서식자료 목록과 생애주기 공식사업 안내·통합검색을 새로 확인했다. 현재2차·3차 교부 신청서 원본도 다시 내려받아6,646자 전체와 내장 로고1개를 읽었으며, 예술창작·국제교류·시각예술창작기획만 선택하게 되어 생애주기 교육에 확대할 수 없다. 이 파일 SHA는 이미 공개된 agency 예술창작 교부본과 같아 신규원본으로 세지 않는다. 생애주기 선정단체가 도지사 수신 원래 묶음을 제출한다는 근거는 여전히 없다. 북스타트 부모의 책 수령과 기관 보조금 교부는 목적·주체가 다르다. 남은 확인: 생애주기 교육 선정기관에게 지정된2026 교부·정산 패키지 또는 도 일반서식 채택 공문.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=148329691&flNm=%EB%B3%84%EC%A7%80",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1850483",
+        "https://www.cbfc.or.kr/home/sub.php?menukey=6442",
+        "https://www.cbfc.or.kr/home/sub.php?menukey=6736",
+        "https://www.cbfc.or.kr/base/download/bbs.php?fno=%E1r%1DL%11&bid=%E3r%1FO%15%242%03&did=%E3r%1FM%15+5%0E"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "생애주기 교육의 개별 선정기관용 교부패키지는 미확보; 대관서식6476은 다른 용도라 제외.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-19640907",
+      "sha256": "12c2302c7e6353c1549f106c44c4693aa00d444a2fa8f2e7db98bc588cf474fc",
+      "lawId": "2014399",
+      "lawTitle": "음성군 지방보조금 관리 조례",
+      "title": "별지 2. 보조금 교부 신청서",
+      "regionCode": "43770",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "금왕읍 공식2026 공지184347과 추진계획148279·별도 신청서148280을 새로 확보해 전체본문을 읽었다. 정확사업의 관리조례 준용과2월 교부신청 단계가 직접 확인되어 이전보다 근거가 늘었다. 그러나 내려받는 기존19640907 전체에는 현행법·개인신청인과 맞지 않는 옛 지방재정법97·98조 벌칙, 단체3인서약·관리카드가 포함돼 앞쪽 일부만 유효하다고 전체를 승인하지 않는다. 별도2026 신청서도 최초선정용이며 현재 접수 종료이고 남·동의선체크·2026.1.이 인쇄돼 있어 현재 교부용으로 제안하지 않는다. 남은 확인: 현재 선정자에게 요구하는 정확한 새 교부서식 또는 공식 정정본, 추가모집/재개 및 인쇄기본값 작성 처리 안내.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=150477331&flNm=%EB%B3%84%EC%A7%80+2.+%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2014399",
+        "https://www.eumseong.go.kr/search/search.jsp?query=%EB%85%B8%EB%A0%A5%EC%A0%88%EA%B0%90%ED%98%95+%EA%B3%A0%EC%B6%94",
+        "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+        "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148279",
+        "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-19810181",
+      "sha256": "2ef6524fc36ff60c8ec34350726ee4ad33937b86f00c0717800f363f07738216",
+      "lawId": "2037069",
+      "lawTitle": "서울특별시 강동구 국가보훈대상자 예우 및 지원에 관한 조례 시행규칙",
+      "title": "별지 제4호 서식",
+      "regionCode": "11740",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본544자는 사망한 참전유공자 배우자 복지수당 신청·지급계좌·증빙을 명시하고, 새 GET한 강동구2025-07-15 보도도 별도 배우자수당 월7만원/8월시행과 해당 신청서를 명시한다. 그러나 현재 수록 관할 자료 전체 필드와 기존3개 후보를 다시 대조하면 일반보훈예우·위문금·사망위로금 안내와 이 별도 배우자 월수당을 연결하는 출처는 여전히 미확인이다. 별도 급여의 실재를 부정하거나 보훈대상자 본인 신청서로 바꾸어 붙이지 않는다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2037069&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151805355&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8+%EC%84%9C%EC%8B%9D"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-19859351",
+      "sha256": "edcd9c693939aa6a9ced5850205899ff83b14fd10cdfffa2265b9ec699537b74",
+      "lawId": "1645749",
+      "lawTitle": "동해시 동해사랑상품권 발행 및 운영에 관한 조례 시행규칙",
+      "title": "[별지 제11호서식] 동해사랑상품권 환전 청구서(제9조제1항 관련)",
+      "regionCode": "51170",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본388자는 가맹점의 지류 상품권 권종별 환전과 지정계좌 청구·접수증이다. 새 GET한 정부24 정확사업은 그리고앱 충전/캐시백과 카드가맹점 수수료를 안내한다. 현행 규칙1645749의 별지11 지정과 원본 자체는 확인되지만 현재 이 사이트 사업의 가맹점이 지류 환전에 이 청구서를 제출한다는 실제 안내는 추가 확보하지 못했다. 관광시설 지류반환금 존재나 카드자동정산을 곧바로 이 용도의 증명으로 삼지 않는다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1645749&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151986301&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8F%99%ED%95%B4%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EC%A0%9C9%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-19969603",
+      "sha256": "2aecdae12967c86cab45e632fa4db66385af66c57c111d1f54a5d95dee344aee",
+      "lawId": "1715997",
+      "lawTitle": "고양시 자활기금 설치 및 운용 조례 시행규칙",
+      "title": "[별지 제1호서식] 자활기금 지원 신청서",
+      "regionCode": "41280",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "상위조례는 기금사업과 대상자에 주민·기업·기관을 모두 포함하지만 정확사이트사업은 참여주민의 자립활동·구직·의료비·사회보험료4개 위탁지원이다. 규칙2조는 별지1과 사업계획·서약을 규정하면서 센터 위탁지원에는 내부 신청서식을 사용할 수 있다고 명시한다. 원본 기타 항목의 여지와 현재 센터의 신청 안내가 있어 목적불일치를 단정하지 않되, 직접 사업기금 신청서를 주민 위탁지원에 자동 적용하지 않는다. 새 시청 공식 기관목록에서 고양지역자활센터 kyjh.org 연결을 확인했으나 실제 내부서식 내용을 확보하지 못했다. 남은 확인: 고양지역자활센터의 현행4개 위탁지원 신청 원본·절차 및 별지1 겸용 여부",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179475&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1971779",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1715997",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/394000000124",
+        "https://www.goyang.go.kr/jobs/jobs06/jobs06_3.jsp"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "시청이 직접 연결한 kyjh.org/main/main.html은HTTP200이나정적전송본문이encoded/bootstrap로실제사업서식미독",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-19969609",
+      "sha256": "31c7e620f65e3f0c5f4117b2f65a2b19f1b8ce3fc5843d67d7aa3738a0f0c893",
+      "lawId": "1715997",
+      "lawTitle": "고양시 자활기금 설치 및 운용 조례 시행규칙",
+      "title": "[별지 제4호서식] 서약서",
+      "regionCode": "41280",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "reviewed_not_linked",
+      "dispositionChanged": true,
+      "reason": "2026-10-23 독립 조사자와 총괄이 고정원본12800바이트/SHA 및 전체414자를 각각 확인했다. 원본의 유일한 서약자·날인자는 자활사업 실시기관이며, 지원대상의 사업자금 용도·대여금 상환을 지도감독하고 경영지도계획을 첨부하는 기관의 관리책임 서약이다. 현행규칙1715997 제2조는 직접기금 신청서류와 센터위탁 내부서식 경로를 구분한다. 상위조례1971779 제3·8·9·11조는 기관·기업이 실제 지원대상인 점포·설비·대여 경로도 두므로 기관 명칭 자체를 보편적 제외사유로 삼지 않는다. 다만 현재 정확한 정부24 394000000124는 참여주민의 자립활동·구직·의료비·사회보험료4항목과 센터발굴·안내를 명시한다. 이 현재 주민급여 신청인의 서식으로 기관의 대여상환 관리서약을 붙이지 않는 non_applicant로 분류한다. 서약서 자체의 폐지나 별도 기관직접지원사업에서도 사용할 수 없다는 결론은 아니다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179481&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%84%9C%EC%95%BD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1971779",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1715997",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/394000000124",
+        "https://www.goyang.go.kr/jobs/jobs06/jobs06_3.jsp"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "별도기관사업지원의현재집행조건은이번주민급여범위밖",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-19969617",
+      "sha256": "d3b216dfcf08a4cf7a4a3adbcf722233b3d257f8df1ce62c95a8c059839ecfc1",
+      "lawId": "1715997",
+      "lawTitle": "고양시 자활기금 설치 및 운용 조례 시행규칙",
+      "title": "[별지 제8호서식] 자활기금 용도 변경 신청서",
+      "regionCode": "41280",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 상위10조·규칙5조는 지원받은 기금의 용도변경 승인과 별지8을 직접 지정한다. 그러므로 최초신청이 아니라는 이유로 제외하지 않는다. 다만 수록사업의 센터위탁 주민지원이 직접기금교부·사업계획 변경 구조를 따르는지 또는 센터 내부절차인지 현재운영자료로 확인하지 못했다. 4개 생활지원 수급자에게 이 사업변경서를 요구한다고 단정하지 않는다. 남은 확인: 수록4개 위탁사업의 지원협약·교부조건 또는 수급자의 용도변경 접수원본",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179489&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%9A%A9%EB%8F%84+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1971779",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1715997",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/394000000124",
+        "https://www.goyang.go.kr/jobs/jobs06/jobs06_3.jsp"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "위탁센터의수급중변경신고서미독",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-19969663",
+      "sha256": "e66f92927f6dbca60d181f66d8c3ae3fce44571e90efa44187f27dac161fd253",
+      "lawId": "1715997",
+      "lawTitle": "고양시 자활기금 설치 및 운용 조례 시행규칙",
+      "title": "[별지 제11호서식] 자활기금 미사용 사유서",
+      "regionCode": "41280",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본과 규칙6조③이 교부 후15일 이내 기금 미사용 사유서를 직접 규정하므로 수급중 절차임을 인정한다. 현재 사이트의 주민 지원4개가 어떤 방식으로 교부/정산되는지 불명확하여 이 직접교부 사유서를 위탁지원 참여자에게 그대로 적용할 근거는 남아 있다. 초기 자동발굴 안내만으로 후속서식의 부재를 결론내리지 않는다. 남은 확인: 센터 위탁지원의 수령자 정산/미사용 신고 의무와 실제 적용 양식",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152179495&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EB%AF%B8%EC%82%AC%EC%9A%A9+%EC%82%AC%EC%9C%A0%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1971779",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1715997",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/394000000124",
+        "https://www.goyang.go.kr/jobs/jobs06/jobs06_3.jsp"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "15일미사용보고가주민직접지원에도적용되는지운영근거미확보",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-19976627",
+      "sha256": "9b711e559913fd9d4b80143320c71681dfe82243c11d180120b67d7da2fa7795",
+      "lawId": "793158",
+      "lawTitle": "양평군 영유아 보육 조례 시행규칙",
+      "title": "[별지 제2호서식] 입소신청서",
+      "regionCode": "41830",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "입소신청은 규칙4조의 입소아동 선정·우선순위·시설장 제출이며, 수록사업은 상위25조의 저소득/다문화가정 준비물 비용을 최대10만원 어린이집에 입금하는 지원이다. 두 목적은 구분되지만 정부24가 지원신청시점을 어린이집 입소시로 명시하므로 입소신청이 준비금 선정의 자료로 겸용될 가능성까지 배제할 수 없다. 새로 GET한 첨부파일없음.hwp는실제빈본문이고 정정된 준비금 접수서가 아니다. 민간어린이집까지 포괄하는 지원에 군립 입소신청서를 주신청서로 연결하거나 no_matching으로 확정하지 않는다. 남은 확인: 양평군/보육담당기관의2026 입학준비금 신청·승인 안내에서 입소서식 겸용 또는 별도 어린이집 보조금 신청과 부모서류를 명시한 근거",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152186553&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%85%EC%86%8C%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1926225",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=793158",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/417000000101",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002613&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240613UUWBM0935200089310619&atcflSn=1&wlfareInfoId=WLF00002613"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "2026보육통합정보시스템/어린이집기관신청원본미확보",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-20110195",
+      "sha256": "6466db16b23bca2813d4acaff4a070d08cef7ab9c4856e4951efd7489e7f64a5",
+      "lawId": "2041939",
+      "lawTitle": "울릉군 어르신 목욕비 및 이ㆍ미용비 지원 조례",
+      "title": "[별지 제2호서식]",
+      "regionCode": "47940",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "법령포털 재GET과 ELIS 현행007의 실제 별지2 직접다운로드가 모두 같은48252바이트/SHA의 SCDSA004 보호원본이다. 보호해제는 하지 않았다. 군 홈페이지의 현재 월18000원 카드 안내,2026년8월 점검 민원편람의 목욕 검색0건 및 주민복지과10개 목록까지 새로 확인했으나 읽을 수 있는 대체 서식은 없다. 조문이 별지2를 지정한다는 사실과 원문 판독 성공을 구분한다. 남은 확인: 울릉군이 배포하는 비보호 HWP/HWPX/PDF 별지2 또는 카드 신청서 공식 재게시.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152487151&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2041939",
+        "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=47&sggCd=940",
+        "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=47940102271002&histNo=007",
+        "https://www.elis.go.kr/allalr/attListDown?alrNo=47940102271002&histNo=007&attlistSn=002",
+        "https://www.ulleung.go.kr/ko/page.do?mnu_uid=613",
+        "https://www.ulleung.go.kr/ko/page.do?mnu_uid=499&srchColumn=bod_title&srchKwd=%EB%AA%A9%EC%9A%95",
+        "https://www.ulleung.go.kr/ko/page.do?mnu_uid=499&srchBgpuid=70"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": false,
+      "limitations": [
+        "원본 전체 보호본문0자 미독. 개인정보기입 여부도 미확인.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음",
+        "보호 원문을 해제하거나 전체 본문을 읽었다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-20214487",
+      "sha256": "2a4a805d19cb24737fc2656145672ce83188a4bdbc93cfd3c1afaf5d1b5c1483",
+      "lawId": "1934335",
+      "lawTitle": "순천시 지방보조금 관리 조례",
+      "title": "[별지 제1호서식] 순천시 지방보조금 교부 신청서",
+      "regionCode": "12150",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 농업기술센터와 공식 새소식 게시판에서 교부·2026 시설원예를 새로 탐색했다. 교부 검색에는 다른 연도·다른 농업사업이 나타났고 정확2026시설원예 교부패키지는 확보하지 못했다. 현재 정부24 정원수 자재지원은 여전히2024년2월 모집을 표시하며 시설원예는 연초 모집·개별 사업신청서와 평가표를 요구한다. 이미 검토된2026 소형하우스 최초신청 패키지와 이 일반 교부서를 동일 단계로 보지 않는다. 남은 확인: 정확한2026 정원수/시설원예 선정농가 교부안내 및 별지1의 실제 제출 지정, 또는 별도 교부원본 배포.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152887853&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%9C%EC%B2%9C%EC%8B%9C+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1934335",
+        "https://www.suncheon.go.kr/sca/index.jsp"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "다른 연도·다른 사업의 교부 서식은 이번 사업의 대체물로 판독·승인하지 않음.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-20476589",
+      "sha256": "44515e7ea60819d507ac52e7f2281a50846d0339dfff913328385ef8314ab7c6",
+      "lawId": "1809239",
+      "lawTitle": "익산시 하수도 운영관리 조례 시행규칙",
+      "title": "[별지 제11호서식] 이의신청서",
+      "regionCode": "52140",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본229자와 현행규칙1809239 제17조를 새로 대조했다. 하수번호·정리번호가 있는 시의 공공하수도 사용료 부과징수 이의신청이며 현행 조문은 처분통지후90일/결정30일, 인쇄서식은 처리7일을 기재한다. 정확사업은 정화조 청소영수증·대상자증명서·통장사본을 받는 수수료지원이고, 상위조례2111939 제23조의 지원/하수사용료감면도 별도 별지4를 지정한다. 이의신청이 정화조 지원결정에도 적용되는 근거가 확인되지 않아 외부확인을 유지한다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1809239&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154261965&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9D%B4%EC%9D%98%EC%8B%A0%EC%B2%AD%EC%84%9C"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-20476593",
+      "sha256": "4c7158ad6dcbdce063fc46591222bc3e2f7b08d9ee2b3d8fe83797f3cf6ed63f",
+      "lawId": "1809239",
+      "lawTitle": "익산시 하수도 운영관리 조례 시행규칙",
+      "title": "[별지 제13호서식] 하수도사용료 등의 과오납금 환불청구서",
+      "regionCode": "52140",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본504자는 시의 사용료·점용료·수수료·원인자부담금 착오·이중납입 환부와 영수증이다. 현행규칙1809239 제19조는 시 징수금의 미납충당 후 잔여환부를 규정한다. 현재 정확 정화조 청소비 지원은 청소영수증 기반 지원금 지급이므로 단어 환급·수수료 공통만으로 동일 절차로 연결하지 않는다. 정화조 지원의 과오납 환부에 이 별지13을 쓰는 공식 접수 근거가 남아 있다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1809239&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154261969&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C13%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%95%98%EC%88%98%EB%8F%84%EC%82%AC%EC%9A%A9%EB%A3%8C+%EB%93%B1%EC%9D%98+%EA%B3%BC%EC%98%A4%EB%82%A9%EA%B8%88+%ED%99%98%EB%B6%88%EC%B2%AD%EA%B5%AC%EC%84%9C"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-20476601",
+      "sha256": "28d20d64505651bef2f6580c2852afe2dd435952254e0d4594d82e623f258fc1",
+      "lawId": "1809239",
+      "lawTitle": "익산시 하수도 운영관리 조례 시행규칙",
+      "title": "[별지 제17호서식] 하수도(사용료, 점용료, 부담금) 감면신청서",
+      "regionCode": "52140",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본285자는 하수도사용료·점용료·부담금 감면이며 현행규칙1809239 제16조는 불출수·지하수겸용·비영리처리장 등과 별지17을 지정한다. 새 현행 상위조례2111939 제23조제2·3항의 취약계층 공공하수도 사용료 감면은 별지4(상수도겸용시 상수도조례 별지2)로 따로 지정한다. 정확 사이트 사업은 정화조 청소수수료 지원이다. 세 목적을 구분하며 별지17이 그 지원 신청을 겸한다는 근거를 확보하지 못했다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1809239&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154261977&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C17%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%95%98%EC%88%98%EB%8F%84%28%EC%82%AC%EC%9A%A9%EB%A3%8C%2C+%EC%A0%90%EC%9A%A9%EB%A3%8C%2C+%EB%B6%80%EB%8B%B4%EA%B8%88%29+%EA%B0%90%EB%A9%B4%EC%8B%A0%EC%B2%AD%EC%84%9C"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-20732079",
+      "sha256": "e5906c43a5b3447f4680b2300859bdfbb4759b8c0635b0cdc219ba33c4a92d3a",
+      "lawId": "1694821",
+      "lawTitle": "하동군 장애인보장구 수리비 지원에 관한 조례",
+      "title": "[별지 제2호서식] 장애인보장구 수리비용 청구서",
+      "regionCode": "48850",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "전체1329자를 읽어 업체청구와 주민동의의 작성주체를 분리했다. 현행7①은 별지1 주민수리신청,7②는 수리센터의 분기별 증빙/실적 제출로 다르고 현재 복지로는 하동군지회 방문을 안내한다. 새로 GET한 복지로 HWP는HWPML조례본문이며 별지·그림이 없는 자료다. 이미게시된20732077 주신청서에는 동의문이 포함되지 않아 동일시하여covered로 처리할 수도 없다. 현재 수리센터가 이 부속 동의를 주민에게 언제/어떻게 받는지 확인되지 않아 whole non_applicant 또는 전체주민신청으로 단정하지 않는다. 남은 확인: 지정 하동군 수리지원센터의 현재 주민접수 패키지, 부속 동의 제출 단계/본문을 지정한 안내",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=155159587&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%95%A0%EC%9D%B8%EB%B3%B4%EC%9E%A5%EA%B5%AC+%EC%88%98%EB%A6%AC%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1694821",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004423&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=3772GOWF16GOWF163772&atcflSn=1&wlfareInfoId=WLF00004423",
+        "https://www.hadong.go.kr/minwon/00965/00051.web?stype=title&sstring=%EB%B3%B4%EC%9E%A5%EA%B5%AC"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "수리센터현재동의수령실무미확인",
+        "같은지역icare장애인보조기수리비지원의정확메뉴판행은추가연구후보이며이업체정산서의사용근거로승격하지않음",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-21161135",
+      "sha256": "4d73e653a282566aac178a7a5bc23c4a562601b0cf129ce321a8f669885e7cc5",
+      "lawId": "2090043",
+      "lawTitle": "부산광역시 중구 인구 관리 지원에 관한 조례",
+      "title": "[별지 제1호서식］인구 관리시책 지원 신청서",
+      "regionCode": "26110",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "고정 옛 원본의 출산장려금 신규 신청기한은 현재 안내상 2025.9.30 이전 출생아의 출생6개월 이내라 이미 지났다. 전입봉투는 현재 정확 복지로가 별도 신청 없음으로 명시한다. 다만 신규 WLF6649의 정확 첨부에서 2025.10.1 이후 출생아 칸이 있는 별도 통합신청서를 확보했고 현행 새 조례2109641 제7조와 일치하여 agency 원본으로 제안한다. 옛 원본21161135는 미해소로 유지한다. WLF00006649 exact GET + 실제119,808B HWP 전체6,628자/3쪽/내장없음, 현행2109641 제1~12·부칙 전체 GET. 기존 인구관리 law2090043 및 전입WLF6689도 별개 대조. 남은 확인: 새agency 원본 총괄 검증. 옛 원본은 2025.9.30 이전 출생아의 기한 후 접수나 별도 신청 시책의 현재 사용을 명시한 공식 근거 필요.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158845915&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%EF%BC%BD%EC%9D%B8%EA%B5%AC+%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%B1%85+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006649&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006689&wlfareInfoReldBztpCd=02",
+        "https://www.bsjunggu.go.kr/index.junggu?menuCd=DOM_000001111002003000",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2090043&gubun=ELIS",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2109641&gubun=ELIS",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260720UUWBM1801570201761423&atcflSn=1&wlfareInfoId=WLF00006649"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-21165707",
+      "sha256": "b3e4d799ae6c7e475025c23a74a8775872da7ca28a09262b63789ab274c4c425",
+      "lawId": "2090199",
+      "lawTitle": "용인시 자활기금 설치 및 운용 조례 시행규칙",
+      "title": "[별지 제1호서식] 자활기금 지원 대여 신청서(개인)",
+      "regionCode": "41460",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 시행규칙3조의 개인 지원/대여 서식은 사업계획·재원계획과 사업전 심사를 전제하고, 정확 자활성공수당은 취창업 성공 및 유지기간 증빙을 요구하는 별도 수당이다. 현재 정부24는 자활성공수당 지원신청서를 명시한다. 다만 상위4조8호의 기타 자활지원사업과 규칙18조 운영기준의 여지가 있어 이일반서식을성공수당에겸용하는실무가능성까지원문만으로배제하지않는다. 새시청민원편람의 자활/자활성공 검색에서도 정확원본이추가확인되지않아 접수서식의 직접관계가 필요하다. 남은 확인: 용인지역자활센터/용인시의 현행 자활성공수당 신청서 또는 이 일반개인 신청서 겸용을 명시한 세부운영계획",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158881163&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%90%ED%99%9C%EA%B8%B0%EA%B8%88+%EC%A7%80%EC%9B%90+%EB%8C%80%EC%97%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EA%B0%9C%EC%9D%B8%29",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2090237",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2090199",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/405000000640"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "자활성공수당실제별도접수원본미확보",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-21390153",
+      "sha256": "b6270b22ba9700757c5e8df91d1592752533a331f5f33a4ddb0aae12e1c227e2",
+      "lawId": "2103065",
+      "lawTitle": "임실군 가축분뇨의 관리 및 이용에 관한 조례",
+      "title": "[별지 제4호서식] 가축분뇨 반입처리 승인 신청서",
+      "regionCode": "52750",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 농업기술센터와 공식 통합검색에서 분뇨 처리비를 새로 조회했다. 검색된12개 게시·12개 파일은2024 운송처리비 지침 계열이며2026 별지4 채택을 증명하지 않는다. 원문은 반입가능량·고액분리·처리시설기준에 대한 사전 승인을 받아야 하는 제7조제5항 양식이다. 현재 정확 사업은 깔짚·처리비의 금전지원이며 이것의 필수 부속이나 겸용 신청이라는 직접 근거가 없다. 남은 확인: 2026 처리비 지원 시행지침에서 공공처리시설 승인서 첨부를 요구하는지 또는 별도 지원신청 양식을 확인할 수 있는 공식 배포.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160695067&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B0%80%EC%B6%95%EB%B6%84%EB%87%A8+%EB%B0%98%EC%9E%85%EC%B2%98%EB%A6%AC+%EC%8A%B9%EC%9D%B8+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2103065",
+        "https://www.imsil.go.kr/agri/index.imsil",
+        "https://www.imsil.go.kr/index.imsil?menuCd=DOM_000000107007000000&menu=all&searchTerm=%EA%B0%80%EC%B6%95%EB%B6%84%EB%87%A8+%EC%B2%98%EB%A6%AC%EB%B9%84"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "검색된2024 운송처리비 지침은 현행 채택 근거가 없어 이번에는 전체다운로드하지 않은 참고 lead로 보존.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-21424647",
+      "sha256": "51b5907088672351e3afb08291d40aab8cb740f4109dc4caf597efb59b438de0",
+      "lawId": "2019043",
+      "lawTitle": "제천시 관내 대학 협력 지원 조례",
+      "title": "[별지 제3호서식] 장학생 선발 신청서",
+      "regionCode": "43150",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "기존에 실패했던 재단 선발개요를 현재www.jcbrain.kr에서GET200으로 읽었다. 재단은 정관·운영세칙 근거, 지역대학 장학생100만원, 온라인 접수·총장추천 및3월13~27일 접수를 명시한다. 시 조례의 별지3는 별도 대학협력 장학금이고 전입지원금은 같은 조례 별지1이다. 대상 일부가 겹쳐도 현재 재단 절차가 시장 수신 별지3을 받는다는 직접 지시는 없으며 같은 집행임을 단정하지 않는다. 남은 확인: 재단·지역대학의2026 정확 제출서류 목록에서 시 조례 별지3 채택을 명시하거나, 별도의 현재 재단/대학 신청서 원본을 확보.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=160893889&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%ED%95%99%EC%83%9D+%EC%84%A0%EB%B0%9C+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2019043",
+        "https://www.jcbrain.kr/html/s6/01.php"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "지역대학별 실제 추천·제출 패키지는 미확보. 기존 검색에 잡힌 대학별 안내는 다음 확인 lead이며 읽었다고 표시하지 않음.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-21680119",
+      "sha256": "f29a6cbcac4c43c5fde6f5355f7c603eaea4631d253086f0b68c9adb4d974a7d",
+      "lawId": "2116943",
+      "lawTitle": "거제시 장학기금 설치 및 운용 조례 시행규칙",
+      "title": "별지 제12-1호서식(재능나눔 완료확인서)",
+      "regionCode": "48310",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "ELIS 현행 규칙48310104218072/020의 완료확인서 attlist017을 직접GET했다. 법령포털 원본과 동일49152바이트/SHA이고 본문은 여전히 지급신청서다. 현행 제6조제2항은 재능활동 완료후7일 이내 별지12 지급신청에 별지12-1 완료확인서를 붙이게 한다. 현재2026선발공지도 최초 신청·활동지원·계획서만 배포하며 완료확인서 정정본은 미확보다. 남은 확인: 거제시가 공식으로 교정·재배포한 실제 별지12-1 재능나눔 완료확인서 또는 현재 선정자용 완료증빙 패키지.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162866825&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C12-1%ED%98%B8%EC%84%9C%EC%8B%9D%28%EC%9E%AC%EB%8A%A5%EB%82%98%EB%88%94+%EC%99%84%EB%A3%8C%ED%99%95%EC%9D%B8%EC%84%9C%29",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2116943",
+        "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=48&sggCd=310",
+        "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=48310104218072&histNo=020",
+        "https://www.elis.go.kr/allalr/attListDown?alrNo=48310104218072&histNo=020&attlistSn=017",
+        "https://tour.geoje.go.kr/board/view.geoje?boardId=BBS_0000008&dataSid=306419947&menuCd=DOM_000008507001000000&paging=ok&startPage=1"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-21685783",
+      "sha256": "c6713e5df348d8103c5b3a294fa8f61ae9ba0ee0cdecd1390379eb1987f6557c",
+      "lawId": "2092475",
+      "lawTitle": "당진시 장애인복지 증진에 관한 조례",
+      "title": "서식1 장애아동 복지증진 지원(변경)신청서",
+      "regionCode": "44270",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "중요새대조: 현행법23조1호 건강지원과24조1항은 이별지1 신청/변경서를 직접지정하고, exact 병합 복지로WLF00000081도 건강음료대금 월3만원·읍면동신청을 안내한다. 정부24568000000105는 신청불필요/담당자관리라고현재도안내하여 공식출처충돌이다. 현재시복지포털도동일건강지원 월3만원을명시하지만별지접수방법은없다. 따라서 자동지원만으로 원본목적불일치/폐지를확정할수없으며 조건부신청/변경사용의유력후보이나,모든수급자가제출해야한다고공개할수없다. 첨부2000001596.hwp는실제UTF8구판조례평문으로새접수원본이아니다. 남은 확인: 당진 읍면동/장애인복지 담당부서의 신규·누락·변경 접수에 별지1을 쓰는 현재지시 또는 자동지원/복지로 신청안내 충돌의 정정근거",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162873521&flNm=%EC%84%9C%EC%8B%9D1+%EC%9E%A5%EC%95%A0%EC%95%84%EB%8F%99+%EB%B3%B5%EC%A7%80%EC%A6%9D%EC%A7%84+%EC%A7%80%EC%9B%90%28%EB%B3%80%EA%B2%BD%29%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2092475",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000105",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000081&wlfareInfoReldBztpCd=02",
+        "https://www.dangjin.go.kr/bokji/sub05_03.do",
+        "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=8151GOWF14GOWF148151&atcflSn=1&wlfareInfoId=WLF00000081",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000633&wlfareInfoReldBztpCd=02",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000112",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002196&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002175&wlfareInfoReldBztpCd=02",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000115"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "현행운영기관의실제신청/변경접수패키지미확보",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-21685785",
+      "sha256": "75f0574b032abacabad0685540a11eafa036724c7359dc54132dcdf5a3b1e553",
+      "lawId": "2092475",
+      "lawTitle": "당진시 장애인복지 증진에 관한 조례",
+      "title": "서식2 금융정보등(금융ㆍ신용ㆍ보험정보)제공동의서",
+      "regionCode": "44270",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재법24조2항은 장애아동과 가구원의 별지2를24조1항 신청서와 함께 제출하도록 직접지정한다. 현재 exact복지로는중증장애아동건강지원 신청을안내하지만정부24는신청불필요여서실제제출범위가충돌한다. 이현재법정관계를새근거로보존하되소득조사/변경절차의실제적용확인없이모든건강지원수급자필수동의로만들지않는다. 같은조례의자산형성·반짝통장·임신출산·카드배송에는확대하지않고기초노령연금등원문의구명칭도숨기지않는다. 남은 확인: 건강지원/장애아동 복지지원의 현재 신청·변경시 별지2 또는 대체현행동의서 사용범위를 명시한 운영기관 근거",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=162873523&flNm=%EC%84%9C%EC%8B%9D2+%EA%B8%88%EC%9C%B5%EC%A0%95%EB%B3%B4%EB%93%B1%28%EA%B8%88%EC%9C%B5%E3%86%8D%EC%8B%A0%EC%9A%A9%E3%86%8D%EB%B3%B4%ED%97%98%EC%A0%95%EB%B3%B4%29%EC%A0%9C%EA%B3%B5%EB%8F%99%EC%9D%98%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2092475",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000105",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000081&wlfareInfoReldBztpCd=02",
+        "https://www.dangjin.go.kr/bokji/sub05_03.do",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000633&wlfareInfoReldBztpCd=02",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000112",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002196&wlfareInfoReldBztpCd=02",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002175&wlfareInfoReldBztpCd=02",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/568000000115"
+      ],
+      "sourceReportSHA256": "22a34e713dc922e62b836a3c443f86a0f12c5c88b9f92f87d7919684427b1a62",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "현재 금융정보조회 실무 및 대체서식미확인",
+        "추가 지침·운영기관 자료의 일부 조문 대조와 원본 전체 판독은 구분한다. 모든 검색 경로를 소진했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22083017",
+      "sha256": "e8f6d4bb79e3c05d29108711e501a25bd21362a72530114495d68d50d1864d7c",
+      "lawId": "2138177",
+      "lawTitle": "울산광역시 울주군 출산장려 지원 조례",
+      "title": "[별지 제5호서식]사회보장급여(사회서비스이용권) 신청(변경)서",
+      "regionCode": "31710",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현행 조례 제17·18조 삭제 이후 이 별지5를 현재 어떤 개별서비스에 직접 접수하는지 확인되지 않았다. 현 정부24 울주형가사돌봄 신청은2026.1.12~1.22로 종료됐고 다른 산모신생아 사업은 출산예정40일 전~출산60일의 별도 상시 경로다. 새로 찾은 울주 보건소 민원서식은2019 게시 묶음이며 전체6,130자에 구 장애등급·노인돌봄·보육맞춤반 및 옛 쌍태유형이 남아 현재표와 다르다. 이를2026 대체원본으로 승인하지 않는다. 현재정부24 373000000110·143, 보건소2026서비스 안내와 민원서식목록→게시9480→실제GET 원본34304B를 전체 판독. 서식 제1/1-1/3과 울주군수 수신을 확인했지만 현재 사용 근거로는 부족. 남은 확인: 현재접수기관이2026 산모신생아 또는 현재 추가모집 가사돌봄에 지정한 현대 신청서와 실제배포/접수 근거.2019파일을 계속쓰는지 공식 확인이 있으면 해당부분만 재검토.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166851175&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EA%B8%89%EC%97%AC%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%B4%EC%9A%A9%EA%B6%8C%29+%EC%8B%A0%EC%B2%AD%28%EB%B3%80%EA%B2%BD%29%EC%84%9C",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2138177&gubun=ELIS",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/373000000110",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/373000000143",
+        "https://www.ulju.ulsan.kr/health/contents.do?mId=0303030000",
+        "https://www.ulju.ulsan.kr/health/bbs/list.do?mId=0204000000&ptIdx=202",
+        "https://www.ulju.ulsan.kr/health/bbs/view.do?mId=0204000000&bIdx=9480&ptIdx=202",
+        "https://www.ulju.ulsan.kr/cmm/fms/FileDown.do?atchFileId=121eb7cb719834f2ad4100d6f30e04cda5acb013de14056604de6cb81148d9e3&fileSn=f9a1967c526603d17ab488b9d2747cda"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22159379",
+      "sha256": "94fdceb5f579b5080f98b578b099152ab724cd72f65ab79fd09f16040fc5da36",
+      "lawId": "2003473",
+      "lawTitle": "창원시 전세보증금 반환보증 보증료 지원 조례",
+      "title": "[별지 제2호서식] 전세보증금 반환보증 보증료지원 대리수령 신청서",
+      "regionCode": "48120",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 정확 국비사업 정부24·경남바로서비스와 실제2026공고 전체를 추가 대조했다. 국비공고는3억원 이하/최대40만원이고 본인계좌 지급을 명시한다. 불가피한 대리 신청은 허용하지만 타인계좌 대리수령 허용은 확인되지 않았다. 자체조례2억원 경로의 별지2를 국비사업에 적용할 근거 부족이 유지된다. 경남바로service453 현재접수(예산소진까지) GET 및 공고1071 실제HWP152064B 전체6395자 판독. 공고2 대리신청과5 본인계좌 지급을 구분 확인했다. 남은 확인: 2026 국비사업에서 조례제7조의 대리수령을 허용하고 이 별지2를 받는다는 공식 지침/예외안내.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167482633&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88+%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D+%EB%B3%B4%EC%A6%9D%EB%A3%8C%EC%A7%80%EC%9B%90+%EB%8C%80%EB%A6%AC%EC%88%98%EB%A0%B9+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2003473&gubun=ELIS",
+        "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/567000000116",
+        "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+        "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1071&filenameOrg=%EA%B3%B5%EA%B3%A0%EB%AC%B8(2026%EB%85%84%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85).hwp&service_no=453"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22159721",
+      "sha256": "b61497bcfe8ee9a5e4223a61206b1dfdceccc7f3699e0ea9203ae36083554f23",
+      "lawId": "2129869",
+      "lawTitle": "창원시 신혼부부 전세자금 대출이자 지원 조례",
+      "title": "[별지 제3호서식] 신혼부부 전세자금 대출이자 지원 대리수령 신청서",
+      "regionCode": "48120",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재 조례 제8조는 삭제 상태이고 제7조⑤는 신청인계좌 지급이다. 새로 GET한 정확2026공고의 신청서·서약서 묶음은 별지1·2뿐이며 지급계좌를 신청인 본인명의로 인쇄한다. 구 별지3을 현재 받아 주는 예외 근거가 없다. 공고접수도2026.2.27 종료라 현재접수로 안내하지 않는다. 현재조례2129869 전체 및 공식게시872127, 현재정확WLF3833 재GET. 게시첨부509007 HWP150016B 전체1648자 판독, 본인계좌·2026년·창원시장·별지1/2 확인. 남은 확인: 기준일 이후 유효한 대리수령 예외 공고·지침 또는 법령정비 및 실제 접수 원본.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167482911&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80+%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88+%EB%8C%80%EC%B6%9C%EC%9D%B4%EC%9E%90+%EC%A7%80%EC%9B%90+%EB%8C%80%EB%A6%AC%EC%88%98%EB%A0%B9+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2129869&gubun=ELIS",
+        "https://www.changwon.go.kr/cwportal/10430.web?amode=view&gcode=1009&idx=872127",
+        "https://www.changwon.go.kr/cwportal/10310/10429/10430.web?amode=view&gcode=1009&idx=872127",
+        "https://www.changwon.go.kr/cwportal/cmsfile/download.do?idx=509007&&fsiz=150016",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003833&wlfareInfoReldBztpCd=02"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22282177",
+      "sha256": "2129a6988fb231bf180d5b4ad537edd2d82e91cf5900b360ef2029f7e4eef29b",
+      "lawId": "2156975",
+      "lawTitle": "광주시 자연채 상표 사용에 관한 조례 시행규칙",
+      "title": "별지7",
+      "regionCode": "41610",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본311자는 인증번호·포장규격·수량·사용기한을 적는 자연채 상표 표시/포장재 사용허가이다. 현행규칙2156975 제7조제1·2항은 표시허가 신청과 제작비 신청자부담을 명시한다. 현재 수록된 포장재 구입비50% 보조사업·홈쇼핑 방송비지원과 단계가 다르다. 광주시 공식 고시공고 제목 검색 자연채13건/포장재1건 및 통합검색을 추가 확인했고2026-10-16 현재 상표사용 모집도 찾았으나 해당 서식이 금융보조 사업신청을 겸한다는 공고는 없다. 제작비 부담 규정만으로 별도 지원이 없다고 단정하지 않으며 수요/교부단계 실제 양식이 남아 있다. 새2026-10-16~10-30 접수 중인 공식 상표사용 공고80135의 실제 HWPX109302바이트/SHAff26a04ea03ee5d82f79b16a1c3bab217efcc96dbdb8026d2d83214c75a7d851 전체16904자·별지1~3·빈생산자조서까지 추가 판독했다. 이 파일도 상표 인증심사·기준과 사용신청이며 별지7 포장재사용이나 구입비50%지원 수요/교부 신청서는 아니다. 통합검색 포장재 게시판47건은 다른대체포장·폐양곡포장 안내의 읍면복제이며 같은 보조사업 첨부가 아니다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2156975&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167785055&flNm=%EB%B3%84%EC%A7%807"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-22337089",
+      "sha256": "498d5b69f13835160ba157e1f80858a695d227e4417dc0241737796b564d8221",
+      "lawId": "2158539",
+      "lawTitle": "대전광역시 상수도급수 조례 시행규칙",
+      "title": "별지서식",
+      "regionCode": "30000",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본HWPX 전체1개섹션15011자/29별지를 재독했다. 현재규칙2158539 제22조의5는 막내18세이하 가정의 전체2자녀10%/3이상30% 감면과 별지21 사용을 명시한다. 그러나 원본2025-05-09 별지21 안내는 신청일18세이하 자녀만 기재하도록 남아 있어 성인형제를 포함하는 현재 기준의 기입방법이 미해소다. 새 공공 게시판의 전체28개글과 감면글 실제첨부61952바이트를 확인했으나 내려온 파일은2023-08-18 개정자료·기초수급자용21/관개량23/직결24로 다자녀 최신 대체본이 아니다. 단일파일29별지를 전부 다자녀신청서로 표시하거나 옛 첨부를 현재판으로 바꾸지 않는다. 현행조문이 원본별지를 직접 지정하는 점과 접수 해석 문제를 구분하여 독립검토 전 보류한다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2158539&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168010753&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-22371299",
+      "sha256": "49b5991d6753869d07b09067f5108d9359e405aca330073bc42cc4f597157ee7",
+      "lawId": "2160269",
+      "lawTitle": "완도군 출산 및 양육 지원에 관한 조례",
+      "title": "별지 제1호서식",
+      "regionCode": "12850",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재법 제5조의4는 이전자녀13세 이상이면 주소와 관계없이 자녀순위에 포함하고 제5조④는 부모1년 거주충족 이후90일 접수를 정한다. 고정원본은 이전자녀 출생신고일부터 계속1년 등 고정확인란을 그대로 요구한다. 현재보건소 통합접수 안내·정확복지로를 새로 대조했지만 이예외를 반영한 새 통합서식/작성지침은 확인하지 못했다. 완도군 현재건강사이트m74, 정확WLF4578, 현행2160269 GET. 해당사이트는 현재도 구례번호2836을 근거로 표시하며 원본작성과13세 예외의 연결을 설명하지 않는다. 남은 확인: 13세이상 자녀·부모거주충족 예외를 반영한 현재 통합신청서 또는 공식 작성요령/현행편람.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168161869&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2160269&gubun=ELIS",
+        "https://www.wando.go.kr/health/sub.cs?m=74",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004578&wlfareInfoReldBztpCd=02"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22371301",
+      "sha256": "64ee7db80102b2e8058b39e981b3dc35ca07575221f451bd1d6350b6f928e25c",
+      "lawId": "2160269",
+      "lawTitle": "완도군 출산 및 양육 지원에 관한 조례",
+      "title": "[별지 제2호서식] 둘째아 이상 돌맞이 축하금 지원신청서",
+      "regionCode": "12850",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재페이지가 직접 배포하는2026 HWP를 다시GET해 전면·후면 전체1698자를 읽었다. SHA는이전검토와동일하고 뒷면은3조건모두충족/이전자녀모두출생신고부터1년거주를 인쇄한다. 현재법 제6조가 준용하는 제5조의4의13세이상 예외가 반영되지 않았다. 현재배포라는이유만으로조건불일치를 승인하지 않는다. 현재m74→health_form_2026_05.hwp GET20017408B, 실제전체본문 및내장없음. 정확복지로WLF233도13세예외없는요약이라 공식법과불일치해이를근거로원본을유효화하지않음. 남은 확인: 현재제5조의4에맞는돌맞이신청서 또는13세자녀가있는경우 해당구확인란의처리를명시한공식정정/안내.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168161871&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%91%98%EC%A7%B8%EC%95%84+%EC%9D%B4%EC%83%81+%EB%8F%8C%EB%A7%9E%EC%9D%B4+%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2160269&gubun=ELIS",
+        "https://www.wando.go.kr/health/sub.cs?m=74",
+        "https://www.wando.go.kr/contents/2026/health_form_2026_05.hwp",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000233&wlfareInfoReldBztpCd=02"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22371303",
+      "sha256": "3e3e0aa139b1e70305b38cc9684e639251ce485dc6577efb693c0ba189d679f1",
+      "lawId": "2160269",
+      "lawTitle": "완도군 출산 및 양육 지원에 관한 조례",
+      "title": "[별지 제3호서식] 출산 전 준비금 지원신청서",
+      "regionCode": "12850",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현재법과보건소m134는 임신12주 경과 후를정하지만 현2026 배포원본 전체는 임신확인일 이후12주가되는날을인쇄해 신청가능시점을늦출수있다. 다시GET한원본은기존SHA와동일하다. 정확복지로WLF3167는오히려임신확인일부터신청가능으로남아3출처간차이가계속존재한다. 경고문으로원본문구를보정해승인하지않는다. currentm134+form_2026_01.hwp GET20016384B 전체1075자, 정확WLF3167 재조회, current2160269 제7조대조. 남은 확인: 임신주수 기준을 올바르게 고친 공식원본 또는 원문작성기준 정정공지 및 복지로 사업정보 정정.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168161873&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%A0%84+%EC%A4%80%EB%B9%84%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2160269&gubun=ELIS",
+        "https://www.wando.go.kr/health/sub.cs?m=134",
+        "https://www.wando.go.kr/contents/2026/form_2026_01.hwp",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003167&wlfareInfoReldBztpCd=02"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22392705",
+      "sha256": "9eb4689aa98af486f4537ceed349afa39d94df5c37633e4771f513fbdad368d0",
+      "lawId": "2161415",
+      "lawTitle": "서산시 임산부ㆍ신생아 건강관리 지원 조례",
+      "title": "[별지 제2호서식] 사회보장급여(사회서비스이용권) 신청서",
+      "regionCode": "44210",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "정확수록 WLF6505는서비스이용후 본인부담금90%최대40만원 환급사업이다. 현행법제5조2와고정서식은서비스이용권최초신청을정한다. 보건소의별도초기신청m2393에서실제현대신청서108032B를새로확보했지만이것도환급신청서가아니다. 환급m2394는보건소방문작성및기존위임장경로이며새주신청서다운로드를확보하지못했다. 현재초기신청페이지2393→cts2393_file01.hwp전체2685자/서산시장/서비스유형·빈신청칸 대조. 정확WLF6505현재본문과환급2394,현재2161415 제2~5조를별도대조. 남은 확인: 서산시가WLF6505의사후환급용으로배포하는주신청서 원본.초기신청서의전국사업추가연결은해당정확사업/시예외지원범위를별도검증해야하며이번환급원본해소로계산하지않음.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168219621&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%82%AC%ED%9A%8C%EB%B3%B4%EC%9E%A5%EA%B8%89%EC%97%AC%28%EC%82%AC%ED%9A%8C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%B4%EC%9A%A9%EA%B6%8C%29+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2161415&gubun=ELIS",
+        "https://www.seosan.go.kr/health/contents.do?key=2393",
+        "https://www.seosan.go.kr/health/contents.do?key=2394",
+        "https://www.seosan.go.kr/DATA/download/health/cts2393_file01.hwp",
+        "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006505&wlfareInfoReldBztpCd=02"
+      ],
+      "sourceReportSHA256": "3d5eabcab6076d2690e2ceee7dd4ea86963f4efff8dc71ad38d48b6aee9d8ba0",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "법규의 현행 식별자와 관계 조문·부칙을 대조했다. 모든 법규 전문을 오늘 새로 수집·재독했다고 주장하지 않는다."
+      ]
+    },
+    {
+      "formId": "ordin-22498207",
+      "sha256": "914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9",
+      "lawId": "2165511",
+      "lawTitle": "원주사랑상품권 발행 및 운영 조례 시행규칙",
+      "title": "[별지 제10호서식] 원주사랑상품권 환전 청구서",
+      "regionCode": "51130",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "linked",
+      "dispositionChanged": true,
+      "reason": "2026-10-23 새 GET한 원주시 전용 공식 소개는 카드·모바일·지류를 함께 명시하고 지류발행 축소와2천원권을 안내한다. 공식 가맹점 준수사항은 지정은행 방문→환전신청서 작성→가맹점 지정여부 및 상품권금액 확인→입금 순서를 직접 안내하고 실제 매출없는 수취·과다거래 환전을 금지한다. 같은 날 현행규칙2165511(2026-08-28시행) 본문 제8조는 등록가맹점의 별지10 환전청구서와 접수후3일 환전을 명시하고 별지목록의22498207을 확인했다. 고정원본과 새 다운로드의36352바이트/SHA914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9가 같고 전체401자를 읽었다. 한글에서1쪽을 렌더링하여 빈 가맹점 신청서·하단 접수증,2천원권 포함권종,은행수신/계좌/서명과 원본불변을 확인했다. 현재 정확 정부24 원주사랑상품권 사업은 소비자와 가맹점 혜택을 함께 안내한다. 기존 카드앱 안내만으로는 부족했던 지류 가맹점 환전 사용근거를 공식 별도 안내와 현행 별지 지정으로 보완한다. 개인 현금할인구매 별지12의 현재판매 여부는 이 승인에 포함하지 않는다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168772559&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9B%90%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-22498211",
+      "sha256": "8018eecb694d4c1ccd89aae3ed9f62825f45d006c92d7094e39c3e1e8ea4733d",
+      "lawId": "2165511",
+      "lawTitle": "원주사랑상품권 발행 및 운영 조례 시행규칙",
+      "title": "[별지 제12호서식] 원주사랑상품권 현금할인구매 신청서",
+      "regionCode": "51130",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "원본1506자는 개인·법인·단체의 지류 현금할인구매이며2천원권외권종·구매금액·서명과 개인정보동의가 포함된다. 현행규칙2165511 제10조제4항은 별지12를 지정하되 카드충전 작성생략을 허용한다. 새 원주시 소개의 지류존재와 가맹점 환전절차는 판매받는 개인의 현재 지류 할인구매 접수까지 증명하지 않는다. 현재 구매안내는Chak가입/카드충전과10%지원으로 지류개인판매 원본을 받는 안내를 추가 확보하지 못해 별지10 후보와 분리하여 보류한다.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS&chrClsCd=010202",
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168772563&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C12%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9B%90%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%98%84%EA%B8%88%ED%95%A0%EC%9D%B8%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C"
+      ],
+      "sourceReportSHA256": "6f7887700e79aa07e20ae7d7a7bdd188b2622c49634cb7e68d7398f3f5d3bfee",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "원본의 전체 본문 확인과 법규 전문 전체 재독은 별개다. 관계 조문·별지·목적을 대조한 범위로 한정한다."
+      ]
+    },
+    {
+      "formId": "ordin-22650261",
+      "sha256": "ebf32e261700656111b3aa1bed72af0439e0928015c49b2813419959ea6943ad",
+      "lawId": "1572845",
+      "lawTitle": "경상북도 모자ㆍ부자보건 및 출산장려 지원에 관한 조례 시행규칙",
+      "title": "[별지 제1호서식] 출산장려금 지원신청서",
+      "regionCode": "47000",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "2026 경북 달라지는 제도·시책의 실제 공식 페이지를 새로GET해 관련 모자지원 절차를 대조했다. 현재 산모신생아 서비스는10%/90% 분리납부 등 별도 서비스이고 이 출생순위·보호자 계좌 현금신청서와 목적이 다르다. 같은 도명과 규칙 인용으로 책선물·육아용품·난임·산모 의료비에 연결하지 않는다. 도 규칙은 보건소 별지1과 시군별 통합신청을 구분하며, 현재 어느 사업이 도 현금별지1을 실제 채택하는지는 미해소다. 남은 확인: 2026 도 출산장려 현금지원 세부계획과 해당시군 보건소의 도 별지1 채택·현재 지급방법을 명시한 안내.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169462307&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1572845",
+        "https://www.gb.go.kr/page/10131/10036.do"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "도 현금지원의 연도별 상세 시행계획 및 정확 시군 채택 문서는 미확보.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-22848507",
+      "sha256": "0c62919e777e33f1fb35c5472831cde616d8329c5e208d7c3bf9aaa072760b2b",
+      "lawId": "2177495",
+      "lawTitle": "곡성군 지방보조금 관리 조례 시행규칙",
+      "title": "[별지 제8호서식] 청렴 이행서약서",
+      "regionCode": "12720",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "정확 사업은 노동 절감형 스마트 청년농업인 육성 지원임을 현재 정부24에서 확인했다. 월정액 영농정착금과 혼동하지 않는다. 군 누리집www/비www 및 관련군의회2026예산 회의록 직접GET은 모두TLS검증 오류로 실패했으며 검증을 우회하지 않았다. 현재 규칙제3조의 일반별지5~8 요구만으로 개인19~49세 청년농업인에게 단체3인 서약을 어떻게 받는지 추정하지 않는다. 남은 확인: TLS가 정상인 공식 농업기술센터의2026 사업별 교부패키지, 개인신청인의3인 서약 작성 주체 지침 또는 개인용 별도서약.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=170358029&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C8%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EB%A0%B4+%EC%9D%B4%ED%96%89%EC%84%9C%EC%95%BD%EC%84%9C",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2177495",
+        "https://www.gokseong.go.kr/",
+        "https://gokseong.go.kr/",
+        "https://assembly.gokseong.go.kr/minutes/cnts/mnt/mntsViewer.php?schSn=12418"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "군 누리집/군의회 직접GET실패로 본문미독. 검색색인 요약을 실제본문 검토로 대체하지 않음.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-9381549",
+      "sha256": "fa84938f0165140744f800053f98b9392cdb511d069e0db807888f8a888a5b56",
+      "lawId": "922717",
+      "lawTitle": "무주군 반딧불한우 배냇소 대부 조례 시행규칙",
+      "title": "<별지 제1호서식> 반딧불한우 배냇소 대부 신청서(제2조제1항제1호 관련).",
+      "regionCode": "52730",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "무주 공식 통합검색16건의 현행 화면과 ELIS 현행 상위조례004 전문을 새로 확인했다. 최신검색화면에는2024이전 사업자료가 보이고2026재개·접수 패키지는 확보되지 않았다. 정부24는2026-09-11 수정에도25년도 미추진을 적고 있어 이를2026미추진 확정으로 확대하지 않는다. 현행 조례는2025-11-05 개정으로 대부가액에 맞는 담보를 요구하며 최신 신규접수 구비서류 확인이 필요하다. 남은 확인: 2026 재개공고·위탁기관 접수공고와 담보 요구를 반영한 최신신청 패키지.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=69204717&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EB%B0%98%EB%94%A7%EB%B6%88%ED%95%9C%EC%9A%B0+%EB%B0%B0%EB%83%87%EC%86%8C+%EB%8C%80%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C2%EC%A1%B0%EC%A0%9C1%ED%95%AD%EC%A0%9C1%ED%98%B8+%EA%B4%80%EB%A0%A8%29.",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=922717",
+        "https://www.elis.go.kr/alrpop/locgovAlrPopup?ctpvCd=52&sggCd=730",
+        "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=52730116315013&histNo=004"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "16건 검색 전체하위글을 수기로 읽은 것은 아님;2026대부 재개 원본은 미확보.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-9381553",
+      "sha256": "c68aea487510c88a2b7fc728e5caf3d59dd0df4ca483fe53501ba20bb9744e31",
+      "lawId": "922717",
+      "lawTitle": "무주군 반딧불한우 배냇소 대부 조례 시행규칙",
+      "title": "<별지 제3호서식> 서약서(제2조제1항제3호 관련)",
+      "regionCode": "52730",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현행 ELIS 상위조례004를 새로GET하여2025-11-05 담보제도 및 기존대부자 경과조치를 확인했다. 원본은 보증인과 더불어 서약하며2명의 연대보증인 서명을 요구한다. 현재 담보요건을 이 옛 보증인 서명란으로 대신하거나 삭제해 쓰도록 제안하지 않았다. 새수정서약·접수지침 미확보. 남은 확인: 현재 조례를 반영하여 농가가 실제 제출하는 공식수정서약 또는 보증인란 처리에 대한 공식지침.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=69204721&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EC%84%9C%EC%95%BD%EC%84%9C%28%EC%A0%9C2%EC%A1%B0%EC%A0%9C1%ED%95%AD%EC%A0%9C3%ED%98%B8+%EA%B4%80%EB%A0%A8%29",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=922717",
+        "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=52730116315013&histNo=004"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "현재개정후 빈서약 원본 미확보.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    },
+    {
+      "formId": "ordin-9381559",
+      "sha256": "17d1a2b71b07afaf301b21a44f148dcf9cc6bdfea172ba6b1ad54b3f0e077e0b",
+      "lawId": "922717",
+      "lawTitle": "무주군 반딧불한우 배냇소 대부 조례 시행규칙",
+      "title": "<별지 제6호서식> 무주군 반딧불한우 배냇소 대부 상환기한 연기신청서(제7조제1항 관련)",
+      "regionCode": "52730",
+      "baselineState": "requires_external_confirmation",
+      "currentState": "requires_external_confirmation",
+      "dispositionChanged": false,
+      "reason": "현행 ELIS 상위조례제12조는 기존대부자의 연장 가능성과 신청방법을 여전히 두고 있다. 신규사업 재개를 못찾았다고 연장 자체가 없다고 하지 않는다. 그러나 옛 별지6은 연대보증인2명의 서명을 요구하여2025년 현재담보제도와 그대로 결속할 수 없고 새연장접수 서식·처리지침이 필요하다. 남은 확인: 현재기존대부자 연장접수에 쓰는 수정 별지6 또는 연대보증인란 공식처리 지침.",
+      "evidenceUrls": [
+        "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=69204727&flNm=%3C%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%3E+%EB%AC%B4%EC%A3%BC%EA%B5%B0+%EB%B0%98%EB%94%A7%EB%B6%88%ED%95%9C%EC%9A%B0+%EB%B0%B0%EB%83%87%EC%86%8C+%EB%8C%80%EB%B6%80+%EC%83%81%ED%99%98%EA%B8%B0%ED%95%9C+%EC%97%B0%EA%B8%B0%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C7%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+        "https://www.law.go.kr/ordinInfoP.do?ordinSeq=922717",
+        "https://www.elis.go.kr/alrpop/alrDtlsPop?alrNo=52730116315013&histNo=004"
+      ],
+      "sourceReportSHA256": "c5b2cc4f70273ae481fa92df3ea83fd516b8e1089cc50e04f13a25746c14a22c",
+      "freshOriginalGETSameSHAThisPass": true,
+      "fullOriginalBodyReviewedThisPass": true,
+      "limitations": [
+        "개정후 실제연장용 빈서식 미확보.",
+        "보관된 공식 full lawService의 관련 실제조문을 읽고 같은ID를 오늘 공식MCP검색에서 확인; 모든전문을 오늘재조회했다고 표시하지 않음"
+      ]
+    }
+  ],
+  "assignedOriginalsPendingFinalReport": [
+    "ordin-13732705",
+    "ordin-21138967",
+    "ordin-21225823",
+    "ordin-21588913",
+    "ordin-21714441",
+    "ordin-21934315",
+    "ordin-22425545",
+    "ordin-22876359"
+  ],
+  "writingScopeReview": {
+    "formId": "agency-26110-bokjiro-wlf00006649-20260720-1",
+    "independentReviewSHA256": "a463c85a91c38a334f7f96bfcb959c08fbc14c2d5bc885c56c0db6f7b846ceca",
+    "openedBeforeHold": 67,
+    "commonInformationCandidates": 25,
+    "otherServiceSlots": 37,
+    "nonInputSpacerOrFlowchartSlots": 5,
+    "approvedLocalGrantChoiceEditableSlots": 0,
+    "writingHeld": true,
+    "originalDownloadRetained": true,
+    "verifiedConversionRetained": true,
+    "allOtherFormsAuditedForThisIssue": false
+  },
+  "orchestration": {
+    "codex": "Coordinator integration, exact original/native-page review, source gates and runtime validation. Native Codex reviewers are not represented as Claude or Grok.",
+    "claude": {
+      "actualPane": "w4:p2",
+      "quotaRecoveredAt": "2026-10-23 03:50 Asia/Seoul",
+      "review": "gwangjin-childcare-crossreview-v2",
+      "reviewSHA256": "c25bc9fb9cd0f776ee678851c6012a4eb96191814a6861cb2b632a6deb93e5db",
+      "conditionReplacementAdopted": true
+    },
+    "grok": {
+      "actualPane": "w4:p3",
+      "status": "research_running_final_report_not_received",
+      "casesAssigned": 8,
+      "completionClaimed": false
+    }
+  },
+  "deploymentPerformed": false
+}

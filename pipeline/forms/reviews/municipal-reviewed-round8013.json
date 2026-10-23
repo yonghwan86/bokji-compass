@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "rows": [
+    {
+      "formId": "agency-48120-baro-453-1401",
+      "replacesUnmatchedOriginalId": "ordin-22159377",
+      "replacesUnmatchedOriginalSHA256": "07b456899de5b4b3d6c28f9d9359f2f6e4be817e5af45239c1719c8b53906f19",
+      "programIds": [
+        "g48120.gov24-567000000116"
+      ],
+      "programNames": [
+        "전세보증금반환보증 보증료 지원"
+      ],
+      "programs": [
+        {
+          "id": "g48120.gov24-567000000116",
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/567000000116"
+        }
+      ],
+      "sourceKind": "agency",
+      "formTitle": "전세보증금반환보증 보증료 지원 신청서 및 서약서",
+      "sourceMetadataTitle": "[공고문 붙임 서식] 전세보증금반환보증 보증료 지원사업 신청서 및 서약서.hwp",
+      "verifiedDocumentTitle": "전세보증금반환보증 보증료 지원 신청서 및 서약서",
+      "displayTitle": "전세보증금반환보증 보증료 지원 신청서 및 서약서",
+      "role": "application",
+      "use": "main",
+      "condition": "2026년 창원시 전세보증금반환보증 보증료 지원사업(국토교통부)의 신청인용입니다. 1~2쪽 신청서·개인정보 활용 동의·유의사항과 3쪽 서약서를 함께 작성하고 본인명의 계좌 및 공고의 증빙서류를 제출합니다. 2026년 2월 2일부터 접수하며 표시된 연말 종료일 이전이라도 예산 소진 시 종료되므로 제출 전 공식 접수 상태를 확인하세요. 이 파일은 대리수령 신청서가 아니며 지급계좌는 신청인 본인 명의로 한정합니다. 3쪽에 2026년이 인쇄되어 있어 다른 연도 접수에 확대하지 않습니다.",
+      "regionCode": "48120",
+      "regionLabel": "경상남도 창원시",
+      "agencyName": "창원시 도시정책국 주택정책과 (경상남도 경남바로서비스 배포)",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+      "authorityEvidenceNote": "2026-10-22 경남바로서비스의 정확한 창원 국비사업(service_no=453) 페이지가 접수중으로 표시되고 신청서 및 서약서 file_no=1401을 직접 배포함을 GET으로 확인했다. 창원시 공고 제2026-186호(2026-02-02) 제2항은 온라인 또는 주택소재지 구청 방문 접수를, 제3항 제출서류1은 보증료 지원 신청서 및 서약서를 지정한다. 실제 HWP 전체 Section0 2443자와 같은 페이지 PDF3쪽 전체를 시각 검토했고, 공백·쪽번호를 제외한 두 원본 전본문이 일치하며 HWP 내장그림은 없다. 신청인은 임차인 개인이고 본인명의 계좌·개인정보 동의·자필서명 및 별도2026서약서가 있으며 작성된 개인정보는 없다. 정확 정부24 567000000116의 현재 본문과 창원 거주·보증금3억원 이하·소득기준·최대40만원·예산소진 종료·구청접수·담당번호가 일치한다. 지방 조례의2억원 경로 원본22159377을 승인하거나 고친 것이 아니라 현재 국비사업이 별도로 배포한 원본이다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "[창원시]전세보증금 반환보증 보증료 지원사업(국비)",
+        "evidenceUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "정확한 정부24 567000000116의 현재 국비 보증료 사업과 경남바로서비스453의 창원 거주·보증금3억원 이하·최대40만원·구청접수 경로를 대조했다. 공식 HWP50176바이트/SHA와 같은 페이지의 PDF3쪽 전체를 검토했으며 개인 신청서1~2쪽과 2026서약서3쪽이 한 원본이다. 인쇄된 계좌는 신청인 본인 명의에 한정하고 개인정보 동의·유의사항·서명과 별도 증빙을 함께 안내한다. 예산 소진 시 조기 종료와 2026년 사용 제한을 명시했다. 2026-10-23 총괄이 공식 안내와 정확한 파일1401을 다시 GET하여 동일 원본을 확인했다. 기존 지방 조례2억원 서식22159377을 바꾸거나 승인한 것이 아니라 현재 국비사업용 별도 원본을 추가한다.",
+        "pageSHA256": "be8f615a2490392b5e4c770933a0b37758d3e44bd65c76f7e30c6978f233ead6"
+      },
+      "sourcePageUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+      "sourceUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+      "finalUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+      "attachmentId": "1401",
+      "attachmentIdentifier": {
+        "queryParam": "file_no",
+        "value": "1401"
+      },
+      "sourcePageSha256": "be8f615a2490392b5e4c770933a0b37758d3e44bd65c76f7e30c6978f233ead6",
+      "sourcePageHttpStatus": 200,
+      "sourcePageProgramSpecific": true,
+      "sourcePageProgramId": "453",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/567000000116",
+      "evidenceUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+      "evidenceNote": "2026-10-22 경남바로서비스의 정확한 창원 국비사업(service_no=453) 페이지가 접수중으로 표시되고 신청서 및 서약서 file_no=1401을 직접 배포함을 GET으로 확인했다. 창원시 공고 제2026-186호(2026-02-02) 제2항은 온라인 또는 주택소재지 구청 방문 접수를, 제3항 제출서류1은 보증료 지원 신청서 및 서약서를 지정한다. 실제 HWP 전체 Section0 2443자와 같은 페이지 PDF3쪽 전체를 시각 검토했고, 공백·쪽번호를 제외한 두 원본 전본문이 일치하며 HWP 내장그림은 없다. 신청인은 임차인 개인이고 본인명의 계좌·개인정보 동의·자필서명 및 별도2026서약서가 있으며 작성된 개인정보는 없다. 정확 정부24 567000000116의 현재 본문과 창원 거주·보증금3억원 이하·소득기준·최대40만원·예산소진 종료·구청접수·담당번호가 일치한다. 지방 조례의2억원 경로 원본22159377을 승인하거나 고친 것이 아니라 현재 국비사업이 별도로 배포한 원본이다.",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "7b216cf387911fa163115c3b87a3ad09d228f7db048c3ee4040bbc2707a30456",
+      "bytes": 50176,
+      "originalFormat": "hwp",
+      "originalPath": "pipeline/forms/originals/agency-48120-baro-453-1401.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "reviewedParts": [
+        {
+          "number": "무번호 신청서(1~2쪽)",
+          "title": "전세보증금반환보증 보증료 지원 신청서",
+          "use": "main",
+          "author": "창원시 거주 무주택 임차인인 신청인",
+          "scope": "앞쪽 신청사항과 뒤쪽 개인정보 수집 및 활용 동의·유의사항·서명란 전체"
+        },
+        {
+          "number": "무번호 서약서(3쪽)",
+          "title": "'전세보증금반환보증 보증료 지원' 서약서",
+          "use": "additional",
+          "author": "지원 신청인",
+          "scope": "2026년으로 인쇄된 서약 및 성명·서명란 전체"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "무번호 신청서(1~2쪽)",
+          "title": "전세보증금반환보증 보증료 지원 신청서",
+          "use": "main",
+          "author": "창원시 거주 무주택 임차인인 신청인",
+          "scope": "앞쪽 신청사항과 뒤쪽 개인정보 수집 및 활용 동의·유의사항·서명란 전체"
+        },
+        {
+          "number": "무번호 서약서(3쪽)",
+          "title": "'전세보증금반환보증 보증료 지원' 서약서",
+          "use": "additional",
+          "author": "지원 신청인",
+          "scope": "2026년으로 인쇄된 서약 및 성명·서명란 전체"
+        }
+      ],
+      "applicant": "창원시 거주 무주택 임차인인 신청인",
+      "roleBasis": "2026-10-22 경남바로서비스의 정확한 창원 국비사업(service_no=453) 페이지가 접수중으로 표시되고 신청서 및 서약서 file_no=1401을 직접 배포함을 GET으로 확인했다. 창원시 공고 제2026-186호(2026-02-02) 제2항은 온라인 또는 주택소재지 구청 방문 접수를, 제3항 제출서류1은 보증료 지원 신청서 및 서약서를 지정한다. 실제 HWP 전체 Section0 2443자와 같은 페이지 PDF3쪽 전체를 시각 검토했고, 공백·쪽번호를 제외한 두 원본 전본문이 일치하며 HWP 내장그림은 없다. 신청인은 임차인 개인이고 본인명의 계좌·개인정보 동의·자필서명 및 별도2026서약서가 있으며 작성된 개인정보는 없다. 정확 정부24 567000000116의 현재 본문과 창원 거주·보증금3억원 이하·소득기준·최대40만원·예산소진 종료·구청접수·담당번호가 일치한다. 지방 조례의2억원 경로 원본22159377을 승인하거나 고친 것이 아니라 현재 국비사업이 별도로 배포한 원본이다.",
+      "roleEvidenceUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "checked",
+      "effectiveDate": "2026-10-23",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "정부24 제공근거: 주거기본법 제15조",
+        "서식: 보조금 관리에 관한 법률, 사회보장급여의 이용·제공 및 수급권자 발굴에 관한 법률"
+      ],
+      "currentUseConfirmed": true,
+      "noFilledPersonalDataObserved": true,
+      "blankApplicantForm": true,
+      "publicationApproved": false,
+      "proposalStatus": "ready_for_coordinator_exact_agency_gate",
+      "printedYear": 2026,
+      "applicationWindow": {
+        "startsAt": "2026-02-02",
+        "displayedEndsAt": "2026-12-31",
+        "budgetExhaustionCanCloseEarly": true,
+        "officialPageShowsOpenAtCheck": true
+      },
+      "sourceProof": {
+        "freshDownloadRecord": "logs/hwp-writing-20261022/team2/source-followup/changwon-application-1401-20261022.json",
+        "actualOriginalBytesRechecked": true,
+        "sourcePageRecord": "logs/hwp-writing-20261022/team2/source-followup/changwon-current-20261022.json",
+        "exactProgrammeRecord": "logs/hwp-writing-20261022/team2/source-followup/gov24-exact-567000000116-20261022.json",
+        "exactProgrammePageSHA256": "77ae4761aae8265e6d80dfa7ed644d93855b9b865c69f15a1d4890738fcba745",
+        "noticeRecord": "logs/hwp-writing-20261022/team2/source-followup/changwon-notice-1071-20261022.json",
+        "noticeSHA256": "84a44653289de46cc1751e45db152dfcc34d0703a6b3ddff4c085861632e0d71",
+        "noticeNumber": "창원시 공고 제2026-186호",
+        "noticePrintedDate": "2026-02-02",
+        "sourcePagePublishedDateNotConfirmed": true,
+        "directAttachmentOnExactProgramPage": true,
+        "freshHTTPStatus": 200
+      },
+      "wholeBodyCorroboration": {
+        "method": "HWP whole-section text equals all3 visually reviewed official PDF pages after whitespace and pagination removal; no HWP BinData",
+        "hwpEmbeddedResourceCount": 0,
+        "normalizedEqual": true,
+        "pdfSourceUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1080&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.pdf&service_no=453",
+        "pdfSHA256": "5de7bdd50c2e762a03caaedc07e2dc4cabe2b440fd23fe20452643f9c44f4c39",
+        "pdfBytes": 69936,
+        "pdfOriginalPath": "logs/hwp-writing-20261022/team2/source-followup/changwon-application-1080-20261022.pdf",
+        "pageCount": 3,
+        "pagesRead": [
+          "page-1",
+          "page-2",
+          "page-3"
+        ],
+        "pageImages": [
+          "logs/hwp-writing-20261022/team2/source-followup/changwon-application-page-1.png",
+          "logs/hwp-writing-20261022/team2/source-followup/changwon-application-page-2.png",
+          "logs/hwp-writing-20261022/team2/source-followup/changwon-application-page-3.png"
+        ]
+      },
+      "publishedAt": null,
+      "coordinatorReason": "정확한 정부24 567000000116의 현재 국비 보증료 사업과 경남바로서비스453의 창원 거주·보증금3억원 이하·최대40만원·구청접수 경로를 대조했다. 공식 HWP50176바이트/SHA와 같은 페이지의 PDF3쪽 전체를 검토했으며 개인 신청서1~2쪽과 2026서약서3쪽이 한 원본이다. 인쇄된 계좌는 신청인 본인 명의에 한정하고 개인정보 동의·유의사항·서명과 별도 증빙을 함께 안내한다. 예산 소진 시 조기 종료와 2026년 사용 제한을 명시했다. 2026-10-23 총괄이 공식 안내와 정확한 파일1401을 다시 GET하여 동일 원본을 확인했다. 기존 지방 조례2억원 서식22159377을 바꾸거나 승인한 것이 아니라 현재 국비사업용 별도 원본을 추가한다."
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "65865030d8c0e13868d6e7ee1f2726e19146e4b810108e0ba9e4b98964460884",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8013.json",
+    "frozenScopeSHA256": "67d525f930b599e10a513e60efdd4c959981301ff00fee500af833fc465ff2d9"
+  }
+}

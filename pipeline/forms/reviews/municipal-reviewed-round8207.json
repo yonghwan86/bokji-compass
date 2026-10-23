@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "verificationMethod": "Coordinator original/native-page/current-annex verification with source researchers and actual Herdr Claude/Grok checks; explicit conditional uses only.",
+  "sourceProposals": [
+    {
+      "path": "logs/forms-followup-20261023e/team1/frozen-E-conditional-proposals.json",
+      "sha256": "450a918b9e36011c918ae13a4ac23d2bb4a8ee369878e46b095877e24a2de602"
+    }
+  ],
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "formId": "ordin-21127609",
+      "lawId": "1891429",
+      "lawTitle": "아산시 산후관리비 지원 조례",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891429",
+      "annexId": "21127609",
+      "annexNumber": "000100",
+      "printedAnnexNumber": "1",
+      "flSeq": "158681961",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=158681961&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "formTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산서비스 통합처리 신청서 중 아산시 산후관리비 신청 부분",
+      "regionCode": "44200",
+      "regionLabel": "충청남도 아산시",
+      "dateKind": "effective",
+      "effectiveDate": "2023-12-26",
+      "checkedAt": "2026-10-23",
+      "programIds": [
+        "g44200.gov24-452000000339"
+      ],
+      "programNames": [
+        "산후관리비 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/452000000339",
+      "use": "conditional",
+      "condition": "아산시 산후관리비를 조례 제5조의 출산서비스 통합처리로 신청할 때 공통 신청인·출산자·출생아·가족정보·급여계좌 및 대상서비스 기재 부분에 한정하여 사용합니다. 산후관리비는 신생아 출생일부터6개월 이내에 관할 읍·면·동장에게 신청합니다. 지방서비스의 둘째 이상·00은행·000보건소는 지자체별 작성 예시로, 아산의 지원자격이나 실제 기관으로 적용하지 않습니다. 현재 조례와 아산시 안내는 출산일 전6개월 거주, 정부24·복지로 안내는12개월 거주로 서로 달라 실제 대상 확인은 접수처의 현행 기준과 대조해야 합니다. 이 원본에 거주기간 또는 금액을 잘못 확약하는 문구는 없습니다. 다른 전국급여·출생축하금·산후도우미 환급으로 확대하지 않습니다.",
+      "role": "application",
+      "roleBasis": "현행제5조②가정확별지1의통합신청서제출을요구한다. 원본지방서비스영역은지자체별작성이고서비스명칭등은법령/지자체여건에따라변경사용하도록한다. 원본에는6개월또는12개월거주확약·고정지원금액이없다. 아산산후관리비의공통신청정보와급여계좌대상서비스란을기재하는용도로한정하면지방예시를거짓자격확약으로만들지않는다. 아산현재안내와법은6개월,정확Gov339는12개월을안내하는차이를사업정보충돌로남기되그차이가이서식에틀린거주조건을인쇄했다는뜻은아니다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891429",
+      "roleCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "publicationApproved": true,
+      "coordinatorApproved": true,
+      "officialAttachmentMatched": true,
+      "sha256": "b6100833b99537ce6e62a7fb00a82d5721d4226943c5f84a73d9d1c3e3a77599",
+      "bytes": 207360,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023e/root/evidence/ordin-21127609.hwp",
+      "textEvidencePath": "logs\\forms-followup-20261023e\\team1\\ordin-21127609-independent-body.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 5889,
+      "textSha256": "4dcc65cecb2a3aacdfeb5ec3d6436107767e5b16d541f80c02854739df6c3979",
+      "embeddedResources": [],
+      "privacyReview": {
+        "blankForm": true,
+        "filledPersonalDataFound": false
+      },
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891429",
+      "evidenceNote": "현행제5조②가정확별지1의통합신청서제출을요구한다. 원본지방서비스영역은지자체별작성이고서비스명칭등은법령/지자체여건에따라변경사용하도록한다. 원본에는6개월또는12개월거주확약·고정지원금액이없다. 아산산후관리비의공통신청정보와급여계좌대상서비스란을기재하는용도로한정하면지방예시를거짓자격확약으로만들지않는다. 아산현재안내와법은6개월,정확Gov339는12개월을안내하는차이를사업정보충돌로남기되그차이가이서식에틀린거주조건을인쇄했다는뜻은아니다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "bodyEvidenceArticle": "제5조제2항, 제3조·제4조 및 통합처리 규정 제8·9조",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 중 아산시 산후관리비 신청 부분",
+          "use": "conditional",
+          "author": "해당 지방급여 신청인 또는 원문상 허용 보호자/대리신청인",
+          "condition": "아산시 산후관리비를 조례 제5조의 출산서비스 통합처리로 신청할 때 공통 신청인·출산자·출생아·가족정보·급여계좌 및 대상서비스 기재 부분에 한정하여 사용합니다. 산후관리비는 신생아 출생일부터6개월 이내에 관할 읍·면·동장에게 신청합니다. 지방서비스의 둘째 이상·00은행·000보건소는 지자체별 작성 예시로, 아산의 지원자격이나 실제 기관으로 적용하지 않습니다. 현재 조례와 아산시 안내는 출산일 전6개월 거주, 정부24·복지로 안내는12개월 거주로 서로 달라 실제 대상 확인은 접수처의 현행 기준과 대조해야 합니다. 이 원본에 거주기간 또는 금액을 잘못 확약하는 문구는 없습니다. 다른 전국급여·출생축하금·산후도우미 환급으로 확대하지 않습니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "sourceIssues": [
+        "공식안내의6/12개월차이는해소됐다고주장하지않는다. 원본파일은거주기간을고정인쇄하지않는다.",
+        "영아수당등옛국가급여명칭및다른서비스부분은이번산후관리비연결범위밖이다.",
+        "현장지방서비스기재방식은독립확인하지못했으므로완성된아산전용체크항목양식이라고소개하지않는다."
+      ],
+      "evidenceFiles": [
+        {
+          "path": "logs\\forms-followup-20261023e\\team1\\asan-program.json",
+          "metadataSha256": "eaac3b6b0dc453edc41efa47993cd719b4c194cba5127a364fe96f7237d27090",
+          "requestedUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/452000000339",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/452000000339",
+          "httpStatus": 200,
+          "sha256": "6461dcf22524d2d49cfa011ec0f74cc76576a82660c3f67858f1d486af6ab6ea",
+          "bytes": 185618,
+          "checkedAt": "2026-10-22T20:50:02.515052+00:00"
+        },
+        {
+          "path": "logs\\forms-followup-20261023e\\team1\\asan-current-service.json",
+          "metadataSha256": "949887fe528e07f8a62e395e7564bda90d889cc6ccd946a8b59d76e157a2e844",
+          "requestedUrl": "https://www.asan.go.kr/main/cms/?no=432",
+          "finalUrl": "https://www.asan.go.kr/main/cms/?no=432",
+          "httpStatus": 200,
+          "sha256": "00b891543b1accbeb590f750290bb30160dff41f0b6bd03f2095fabcb12841b1",
+          "bytes": 199264,
+          "checkedAt": "2026-10-22T20:50:02.816498+00:00"
+        }
+      ],
+      "currentLawBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexDeleted": false,
+        "officialAnnexId": "21127609",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식] 출산서비스 통합처리 신청서",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=158681961&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialFlSeq": "158681961"
+      },
+      "commonRuleEvidence": {
+        "path": "logs\\forms-completion\\gyeonggi-20261019\\birth-common-rule-20261020\\body.json",
+        "sha256": "d8c9ee5ef3ebfdd37d4d5de4c394e441240d144013a3d3cbdb75d36e14a02764",
+        "ruleId": "2100000281394",
+        "ruleTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+        "effectiveDate": "2026-06-30",
+        "readArticles": [
+          "제5조(통합처리) ① 임신서비스 통합처리를 하는 때에는 별지 제1호서식의 임신서비스 통합처리 신청서와 해당 제출서류를 접수처 또는 통합전자민원창구에 제출한 경우에 한정한다.② 출산서비스 통합처리를 하는 때에는 출생신고서와는 별도로 별지 제2호서식의 출산서비스 통합처리 신청서와 해당 제출서류를 접수처 또는 통합전자민원창구에 제출한 경우에 한정한다.",
+          "제6조(접수처 및 접수담당자) ① 임신서비스 통합처리의 접수처는 임산부 주민등록주소지의 시ㆍ군ㆍ구 보건소 및 읍ㆍ면ㆍ동을 원칙으로 하되, 업무여건을 고려하여 시장ㆍ군수ㆍ구청장이 따로 지정할 수 있다.② 임신서비스 통합처리 접수담당자는 임신서비스 통합처리 접수처의 장이 정하는 바에 따른다.③ 출산서비스 통합처리의 접수처는 출생자 주민등록주소지(주민등록예정주소지)의 읍ㆍ면ㆍ동이 된다.④ 출산서비스 통합처리 접수담당자는 출산서비스 통합처리 접수처의 가족관계등록 담당공무원을 원칙으로 한다. 다만, 업무여건을 고려하여 시장ㆍ군수ㆍ구청장 또는 읍ㆍ면ㆍ동장이 접수담당자를 따로 지정할 수 있다.",
+          "제7조(통합처리 신청 접수) ① 임신ㆍ출산서비스 통합처리 접수담당자는 신청서 작성내용과 신청인 제출서류에 오류ㆍ누락이 없도록 그 내용을 확인한 후 접수한다.② 임신서비스 통합처리 접수담당자가 확인하여야 하는 사항 또는 증빙서류는 다음 각 호와 같다.1. 신청자(대리 신청자) 신분증2. 임신사실확인서(요양기관에서 임신정보 제공동의 시 제출 생략)3. 주민등록등본(행정정보공동이용 사전동의 시 제출 생략)4. 국민기초생활수급자증명서(해당자에 한정하며, 행정정보공동이용 사전동의 시 제출 생략)5. 차상위 계층증명서(해당자에 한정하며, 행정정보공동이용 사전동의 시 제출 생략)6. 장애인증명서(해당자에 한정하며, 행정정보공동이용 사전동의 시 제출 생략)7. 건강보험료 납입 증명서(해당자에 한정하며, 사회보장정보시스템이용 조회동의 시 제출 생략)③ 출산서비스 통합처리 접수담당자가 확인하여야 하는 사항 또는 증빙서류는 다음 각 호와 같다.1. 신청자(대리 신청자) 신분증2. 가족관계증명서(출생신고 이후 별도 신청 시에 해당하며, 본인정보 제공요구 사전동의 시 제출 생략)3. 주민등록등본(행정정보공동이용 사전동의 시 제출 생략)4. 외국인등록사실증명서(해당자에 한정하며, 행정정보공동이용 사전동의 시 제출 생략)5. 농업경영체증명서 등(해당자에 한정하며, 행정정보공동이용 사전동의 시 제출 생략)6. 장애인증명서(해당자에 한정하며, 사회보장정보시스템이용 조회동의 시 제출 생략)7. 국민기초생활수급자증명서(해당자에 한정하며, 사회보장정보시스템이용 조회동의 시 제출 생략)8. 출생증명서(국외 출생자에 한정)9. 차상위 계층증명서(해당자에 한정하며, 사회보장정보시스템이용 조회동의 시 제출 생략)10. 한부모가족증명서(해당자에 한정하며, 사회보장정보시스템이용 조회동의 시 제출 생략)④ 임신ㆍ출산서비스 통합처리를 신청하려는 자가 부득이한 사유로 제2항에 따른 임신서비스 또는 제3항에 따른 출산서비스 통합처리 신청을 직접 할 수 없는 경우에는 다음 각 호의 사람이 대신 신청할 수 있다. 이 경우 대신 신청하는 사람은 [별지 제5호서식]의 임신ㆍ출산 관련 서비스 통합처리 신청 위임장 및 본인과 임산부와의 관계를 확인할 수 있는 가족관계증명서를 함께 제출하여야 한다.1. 배우자, 직계혈족 및 형제자매2. 직계혈족의 배우자, 배우자의 직계혈족 및 배우자의 형제자매",
+          "제8조(신청정보 입력 및 처리) ① 접수담당자는 별지 제1호, 제2호서식의 신청인 및 인적 정보, 통합처리 신청사항 등을 새올행정시스템에 입력 또는 확인하여야 한다.② 접수담당자는 새올행정시스템에 입력한 제1항의 신청사항을 확인 후 처리부서(기관)로 하여금 처리하게 한다.③ 통합처리 신청 사항에 대한 심사ㆍ결정 및 임신ㆍ출산 관련 서비스 제공은 관련 법령, 지침(사업안내서, 매뉴얼 등), 조례ㆍ규칙 또는 방침 등에 따른다. 다만, 임신ㆍ출산서비스 통합처리 신청인이 처리결과를 통합전자민원창구에서 확인하게 할 수 있다.",
+          "제9조(서비스 대상 및 통합처리 서식) ① 별지 제1호서식의 임신서비스 통합처리 신청서로 신청할 수 있는 임신서비스 대상은 별표1에 따르며, 시장ㆍ군수ㆍ구청장은 해당 지방자치단체에서 자체 시행하는 임신서비스 대상을 이에 포함시켜야 한다.② 별지 제2호서식의 출산서비스 통합처리 신청서로 신청할 수 있는 출산서비스 대상은 별표2에 따르며, 시장ㆍ군수ㆍ구청장은 해당 지방자치단체에서 자체 시행하는 출산서비스 대상을 이에 포함시켜야 한다.③ 시장ㆍ군수ㆍ구청장은 제1항에서 정한 서비스 대상 전체가 기재된 별지 제1호서식의 자체 임신서비스 통합처리 신청서를 확정하여야 한다.④ 시장ㆍ군수ㆍ구청장은 제2항에서 정한 서비스 대상 전체가 기재된 별지 제2호서식의 자체 출산서비스 통합처리 신청서를 확정하여야 한다.⑤ 「임신ㆍ출산 진료비 지급 등에 관한 기준」(보건복지부고시) 제3조,「임신ㆍ출산 진료비 등의 의료급여기준 및 방법」(보건복지부고시) 제2조,「에너지법」시행규칙 제3조의2,「사회보장급여 관련 공통서식에 관한 고시」(보건복지부고시) 제5조에도 불구하고, 이 규정 제3조에 의한 건강보험 임신ㆍ출산 진료비지원, 의료급여수급자 임신ㆍ출산 진료비지원, 에너지이용권, 산모ㆍ신생아 건강관리지원의 신청은 별지 제1호서식의 임신서비스 통합처리 신청서를 사용할 수 있다.⑥ 「사회보장급여 관련 공통서식에 관한 고시」(보건복지부고시) 제2조, 제5조 및 제7조에도 불구하고, 이 규정 제3조에 의한 첫만남이용권, 부모급여, 양육수당, 아동수당, 전기료ㆍ도시가스료ㆍ지역난방비 경감, 저소득층 기저귀 조제분유 지원, 해산급여 신청 등은 별지 제2호서식의 출산서비스 통합처리 신청서를 사용할 수 있다."
+        ]
+      },
+      "reviewedBy": "/root/forms_source_audit",
+      "screenWritingApproved": false,
+      "displayTitle": "아산시 산후관리비 통합신청서(조례 첨부 별지1)",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891429",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorPlanSHA256": "f749d27024c44f5af91203a0eddd9ad3e28a9a6059193ca98075eb0f4edac460",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "coordinatorCurrentLawProof": {
+        "lawId": "1891429",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1891429&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1891429&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "2574a2d227a5abfcac005b1119d43f04d4d6bc495f5b024a626667a9fceecd44",
+        "bytes": 13287,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-21127609",
+        "sourceSHA256": "b6100833b99537ce6e62a7fb00a82d5721d4226943c5f84a73d9d1c3e3a77599",
+        "sourceBytes": 207360,
+        "hancomPages": 3,
+        "pdfSHA256": "0e64b5dd8292cbc1f889f1734cdd81f5053992b24d4ba973c10f7eb89218a92e",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "every page at full size",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "출산서비스 통합처리 신청서 중 아산시 산후관리비 신청 부분",
+          "use": "conditional",
+          "author": "해당 지방급여 신청인 또는 원문상 허용 보호자/대리신청인",
+          "condition": "아산시 산후관리비를 조례 제5조의 출산서비스 통합처리로 신청할 때 공통 신청인·출산자·출생아·가족정보·급여계좌 및 대상서비스 기재 부분에 한정하여 사용합니다. 산후관리비는 신생아 출생일부터6개월 이내에 관할 읍·면·동장에게 신청합니다. 지방서비스의 둘째 이상·00은행·000보건소는 지자체별 작성 예시로, 아산의 지원자격이나 실제 기관으로 적용하지 않습니다. 현재 조례와 아산시 안내는 출산일 전6개월 거주, 정부24·복지로 안내는12개월 거주로 서로 달라 실제 대상 확인은 접수처의 현행 기준과 대조해야 합니다. 이 원본에 거주기간 또는 금액을 잘못 확약하는 문구는 없습니다. 다른 전국급여·출생축하금·산후도우미 환급으로 확대하지 않습니다.",
+          "fullBodyReviewed": true
+        }
+      ]
+    }
+  ]
+}

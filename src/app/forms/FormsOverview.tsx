@@ -16,7 +16,7 @@ const SCAN_SOURCE_LABEL: Record<string, string> = {
   ordin: "자치법규 서식", ordinbyl: "자치법규 서식",
   rule: "행정규칙 서식", admbyl: "행정규칙 서식",
 };
-export function FormsOverview() {
+export function FormsOverview({ writingCounts, hwpxDownloads }: { writingCounts?: { writable: number }; hwpxDownloads?: number }) {
   const [coverage, setCoverage] = useState<FormsCoverage | null | undefined>();
   const [areaKey, setAreaKey] = useState("g41280");
   const [region, setRegion] = useState<{ key: string; bundle: FormsRegionBundle | null } | null>(null);
@@ -72,6 +72,8 @@ export function FormsOverview() {
           <p className="small muted">목록 대조는 서식 이름을 맞춰 본 것이고, 본문 확인은 자료를 실제로 열어 읽은 것이에요. 전국 법령 본문을 모두 읽었다는 뜻이 아니에요.</p>
         </div>}
         <p className="small muted">등록한 서식 정보 {number(coverage.totalForms)}개 · 원문 연결 확인 {number(coverage.publishedForms)}개 · 현황 생성일 {coverage.generatedAt.slice(0, 10)}</p>
+        {hwpxDownloads !== undefined && <p data-testid="forms-hwpx-download-summary">HWP 원본 <strong>{number(hwpxDownloads)}개</strong>는 HWPX 파일로도 받을 수 있어요. 혜택 상세에서 <strong>HWPX로 받기</strong>를 누른 뒤 한글 프로그램에서 작성할 수 있어요.</p>}
+        {writingCounts && <p data-testid="forms-writing-summary">HWP 원본 중 <strong>{number(writingCounts.writable)}개 서식</strong>은 이 화면에서도 빈칸을 채우고 HWPX로 받을 수 있어요. 혜택 상세에서 <strong>화면에서 작성하기</strong>를 눌러 주세요. 일부 칸과 서명·동의 표시는 인쇄한 뒤 직접 적어야 해요.</p>}
       </section>
       <section className={styles.browse} aria-labelledby="forms-area-title">
         <h2 id="forms-area-title">서식 찾기</h2>

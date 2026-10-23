@@ -1,0 +1,1150 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "verificationMethod": "Coordinator original/native-page/current-annex verification with source researchers and actual Herdr Claude/Grok checks; explicit conditional uses only.",
+  "sourceProposals": [
+    {
+      "path": "logs/forms-followup-20261023f/team1/frozen-F-proposed-reviewed.json",
+      "sha256": "b6a611d1cfbbc39f74d1cf679ef07f6116344fd31f76e11b7eb7c743ff781079"
+    },
+    {
+      "path": "logs/forms-followup-20261023f/team2/gwangjin-proposed-reviewed-v1.json",
+      "sha256": "0a8ddbda959f85f370e62f4cd3eb6c98adde9bb2d85b562ed318206f2824d81d"
+    },
+    {
+      "path": "logs/forms-followup-20261023g/team1/frozen-G-donghae-proposed-reviewed.json",
+      "sha256": "b2ffc688910133d859ed4d080c6c82097a86d10bb66ddc1badaec834053ee6da"
+    },
+    {
+      "path": "logs/forms-followup-20261023h/team3/proposed-reviewed-v2.json",
+      "sha256": "0058fbc24677babd74c88d314948104f6d83e3dfdac4002a8390f956e668c0da"
+    }
+  ],
+  "rows": [
+    {
+      "sourceKind": "ordin",
+      "formId": "ordin-20589281",
+      "lawId": "2058863",
+      "lawTitle": "파주시 출생축하 및 다자녀가정 지원에 관한 조례",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2058863",
+      "annexId": "20589281",
+      "annexNumber": "000100",
+      "printedAnnexNumber": "1",
+      "flSeq": "154563043",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=154563043&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "formTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "sourceMetadataTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+      "verifiedDocumentTitle": "출산 서비스 통합처리 신청서 중 파주시 출생축하금 최초 신청",
+      "regionCode": "41480",
+      "regionLabel": "경기도 파주시",
+      "dateKind": "effective",
+      "effectiveDate": "2025-07-18",
+      "checkedAt": "2026-10-23",
+      "programIds": [
+        "g41480.gov24-406000000102",
+        "g41480.bokjiro-WLF00001658"
+      ],
+      "programNames": [
+        "출생축하금 지원",
+        "출생축하 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/406000000102",
+      "programEvidenceById": {
+        "g41480.gov24-406000000102": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/406000000102",
+        "g41480.bokjiro-WLF00001658": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001658&wlfareInfoReldBztpCd=02"
+      },
+      "use": "conditional",
+      "condition": "파주시 출생축하금의 최초 신청에 한정합니다. 원본에 인쇄된 첫째10만원·둘째30만원·셋째 이상100만원은 현행 조례의 최초 지급액과 같으며 총지원액이 아닙니다. 현행 총액은100·200·300만원이고 1년 뒤 잔여90·170·200만원 지급에는 조례의 계속 거주 요건이 적용됩니다. 출생신고일부터1년 이내의 최초 신청에 필요한 출생축하금 선택·해당 자녀·보호자·가족·계좌 부분만 사용합니다. 원본의 별도 산후조리비 및 경기도1년 거주 문구나 전국 공통서비스에는 이번 연결을 적용하지 않습니다. 이미 출생신고/행복출산으로 신청했다면 중복 신청용으로 사용하지 않습니다.",
+      "role": "application",
+      "roleBasis": "원본출생축하금란에인쇄된첫째10만원·둘째30만원·셋째이상100만원은현행제5조①의최초신청시지급액과정확히같다. 현재정확정부24도총액100/200/300을최초10/30/100과1년후90/170/200으로나누어안내한다. 종전검토는원본금액을총액으로비교했지만원본이그금액을총액이라고확약하는문구는없다. 현행초기신청에한정하면인쇄금액을경고로억지고치는것이아니라법이실제로정한단계와일치한다. 다른산후조리비란의경기도1년거주문구는현재조건확인이안된별도급여이므로이번연결에서제외한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2058863",
+      "roleCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "publicationApproved": true,
+      "coordinatorApproved": true,
+      "officialAttachmentMatched": true,
+      "sha256": "27a18064215adb1a12ca5239a277cb8cb1a2f76a3c7908dbf932cec7b8401990",
+      "bytes": 94840,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-20589281.hwpx",
+      "textEvidencePath": "logs\\forms-followup-20261023f\\team1\\ordin-20589281-independent-body.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 4007,
+      "textSha256": "7f417500efde8991b16a239e3b82bbcbcb0199d2938b0da20abe7e092a31600a",
+      "embeddedResources": [],
+      "privacyReview": {
+        "blankForm": true,
+        "filledPersonalDataFound": false
+      },
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2058863",
+      "evidenceNote": "원본출생축하금란에인쇄된첫째10만원·둘째30만원·셋째이상100만원은현행제5조①의최초신청시지급액과정확히같다. 현재정확정부24도총액100/200/300을최초10/30/100과1년후90/170/200으로나누어안내한다. 종전검토는원본금액을총액으로비교했지만원본이그금액을총액이라고확약하는문구는없다. 현행초기신청에한정하면인쇄금액을경고로억지고치는것이아니라법이실제로정한단계와일치한다. 다른산후조리비란의경기도1년거주문구는현재조건확인이안된별도급여이므로이번연결에서제외한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "bodyEvidenceArticle": "제5조제1·2항, 제6조 및 제7조",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서 중 파주시 출생축하금 최초 신청",
+          "use": "conditional",
+          "author": "파주시 출생축하금 최초 신청 보호자 또는 원문상 대리신청인",
+          "condition": "파주시 출생축하금의 최초 신청에 한정합니다. 원본에 인쇄된 첫째10만원·둘째30만원·셋째 이상100만원은 현행 조례의 최초 지급액과 같으며 총지원액이 아닙니다. 현행 총액은100·200·300만원이고 1년 뒤 잔여90·170·200만원 지급에는 조례의 계속 거주 요건이 적용됩니다. 출생신고일부터1년 이내의 최초 신청에 필요한 출생축하금 선택·해당 자녀·보호자·가족·계좌 부분만 사용합니다. 원본의 별도 산후조리비 및 경기도1년 거주 문구나 전국 공통서비스에는 이번 연결을 적용하지 않습니다. 이미 출생신고/행복출산으로 신청했다면 중복 신청용으로 사용하지 않습니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "sourceIssues": [
+        "원본은최초지급액만표시하고후속잔액을별도인쇄하지않으므로원본금액을총지원액으로안내하지않는다.",
+        "원본산후조리비란의경기도1년거주및다른국가급여문구를고쳐서사용하거나이번출생축하금판정으로검증됐다고하지않는다.",
+        "국가현행출산통합별지2(rule-3249999)는별도현재원본대안으로존재하지만이파주원본과동일ID/SHA로바꾸지않고자동covered로계산하지않는다."
+      ],
+      "currentLawBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexDeleted": false,
+        "officialAnnexId": "20589281",
+        "officialAnnexNumber": "1",
+        "officialAnnexTitle": "[별지 제1호서식] 출산 서비스 통합처리 신청서",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=154563043&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "officialFlSeq": "154563043"
+      },
+      "evidenceFiles": [
+        {
+          "path": "logs\\forms-followup-20261023f\\team1\\paju-current-program.json",
+          "metadataSha256": "c286cbfb9cb039a9bcff75d3912a43c54f9305c3505e0c351eadbbf1897a30dc",
+          "requestedUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/406000000102",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/406000000102",
+          "httpStatus": 200,
+          "sha256": "40219b012dd501f9a178932b1ce9ce1bdad9b75022d3007a1a9a37696392a2c5",
+          "bytes": 185821,
+          "checkedAt": "2026-10-22T21:18:26.155482+00:00"
+        },
+        {
+          "path": "logs\\forms-followup-20261023f\\team1\\paju-current-guide.json",
+          "metadataSha256": "d04ce677b7ab6fadd3f0513229e942d85e834b48fd1188a2960ae9a205343925",
+          "requestedUrl": "https://www.paju.go.kr/www/open_info/open_info_12.jsp",
+          "finalUrl": "https://www.paju.go.kr/www/open_info/open_info_12.jsp",
+          "httpStatus": 200,
+          "sha256": "669339ee68cf1e018202539d4463c106282a2ba81586d855580b47c9acc0c4e1",
+          "bytes": 173744,
+          "checkedAt": "2026-10-22T21:18:26.154114+00:00"
+        }
+      ],
+      "reviewedBy": "/root/forms_source_audit",
+      "screenWritingApproved": false,
+      "writingHoldRecommendation": {
+        "requiredForSemanticScope": true,
+        "formId": "ordin-20589281",
+        "sourceSHA256": "27a18064215adb1a12ca5239a277cb8cb1a2f76a3c7908dbf932cec7b8401990",
+        "reason": "출생축하금최초신청부분만연결했으므로별도산후조리비·전국서비스자동입력을열어서는안됨.",
+        "writerQAStillRequired": true
+      },
+      "displayTitle": "파주시 출생축하금 최초 신청 부분 · 통합서식",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2058863",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "coordinatorCurrentLawProof": {
+        "lawId": "2058863",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2058863&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2058863&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "0a4c973db51dc8429182f632a3674497e9064ad0d41c0b5b3d3e9d7e51095731",
+        "bytes": 49409,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-20589281",
+        "sourceSHA256": "27a18064215adb1a12ca5239a277cb8cb1a2f76a3c7908dbf932cec7b8401990",
+        "sourceBytes": 94840,
+        "hancomPages": 2,
+        "pdfSHA256": "c5d328f239f5d4474d5b57b805baa5b57faaccec4ba2f4a2bbf9c5cfc4fd0647",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      },
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "출산 서비스 통합처리 신청서 중 파주시 출생축하금 최초 신청",
+          "use": "conditional",
+          "author": "파주시 출생축하금 최초 신청 보호자 또는 원문상 대리신청인",
+          "condition": "파주시 출생축하금의 최초 신청에 한정합니다. 원본에 인쇄된 첫째10만원·둘째30만원·셋째 이상100만원은 현행 조례의 최초 지급액과 같으며 총지원액이 아닙니다. 현행 총액은100·200·300만원이고 1년 뒤 잔여90·170·200만원 지급에는 조례의 계속 거주 요건이 적용됩니다. 출생신고일부터1년 이내의 최초 신청에 필요한 출생축하금 선택·해당 자녀·보호자·가족·계좌 부분만 사용합니다. 원본의 별도 산후조리비 및 경기도1년 거주 문구나 전국 공통서비스에는 이번 연결을 적용하지 않습니다. 이미 출생신고/행복출산으로 신청했다면 중복 신청용으로 사용하지 않습니다.",
+          "fullBodyReviewed": true
+        }
+      ]
+    },
+    {
+      "sourceKind": "ordin",
+      "formId": "ordin-21184717",
+      "lawId": "2069271",
+      "lawTitle": "정선군 결혼장려금 지원 조례",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2069271",
+      "annexId": "21184717",
+      "annexNumber": "000200",
+      "printedAnnexNumber": "2",
+      "flSeq": "159099703",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=159099703&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B2%B0%ED%98%BC%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%9D%B4%ED%96%89%EC%84%9C%EC%95%BD%EC%84%9C",
+      "formTitle": "[별지 제2호서식] 결혼장려금 지원 이행서약서",
+      "sourceMetadataTitle": "[별지 제2호서식] 결혼장려금 지원 이행서약서",
+      "verifiedDocumentTitle": "결혼장려금 지원 이행서약서",
+      "regionCode": "51770",
+      "regionLabel": "강원특별자치도 정선군",
+      "dateKind": "effective",
+      "effectiveDate": "2025-09-23",
+      "checkedAt": "2026-10-23",
+      "programIds": [
+        "g51770.bokjiro-WLF00006371"
+      ],
+      "programNames": [
+        "정선군 결혼장려금 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006371&wlfareInfoReldBztpCd=02",
+      "programEvidenceById": {
+        "g51770.bokjiro-WLF00006371": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006371&wlfareInfoReldBztpCd=02"
+      },
+      "use": "additional",
+      "condition": "정선군 결혼장려금을 신청하는 결혼가구가 현행 조례 제7조제2항제4호에 따라 함께 제출하는 이행서약서입니다. 서약의 「지원대상자」와 「관련 규정에 따라」라는 문구는 현행 조례의 부부 단위 결혼가구 및 지급중지 규정과 함께 확인해야 합니다. 현행 제8조제2호는 부부가 모두 군 외로 전출하여 거주요건을 상실한 경우를 정하며, 한 명만 전출하면 자동 중지한다는 추가 조건으로 확대하지 않습니다. 혼인관계 유지·차수별 신청기한·부정수급 반환 등은 현행 조례와 접수 안내에 따르며 원문을 읽고 직접 서명합니다.",
+      "role": "supporting",
+      "roleBasis": "원본327자전체는조례에따른대상자확인및관련규정에따른지급중단·부정수급반환의이행서약이다. 현행제2조는지원금을결혼가구에지급하고그결혼가구를부부단위의기본신청단위로정한다. 제5조는부부중1명이상거주를요구하고제8조2호는부부모두전출한경우중지한다. 서약에는한명이라도전출하면중지한다는문구가없고관련규정에따른다고명시하므로지원대상자를개인1명으로확대해새로운중지조건을확약한다고단정할수없다. 제7조②4호와정확복지로는이별지2제출을직접요구한다. 현재법의결혼가구및중지조건그대로읽는용도로제안하며공식정정문이새로발급되었다고주장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2069271",
+      "roleCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "publicationApproved": true,
+      "coordinatorApproved": true,
+      "officialAttachmentMatched": true,
+      "sha256": "256bbe9a374517c2a7379d20f652da70e22877888f263518f80918a1f0415b0f",
+      "bytes": 49152,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-21184717.hwp",
+      "textEvidencePath": "logs\\forms-followup-20261023f\\team1\\ordin-21184717-independent-body.json",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "fullBodyReviewed": true,
+      "textLength": 327,
+      "textSha256": "4cb6866065c0aa7ffbd8c2a4fd811bed34ebd45572935c6d1d65561161815977",
+      "embeddedResources": [],
+      "privacyReview": {
+        "blankForm": true,
+        "filledPersonalDataFound": false
+      },
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2069271",
+      "evidenceNote": "원본327자전체는조례에따른대상자확인및관련규정에따른지급중단·부정수급반환의이행서약이다. 현행제2조는지원금을결혼가구에지급하고그결혼가구를부부단위의기본신청단위로정한다. 제5조는부부중1명이상거주를요구하고제8조2호는부부모두전출한경우중지한다. 서약에는한명이라도전출하면중지한다는문구가없고관련규정에따른다고명시하므로지원대상자를개인1명으로확대해새로운중지조건을확약한다고단정할수없다. 제7조②4호와정확복지로는이별지2제출을직접요구한다. 현재법의결혼가구및중지조건그대로읽는용도로제안하며공식정정문이새로발급되었다고주장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "bodyEvidenceArticle": "제2조제2·3호, 제5조, 제7조제2항제4호, 제8조제2호",
+      "reviewedParts": [
+        {
+          "number": "2",
+          "title": "결혼장려금 지원 이행서약서",
+          "use": "additional",
+          "author": "결혼장려금을 신청하는 결혼가구의 신청인",
+          "condition": "정선군 결혼장려금을 신청하는 결혼가구가 현행 조례 제7조제2항제4호에 따라 함께 제출하는 이행서약서입니다. 서약의 「지원대상자」와 「관련 규정에 따라」라는 문구는 현행 조례의 부부 단위 결혼가구 및 지급중지 규정과 함께 확인해야 합니다. 현행 제8조제2호는 부부가 모두 군 외로 전출하여 거주요건을 상실한 경우를 정하며, 한 명만 전출하면 자동 중지한다는 추가 조건으로 확대하지 않습니다. 혼인관계 유지·차수별 신청기한·부정수급 반환 등은 현행 조례와 접수 안내에 따르며 원문을 읽고 직접 서명합니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "sourceIssues": [
+        "서약의지원대상자표현이현행8조의부부모두문구보다덜구체적이라는점은남아있다. 원문을정정하거나별도정정공문을확보한것은아니다.",
+        "같은현행조례의정의·대상·중지조건을함께읽는제안이며한명전출만으로지원중지를정하는새서약을만들지않는다.",
+        "서약서는개인정보동의서가아니라지급조건이행보조서류이므로role=supporting/use=additional로제안한다. 제목분류와충돌하면정확SHA의본문역할근거를사용해야한다."
+      ],
+      "currentLawBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexDeleted": false,
+        "officialAnnexId": "21184717",
+        "officialAnnexNumber": "2",
+        "officialAnnexTitle": "[별지 제2호서식] 결혼장려금 지원 이행서약서",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=159099703&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B2%B0%ED%98%BC%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%9D%B4%ED%96%89%EC%84%9C%EC%95%BD%EC%84%9C",
+        "officialFlSeq": "159099703"
+      },
+      "evidenceFiles": [
+        {
+          "path": "logs/forms-followup-20261023/team2/jeongseon-bokjiro.json",
+          "metadataSha256": "b544288b3243d4e26ed23070a0f85fef0f74432f5ec8c07dd2e1da196651d94a",
+          "requestedUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006371&wlfareInfoReldBztpCd=02",
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006371&wlfareInfoReldBztpCd=02",
+          "httpStatus": 200,
+          "responseSHA256": "4cc7c42e5ce4966a25a63de80b6583f85a48d21a5d10971ad40dbee1b90e72f1",
+          "bytes": 103853,
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "path": "logs/forms-followup-20261023/team2/jeongseon-guide.json",
+          "metadataSha256": "20f0b1b26cb3429df28315021d038e62857010e46a94ef24deb2c45c33d90528",
+          "requestedUrl": "https://www.jeongseon.go.kr/portal/partinfo/lifewelfare/populationpolicy/movein",
+          "url": "https://www.jeongseon.go.kr/portal/partinfo/lifewelfare/populationpolicy/movein",
+          "httpStatus": 200,
+          "responseSHA256": "2369caec8ae8067fa603c2a0134bbb67e208b65bd99ab7b6f7c94518e2223f94",
+          "bytes": 228711,
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "reviewedBy": "/root/forms_source_audit",
+      "screenWritingApproved": false,
+      "writingHoldRecommendation": {
+        "requiredForSemanticScope": false,
+        "formId": "ordin-21184717",
+        "sourceSHA256": "256bbe9a374517c2a7379d20f652da70e22877888f263518f80918a1f0415b0f",
+        "reason": "단일이행서약의서명/조건문은원문대로보존한다. 본검토에서화면작성검증은하지않았으나타급여입력범위분리사유는없음.",
+        "writerQAStillRequired": true
+      },
+      "displayTitle": "정선군 결혼장려금 지원 이행서약서",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2069271",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "coordinatorCurrentLawProof": {
+        "lawId": "2069271",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2069271&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2069271&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "bf782f26d0eaf4e58658ed919e4ae0e6f1eb068b56d9912a6d5a7331a8300afc",
+        "bytes": 19663,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-21184717",
+        "sourceSHA256": "256bbe9a374517c2a7379d20f652da70e22877888f263518f80918a1f0415b0f",
+        "sourceBytes": 49152,
+        "hancomPages": 1,
+        "pdfSHA256": "c48b4d31d9ae6771ea777ef63875752ea4004cd9e1a0419b0a4aa38ebdd6ab46",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      },
+      "selectedParts": [
+        {
+          "number": "2",
+          "title": "결혼장려금 지원 이행서약서",
+          "use": "additional",
+          "author": "결혼장려금을 신청하는 결혼가구의 신청인",
+          "condition": "정선군 결혼장려금을 신청하는 결혼가구가 현행 조례 제7조제2항제4호에 따라 함께 제출하는 이행서약서입니다. 서약의 「지원대상자」와 「관련 규정에 따라」라는 문구는 현행 조례의 부부 단위 결혼가구 및 지급중지 규정과 함께 확인해야 합니다. 현행 제8조제2호는 부부가 모두 군 외로 전출하여 거주요건을 상실한 경우를 정하며, 한 명만 전출하면 자동 중지한다는 추가 조건으로 확대하지 않습니다. 혼인관계 유지·차수별 신청기한·부정수급 반환 등은 현행 조례와 접수 안내에 따르며 원문을 읽고 직접 서명합니다.",
+          "fullBodyReviewed": true
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22425545",
+      "programIds": [
+        "g11215.gov24-304000000236"
+      ],
+      "sourceKind": "ordin",
+      "formTitle": "[별지] 제1호서식~제2호서식<개정 2025.7.28.>",
+      "verifiedDocumentTitle": "수강료 감면 신청서 / 수강료 반환 신청서",
+      "displayTitle": "2026 회차자료 · 접수종료(6.29~7.22) — 인문학 강좌 수강료 감면·반환 신청서",
+      "role": "application",
+      "use": "conditional",
+      "condition": "2026 회차자료입니다. 해당 1인가구 인문학 강좌의 모집은 2026.6.29~7.22로 종료됐고 교육은 7.8~9.9였습니다. 수강료 20,000원의 해당 회차에 관해 법정 감면 요건·증빙에 해당하는 수강생은 별지1 감면신청, 수강료를 납부하고 법정 반환사유가 있는 수강생은 별지2 반환신청 부분을 확인하는 자료입니다. 강좌 최초 수강신청서나 현재·차기 모집용이 아닙니다. 1인가구라는 이유만으로 감면되는 것이 아니며, 감면율·반환액·신청 가능 여부는 조례 및 발생 시점에 따른 기준을 확인해야 합니다. 교육 종료 후 새 환급권이나 소급감면이 생긴다고 보증하지 않습니다. 두 신청서가 함께 든 공식원문 전체를 제공하며 해당 사유의 한 서식을 선택합니다.",
+      "regionCode": "11215",
+      "regionLabel": "서울특별시 광진구",
+      "lawId": "2060801",
+      "lawTitle": "서울특별시 광진구 평생교육 진흥 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060801",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060801",
+      "annexId": "22425545",
+      "annexNumber": "2",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168362031&flNm=%5B%EB%B3%84%EC%A7%80%5D+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%3C%EA%B0%9C%EC%A0%95+2025.7.28.%3E",
+      "flSeq": "168362031",
+      "effectiveDate": "2025-08-17",
+      "dateKind": "effective",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "evidenceUrl": "https://www.gwangjin.go.kr/edu/pgm/edu/view.do?progrmSn=7558&ctgryCd=0209&ctgryDetailCd=&menuNo=400008",
+      "evidenceNote": "2026-10-23 광진구 공식 교육포털 progrmSn7558 상세를 실제 GET200으로 읽었다. 정확 사업 g11215.gov24-304000000236의 프로그램명 유네스코가 인정한 우리의 세계 문화유산, 1인가구 구민 대상, 평생학습센터, 문의02-450-9768이 일치한다. 상세에는 교육2026.7.8~9.9, 모집6.29~7.22 접수마감 및 수강료20,000원을 명시한다. 이전의 2024 무료강좌를 대신 근거로 쓰지 않는다. 현행2060801 제19조3·4항은 별표1·2 감면기준과 별지 감면·반환 신청서를 직접 정한다. 같은 현행 별표22425543의 전체도 실제GET하여 감면대상과 증명서 제출요건을 확인했다. 원본22425545의 전체874자/section0/BinData0은 신청인 서명·수강료·감면/반환 사유·계좌를 받는 별지1과2이며 기관 대장이 없다. 해당 회차의 수강료 감면·반환 절차 자료로만 연결한다. 강좌 신규신청서가 아니며 일반강남인강·무료진학설명회로 확대하지 않는다. 현재 모집 재개나 종료강좌에 대한 새 환급권·소급감면을 보증하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000236",
+      "roleBasis": "2026-10-23 광진구 공식 교육포털 progrmSn7558 상세를 실제 GET200으로 읽었다. 정확 사업 g11215.gov24-304000000236의 프로그램명 유네스코가 인정한 우리의 세계 문화유산, 1인가구 구민 대상, 평생학습센터, 문의02-450-9768이 일치한다. 상세에는 교육2026.7.8~9.9, 모집6.29~7.22 접수마감 및 수강료20,000원을 명시한다. 이전의 2024 무료강좌를 대신 근거로 쓰지 않는다. 현행2060801 제19조3·4항은 별표1·2 감면기준과 별지 감면·반환 신청서를 직접 정한다. 같은 현행 별표22425543의 전체도 실제GET하여 감면대상과 증명서 제출요건을 확인했다. 원본22425545의 전체874자/section0/BinData0은 신청인 서명·수강료·감면/반환 사유·계좌를 받는 별지1과2이며 기관 대장이 없다. 해당 회차의 수강료 감면·반환 절차 자료로만 연결한다. 강좌 신규신청서가 아니며 일반강남인강·무료진학설명회로 확대하지 않는다. 현재 모집 재개나 종료강좌에 대한 새 환급권·소급감면을 보증하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168362031&flNm=%5B%EB%B3%84%EC%A7%80%5D+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D~%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%3C%EA%B0%9C%EC%A0%95+2025.7.28.%3E",
+      "roleCheckedAt": "2026-10-23",
+      "sha256": "6c0773a9cdb1fa6e1d51a49bfede485dd863142c2b05fc3fb6092d62a615c7df",
+      "bytes": 46484,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-22425545.hwpx",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "officialAttachmentMatched": true,
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "수강료 감면 신청서",
+          "use": "conditional",
+          "author": "해당2026 유료강좌 수강생 중 조례 별표2의 감면대상자",
+          "scope": "감면사유·증빙·수강료·계좌·신청인 서명",
+          "condition": "2026 회차자료입니다. 해당 1인가구 인문학 강좌의 모집은 2026.6.29~7.22로 종료됐고 교육은 7.8~9.9였습니다. 수강료 20,000원의 해당 회차에 관해 법정 감면 요건·증빙에 해당하는 수강생은 별지1 감면신청, 수강료를 납부하고 법정 반환사유가 있는 수강생은 별지2 반환신청 부분을 확인하는 자료입니다. 강좌 최초 수강신청서나 현재·차기 모집용이 아닙니다. 1인가구라는 이유만으로 감면되는 것이 아니며, 감면율·반환액·신청 가능 여부는 조례 및 발생 시점에 따른 기준을 확인해야 합니다. 교육 종료 후 새 환급권이나 소급감면이 생긴다고 보증하지 않습니다. 두 신청서가 함께 든 공식원문 전체를 제공하며 해당 사유의 한 서식을 선택합니다."
+        },
+        {
+          "number": "별지 제2호",
+          "title": "수강료 반환 신청서",
+          "use": "conditional",
+          "author": "해당2026 강좌 수강료 납부자 중 법정 반환사유에 해당하는 수강생",
+          "scope": "납부일·반환사유·공제액·반환액·계좌·신청인 서명",
+          "condition": "2026 회차자료입니다. 해당 1인가구 인문학 강좌의 모집은 2026.6.29~7.22로 종료됐고 교육은 7.8~9.9였습니다. 수강료 20,000원의 해당 회차에 관해 법정 감면 요건·증빙에 해당하는 수강생은 별지1 감면신청, 수강료를 납부하고 법정 반환사유가 있는 수강생은 별지2 반환신청 부분을 확인하는 자료입니다. 강좌 최초 수강신청서나 현재·차기 모집용이 아닙니다. 1인가구라는 이유만으로 감면되는 것이 아니며, 감면율·반환액·신청 가능 여부는 조례 및 발생 시점에 따른 기준을 확인해야 합니다. 교육 종료 후 새 환급권이나 소급감면이 생긴다고 보증하지 않습니다. 두 신청서가 함께 든 공식원문 전체를 제공하며 해당 사유의 한 서식을 선택합니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "수강료 감면 신청서",
+          "use": "conditional",
+          "author": "해당2026 유료강좌 수강생 중 조례 별표2의 감면대상자",
+          "scope": "감면사유·증빙·수강료·계좌·신청인 서명",
+          "condition": "2026 회차자료입니다. 해당 1인가구 인문학 강좌의 모집은 2026.6.29~7.22로 종료됐고 교육은 7.8~9.9였습니다. 수강료 20,000원의 해당 회차에 관해 법정 감면 요건·증빙에 해당하는 수강생은 별지1 감면신청, 수강료를 납부하고 법정 반환사유가 있는 수강생은 별지2 반환신청 부분을 확인하는 자료입니다. 강좌 최초 수강신청서나 현재·차기 모집용이 아닙니다. 1인가구라는 이유만으로 감면되는 것이 아니며, 감면율·반환액·신청 가능 여부는 조례 및 발생 시점에 따른 기준을 확인해야 합니다. 교육 종료 후 새 환급권이나 소급감면이 생긴다고 보증하지 않습니다. 두 신청서가 함께 든 공식원문 전체를 제공하며 해당 사유의 한 서식을 선택합니다."
+        },
+        {
+          "number": "별지 제2호",
+          "title": "수강료 반환 신청서",
+          "use": "conditional",
+          "author": "해당2026 강좌 수강료 납부자 중 법정 반환사유에 해당하는 수강생",
+          "scope": "납부일·반환사유·공제액·반환액·계좌·신청인 서명",
+          "condition": "2026 회차자료입니다. 해당 1인가구 인문학 강좌의 모집은 2026.6.29~7.22로 종료됐고 교육은 7.8~9.9였습니다. 수강료 20,000원의 해당 회차에 관해 법정 감면 요건·증빙에 해당하는 수강생은 별지1 감면신청, 수강료를 납부하고 법정 반환사유가 있는 수강생은 별지2 반환신청 부분을 확인하는 자료입니다. 강좌 최초 수강신청서나 현재·차기 모집용이 아닙니다. 1인가구라는 이유만으로 감면되는 것이 아니며, 감면율·반환액·신청 가능 여부는 조례 및 발생 시점에 따른 기준을 확인해야 합니다. 교육 종료 후 새 환급권이나 소급감면이 생긴다고 보증하지 않습니다. 두 신청서가 함께 든 공식원문 전체를 제공하며 해당 사유의 한 서식을 선택합니다."
+        }
+      ],
+      "applicant": "해당 2026 강좌의 법정 감면·반환 요건을 충족하는 수강생",
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "sourceProof": {
+        "programmePageRecord": "logs/forms-followup-20261023f/team2/gwangjin-2026-unesco-course.json",
+        "programmePageSHA256": "480aac2aee5afd619e4316108b50959394e842d13745a4d98753f2de16420ce5",
+        "lawBodyRecord": "logs/forms-followup-20261023f/team2/ordin-22425545-law.json",
+        "currentIdentityRecord": "logs/forms-followup-20261023f/team2/current-law-identities.json",
+        "feeTableRecord": "logs/forms-followup-20261023f/team2/gwangjin-current-fee-tables.json",
+        "printedPartsNumbersIndependentOfPortalNumber": true
+      },
+      "unresolvedOtherPairs": [
+        "g11215.gov24-304000000150",
+        "g11215.gov24-304000000151"
+      ],
+      "screenWritingApproved": false,
+      "lawCurrentCheckedAt": "2026-10-23",
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorApproved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "coordinatorCurrentLawProof": {
+        "lawId": "2060801",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2060801&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2060801&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "45f5cfec240826258b78d8d9c28e850bf06cdc3a202badd25fb58e8b77bbbd55",
+        "bytes": 50378,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-22425545",
+        "sourceSHA256": "6c0773a9cdb1fa6e1d51a49bfede485dd863142c2b05fc3fb6092d62a615c7df",
+        "sourceBytes": 46484,
+        "hancomPages": 2,
+        "pdfSHA256": "05e4ed2470ca78b3c1487abbbe00d3d7d08f861ffe86f8ab1ff92e3d46c994ac",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "formId": "ordin-19859351",
+      "lawId": "1645749",
+      "lawTitle": "동해시 동해사랑상품권 발행 및 운영에 관한 조례 시행규칙",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645749",
+      "annexId": "19859351",
+      "annexNumber": "001100",
+      "printedAnnexNumber": "11",
+      "flSeq": "151986301",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151986301&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8F%99%ED%95%B4%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EC%A0%9C9%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+      "formTitle": "[별지 제11호서식] 동해사랑상품권 환전 청구서(제9조제1항 관련)",
+      "sourceMetadataTitle": "[별지 제11호서식] 동해사랑상품권 환전 청구서(제9조제1항 관련)",
+      "verifiedDocumentTitle": "동해사랑상품권 환전 청구서 중 지류형 가맹점주의 환전 청구",
+      "regionCode": "51170",
+      "regionLabel": "강원특별자치도 동해시",
+      "dateKind": "effective",
+      "effectiveDate": "2021-12-10",
+      "checkedAt": "2026-10-23",
+      "programIds": [
+        "g51170.gov24-421000000638"
+      ],
+      "programNames": [
+        "지역사랑상품권(동해사랑상품권)"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000638",
+      "use": "conditional",
+      "condition": "동해시 지류형 상품권 가맹점으로 별도 등록한 가맹점주가 실제 상품·용역 대금으로 받은 지류형 동해사랑상품권을 취급 금융기관에 환전 청구할 때만 사용합니다. 상호·사업자등록번호·가맹점번호·권종별 매수/금액·등록계좌를 작성하여 지류권과 함께 제출합니다. 일반 소비자의 현금교환·개인 할인구매, 카드형 동해페이 충전·캐시백·카드매출 자동정산 신청에는 사용하지 않습니다. 카드형 동해페이 가맹점 등록만으로 지류형 환전을 할 수 있는 것은 아니며 별도 지류 가맹점 등록이 필요합니다. 아래 환전청구서 접수증은 접수 금융기관의 작성 부분입니다. 동해시 현재 지류 안내는 등록계좌로 익일 이체를 안내하고 규칙은 영업일 기준 3일 이내를 정하므로 실제 접수·이체일은 취급 금융기관 안내를 따릅니다.",
+      "role": "application",
+      "roleBasis": "종전에는 지류환전의 현재 실제 접수 안내가 없다는 이유로 보류했다. 이번 공식 홈페이지의 독립 지류형 상품권 메뉴(key1922)를 실제 GET하여 지류가맹점주→금융기관→환전청구서 작성→등록계좌 익일 이체 절차와15개 금융기관을 확인했다. 현행규칙1645749 제9조①은 이 청구에 별지11을 직접 지정하며 원본의 가맹점번호·상호·권종·매수·금액·계좌와 정확히 맞는다. 원본은 미리 채워진 신청인이나 고정 할인율/한도가 없는 빈 청구서이고 전체388자와 내장WMF1개의 빈 렌더를 확인했다. 정확 수록사업Gov638은 같은 동해사랑상품권 조례를 근거로 가맹점의 수수료 절감·홍보·매출증대도 안내한다. 해당 사업의 일반 소비자 카드발급 절차를 지류권으로 바꾸지 않고, 같은 상품권의 별도 지류가맹점 후속환전 경로에만 제한하는 연결을 제안한다. 이 프로그램의 지류 경로 포함 판단은 공식시청 추가근거에 기초한 검토 제안이며 총괄 독립검증 전 공개승인하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645749",
+      "roleCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "publicationApproved": true,
+      "coordinatorApproved": true,
+      "officialAttachmentMatched": true,
+      "sha256": "edcd9c693939aa6a9ced5850205899ff83b14fd10cdfffa2265b9ec699537b74",
+      "bytes": 48640,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-19859351.hwp",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textLength": 388,
+      "textSha256": "149bd8cde7914964310409f09541bc97f8cc70d4a6429f32096d8365bf9c571b",
+      "textEvidencePath": "logs/forms-followup-20261023g/team1/original-evidence/ordin-19859351.json",
+      "fullBodyReviewed": true,
+      "embeddedResources": [
+        {
+          "stream": "BinData/BIN0001.WMF",
+          "storedBytes": 570,
+          "decodedBytes": 1024,
+          "sha256": "37b977260835ea73a743b72cb1f01ae63e3d17b3ef58ef4da597816d6e882d15",
+          "path": "logs/forms-followup-20261023g/team1/original-evidence/19859351-BIN0001.WMF",
+          "renderedPath": "logs/forms-followup-20261023g/team1/original-evidence/19859351-BIN0001.png",
+          "renderMethod": "Windows System.Drawing GDI+ (read-only render, no Hancom/COM)",
+          "nativeDimensions": [
+            2,
+            2
+          ],
+          "visualReview": {
+            "checkedAt": "2026-10-23",
+            "result": "blank white image; no visible text or applicant information",
+            "sourceSha256": "37b977260835ea73a743b72cb1f01ae63e3d17b3ef58ef4da597816d6e882d15"
+          },
+          "wmfRecordReview": {
+            "declaredBytes": 88,
+            "records": [
+              "SETWINDOWORG",
+              "SETWINDOWEXT zero extent",
+              "ESCAPE",
+              "ESCAPE",
+              "EOF"
+            ],
+            "remainingStreamBytes": 936,
+            "note": "Trailing bytes retained unchanged; rendered Windows metafile is blank. No claim of parsing trailing bytes as document content."
+          }
+        }
+      ],
+      "evidenceUrl": "https://www.dh.go.kr/www/contents.do?key=1922",
+      "evidenceNote": "종전에는 지류환전의 현재 실제 접수 안내가 없다는 이유로 보류했다. 이번 공식 홈페이지의 독립 지류형 상품권 메뉴(key1922)를 실제 GET하여 지류가맹점주→금융기관→환전청구서 작성→등록계좌 익일 이체 절차와15개 금융기관을 확인했다. 현행규칙1645749 제9조①은 이 청구에 별지11을 직접 지정하며 원본의 가맹점번호·상호·권종·매수·금액·계좌와 정확히 맞는다. 원본은 미리 채워진 신청인이나 고정 할인율/한도가 없는 빈 청구서이고 전체388자와 내장WMF1개의 빈 렌더를 확인했다. 정확 수록사업Gov638은 같은 동해사랑상품권 조례를 근거로 가맹점의 수수료 절감·홍보·매출증대도 안내한다. 해당 사업의 일반 소비자 카드발급 절차를 지류권으로 바꾸지 않고, 같은 상품권의 별도 지류가맹점 후속환전 경로에만 제한하는 연결을 제안한다. 이 프로그램의 지류 경로 포함 판단은 공식시청 추가근거에 기초한 검토 제안이며 총괄 독립검증 전 공개승인하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "bodyEvidenceArticle": "시행규칙 제9조제1~2항, 상위조례 제3조제3항·제10조·제11조제7항",
+      "bodyEvidenceText": "시행규칙 제9조제1항은 상품권을 환전하려는 가맹점이 별지11 환전청구서를 판매대행점에 수시 제출하도록 지정한다. 상위조례 제3조는 종이·전자 상품권과 권종 변경을 허용하고 제10조는 가맹점의 환전청구를 규정한다. 동해시 현재 지류형 안내는 관광지에서 지급한 1천원/2천원권을 받은 별도등록 가맹점주에게 금융기관에서 환전청구서를 작성하도록 직접 안내한다.",
+      "reviewedParts": [
+        {
+          "number": "11",
+          "title": "동해사랑상품권 환전 청구서 상단 가맹점주 작성 부분",
+          "use": "conditional",
+          "author": "지류형 동해사랑상품권 등록 가맹점주/대표자",
+          "condition": "동해시 지류형 상품권 가맹점으로 별도 등록한 가맹점주가 실제 상품·용역 대금으로 받은 지류형 동해사랑상품권을 취급 금융기관에 환전 청구할 때만 사용합니다. 상호·사업자등록번호·가맹점번호·권종별 매수/금액·등록계좌를 작성하여 지류권과 함께 제출합니다. 일반 소비자의 현금교환·개인 할인구매, 카드형 동해페이 충전·캐시백·카드매출 자동정산 신청에는 사용하지 않습니다. 카드형 동해페이 가맹점 등록만으로 지류형 환전을 할 수 있는 것은 아니며 별도 지류 가맹점 등록이 필요합니다. 아래 환전청구서 접수증은 접수 금융기관의 작성 부분입니다. 동해시 현재 지류 안내는 등록계좌로 익일 이체를 안내하고 규칙은 영업일 기준 3일 이내를 정하므로 실제 접수·이체일은 취급 금융기관 안내를 따릅니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "excludedParts": [
+        {
+          "number": "11-접수증",
+          "title": "동해사랑상품권 환전청구서 접수증",
+          "author": "접수 금융기관 담당자",
+          "reason": "원본은 보존하되 가맹점주가 채우는 시민 입력 부분으로 안내하지 않는다."
+        }
+      ],
+      "sourceIssues": [
+        "정부24 정확사업의 소비자 대상·신청방법은 카드형 중심이며 지류환전 경로 자체를 직접 설명하지 않는다. 이번 연결은 같은 공식사업의 가맹점 부분에 대한 현행 시청 지류메뉴+법정서식의 수동검증 제안이다.",
+        "시행규칙 제3조②는 전자카드 발행을 기술하나 상위조례 제3조③은 종이/전자 및 권종변경을 허용하고 현재 시청은 지류발행·가맹점 환전을 직접 안내한다. 규칙 본문 표현 차이를 삭제하거나 법규개정을 추정하지 않았다.",
+        "현재 지류 안내의 익일 이체와 규칙 제9조②의 영업일 기준3일 이내를 구분한다.",
+        "일반 개인·법인의 지류 개별구매 및 사용자 현금교환은 시청 현재 안내상 불가하다. 이 청구서의 가맹점 환전과 구분한다."
+      ],
+      "evidenceFiles": [
+        {
+          "path": "logs/forms-followup-20261023g/team1/donghae-paper.json",
+          "metadataSha256": "70cf8331a5ce1ddb0ca5567e91303cff81b5d98ff0d59b6d5bd91b41be77809b",
+          "url": "https://www.dh.go.kr/www/contents.do?key=1922",
+          "httpStatus": 200,
+          "sha256": "98bbd45039b5d02a09f8174698b91d63cefb2aa1b16e512c5a95d34bdff1dc10",
+          "bytes": 284721,
+          "checkedAt": "2026-10-22T21:40:17.859989+00:00"
+        },
+        {
+          "path": "logs/forms-followup-20261023g/team1/donghae-card.json",
+          "metadataSha256": "178bd068122a5a318421192252af972f20a071231b5599fbf77def9cf057579d",
+          "url": "https://www.dh.go.kr/www/contents.do?key=774",
+          "httpStatus": 200,
+          "sha256": "68551be9b08120cd2f5ae085cb108e93f59ddab577d31bfc3dac85e58d111f05",
+          "bytes": 278783,
+          "checkedAt": "2026-10-22T21:40:17.983486+00:00"
+        },
+        {
+          "path": "logs/forms-followup-20261023g/team1/donghae-parent-law.json",
+          "metadataSha256": "e4c00bf7d3b6ffaaa48a426e623a939cf1e86e0139fd321044b66171405b746a",
+          "url": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1633129",
+          "finalUrl": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1633129",
+          "httpStatus": 200,
+          "sha256": "016e9c281fab67147531b14770940bf15931258eb172c42a18aa3746a9ea21cd",
+          "bytes": 35835,
+          "checkedAt": "2026-10-22T21:42:02.330612+00:00"
+        },
+        {
+          "path": "logs/forms-followup-20261023b/root/evidence/law-1645749.json",
+          "metadataSha256": "8d9b29f4a6a2a5545560ff946f01209a2f3a33521b9b099d3ce59a36cad1f1eb",
+          "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1645749&gubun=ELIS&chrClsCd=010202",
+          "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1645749&gubun=ELIS&chrClsCd=010202",
+          "httpStatus": 200,
+          "sha256": "2e0a0c3bb25ec0fef42a15c20098b52f7c9cebf0f6418a996272595bcfe54a0c",
+          "bytes": 47343,
+          "checkedAt": "2026-10-22T18:27:47.225405+00:00"
+        },
+        {
+          "path": "logs/forms-followup-20261023b/root/evidence/program-g51170.gov24-421000000638.json",
+          "metadataSha256": "9ab78a261436a6a6f75aa92d925abab6a495d93f2b0c62e88e5fd191f25175c4",
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000638",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000638",
+          "httpStatus": 200,
+          "sha256": "e8ef1ea5ea962c3ef3950cac805265083b05969a436016efa1efbc4f2f75afcf",
+          "bytes": 185603,
+          "checkedAt": "2026-10-22T18:27:46.740749+00:00"
+        },
+        {
+          "path": "logs/forms-followup-20261023b/root/evidence/ordin-19859351.json",
+          "metadataSha256": "363a6f0d32602f382feaad4b6c28e05b55e6da7d8c9f01d0091322f6b2d86ae4",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151986301&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8F%99%ED%95%B4%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EC%A0%9C9%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+          "finalUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151986301&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8F%99%ED%95%B4%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EC%A0%9C9%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+          "httpStatus": 200,
+          "sha256": "edcd9c693939aa6a9ced5850205899ff83b14fd10cdfffa2265b9ec699537b74",
+          "bytes": 48640,
+          "checkedAt": "2026-10-22T18:27:41.343137+00:00"
+        }
+      ],
+      "currentLawBinding": {
+        "binding": "bound",
+        "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+        "officialAnnexDeleted": false,
+        "officialAnnexId": "19859351",
+        "officialAnnexNumber": "11",
+        "officialAnnexTitle": "[별지 제11호서식] 동해사랑상품권 환전 청구서(제9조제1항 관련)",
+        "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=151986301&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C11%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%8F%99%ED%95%B4%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EC%A0%9C9%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EA%B4%80%EB%A0%A8%29",
+        "officialFlSeq": "151986301"
+      },
+      "currentLawState": "source_current",
+      "currentLawCheckedAt": "2026-10-19",
+      "reviewedBy": "/root/forms_source_audit",
+      "screenWritingApproved": false,
+      "writingHoldRecommendation": {
+        "formId": "ordin-19859351",
+        "sha256": "edcd9c693939aa6a9ced5850205899ff83b14fd10cdfffa2265b9ec699537b74",
+        "reason": "상단 지류가맹점 작성 부분만 제안하며 하단 접수증은 기관작성. 전체 양식의 화면작성 슬롯 범위는 아직 검증하지 않아 입력 기능은 별도 검증 전 보류 권고."
+      },
+      "displayTitle": "지류 등록 가맹점의 동해사랑상품권 환전 청구서",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645749",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "coordinatorCurrentLawProof": {
+        "lawId": "1645749",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1645749&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1645749&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "2e0a0c3bb25ec0fef42a15c20098b52f7c9cebf0f6418a996272595bcfe54a0c",
+        "bytes": 47343,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-19859351",
+        "sourceSHA256": "edcd9c693939aa6a9ced5850205899ff83b14fd10cdfffa2265b9ec699537b74",
+        "sourceBytes": 48640,
+        "hancomPages": 1,
+        "pdfSHA256": "ddde4fb1dfa617f7f46e9df59e5b3cd6cb93bf14ef40585d89b907e54f60066c",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      },
+      "selectedParts": [
+        {
+          "number": "11",
+          "title": "동해사랑상품권 환전 청구서 상단 가맹점주 작성 부분",
+          "use": "conditional",
+          "author": "지류형 동해사랑상품권 등록 가맹점주/대표자",
+          "condition": "동해시 지류형 상품권 가맹점으로 별도 등록한 가맹점주가 실제 상품·용역 대금으로 받은 지류형 동해사랑상품권을 취급 금융기관에 환전 청구할 때만 사용합니다. 상호·사업자등록번호·가맹점번호·권종별 매수/금액·등록계좌를 작성하여 지류권과 함께 제출합니다. 일반 소비자의 현금교환·개인 할인구매, 카드형 동해페이 충전·캐시백·카드매출 자동정산 신청에는 사용하지 않습니다. 카드형 동해페이 가맹점 등록만으로 지류형 환전을 할 수 있는 것은 아니며 별도 지류 가맹점 등록이 필요합니다. 아래 환전청구서 접수증은 접수 금융기관의 작성 부분입니다. 동해시 현재 지류 안내는 등록계좌로 익일 이체를 안내하고 규칙은 영업일 기준 3일 이내를 정하므로 실제 접수·이체일은 취급 금융기관 안내를 따릅니다.",
+          "fullBodyReviewed": true
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22282177",
+      "programIds": [
+        "g41610.gov24-554000000158"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2156975",
+      "lawTitle": "광주시 자연채 상표 사용에 관한 조례 시행규칙",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2156975",
+      "annexId": "22282177",
+      "annexNumber": "9",
+      "sourceAnnexNumberRaw": "0009",
+      "indexedAnnexNumber": "000900",
+      "verifiedAnnexNumber": "7",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167785055&flNm=%EB%B3%84%EC%A7%807",
+      "formTitle": "별지7",
+      "sourceMetadataTitle": "별지7",
+      "verifiedDocumentTitle": "자연채 포장재 사용신청서",
+      "dateKind": "effective",
+      "effectiveDate": "2026-08-03",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2156975",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "regionCode": "41610",
+      "regionLabel": "경기도 광주시",
+      "role": "application",
+      "use": "conditional",
+      "condition": "경기도 광주시 자연채 포장재 지원사업 대상인 인증 생산자단체·개인이, 사용권을 받은 품목의 포장재에 자연채 상표를 표시하려는 때 제출하는 법정 포장재 사용신청서입니다. 승인번호와 품목, 포장재 규격·수량·사용기한을 적어 광주시장에게 제출합니다. 포장재 구입비 50% 지원의 사업수요·보조금 신청서, 최초 상표사용권 신청서 또는 홈쇼핑 방송비 신청서를 대신하지 않습니다. 지원사업 수요량 확인은 매년 말에 이루어지며, 이 사용신청만으로 보조금 지급이 확정되는 것은 아닙니다.",
+      "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/554000000158",
+      "evidenceNote": "정확 정부24 554000000158은 자연채 인증 생산자단체·개인의 자연채 포장재 구입비 50% 지원과 같은 상위조례를 명시한다. 현행 상위조례 1992815 제12~14조·18조는 상표사용권과 그 생산자 자금지원, 현행 규칙 2156975 제7조1항은 사용권자가 포장재 등에 자연채를 표시할 때 별지7 제출을 직접 의무화한다. 원본 전체311자는 승인번호·허가품목·포장재 규격과 수량·사용기한·대표 서명을 담으므로 그 포장재의 법정 사용절차에만 연결한다. 신청자 제작비 부담이라는 제7조2항을 50% 보조사업 부존재로 해석하지 않으며, 이 서식이 별도 보조금 사업신청을 겸한다는 주장도 하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2156975",
+      "roleBasis": "정확 정부24 554000000158은 자연채 인증 생산자단체·개인의 자연채 포장재 구입비 50% 지원과 같은 상위조례를 명시한다. 현행 상위조례 1992815 제12~14조·18조는 상표사용권과 그 생산자 자금지원, 현행 규칙 2156975 제7조1항은 사용권자가 포장재 등에 자연채를 표시할 때 별지7 제출을 직접 의무화한다. 원본 전체311자는 승인번호·허가품목·포장재 규격과 수량·사용기한·대표 서명을 담으므로 그 포장재의 법정 사용절차에만 연결한다. 신청자 제작비 부담이라는 제7조2항을 50% 보조사업 부존재로 해석하지 않으며, 이 서식이 별도 보조금 사업신청을 겸한다는 주장도 하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "2129a6988fb231bf180d5b4ad537edd2d82e91cf5900b360ef2029f7e4eef29b",
+      "bytes": 12288,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-22282177.hwp",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제7호서식",
+          "title": "자연채 포장재 사용신청서",
+          "use": "conditional",
+          "author": "자연채 상표 사용권을 부여받은 생산자단체 대표 또는 개인 생산자",
+          "scope": "원본 전체 본문·작성란·서명·동의·첨부 안내",
+          "condition": "경기도 광주시 자연채 포장재 지원사업 대상인 인증 생산자단체·개인이, 사용권을 받은 품목의 포장재에 자연채 상표를 표시하려는 때 제출하는 법정 포장재 사용신청서입니다. 승인번호와 품목, 포장재 규격·수량·사용기한을 적어 광주시장에게 제출합니다. 포장재 구입비 50% 지원의 사업수요·보조금 신청서, 최초 상표사용권 신청서 또는 홈쇼핑 방송비 신청서를 대신하지 않습니다. 지원사업 수요량 확인은 매년 말에 이루어지며, 이 사용신청만으로 보조금 지급이 확정되는 것은 아닙니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제7호서식",
+          "title": "자연채 포장재 사용신청서",
+          "use": "conditional",
+          "author": "자연채 상표 사용권을 부여받은 생산자단체 대표 또는 개인 생산자",
+          "scope": "원본 전체 본문·작성란·서명·동의·첨부 안내",
+          "condition": "경기도 광주시 자연채 포장재 지원사업 대상인 인증 생산자단체·개인이, 사용권을 받은 품목의 포장재에 자연채 상표를 표시하려는 때 제출하는 법정 포장재 사용신청서입니다. 승인번호와 품목, 포장재 규격·수량·사용기한을 적어 광주시장에게 제출합니다. 포장재 구입비 50% 지원의 사업수요·보조금 신청서, 최초 상표사용권 신청서 또는 홈쇼핑 방송비 신청서를 대신하지 않습니다. 지원사업 수요량 확인은 매년 말에 이루어지며, 이 사용신청만으로 보조금 지급이 확정되는 것은 아닙니다."
+        }
+      ],
+      "embeddedBodyResourceCount": 0,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "reviewer": "Codex /root/national_form_audit",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "programmeEvidence": [
+        {
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/554000000158",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/554000000158",
+          "httpStatus": 200,
+          "bytes": 184993,
+          "sha256": "6a7d6422f6b7e13e05ccf176258852b2909b174c151049e1a3aad216f654a3f4",
+          "checkedAt": "2026-10-22T18:27:45.849953+00:00",
+          "path": "logs/forms-followup-20261023b/root/evidence/program-g41610.gov24-554000000158.body",
+          "savedSanitizedTextSHA256": null,
+          "metadataPath": "logs/forms-followup-20261023b/root/evidence/program-g41610.gov24-554000000158.json",
+          "metadataFileSHA256": "99423f23deaf004885401c31d76b7898f1f135adfbfa6f9511c64ccbbb735571",
+          "newGETThisPass": false,
+          "independentlyReadThisPass": true
+        }
+      ],
+      "currentLawEvidence": {
+        "bodyPath": "logs/forms-completion/law-bodies/2156975.json.gz",
+        "bodyCacheFileSHA256": "5ee200fe8927035adc342d5232a5c792900392408b9cde52c1b9e8113fec2101",
+        "bindingPath": "logs/forms-followup-20261023h/team3/legal-proof-v1.json",
+        "currentIdentityCheckPath": "logs/forms-followup-20261023h/team3/current-law-searches-v1.json",
+        "flSeq": "167785055"
+      },
+      "parentLawEvidence": [
+        {
+          "lawId": "1992815",
+          "url": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1992815",
+          "bodyPath": "logs/forms-followup-20261023h/team3/laws/1992815-official.json",
+          "rawResponseSHA256": "513610305453f1e918a44146acdb56d504ae9a395a14afe9af1b0ba3a9b3a473",
+          "articlesRead": "제1~20조 및 전체 제공 부칙",
+          "relevantArticles": [
+            "제12조",
+            "제13조",
+            "제14조",
+            "제18조"
+          ]
+        }
+      ],
+      "sourceIssues": [
+        "원래 제목 별지7, 법규ID·별표키·다운로드 URL·원본 SHA를 보존한다. 최초 상표권 사용신청은 규칙 제2조 별지1로 별개다.",
+        "동일 인증요건을 가진 홈쇼핑 사업 554000000159에는 포장재 사용신청이 필요하다는 근거가 없어 이번 연결에서 제외한다."
+      ],
+      "displayTitle": "자연채 포장재 사용신청서",
+      "visualPageReviewPerformed": false,
+      "sourceResourceReview": {
+        "method": "independent OLE BodyText full extraction and BinData inventory",
+        "bodySections": [
+          "BodyText/Section0"
+        ],
+        "embeddedResourceCount": 0,
+        "sourceOriginalUnchanged": true,
+        "comOrNativeRenderingPerformedThisPass": false
+      },
+      "coordinatorApproved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "coordinatorCurrentLawProof": {
+        "lawId": "2156975",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2156975&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2156975&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "c33ed000c1b8b9f66ee415ded80610e9d8e68d33cddd45c709973701eef79a56",
+        "bytes": 27666,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-22282177",
+        "sourceSHA256": "2129a6988fb231bf180d5b4ad537edd2d82e91cf5900b360ef2029f7e4eef29b",
+        "sourceBytes": 12288,
+        "hancomPages": 1,
+        "pdfSHA256": "98c47672fd7fc1df17fd35788eea121588ad8b93ba9710aaf34fc114f6f19c54",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "ordin-19976627",
+      "programIds": [
+        "g41830.gov24-417000000101"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "793158",
+      "lawTitle": "양평군 영유아 보육 조례 시행규칙",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=793158",
+      "annexId": "19976627",
+      "annexNumber": "2",
+      "sourceAnnexNumberRaw": "0002",
+      "indexedAnnexNumber": "000200",
+      "verifiedAnnexNumber": "2",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152186553&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9E%85%EC%86%8C%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "formTitle": "[별지 제2호서식] 입소신청서",
+      "sourceMetadataTitle": "[별지 제2호서식] 입소신청서",
+      "verifiedDocumentTitle": "입소신청서",
+      "dateKind": "effective",
+      "effectiveDate": "2011-06-28",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=793158",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "regionCode": "41830",
+      "regionLabel": "경기도 양평군",
+      "role": "application",
+      "use": "conditional",
+      "condition": "양평군 저소득·다문화가정 입학준비금 대상 아동이 군립어린이집에 입소할 때 보호자가 시설장에게 제출하는 입소 절차용 서류입니다. 해당 입소순위 증빙을 함께 제출합니다. 준비금 10만원 청구나 지급계좌 신고를 겸하는 서식은 아니며, 입학준비금 지원 절차는 해당 어린이집에서 별도로 진행합니다. 이미 입소한 아동에게 재제출을 요구하는 안내가 아닙니다. 원본에 군립어린이집 입소라고 인쇄되어 있어 다른 유형 어린이집의 입소신청서로 확대하지 않습니다.",
+      "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/417000000101",
+      "evidenceNote": "정확 Gov417000000101은 관내 저소득·다문화 어린이집 입학아동을 대상으로 관할 어린이집 입소시 방문접수를 안내하고, 병합 원천 Bokjiro WLF00002613은 어린이집 입학준비금과 시설 입금방식을 명시한다. 현행 상위조례1926225 제16조 군립어린이집 및 제25조2호 아동입소료 지원과 규칙793158 제4조1항의 의무 입소신청 별지2를 대조했다. 원본320자는 군립어린이집 입소 의사·보호자 서명·우선순위 증빙과 시설장 수신이며 청구액·계좌란은 없다. 따라서 준비금 겸용이 아니라 해당 지원의 실제 입소 전제에 필요한 군립 입소 경로로 조건부 연결한다. 규칙 문장은 이에 준하는 정부지원 시설도 포함하나 원본의 군립이라는 신청인 문구를 바꾸거나 그밖의 시설까지 확장하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=793158",
+      "roleBasis": "정확 Gov417000000101은 관내 저소득·다문화 어린이집 입학아동을 대상으로 관할 어린이집 입소시 방문접수를 안내하고, 병합 원천 Bokjiro WLF00002613은 어린이집 입학준비금과 시설 입금방식을 명시한다. 현행 상위조례1926225 제16조 군립어린이집 및 제25조2호 아동입소료 지원과 규칙793158 제4조1항의 의무 입소신청 별지2를 대조했다. 원본320자는 군립어린이집 입소 의사·보호자 서명·우선순위 증빙과 시설장 수신이며 청구액·계좌란은 없다. 따라서 준비금 겸용이 아니라 해당 지원의 실제 입소 전제에 필요한 군립 입소 경로로 조건부 연결한다. 규칙 문장은 이에 준하는 정부지원 시설도 포함하나 원본의 군립이라는 신청인 문구를 바꾸거나 그밖의 시설까지 확장하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "9b711e559913fd9d4b80143320c71681dfe82243c11d180120b67d7da2fa7795",
+      "bytes": 30720,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-19976627.hwp",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "입소신청서",
+          "use": "conditional",
+          "author": "양평군 군립어린이집에 입소할 해당 아동의 보호자",
+          "scope": "원본 전체 본문·작성란·서명·동의·첨부 안내",
+          "condition": "양평군 저소득·다문화가정 입학준비금 대상 아동이 군립어린이집에 입소할 때 보호자가 시설장에게 제출하는 입소 절차용 서류입니다. 해당 입소순위 증빙을 함께 제출합니다. 준비금 10만원 청구나 지급계좌 신고를 겸하는 서식은 아니며, 입학준비금 지원 절차는 해당 어린이집에서 별도로 진행합니다. 이미 입소한 아동에게 재제출을 요구하는 안내가 아닙니다. 원본에 군립어린이집 입소라고 인쇄되어 있어 다른 유형 어린이집의 입소신청서로 확대하지 않습니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "입소신청서",
+          "use": "conditional",
+          "author": "양평군 군립어린이집에 입소할 해당 아동의 보호자",
+          "scope": "원본 전체 본문·작성란·서명·동의·첨부 안내",
+          "condition": "양평군 저소득·다문화가정 입학준비금 대상 아동이 군립어린이집에 입소할 때 보호자가 시설장에게 제출하는 입소 절차용 서류입니다. 해당 입소순위 증빙을 함께 제출합니다. 준비금 10만원 청구나 지급계좌 신고를 겸하는 서식은 아니며, 입학준비금 지원 절차는 해당 어린이집에서 별도로 진행합니다. 이미 입소한 아동에게 재제출을 요구하는 안내가 아닙니다. 원본에 군립어린이집 입소라고 인쇄되어 있어 다른 유형 어린이집의 입소신청서로 확대하지 않습니다."
+        }
+      ],
+      "embeddedBodyResourceCount": 0,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "reviewer": "Codex /root/national_form_audit",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "programmeEvidence": [
+        {
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/417000000101",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/417000000101",
+          "httpStatus": 200,
+          "bytes": 184549,
+          "sha256": "1726608f2feb081edf0c4d1b59557a928d7c69ee536ab2fd9d505db6cceca72b",
+          "checkedAt": "2026-10-22T18:32:04.021895+00:00",
+          "path": "logs/forms-followup-20261023b/team3/pages/gov24-417000000101.html",
+          "savedSanitizedTextSHA256": "b055c0beb4ac03af0b3857bd4ef81b45f3e241112b6df44de7155d761a58ffcf",
+          "metadataPath": "logs/forms-followup-20261023b/team3/pages/gov24-417000000101.json",
+          "metadataFileSHA256": "9a8956c15bd0551632801686ddd186958543656c9b7faed920370f215da4b9ca",
+          "newGETThisPass": false,
+          "independentlyReadThisPass": true
+        },
+        {
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002613&wlfareInfoReldBztpCd=02",
+          "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002613&wlfareInfoReldBztpCd=02",
+          "httpStatus": 200,
+          "bytes": 97547,
+          "sha256": "5f27705fcdcf2320314b93fa022e8a3854bbb218d0f99cd5b686582e26571e3a",
+          "checkedAt": "2026-10-22T18:32:14.981862+00:00",
+          "path": "logs/forms-followup-20261023b/team3/pages/bokjiro-WLF00002613.html",
+          "savedSanitizedTextSHA256": "5f27705fcdcf2320314b93fa022e8a3854bbb218d0f99cd5b686582e26571e3a",
+          "metadataPath": "logs/forms-followup-20261023b/team3/pages/bokjiro-WLF00002613.json",
+          "metadataFileSHA256": "cf9bd0f50645819124fa6363ed5d804af7c0969cd97ba99bdfc569ddf374585c",
+          "newGETThisPass": false,
+          "independentlyReadThisPass": true
+        }
+      ],
+      "currentLawEvidence": {
+        "bodyPath": "logs/forms-completion/law-bodies/793158.json.gz",
+        "bodyCacheFileSHA256": "8168cecfc8287e23c046859a1eec1e105a1788df6a69761abef78c1f32b58759",
+        "bindingPath": "logs/forms-followup-20261023h/team3/legal-proof-v1.json",
+        "currentIdentityCheckPath": "logs/forms-followup-20261023h/team3/current-law-searches-v1.json",
+        "flSeq": "152186553"
+      },
+      "parentLawEvidence": [
+        {
+          "lawId": "1926225",
+          "url": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=1926225",
+          "bodyPath": "logs/forms-followup-20261023b/team3/laws/1926225-official.json",
+          "rawResponseSHA256": "90812d48a58498747f5c37a0baa151091b9d4a06cf96c4a2b1fcbeab1d3f2af1",
+          "articlesRead": "제1~28조 및 전체 제공 부칙",
+          "relevantArticles": [
+            "제16조",
+            "제25조"
+          ]
+        }
+      ],
+      "sourceIssues": [
+        "입소서가 준비금 신청을 겸한다는 증거는 발견하지 못했다. 이번 제안은 지원대상 아동이 실제로 군립어린이집에 들어가는 법정 입소단계만이다.",
+        "현행 규칙 제4조의 정부지원시설 범위는 본문에 있으나 원본의 군립어린이집 문구와 정확히 일치하지 않는 시설까지 권고하지 않는다. 보호자 부·모 칸은 정보란이며 양부모 모두 존재한다는 확약으로 해석하지 않는다."
+      ],
+      "visualPageReviewPerformed": false,
+      "sourceResourceReview": {
+        "method": "independent OLE BodyText full extraction and BinData inventory",
+        "bodySections": [
+          "BodyText/Section0"
+        ],
+        "embeddedResourceCount": 0,
+        "sourceOriginalUnchanged": true,
+        "comOrNativeRenderingPerformedThisPass": false
+      },
+      "displayTitle": "군립어린이집 입소 절차용 신청서 · 준비금 청구와 별도",
+      "coordinatorApproved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "coordinatorCurrentLawProof": {
+        "lawId": "793158",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=793158&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=793158&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "f6f32f08fa510da0b490adc4914f6519a2ba92826263c790aec17b5aa34630c8",
+        "bytes": 15917,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-19976627",
+        "sourceSHA256": "9b711e559913fd9d4b80143320c71681dfe82243c11d180120b67d7da2fa7795",
+        "sourceBytes": 30720,
+        "hancomPages": 1,
+        "pdfSHA256": "e3896287ccaf17bee718bcf03124ddb894c8cb64c52a6c653b1f9f75350a38cc",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "ordin-21934315",
+      "programIds": [
+        "g51760.gov24-O00002700004"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2133271",
+      "lawTitle": "평창군 장사시설의 설치 및 운영에 관한 조례 시행규칙",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2133271",
+      "annexId": "21934315",
+      "annexNumber": "6",
+      "sourceAnnexNumberRaw": "0006",
+      "indexedAnnexNumber": "000600",
+      "verifiedAnnexNumber": "5",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=165903035&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8+%EC%84%9C%EC%8B%9D%5D+%EC%9E%A5%EC%82%AC%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9%ED%97%88%EA%B0%80+%EB%B3%80%EA%B2%BD+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "formTitle": "[별지 제5호 서식] 장사시설 사용허가 변경 신청서",
+      "sourceMetadataTitle": "[별지 제5호 서식] 장사시설 사용허가 변경 신청서",
+      "verifiedDocumentTitle": "장사시설 사용허가 변경 신청서",
+      "dateKind": "effective",
+      "effectiveDate": "2026-06-19",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2133271",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "regionCode": "51760",
+      "regionLabel": "강원특별자치도 평창군",
+      "role": "application",
+      "use": "conditional",
+      "condition": "평창군 장사시설 사용료 면제 대상 이용자 중, 실제 유효한 허가증의 사용기간이 15년인 묘지·봉안시설의 주소 변경, 상속에 따른 사용권 승계, 개장 또는 시설물 변경을 신고할 때 사용합니다. 허가증을 첨부하고 사용권 승계자는 주민등록등본·가족관계증명서도 갖춥니다. 신규 사용허가·면제 신청이나 사용기간 연장신청을 대신하지 않으며, 현행 30년 허가를 원본의 15년 문구에 맞춰 작성하지 마세요. 기간연장은 별지3의 별도 절차이고 상속 외 사용권 전매·양도를 신청하는 서식도 아닙니다.",
+      "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00002700004",
+      "evidenceNote": "정확 GovO00002700004는 평창군 공설묘원 사용료 면제 및 같은 상위조례16조3항을 명시한다. 현행 상위2110005 제7조1항은 기존15년 허가를 명시하여 30년 연장 후15년 추가연장 경로까지 규정하고, 제17조는 모든 장사시설 사용자의 주소·상속승계·개장·시설변경 신고를 의무화하며, 규칙2133271 제11조는 그 신고를 별지5로 지정한다. 면제 이용자도 해당 시설 사용자이므로 현행 법정 후속 의무에 적용되는 것으로 판독하며, 감면 재심사·유지용 별도 신청이라고 주장하지 않는다. 원본 전체568자의 현재사용기간15년·변경전후·허가증·승계증빙·동의를 확인했다. 이15년 표시는 모든 변경서의 무효 근거가 아니나 실제30년허가를 담지 못하므로 현재허가15년인 경로에 한정한다. 규칙2조3항의 별지3 기간연장과 조례16조의2 반환청구는 별개다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2133271",
+      "roleBasis": "정확 GovO00002700004는 평창군 공설묘원 사용료 면제 및 같은 상위조례16조3항을 명시한다. 현행 상위2110005 제7조1항은 기존15년 허가를 명시하여 30년 연장 후15년 추가연장 경로까지 규정하고, 제17조는 모든 장사시설 사용자의 주소·상속승계·개장·시설변경 신고를 의무화하며, 규칙2133271 제11조는 그 신고를 별지5로 지정한다. 면제 이용자도 해당 시설 사용자이므로 현행 법정 후속 의무에 적용되는 것으로 판독하며, 감면 재심사·유지용 별도 신청이라고 주장하지 않는다. 원본 전체568자의 현재사용기간15년·변경전후·허가증·승계증빙·동의를 확인했다. 이15년 표시는 모든 변경서의 무효 근거가 아니나 실제30년허가를 담지 못하므로 현재허가15년인 경로에 한정한다. 규칙2조3항의 별지3 기간연장과 조례16조의2 반환청구는 별개다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "cc4395b5fc3dbfb998035293ee8e776379b40461bb812bc3529916998142e86e",
+      "bytes": 50688,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023h/root/evidence/ordin-21934315.hwp",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제5호 서식",
+          "title": "장사시설 사용허가 변경 신청서",
+          "use": "conditional",
+          "author": "평창군 공설장사시설의 기존 사용자 또는 법에 따른 사용권 상속승계자",
+          "scope": "원본 전체 본문·작성란·서명·동의·첨부 안내",
+          "condition": "평창군 장사시설 사용료 면제 대상 이용자 중, 실제 유효한 허가증의 사용기간이 15년인 묘지·봉안시설의 주소 변경, 상속에 따른 사용권 승계, 개장 또는 시설물 변경을 신고할 때 사용합니다. 허가증을 첨부하고 사용권 승계자는 주민등록등본·가족관계증명서도 갖춥니다. 신규 사용허가·면제 신청이나 사용기간 연장신청을 대신하지 않으며, 현행 30년 허가를 원본의 15년 문구에 맞춰 작성하지 마세요. 기간연장은 별지3의 별도 절차이고 상속 외 사용권 전매·양도를 신청하는 서식도 아닙니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제5호 서식",
+          "title": "장사시설 사용허가 변경 신청서",
+          "use": "conditional",
+          "author": "평창군 공설장사시설의 기존 사용자 또는 법에 따른 사용권 상속승계자",
+          "scope": "원본 전체 본문·작성란·서명·동의·첨부 안내",
+          "condition": "평창군 장사시설 사용료 면제 대상 이용자 중, 실제 유효한 허가증의 사용기간이 15년인 묘지·봉안시설의 주소 변경, 상속에 따른 사용권 승계, 개장 또는 시설물 변경을 신고할 때 사용합니다. 허가증을 첨부하고 사용권 승계자는 주민등록등본·가족관계증명서도 갖춥니다. 신규 사용허가·면제 신청이나 사용기간 연장신청을 대신하지 않으며, 현행 30년 허가를 원본의 15년 문구에 맞춰 작성하지 마세요. 기간연장은 별지3의 별도 절차이고 상속 외 사용권 전매·양도를 신청하는 서식도 아닙니다."
+        }
+      ],
+      "embeddedBodyResourceCount": 0,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "reviewer": "Codex /root/national_form_audit",
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "programmeEvidence": [
+        {
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00002700004",
+          "finalUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00002700004",
+          "httpStatus": 200,
+          "bytes": 186090,
+          "sha256": "ce80e555139515b53f26ce199b8f6c0e9e227fc45d1739590e6c22b433109553",
+          "checkedAt": "2026-10-22T18:40:05.190141+00:00",
+          "path": "logs/forms-followup-20261023b/grok/evidence/pages/pc-gov24.bin",
+          "savedSanitizedTextSHA256": null,
+          "metadataPath": "logs/forms-followup-20261023b/grok/evidence/pages/pc-gov24.json",
+          "metadataFileSHA256": "52ff6c8001e3a5a2de0041e6ea5c0af008c9a7c0f31d0e942074751ba73dd651",
+          "newGETThisPass": false,
+          "independentlyReadThisPass": true,
+          "rawBytesSHAReverified": true
+        }
+      ],
+      "currentLawEvidence": {
+        "bodyPath": "logs/forms-completion/law-bodies/2133271.json.gz",
+        "bodyCacheFileSHA256": "57966702c00d4edb308251a892466e103ebec60a36113023a84f2fcf70d862ef",
+        "bindingPath": "logs/forms-followup-20261023h/team3/legal-proof-v1.json",
+        "currentIdentityCheckPath": "logs/forms-followup-20261023h/team3/current-law-searches-v1.json",
+        "flSeq": "165903035"
+      },
+      "parentLawEvidence": [
+        {
+          "lawId": "2110005",
+          "url": "https://www.law.go.kr/ordinInfoR.do?ordinSeq=2110005",
+          "bodyPath": "logs/forms-completion/law-bodies/2110005.json.gz",
+          "bodyCacheFileSHA256": "016998295e52a39b403346187fe380ce15d032e6f43dd109f07ac502cb38978e",
+          "articlesRead": "제1~28조, 조의2 포함 전체 조문 및 제공 부칙",
+          "relevantArticles": [
+            "제7조",
+            "제13조",
+            "제15조",
+            "제16조",
+            "제17조"
+          ]
+        }
+      ],
+      "sourceIssues": [
+        "현재 조례 제16조3항의 면제범위는 생계·의료·보장시설 수급자, 국가유공자와 배우자, 무연고 행려사망자, 장기등 기증자이며 종전4호는 삭제됐다. 자료의 납부능력 부족 일반문구로 현행면제자격을 새로 인정하지 않는다.",
+        "현재 규칙 제8조는 삭제됐으나 정확 사업 원천은 이를 계속 인용한다. 이번 경로는 현행 제11조와 조례17조에 직접 근거하며 삭제된8조에 의존하지 않는다.",
+        "본표에 사용기간 변경란은 있으나 기간 연장 자체는 현행 규칙2조3항 별지3을 쓰므로 별지5로 연장권리를 만들지 않는다.",
+        "조례와 규칙의 초기 경과조항은 시행당시 진행사항에 관한 것일 뿐 모든 옛문구를 새30년허가에 쓰게 하는 근거로 확장하지 않는다."
+      ],
+      "visualPageReviewPerformed": false,
+      "sourceResourceReview": {
+        "method": "independent OLE BodyText full extraction and BinData inventory",
+        "bodySections": [
+          "BodyText/Section0"
+        ],
+        "embeddedResourceCount": 0,
+        "sourceOriginalUnchanged": true,
+        "comOrNativeRenderingPerformedThisPass": false
+      },
+      "displayTitle": "기존 15년 허가 장사시설의 사용허가 변경 신청서",
+      "coordinatorApproved": true,
+      "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+      "coordinatorCurrentLawProof": {
+        "lawId": "2133271",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2133271&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2133271&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "e48a7c39408d1458facea11b06346295fb819722051509ef17f2ea6a8143f4ce",
+        "bytes": 31430,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-21934315",
+        "sourceSHA256": "cc4395b5fc3dbfb998035293ee8e776379b40461bb812bc3529916998142e86e",
+        "sourceBytes": 50688,
+        "hancomPages": 1,
+        "pdfSHA256": "8fed3b4a67eb410c81caf1b71478ce5ac94254d8ffbffa4a8fa74ad8bb9bf49f",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "all native Hancom pages visually inspected; complete extracted source body and fresh official articles read",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    }
+  ]
+}

@@ -718,15 +718,18 @@
     {
       "formId": "ordin-22742385",
       "sha256": "f7cb5887ede17237d282f705091315b92ab3fdfcee3528526ccf7f456c603795",
-      "disposition": "non_applicant",
-      "reason": "보조금으로취득한중요재산의유형·가액·처분제한기간을관리하는현황표로지원신청서가아니다.",
+      "disposition": "approved",
+      "reason": "정확 정부24 486000000126의2026-10-23 HTTP200 본문은 스마트온실·환경관리 자동제어·시설관리 등 사업과 곡성군 지방보조금 관리 조례를 직접 인용한다. 2026-10-23 실제 법령검색에서 현행MST2173001/2026-09-30을 재확인하고 동일MST 전체 조례 제9조①②와 부칙을 읽었다. 제9조는 보조사업자의 중요재산 취득15일 및6·12월 변동 현황 보고를 별지3으로 직접 지정한다. 정확별표22742385/fl169864655 원본HWPX26975바이트 SHA를 재확인하고 ZIP CRC 및Section0 전체220자/BinData0을 읽었다. 이 양식은 보조사업자의 재산현황 보고이므로 이전의 단순 기관관리대장 분류를 정정하는 제안이다. 지원사업에 포함된 모든 자산이 중요재산이라고 해석하지 않고 실제 해당자산 보고조건으로 제한한다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g12720.gov24-486000000126",
-          "programName": "노동 절감형 스마트 청년농업인 육성 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-22742385",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "곡성군 노동 절감형 스마트 청년농업인 육성 지원사업에서 지방보조금을 교부받은 사업자가, 그 보조금으로 취득한 자산 중 법령·교부조건상 중요재산에 해당하는 재산의 취득·변동 현황을 보고하는 경우에만 쓰는 추가 서류입니다. 현행 조례(2026-09-30 시행) 제9조의 보고 단계에 한정하여 재산명·유형·용도·소재지·수량·취득가액과 재원별 금액·현재가액·취득일·처분제한기간을 작성합니다. 중요재산 취득 후15일 이내 보고, 매년6월·12월 변동현황 보고이며 변동이 없으면 정기 변동보고를 생략할 수 있습니다. 모든 스마트농업 지출이나 소프트웨어를 중요재산으로 간주하지 않으며 해당 자산의 구분과 처분제한기간은 실제 교부조건에 따릅니다. 최초 모집·지방보조금 교부신청서, 회계사의 검증/감사보고서, 군수 발급 부동산증명서가 아닙니다. 사업의2026년 최초 접수기간(1.5~2.5)은 종료됐고, 이 파일은 이미 교부받은 사업자의 후속 재산관리 보고용입니다.",
+          "reason": "정확 정부24 486000000126의2026-10-23 HTTP200 본문은 스마트온실·환경관리 자동제어·시설관리 등 사업과 곡성군 지방보조금 관리 조례를 직접 인용한다. 2026-10-23 실제 법령검색에서 현행MST2173001/2026-09-30을 재확인하고 동일MST 전체 조례 제9조①②와 부칙을 읽었다. 제9조는 보조사업자의 중요재산 취득15일 및6·12월 변동 현황 보고를 별지3으로 직접 지정한다. 정확별표22742385/fl169864655 원본HWPX26975바이트 SHA를 재확인하고 ZIP CRC 및Section0 전체220자/BinData0을 읽었다. 이 양식은 보조사업자의 재산현황 보고이므로 이전의 단순 기관관리대장 분류를 정정하는 제안이다. 지원사업에 포함된 모든 자산이 중요재산이라고 해석하지 않고 실제 해당자산 보고조건으로 제한한다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -759,7 +762,43 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19"
+      "checkedAt": "2026-10-23",
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "non_applicant",
+          "reason": "보조금으로취득한중요재산의유형·가액·처분제한기간을관리하는현황표로지원신청서가아니다.",
+          "relatedProgramIds": null,
+          "reviewedProgramPairs": [
+            {
+              "programId": "g12720.gov24-486000000126",
+              "programName": "노동 절감형 스마트 청년농업인 육성 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": null
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-hwpx-source-review",
+      "relatedProgramIds": [
+        "g12720.gov24-486000000126"
+      ],
+      "approvedAssociations": [
+        {
+          "programId": "g12720.gov24-486000000126",
+          "formId": "ordin-22742385",
+          "use": "conditional"
+        }
+      ],
+      "officialFollowup": {
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8213.json",
+        "sourceResultSHA256": "f0514f99f3a574bf0580fe3cdaabdf6b83f573a50e19d77fa7b037b433329120",
+        "proposedStatus": "approved_exact_followup_not_citizen_main",
+        "allOriginalsMatched": false
+      }
     },
     {
       "formId": "ordin-22742387",

@@ -1,42 +1,42 @@
 {
  "schema": 1,
- "generatedAt": "2026-10-20T05:23:47.175077+00:00",
+ "generatedAt": "2026-10-23T02:39:49.379372+00:00",
  "scope": "Actual downloaded originals; saved files are not automatically approved for a benefit.",
  "summary": {
-  "savedOriginals": 4901,
-  "uniqueOriginalContents": 4865,
+  "savedOriginals": 4918,
+  "uniqueOriginalContents": 4882,
   "formats": {
    "gif": 5,
    "htm": 1,
-   "hwp": 4405,
+   "hwp": 4414,
    "hwp3": 8,
-   "hwpx": 457,
+   "hwpx": 463,
    "jpg": 1,
-   "pdf": 10,
+   "pdf": 12,
    "protected_hwp": 6,
    "txt": 8
   },
-  "readableHangulOriginals": 4862,
-  "publishedOriginals": 2791,
+  "readableHangulOriginals": 4877,
+  "publishedOriginals": 2844,
   "publishedFormats": {
-   "hwp": 2482,
-   "hwpx": 293,
-   "pdf": 10,
+   "hwp": 2511,
+   "hwpx": 315,
+   "pdf": 12,
    "jpg": 1,
    "txt": 4,
    "gif": 1
   },
-  "publishedPrograms": 2527,
-  "publishedAssociations": 3512,
+  "publishedPrograms": 2564,
+  "publishedAssociations": 3576,
   "reviewStates": {
-   "covered_by_existing": 13,
-   "linked": 2791,
+   "covered_by_existing": 14,
+   "linked": 2844,
    "replacement_available": 1,
-   "requires_external_confirmation": 88,
-   "reviewed_not_linked": 2008
+   "requires_external_confirmation": 53,
+   "reviewed_not_linked": 2006
   },
   "unavailableSourceAttachments": 4,
-  "unpublishedOriginals": 2110
+  "unpublishedOriginals": 2074
  },
  "forms": [
   {
@@ -66,6 +66,62 @@
    "reviewState": "linked",
    "reviewLabel": "혜택에 연결",
    "reviewReason": "코디네이터가 현재 공단의 실제 방문신청 배포 링크·2026 운영 안내, 원본 앞뒤2399자 및 현행2107613 제5조/제6조와 구청→공단→주차포털 공식 연결 근거를 대조했다. 이전 법령묶음과 SHA가 다른 실제 현재 배포 신청서로, 방문배정과 감면 증빙의 접수에만 조건부 제공한다. 옛 장애등급·조문 인쇄는 보존하고 현재 자격을 구등급으로 추정하지 않는다."
+  },
+  {
+   "formId": "agency-12150-suncheon-small-71811",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026 회차자료 · 접수종료(2026.1.16) — 영세농가 소형 비닐하우스 신청·동의서 포함 계획",
+   "regionCode": "12150",
+   "format": "hwp",
+   "bytes": 65536,
+   "sha256": "db42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093",
+   "sourceUrl": "https://sc.go.kr/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618",
+   "downloadedAt": "2026-10-22T21:30:02.078230+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://sc.go.kr/sca/news/0001/?boardId=bbs_0000000000000190&category=&cntId=1906&mode=view&pageIdx=98",
+   "finalUrl": "https://sc.go.kr/board/file/bbs_0000000000000190/1906/FILE_000001000071811/2026010616560993618",
+   "attachmentId": "FILE_000001000071811",
+   "relativePath": "agency-12150-suncheon-small-71811.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g12150.gov24-482000000133",
+     "name": "시설원예 생산시설 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "순천시 농업기술센터의2026시설원예 시비사업 공고1906이 직접 배포한 FILE_000001000071811을 보관된 실바이트로 재해시했다. HWP65536바이트/SHAdb42f2522e415d43fbd838308b7ff0dbe954ae670c9d9f80a4de904253449093, 전체Section0 5933자와 BinData0을 읽었다. 신청서·동의서·사업계획·내재해규격·기관평가표를 구분했으며 실제 개인식별정보와 서명은 없다. 정확 g12150.gov24-482000000133의 시설원예 중0.8ha이하 소형하우스, 관내주소/사업예정지·농업경영체·시비50%와 맞는다. 법2062937 제4조제6호의 생산기자재·시설지원이 근거이고,12조의 일반보조금조례 적용관계도 확인했다. 이 파일은2026최초사업신청으로 일반교부20214487을 대체하지 않는다. 접수종료를 제목·조건에 표시하여 해당회차자료로 제공하고, 신청인용과기관평가표가 섞인 원문의 자동작성은 별도검증전까지 exactID/SHA hold로 차단한다. 총괄은 실제한글출력7쪽을 모두보았고,6쪽의boxed V동의3표시를추가확인했다. 텍스트추출이이표시를누락했으므로완전비선택양식이라는제안을정정하고blankApplicantForm=false로기록한다. 원본은변경하지않는다. 2026-10-23 총괄이 공식공고를다시조회하여 정확첨부ID·접수기한을직접확인하고 고정SHA·전체본문·모든실제한글쪽을대조했다. 종료된2026모집회차의원본다운로드에한정하고 현재/차기접수나선정후별도교부서식으로표시하지않는다. 인쇄된선택값을사용자선택으로간주하지않고 정확ID/SHA화면작성보류를먼저수입한다. 옛일반교부원본은자동covered·approved로바꾸지않는다."
+  },
+  {
+   "formId": "agency-26110-bokjiro-wlf00006649-20260720-1",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "출산서비스 통합처리 신청서(중구) — 2025.10.1. 이후 출생아 출산축하금",
+   "regionCode": "26110",
+   "format": "hwp",
+   "bytes": 119808,
+   "sha256": "6caa2fb4b460d4b841be849958f2af44e251be1eddbed48a9d219ddff03b7afb",
+   "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260720UUWBM1801570201761423&atcflSn=1&wlfareInfoId=WLF00006649",
+   "downloadedAt": "2026-10-22T18:56:59.130669+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006649&wlfareInfoReldBztpCd=02",
+   "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260720UUWBM1801570201761423&atcflSn=1&wlfareInfoId=WLF00006649",
+   "attachmentId": "20260720UUWBM1801570201761423",
+   "relativePath": "agency-26110-bokjiro-wlf00006649-20260720-1.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g26110.bokjiro-WLF00006649",
+     "name": "출산축하금 지원 사업"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 총괄이 현재 정확한 복지로WLF00006649 HTML의 동일 사업·첨부식별자20260720UUWBM1801570201761423과 실제 HWP119808바이트/SHA6caa2fb4b460d4b841be849958f2af44e251be1eddbed48a9d219ddff03b7afb를 다시 GET했다. 전체Section0 6628자와 실제한글3쪽을 모두 읽고 빈 신청인·출생자·가족·해당 지방서비스 체크란·보호자 계좌·서명·동의 및 선택동의 구분을 확인했다. 현행2109641 제2·5~8조/부칙과 중구 현재출산보육시책은2025-10-01이후 출생아의 출생6개월내 통합신청/통장사본 제출 및1~7세 분할지급을 직접 명시하며 실제 서식도 이전/이후 출생아를 구분한다. 제안의 날짜를 출생신고일 기준으로 오해하지 않도록 출생일 기준으로 명확히 고쳤다. 공통규정 인쇄별지2를 지방조례 별표ID로 쓰지 않고 정확기관원본의 직접배포 근거로 별도등록한다. 종전21161135 원본 상태·바이트는 유지하고 새원본을 이 정확사업의 신규출생아 해당부분에만 연결한다."
   },
   {
    "formId": "agency-26290-health-postpartum-339544",
@@ -150,6 +206,34 @@
    "reviewState": "linked",
    "reviewLabel": "혜택에 연결",
    "reviewReason": "코디네이터가 전체 보증서의 허용보증인2명 직접날인·대리작성불가·신분증사본과 남구보건소 현재부산형 환급의 정확fileSid339546 배포를 대조했다. 해당사업 사실혼 관계 입증 시만 제공하며 실제신청인의자료가 채워진 파일이 아님을 확인했다. 원본2024년은 보존하고 실제 접수기관 작성안내 확인을 표시한다."
+  },
+  {
+   "formId": "agency-27000-daegu-school-entry-2026",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026 추가접수 회차자료 · 접수종료(8.24~9.30) — 대구 고등학교 입학축하금 방문 신청서",
+   "regionCode": "27000",
+   "format": "hwpx",
+   "bytes": 84715,
+   "sha256": "36dd742e2060d64f989ed3f4d4cda54e3da6f76e94d4fe7d3eaffdd86a9cfb2b",
+   "sourceUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+   "downloadedAt": "2026-10-23T01:43:03.053988+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://hosan.dge.hs.kr/hosanh/na/ntt/selectNttInfo.do?mi=10096532&nttSn=41264820",
+   "finalUrl": "https://hosan.dge.hs.kr/upload/hosanh/na/bbs_10096532/ntt_41264820/doc_dae2v6e7b=14v9e=48v20=b5v4d=9dd9vb4d4v9eff_v9727.hwpx",
+   "attachmentId": "a97902c8b270c32a0b2d977317d8f1fc",
+   "relativePath": "agency-27000-daegu-school-entry-2026.hwpx",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "s27000.bokjiro-WLF00004976",
+     "name": "다자녀가정 고등학교 입학축하금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "호산고등학교 공식 공지 41264820(2026-08-25)의 2026년도 대구 다자녀가정 고등학교 입학축하금 추가접수 안내를 비로그인 공개 GET으로 읽었다. 페이지가 대구광역시 출산보육과_신청서_방문용.hwpx의 정확 경로·84715바이트를 직접 지정한다. 해당 실제 HWPX의 SHA와 전체 Contents/section0.xml 1962자 및 내장 미리보기 1쪽을 대조했다. BinData는 0개다. 부·모/조손 신청인, 2026 고교1학년 둘째 이상 자녀, 카드 명의일치, 구청장/군수 수신이 현재 사업 WLF00004976과 맞는다. 출산보육과 파일명과 대구 전역 구·군 접수처를 명시한 공고 및 원문의 광역 공통 수신 범위가 27000 관할의 근거이며 학교 자체 급여로 간주하지 않는다. 개인정보 기입·서명·선체크는 없고 2026년·9460은 인쇄된 서식 기본값이다. 담당공무원 확인 영역도 원문에 남지만 신청인 작성 범위로 승격하지 않는다. 현행 시행규칙1867151 제4조는 연도별 지급조건·기간 공고 및 신청을 정한다. 구 법령 별지는 계좌확인 및 구 조례 제10조의2를 인쇄하지만 이 별도 2026 기관배포본은 조례 제9조/규칙 제4조제2항과 카드 확인을 인쇄한다. 새 파일을 법령포털 별지와 동일 원본으로 표시하지 않는다. 공식 공고가 9월30일 이후 신청 불가를 명시하므로 종료된 추가접수 회차 자료로만 제공한다. 개인정보 부분의 정보통신망법 등 인쇄 인용은 원문 그대로 보존하며 법률적 적정성의 별도 보증이나 동의 대행을 뜻하지 않는다. 총괄은 실제 한글에서 새로 출력한 1쪽 전체를 읽고 신청인·자녀·9460 카드번호·2026년·공무원 확인란·미선택 동의 4개와 서명 공란을 확인했다. 별도 검토자가 재수신한 공식 공지의 실제 응답 바이트 및 정확 첨부 식별자를 다시 대조했다. 2026.9.30 종료 추가접수 회차의 원본 다운로드만 승인하고 현재 접수·다음 회차·웹 자동작성으로 확대하지 않는다. 구 법령포털 원본16491395는 자동 대체·해소하지 않는다."
   },
   {
    "formId": "agency-31710-61699-1",
@@ -2192,6 +2276,122 @@
    "reviewReason": "코디네이터가 두 작업자의 독립 전체원문·내장로고 검토와 실제 원본 SHA, 2026 청년공모 및 운영가이드의 교부·변경 절차를 대조했다. 선정된 개인이 실제 결정액·NCAS정보를 기입하는 교부/변경 작성용으로만 승인하며 고정500만원을 급여로 안내하지 않는다. 확정 일정이 서식의 인쇄기간과 맞는 선정자에게만 한정하고 12월 실사업 등 충돌 사례에는 제공가능 판정을 하지 않는다. 최초공모·완료후소급신청에 확대하지 않는다."
   },
   {
+   "formId": "agency-43720-notice1415-current-application",
+   "lawId": "1971921",
+   "lawTitle": "보은군 독립유공자 지원 조례",
+   "title": "독립유공자 보훈명예수당 지급·변경 신청서 — 10쪽 현행 신청서",
+   "regionCode": "43720",
+   "format": "hwpx",
+   "bytes": 58188,
+   "sha256": "fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd",
+   "sourceUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+   "downloadedAt": "2026-10-23T02:37:13.072670+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+   "finalUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+   "attachmentId": "4420000_보은군 독립유공자 지원 조례 일부개정조례안(입법예고)_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+   "relativePath": "agency-43720-notice1415-current-application.hwpx",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g43720.bokjiro-WLF00003867",
+     "name": "공훈선양 지원"
+    },
+    {
+     "id": "g43720.gov24-442000000126",
+     "name": "보은군 보훈수당"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다. 총괄이 공식 입법예고와 ELIS 현행 조례를 다시 GET200으로 읽고 정확 첨부ID·현행2943호/2024-10-01 시행·월20만원·제5조/제7조를 대조했다. 새 한글 출력10쪽 전체와 마지막10쪽의 빈 신청서·독립유공자/유족 선택·구비서류·서명/동의 공란을 확인했다. 현행조례 재록 부분의 원본 다운로드만 승인하며 앞의2027년25만원 인상 제안이나 의견제출 서식을 현재 급여 신청으로 제공하지 않는다. 옛18580613의 삭제표시와 미해소 처분은 유지한다."
+  },
+  {
+   "formId": "agency-43745-gazette825-independent-14",
+   "lawId": "1995491",
+   "lawTitle": "증평군 독립유공자 지원 조례",
+   "title": "독립유공자 보훈명예수당 지급 신청(변경신고)서 — 증평군보 제825호 14쪽",
+   "regionCode": "43745",
+   "format": "pdf",
+   "bytes": 415730,
+   "sha256": "ba6d5ce8245e005bac71e369a8933a5f7fe2243942f12283bcd141015a83a3ee",
+   "sourceUrl": "https://www.jp.go.kr/media/cmm/fms/FileDown.do?atchFileId=F00000055429yw4oU4bg&fileSn=1",
+   "downloadedAt": "2026-10-22T22:46:11.238871+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.jp.go.kr/media/prog/eBook/EB02/sub03_02/list.do?pageIndex=9",
+   "finalUrl": "https://www.jp.go.kr/media/cmm/fms/FileDown.do?atchFileId=F00000055429yw4oU4bg&fileSn=1",
+   "attachmentId": "F00000055429yw4oU4bg",
+   "relativePath": "agency-43745-gazette825-independent-14.pdf",
+   "usableHangul": false,
+   "publishedPrograms": [
+    {
+     "id": "g43745.bokjiro-WLF00003002",
+     "name": "독립유공자명예수당지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 증평군 공식 군보 목록에서 제825호 컨테이너와 직접첨부 atchFileId=F00000055429yw4oU4bg/fileSn=1을 결속하고 실제 GET200으로 PDF415730바이트를 확보했다. SHAba6d5ce8245e005bac71e369a8933a5f7fe2243942f12283bcd141015a83a3ee, 전체35쪽12446자 및 35쪽 렌더를 모두 읽었다. 11~13쪽은 2024.12.20 공포 조례1192호 독립유공자 조례 전부개정문이고 14쪽은 정확 독립유공자 보훈명예수당 지급 신청(변경신고)서다. 현행 법규1995491/stable2140274의 제3조 월20만원, 제4조 신청, 제8조 계좌변경 및 부칙2025.1.1 시행과 대조했다. API 기본정보 시행일2024.12.20과 부칙2025.1.1을 구분하여 법적 시행일은 실제 부칙을 따랐다. 14쪽은 처리20일·본인정보·계좌·서명·국가유공자증/통장증빙을 요구하며 실제신청인 개인정보와 서명은 비어 있다. 이 공식 공포원문은 법령포털19766693에 잘못 붙은 국가보훈대상자/다른조례 제5·9조 서식과 별개이고, 복지로의2017년 월10만원 조례PDF와도 별개다. 기존 불일치원본을 고치거나 같은SHA로 치환하지 않는다. 다른 조례·신청서·입법예고 부분은 이 사업의 작성범위에서 제외하며 14쪽 사용을 조건으로 명시한다. 2026-10-23 총괄이 정확SHA·전체본문·모든문서쪽 및 현재공식안내의 직접첨부ID를 확인했다. 표시한 작성주체·단계·쪽·현재법정지원범위를 유지하여 원본다운로드만 승인하며, 옛별도원본의 자동covered나 전체묶음 자동작성으로 확대하지 않는다."
+  },
+  {
+   "formId": "agency-43770-eumseong-pepper-148280",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026 회차자료 · 접수종료(금왕읍 2026.2.9) — 고추 생산장비 사업 신청서",
+   "regionCode": "43770",
+   "format": "hwp",
+   "bytes": 134656,
+   "sha256": "9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a",
+   "sourceUrl": "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280",
+   "downloadedAt": "2026-10-22T21:30:08.540518+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.eumseong.go.kr/jumin/selectBbsNttView.do?key=1304&bbsNo=221&nttNo=184347",
+   "finalUrl": "https://www.eumseong.go.kr/jumin/downloadBbsFile.do?atchmnflNo=148280",
+   "attachmentId": "148280",
+   "relativePath": "agency-43770-eumseong-pepper-148280.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g43770.gov24-447000000111",
+     "name": "노력절감형 고추 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "공식 금왕읍 게시184347과 직접첨부148280, 추진계획148279를 앞선23b에서 실제GET했다. 이번에는 실제HWP134656바이트/SHA9d65c74524d840783d127f44c2b4fe4f96951a6644969b9acfb3e4df94af846a를 재해시하고 전체Section0 609자·BinData0·원문미리보기를 재대조했다. 정확 g43770.gov24-447000000111의 농가/법인·1000㎡이상·건조기/세척기50%사업과 같다. 실제개인 식별정보나 서명이 채워진 사례문서가 아니라 인쇄기본값이 있는 정부배포 템플릿이다. 완전비선택양식으로 표시하지 않으며 blankApplicantForm=false/noFilledPersonalDataObserved=true를 구분했다. 현재접수열림은 이2026회차자료의 출처일치 요건이 아니다. 옛일반교부19640907의 후반3인서약·옛벌칙을 승인하거나 이최초신청원본으로 치환하지 않는다. 다운로드와 자동작성을 분리하며 기존 paper-writing-holds 계약으로 exactID/SHA를 보류해야 한다. 2026-10-23 총괄이 공식공고를다시조회하여 정확첨부ID·접수기한을직접확인하고 고정SHA·전체본문·모든실제한글쪽을대조했다. 종료된2026모집회차의원본다운로드에한정하고 현재/차기접수나선정후별도교부서식으로표시하지않는다. 인쇄된선택값을사용자선택으로간주하지않고 정확ID/SHA화면작성보류를먼저수입한다. 옛일반교부원본은자동covered·approved로바꾸지않는다."
+  },
+  {
+   "formId": "agency-44210-health-cts2393-initial-voucher",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "서산시 보건소 접수용 산모·신생아 건강관리 이용권 신청서",
+   "regionCode": "44210",
+   "format": "hwp",
+   "bytes": 108032,
+   "sha256": "369b21f72eae53a8d7bee4c7292e915d488cd76733e3fe9cc30778081cc21d39",
+   "sourceUrl": "https://www.seosan.go.kr/DATA/download/health/cts2393_file01.hwp",
+   "downloadedAt": "2026-10-22T22:46:10.714928+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.seosan.go.kr/health/contents.do?key=2393",
+   "finalUrl": "https://www.seosan.go.kr/DATA/download/health/cts2393_file01.hwp",
+   "attachmentId": "cts2393_file01.hwp",
+   "relativePath": "agency-44210-health-cts2393-initial-voucher.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "n.gov24-PTR000050390",
+     "name": "산모·신생아 건강관리 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "서산시보건소 primary2393의 실제 GET200 HTML/SHAed39eba16ff6b9f76927650cd6b650d5d09c7d8c4d9ce927e038833a411f6a5d를 독립 판독했다. 신청대상은 서산시 주민등록 모든 산모이며 같은 안내의 가형(수급·차상위),통합형(중위150%이하),라형(초과)을 함께 제시하고 구비서류 사회보장급여 신청서가 정확 cts2393_file01.hwp를 직접 링크한다. 실제기관HWP108032바이트/SHA369b21f72eae53a8d7bee4c7292e915d488cd76733e3fe9cc30778081cc21d39의전체Section0 2685자와BinData0 및원본미리보기를읽었다. 기본지원 자격확인/소득기준이하와 예외지원대상(해당자만)이 병렬이고 국가·도지원을 받지못한다는 공통확약이나 서산3개월거주 일괄확약이 없다. 국가PTR000050390의수급·차상위/150%이하,시도·시군구예외,주소지보건소접수·초기가정방문서비스이용권과직접대응한다. 따라서국가기본대상접수에도이기관배포원본을쓴다는직접근거가있으며종전미확인은해소된다. 다만서산조례2161415의국가/도지원밖시추가지원별지22392705와같은원본으로치환하지않는다. 기관파일의기저귀·조제분유영역과사후본인부담금환급은이번연결밖이며,30일/60일공식안내차이는접수기한확인문제로별도보존한다. 총괄은 현재공식페이지의 전체대상·가/통합/라형 및 직접CTS첨부, 원본SHA·전체2685자·실제한글1쪽을 확인했다. 국가기본과지역예외의 초기이용권 접수라는 의미관계를 독립재검증하고 exact프로그램·서산지역·원본·안내페이지SHA에 결속된 별도선택경로만 승인한다. 기존지방조례22392705를 승인/covered하지 않는다."
+  },
+  {
    "formId": "agency-44210-health-cts2394-refund-proxy",
    "lawId": "2161415",
    "lawTitle": "서산시 임산부ㆍ신생아 건강관리 지원 조례",
@@ -2246,6 +2446,234 @@
    "reviewState": "linked",
    "reviewLabel": "혜택에 연결",
    "reviewReason": "코디네이터가 2026.5.12 계룡시청 가족돌봄과의 공식 민원사무편람 게시물·첨부36032 전체 HWP1497자 및 현행1933095 제1~8조와 부칙, 실제 수록 화장장려금 혜택을 대조했다. 새 원본은 1년 이상 거주 확인란을 제거하고 사망·사산/영아·분묘개장 유형, 본인계좌·관계·서명·공동이용 동의와 10만원/5만원 지급기준·6개월 접수를 담아 현행 조례와 맞는다. 옛 ordin17575933을 덮어쓰지 않고 별도 agency 원본으로 정확히 해당 혜택에 제공한다."
+  },
+  {
+   "formId": "agency-44810-yesan-postpartum-36547",
+   "lawId": "2121601",
+   "lawTitle": "예산군 인구증가 시책추진 지원에 관한 조례",
+   "title": "산후조리 비용 지원 신청서",
+   "regionCode": "44810",
+   "format": "hwpx",
+   "bytes": 54521,
+   "sha256": "9ad606e8ce71741d2d094325c5b9acd164f2fc18808a4bacf65ca3556d0162c9",
+   "sourceUrl": "https://www.yesan.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000036547Um5&fileSn=0",
+   "downloadedAt": "2026-10-22T22:46:11.239703+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.yesan.go.kr/bbs/BBSMSTR_000000000099/list.do",
+   "finalUrl": "https://www.yesan.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000036547Um5&fileSn=0",
+   "attachmentId": "FILE_000000036547Um5",
+   "relativePath": "agency-44810-yesan-postpartum-36547.hwpx",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g44810.bokjiro-WLF00006603",
+     "name": "산후조리 비용 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 현재 예산군 보건소 서식목록에서 2026-01-10 모자보건팀 산후조리 비용 지원 신청서와 exact첨부 FILE_000000036547Um5를 확인했다. 실제 54521B/HWPX SHA9ad606e8ce71741d2d094325c5b9acd164f2fc18808a4bacf65ca3556d0162c9를 독립 재해시하고 Contents/section0.xml 전본문3165자와 BinData0을 대조했다. 이 파일은 90%·최대100만원 산식을 인쇄하지 않고 금액을 빈칸으로 둔다. 현행 상위조례2121601 제3조와 실제별표1(21752559)은 부모6개월거주 원칙·미달기간경과후지원·일반100만원 및 수급/차상위/한부모 최대200만원을 정하고, 제3조② 및 별표2(21752561)는 명시적 예외가구를 정한다. 실제XML 표0행4열2는 해당되는 경우만 표시하는 거주선택지, 행4열5와 행5열5는 담당자확인·비고, 행8열2는 빈 신청금액, 행12는 조례3조에 따른 신청의사와 서명이다. 뒤쪽 개인정보·공동이용 동의문에도 모든 신청인의 부부6개월충족이나100만원한도를 확약하는 문장이 없다. 따라서 법정 일반/취약200만원/미달기간경과/별표2예외 가구가 사실과 증빙에 따라 산후조리원 이용비 신청에 이 배포원본을 사용하는 범위로 제안한다. 틀린 부부체크를 강제하지 않으며 기관확인란을 신청인확약으로 바꾸지 않는다. 정확WLF6603의100만원요약은 동일제도 내 취약구간을 배제하는 근거로 보지 않았다. 교통비에6개월요건을 전용하거나 옛법령21543489의90%상한을 승인하지 않는다. 2026-10-23 총괄이 정확SHA·전체본문·모든문서쪽 및 현재공식안내의 직접첨부ID를 확인했다. 표시한 작성주체·단계·쪽·현재법정지원범위를 유지하여 원본다운로드만 승인하며, 옛별도원본의 자동covered나 전체묶음 자동작성으로 확대하지 않는다."
+  },
+  {
+   "formId": "agency-47000-bokjiro-wlf00003658-20260713-1",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026년 산모신생아 본인부담금 지원 안내·서식 — 서비스 해지 통보서(15쪽)",
+   "regionCode": "47000",
+   "format": "pdf",
+   "bytes": 364718,
+   "sha256": "0058363ddb46393e957f4a4ed1c4d807fee8baab40ac783ddfcaa89022a62026",
+   "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260713UUWBM1354590200902744&atcflSn=1&wlfareInfoId=WLF00003658",
+   "downloadedAt": "2026-10-22T22:46:14.505056+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003658&wlfareInfoReldBztpCd=02",
+   "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20260713UUWBM1354590200902744&atcflSn=1&wlfareInfoId=WLF00003658",
+   "attachmentId": "20260713UUWBM1354590200902744",
+   "relativePath": "agency-47000-bokjiro-wlf00003658-20260713-1.pdf",
+   "usableHangul": false,
+   "publishedPrograms": [
+    {
+     "id": "s47000.bokjiro-WLF00003658",
+     "name": "산모신생아 건강관리 지원사업 본인부담금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 정확 복지로 WLF00003658 페이지를 HTTP200으로 확인하고 현재 동일 atcflId에 결속된15쪽 공식PDF를 실제다운로드했다. 전체15쪽 텍스트와8개접촉시트를 모두 읽었으며7쪽·9쪽이 계약중도해지시 서식5 제출을 직접 지시하고15쪽의 이용자·제공기관·서비스기간·일수·잔여일수·양쪽서명 공란과 일치한다. 2025발급 일반산모 환급·2026발급 기관청구를 구분한 문서이므로 기관청구서를 산모 신청서로 안내하지 않는다. 원본17542133의 사후환급서식을 대체하거나 해결했다고 집계하지 않고 동일현재사업의 별도 해지절차 빈서식1건을 추가 제안한다. 2026-10-23 총괄이 정확SHA·전체본문·모든문서쪽 및 현재공식안내의 직접첨부ID를 확인했다. 표시한 작성주체·단계·쪽·현재법정지원범위를 유지하여 원본다운로드만 승인하며, 옛별도원본의 자동covered나 전체묶음 자동작성으로 확대하지 않는다."
+  },
+  {
+   "formId": "agency-47000-bokjiro-wlf00004401-allowance-application",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "경상북도 의사상자 특별위로금·수당지급 신청서",
+   "regionCode": "47000",
+   "format": "hwp",
+   "bytes": 15872,
+   "sha256": "6402b5bea3df64d266234775f15b05d8dc76c4098391a0c6ae1e73bc9601d552",
+   "sourceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240703UUWBM1634190092425119&atcflSn=1&wlfareInfoId=WLF00004401",
+   "downloadedAt": "2026-10-22T17:36:20.891313+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004401&wlfareInfoReldBztpCd=02",
+   "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twata/CmmFileUtil/getDownload.do?atcflId=20240703UUWBM1634190092425119&atcflSn=1&wlfareInfoId=WLF00004401",
+   "attachmentId": "20240703UUWBM1634190092425119",
+   "relativePath": "agency-47000-bokjiro-wlf00004401-allowance-application.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "s47000.bokjiro-WLF00004401",
+     "name": "경상북도의사상자 지원"
+    },
+    {
+     "id": "s47000.gov24-647000000122",
+     "name": "의사상자 예우 및 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 총괄이 정확한 복지로WLF00004401의 현재 배포 HTML과 독립 신청서 atcflId20240703UUWBM1634190092425119를 다시 GET하여 SHA/15872바이트를 대조했다. 전체 Section0 826자와 실제 한글 원본1쪽을 모두 읽고 보상금 종류·현행10/8/5만원·신청인/수신기관·서명·증빙·정보동의가 빈 신청서임을 확인했다. 정확한 정부24 647000000122도 동일 지급대상/수당/특별위로금/시군청접수와 신청서/등본/가족/통장사본을 요구한다. 과거 인용조문과 복지로의2024기준 잔존은 조건과sourceIssues로 보존하고 원문은 수정하지 않는다. 명부가 포함된 별도2026지침은 공개첨부에서 차단한다. 옛 법령포털22706053의5/3/2만원 원본은 그대로 미승인 유지하며 별개기관원본만2개 사업에 추가한다."
+  },
+  {
+   "formId": "agency-47230-health-kit-080701",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "임신준비 키트 지원 신청서",
+   "regionCode": "47230",
+   "format": "hwp",
+   "bytes": 102912,
+   "sha256": "f1e5886e5e39ead2ffe928b62b24b32607a52af14a0bf2f5cdafa65966329005",
+   "sourceUrl": "https://www.yc.go.kr/common/jsp/common/contentFileDownload.jsp?path=%2Fhealth%2F08%2F&file=%EC%9E%84%EC%8B%A0%EC%A4%80%EB%B9%84+%ED%82%A4%ED%8A%B8+%EC%A7%80%EC%9B%90+%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+   "downloadedAt": "2026-10-22T17:48:03.501755+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+   "finalUrl": "https://www.yc.go.kr/common/jsp/common/contentFileDownload.jsp?path=%2Fhealth%2F08%2F&file=%EC%9E%84%EC%8B%A0%EC%A4%80%EB%B9%84+%ED%82%A4%ED%8A%B8+%EC%A7%80%EC%9B%90+%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+   "attachmentId": "임신준비 키트 지원 사업 신청서.hwp",
+   "relativePath": "agency-47230-health-kit-080701.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g47230.bokjiro-WLF00004929",
+     "name": "예비·신혼부부 임신준비물품 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 총괄이 영천시 보건소의 정확한 임신준비 키트 안내(c27)와 해당 다운로드를 다시 GET하여 102912바이트/SHA를 확인했다. 실제 한글1쪽 전체를 시각 검토했고, 신청인·배우자 정보와 예비/기혼 표시·1가구1회확인·영천시장 수신·개인정보동의·혼인/예식증빙·주소확인란이 빈 양식임을 확인했다. 복지로WLF00004929의 정확한 지원대상과 키트 지원 부분 및 그곳의 동일전본문 별도첨부를 교차검토했다. 키트 소진 종료와 현장 수령 조건은 유지하고 건강검진 이용권 또는 산모 본인부담금 환급에 확대하지 않는다. 전체본문이 같은 복지로 배포본은 SHA차이를 증거로만 남겨 중복 신청서를 추가하지 않는다. 기존17542133의 환급형 원본 상태와 바이트는 그대로 유지한다."
+  },
+  {
+   "formId": "agency-48120-baro-453-1401",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "전세보증금반환보증 보증료 지원 신청서 및 서약서",
+   "regionCode": "48120",
+   "format": "hwp",
+   "bytes": 50176,
+   "sha256": "7b216cf387911fa163115c3b87a3ad09d228f7db048c3ee4040bbc2707a30456",
+   "sourceUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+   "downloadedAt": "2026-10-22T15:16:01.630742+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://baro.gyeongnam.go.kr/baro/serviceView.es?mid=a10202000000&service_no=453",
+   "finalUrl": "https://baro.gyeongnam.go.kr/baro/fileDown.es?file_no=1401&filenameOrg=%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8%20%EB%B6%99%EC%9E%84%20%EC%84%9C%EC%8B%9D%5D%20%EC%A0%84%EC%84%B8%EB%B3%B4%EC%A6%9D%EA%B8%88%EB%B0%98%ED%99%98%EB%B3%B4%EC%A6%9D%20%EB%B3%B4%EC%A6%9D%EB%A3%8C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%B0%8F%20%EC%84%9C%EC%95%BD%EC%84%9C.hwp&service_no=453",
+   "attachmentId": "1401",
+   "relativePath": "agency-48120-baro-453-1401.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g48120.gov24-567000000116",
+     "name": "전세보증금반환보증 보증료 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확한 정부24 567000000116의 현재 국비 보증료 사업과 경남바로서비스453의 창원 거주·보증금3억원 이하·최대40만원·구청접수 경로를 대조했다. 공식 HWP50176바이트/SHA와 같은 페이지의 PDF3쪽 전체를 검토했으며 개인 신청서1~2쪽과 2026서약서3쪽이 한 원본이다. 인쇄된 계좌는 신청인 본인 명의에 한정하고 개인정보 동의·유의사항·서명과 별도 증빙을 함께 안내한다. 예산 소진 시 조기 종료와 2026년 사용 제한을 명시했다. 2026-10-23 총괄이 공식 안내와 정확한 파일1401을 다시 GET하여 동일 원본을 확인했다. 기존 지방 조례2억원 서식22159377을 바꾸거나 승인한 것이 아니라 현재 국비사업용 별도 원본을 추가한다."
+  },
+  {
+   "formId": "agency-48310-geoje-payment-238389",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026 회차자료 · 접수종료(4.6~4.10) — 고등학교 우수 장학금 지급 신청서",
+   "regionCode": "48310",
+   "format": "hwp",
+   "bytes": 38400,
+   "sha256": "b978745ab400d7aac11bf2f9bd4ce99355de607355357ef7fcf82af664631e3d",
+   "sourceUrl": "https://www.geoje.go.kr/welfare/board/download.geoje?boardId=BBS_0000313&menuCd=DOM_000009607003000000&paging=ok&startPage=1&dataSid=306397542&command=update&fileSid=238389",
+   "downloadedAt": "2026-10-22T22:46:13.099413+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.geoje.go.kr/welfare/board/view.geoje?boardId=BBS_0000313&dataSid=306397542&menuCd=DOM_000009607003000000&paging=ok&startPage=1",
+   "finalUrl": "https://www.geoje.go.kr/welfare/board/download.geoje?boardId=BBS_0000313&menuCd=DOM_000009607003000000&paging=ok&startPage=1&dataSid=306397542&command=update&fileSid=238389",
+   "attachmentId": "238389",
+   "relativePath": "agency-48310-geoje-payment-238389.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g48310.gov24-537000000125",
+     "name": "거제시 우수학생 장학금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "거제시 공식 복지포털 게시306397542(2026.4.6)가 이미 선정·개별통보된 고등학교 우수 장학생에게 첨부 fileSid238389를 지급신청서로 지정한다. 실제 HWP 38400바이트 SHAb978745ab400d7aac11bf2f9bd4ce99355de607355357ef7fcf82af664631e3d, 전체 BodyText/Section0 366자와 BinData0을 읽었다. 성명·주소·생년월일·계좌·신청인/보호자 서명은 비어 있고 해당 장학금 유형만 미리 선택되어 있다. 원문연도2026과 종료된4.6~4.10 접수기간을 유지한다. 현행2116943 제6조의 선발통지 후 지급신청 단계와 정확 g48310.gov24-537000000125의 해당 장학생 유형에 일치한다. 법정 지급신청12 일반원본은 이미 공개되어 있으며 이2026전용기관자료의 추가가 신규 혜택관계를 늘린다는 뜻은 아니다. 고정21680119의 오첨부12-1 문제는 해소하지 않는다. 2026-10-23 총괄이 정확SHA·전체본문·모든문서쪽 및 현재공식안내의 직접첨부ID를 확인했다. 표시한 작성주체·단계·쪽·현재법정지원범위를 유지하여 원본다운로드만 승인하며, 옛별도원본의 자동covered나 전체묶음 자동작성으로 확대하지 않는다."
+  },
+  {
+   "formId": "agency-48310-geoje-payment-238390",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026 회차자료 · 접수종료(4.6~4.10) — 대학교 입학 우수 장학금 지급 신청서",
+   "regionCode": "48310",
+   "format": "hwp",
+   "bytes": 38400,
+   "sha256": "a2191e6b92053baeae8aa09c9ddbf1ec378992c8d49e3bb5be23eb6868ed0da4",
+   "sourceUrl": "https://www.geoje.go.kr/welfare/board/download.geoje?boardId=BBS_0000313&menuCd=DOM_000009607003000000&paging=ok&startPage=1&dataSid=306397542&command=update&fileSid=238390",
+   "downloadedAt": "2026-10-22T22:46:12.518841+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.geoje.go.kr/welfare/board/view.geoje?boardId=BBS_0000313&dataSid=306397542&menuCd=DOM_000009607003000000&paging=ok&startPage=1",
+   "finalUrl": "https://www.geoje.go.kr/welfare/board/download.geoje?boardId=BBS_0000313&menuCd=DOM_000009607003000000&paging=ok&startPage=1&dataSid=306397542&command=update&fileSid=238390",
+   "attachmentId": "238390",
+   "relativePath": "agency-48310-geoje-payment-238390.hwp",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g48310.gov24-537000000125",
+     "name": "거제시 우수학생 장학금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "거제시 공식 복지포털 게시306397542(2026.4.6)가 이미 선정·개별통보된 대학교 입학 우수 장학생에게 첨부 fileSid238390를 지급신청서로 지정한다. 실제 HWP 38400바이트 SHAa2191e6b92053baeae8aa09c9ddbf1ec378992c8d49e3bb5be23eb6868ed0da4, 전체 BodyText/Section0 366자와 BinData0을 읽었다. 성명·주소·생년월일·계좌·신청인/보호자 서명은 비어 있고 해당 장학금 유형만 미리 선택되어 있다. 원문연도2026과 종료된4.6~4.10 접수기간을 유지한다. 현행2116943 제6조의 선발통지 후 지급신청 단계와 정확 g48310.gov24-537000000125의 해당 장학생 유형에 일치한다. 법정 지급신청12 일반원본은 이미 공개되어 있으며 이2026전용기관자료의 추가가 신규 혜택관계를 늘린다는 뜻은 아니다. 고정21680119의 오첨부12-1 문제는 해소하지 않는다. 2026-10-23 총괄이 정확SHA·전체본문·모든문서쪽 및 현재공식안내의 직접첨부ID를 확인했다. 표시한 작성주체·단계·쪽·현재법정지원범위를 유지하여 원본다운로드만 승인하며, 옛별도원본의 자동covered나 전체묶음 자동작성으로 확대하지 않는다."
+  },
+  {
+   "formId": "agency-52180-jeongeup-249275",
+   "lawId": "",
+   "lawTitle": "",
+   "title": "2026 회차자료 · 접수종료(2025.12.17~12.30) — 별별꿈 재능바우처 지원사업 신청서",
+   "regionCode": "52180",
+   "format": "hwpx",
+   "bytes": 77176,
+   "sha256": "70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9",
+   "sourceUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+   "downloadedAt": "2026-10-22T20:31:02.398571+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "sourceKind": "agency",
+   "sourcePageUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+   "finalUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+   "attachmentId": "249275",
+   "relativePath": "agency-52180-jeongeup-249275.hwpx",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g52180.bokjiro-WLF00001439",
+     "name": "별별꿈 재능 바우처 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 총괄이 정읍시 공식2026모집 공고를 새로 조회하고 정확한 fileSid249275·접수기간2025-12-17~12-30·지원기간2026-02~12·학원비분담65/25/10을 직접 확인했다. 원본77176바이트/SHA와전체3섹션3892자, 실제한글출력4쪽을전부대조하여 신청·동의란이비어있음을확인했다. 현재진행중인2026지원사업의이미종료된모집회차원본을제공하며,제목과다운로드앞조건에접수종료및신규/다음회차용아님을명시한다. 화면작성허용목록에넣지않고원문다운로드만제공한다. 옛법령첨부19617443의60/30비율이나그바이트를승인·교체·covered처리하지않는다."
   },
   {
    "formId": "law-17621759",
@@ -4977,10 +5405,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-13620757.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "규칙 제6조는 난임치료 수행기관이 치료 종료 후 비용을 청구하도록 정한다. 실제 원본은 의료기관 사업자번호·기관 계좌·기관장 서명 및 여러 치료자의 명단이며 신청인인 남성 환자의 지원 신청서가 아니다. 현 사업의 환자 보건소 신청 절차와 구분하여 연결하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g11680.gov24-322000000108",
+     "name": "남성 난임 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정부24 exact322000000108을2026-10-23 GET200/서비스ID일치로 읽어 강남거주 이상소견 남성의 난임검진·상담 비용과 같은조례 인용을 확인했다. 현행 상위조례1886217 제5조2항1호·제6조·제8조·제9조 및 시행규칙1729361 제4~6조를 읽었다. 규칙 별표1은 이 남성사업의 정액검사·고환검진·음낭초음파 등 검진과 지정 비뇨의학과 수행기관을 직접 특정한다. 원본7호 전체 앞뒤596자는 기관명/사업자/기관계좌/기관장서명과 치료자명단으로서 바로 그 수행기관의 진료종료후 청구다. 기관이라는 이유나 주민신청 안내만을 이유로 배제하던 이전판정을, 이 법정 제공기관 단계에만 한정해 정정한다. 원본의 한방조건부 첨부항목은 보존하되 이번 남성사업의 적용범위를 넓히지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-13732703",
@@ -5020,10 +5453,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-13732705.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 구리도시공사 체육관 접수안내를 직접 확인했으나 회원가입·온라인 수강등록·납부 절차만 안내한다. 원본 제2호는 기존 경기장/세미나실 전용허가 변경이며, 감면 변경·승계 때 이 원본을 접수한다는 새 근거를 찾지 못했다. 유효한 법정 변경서식의 존재와 해당 감면사업의 실제 제출관계를 구별하여 미해소로 유지한다."
+   "publishedPrograms": [
+    {
+     "id": "g41310.gov24-O00005100001",
+     "name": "체육시설 이용요금 감면"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확 정부24 O00005100001의 실제 저장된 HTTP200 본문은 50% 감면대상에 체육진흥 경기·행사를 명시하고 방문 접수시설에 구리시체육관을 포함한다. 현행 상위조례2119333 제2조제3호는 전용사용, 제4조제1항은 사용허가 내용변경, 제17조제1항제2호가목은 체육진흥 경기·행사의 50% 감면, 같은 조제2항은 증빙을 규정한다. 현행규칙1162698 제2조제1항은 이미 허가받은 전용사용 내용변경에 정확 별지2를 지정한다. 14336B 원본 SHA와 전체541자·BodyText/Section0 및 BinData0을 독립 확인했고, 신청인·행사명·허가내용 대 변경내용·변경사용료·구리시장 수신은 이 후속단계와 일치한다. 회원·수강 안내만으로 사업전체를 강좌로 축소한 종전 판단을 정정한다. 감면승계의 자동권리나 신규감면 신청용도로 확대하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-13732709",
@@ -6851,10 +7289,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-15092343.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24 원문(2026-09-02 수정)은 개인 신청절차와 신청 시기가 없고 법정 저소득 자격자에게 별도 신청 없이 지원한다고 명시한다. 공통 사회복지 신청서의 지역 급여 선택·변경 접수 용도를 보완하는 예외 절차나 현행 첨부는 찾지 못했다. 자동지원 안내를 근거로 이 종이서식을 현재 주신청서로 승격하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g44250.gov24-558000000116",
+     "name": "저소득 주민 생활 안정 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "조례제6조본문의신청권과단서의무신청지원허용은동시에규정되어있다. 정확사이트사업이법정저소득층에게자동지원함을안내하는것은본문신청경로를폐지하거나금지했다는증거가아니다. 규칙3조가바로그조례6조신청에별지1을지정하므로확인된지방급여의개별신청/변경부분만conditional제공가능하다. 기타긴급지원의범위를같은사이트사업에추가하지않는다. 고정원본전체 BodyText/Section0 6135자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
   },
   {
    "formId": "ordin-15092403",
@@ -12876,9 +13319,9 @@
    "relativePath": "ordin-17770713.hwp",
    "usableHangul": true,
    "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "공식MCP 재검색에서2026.10.12 시행의 새 상위조례2178167을 확보하고 전체9조를 읽었다. 현행은 지정마을 주민·외국인, 바우처카드 결제 및 운송사업자 비용청구를 규정하고 기존 시행규칙1633745도 검색된다. 그러나 읍면장 신규마을 지정 신청서를 통합돌봄 메뉴판의 선정마을 주민 이용사업 신청자료로 제공한다는 직접 안내는 없으며 새 상위조례 제5조의 별지1은 운송사업자 지원청구로 원본과 다른 문서이다. 입법예고/현행 제명변경은 확인했으나 기존 원본의 해당사업 접수용도는 미해소이다."
+   "reviewState": "reviewed_not_linked",
+   "reviewLabel": "신청인이 작성하는 서류 아님",
+   "reviewReason": "2026-10-23 원본12288바이트/SHA와 전체239자, 현행 규칙1633745 제2조제2항·제3조 및 새 상위조례2178167 제3조·제5조·부칙을 대조하고 독립 재검토했다. 별지1은 읍·면장이 마을 위치·가구·거리·버스 현황을 작성해 군수에게 제출하는 행정 마을선정용이다. 사이트의 정확한 희망택시 사업은 이미 지정된 마을 주민의 탑승 이용으로, 규칙은 주민의 위성콜 요청을, 새 조례는 지정마을 주민 이용과 운송사업자 비용청구를 구분한다. 주민이 직접 내는 택시 이용신청서나 운송업자 청구서로 붙이지 않는다. 검색 실패가 아니라 작성 주체와 행정 단계의 적극적 불일치로 비신청인으로 분류하며 해당 교통복지나 주민 이용권이 없다는 뜻은 아니다."
   },
   {
    "formId": "ordin-17771051",
@@ -15291,10 +15734,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-18291051.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 포천시 장수수당 안내와 정확한 병합 복지로 WLF00004621은 1943년 이전 출생·2023년 말 주소 기준의 월 2만원 지급과 일반 별지1 신청을 안내한다. 복지로 첨부는 별지1과 조례이고 사망한 수급자의 미지급금 상속·대표수령 절차나 이 별지2의 사용 안내는 없다. 일반 지급계좌 조항을 미지급 승계로 확장할 근거를 찾지 못했다."
+   "publishedPrograms": [
+    {
+     "id": "g41650.gov24-560000000105",
+     "name": "장수수당"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "기존수급자가사망한후발생한미지급청구는신규장수수당수급자선정과다르다. 현행법에결속되고동일개정에서신설된별지2가사망자의미지급분청구를명시한다. 따라서일반사업안내에미지급부분이별도로반복되지않았다는사실만으로원본목적을부정할수없다. 본문이별지2번호를직접인용한다고주장하지않고,일반계좌조항의기초연금준용을포괄상속권의근거로사용하지않는다. 고정원본전체 BodyText/Section0 288자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
   },
   {
    "formId": "ordin-18296439",
@@ -20974,10 +21422,19 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-18989767.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "첫돌축하금 정부24 현재 안내는 출생 1년 후의 별도 신청 절차이다. 장애인가정 출산비용·양육지원금의 정확한 정부24 두 페이지도 각각의 조례와 별도 신청서·동의를 안내하나 이 과거 출산서비스 통합 파일 사용을 지정하지 않는다. 구 통합 원본을 첫돌·장애인 출산·양육의 공통 신청서로 사용한다는 직접 근거는 보완되지 않았다."
+   "publishedPrograms": [
+    {
+     "id": "g11215.bokjiro-WLF00004044",
+     "name": "장애인 양육지원금 지원사업"
+    },
+    {
+     "id": "g11215.gov24-304000000105",
+     "name": "장애인가정 양육지원금 지급"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 총괄·독립Codex조사자와 실제Herdr Claude가 원본SHA/89277바이트·전체본문 및 현행 법규 계열을 교차검토했다.1822227 부칙제1284호제2조는2022년에출산통합별지1의장애인양육지원금칸을개정했고,그문구가현재2001319의2024-05-02개정별지1에남아있다.2001319 부칙제1374호제3·4조로구제명에서현제명으로의계열을확인했다. 현재정확정부24·복지로의7세미만/광진1년/월10만원/장애인본인명의통장/동주민센터신청과대조했다. 이통합원본은출생신고와함께해당양육지원금칸을표시할때만연결하며전입·기존아동의별도신청서로확대하지않는다.별도개인정보동의는현재정부24안내에따른다.현재구청페이지의옛성별표현과원문다른급여의옛연도·인접출산비용을승인하지않고,조례별지2삭제와공통규정별지2인용을같다고단정하지않는다.실제한글4쪽을총괄이모두확인했고4쪽은원본자체빈쪽이다.공식원문바이트는그대로유지한다."
   },
   {
    "formId": "ordin-18989771",
@@ -27559,10 +28016,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-19755173.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "공식 MCP의 현행 전남광주통합특별시 5 검색16건과 국가법령센터의 생활지원금 검색을 재확인했으나 정확 통합특별시 승계급여 조례·부칙·현재 배포파일을 확보하지 못했다. 구 광주2032093의 생계·민주명예·장제비 원본을 통합시 전체 사업에 확대하지 않는다. 검색 미확보이며 서식 부재 판정이 아니다."
+   "publishedPrograms": [
+    {
+     "id": "s12000.gov24-629000000179",
+     "name": "5.18민주유공자 생활지원금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행목록2032093과공식본문제41~45조는종전광주주소·10/5/100만원·별지3의동장제출을직접정한다. 정확Gov629000000179의현재저장본문은같은세급여와5개구접수기관을표시하고현재공식5·18페이지도광주거주대상·같은금액을안내한다. 특별법부칙10①·14의종전지역법규/서비스존속과함께구광주급여부분만연결한다. Gov에인용된예전생활지원금조례는2032093제정부칙에서폐지되어현재본문제41~45조로통합된사실을보존한다. 합쳐진프로그램의구전남source646000000164/WLF00003806까지이서식을확대하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-19756697",
@@ -29335,10 +29797,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-19859351.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24(2026.7.28 수정)는 그리고앱·충전 캐시백과 카드가맹점 수수료를 안내한다. 2025 공식 의회자료의 관광시설 지류발행 언급만으로 이 서비스의 카드 정산에 지류 환전 제11호가 쓰인다고 확정할 수 없다. 원본의 지류 환전 용도는 확인되며 해당 사업쌍 적용만 미확인이다."
+   "publishedPrograms": [
+    {
+     "id": "g51170.gov24-421000000638",
+     "name": "지역사랑상품권(동해사랑상품권)"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "종전에는 지류환전의 현재 실제 접수 안내가 없다는 이유로 보류했다. 이번 공식 홈페이지의 독립 지류형 상품권 메뉴(key1922)를 실제 GET하여 지류가맹점주→금융기관→환전청구서 작성→등록계좌 익일 이체 절차와15개 금융기관을 확인했다. 현행규칙1645749 제9조①은 이 청구에 별지11을 직접 지정하며 원본의 가맹점번호·상호·권종·매수·금액·계좌와 정확히 맞는다. 원본은 미리 채워진 신청인이나 고정 할인율/한도가 없는 빈 청구서이고 전체388자와 내장WMF1개의 빈 렌더를 확인했다. 정확 수록사업Gov638은 같은 동해사랑상품권 조례를 근거로 가맹점의 수수료 절감·홍보·매출증대도 안내한다. 해당 사업의 일반 소비자 카드발급 절차를 지류권으로 바꾸지 않고, 같은 상품권의 별도 지류가맹점 후속환전 경로에만 제한하는 연결을 제안한다. 이 프로그램의 지류 경로 포함 판단은 공식시청 추가근거에 기초한 검토 제안이며 총괄 독립검증 전 공개승인하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-19861763",
@@ -31540,9 +32007,9 @@
    "relativePath": "ordin-19969609.hwp",
    "usableHangul": true,
    "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "2026년 공식 기금운용계획9쪽 전체 및 지출6쪽 도표를 재확인했다. 자립활동·자립구직·사회보험료·의료검사비는 일반보전금이고 자활기업 세무·교육·안전지원은 별도 민간이전으로 구분된다. 정부242026.8.12도 개인신청 없이 센터 발굴·안내라고 명시한다. 별지 제4호는 자활사업 실시기관이 지원대상의 사업자금 사용과 대여금 상환을 지도·감독하겠다는 서약이다. 규칙 제2조의 첨부서류임은 확인했으나 현 사업은 주민 자립활동·구직·의료비 등 위탁지원이며 기관 자체 또는 사업대여를 지원대상으로 하지 않는다. 기관 명칭만으로 제외하지 않고 해당 사업의 지원 항목·신청경로와 대조한 결과 이 사업의 필수 부속서류 근거가 없다. 현행 센터 내부서식과 이 별지의 실제 제출관계는 새 공개자료에서도 해소되지 않았다."
+   "reviewState": "reviewed_not_linked",
+   "reviewLabel": "신청인이 작성하는 서류 아님",
+   "reviewReason": "2026-10-23 독립 조사자와 총괄이 고정원본12800바이트/SHA 및 전체414자를 각각 확인했다. 원본의 유일한 서약자·날인자는 자활사업 실시기관이며, 지원대상의 사업자금 용도·대여금 상환을 지도감독하고 경영지도계획을 첨부하는 기관의 관리책임 서약이다. 현행규칙1715997 제2조는 직접기금 신청서류와 센터위탁 내부서식 경로를 구분한다. 상위조례1971779 제3·8·9·11조는 기관·기업이 실제 지원대상인 점포·설비·대여 경로도 두므로 기관 명칭 자체를 보편적 제외사유로 삼지 않는다. 다만 현재 정확한 정부24 394000000124는 참여주민의 자립활동·구직·의료비·사회보험료4항목과 센터발굴·안내를 명시한다. 이 현재 주민급여 신청인의 서식으로 기관의 대여상환 관리서약을 붙이지 않는 non_applicant로 분류한다. 서약서 자체의 폐지나 별도 기관직접지원사업에서도 사용할 수 없다는 결론은 아니다."
   },
   {
    "formId": "ordin-19969617",
@@ -31854,10 +32321,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-19976627.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "정확한 정부24 및 병합 복지로 WLF00002613은 어린이집 원복·체육복 등 10만원 준비금과 어린이집 입금 방식을 안내한다. 복지로에는 실질 신청서 대신 첨부파일없음 항목만 있다. 입소신청서가 이 준비금의 신청을 겸한다는 작성란·공식 제출 지시는 찾지 못했으므로 입소 시점이 같다는 이유로 승인하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g41830.gov24-417000000101",
+     "name": "저소득 및 다문화가정 아동 입학준비금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확 Gov417000000101은 관내 저소득·다문화 어린이집 입학아동을 대상으로 관할 어린이집 입소시 방문접수를 안내하고, 병합 원천 Bokjiro WLF00002613은 어린이집 입학준비금과 시설 입금방식을 명시한다. 현행 상위조례1926225 제16조 군립어린이집 및 제25조2호 아동입소료 지원과 규칙793158 제4조1항의 의무 입소신청 별지2를 대조했다. 원본320자는 군립어린이집 입소 의사·보호자 서명·우선순위 증빙과 시설장 수신이며 청구액·계좌란은 없다. 따라서 준비금 겸용이 아니라 해당 지원의 실제 입소 전제에 필요한 군립 입소 경로로 조건부 연결한다. 규칙 문장은 이에 준하는 정부지원 시설도 포함하나 원본의 군립이라는 신청인 문구를 바꾸거나 그밖의 시설까지 확장하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-19976697",
@@ -33581,10 +34053,19 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-20004411.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "성남 아동의료비 현재 정부24는 18세 미만의 의료비 지원과 상담 후 방문 신청을 안내하나 가족·제3자 계좌 수령의 예외 요건이나 별지11 계좌변경서를 지정하지 않는다. 공식 시 자료 검색에서도 현행 별도 지급기준은 확보하지 못했다. 통상의 본인 지정계좌 지급 근거로 사망·압류 등 제3자 수령을 허용하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g41130.bokjiro-WLF00001629",
+     "name": "성남시 아동의료비 본인부담 100만원 상한제 사업"
+    },
+    {
+     "id": "g41130.gov24-378000000137",
+     "name": "아동 의료비 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004411를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 11 전체 1193자에는 본인 계좌 지급 원칙, 사망·파산·압류 등 부득이한 경우 입증서류 제출 시에만 계좌변경 가능하다는 제한, 가족·제3자·이해관계인별 증빙, 수령인 반환 확약이 직접 적혀 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
   },
   {
    "formId": "ordin-20004423",
@@ -33600,10 +34081,19 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-20004423.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "성남 아동의료비 현재 정부24와 공식 시 자료 검색에서 사망환자 지원금의 상속채권·대표상속인 합의·별지17 제출 절차를 특정하지 못했다. 일반 의료비 지원 안내는 확인되었지만 사망 이후 대표수령 조건을 보완하지 못하여 상속 합의서의 실제 접수 여부는 계속 미확인이다."
+   "publishedPrograms": [
+    {
+     "id": "g41130.bokjiro-WLF00001629",
+     "name": "성남시 아동의료비 본인부담 100만원 상한제 사업"
+    },
+    {
+     "id": "g41130.gov24-378000000137",
+     "name": "아동 의료비 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행 검색은 시행규칙 2041475(2025-05-26 시행)를 반환하며, 2026-10-23 공식 전체 본문 HTML의 별지 목록에서 정확한 별표키 20004423를 확인했다. 공식 API 별표 원기록의 키·번호·flSeq와 원본 바이트 SHA를 결속했다. 별지 17 전체 325자는 환자(사망인), 아동의료비지원금액(상속대상액), 대표상속인, 망인에게 지급되는 지원금의 대표 선정·지급 동의와 상속인 서명 및 가족관계증명서로 구성되어 있다. 상위 조례 1844651 제9·10조와 시행규칙 제3·6·7조의 같은 의료비 지원·지급 절차를 비교했다. 별지 자체의 명시 용도에 한정하므로 두 정확한 성남 사업에 conditional 연결을 제안한다. 본문이 이 별지를 직접 호명하거나 새로운 사망후 청구권을 명문화했다고 주장하지 않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
   },
   {
    "formId": "ordin-20004895",
@@ -34288,10 +34778,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-20017903.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "목욕업소 대표가 사용된 목욕권 매수·단가·기간을 정산하고 비용을 청구하는 서식이다. 사이트의 노인 본인 목욕권 신청 단계가 아니며 별지2호 주민신청과 구분한다."
+   "publishedPrograms": [
+    {
+     "id": "g47750.bokjiro-WLF00003661",
+     "name": "어르신 목욕비 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "복지로 exactWLF00003661의현재공개본문을2026-10-23 GET200/동일프로그램ID로읽었다. 청송거주70세이상에게 목욕권을 반기별로 주고 목욕업소 이용시1000원 본인부담을 초과하는 비용을 지원하는 서비스다. 현행1832389 제5조는 관내협약목욕장 사용을, 제6조2항은 운영자가 별지5 비용청구와 사용목욕권·통장사본을 제출할 것을 직접 정한다. 실제원본전체372자는 업체대표·사용매수/기간·단가·청구액·업소계좌이며 같은쿠폰 제공비의 정산이다. 주민최초발급과 다른 작성주체이지만 같은혜택의 법정비용청구라 조건부부속으로 제안한다. 별개icare방문목욕에는 연결하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-20017921",
@@ -36593,9 +37088,9 @@
    "relativePath": "ordin-20113043.hwp",
    "usableHangul": true,
    "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 공식 flSeq=152490437을 직접 다시 GET해 전체 HWP를 읽었으며 SHA 1e45a2022a94a7ee868dc67dc4925074f90c78c22ec7b110963bd1989c5ac50c의 별지2 청소년보호법 위반신고 포상금 신청서가 동일하게 내려온다. 정부24의 합천 긴급지원 안내도 이 포상금 서식을 쓰지 않는다. 저소득 긴급지원 법규의 별지1 지정과 실제 파일이 계속 충돌하여 올바른 공식 대체첨부가 필요하다."
+   "reviewState": "reviewed_not_linked",
+   "reviewLabel": "대응하는 수록 혜택 미확인",
+   "reviewReason": "실제원본은신고일·신고기관·피신고인·위반행위·포상금계좌를기재하는별지2이다. 긴급생계·화재보험·전기교체·명절위문어느절차와도목적과사실관계가다르다. 현재별도포상금규칙1578617제7조①의정확별지2(20113099)를새로받아전체272자동일함을확인했다. 2016생활안정규칙1149호부칙2가청소년포상금규칙별지2를함께개정한경위가양쪽규칙에명시되어,본문의실제포상금용도를직접뒷받침한다. 타법개정첨부의존재를저소득지원신청서로오인한후보연결을제외할수있다. 현재 공개 합천54개 고유사업·별칭3·출처58 전체에서 정확 청소년 위반신고 포상금 사업은 확인되지 않았다. 생활안정 규칙의2016부칙 타법개정 첨부를 긴급지원 신청서로 오인하지 않는다. 이 현재 로컬 범위 밖의 사업 부재를 주장하지 않는다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다."
   },
   {
    "formId": "ordin-20113179",
@@ -39552,10 +40047,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-20214487.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "2026년 시설원예 시비사업 공고의 소형비닐하우스 지침·별지1 사업신청·개인정보동의를 실제 내려받아 전체 판독했다. 0.8ha 이하·미보유 농가 등 정부24 시설원예 사업 대상과 일치하나 이 문서는 최초 사업신청이며 기존 일반 보조금 교부신청서 사용을 증명하지는 않는다. 1월16일 모집이 마감된 별도 공식 원본으로 제안하며, 정원수 자재지원에 확대하지 않는다. 참고 공고는 모집이 종료된 최초 사업신청 자료이며, 기존 일반 교부신청서의 현행 후속 제출관계는 여전히 확인이 필요하다."
+   "publishedPrograms": [
+    {
+     "id": "g12150.gov24-482000000133",
+     "name": "시설원예 생산시설 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확2026시설원예 소형비닐하우스 시비보조사업의 신청인/시설/50%비율과 현행농업조례2062937 제12조 일반조례준용을 대조했다. 일반조례1934335 제5조제1항은 정확별지1·1-1·1-2·1-3 작성제출을직접요구하며 실제원본1호도그조문을역인용한다. 이법정교부신청원본을 해당사업에조건부로안내하되 선정후필수추가제출 또는 그기일을단정하지않는다. 공고자체의최초신청별지1과는서로다른서식이며 그모집은2026.1.16종료했다. 자체서식이일반법정별지를전부대체한다는명문도선정후재첨부금지명문도확인되지않았다. 개인농가에게단체실적·단체통장을허위기재하도록요구하지않고 필요한전체부속서류가이1장으로완비되었다고표시하지않는다. 정원수사업에는확대하지않는다. 실제Herdr Claude Code의2차검토가1차의단계추론을정정하고이정확조건부경로를확인했다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-20214497",
@@ -46668,10 +47168,19 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-20589281.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "파주시 현재 상세 안내와 정부24(2026.8.12 수정)는 첫째100/둘째200/셋째이상300만원 및 출산서비스 통합처리 신청을 명시한다. 기존 파일의 옛 금액·거주조건은 그대로 사용할 근거가 없다. 현행 예규370의 별지2 원본도 실제 다운로드해 전체를 읽었으나 지자체별 작성란은 둘째이상 예시와 가상 기관·연락처로 남아 있고 제9조제4항은 지자체별 확정 서식을 요구한다. 파주 확정본을 확보하지 못해 전국 예시를 억지로 대체하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g41480.bokjiro-WLF00001658",
+     "name": "출생축하 지원"
+    },
+    {
+     "id": "g41480.gov24-406000000102",
+     "name": "출생축하금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "원본출생축하금란에인쇄된첫째10만원·둘째30만원·셋째이상100만원은현행제5조①의최초신청시지급액과정확히같다. 현재정확정부24도총액100/200/300을최초10/30/100과1년후90/170/200으로나누어안내한다. 종전검토는원본금액을총액으로비교했지만원본이그금액을총액이라고확약하는문구는없다. 현행초기신청에한정하면인쇄금액을경고로억지고치는것이아니라법이실제로정한단계와일치한다. 다른산후조리비란의경기도1년거주문구는현재조건확인이안된별도급여이므로이번연결에서제외한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-20590179",
@@ -60412,10 +60921,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21127609.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24와 병합 복지로 WLF00005064는 출산일 전 12개월 주소 요건을 안내하고 복지로는 2022 공통 통합처리 신청서를 첨부한다. 반면 아산시 현재 사업 페이지는 6개월 거주를 안내한다. 아산 산후관리비 선택란을 갖춘 완성 서식과 서로 다른 거주기간을 해소하는 공식 설명은 확보하지 못했으므로 00은행 등 공통 예시가 남은 원본을 승인하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g44200.gov24-452000000339",
+     "name": "산후관리비 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행제5조②가정확별지1의통합신청서제출을요구한다. 원본지방서비스영역은지자체별작성이고서비스명칭등은법령/지자체여건에따라변경사용하도록한다. 원본에는6개월또는12개월거주확약·고정지원금액이없다. 아산산후관리비의공통신청정보와급여계좌대상서비스란을기재하는용도로한정하면지방예시를거짓자격확약으로만들지않는다. 아산현재안내와법은6개월,정확Gov339는12개월을안내하는차이를사업정보충돌로남기되그차이가이서식에틀린거주조건을인쇄했다는뜻은아니다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-21138955",
@@ -62675,10 +63189,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21184717.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "정선군의 2026-03-17 수정 인구정책 안내와 현재 복지로는 부부 중 1명 이상 거주를 명시하고, 복지로는 별지2 이행서약 제출을 요구한다. 그러나 구 문구의 '지원 대상자가 군 외로 전출'과 현행 제8조의 '부부 모두 전출' 사이 명확한 정정 또는 작성 기준은 확인되지 않아 그대로 보류한다."
+   "publishedPrograms": [
+    {
+     "id": "g51770.bokjiro-WLF00006371",
+     "name": "정선군 결혼장려금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "원본327자전체는조례에따른대상자확인및관련규정에따른지급중단·부정수급반환의이행서약이다. 현행제2조는지원금을결혼가구에지급하고그결혼가구를부부단위의기본신청단위로정한다. 제5조는부부중1명이상거주를요구하고제8조2호는부부모두전출한경우중지한다. 서약에는한명이라도전출하면중지한다는문구가없고관련규정에따른다고명시하므로지원대상자를개인1명으로확대해새로운중지조건을확약한다고단정할수없다. 제7조②4호와정확복지로는이별지2제출을직접요구한다. 현재법의결혼가구및중지조건그대로읽는용도로제안하며공식정정문이새로발급되었다고주장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-21184741",
@@ -71164,10 +71683,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21494683.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "아산시 제8조는 참여 의료기관이 비용을 청구하도록 명시하며 실제 원문은 기관 사업자번호·병원 계좌·여러 환자 진료내역·치과의원장 서명을 받는다. 사이트는 아동의 보건소 전화신청을 안내하고 의료기관 지급만 언급한다. 돈을 병원에 지급한다는 사실만으로 병원 비용청구 단계가 시민 신청 양식이라고 확정하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g44200.gov24-452000000340",
+     "name": "저소득층 아동 치과 치료비 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정부24 exact452000000340을2026-10-23 GET200/서비스ID일치로 읽어 관내 저소득2~18세 아동의 미용·교정 제외 치료비와 장애아동 전신마취비,1인최대100만원 의료기관지급을 확인했다. 현행2018635 제5조는 보호자동의 지원대상, 제6조는 치료범위, 제7조는 관내 참여치과 및 장애아동 관외예외, 제8조는 참여의료기관의 정확별지1 비용청구를 직접 규정한다. 원본전체715자는 기관계좌·진료받은아동·치료내역·청구액·치과의원장서명과 진료기록/방사선사진이다. 같은 혜택의 법정 사후의료기관청구로 supporting/conditional을 제안하며, 주민최초신청이라는 이전분류로 승격하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-21494943",
@@ -75643,10 +76167,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21685783.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "정부24의2026.8.12 최신 공식 상세를 직접 GET하여 신청불필요·담당자 직접관리·신청서 및 구비서류 해당없음을 재확인했다. 현재 월3만원 건강지원에서 옛 건강음료 신청/변경 원본을 예외적으로 받는다는 근거는 확인되지 않았다. 다른 장애아동수당의 전국 서류를 같은 건강지원으로 전용하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g44270.gov24-568000000105",
+     "name": "중증장애아동 건강 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정부24의 일반 자동지원은 등록대상자의 통상 운영 설명이다. 현재 조례는 건강지원을 제23조에 포함하고 신청을 희망하는 사람의 별지1 제출을 제24조에 직접 정한다. 같은 canonical 사업에 병합된 정확WLF81은 건강음료대금 월3만원·읍면동 신청을 안내하므로 원본의 건강음료 항목이 다른 옛 급여라는 추정을 뒷받침하지 않는다. 모든 대상자에게 제출의무를 추가하지 않고 법정 신청/변경 경로의 해당 부분을 제공할 수 있다. 고정원본전체 BodyText/Section0 1624자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
   },
   {
    "formId": "ordin-21685785",
@@ -75662,10 +76191,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21685785.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "정부242026.8.12 건강지원 상세가 신청·제출서류 불필요로 안내하여 이 금융정보 동의서의 현재 제출근거를 해소하지 못했다. 별지1의 옛 장애아동 복지지원에 종속된 원본을 자산형성통장·임신출산 등 별도 사업의 동의서로 확대하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g44270.gov24-568000000105",
+     "name": "중증장애아동 건강 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "동의서는그자체로별도지원신청이아니라제24조①신청에종속된②의법정첨부다. 일반자동지원전원에게금융동의를받으라는뜻으로연결하지않고해당법정신청경로에서만제공하면자동지원안내와병존가능하다. 접수서식의직접지정을다시증명하기위해현재운영기관이같은문구를반복하는별도패키지를필수로요구할필요는없다. 고정원본전체 BodyText/Section0 2859자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
   },
   {
    "formId": "ordin-21685787",
@@ -76747,10 +77281,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21714439.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 학습관 수강안내는 정규프로그램4만원과1인1과목 면제·증빙을 명시한다. 다만 대상 사업2030혼밥 강좌가 그 유료 정규과정에 포함되는지 또는 별도 특화과정인지 공개자료에서 확정하지 못해, 제1호 면제서식을 해당 강좌용으로 연결하지 않는다. 면제 제도 자체가 없다는 뜻은 아니다."
+   "publishedPrograms": [
+    {
+     "id": "g43110.gov24-571000000197",
+     "name": "2030 혼밥족을 위한 건강밥상"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 현재 운영기관의 실제 강좌 목록과 상세(6722 상반기, 7189 하반기)를 확인했다. 2030 혼밥족을 위한 건강밥상이 수강료4만원의 정규프로그램(C0020001)이고 학습비 면제를 적용하는 강좌(useExempt:true)임을 명시하여 이전의 유료과정 여부 미확정이 해소됐다. 2026.9.1~12.15 진행 중인 하반기 과정과 현행 규칙2119115 제6조제3항의 교육종료 전 별지1 제출, 제5조의 국가유공자·유족/수급자/한부모/등록장애인, 제6조제2항 기당1과목을 대조했다. 운영기관 수강안내는 면제 인터넷·방문 신청과 증빙서류 제출을 안내한다. 법령포털 원본15872바이트의 SHA와 전체 Section0의 면제 사유·신청인·교육기간·증빙·수신기관을 다시 확인했다. 일반 수강신청서 또는 환불청구로 표시하지 않고 해당 수강생의 학습비 면제에만 연결한다."
   },
   {
    "formId": "ordin-21714441",
@@ -83680,10 +84219,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-21934315.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24 장사시설 감면 안내는 감면 대상 및 방문 접수를 설명할 뿐 사용기간15년을 고정 인쇄한 변경서의 현행30년 허가 처리, 또는 종전15년 허가에 한정한 재사용 지침을 제공하지 않는다. 현행·종전 기간을 구분하는 원본이 추가 확인되어야 하므로 일반 감면사업용으로 승인하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g51760.gov24-O00002700004",
+     "name": "장사시설 이용요금 감면"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확 GovO00002700004는 평창군 공설묘원 사용료 면제 및 같은 상위조례16조3항을 명시한다. 현행 상위2110005 제7조1항은 기존15년 허가를 명시하여 30년 연장 후15년 추가연장 경로까지 규정하고, 제17조는 모든 장사시설 사용자의 주소·상속승계·개장·시설변경 신고를 의무화하며, 규칙2133271 제11조는 그 신고를 별지5로 지정한다. 면제 이용자도 해당 시설 사용자이므로 현행 법정 후속 의무에 적용되는 것으로 판독하며, 감면 재심사·유지용 별도 신청이라고 주장하지 않는다. 원본 전체568자의 현재사용기간15년·변경전후·허가증·승계증빙·동의를 확인했다. 이15년 표시는 모든 변경서의 무효 근거가 아니나 실제30년허가를 담지 못하므로 현재허가15년인 경로에 한정한다. 규칙2조3항의 별지3 기간연장과 조례16조의2 반환청구는 별개다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-21939769",
@@ -85206,10 +85750,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22068451.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "현행 제7조제2항의 기관·병원·업체 계좌 비용지급과 제4호 전체를 대조하였다. 원본의 비용청구자는 의료기관·집수리사업자·기타업체 대표이고 사업자등록·요양기관·제공기간·청구액을 작성한다. 사이트 두 사업은 주민 지원/자동지급 안내이며 업체가 지원대상인 사업이나 업체 신청 절차를 명시하지 않아 주민용 신청 첨부로 연결하지 않는다. 기관이라는 이름만으로 배제한 것이 아니라 실제 청구주체·사업 안내의 범위를 비교하였다."
+   "publishedPrograms": [
+    {
+     "id": "g41550.gov24-408000000534",
+     "name": "취약계층 응급지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "제7조2항은 대상자 필요비용을 해당기관·병원·업체계좌로 지급한다. 별지4 전체는 실제 의료·집수리·기타지원 제공기관의 대표자·제공기간·사업자정보·청구액·기관계좌와 서명이어서 정확 응급지원534의 사후 기관청구부속으로 검토한다. 주민 최초신청/일괄명절지원537에 확대하지 않는다. 기존 자동지급 안내만으로 법정 기관지급 경로를 배제했던 판단을 재검토한 건이다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-22068455",
@@ -88479,10 +89028,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22255373.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "통합특별시의 (구)전남 공식 출생기본소득 안내가 현재 구전남 출생신고 아동을 대상으로 하고 타 보호자 지급동의서를 요구하는 점은 추가 확인했다. 따라서 종전지역 대상임은 보완되었으나 정부24는 통합특별시 명칭의 법규를 인용하고, 해당 옛 제명 원본을 현재 받는다는 배포본·신청서 지정은 없다. 통합 전체 지역으로 확대하거나 명칭 간주기간을 새로 부여하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "s12000.gov24-646000000234",
+     "name": "전라남도-시군 출생기본소득 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행2089709제4조③은보호자2명이상일때중복지급방지를위해다른보호자의동의를받아정확별지1을제출하게할수있도록명시한다. 정확Gov646000000234가동의서명칭·보호자2인이상조건을명시하고,(구)전남공식출생기본소득페이지가구전남출생신고대상및다른보호자의지급동의를명시한다. 원본전체231자는동의자가수령을양보하고배우자가수령하는데자필서명하는내용이므로배우자관계만허용하고일반위임/제3자계좌로확대하지않는다. 현행구지역법규의직접별지지정이근거이며60일문서간주기간을연장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22255375",
@@ -88498,10 +89052,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22255375.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 통합특별시의 (구)전남 공식 안내는 일반 지급은 신청한 달부터이고 소급지급은 안 된다고 안내한다. 기존 조례7조④의 별도 예외심의가 현 통합사업에서 어떤 원본으로 접수되는지는 여전히 확인되지 않았다. 구전남 소급신청의 제한을 통합 전체로 확대하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "s12000.gov24-646000000234",
+     "name": "전라남도-시군 출생기본소득 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행2089709제7조③은재지급시중단기간소급금지를원칙으로하되④는①2~5호에해당하는지원아동/보호자가정확별지2를제출하고운영위원회심의로필요성을인정받으면예외소급할수있다고명시한다. 제9조②2호도그예외심의기능을명시한다. 현재공식안내의신청한달부터·소급안됨은최초지급일반안내이며법정중단후예외심의를폐지한다는직접내용은없다. 원본전체128자의중단통보·소명·신청인서명에한정하여예외절차를연결한다. 제1호전출·자격상실과늦은최초신청을제외하고심의재량을유지하므로새권리를만들지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22259771",
@@ -89286,10 +89845,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22282177.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24 자연채 포장재 지원은 인증 생산자 등의 포장재 구입비50% 지원과 농업정책과 사업신청서 제출을 안내한다. 상표 표시·포장재 사용허가 원본이 그 보조금 수요·교부 신청을 겸한다는 광주시 공식 공고나 해당 첨부는 찾지 못했다. 상표 사용허가와 구입비 보조 신청을 분리하여 보류한다."
+   "publishedPrograms": [
+    {
+     "id": "g41610.gov24-554000000158",
+     "name": "자연채 포장재 지원사업"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확 정부24 554000000158은 자연채 인증 생산자단체·개인의 자연채 포장재 구입비 50% 지원과 같은 상위조례를 명시한다. 현행 상위조례 1992815 제12~14조·18조는 상표사용권과 그 생산자 자금지원, 현행 규칙 2156975 제7조1항은 사용권자가 포장재 등에 자연채를 표시할 때 별지7 제출을 직접 의무화한다. 원본 전체311자는 승인번호·허가품목·포장재 규격과 수량·사용기한·대표 서명을 담으므로 그 포장재의 법정 사용절차에만 연결한다. 신청자 제작비 부담이라는 제7조2항을 50% 보조사업 부존재로 해석하지 않으며, 이 서식이 별도 보조금 사업신청을 겸한다는 주장도 하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22288653",
@@ -90028,10 +90592,19 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22321711.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24는 첫째부터 고흥 출산장려금을 지급하고 읍면·정부24 접수를 안내하지만 서식 첨부는 없다. 원본은 둘째 이상 예시·00은행·000보건소 등 지방서비스 예시가 남아 고흥의 첫째·산후조리비 등 실제 신청항목을 특정하지 않는다. 현행 법규가 별지1을 지정한다는 것 외에 이 예시 양식의 실제 작성 지침은 미확인이다."
+   "publishedPrograms": [
+    {
+     "id": "g12740.gov24-488000000107",
+     "name": "산모건강회복비 지원"
+    },
+    {
+     "id": "g12740.gov24-488000000129",
+     "name": "고흥군 출산장려금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "둘째이상선택지와00은행·000보건소는지방서비스예시영역에있고,전체원문은실제지자체여건에맞게명칭등을변경하여사용하도록명시한다. 이를첫째아는지원하지않는다는신청인의확약으로해석할수없다. 현행법은정확별지1을지정하고현재정확Gov129는첫째부터지급및읍면/정부24접수를안내한다. 공통출생순위와대상서비스기재공란은실제정보를담을수있다. 단,이파일이이미고흥전용항목으로완성된개별양식이라는주장은하지않으며지방서비스기재단계가필요함을조건에명시한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다. V1에서107을제외한이유는전용체크칸부재가아니라별표2의실제지원유형/금액을아직못읽었기때문이다. 추가공식GET으로현재2157025에결속된별표2(22321709/fl167893975)전체734자를확인했다. 제2항산후조리비의관내200/220만원,관외일반50/70만원,장애100/120만원,차상위150/170만원,생계·의료수급200/220만원은정확Gov107과각각일치한다. 같은표제1항의관내분만의료비최대50만원과는별도급여이고현재본문14조②1호가산후조리비에별지1을직접지정한다. 따라서지방서비스실제명칭을기재하는동일통합서식경로를107에도조건부연결할수있다. 국비바우처환급/별지3분만의료비와혼합하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22321713",
@@ -90214,10 +90787,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22337089.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 상수도본부의 실제 다자녀 감면 메뉴는 본인인증/로그인 화면으로 이동한다. 인증을 시도하지 않았으며 공개 민원서식 목록·정부242026.8.21 안내에서는 수정된 별지21 직접 파일을 확보하지 못했다. 최신 공식 대상은 막내18세이하를 명시하는데 기존 원본은18세이하 자녀만 적게 하므로 성년자녀 누락 위험을 해소할 수 없다. 일반 기준을 설명하는 주의문만 붙여 기존 원본을 승인하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "s30000.gov24-630000000660",
+     "name": "대전시 다자녀가정 수도 요금 감면 신청"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행 시행규칙 제22조의5제2항이 '별지 제21호서식에 따라 지역사업소장에게 신청하여야 한다'고 의무로 지정한다. 서식 본문에 '「대전광역시 상수도급수 조례」 제37조제1항 및 같은 조례 시행규칙 제22조제2항 또는 제22조의5제2항에 따라 위와 같이 상수도요금 감면을 신청합니다.' 라는 문장이 실제로 인쇄되어 있다. 신청구분 체크박스는 '[ ] 국민기초생활수급자(생계·의료)', '[ ] 다자녀가정(2자녀)', '[ ] 다자녀가정(3자녀 이상)' 세 가지이며 현행 감면유형과 대응한다. 서식 뒤쪽 업무 담당 확인 사항은 '국민기초생활수급자 증명서 또는 세대별 주민등록표 등본(필요시 가족관계증명서)' 이고 제22조의5제2항의 증빙 구조와 일치한다. 감면율과 금액은 서식에 인쇄되어 있지 않다. 이번 패스에서 고정 사본을 다시 읽어 ZIP 항목 15개, 본문 섹션 Contents/section0.xml 1개, BinData 4개, 256,473바이트를 확인했고 단일 섹션 전체에서 별지 29개 경계를 식별한 뒤 별지21 구간을 판독했다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22343393",
@@ -90848,10 +91426,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22371299.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "완도 보건의료원 현재 출산장려금 페이지를 직접 읽었으나 이전자녀1년 주소 기준만 안내하고 현행 조례의 13세 이상 주소 예외를 반영한 통합 원본이나 작성지침은 없다. 페이지는 행복출산 통합신청을 안내하지만 이 과거3쪽 원본의 고정 출생순위 제한을 해결하지 못했다."
+   "publishedPrograms": [
+    {
+     "id": "g12850.bokjiro-WLF00004578",
+     "name": "완도군 출산장려를 위한 양육비 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행 조례 제5조의2제1항이 '출산서비스 통합처리 신청서[별지 제1호서식]와 구비서류를 제출하도록 해야 한다'고 직접 지정한다. 앞면 지방자치단체 서비스 블록에 '완도군 출산장려금 [ ] 첫째자녀 [ ] 둘째자녀 [ ] 셋째자녀 [ ] 넷째자녀 [ ] 다섯째자녀 이상' 전용 칸이 인쇄되어 있고 수신은 '완도군수 귀하' 이며 참고사항의 신청 장소가 출생자 주민등록주소지 읍ㆍ면ㆍ동으로 조례의 읍ㆍ면 접수와 맞는다. 출산장려금 금액은 서식에 인쇄되어 있지 않다. portal annex metadata 에서 deleted=false 인 현행 별지임을 확인했다. 이전자녀 1년 거주 확인은 신청인 서약이 아니라 '※ 출산장려금 관련 추가 확인 서류' 의 담당공무원 확인 항목이며, 같은 목록에 '가족관계증명서 : 형제·자매의 주소가 다른 경우 자녀순위를 정하기 위한 서류' 가 따로 있다. 서식에 '※ 출산장려금은 출생신고 후 90일 이내 신청. 단, 부 또는 모 완도군 내 거주기간이 1년 미만도 접수 가능' 이 인쇄되어 있다. 이번 패스에서 고정 사본을 다시 읽어 30,208바이트, HWP 5.0 바이너리 컨테이너임을 확인했고 기존 추출본 3쪽 4,549자를 판독 근거로 유지한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22371301",
@@ -90867,10 +91450,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22371301.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "완도 보건의료원 현재 페이지의 2026 파일경로 health_form_2026_05.hwp를 직접 GET해 전체 앞·뒷면을 읽었다. SHA 4e61595b37e362c475f2f788409c4e41e35566103c9da34446c9225afade2f93이며 이전자녀 모두 출생신고일부터1년 거주 등3조건을 모두 충족해야 한다는 문구가 여전히 남아 있다. 현행13세 이상 순위 예외를 반영한 대체 원본을 찾지 못하여 보류한다."
+   "publishedPrograms": [
+    {
+     "id": "g12850.bokjiro-WLF00000233",
+     "name": "완도군 둘째아 이상 돌맞이 축하금 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "현행 조례 제6조제3항이 '지원신청은 군에 출생신고 후 1년이 지난 시점부터 60일 이내에 신청서[별지 제2호 서식]와 구비서류를 군수에게 제출해야 한다'고 직접 지정한다. 서식 앞면 제목이 '완도군 둘째아 이상 돌맞이 축하금 지원 신청서' 이고 사업명 '완도군 둘째아 이상 돌맞이 축하금 지원' 과 일치한다. 사업 지원대상 '완도군에 계속하여 1년이상 주민등록을 둔 부 또는 모와 군에 출생신고 한 출생아' 가 제6조제2항 및 서식 뒷면 확인항목 ①③과 맞는다. 수신은 '완도군수 귀하' 다. 첨부서류로 신청인 예금통장 사본, 주민등록등본, 가족관계증명서, 이전자녀 주민등록 초본이 인쇄되어 있다. 지원 금액은 서식에 인쇄되어 있지 않다. portal annex metadata 에서 deleted=false 인 현행 별지임을 확인했다. 이번 패스에서 고정 사본을 다시 읽어 ZIP 항목 11개, 본문 섹션 Contents/section0.xml 1개, BinData 0개, 55,136바이트를 확인했고 앞면ㆍ뒷면 전체 1,776자를 판독 근거로 유지한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22371303",
@@ -93072,10 +93660,19 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22425515.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "정부242026.8.9 최신 배우자수당 안내가 별지4 지급신청 및 대리 신청시 가족관계·위임장을 지정함을 직접 확인했다. 별지6은 대리인의 계좌에서 수령하는 별도 금융 절차로, 대리 신청 허용만으로 수령까지 허용된다고 추정할 수 없다. 현재 배우자수당에서 대리수령6호를 받는 직접 근거가 남아 미해소이다."
+   "publishedPrograms": [
+    {
+     "id": "g11215.bokjiro-WLF00002162",
+     "name": "국가보훈대상자 예우 및 공훈선양"
+    },
+    {
+     "id": "g11215.gov24-304000000233",
+     "name": "참전유공자 배우자 복지수당 지급"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 광진구 공식 민원편람6553903(등록2026-08-05)을 직접 GET하였다. 이 페이지는 참전유공자 배우자 복지수당의 월10만원·연중상시·구청10층 복지돌봄과 접수와 두 근거 조례를 명시하고, 별지4 지급신청서·별지5 신청위임장·별지6 대리수령신청서를 별개 다운로드로 배포한다. fileSn=3 원본을 실제 GET한 SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909/59139B가 법령포털 원본22425515 및22425553과 각각 정확히 일치한다. HWPX의 Contents/section0.xml 전체974자를 읽고 BinData0개를 확인했다. 본문은 국가보훈조례2060833 제9조의5에 따른 참전유공자 배우자 복지수당 대리수령, 지급사유·대리수령기간·법정대리인·친족관계·계좌·서명·구비서류를 명시한다. 현재 정부24 304000000233과 복지로WLF00002162의 배우자 복지수당 부분에 한정한다. 304000000122 사망위로금과304000000123 일반 보훈예우수당에는 연결하지 않는다. 이전 보류의 핵심인 현재 별지6 직접 배포 근거를 새로 확보했으며 신청 위임을 대리수령으로 추정한 것이 아니다."
   },
   {
    "formId": "ordin-22425533",
@@ -93110,10 +93707,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22425545.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "정부24의 현재 1인가구 인문학 사업은 2026년7~9월 온라인접수와 제출서류 없음을 유지한다. 공식 교육포털에서 확인한 과거 1인가구 인문학 강좌는 수강료0원이지만 2026 해당 사업의 유료징수·감면 적용을 대신 증명하지 못한다. 강남인강 등 다른 후보와도 징수주체가 달라 현재 별지1·2 연결은 보류한다."
+   "publishedPrograms": [
+    {
+     "id": "g11215.gov24-304000000236",
+     "name": "1인가구 인문학 강좌 운영"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 광진구 공식 교육포털 progrmSn7558 상세를 실제 GET200으로 읽었다. 정확 사업 g11215.gov24-304000000236의 프로그램명 유네스코가 인정한 우리의 세계 문화유산, 1인가구 구민 대상, 평생학습센터, 문의02-450-9768이 일치한다. 상세에는 교육2026.7.8~9.9, 모집6.29~7.22 접수마감 및 수강료20,000원을 명시한다. 이전의 2024 무료강좌를 대신 근거로 쓰지 않는다. 현행2060801 제19조3·4항은 별표1·2 감면기준과 별지 감면·반환 신청서를 직접 정한다. 같은 현행 별표22425543의 전체도 실제GET하여 감면대상과 증명서 제출요건을 확인했다. 원본22425545의 전체874자/section0/BinData0은 신청인 서명·수강료·감면/반환 사유·계좌를 받는 별지1과2이며 기관 대장이 없다. 해당 회차의 수강료 감면·반환 절차 자료로만 연결한다. 강좌 신규신청서가 아니며 일반강남인강·무료진학설명회로 확대하지 않는다. 현재 모집 재개나 종료강좌에 대한 새 환급권·소급감면을 보증하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22425549",
@@ -93178,9 +93780,9 @@
    "relativePath": "ordin-22425553.hwpx",
    "usableHangul": true,
    "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24 배우자 복지수당 안내는 별지4 지급신청과 대리신청 시 위임장·관계증빙만 요구한다. 원본 별지6의 제3자 대리수령, 압류·치매 등의 사유 및 관계 제한을 허용하는 현행 지침은 찾지 못했다. 신청 대리를 급여 대리수령으로 확대하지 않는다."
+   "reviewState": "covered_by_existing",
+   "reviewLabel": "게시된 대체 서식으로 안내",
+   "reviewReason": "2026-10-23 현행 광진구 민원편람6553903이 두 근거 조례와 별지6 대리수령 신청서를 직접 배포하며, 실제 기관 파일 및 법령포털22425553·22425515가 모두59139바이트/SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909로 동일함을 재확인했다. 전체 Section0와 실제 한글1쪽을 검토했다. 본문이 인용하는 국가보훈조례2060833에 연결된22425515를 정부24 304000000233 및 복지로WLF00002162의 참전유공자 배우자수당 부분에 실제 게시했고, 두 화면자료의 조건부 링크와 공개원본파일 SHA를 확인했다. 같은 원본을 두 번 첨부하지 않고 이 동일 바이트의 실제 게시본으로 안내한다. 원래22425553의 법규ID·원본·SHA는 보존한다. 사망위로금이나 일반 보훈예우수당의 대리수령으로 확대하지 않는다."
   },
   {
    "formId": "ordin-22427209",
@@ -94307,9 +94909,9 @@
    "relativePath": "ordin-22429465.hwpx",
    "usableHangul": true,
    "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현행 2026.8.20 의료비 조례 제5조는 수술 후 1년 이내 별지1 신청서 및 개인정보 동의 제출을 요구한다. 그러나 국가법령정보센터 원본의 전체 section0을 확인하면 출산장려금 신청서이고, 자치법규정보시스템 현재 003차 별지1을 독립 GET한 결과도 46,225바이트·동일 SHA인 출산장려금 신청서여서 오첨부가 두 공식 경로에 공통으로 남아 있다. 보건소 현재 고정 공지(2025.1.13 게시)를 확인하여 65세 이상/1년 거주/1안30만원·2안60만원/방문접수/구비서류는 재확인했으나 게시물은 안내 이미지뿐이고 별도 신청서 다운로드는 없다. 시청 민원사무편람의 백내장·수술비 제목 검색에도 신청서를 확보하지 못했다. 출산장려금 파일을 의료비 혜택에 연결하지 않으며 올바른 현행 신청서를 접수기관에서 확보하기 전까지 보류한다."
+   "reviewState": "reviewed_not_linked",
+   "reviewLabel": "이 혜택에 제공하지 않는 서류",
+   "reviewReason": "실제본문은부모·신생아·출생순위·출생신고일·출산장려금근거및지급계좌이고백내장진단·수술·의료비항목이없다. 정상출산법2164361/22429439/flSeq168367907의원본과46225B 및SHA8e1bf9...가완전히동일하며해당출산사업에이미공개되어있다. 의료비법2164367제2·3·5조는백내장65세이상·수술신청으로다르므로잘못결속된22429465/flSeq168367933을의료비2사업에서제외하는직접근거가충분하다. 제외는 의료비법2164367/fl168367933에 잘못 결속된 이원본identity와 정확의료비2쌍에 한정한다. 동일SHA 정상출산22429439의 기존공개를 유지하며 SHA전역차단을하지않는다. 올바른백내장별지1은 여전히 별도확보가필요하다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다."
   },
   {
    "formId": "ordin-22429813",
@@ -95915,10 +96517,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22484269.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "운송사업자·조합이 운행구간·요금·보조금과 기관계좌를 청구하는 별지2이다. 실제 사이트 사업은 주민의 바우처카드 이용이며 운송업체 정산신청을 주민신청서에 붙이지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g51820.icare-0083-1489636-1-2-10",
+     "name": "희망택시"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-22484273",
@@ -96313,10 +96920,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22498207.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 원주시 상품권 전용 공식 안내는 온라인뿐 아니라 오프라인도 Chak 가입 후 충전이며 앱·카드형이다. 지류권 가맹점 환전의 현재 접수 공고·원본은 찾지 못했다. 종이권 환전서를 모바일 정산에 연결하지 않고 지류 운영 여부를 미해소로 유지한다."
+   "publishedPrograms": [
+    {
+     "id": "g51130.gov24-419000000129",
+     "name": "원주사랑상품권"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "2026-10-23 새 GET한 원주시 전용 공식 소개는 카드·모바일·지류를 함께 명시하고 지류발행 축소와2천원권을 안내한다. 공식 가맹점 준수사항은 지정은행 방문→환전신청서 작성→가맹점 지정여부 및 상품권금액 확인→입금 순서를 직접 안내하고 실제 매출없는 수취·과다거래 환전을 금지한다. 같은 날 현행규칙2165511(2026-08-28시행) 본문 제8조는 등록가맹점의 별지10 환전청구서와 접수후3일 환전을 명시하고 별지목록의22498207을 확인했다. 고정원본과 새 다운로드의36352바이트/SHA914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9가 같고 전체401자를 읽었다. 한글에서1쪽을 렌더링하여 빈 가맹점 신청서·하단 접수증,2천원권 포함권종,은행수신/계좌/서명과 원본불변을 확인했다. 현재 정확 정부24 원주사랑상품권 사업은 소비자와 가맹점 혜택을 함께 안내한다. 기존 카드앱 안내만으로는 부족했던 지류 가맹점 환전 사용근거를 공식 별도 안내와 현행 별지 지정으로 보완한다. 개인 현금할인구매 별지12의 현재판매 여부는 이 승인에 포함하지 않는다."
   },
   {
    "formId": "ordin-22498211",
@@ -96332,10 +96944,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22498211.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "원주시의 현재 구매 안내를 다시 GET해 앱설치·가입 후 온라인 또는 금융기관 오프라인 충전임을 확인했다. 원본의 종이권 권종별 현금구매와 다르며 별지12를 요구하는 현행 지류 판매를 입증하지 못했다."
+   "publishedPrograms": [
+    {
+     "id": "g51130.gov24-419000000129",
+     "name": "원주사랑상품권"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "지류존재는이번에재입증하지않고총괄의기존원주현재자료를사용했다. 앱구매안내가있다는사실은현행규칙10조④의지류개인할인구매절차를폐지하지않는다. 원본에는고정할인율·구매한도·잘못된자격확약이없고개인선택·금액·권종·신분증·서명이직접있다. 은행별현재지류판매여부와재고를새로확정한것은아니므로현재취급하는지류개인구매경로만조건부제안한다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22499237",
@@ -98237,10 +98854,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22537305.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "영광 목욕·이미용 업소가 사용한 이용권 매수·청구금액·정산계좌로 군수에게 청구하는 별지4이다. 제34조 제공업소 정산을 명시하지만 사이트 사업은 노인에게 이용권을 배부하는 개인 신청 단계만 안내하므로 업소의 매출청구를 노인의 수혜신청서로 연결하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "g12830.bokjiro-WLF00002311",
+     "name": "경로우대 목욕이용권 지원사업"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확원문/법2160691/지역12830은 영광군이다. 전체4호는 사용목욕권 매수·청구액·업소계좌·업소서명과 사용쿠폰/최초신고필증이다. 현행32조 협약업소,34조 매월10일/사용2개월내 원칙의 정확4호청구가 같은WLF2311 목욕이용권 서비스를 정산한다. 이용권수령노인이작성하는3호와 구별해 실제제공업소 부속으로만제안한다.  원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 독립 반대검토 후 총괄이 현행 제28조·제35조 전체를 다시 읽어 같은 쿠폰의 이·미용실 사용과 제32~34조 직접준용을 확인했다. 목욕이라는 사업 요약명만으로 같은 이용권의 이·미용 정산을 제외하지 않으며, 별개 지원사업으로 확대하지도 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-22537309",
@@ -98650,7 +99272,7 @@
    "publishedPrograms": [],
    "reviewState": "requires_external_confirmation",
    "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24(2026-08-06)는 영광 임산부 대상 초음파3회 쿠폰과 임신확인서·신분증·등본 접수를 명시한다. 원본 본문의 쿠폰 목적과는 관련되지만 제목과 현행 시행규칙은 신혼부부 검진 후 청구로 다르다. 정정된 원본이나 해당 쿠폰 접수에 이 별지10을 받는다는 현재 근거는 확보되지 않았다."
+   "reviewReason": "제목과규칙3조⑤의별지10은검진후3개월내신혼검진지원신청이지만실제본문은임신부주수·초음파1~3회·쿠폰·임산부수첩/임신확인이다. 현정부24exact106은그쿠폰사업을명시하고군모자보건안내는지원신청서작성(별지1)→쿠폰발급→검사→병원청구를명시한다. 따라서현재파일이쿠폰용본문임은확정되지만별지10오제목파일을현재별지1대신접수한다는근거는없다. 무관한8개사업쌍은명확한목적차이로제외하고쿠폰1개쌍만미해소로유지한다. 정확 초음파497000000106 한쌍은 현행별지1 대신 이오제목별지10을쓰는접수근거가미해소여서추가확인을유지한다. 나머지무관8쌍만제외하며 다른정상급여서식을변경하지않는다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다."
   },
   {
    "formId": "ordin-22562417",
@@ -99890,9 +100512,9 @@
    "relativePath": "ordin-22583083.hwpx",
    "usableHangul": true,
    "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 공식 flSeq를 다시 GET해도 참전유공자 전용 본문의 SHA가 동일하다. 현 복지로의 관련조례 ZIP도 새로 받아 두 HWPML을 전체 구조 추출했으나 별지·표·그림이 없는 옛 조문 문서이며 일반 보훈 사망 신청서가 아니다. 다른 목적의 서식을 일반 보훈 대상으로 확대하지 않는다."
+   "reviewState": "reviewed_not_linked",
+   "reviewLabel": "이 혜택에 제공하지 않는 서류",
+   "reviewReason": "실제전체본문은참전유공자·참전대상자·참전법제6조를명시한다. 일반국가보훈법2165359제8조④는참전명예수당수급자를제외하고제9조②가일반사망별지2를요구하므로이본문을일반보훈사망용으로확대할수없다. 올바른참전법2165413/22484275가같은전체665자본문을가지며정확복합WLF00004138의참전사망부분에이미조건부공개되어있다. 명절위문Gov108은사망급여조차아니다. 따라서잘못된일반보훈출처22583083을별도공개하지않고정확한참전출처기존연결을유지하는판정이적합하다. 일반보훈 출처의 이identity를 승인하지않고 정상참전22484275의 참전사망부분 기존공개를유지한다. 본문같음은 바이너리/SHA동일이라는뜻이아니다. 일반보훈사망의올바른별지는별도미해소다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다."
   },
   {
    "formId": "ordin-22583289",
@@ -104798,7 +105420,7 @@
    "formId": "ordin-22742385",
    "lawId": "2173001",
    "lawTitle": "곡성군 지방보조금 관리 조례",
-   "title": "[별지 제3호서식]",
+   "title": "중요재산 현황 — 보조사업자 취득·변동 보고용",
    "regionCode": "12720",
    "format": "hwpx",
    "bytes": 26975,
@@ -104808,10 +105430,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22742385.hwpx",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "reviewed_not_linked",
-   "reviewLabel": "신청인이 작성하는 서류 아님",
-   "reviewReason": "보조금으로취득한중요재산의유형·가액·처분제한기간을관리하는현황표로지원신청서가아니다."
+   "publishedPrograms": [
+    {
+     "id": "g12720.gov24-486000000126",
+     "name": "노동 절감형 스마트 청년농업인 육성 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "정확 정부24 486000000126의2026-10-23 HTTP200 본문은 스마트온실·환경관리 자동제어·시설관리 등 사업과 곡성군 지방보조금 관리 조례를 직접 인용한다. 2026-10-23 실제 법령검색에서 현행MST2173001/2026-09-30을 재확인하고 동일MST 전체 조례 제9조①②와 부칙을 읽었다. 제9조는 보조사업자의 중요재산 취득15일 및6·12월 변동 현황 보고를 별지3으로 직접 지정한다. 정확별표22742385/fl169864655 원본HWPX26975바이트 SHA를 재확인하고 ZIP CRC 및Section0 전체220자/BinData0을 읽었다. 이 양식은 보조사업자의 재산현황 보고이므로 이전의 단순 기관관리대장 분류를 정정하는 제안이다. 지원사업에 포함된 모든 자산이 중요재산이라고 해석하지 않고 실제 해당자산 보고조건으로 제한한다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
   },
   {
    "formId": "ordin-22742387",
@@ -109034,10 +109661,15 @@
    "textScope": "all_body_sections_or_pages",
    "relativePath": "ordin-22876359.hwp",
    "usableHangul": true,
-   "publishedPrograms": [],
-   "reviewState": "requires_external_confirmation",
-   "reviewLabel": "공식 사용 확인 필요",
-   "reviewReason": "현재 정부24의 아리수 품질확인제는 5항목 현장검사와 온라인·120·방문을 안내한다. 아리수 공식 페이지에서 연결된 수질검사 온라인 신청도 열었으나 일반 민원접수 화면이며 별지40 다운로드·지정은 확인되지 않는다. 연구원 수질검사 안내와 무료 현장 품질확인제의 실제 서식 사용을 동일하다고 단정하지 않는다."
+   "publishedPrograms": [
+    {
+     "id": "s11000.gov24-611000000174",
+     "name": "아리수 품질 확인제 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": "원본36868B/전체BodyTextSection0 215자를독립재추출하고전체판독했다. 실제인쇄번호40·고객번호·사용자명·시설물주소·민원내용·사용자와의관계·○○수도사업소장수신으로소비자의수돗물검사신청임을확인했다. 현행2178947 제39조①은별지39또는40을연구원장또는사업소장에게제출하도록정하며전체법규캐시에annex22876359/fl170598879/number40이삭제아닌현재첨부로직접존재한다. 제한된MCP목록에서못찾은사실을원본부재로간주할수없다. 상위2024149 제35조및39조②·40조②의수돗물검사경로와정부24의정확Arisu174 수용가·수도사업소·전화/온라인/방문수질민원,운영기관품질확인제안내및i121편람의수질검사신청을대조했다. 현장5항목과소비자민원경로의한정연결이며실험실검체의뢰/다른급수지원으로확대하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
   },
   {
    "formId": "ordin-22876367",
@@ -110187,6 +110819,10 @@
    "usableHangul": true,
    "publishedPrograms": [
     {
+     "id": "g31710.gov24-373000000110",
+     "name": "산모·신생아 건강관리사 지원"
+    },
+    {
      "id": "g41370.bokjiro-WLF00001023",
      "name": "장애인활동지원 시추가지원"
     },
@@ -110203,12 +110839,68 @@
      "name": "영유아보육료 지원"
     },
     {
+     "id": "n.gov24-PTR000050390",
+     "name": "산모·신생아 건강관리 지원"
+    },
+    {
      "id": "n.gov24-VOU000000020",
      "name": "장애인 활동지원"
     },
     {
      "id": "n.welfare100-childcare-fee",
      "name": "보육료 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": ""
+  },
+  {
+   "formId": "rule-3249997",
+   "lawId": "2100000281394",
+   "lawTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+   "title": "임신서비스 통합처리 신청서",
+   "regionCode": "national",
+   "format": "hwpx",
+   "bytes": 39280,
+   "sha256": "0a23cbf184e7bf01e088ede8eab4b8cb32948250cc9a322890460a80e5c753ba",
+   "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166471281",
+   "downloadedAt": "2026-10-22T22:46:20.190499+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "relativePath": "rule-3249997.hwpx",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "n.gov24-PTR000050390",
+     "name": "산모·신생아 건강관리 지원"
+    }
+   ],
+   "reviewState": "linked",
+   "reviewLabel": "혜택에 연결",
+   "reviewReason": ""
+  },
+  {
+   "formId": "rule-3249999",
+   "lawId": "2100000281394",
+   "lawTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+   "title": "출산서비스 통합처리 신청서",
+   "regionCode": "national",
+   "format": "hwpx",
+   "bytes": 37825,
+   "sha256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+   "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166471293",
+   "downloadedAt": "2026-10-22T21:30:15.068693+00:00",
+   "textScope": "all_body_sections_or_pages",
+   "relativePath": "rule-3249999.hwpx",
+   "usableHangul": true,
+   "publishedPrograms": [
+    {
+     "id": "g47110.gov24-502000000209",
+     "name": "출산장려금 지원"
+    },
+    {
+     "id": "g51800.gov24-432000000240",
+     "name": "출생아 건강보험가입 지원"
     }
    ],
    "reviewState": "linked",

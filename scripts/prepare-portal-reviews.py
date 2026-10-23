@@ -17,7 +17,7 @@ conditions. An indirect national form reference must identify the cited local
 delegation or the exact program page, national law and annex number.
 """
 import importlib.util,json,re,sqlite3,sys
-from urllib.parse import urlsplit,parse_qsl
+from urllib.parse import urlsplit,parse_qsl,parse_qs
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('portal_match',ROOT/'pipeline/forms/portal_match.py')
@@ -58,7 +58,7 @@ OVERRIDE_FILE=ROOT/'pipeline/forms/reviews/full-body-role-overrides.json'
 # Each override is bound to the exact original SHA and still passes the gates below.
 FULL_BODY_ROLE_OVERRIDES=json.loads(OVERRIDE_FILE.read_text(encoding='utf-8-sig')).get('forms',{}) if OVERRIDE_FILE.exists() else {}
 VERIFIED_LAW_HISTORIES=json.loads((ROOT/'src/lib/data/verifiedLawHistories.json').read_text(encoding='utf-8-sig'))['histories']
-SCOPE_BASES=frozenset({'provincial-law-reference','national-law-reference','official-application-reference','municipal-application-reference'})
+SCOPE_BASES=frozenset({'provincial-law-reference','national-law-reference','official-application-reference','municipal-application-reference','national-municipal-intake-reference'})
 def read(file):return json.loads(file.read_text(encoding='utf-8-sig'))
 def day(value):
     value=str(value)
@@ -209,10 +209,87 @@ def resolve_role(record):
     metadata=role_metadata(record)
     if metadata:return metadata['role'],metadata
     raise ValueError('Audited form role still needs review; an unidentified supporting form needs roleBasis, roleEvidenceUrl and roleCheckedAt: '+form_id)
+def national_municipal_intake(record,program,form,entry):
+    if form.get('sourceKind')!='agency' or form.get('regionCode')!=entry.get('regionCode'):
+        raise ValueError('National municipal intake source differs from its registry')
+    return agency.validate_national_intake(entry,program,record)
+
+
+STATUTORY_APPLICATIONS=json.loads((ROOT/'src/lib/data/verifiedStatutoryApplications.json').read_text(encoding='utf-8-sig'))['applications']
+STATUTORY_REF_FIELDS=frozenset({'kind','referenceId','referencedLawTitle','annexNumber','sourceSHA256','basis'})
+STATUTORY_STEPS=('law','regulation','notice')
+
+
+def statutory_application(record,program,form,ref):
+    """법이 그 급여의 신청서로 전국 공통 서식 하나를 지정한 경로.
+
+    사업마다 따로 검토해 등록한 verifiedStatutoryApplications 항목에만 열린다. 링크는 그
+    등록을 그대로 되비추며 사업ID·지역·서식·별지번호·원본SHA·현행 3단계 조문이 모두 맞아야
+    한다. 법령 제목 별칭이나 승인 플래그로는 통과하지 않고 초기 신청 단계만 받는다.
+    """
+    entry=STATUTORY_APPLICATIONS.get(str(ref.get('referenceId') or ''))
+    region=program.get('region') if isinstance(program.get('region'),dict) else {}
+    sources=[program.get('url')]+[s.get('url') for s in program.get('sources',[]) if isinstance(s,dict)]
+    government=lambda url: bool(url) and urlsplit(str(url)).scheme=='https' and bool(re.fullmatch(r'gov\.kr|.+\.(?:go|gov)\.kr',urlsplit(str(url)).hostname or ''))
+    # 접수기관 누리집은 광역시 산하처럼 go.kr 이 아닐 수 있다. 안전한 공개 주소만 요구한다.
+    public_https=lambda url: bool(url) and urlsplit(str(url)).scheme=='https' and '.' in (urlsplit(str(url)).hostname or '') and not urlsplit(str(url)).username
+    city=str((entry or {}).get('municipality',''))
+    chain=(entry or {}).get('chain')
+    cited=(entry or {}).get('citedLawTitle')
+    cites=bool(cited) and any(matcher.normalize_law(title)==matcher.normalize_law(cited) for title in (program.get('laws') or []) if isinstance(title,str))
+    if (not entry or set(ref)!=STATUTORY_REF_FIELDS or entry.get('referenceId')!=ref.get('referenceId')
+            or entry.get('programmeId')!=program.get('id') or program.get('scope')!='sigungu'
+            or region.get('sigungu')!=entry.get('sigungu') or region.get('sido')!=entry.get('sido')
+            or entry.get('formId')!=record['formId'] or form.get('regionCode')!='national'
+            or entry.get('lawId')!=form.get('lawId') or entry.get('annexNumber')!=form['annexNumber']
+            or matcher.normalize_law(entry.get('referencedLawTitle'))!=matcher.normalize_law(form['lawTitle'])
+            or entry.get('sourceUrl')!=form.get('sourceUrl')
+            or entry.get('stage')!='initial-application' or entry.get('use')!=record.get('use')
+            or entry.get('checkedAt')!=record.get('checkedAt')
+            or not re.fullmatch(r'[a-f0-9]{64}',str(entry.get('sourceSHA256','')))
+            or ref.get('sourceSHA256')!=entry['sourceSHA256'] or str(record.get('sha256'))!=entry['sourceSHA256']
+            or record.get('bytes')!=entry.get('sourceBytes') or record.get('originalFormat')!=entry.get('sourceFormat')
+            or len(city)<2 or city not in str(record.get('condition',''))
+            or city not in str(entry.get('scopeRestriction',''))
+            or not cites or record.get('condition')!=entry.get('condition')
+            or len(str(entry.get('condition','')).strip())<30
+            or str(form.get('effectiveDate','')).replace('-','')!=str(entry.get('sourceEffectiveDate','')).replace('-','')
+            or any(len(str(entry.get(k,'')).strip())<30 for k in ('scopeRestriction','sourceDateCaveat'))
+            or not isinstance(chain,list) or len(chain)!=len(STATUTORY_STEPS)
+            or any(not isinstance(row,dict) or row.get('step')!=step or not str(row.get('lawId','')).isdigit()
+                   or not str(row.get('title','')).strip()
+                   or not re.fullmatch(r'제\d+조(?:의\d+)?(?:제\d+항)?',str(row.get('article','')))
+                   or len(str(row.get('claim','')).strip())<20 or not official_url(row.get('url'))
+                   or row.get('currentState')!='source_current' or row.get('checkedAt')!=entry.get('checkedAt')
+                   or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',str(row.get('effectiveDate','')))
+                   or str(row.get('effectiveDate'))>str(entry.get('checkedAt'))
+                   or not re.fullmatch(r'[a-f0-9]{64}',str(row.get('evidenceSHA256','')))
+                   or not re.fullmatch(r'[a-f0-9]{64}',str(row.get('currentIdentityEvidenceSHA256','')))
+                   or parse_qs(urlsplit(row.get('url','')).query,keep_blank_values=True).get('admRulSeq' if step=='notice' else 'lsiSeq')!=[row.get('lawId')]
+                   or (step!='notice' and parse_qs(urlsplit(row.get('url','')).query,keep_blank_values=True).get('joNo')!=[re.search(r'^제(\d+)조',row['article']).group(1).zfill(4)])
+                   for step,row in zip(STATUTORY_STEPS,chain))
+            or matcher.normalize_law(chain[0].get('title'))!=matcher.normalize_law(cited)
+            or chain[2].get('lawId')!=entry.get('lawId')
+            or not public_https((entry.get('receivingAgency') or {}).get('url'))
+            or len(str((entry.get('receivingAgency') or {}).get('claim','')).strip())<30
+            or (entry.get('receivingAgency') or {}).get('checkedAt')!=entry.get('checkedAt')
+            or (entry.get('receivingAgency') or {}).get('httpStatus')!=200
+            or not re.fullmatch(r'[a-f0-9]{64}',str((entry.get('receivingAgency') or {}).get('evidenceSHA256','')))
+            or not re.fullmatch(r'[a-f0-9]{64}',str(entry.get('programmeEvidenceSHA256','')))
+            or not government(entry.get('programmeUrl'))
+            or record.get('evidenceUrl')!=entry.get('programmeUrl')
+            or record.get('programEvidenceUrl')!=entry.get('programmeUrl')
+            or entry.get('programmeUrl') not in sources):
+        raise ValueError('Statutory application reference lacks exact registered chain evidence: '+record['formId'])
+
+
 def scope_basis(record,program,form):
     """다른 관할 서식이 이 사업에 적용된다는 근거. 검토가 적은 값만 확인하고 없으면 만들지 않는다."""
     if form.get('sourceKind')=='agency':
         entry=agency.validate_form(form)
+        if record.get('nationalMunicipalIntakeReference') is not None or str(record.get('scopeBasis') or '')=='national-municipal-intake-reference':
+            national_municipal_intake(record,program,form,entry)
+            return 'national-municipal-intake-reference'
         agency.validate_program(entry,program,record)
         return None
     region=program.get('region') if isinstance(program.get('region'),dict) else {}
@@ -263,6 +340,9 @@ def scope_basis(record,program,form):
             or ref.get('annexNumber')!=form['annexNumber'] or len(str(ref.get('basis') or ''))<30):
             raise ValueError('Official application reference lacks exact source evidence: '+record['formId'])
         url=record.get('evidenceUrl')
+        if ref.get('kind')=='statutory-chain':
+            statutory_application(record,program,form,ref)
+            return 'official-application-reference'
         if ref.get('kind')=='cited-local-law':
             valid=(official_url(url) and dict(parse_qsl(urlsplit(url).query)).get('ordinSeq')==ref.get('sourceLawId')
                    and bool(re.fullmatch(r'제\d+조(?:의\d+)?(?:제\d+항)?',str(ref.get('article') or '')))
@@ -314,7 +394,7 @@ def build(programs,files):
             for program_id in record['programIds']:
                 program=programs.get(program_id)
                 if not program:raise ValueError('Unknown audited program: '+program_id)
-                link={key:record[key] for key in ['formId','use','condition','evidenceUrl','evidenceNote','checkedAt','displayTitle','programEvidenceUrl','municipalApplicationReference'] if key in record}
+                link={key:record[key] for key in ['formId','use','condition','evidenceUrl','evidenceNote','checkedAt','displayTitle','programEvidenceUrl','municipalApplicationReference','nationalMunicipalIntakeReference'] if key in record}
                 link['programIds']=[program_id]
                 basis=scope_basis(record,program,forms[form_id])
                 if basis:link['scopeBasis']=basis

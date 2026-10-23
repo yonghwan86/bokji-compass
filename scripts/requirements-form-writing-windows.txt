@@ -1,0 +1,5 @@
+# Maintenance-only HWP conversion on a licensed Windows Hancom installation.
+# The website and its browser-only writer do not import these packages.
+pywin32==312; sys_platform == "win32"
+PyMuPDF==1.28.0
+psutil==7.2.2

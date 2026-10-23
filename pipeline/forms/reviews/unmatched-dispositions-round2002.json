@@ -887,48 +887,54 @@
         "g48890.gov24-548000000105",
         "g48890.gov24-548000000107"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "no_matching_site_program",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g48890.bokjiro-WLF00000614",
           "formId": "ordin-20113043",
-          "decision": "not_matched",
-          "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
         },
         {
           "programId": "g48890.bokjiro-WLF00002897",
           "formId": "ordin-20113043",
-          "decision": "not_matched",
-          "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
         },
         {
           "programId": "g48890.gov24-548000000102",
           "formId": "ordin-20113043",
-          "decision": "not_matched",
-          "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
         },
         {
           "programId": "g48890.gov24-548000000104",
           "formId": "ordin-20113043",
-          "decision": "not_matched",
-          "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
         },
         {
           "programId": "g48890.gov24-548000000105",
           "formId": "ordin-20113043",
-          "decision": "not_matched",
-          "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
         },
         {
           "programId": "g48890.gov24-548000000107",
           "formId": "ordin-20113043",
-          "decision": "not_matched",
-          "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
         }
       ],
       "verifiedDocumentTitle": "청소년보호법위반신고자포상금신청서",
-      "reason": "현재 공식 flSeq=152490437을 직접 다시 GET해 전체 HWP를 읽었으며 SHA 1e45a2022a94a7ee868dc67dc4925074f90c78c22ec7b110963bd1989c5ac50c의 별지2 청소년보호법 위반신고 포상금 신청서가 동일하게 내려온다. 정부24의 합천 긴급지원 안내도 이 포상금 서식을 쓰지 않는다. 저소득 긴급지원 법규의 별지1 지정과 실제 파일이 계속 충돌하여 올바른 공식 대체첨부가 필요하다.",
+      "reason": "실제원본은신고일·신고기관·피신고인·위반행위·포상금계좌를기재하는별지2이다. 긴급생계·화재보험·전기교체·명절위문어느절차와도목적과사실관계가다르다. 현재별도포상금규칙1578617제7조①의정확별지2(20113099)를새로받아전체272자동일함을확인했다. 2016생활안정규칙1149호부칙2가청소년포상금규칙별지2를함께개정한경위가양쪽규칙에명시되어,본문의실제포상금용도를직접뒷받침한다. 타법개정첨부의존재를저소득지원신청서로오인한후보연결을제외할수있다. 현재 공개 합천54개 고유사업·별칭3·출처58 전체에서 정확 청소년 위반신고 포상금 사업은 확인되지 않았다. 생활안정 규칙의2016부칙 타법개정 첨부를 긴급지원 신청서로 오인하지 않는다. 이 현재 로컬 범위 밖의 사업 부재를 주장하지 않는다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -958,37 +964,13 @@
         "basis": "Full same-jurisdiction corpus name/summary/benefit search; hits alone are not approvals."
       },
       "approvedAssociations": [],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/548000000104",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case10-gov24.json",
-                "sha256": "1983f21028c3b6ddf9fadef52390e036811b576494a644b16d0cf00e85337a5c",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152490437&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EC%86%8C%EB%85%84%EB%B3%B4%ED%98%B8%EB%B2%95+%EC%9C%84%EB%B0%98%EC%8B%A0%EA%B3%A0%EC%9E%90+%ED%8F%AC%EC%83%81%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case10-current-law-annex.json",
-                "sha256": "44991140de1ad7da089cd8e8cf16bc28c1d8801e0595bdb2d0a622a7e5f27223",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/official-source-exclusions-20261023e.json",
+        "sourceResultSHA256": "0a2c9d1cfe9189aa3520698de3464629f2583b11e5880104fd18d8dcb10ac1d0",
+        "allOriginalsMatched": false,
+        "wrongSourcePairOnly": true
       },
       "relatedProgramIds": [
         "g48890.bokjiro-WLF00000614",
@@ -997,7 +979,125 @@
         "g48890.gov24-548000000104",
         "g48890.gov24-548000000105",
         "g48890.gov24-548000000107"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 공식 flSeq=152490437을 직접 다시 GET해 전체 HWP를 읽었으며 SHA 1e45a2022a94a7ee868dc67dc4925074f90c78c22ec7b110963bd1989c5ac50c의 별지2 청소년보호법 위반신고 포상금 신청서가 동일하게 내려온다. 정부24의 합천 긴급지원 안내도 이 포상금 서식을 쓰지 않는다. 저소득 긴급지원 법규의 별지1 지정과 실제 파일이 계속 충돌하여 올바른 공식 대체첨부가 필요하다.",
+          "reviewedProgramPairs": [
+            {
+              "programId": "g48890.bokjiro-WLF00000614",
+              "formId": "ordin-20113043",
+              "decision": "not_matched",
+              "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+            },
+            {
+              "programId": "g48890.bokjiro-WLF00002897",
+              "formId": "ordin-20113043",
+              "decision": "not_matched",
+              "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+            },
+            {
+              "programId": "g48890.gov24-548000000102",
+              "formId": "ordin-20113043",
+              "decision": "not_matched",
+              "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+            },
+            {
+              "programId": "g48890.gov24-548000000104",
+              "formId": "ordin-20113043",
+              "decision": "not_matched",
+              "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+            },
+            {
+              "programId": "g48890.gov24-548000000105",
+              "formId": "ordin-20113043",
+              "decision": "not_matched",
+              "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+            },
+            {
+              "programId": "g48890.gov24-548000000107",
+              "formId": "ordin-20113043",
+              "decision": "not_matched",
+              "reason": "공식 법규ID1220731의 시행규칙 제2조는 저소득 긴급지원 제1호를 지정하지만, 첨부 ID20113043의 실제 HWP는 별지 제2호 청소년보호법 위반신고 포상금 신청서이다. 신청인·신고일·피신고인·포상금 서명까지 전체를 확인해 파일/법규의 목적·별지 충돌을 확인했다. 지역 포상금 사업도 발견하지 못했다. 이 첨부를 긴급구호·화재보험·생활안정 등 후보6개에 붙이지 않고 공식 첨부 정정 확인이 필요하다."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/548000000104",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case10-gov24.json",
+                    "sha256": "1983f21028c3b6ddf9fadef52390e036811b576494a644b16d0cf00e85337a5c",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152490437&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EC%86%8C%EB%85%84%EB%B3%B4%ED%98%B8%EB%B2%95+%EC%9C%84%EB%B0%98%EC%8B%A0%EA%B3%A0%EC%9E%90+%ED%8F%AC%EC%83%81%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case10-current-law-annex.json",
+                    "sha256": "44991140de1ad7da089cd8e8cf16bc28c1d8801e0595bdb2d0a622a7e5f27223",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "sourceLawId": "1220731",
+      "actualPurpose": "청소년보호법 위반신고자 포상금 신청",
+      "correctCounterpart": {
+        "formId": "ordin-20113099",
+        "lawId": "1578617",
+        "lawTitle": "합천군 청소년 유해환경 신고포상금 지급 규칙",
+        "annexId": "20113099",
+        "annexNumber": "000300",
+        "verifiedAnnexNumber": "2",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152490533&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EC%86%8C%EB%85%84%EB%B3%B4%ED%98%B8%EB%B2%95+%EC%9C%84%EB%B0%98%EC%8B%A0%EA%B3%A0%EC%9E%90+%ED%8F%AC%EC%83%81%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "sha256": "94b32b1e7b0b9070148d3a90737cedf4cb2a685f950aa31b53503ac77c9a4e93",
+        "bytes": 23552,
+        "format": "hwp",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textScope": "all_body_sections_or_pages",
+        "fullBodyReviewed": true,
+        "resources": [],
+        "sameTextAsOriginal20113043": true,
+        "sameSHAAsOriginal20113043": false,
+        "originalPath": "logs/forms-followup-20261023e/team3/new-counterpart/ordin-20113099.hwp",
+        "officialLawHTMLPath": "logs/forms-followup-20261023e/team3/laws/1578617.html",
+        "currentAnnexIdFoundInOfficialHTML": true,
+        "role": "application",
+        "applicant": "청소년유해환경 위반 신고자로서 현행규칙6조의 포상금 지급대상자",
+        "purpose": "위반행위로확인된신고의포상금신청",
+        "lawArticles": [
+          "제6조",
+          "제7조제1항",
+          "2016년 규칙1149호 부칙 제2조"
+        ],
+        "programmeAssociations": [],
+        "publicationApproved": false,
+        "reason": "현재검토한사이트사업6개와목적이다르며새사업을만들어연결하지않는다."
+      },
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true,
+      "reviewCheckedAt": "2026-10-23"
     },
     {
       "index": 11,

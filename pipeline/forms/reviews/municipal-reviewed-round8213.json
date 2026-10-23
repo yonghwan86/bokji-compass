@@ -1,0 +1,505 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "sourceProposals": [
+    {
+      "path": "logs/hwpx-rematch-20261023/team3/proposed-reviewed-v1.json",
+      "sha256": "c3356040bcec50c783893c2f466473305ee2a79c03a6dfb5ef89ceb5e1f24959"
+    },
+    {
+      "path": "logs/hwpx-rematch-20261023/team1-hwpx/frozen-gokseong-important-property-proposed-reviewed.json",
+      "sha256": "8059f118cf7a4c9d579c973c7de5ab86059f94e48d0caecc707e3c0dd45a67c7"
+    }
+  ],
+  "scopeNote": "Exact follow-up costs/property reporting only. No citizen main-application reclassification or global role relaxation.",
+  "rows": [
+    {
+      "formId": "ordin-22068451",
+      "programIds": [
+        "g41550.gov24-408000000534"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2142749",
+      "lawTitle": "안성시 저소득주민 등 지원에 관한 조례",
+      "annexId": "22068451",
+      "annexNumber": "000500",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=166722819&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B7%A8%EC%95%BD%EA%B3%84%EC%B8%B5%EC%9D%91%EA%B8%89%EC%A7%80%EC%9B%90+%EB%B9%84%EC%9A%A9+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2142749",
+      "regionCode": "41550",
+      "regionLabel": "경기도 안성시",
+      "dateKind": "effective",
+      "effectiveDate": "2026-07-03",
+      "formTitle": "[별지 제4호서식] 취약계층응급지원 비용 청구서",
+      "sourceMetadataTitle": "[별지 제4호서식] 취약계층응급지원 비용 청구서",
+      "verifiedDocumentTitle": "취약계층응급지원 비용 청구서",
+      "verifiedAnnexNumber": "4",
+      "sourceAnnexNumberRaw": "0005",
+      "officialFlSeq": "166722819",
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "안성시 취약계층 응급지원의 대상자에게 의료·집수리·기타 지원을 실제 제공한 기관·병원·업체가 그 지원비용을 청구할 때 쓰는 기관작성 부속 서류입니다. 대상자와 제공내역·기간·청구액·사업자정보·업체계좌를 해당 제공기관 대표가 작성·서명합니다. 의료기관만 감면금액란을 작성합니다. 주민의 최초 지원신청서나 주민 본인에게 지급되는 생계비·명절위문금 청구서가 아닙니다. 지원결정된 실제 비용의 기관지급 경로에만 사용하며, 사업체 자체의 일반 보조금 신청에는 사용하지 않습니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2142749",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/408000000534",
+      "evidenceNote": "제7조2항은 대상자 필요비용을 해당기관·병원·업체계좌로 지급한다. 별지4 전체는 실제 의료·집수리·기타지원 제공기관의 대표자·제공기간·사업자정보·청구액·기관계좌와 서명이어서 정확 응급지원534의 사후 기관청구부속으로 검토한다. 주민 최초신청/일괄명절지원537에 확대하지 않는다. 기존 자동지급 안내만으로 법정 기관지급 경로를 배제했던 판단을 재검토한 건이다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleBasis": "제7조2항은 대상자 필요비용을 해당기관·병원·업체계좌로 지급한다. 별지4 전체는 실제 의료·집수리·기타지원 제공기관의 대표자·제공기간·사업자정보·청구액·기관계좌와 서명이어서 정확 응급지원534의 사후 기관청구부속으로 검토한다. 주민 최초신청/일괄명절지원537에 확대하지 않는다. 기존 자동지급 안내만으로 법정 기관지급 경로를 배제했던 판단을 재검토한 건이다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2142749",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "ed03e451dbca6bac746c041270a8d9570c68492b39ab1c829496691b0b1d3f5c",
+      "bytes": 47777,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence/ordin-22068451.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제4호서식",
+          "title": "취약계층응급지원 비용 청구서",
+          "use": "conditional",
+          "author": "실제 서비스 제공 기관·병원·업체 대표",
+          "scope": "파일 전체: 실제 지원 제공 내역·청구액·계좌·청구인 서명",
+          "condition": "안성시 취약계층 응급지원의 대상자에게 의료·집수리·기타 지원을 실제 제공한 기관·병원·업체가 그 지원비용을 청구할 때 쓰는 기관작성 부속 서류입니다. 대상자와 제공내역·기간·청구액·사업자정보·업체계좌를 해당 제공기관 대표가 작성·서명합니다. 의료기관만 감면금액란을 작성합니다. 주민의 최초 지원신청서나 주민 본인에게 지급되는 생계비·명절위문금 청구서가 아닙니다. 지원결정된 실제 비용의 기관지급 경로에만 사용하며, 사업체 자체의 일반 보조금 신청에는 사용하지 않습니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제4호서식",
+          "title": "취약계층응급지원 비용 청구서",
+          "use": "conditional",
+          "author": "실제 서비스 제공 기관·병원·업체 대표",
+          "scope": "파일 전체: 실제 지원 제공 내역·청구액·계좌·청구인 서명",
+          "condition": "안성시 취약계층 응급지원의 대상자에게 의료·집수리·기타 지원을 실제 제공한 기관·병원·업체가 그 지원비용을 청구할 때 쓰는 기관작성 부속 서류입니다. 대상자와 제공내역·기간·청구액·사업자정보·업체계좌를 해당 제공기관 대표가 작성·서명합니다. 의료기관만 감면금액란을 작성합니다. 주민의 최초 지원신청서나 주민 본인에게 지급되는 생계비·명절위문금 청구서가 아닙니다. 지원결정된 실제 비용의 기관지급 경로에만 사용하며, 사업체 자체의 일반 보조금 신청에는 사용하지 않습니다."
+        }
+      ],
+      "embeddedBodyResourceCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "blankApplicantForm": true,
+      "publicationApproved": true,
+      "importReady": true,
+      "reviewer": "Codex /root/national_form_audit",
+      "sourceIssues": [
+        "조례 제7조제2항은 해당기관·병원·업체 계좌지급을 직접 정하지만 그 문장에서 별지4라는 번호를 직접 인용하지는 않는다. 같은 현행법에 별표키22068451/flSeq166722819로 묶인 원본 전체를 통해 청구목적을 대조했다.",
+        "병합프로그램의 Gov24는 개인신청불요라고 표시하나 sources의복지로WLF1523와 조례제6·8조는 신청/조사경로를 가진다. 이 제안은 주민최초신청 판정을 바꾸는 것이 아니라 별도기관비용청구부속이다.",
+        "사업 레코드 target의 소득90%/금융1000만원과 criteria의100%/1200만원이 충돌한다. 이 원본은 숫자확약이 없으며 새로운 자격기준을 확정하거나 확대하지 않는다."
+      ],
+      "bodyEvidencePath": "logs/hwpx-rematch-20261023/team3/evidence/ordin-22068451.json",
+      "lawBindingEvidencePath": "logs/hwpx-rematch-20261023/team3/positive-legal-proof-v1.json",
+      "currentLawSearchEvidencePath": "logs/hwpx-rematch-20261023/team3/positive-current-search-v1.json",
+      "programSnapshotPath": "logs/hwpx-rematch-20261023/team3/evidence/program-g41550_gov24-408000000534.json",
+      "programSnapshotSHA256": "7670d339c5222f5217ee2f02f2ce532dd063d618372a9da1692655b37e484082",
+      "priorDispositionReason": "현행 제7조제2항의 기관·병원·업체 계좌 비용지급과 제4호 전체를 대조하였다. 원본의 비용청구자는 의료기관·집수리사업자·기타업체 대표이고 사업자등록·요양기관·제공기간·청구액을 작성한다. 사이트 두 사업은 주민 지원/자동지급 안내이며 업체가 지원대상인 사업이나 업체 신청 절차를 명시하지 않아 주민용 신청 첨부로 연결하지 않는다. 기관이라는 이름만으로 배제한 것이 아니라 실제 청구주체·사업 안내의 범위를 비교하였다.",
+      "proposedDispositionChange": "non_applicant -> conditional supporting for exact same recipient benefit provider-settlement stage; no citizen-main reclassification",
+      "publicationDecisionOwner": "root",
+      "displayTitle": "제공기관 작성용 · 취약계층 응급지원 비용 청구서",
+      "coordinatorApproved": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "2142749",
+        "currentLawId": "2142749",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2026-07-03",
+        "bodyCachePath": "logs/forms-completion/law-bodies/2142749.json.gz",
+        "bodyCacheSHA256": "841c79adc5ef70da8f9c33e53f755ef8e82e0df71f88bdbfc34c74de92bc4eaf",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team3/positive-current-search-v1.json",
+        "currentSearchSHA256": "069040b31787b245d04666591aa349411609304dc6f7640dceb76cbd791a6142",
+        "officialAnnexId": "22068451",
+        "officialFlSeq": "166722819"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-22068451",
+        "sourceSHA256": "ed03e451dbca6bac746c041270a8d9570c68492b39ab1c829496691b0b1d3f5c",
+        "sourceBytes": 47777,
+        "hancomPages": 1,
+        "pdfSHA256": "75ffa211f8a522056477dbed81c99f37e2ed1ff0ea14a52cef86a9d451b34777",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "ordin-22484269",
+      "programIds": [
+        "g51820.icare-0083-1489636-1-2-10"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2165409",
+      "lawTitle": "고성군 희망택시 운영 및 지원에 관한 조례",
+      "annexId": "22484269",
+      "annexNumber": "000200",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168698633&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%ED%9D%AC%EB%A7%9D%ED%83%9D%EC%8B%9C+%EC%9A%B4%ED%96%89%EB%B9%84%EC%9A%A9+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%A0%9C7%EC%A1%B0+%EA%B4%80%EB%A0%A8%29",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165409",
+      "regionCode": "51820",
+      "regionLabel": "강원특별자치도 고성군",
+      "dateKind": "effective",
+      "effectiveDate": "2026-08-27",
+      "formTitle": "[별지 제2호서식] 희망택시 운행비용 지원신청서(제7조 관련)",
+      "sourceMetadataTitle": "[별지 제2호서식] 희망택시 운행비용 지원신청서(제7조 관련)",
+      "verifiedDocumentTitle": "희망택시 운행비용 지원신청서",
+      "verifiedAnnexNumber": "2",
+      "sourceAnnexNumberRaw": "0002",
+      "officialFlSeq": "168698633",
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "강원특별자치도 고성군 희망택시가 지원대상 주민을 실제 운송한 뒤, 해당 운송사업자·법인·조합이 운행비용을 청구할 때 사용하는 기관작성 부속 서류입니다. 운행일·차량·기점과 종점·운행요금·보조금 및 자부담과 계좌를 운송사업자가 작성하고 운행 증빙자료를 제출합니다. 주민이 희망택시 바우처카드를 처음 신청하는 양식은 별지1로 별도입니다. 교통카드로 신청하는 경우에는 조례 제7조제1항에 따라 전산자료로 처리할 수 있으므로 모든 운송에 이 종이서식 제출이 필수인 것은 아닙니다. 고성군 희망택시의 실제 운행 정산에만 사용합니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165409",
+      "programEvidenceUrl": "https://www.mohw.go.kr/board.es?mid=a60609000000&bid=0083&act=view&list_no=1489636&tag=&nPage=1",
+      "evidenceNote": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleBasis": "정확법/원본/프로그램 관할은 강원고성군(51820)이다. 전체2호는 실제운행일·구간·요금·보조금/자부담과 사업자계좌·증빙/공동이용동의다. 현행2165409 제6조의 주민바우처와 제7조1항의 같은서비스 운송사업자 별지2청구를 직접 구분한다. 프로그램icare0083-1489636-1-2-10의 버스미운행지역 희망택시와 동일한 제공단계여서 실제운행한 사업자의 종이청구에만 조건부제안한다. 교통카드 전산정산시 생략가능하고 주민카드신청용이 아니다. 원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165409",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "c4d28777502093cd37baa083bc1cf02cf71a9500fa08d596d4ce1b7b711c396e",
+      "bytes": 49076,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence/ordin-22484269.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "희망택시 운행비용 지원신청서",
+          "use": "conditional",
+          "author": "희망택시 운송사업자·법인·조합",
+          "scope": "파일 전체: 실제 지원 제공 내역·청구액·계좌·청구인 서명 및 행정정보 공동이용동의",
+          "condition": "강원특별자치도 고성군 희망택시가 지원대상 주민을 실제 운송한 뒤, 해당 운송사업자·법인·조합이 운행비용을 청구할 때 사용하는 기관작성 부속 서류입니다. 운행일·차량·기점과 종점·운행요금·보조금 및 자부담과 계좌를 운송사업자가 작성하고 운행 증빙자료를 제출합니다. 주민이 희망택시 바우처카드를 처음 신청하는 양식은 별지1로 별도입니다. 교통카드로 신청하는 경우에는 조례 제7조제1항에 따라 전산자료로 처리할 수 있으므로 모든 운송에 이 종이서식 제출이 필수인 것은 아닙니다. 고성군 희망택시의 실제 운행 정산에만 사용합니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제2호서식",
+          "title": "희망택시 운행비용 지원신청서",
+          "use": "conditional",
+          "author": "희망택시 운송사업자·법인·조합",
+          "scope": "파일 전체: 실제 지원 제공 내역·청구액·계좌·청구인 서명 및 행정정보 공동이용동의",
+          "condition": "강원특별자치도 고성군 희망택시가 지원대상 주민을 실제 운송한 뒤, 해당 운송사업자·법인·조합이 운행비용을 청구할 때 사용하는 기관작성 부속 서류입니다. 운행일·차량·기점과 종점·운행요금·보조금 및 자부담과 계좌를 운송사업자가 작성하고 운행 증빙자료를 제출합니다. 주민이 희망택시 바우처카드를 처음 신청하는 양식은 별지1로 별도입니다. 교통카드로 신청하는 경우에는 조례 제7조제1항에 따라 전산자료로 처리할 수 있으므로 모든 운송에 이 종이서식 제출이 필수인 것은 아닙니다. 고성군 희망택시의 실제 운행 정산에만 사용합니다."
+        }
+      ],
+      "embeddedBodyResourceCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "blankApplicantForm": true,
+      "publicationApproved": true,
+      "importReady": true,
+      "reviewer": "Codex /root/national_form_audit",
+      "sourceIssues": [
+        "사이트 통합돌봄 레코드는 희망택시 전용 바우처카드 이용을 요약한다. 운송사업자의 종이청구와 전산대체의 법적절차는 같은현행조례제7조에서 직접확인했다.",
+        "통합돌봄 레코드 owner의 중앙부처 문구와 달리 provider 및 region은 고성군이며 현재 법규와 원본 수신기관도 강원고성군이다.",
+        "국가공통사업/다른 고성군에 확장하지 않는다."
+      ],
+      "bodyEvidencePath": "logs/hwpx-rematch-20261023/team3/evidence/ordin-22484269.json",
+      "lawBindingEvidencePath": "logs/hwpx-rematch-20261023/team3/positive-legal-proof-v1.json",
+      "currentLawSearchEvidencePath": "logs/hwpx-rematch-20261023/team3/positive-current-search-v1.json",
+      "programSnapshotPath": "logs/hwpx-rematch-20261023/team3/evidence/program-g51820_icare-0083-1489636-1-2-10.json",
+      "programSnapshotSHA256": "cfa53d9e7685de5d4b798c6b01ee30ff224c761e90a79978b89fbef04364be71",
+      "priorDispositionReason": "운송사업자·조합이 운행구간·요금·보조금과 기관계좌를 청구하는 별지2이다. 실제 사이트 사업은 주민의 바우처카드 이용이며 운송업체 정산신청을 주민신청서에 붙이지 않는다.",
+      "proposedDispositionChange": "non_applicant -> conditional supporting for exact same recipient benefit provider-settlement stage; no citizen-main reclassification",
+      "publicationDecisionOwner": "root",
+      "displayTitle": "운송사업자 작성용 · 희망택시 운행비용 지원신청서",
+      "coordinatorApproved": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "2165409",
+        "currentLawId": "2165409",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2026-08-27",
+        "bodyCachePath": "logs/forms-completion/law-bodies/2165409.json.gz",
+        "bodyCacheSHA256": "5babfe736fd571fb446cd7ba1e515cf8de7b9c36ef8ef32047aa855ca9e88ca6",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team3/positive-current-search-v1.json",
+        "currentSearchSHA256": "069040b31787b245d04666591aa349411609304dc6f7640dceb76cbd791a6142",
+        "officialAnnexId": "22484269",
+        "officialFlSeq": "168698633"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-22484269",
+        "sourceSHA256": "c4d28777502093cd37baa083bc1cf02cf71a9500fa08d596d4ce1b7b711c396e",
+        "sourceBytes": 49076,
+        "hancomPages": 1,
+        "pdfSHA256": "4dd2cfbdd1fce7d18e6e3ba28dcdd10a3cd5162171fe24c1cb717810f2e74874",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "ordin-22537305",
+      "programIds": [
+        "g12830.bokjiro-WLF00002311"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2160691",
+      "lawTitle": "영광군 노인복지 증진에 관한 조례",
+      "annexId": "22537305",
+      "annexNumber": "000400",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168941177&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C4%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B2%BD%EB%A1%9C%EC%9A%B0%EB%8C%80+%EB%AA%A9%EC%9A%95%EC%9D%B4%EC%9A%A9%EA%B6%8C+%EB%AA%A9%EC%9A%95%EB%B9%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160691",
+      "regionCode": "12830",
+      "regionLabel": "전남광주통합특별시 영광군",
+      "dateKind": "effective",
+      "effectiveDate": "2026-08-10",
+      "formTitle": "[별지 제4호서식] 경로우대 목욕이용권 목욕비 청구서",
+      "sourceMetadataTitle": "[별지 제4호서식] 경로우대 목욕이용권 목욕비 청구서",
+      "verifiedDocumentTitle": "경로우대 목욕 및 이·미용권 비용 청구서",
+      "verifiedAnnexNumber": "4",
+      "sourceAnnexNumberRaw": "0004",
+      "officialFlSeq": "168941177",
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "영광군과 협약해 같은 경로우대 목욕·이·미용권을 취급하는 목욕업소 또는 이·미용업소가 실제 서비스를 제공하고 받은 이용권의 비용을 정산할 때 쓰는 업소작성 부속 서류입니다. 현행 제28조는 목욕·이·미용권을 같은 목욕권으로 정의하고 제35조는 이·미용실 사용에도 제32조부터 제34조까지의 정산 절차를 준용합니다. 업소명·대표자·청구금액·사용매수·사업기간·업소계좌를 대표자가 작성·서명하고 사용한 이용권과 최초 청구 시 신고필증 사본을 첨부합니다. 매월10일까지, 사용일부터2개월 내 청구가 원칙입니다. 어르신의 최초 이용권 신청, 방문목욕·이동세탁이나 다른 별도 급여 신청에는 사용하지 않습니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160691",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002311&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "정확원문/법2160691/지역12830은 영광군이다. 전체4호는 사용목욕권 매수·청구액·업소계좌·업소서명과 사용쿠폰/최초신고필증이다. 현행32조 협약업소,34조 매월10일/사용2개월내 원칙의 정확4호청구가 같은WLF2311 목욕이용권 서비스를 정산한다. 이용권수령노인이작성하는3호와 구별해 실제제공업소 부속으로만제안한다.  원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 독립 반대검토 후 총괄이 현행 제28조·제35조 전체를 다시 읽어 같은 쿠폰의 이·미용실 사용과 제32~34조 직접준용을 확인했다. 목욕이라는 사업 요약명만으로 같은 이용권의 이·미용 정산을 제외하지 않으며, 별개 지원사업으로 확대하지도 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleBasis": "정확원문/법2160691/지역12830은 영광군이다. 전체4호는 사용목욕권 매수·청구액·업소계좌·업소서명과 사용쿠폰/최초신고필증이다. 현행32조 협약업소,34조 매월10일/사용2개월내 원칙의 정확4호청구가 같은WLF2311 목욕이용권 서비스를 정산한다. 이용권수령노인이작성하는3호와 구별해 실제제공업소 부속으로만제안한다.  원본을 아카이브에서 다시 읽어 SHA·ZIP CRC·Contents 전체 section XML 및 BinData0개를 재검증했다. 2026-10-23 공식 MCP 현행 검색은 같은법규ID와 시행일을 반환했다. 신청인이 기관이라는 사실은 서식명만으로 추정하지 않고 서명·은행계좌·실제급여단계를 대조했다. 독립 반대검토 후 총괄이 현행 제28조·제35조 전체를 다시 읽어 같은 쿠폰의 이·미용실 사용과 제32~34조 직접준용을 확인했다. 목욕이라는 사업 요약명만으로 같은 이용권의 이·미용 정산을 제외하지 않으며, 별개 지원사업으로 확대하지도 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160691",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "67f7962c7cdf4da0f22268b7e4eec05a0b54d29d9d42640d432fe280f731e440",
+      "bytes": 30636,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence/ordin-22537305.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제4호서식",
+          "title": "경로우대 목욕 및 이·미용권 비용 청구서",
+          "use": "conditional",
+          "author": "같은 경로우대 이용권을 취급하는 협약 목욕·이·미용업소 대표자",
+          "scope": "파일 전체: 실제 지원 제공 내역·청구액·계좌·청구인 서명",
+          "condition": "영광군과 협약해 같은 경로우대 목욕·이·미용권을 취급하는 목욕업소 또는 이·미용업소가 실제 서비스를 제공하고 받은 이용권의 비용을 정산할 때 쓰는 업소작성 부속 서류입니다. 현행 제28조는 목욕·이·미용권을 같은 목욕권으로 정의하고 제35조는 이·미용실 사용에도 제32조부터 제34조까지의 정산 절차를 준용합니다. 업소명·대표자·청구금액·사용매수·사업기간·업소계좌를 대표자가 작성·서명하고 사용한 이용권과 최초 청구 시 신고필증 사본을 첨부합니다. 매월10일까지, 사용일부터2개월 내 청구가 원칙입니다. 어르신의 최초 이용권 신청, 방문목욕·이동세탁이나 다른 별도 급여 신청에는 사용하지 않습니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제4호서식",
+          "title": "경로우대 목욕 및 이·미용권 비용 청구서",
+          "use": "conditional",
+          "author": "같은 경로우대 이용권을 취급하는 협약 목욕·이·미용업소 대표자",
+          "scope": "파일 전체: 실제 지원 제공 내역·청구액·계좌·청구인 서명",
+          "condition": "영광군과 협약해 같은 경로우대 목욕·이·미용권을 취급하는 목욕업소 또는 이·미용업소가 실제 서비스를 제공하고 받은 이용권의 비용을 정산할 때 쓰는 업소작성 부속 서류입니다. 현행 제28조는 목욕·이·미용권을 같은 목욕권으로 정의하고 제35조는 이·미용실 사용에도 제32조부터 제34조까지의 정산 절차를 준용합니다. 업소명·대표자·청구금액·사용매수·사업기간·업소계좌를 대표자가 작성·서명하고 사용한 이용권과 최초 청구 시 신고필증 사본을 첨부합니다. 매월10일까지, 사용일부터2개월 내 청구가 원칙입니다. 어르신의 최초 이용권 신청, 방문목욕·이동세탁이나 다른 별도 급여 신청에는 사용하지 않습니다."
+        }
+      ],
+      "embeddedBodyResourceCount": 0,
+      "noFilledPersonalDataObserved": true,
+      "blankApplicantForm": true,
+      "publicationApproved": true,
+      "importReady": true,
+      "reviewer": "Codex /root/national_form_audit",
+      "sourceIssues": [
+        "원메타 제목과 실제 목욕·이·미용권 비용청구서 제목을 각각 보존한다.",
+        "같은 목욕·이·미용권의 협약업소 정산만 승인하며 주민 최초신청·방문목욕·이동세탁과 구분한다."
+      ],
+      "bodyEvidencePath": "logs/hwpx-rematch-20261023/team3/evidence/ordin-22537305.json",
+      "lawBindingEvidencePath": "logs/hwpx-rematch-20261023/team3/positive-legal-proof-v1.json",
+      "currentLawSearchEvidencePath": "logs/hwpx-rematch-20261023/team3/positive-current-search-v1.json",
+      "programSnapshotPath": "logs/hwpx-rematch-20261023/team3/evidence/program-g12830_bokjiro-WLF00002311.json",
+      "programSnapshotSHA256": "8c8cada343959b3da99c657a2178b9fc54bd0f59e3df9933030cba9e8357bedb",
+      "priorDispositionReason": "영광 목욕·이미용 업소가 사용한 이용권 매수·청구금액·정산계좌로 군수에게 청구하는 별지4이다. 제34조 제공업소 정산을 명시하지만 사이트 사업은 노인에게 이용권을 배부하는 개인 신청 단계만 안내하므로 업소의 매출청구를 노인의 수혜신청서로 연결하지 않는다.",
+      "proposedDispositionChange": "non_applicant -> conditional supporting for exact same recipient benefit provider-settlement stage; no citizen-main reclassification",
+      "publicationDecisionOwner": "root",
+      "sourceProposalIssues": [
+        "공식메타제목은 경로우대 목욕이용권 목욕비 청구서, 실제인쇄제목은 경로우대 목욕 및 이·미용권 비용 청구서이다. 원메타제목과 실제인쇄제목을 각각 보존한다.",
+        "제34조가 정확별지4의목욕업소청구를직접지정하므로 주민신청안내가 업소정산을 반복 설명하지 않는다는 이유만으로 배제하지 않았다.",
+        "방문목욕·이동세탁 또는 사이트에 없는 이·미용 지원으로 확대하지 않는다."
+      ],
+      "displayTitle": "협약업소 작성용 · 경로우대 목욕·이·미용권 비용 청구서",
+      "coordinatorApproved": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "2160691",
+        "currentLawId": "2160691",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2026-08-10",
+        "bodyCachePath": "logs/forms-completion/law-bodies/2160691.json.gz",
+        "bodyCacheSHA256": "1947c28ae7a5ec1fb75f0d825db3025e73047b920274c73744e47186f52cbfb6",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team3/positive-current-search-v1.json",
+        "currentSearchSHA256": "069040b31787b245d04666591aa349411609304dc6f7640dceb76cbd791a6142",
+        "officialAnnexId": "22537305",
+        "officialFlSeq": "168941177"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-22537305",
+        "sourceSHA256": "67f7962c7cdf4da0f22268b7e4eec05a0b54d29d9d42640d432fe280f731e440",
+        "sourceBytes": 30636,
+        "hancomPages": 1,
+        "pdfSHA256": "6ef047f3badcfd30caea98c3320936f940c487c0fdc1cca4a25658846e558d0b",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "sourceKind": "ordin",
+      "lawTitle": "곡성군 지방보조금 관리 조례",
+      "lawId": "2173001",
+      "annexId": "22742385",
+      "annexNumber": "000300",
+      "regionCode": "12720",
+      "regionLabel": "전남광주통합특별시 곡성군",
+      "effectiveDate": "2026-09-30",
+      "dateKind": "effective",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169864655&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2173001",
+      "formId": "ordin-22742385",
+      "flSeq": "169864655",
+      "printedAnnexNumber": "3",
+      "formTitle": "중요재산 현황 — 보조사업자 취득·변동 보고용",
+      "sourceMetadataTitle": "[별지 제3호서식]",
+      "verifiedDocumentTitle": "중요재산 현황",
+      "programIds": [
+        "g12720.gov24-486000000126"
+      ],
+      "programNames": [
+        "노동 절감형 스마트 청년농업인 육성 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/486000000126",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2173001",
+      "evidenceNote": "정확 정부24 486000000126의2026-10-23 HTTP200 본문은 스마트온실·환경관리 자동제어·시설관리 등 사업과 곡성군 지방보조금 관리 조례를 직접 인용한다. 2026-10-23 실제 법령검색에서 현행MST2173001/2026-09-30을 재확인하고 동일MST 전체 조례 제9조①②와 부칙을 읽었다. 제9조는 보조사업자의 중요재산 취득15일 및6·12월 변동 현황 보고를 별지3으로 직접 지정한다. 정확별표22742385/fl169864655 원본HWPX26975바이트 SHA를 재확인하고 ZIP CRC 및Section0 전체220자/BinData0을 읽었다. 이 양식은 보조사업자의 재산현황 보고이므로 이전의 단순 기관관리대장 분류를 정정하는 제안이다. 지원사업에 포함된 모든 자산이 중요재산이라고 해석하지 않고 실제 해당자산 보고조건으로 제한한다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "role": "supporting",
+      "roleBasis": "정확 정부24 486000000126의2026-10-23 HTTP200 본문은 스마트온실·환경관리 자동제어·시설관리 등 사업과 곡성군 지방보조금 관리 조례를 직접 인용한다. 2026-10-23 실제 법령검색에서 현행MST2173001/2026-09-30을 재확인하고 동일MST 전체 조례 제9조①②와 부칙을 읽었다. 제9조는 보조사업자의 중요재산 취득15일 및6·12월 변동 현황 보고를 별지3으로 직접 지정한다. 정확별표22742385/fl169864655 원본HWPX26975바이트 SHA를 재확인하고 ZIP CRC 및Section0 전체220자/BinData0을 읽었다. 이 양식은 보조사업자의 재산현황 보고이므로 이전의 단순 기관관리대장 분류를 정정하는 제안이다. 지원사업에 포함된 모든 자산이 중요재산이라고 해석하지 않고 실제 해당자산 보고조건으로 제한한다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 1쪽 전체를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2173001",
+      "roleCheckedAt": "2026-10-23",
+      "use": "conditional",
+      "condition": "곡성군 노동 절감형 스마트 청년농업인 육성 지원사업에서 지방보조금을 교부받은 사업자가, 그 보조금으로 취득한 자산 중 법령·교부조건상 중요재산에 해당하는 재산의 취득·변동 현황을 보고하는 경우에만 쓰는 추가 서류입니다. 현행 조례(2026-09-30 시행) 제9조의 보고 단계에 한정하여 재산명·유형·용도·소재지·수량·취득가액과 재원별 금액·현재가액·취득일·처분제한기간을 작성합니다. 중요재산 취득 후15일 이내 보고, 매년6월·12월 변동현황 보고이며 변동이 없으면 정기 변동보고를 생략할 수 있습니다. 모든 스마트농업 지출이나 소프트웨어를 중요재산으로 간주하지 않으며 해당 자산의 구분과 처분제한기간은 실제 교부조건에 따릅니다. 최초 모집·지방보조금 교부신청서, 회계사의 검증/감사보고서, 군수 발급 부동산증명서가 아닙니다. 사업의2026년 최초 접수기간(1.5~2.5)은 종료됐고, 이 파일은 이미 교부받은 사업자의 후속 재산관리 보고용입니다.",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "publicationApproved": true,
+      "coordinatorApproved": true,
+      "officialAttachmentMatched": true,
+      "sha256": "f7cb5887ede17237d282f705091315b92ab3fdfcee3528526ccf7f456c603795",
+      "bytes": 26975,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence/ordin-22742385.hwpx",
+      "textScope": "all_body_sections_or_pages",
+      "originalTextScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textLength": 220,
+      "textSha256": "9462eb3842c22ac9f7cb412b15bd7a70baf3a851a03420717a75a5199c102293",
+      "textEvidencePath": "logs/hwpx-rematch-20261023/team1-hwpx/extracted/ordin-22742385.json",
+      "fullBodyReviewed": true,
+      "embeddedResources": [],
+      "zipCRCValid": true,
+      "bodyEvidenceArticle": "제9조제1항·제2항",
+      "bodyEvidenceText": "지방보조사업자의 중요재산 취득 현황15일/변동 현황 매년6월 및12월 보고에 별지제3호를 직접 지정. 군수의 홈페이지 공시 행위는 별도 제3항으로 구분.",
+      "reviewedParts": [
+        {
+          "number": "3",
+          "title": "중요재산 현황",
+          "use": "conditional",
+          "author": "지방보조금으로 중요재산을 취득한 보조사업자",
+          "condition": "곡성군 노동 절감형 스마트 청년농업인 육성 지원사업에서 지방보조금을 교부받은 사업자가, 그 보조금으로 취득한 자산 중 법령·교부조건상 중요재산에 해당하는 재산의 취득·변동 현황을 보고하는 경우에만 쓰는 추가 서류입니다. 현행 조례(2026-09-30 시행) 제9조의 보고 단계에 한정하여 재산명·유형·용도·소재지·수량·취득가액과 재원별 금액·현재가액·취득일·처분제한기간을 작성합니다. 중요재산 취득 후15일 이내 보고, 매년6월·12월 변동현황 보고이며 변동이 없으면 정기 변동보고를 생략할 수 있습니다. 모든 스마트농업 지출이나 소프트웨어를 중요재산으로 간주하지 않으며 해당 자산의 구분과 처분제한기간은 실제 교부조건에 따릅니다. 최초 모집·지방보조금 교부신청서, 회계사의 검증/감사보고서, 군수 발급 부동산증명서가 아닙니다. 사업의2026년 최초 접수기간(1.5~2.5)은 종료됐고, 이 파일은 이미 교부받은 사업자의 후속 재산관리 보고용입니다.",
+          "fullBodyReviewed": true,
+          "sourceLocation": "Contents/section0.xml 전체 별지3 현황표"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "3",
+          "title": "중요재산 현황",
+          "use": "conditional",
+          "author": "지방보조금으로 중요재산을 취득한 보조사업자",
+          "condition": "곡성군 노동 절감형 스마트 청년농업인 육성 지원사업에서 지방보조금을 교부받은 사업자가, 그 보조금으로 취득한 자산 중 법령·교부조건상 중요재산에 해당하는 재산의 취득·변동 현황을 보고하는 경우에만 쓰는 추가 서류입니다. 현행 조례(2026-09-30 시행) 제9조의 보고 단계에 한정하여 재산명·유형·용도·소재지·수량·취득가액과 재원별 금액·현재가액·취득일·처분제한기간을 작성합니다. 중요재산 취득 후15일 이내 보고, 매년6월·12월 변동현황 보고이며 변동이 없으면 정기 변동보고를 생략할 수 있습니다. 모든 스마트농업 지출이나 소프트웨어를 중요재산으로 간주하지 않으며 해당 자산의 구분과 처분제한기간은 실제 교부조건에 따릅니다. 최초 모집·지방보조금 교부신청서, 회계사의 검증/감사보고서, 군수 발급 부동산증명서가 아닙니다. 사업의2026년 최초 접수기간(1.5~2.5)은 종료됐고, 이 파일은 이미 교부받은 사업자의 후속 재산관리 보고용입니다.",
+          "fullBodyReviewed": true,
+          "sourceLocation": "Contents/section0.xml 전체 별지3 현황표"
+        }
+      ],
+      "privacyReview": {
+        "blankApplicantFields": true,
+        "filledPersonalDataFound": false
+      },
+      "sourceLawCurrency": {
+        "lawId": "2173001",
+        "stableLawId": "2031202",
+        "state": "source_current",
+        "checkedAt": "2026-10-23",
+        "effectiveDate": "2026-09-30",
+        "freshSearchEvidence": "logs/hwpx-rematch-20261023/team1-hwpx/gokseong-current-search.json",
+        "freshSearchSHA256": "003a8a48d40bf45be9718d8077496a533f77ee7f674f524874b0412e1761e18b",
+        "bodyEvidence": "logs/hwpx-rematch-20261023/team1-hwpx/law-evidence/2173001.json",
+        "bodyEvidenceSHA256": "b204f21de47f050f8e05f543c3cba868bbb201712851e476a608ce52a1156b7b",
+        "fullBodyRefetchedToday": false,
+        "binding": {
+          "binding": "bound",
+          "bindingReason": "OFFICIAL_ANNEX_BOUND_WITH_SAME_FILE",
+          "officialAnnexDeleted": false,
+          "officialAnnexId": "22742385",
+          "officialAnnexNumber": "3",
+          "officialAnnexTitle": "[별지 제3호서식]",
+          "officialAnnexUrl": "https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=169864655&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D",
+          "officialFlSeq": "169864655"
+        }
+      },
+      "programmeEvidence": {
+        "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/486000000126",
+        "httpStatus": 200,
+        "checkedAt": "2026-10-23",
+        "responseSHA256": "a8a8c4eba97ee268012889e013ff8ff99dcf61284bb6a53e152cfdeba53fba96",
+        "record": "logs/forms-followup-20261023b/team2/programme-gov24_486000000126.json",
+        "recordSHA256": "03a1cddc49b2e226ba3b4a6c4e1fc51406e29b302e82ed7051f12d251b726f5d",
+        "exactCitedLawPresent": true
+      },
+      "sourceIssues": [
+        "원 메타데이터는 별지제3호서식이라는 일반 제목이며 실제 머리말은 중요재산 현황이다. 원본과 공식 제목은 그대로 보존한다.",
+        "이전 원고는 단순 기관관리 현황표로 분류했으나 현행 제9조는 지방보조사업자의 보고와 군수의 공시를 구분한다. 이번 제안은 취득·변동보고 부분의 주체 판독 정정이다.",
+        "초기 접수 마감은 후속 재산관리 보고의 제출가능성 판단과 구분한다. 새 초기모집 개시로 표시하지 않는다.",
+        "현행법 직접지정과 정확사업의 같은법 인용에 따른 한정된 후속보고 제안이다. 중요재산 해당 여부를 이 빈양식만으로 새로 확정하지 않는다."
+      ],
+      "reviewedBy": "/root/forms_source_audit",
+      "screenWritingApproved": false,
+      "coordinatorExactRoleReviewRequired": {
+        "sourceTitleRole": "unclassified",
+        "proposedRole": "supporting",
+        "reason": "일반 별지제목의 실제 보조사업자 보고 목적. 기존 source SHA/현행제9조/조건을 근거로 정확ID 승인 여부를 root가 판단."
+      },
+      "displayTitle": "보조사업자 작성용 · 중요재산 현황",
+      "importReady": true,
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "2173001",
+        "currentLawId": "2173001",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2026-09-30",
+        "bodyCachePath": "logs/forms-completion/law-bodies/2173001.json.gz",
+        "bodyCacheSHA256": "ea551f8ed91aca84c0ecd755f0305ee6aca28f05271bb52aa64533130758b15c",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team1-hwpx/gokseong-current-search.json",
+        "currentSearchSHA256": "003a8a48d40bf45be9718d8077496a533f77ee7f674f524874b0412e1761e18b",
+        "officialAnnexId": "22742385",
+        "officialFlSeq": "169864655"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-22742385",
+        "sourceSHA256": "f7cb5887ede17237d282f705091315b92ab3fdfcee3528526ccf7f456c603795",
+        "sourceBytes": 26975,
+        "hancomPages": 1,
+        "pdfSHA256": "07debb3ef7caf2ff32cab15090df030ce5ef4b8c51deedc0a25e534f1c6db43b",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    }
+  ]
+}

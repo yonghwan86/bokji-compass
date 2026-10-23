@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "verificationMethod": "Coordinator original/native-page/current-annex verification with source researchers and actual Herdr Claude/Grok checks; explicit conditional uses only.",
+  "sourceProposals": [
+    {
+      "path": "logs/forms-followup-20261023e/team2/suncheon-common-grant-proposed-v1.json",
+      "sha256": "4506e172abe50f1475fdd6970d382c199f73f5ec2b0025f1493ce18405dff248"
+    },
+    {
+      "path": "logs/forms-followup-20261023e/claude/independent-review-v2.json",
+      "sha256": "b854d45be9b6cdfdbe52fc8e6f8163e51b2b53e0da098fbde9036a67d9564cfa"
+    }
+  ],
+  "rows": [
+    {
+      "formId": "ordin-20214487",
+      "programIds": [
+        "g12150.gov24-482000000133"
+      ],
+      "sourceKind": "ordin",
+      "formTitle": "[별지 제1호서식] 순천시 지방보조금 교부 신청서",
+      "verifiedDocumentTitle": "순천시 지방보조금 교부 신청서",
+      "displayTitle": "순천시 지방보조금 교부 신청서(조례 별지 제1호)",
+      "role": "application",
+      "use": "conditional",
+      "condition": "「순천시 지방보조금 관리 조례」 별지 제1호서식 교부 신청서입니다. 「순천시 농업 보조금 관리 운영 조례」 제12조는 농업 보조금에서 정하지 않은 사항에 이 일반 조례를 적용하도록 하고, 일반 조례 제5조제1항은 지방보조금을 교부받으려는 자가 별지 1호·1-1호·1-2호·1-3호 서식을 작성해 시장이 지정한 기일 내에 제출하도록 합니다. 2026년 영세농가 소형 비닐하우스 지원사업의 모집은 공고가 배포한 자체 신청서(공고 붙임 「별지 1」)로 접수했고 그 접수는 2026.1.16에 종료되었습니다. 공고 붙임 「별지 1」과 이 조례 별지 제1호서식은 번호가 비슷하지만 서로 다른 서식입니다. 이 서식을 언제 추가로 내야 하는지, 또는 내지 않아도 되는지는 공고에 적혀 있지 않으므로 제출 필요 여부와 기일을 순천시 담당부서에 확인하세요. 이 1장으로 서류가 완비되지 않으며 1-1호·1-2호·1-3호 부속서식과 사업계획서·지방보조사업자 관리카드·보조금 관리 통장 사본을 따로 준비해야 합니다. 원문 첨부 안내의 단체 공익활동 실적은 법인 또는 단체에 해당하는 항목이고, 통장 안내의 '예금주 명의는 단체명과 대표자를 명기'도 단체를 전제한 문장이므로 개인 농업인은 담당부서 안내에 따르세요. 정원수 자재지원 사업에는 적용하지 않습니다.",
+      "regionCode": "12150",
+      "regionLabel": "전남광주통합특별시 순천시",
+      "lawId": "1934335",
+      "lawTitle": "순천시 지방보조금 관리 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1934335",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1934335",
+      "annexId": "20214487",
+      "annexNumber": "1",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152887853&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%9C%EC%B2%9C%EC%8B%9C+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "flSeq": "152887853",
+      "effectiveDate": "2024-07-01",
+      "dateKind": "effective",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1934335",
+      "evidenceNote": "정확2026시설원예 소형비닐하우스 시비보조사업의 신청인/시설/50%비율과 현행농업조례2062937 제12조 일반조례준용을 대조했다. 일반조례1934335 제5조제1항은 정확별지1·1-1·1-2·1-3 작성제출을직접요구하며 실제원본1호도그조문을역인용한다. 이법정교부신청원본을 해당사업에조건부로안내하되 선정후필수추가제출 또는 그기일을단정하지않는다. 공고자체의최초신청별지1과는서로다른서식이며 그모집은2026.1.16종료했다. 자체서식이일반법정별지를전부대체한다는명문도선정후재첨부금지명문도확인되지않았다. 개인농가에게단체실적·단체통장을허위기재하도록요구하지않고 필요한전체부속서류가이1장으로완비되었다고표시하지않는다. 정원수사업에는확대하지않는다. 실제Herdr Claude Code의2차검토가1차의단계추론을정정하고이정확조건부경로를확인했다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/482000000133",
+      "roleBasis": "정확2026시설원예 소형비닐하우스 시비보조사업의 신청인/시설/50%비율과 현행농업조례2062937 제12조 일반조례준용을 대조했다. 일반조례1934335 제5조제1항은 정확별지1·1-1·1-2·1-3 작성제출을직접요구하며 실제원본1호도그조문을역인용한다. 이법정교부신청원본을 해당사업에조건부로안내하되 선정후필수추가제출 또는 그기일을단정하지않는다. 공고자체의최초신청별지1과는서로다른서식이며 그모집은2026.1.16종료했다. 자체서식이일반법정별지를전부대체한다는명문도선정후재첨부금지명문도확인되지않았다. 개인농가에게단체실적·단체통장을허위기재하도록요구하지않고 필요한전체부속서류가이1장으로완비되었다고표시하지않는다. 정원수사업에는확대하지않는다. 실제Herdr Claude Code의2차검토가1차의단계추론을정정하고이정확조건부경로를확인했다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152887853&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%9C%EC%B2%9C%EC%8B%9C+%EC%A7%80%EB%B0%A9%EB%B3%B4%EC%A1%B0%EA%B8%88+%EA%B5%90%EB%B6%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "roleCheckedAt": "2026-10-23",
+      "sha256": "2a4a805d19cb24737fc2656145672ce83188a4bdbc93cfd3c1afaf5d1b5c1483",
+      "bytes": 44544,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023e/root/evidence/ordin-20214487.hwp",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "officialAttachmentMatched": true,
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "순천시 지방보조금 교부 신청서",
+          "use": "conditional",
+          "author": "해당 시설원예 소형 비닐하우스 보조사업에서 조례 제5조에 따라 교부를 신청하는 농업인",
+          "scope": "원문1호의 신청·서명·첨부안내 전체",
+          "condition": "「순천시 지방보조금 관리 조례」 별지 제1호서식 교부 신청서입니다. 「순천시 농업 보조금 관리 운영 조례」 제12조는 농업 보조금에서 정하지 않은 사항에 이 일반 조례를 적용하도록 하고, 일반 조례 제5조제1항은 지방보조금을 교부받으려는 자가 별지 1호·1-1호·1-2호·1-3호 서식을 작성해 시장이 지정한 기일 내에 제출하도록 합니다. 2026년 영세농가 소형 비닐하우스 지원사업의 모집은 공고가 배포한 자체 신청서(공고 붙임 「별지 1」)로 접수했고 그 접수는 2026.1.16에 종료되었습니다. 공고 붙임 「별지 1」과 이 조례 별지 제1호서식은 번호가 비슷하지만 서로 다른 서식입니다. 이 서식을 언제 추가로 내야 하는지, 또는 내지 않아도 되는지는 공고에 적혀 있지 않으므로 제출 필요 여부와 기일을 순천시 담당부서에 확인하세요. 이 1장으로 서류가 완비되지 않으며 1-1호·1-2호·1-3호 부속서식과 사업계획서·지방보조사업자 관리카드·보조금 관리 통장 사본을 따로 준비해야 합니다. 원문 첨부 안내의 단체 공익활동 실적은 법인 또는 단체에 해당하는 항목이고, 통장 안내의 '예금주 명의는 단체명과 대표자를 명기'도 단체를 전제한 문장이므로 개인 농업인은 담당부서 안내에 따르세요. 정원수 자재지원 사업에는 적용하지 않습니다."
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제1호",
+          "title": "순천시 지방보조금 교부 신청서",
+          "use": "conditional",
+          "author": "해당 시설원예 소형 비닐하우스 보조사업에서 조례 제5조에 따라 교부를 신청하는 농업인",
+          "scope": "원문1호의 신청·서명·첨부안내 전체",
+          "condition": "「순천시 지방보조금 관리 조례」 별지 제1호서식 교부 신청서입니다. 「순천시 농업 보조금 관리 운영 조례」 제12조는 농업 보조금에서 정하지 않은 사항에 이 일반 조례를 적용하도록 하고, 일반 조례 제5조제1항은 지방보조금을 교부받으려는 자가 별지 1호·1-1호·1-2호·1-3호 서식을 작성해 시장이 지정한 기일 내에 제출하도록 합니다. 2026년 영세농가 소형 비닐하우스 지원사업의 모집은 공고가 배포한 자체 신청서(공고 붙임 「별지 1」)로 접수했고 그 접수는 2026.1.16에 종료되었습니다. 공고 붙임 「별지 1」과 이 조례 별지 제1호서식은 번호가 비슷하지만 서로 다른 서식입니다. 이 서식을 언제 추가로 내야 하는지, 또는 내지 않아도 되는지는 공고에 적혀 있지 않으므로 제출 필요 여부와 기일을 순천시 담당부서에 확인하세요. 이 1장으로 서류가 완비되지 않으며 1-1호·1-2호·1-3호 부속서식과 사업계획서·지방보조사업자 관리카드·보조금 관리 통장 사본을 따로 준비해야 합니다. 원문 첨부 안내의 단체 공익활동 실적은 법인 또는 단체에 해당하는 항목이고, 통장 안내의 '예금주 명의는 단체명과 대표자를 명기'도 단체를 전제한 문장이므로 개인 농업인은 담당부서 안내에 따르세요. 정원수 자재지원 사업에는 적용하지 않습니다."
+        }
+      ],
+      "applicant": "해당 시설원예 소형 비닐하우스 보조사업에서 조례 제5조에 따라 교부를 신청하는 농업인",
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_verified_exact_current_conditional_route",
+      "sourceProof": {
+        "agriculturalProgrammePacket": "logs/forms-completion/official-followup/team3/suncheon-small-extracted.json",
+        "agriculturalLaw": "logs/forms-completion/official-followup/team3/suncheon-law.json",
+        "generalLawCache": "logs/forms-completion/law-bodies/1934335.json.gz",
+        "currentLawIdentityEvidence": "logs/forms-followup-20261023e/team2/current-suncheon-law-identities.json",
+        "directGeneralDuty": "제5조제1항",
+        "applicationBridge": "농업보조금조례 제12조",
+        "repeatFormNameInProgrammeNoticeRequired": false
+      },
+      "unresolvedOtherPairs": [
+        "g12150.gov24-482000000141"
+      ],
+      "independentReviewSHA256": "b854d45be9b6cdfdbe52fc8e6f8163e51b2b53e0da098fbde9036a67d9564cfa",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "coordinatorApproved": true,
+      "coordinatorPlanSHA256": "c8f73f6dbbb65eb985f345b4b77a31182542f4e48f8938a1461f02eb15352f33",
+      "coordinatorCurrentLawProof": {
+        "lawId": "1934335",
+        "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1934335&gubun=ELIS",
+        "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1934335&gubun=ELIS",
+        "httpStatus": 200,
+        "sha256": "9bab96ba6b69acff4f026056a7e960c95d9b6e964b57bd5e7621208e7c0efb6e",
+        "bytes": 47622,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-20214487",
+        "sourceSHA256": "2a4a805d19cb24737fc2656145672ce83188a4bdbc93cfd3c1afaf5d1b5c1483",
+        "sourceBytes": 44544,
+        "hancomPages": 1,
+        "pdfSHA256": "262f64fb0c443e385345224be803457e0b5aaed24bf8819daa9150e98255981d",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "viewingMethod": "every page at full size",
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    }
+  ]
+}

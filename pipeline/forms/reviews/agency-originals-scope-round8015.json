@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "formCount": 1,
+  "forms": [
+    {
+      "formId": "agency-47230-health-kit-080701",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "임신준비 키트 지원 신청서",
+      "sourceKind": "agency",
+      "regionCode": "47230",
+      "sourceUrl": "https://www.yc.go.kr/common/jsp/common/contentFileDownload.jsp?path=%2Fhealth%2F08%2F&file=%EC%9E%84%EC%8B%A0%EC%A4%80%EB%B9%84+%ED%82%A4%ED%8A%B8+%EC%A7%80%EC%9B%90+%EC%82%AC%EC%97%85+%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+      "sourcePageUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+      "attachmentId": "임신준비 키트 지원 사업 신청서.hwp",
+      "sha256": "f1e5886e5e39ead2ffe928b62b24b32607a52af14a0bf2f5cdafa65966329005",
+      "bytes": 102912,
+      "format": "hwp",
+      "relativePath": "agency-47230-health-kit-080701.hwp"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

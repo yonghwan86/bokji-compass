@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "sourceProposalSHA256": "91b36675eaa6bbfc823ce2fba6a8a3527a804c4b89ccfbd320793c25688c62d1",
+  "rows": [
+    {
+      "formId": "ordin-22425515",
+      "programIds": [
+        "g11215.gov24-304000000233",
+        "g11215.bokjiro-WLF00002162"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2060833",
+      "lawTitle": "서울특별시 광진구 국가보훈대상자 예우 및 지원에 관한 조례",
+      "annexId": "22425515",
+      "annexNumber": "6",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168362067&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%B0%B0%EC%9A%B0%EC%9E%90+%EB%B3%B5%EC%A7%80%EC%88%98%EB%8B%B9+%EB%8C%80%EB%A6%AC+%EC%88%98%EB%A0%B9+%EC%8B%A0%EC%B2%AD%EC%84%9C%3C%EC%8B%A0%EC%84%A4+2025.7.28.%3E",
+      "formTitle": "[별지 제6호서식] 배우자 복지수당 대리 수령 신청서<신설 2025.7.28.>",
+      "sourceMetadataTitle": "[별지 제6호서식] 배우자 복지수당 대리 수령 신청서<신설 2025.7.28.>",
+      "dateKind": "effective",
+      "effectiveDate": "2025-07-28",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060833",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "role": "application",
+      "use": "conditional",
+      "condition": "참전유공자 배우자 복지수당의 지급대상자가 본인 명의 계좌로 수령하기 어려워 대리인 계좌 수령을 신청할 때 사용하는 별지6호입니다. 지급대상자·법정대리인 해당란·대리수령인·대리수령기간·금융기관과 계좌를 기재하고, 신청사유 및 원문에 기재된 친족관계의 증빙과 양쪽 서명을 준비해 광진구청 복지돌봄과에 제출합니다. 최초 지급신청은 별지4호, 신청 절차의 위임은 별지5호로 별도입니다. 원문에는 한정치산·금치산 등 종전 용어가 남아 있으므로 실제 인정 사유와 증빙은 접수부서에 확인합니다.",
+      "evidenceUrl": "https://www.gwangjin.go.kr/portal/bbs/B0000049/view.do?nttId=6553903&menuNo=200041&searchCnd=1&searchWrd=%EB%B0%B0%EC%9A%B0%EC%9E%90&pageIndex=1",
+      "evidenceNote": "2026-10-23 광진구 공식 민원편람6553903(등록2026-08-05)을 직접 GET하였다. 이 페이지는 참전유공자 배우자 복지수당의 월10만원·연중상시·구청10층 복지돌봄과 접수와 두 근거 조례를 명시하고, 별지4 지급신청서·별지5 신청위임장·별지6 대리수령신청서를 별개 다운로드로 배포한다. fileSn=3 원본을 실제 GET한 SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909/59139B가 법령포털 원본22425515 및22425553과 각각 정확히 일치한다. HWPX의 Contents/section0.xml 전체974자를 읽고 BinData0개를 확인했다. 본문은 국가보훈조례2060833 제9조의5에 따른 참전유공자 배우자 복지수당 대리수령, 지급사유·대리수령기간·법정대리인·친족관계·계좌·서명·구비서류를 명시한다. 현재 정부24 304000000233과 복지로WLF00002162의 배우자 복지수당 부분에 한정한다. 304000000122 사망위로금과304000000123 일반 보훈예우수당에는 연결하지 않는다. 이전 보류의 핵심인 현재 별지6 직접 배포 근거를 새로 확보했으며 신청 위임을 대리수령으로 추정한 것이 아니다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060833",
+      "roleBasis": "2026-10-23 광진구 공식 민원편람6553903(등록2026-08-05)을 직접 GET하였다. 이 페이지는 참전유공자 배우자 복지수당의 월10만원·연중상시·구청10층 복지돌봄과 접수와 두 근거 조례를 명시하고, 별지4 지급신청서·별지5 신청위임장·별지6 대리수령신청서를 별개 다운로드로 배포한다. fileSn=3 원본을 실제 GET한 SHA3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909/59139B가 법령포털 원본22425515 및22425553과 각각 정확히 일치한다. HWPX의 Contents/section0.xml 전체974자를 읽고 BinData0개를 확인했다. 본문은 국가보훈조례2060833 제9조의5에 따른 참전유공자 배우자 복지수당 대리수령, 지급사유·대리수령기간·법정대리인·친족관계·계좌·서명·구비서류를 명시한다. 현재 정부24 304000000233과 복지로WLF00002162의 배우자 복지수당 부분에 한정한다. 304000000122 사망위로금과304000000123 일반 보훈예우수당에는 연결하지 않는다. 이전 보류의 핵심인 현재 별지6 직접 배포 근거를 새로 확보했으며 신청 위임을 대리수령으로 추정한 것이 아니다.",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909",
+      "bytes": 59139,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-followup-20261023/team3/files/gwangjin-spouse-third-party-receipt.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제6호서식",
+          "title": "배우자 복지수당 대리 수령 신청서",
+          "use": "conditional",
+          "author": "참전유공자 배우자 복지수당 지급대상자(해당 시 법정대리인) 및 대리수령인",
+          "scope": "신청사유·대리수령기간·인적사항·계좌·양쪽 서명·친족/사유 증빙 전체"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "별지 제6호서식",
+          "title": "배우자 복지수당 대리 수령 신청서",
+          "use": "conditional",
+          "author": "참전유공자 배우자 복지수당 지급대상자(해당 시 법정대리인) 및 대리수령인",
+          "scope": "신청사유·대리수령기간·인적사항·계좌·양쪽 서명·친족/사유 증빙 전체"
+        }
+      ],
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_exact_original_and_current_civil_page_verified",
+      "sourceIssues": [
+        {
+          "kind": "legacy_capacity_terms",
+          "detail": "현재기관이배포한동일원본에한정치산·금치산등종전용어가남아있다.이를새로운법적자격판단으로확대하지않고원문및조건에보존한다."
+        }
+      ],
+      "currentDistributionProof": {
+        "sourcePageUrl": "https://www.gwangjin.go.kr/portal/bbs/B0000049/view.do?nttId=6553903&menuNo=200041&searchCnd=1&searchWrd=%EB%B0%B0%EC%9A%B0%EC%9E%90&pageIndex=1",
+        "sourcePageSha256": "fe5b3acbd08181a03562e75441c76a466696074ff3f5d44cb1ee70decc22fe21",
+        "sourcePageHttpStatus": 200,
+        "publishedAt": "2026-08-05",
+        "officialCurrentNotice": true,
+        "sourceUrl": "https://www.gwangjin.go.kr/portal/cmmn/file/fileDown.do?menuNo=200041&atchFileId=47a25bb24976d9de975f0ee3e60c8dd905a29a9d340691941c80be682190c132&fileSn=3",
+        "sha256": "3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909",
+        "bytes": 59139,
+        "bodyRecord": "logs/forms-followup-20261023/team3/files/gwangjin-spouse-third-party-receipt.hwpx.body.json",
+        "sameAsOriginal": true,
+        "binDataCount": 0,
+        "coordinatorNativeReview": {
+          "label": "gwangjin",
+          "sourceSHA256": "3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909",
+          "sourceBytes": 59139,
+          "hancomPages": 1,
+          "pdfSHA256": "f90fc14d518e085e45df0ea3241041a7993a2024dc83bd03726bc4d9b9c2de34",
+          "sourceUnchanged": true,
+          "allPagesViewed": true,
+          "blankApplicantForm": true,
+          "noFilledPersonalDataObserved": true,
+          "checkedAt": "2026-10-23"
+        }
+      },
+      "programmeProof": {
+        "exactGovernment24": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000233",
+        "government24PageSHA256": "412568ccd722bfdf466bf63091640d21de483c9323934b268cf861470b9b4a24",
+        "bokjiroProgramme": "g11215.bokjiro-WLF00002162",
+        "scope": "참전유공자 배우자복지수당 부분만",
+        "bokjiroPageUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002162&wlfareInfoReldBztpCd=02",
+        "bokjiroPageSHA256": "227d54cad3e9fc00dc1837c68c4f40c005aaa59c4e724b28eb4ea24de1cd4211",
+        "bokjiroCurrentEvidencePath": "logs/forms-followup-20261023/team3/pages/gwangjin-bokjiro.json",
+        "bokjiroHTTPStatus": 200
+      },
+      "duplicateOriginal": {
+        "formId": "ordin-22425553",
+        "lawId": "2060759",
+        "lawTitle": "서울특별시 광진구 참전유공자 예우 및 지원에 관한 조례",
+        "sha256": "3759d8f21c50aaa43b5960021da8b6a874acf6fdde2caa017dbe36ae792d2909",
+        "sameCivilAttachment": true
+      },
+      "coordinatorApproved": true,
+      "regionCode": "11215",
+      "regionLabel": "서울특별시 광진구"
+    }
+  ]
+}

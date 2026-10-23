@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-47230-health-kit-080701",
+      "sha256": "f1e5886e5e39ead2ffe928b62b24b32607a52af14a0bf2f5cdafa65966329005",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026-10-23 총괄이 영천시 보건소의 정확한 임신준비 키트 안내(c27)와 해당 다운로드를 다시 GET하여 102912바이트/SHA를 확인했다. 실제 한글1쪽 전체를 시각 검토했고, 신청인·배우자 정보와 예비/기혼 표시·1가구1회확인·영천시장 수신·개인정보동의·혼인/예식증빙·주소확인란이 빈 양식임을 확인했다. 복지로WLF00004929의 정확한 지원대상과 키트 지원 부분 및 그곳의 동일전본문 별도첨부를 교차검토했다. 키트 소진 종료와 현장 수령 조건은 유지하고 건강검진 이용권 또는 산모 본인부담금 환급에 확대하지 않는다. 전체본문이 같은 복지로 배포본은 SHA차이를 증거로만 남겨 중복 신청서를 추가하지 않는다. 기존17542133의 환급형 원본 상태와 바이트는 그대로 유지한다.",
+      "evidenceUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+      "checkedAt": "2026-10-23",
+      "relatedProgramIds": [
+        "g47230.bokjiro-WLF00004929"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g47230.bokjiro-WLF00004929",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8015.json",
+      "sourceProposalSHA256": "dafaa7d8c7de3dc7484c5066cedaf0012a7977bf70ff2701248af5042e0b41e4",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "d66af2af6c46d2163d3fbaf7c547fbd246ff85679a15aa3afe24ebc151358eac",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "예비·신혼부부 건강관리 지원 [임신준비 키트 지원]",
+        "evidenceUrl": "https://www.yc.go.kr/health/contents.do?mId=0807010000",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "2026-10-23 총괄이 영천시 보건소의 정확한 임신준비 키트 안내(c27)와 해당 다운로드를 다시 GET하여 102912바이트/SHA를 확인했다. 실제 한글1쪽 전체를 시각 검토했고, 신청인·배우자 정보와 예비/기혼 표시·1가구1회확인·영천시장 수신·개인정보동의·혼인/예식증빙·주소확인란이 빈 양식임을 확인했다. 복지로WLF00004929의 정확한 지원대상과 키트 지원 부분 및 그곳의 동일전본문 별도첨부를 교차검토했다. 키트 소진 종료와 현장 수령 조건은 유지하고 건강검진 이용권 또는 산모 본인부담금 환급에 확대하지 않는다. 전체본문이 같은 복지로 배포본은 SHA차이를 증거로만 남겨 중복 신청서를 추가하지 않는다. 기존17542133의 환급형 원본 상태와 바이트는 그대로 유지한다.",
+        "pageSHA256": "d66af2af6c46d2163d3fbaf7c547fbd246ff85679a15aa3afe24ebc151358eac"
+      },
+      "selectedParts": [
+        {
+          "number": "무번호 신청서",
+          "title": "임신준비 키트 지원 신청서",
+          "use": "main",
+          "author": "임신준비 중인 예비부부 또는 혼인신고일 기준 5년 이내 신혼부부의 신청인",
+          "scope": "신청인·배우자 기본정보, 1가구 1회 확인, 신청 및 서명, 개인정보 수집·이용 동의, 제출·확인서류를 포함한 원본 전체"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8015.json",
+  "scopeSHA256": "a1eb5fe88336325a3877e6adb18c0f7ad0cf6c12d84d00310687eca907c4f044"
+}

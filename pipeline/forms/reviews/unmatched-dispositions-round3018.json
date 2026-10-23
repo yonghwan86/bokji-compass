@@ -671,15 +671,18 @@
     {
       "formId": "ordin-20017903",
       "sha256": "5882b9f13617e5e84d676f30ada6973568f13c940c1b20058dc1361c3221c5bd",
-      "disposition": "non_applicant",
-      "reason": "목욕업소 대표가 사용된 목욕권 매수·단가·기간을 정산하고 비용을 청구하는 서식이다. 사이트의 노인 본인 목욕권 신청 단계가 아니며 별지2호 주민신청과 구분한다.",
+      "disposition": "approved",
+      "reason": "복지로 exactWLF00003661의현재공개본문을2026-10-23 GET200/동일프로그램ID로읽었다. 청송거주70세이상에게 목욕권을 반기별로 주고 목욕업소 이용시1000원 본인부담을 초과하는 비용을 지원하는 서비스다. 현행1832389 제5조는 관내협약목욕장 사용을, 제6조2항은 운영자가 별지5 비용청구와 사용목욕권·통장사본을 제출할 것을 직접 정한다. 실제원본전체372자는 업체대표·사용매수/기간·단가·청구액·업소계좌이며 같은쿠폰 제공비의 정산이다. 주민최초발급과 다른 작성주체이지만 같은혜택의 법정비용청구라 조건부부속으로 제안한다. 별개icare방문목욕에는 연결하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g47750.bokjiro-WLF00003661",
-          "programName": "어르신 목욕비 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-20017903",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "청송군과 목욕권 사용 협약을 체결한 관내 목욕장 운영자가 지원대상 어르신에게 실제 목욕서비스를 제공하고 받은 목욕권의 비용을 정산할 때 쓰는 업소작성 부속서류입니다. 업소대표가 사용기간·매수·단가·청구금액·업소계좌를 작성하고 사용한 목욕권, 통장사본 및 원문의 사업자등록·영업허가 증빙을 준비합니다. 조례 제3조에 따라 어르신 본인부담금 1,000원을 제외한 지원대상 비용만 청구합니다. 어르신 본인의 목욕권 최초신청은 별지2로 구분하며, 방문목욕·이동목욕 서비스나 신규 가맹협약 신청에 사용하는 서식이 아닙니다.",
+          "reason": "복지로 exactWLF00003661의현재공개본문을2026-10-23 GET200/동일프로그램ID로읽었다. 청송거주70세이상에게 목욕권을 반기별로 주고 목욕업소 이용시1000원 본인부담을 초과하는 비용을 지원하는 서비스다. 현행1832389 제5조는 관내협약목욕장 사용을, 제6조2항은 운영자가 별지5 비용청구와 사용목욕권·통장사본을 제출할 것을 직접 정한다. 실제원본전체372자는 업체대표·사용매수/기간·단가·청구액·업소계좌이며 같은쿠폰 제공비의 정산이다. 주민최초발급과 다른 작성주체이지만 같은혜택의 법정비용청구라 조건부부속으로 제안한다. 별개icare방문목욕에는 연결하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -705,7 +708,43 @@
           "Contents/section0.xml"
         ]
       },
-      "checkedAt": "2026-10-18"
+      "checkedAt": "2026-10-23",
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-18",
+          "disposition": "non_applicant",
+          "reason": "목욕업소 대표가 사용된 목욕권 매수·단가·기간을 정산하고 비용을 청구하는 서식이다. 사이트의 노인 본인 목욕권 신청 단계가 아니며 별지2호 주민신청과 구분한다.",
+          "relatedProgramIds": null,
+          "reviewedProgramPairs": [
+            {
+              "programId": "g47750.bokjiro-WLF00003661",
+              "programName": "어르신 목욕비 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": null
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-hwpx-source-review",
+      "relatedProgramIds": [
+        "g47750.bokjiro-WLF00003661"
+      ],
+      "approvedAssociations": [
+        {
+          "programId": "g47750.bokjiro-WLF00003661",
+          "formId": "ordin-20017903",
+          "use": "conditional"
+        }
+      ],
+      "officialFollowup": {
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8214.json",
+        "sourceResultSHA256": "547e765f7ba4f88df951a92bbdcdcc8ab2ea9d3405763d2ac25f757a7a4a3686",
+        "proposedStatus": "approved_exact_followup_not_citizen_main",
+        "allOriginalsMatched": false
+      }
     },
     {
       "formId": "ordin-18547827",

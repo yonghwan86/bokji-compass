@@ -5150,19 +5150,22 @@
       "candidateProgramIds": [
         "s12000.gov24-646000000234"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "s12000.gov24-646000000234",
           "formId": "ordin-22255373",
-          "decision": "requires_external_confirmation",
-          "reason": "공식구전남법규·원문과사이트가명시한통합특별시법규/동의서제명이달라현행적용·접수근거필요."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "종전 전라남도 지역에 적용되는 출생기본소득의 도급여(월10만원 한도) 부분에서, 같은 아동의 보호자가 2명 이상이고 배우자인 다른 보호자가 수령하도록 동의하는 경우에만 쓰는 부속서류입니다. 수령을 양보하는 배우자가 본인의 성명·주소·생년월일 및 수령 배우자 성명을 적고 자필 서명합니다. 원본 본문은 배우자 수령 동의이므로 친족·제3자의 일반 대리신청 위임장이나 모든 타인계좌 수령에 사용하지 않습니다. 종전 광주 지역 또는 통합시 전역으로 확대하지 않으며, 시군의 추가10만원 급여에는 각 시군의 별도 적용근거 없이 자동 적용하지 않습니다.",
+          "reason": "현행2089709제4조③은보호자2명이상일때중복지급방지를위해다른보호자의동의를받아정확별지1을제출하게할수있도록명시한다. 정확Gov646000000234가동의서명칭·보호자2인이상조건을명시하고,(구)전남공식출생기본소득페이지가구전남출생신고대상및다른보호자의지급동의를명시한다. 원본전체231자는동의자가수령을양보하고배우자가수령하는데자필서명하는내용이므로배우자관계만허용하고일반위임/제3자계좌로확대하지않는다. 현행구지역법규의직접별지지정이근거이며60일문서간주기간을연장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
-      "reviewCheckedAt": "2026-10-19",
+      "reviewCheckedAt": "2026-10-23",
       "verifiedDocumentTitle": "전라남도 출생기본소득 배우자 등 수령 동의서",
-      "reason": "통합특별시의 (구)전남 공식 출생기본소득 안내가 현재 구전남 출생신고 아동을 대상으로 하고 타 보호자 지급동의서를 요구하는 점은 추가 확인했다. 따라서 종전지역 대상임은 보완되었으나 정부24는 통합특별시 명칭의 법규를 인용하고, 해당 옛 제명 원본을 현재 받는다는 배포본·신청서 지정은 없다. 통합 전체 지역으로 확대하거나 명칭 간주기간을 새로 부여하지 않는다.",
+      "reason": "현행2089709제4조③은보호자2명이상일때중복지급방지를위해다른보호자의동의를받아정확별지1을제출하게할수있도록명시한다. 정확Gov646000000234가동의서명칭·보호자2인이상조건을명시하고,(구)전남공식출생기본소득페이지가구전남출생신고대상및다른보호자의지급동의를명시한다. 원본전체231자는동의자가수령을양보하고배우자가수령하는데자필서명하는내용이므로배우자관계만허용하고일반위임/제3자계좌로확대하지않는다. 현행구지역법규의직접별지지정이근거이며60일문서간주기간을연장하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -5176,10 +5179,16 @@
       "excludedParts": [],
       "role": "consent",
       "regionSearch": {},
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "s12000.gov24-646000000234",
+          "formId": "ordin-22255373",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2089709",
         "binding": "bound",
         "officialFlSeq": "167693541"
@@ -5201,55 +5210,83 @@
         ],
         "finding": "구법규는새법규전까지종전적용지역에한정하여존속(10조1항),옛복지서비스계속효력(14조).구명의발급간주는설치후60일(7조3항)이며현재는경과.시행전신청승계(9조)를현재새신청양식자동승계로보지않음.종전지역경계와현재접수서식증거추가확인필요."
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2089709&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "9fc103d8cd432b2c3fbd595396d4666548e3c33ac75a52a33a0331a375ce3f1e",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2089709.json",
-                "sha256": "b2e1e8338da3bc51cdffb9b64c6956fdf8955cb66eeb03085757ef2621e08044",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://info.jeonnam.go.kr/contentsView.do?menuId=jeonnam0504160208",
-            "httpStatus": 200,
-            "responseSha256": "c3e9c44d397114810ebc61013c679187882a1d97fd74c402b43b0281dc8bf767",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/jeonnam.json",
-                "sha256": "5de79fc42941581170012cbd1d166ff9416c7e71d3751da75e7f738913aadb78",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/646000000234",
-            "httpStatus": 200,
-            "bodyTextSha256": "f605ddc0116bf3d2edf290f5997549727739cbdf86f441840cef367cc6b722f3",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-s12000.gov24-646000000234.json",
-                "sha256": "6bb883c01922c7d3ed067c8170e692dd0f28ffd2e484278d2fe5a1d47e191038",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
         "s12000.gov24-646000000234"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "통합특별시의 (구)전남 공식 출생기본소득 안내가 현재 구전남 출생신고 아동을 대상으로 하고 타 보호자 지급동의서를 요구하는 점은 추가 확인했다. 따라서 종전지역 대상임은 보완되었으나 정부24는 통합특별시 명칭의 법규를 인용하고, 해당 옛 제명 원본을 현재 받는다는 배포본·신청서 지정은 없다. 통합 전체 지역으로 확대하거나 명칭 간주기간을 새로 부여하지 않는다.",
+          "relatedProgramIds": [
+            "s12000.gov24-646000000234"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "s12000.gov24-646000000234",
+              "formId": "ordin-22255373",
+              "decision": "requires_external_confirmation",
+              "reason": "공식구전남법규·원문과사이트가명시한통합특별시법규/동의서제명이달라현행적용·접수근거필요."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2089709&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "9fc103d8cd432b2c3fbd595396d4666548e3c33ac75a52a33a0331a375ce3f1e",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2089709.json",
+                    "sha256": "b2e1e8338da3bc51cdffb9b64c6956fdf8955cb66eeb03085757ef2621e08044",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://info.jeonnam.go.kr/contentsView.do?menuId=jeonnam0504160208",
+                "httpStatus": 200,
+                "responseSha256": "c3e9c44d397114810ebc61013c679187882a1d97fd74c402b43b0281dc8bf767",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/jeonnam.json",
+                    "sha256": "5de79fc42941581170012cbd1d166ff9416c7e71d3751da75e7f738913aadb78",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/646000000234",
+                "httpStatus": 200,
+                "bodyTextSha256": "f605ddc0116bf3d2edf290f5997549727739cbdf86f441840cef367cc6b722f3",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-s12000.gov24-646000000234.json",
+                    "sha256": "6bb883c01922c7d3ed067c8170e692dd0f28ffd2e484278d2fe5a1d47e191038",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewedBy": "codex-coordinator-with-independent-source-review"
     },
     {
       "index": 53,
@@ -5284,19 +5321,22 @@
       "candidateProgramIds": [
         "s12000.gov24-646000000234"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "s12000.gov24-646000000234",
           "formId": "ordin-22255375",
-          "decision": "requires_external_confirmation",
-          "reason": "구전남별지의현재통합법규적용확인과현행소급특례동일성확인필요."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "종전 전라남도 지역의 도급여 출생기본소득을 이미 받다가 조례 제7조제1항제2~5호 사유(아동의 사망·행방불명·실종 신고, 거주불명 등록, 수급 거부 또는 그 밖에 지급중단이 필요하다고 인정된 사유)로 지급이 중단되었고 그 사유가 해소되어 재지급하는 경우의 예외 소급 신청에만 사용합니다. 신청인은 중단 통보와 소명 내용을 적어 제출하며, 운영위원회 심의와 소급 필요 인정이 있어야 지급할 수 있습니다. 늦은 최초신청 이전 기간이나 전출·자격상실인 제1호의 중단기간에 대한 소급신청으로 쓰지 않습니다. 제출만으로 소급 지급이 보장되지 않으며, 통합시 전역이나 시군 추가급여로 확대하지 않습니다.",
+          "reason": "현행2089709제7조③은재지급시중단기간소급금지를원칙으로하되④는①2~5호에해당하는지원아동/보호자가정확별지2를제출하고운영위원회심의로필요성을인정받으면예외소급할수있다고명시한다. 제9조②2호도그예외심의기능을명시한다. 현재공식안내의신청한달부터·소급안됨은최초지급일반안내이며법정중단후예외심의를폐지한다는직접내용은없다. 원본전체128자의중단통보·소명·신청인서명에한정하여예외절차를연결한다. 제1호전출·자격상실과늦은최초신청을제외하고심의재량을유지하므로새권리를만들지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
-      "reviewCheckedAt": "2026-10-19",
+      "reviewCheckedAt": "2026-10-23",
       "verifiedDocumentTitle": "전라남도 출생기본소득 소급 지급 신청서",
-      "reason": "현재 통합특별시의 (구)전남 공식 안내는 일반 지급은 신청한 달부터이고 소급지급은 안 된다고 안내한다. 기존 조례7조④의 별도 예외심의가 현 통합사업에서 어떤 원본으로 접수되는지는 여전히 확인되지 않았다. 구전남 소급신청의 제한을 통합 전체로 확대하지 않는다.",
+      "reason": "현행2089709제7조③은재지급시중단기간소급금지를원칙으로하되④는①2~5호에해당하는지원아동/보호자가정확별지2를제출하고운영위원회심의로필요성을인정받으면예외소급할수있다고명시한다. 제9조②2호도그예외심의기능을명시한다. 현재공식안내의신청한달부터·소급안됨은최초지급일반안내이며법정중단후예외심의를폐지한다는직접내용은없다. 원본전체128자의중단통보·소명·신청인서명에한정하여예외절차를연결한다. 제1호전출·자격상실과늦은최초신청을제외하고심의재량을유지하므로새권리를만들지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -5307,10 +5347,16 @@
       "excludedParts": [],
       "role": "application",
       "regionSearch": {},
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "s12000.gov24-646000000234",
+          "formId": "ordin-22255375",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2089709",
         "binding": "bound",
         "officialFlSeq": "167693543"
@@ -5332,55 +5378,83 @@
         ],
         "finding": "구법규는새법규전까지종전적용지역에한정하여존속(10조1항),옛복지서비스계속효력(14조).구명의발급간주는설치후60일(7조3항)이며현재는경과.시행전신청승계(9조)를현재새신청양식자동승계로보지않음.종전지역경계와현재접수서식증거추가확인필요."
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2089709&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "9fc103d8cd432b2c3fbd595396d4666548e3c33ac75a52a33a0331a375ce3f1e",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2089709.json",
-                "sha256": "b2e1e8338da3bc51cdffb9b64c6956fdf8955cb66eeb03085757ef2621e08044",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://info.jeonnam.go.kr/contentsView.do?menuId=jeonnam0504160208",
-            "httpStatus": 200,
-            "responseSha256": "c3e9c44d397114810ebc61013c679187882a1d97fd74c402b43b0281dc8bf767",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/jeonnam.json",
-                "sha256": "5de79fc42941581170012cbd1d166ff9416c7e71d3751da75e7f738913aadb78",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/646000000234",
-            "httpStatus": 200,
-            "bodyTextSha256": "f605ddc0116bf3d2edf290f5997549727739cbdf86f441840cef367cc6b722f3",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-s12000.gov24-646000000234.json",
-                "sha256": "6bb883c01922c7d3ed067c8170e692dd0f28ffd2e484278d2fe5a1d47e191038",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
         "s12000.gov24-646000000234"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 통합특별시의 (구)전남 공식 안내는 일반 지급은 신청한 달부터이고 소급지급은 안 된다고 안내한다. 기존 조례7조④의 별도 예외심의가 현 통합사업에서 어떤 원본으로 접수되는지는 여전히 확인되지 않았다. 구전남 소급신청의 제한을 통합 전체로 확대하지 않는다.",
+          "relatedProgramIds": [
+            "s12000.gov24-646000000234"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "s12000.gov24-646000000234",
+              "formId": "ordin-22255375",
+              "decision": "requires_external_confirmation",
+              "reason": "구전남별지의현재통합법규적용확인과현행소급특례동일성확인필요."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2089709&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "9fc103d8cd432b2c3fbd595396d4666548e3c33ac75a52a33a0331a375ce3f1e",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2089709.json",
+                    "sha256": "b2e1e8338da3bc51cdffb9b64c6956fdf8955cb66eeb03085757ef2621e08044",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://info.jeonnam.go.kr/contentsView.do?menuId=jeonnam0504160208",
+                "httpStatus": 200,
+                "responseSha256": "c3e9c44d397114810ebc61013c679187882a1d97fd74c402b43b0281dc8bf767",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/jeonnam.json",
+                    "sha256": "5de79fc42941581170012cbd1d166ff9416c7e71d3751da75e7f738913aadb78",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/646000000234",
+                "httpStatus": 200,
+                "bodyTextSha256": "f605ddc0116bf3d2edf290f5997549727739cbdf86f441840cef367cc6b722f3",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-s12000.gov24-646000000234.json",
+                    "sha256": "6bb883c01922c7d3ed067c8170e692dd0f28ffd2e484278d2fe5a1d47e191038",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewedBy": "codex-coordinator-with-independent-source-review"
     },
     {
       "index": 54,

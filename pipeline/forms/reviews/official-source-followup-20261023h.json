@@ -1,0 +1,409 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "baselineCommit": "37d7f150f60737063508d43c260acce7524dcd94",
+  "deliveryScope": {
+    "branch": "feat/welfare-forms-census",
+    "pullRequest": "https://github.com/dlrmsals1425-dotcom/bokji/pull/12",
+    "mainMerged": false,
+    "deployed": false
+  },
+  "counts": {
+    "savedOriginals": 4916,
+    "uniqueOriginalContents": 4880,
+    "formats": {
+      "gif": 5,
+      "htm": 1,
+      "hwp": 4414,
+      "hwp3": 8,
+      "hwpx": 461,
+      "jpg": 1,
+      "pdf": 12,
+      "protected_hwp": 6,
+      "txt": 8
+    },
+    "readableHangulOriginals": 4875,
+    "publishedOriginals": 2835,
+    "publishedFormats": {
+      "hwp": 2511,
+      "hwpx": 306,
+      "pdf": 12,
+      "jpg": 1,
+      "txt": 4,
+      "gif": 1
+    },
+    "publishedPrograms": 2560,
+    "publishedAssociations": 3565,
+    "reviewStates": {
+      "covered_by_existing": 14,
+      "linked": 2835,
+      "replacement_available": 1,
+      "requires_external_confirmation": 53,
+      "reviewed_not_linked": 2013
+    },
+    "unavailableSourceAttachments": 4,
+    "unpublishedOriginals": 2081
+  },
+  "delta": {
+    "savedOriginals": 7,
+    "uniqueOriginalContents": 7,
+    "publishedOriginals": 14,
+    "publishedPrograms": 9,
+    "publishedAssociations": 16
+  },
+  "fixed4006": {
+    "counts": {
+      "reviewed_not_linked": 1986,
+      "linked": 1952,
+      "covered_by_existing": 14,
+      "requires_external_confirmation": 53,
+      "replacement_available": 1
+    },
+    "sourceReviews": 4006,
+    "fullScopeMatchingComplete": false,
+    "allOriginalsMatched": false,
+    "sourceBytes": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "fixedOriginalsHashed": 4006,
+      "bytesHashed": 182351140,
+      "protectedFilesHashedOnly": 6,
+      "scopeSHA256": "f90233ef29a03ae820e598dea346711a9b95df7bae3c8d0d966110ec66c10117",
+      "sourceBytesUnchanged": true,
+      "decryptionAttempted": false
+    }
+  },
+  "reviewFiles": [
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8019.json",
+      "sha256": "d32d365745b9ec45542908caec4bddc1c5cdb0c967f2bcdaa2d38255a847e01f"
+    },
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8020.json",
+      "sha256": "c7d26299b2dda37cebe6ca7f987fea4642ba5b8a244b37a66324941cf0445ba0"
+    },
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8210.json",
+      "sha256": "3b762e7bde5f9a7d180612030dd16ea0e51521e2ea86b4a422d0e202c18a9cdd"
+    },
+    {
+      "path": "pipeline/forms/reviews/municipal-reviewed-round8211.json",
+      "sha256": "c976c09dc9adedd03969b24f6a4cc707daf051f75b214bbaa48016d8522a36d5"
+    }
+  ],
+  "approvedOriginals": [
+    {
+      "formId": "agency-48310-geoje-payment-238389",
+      "sha256": "b978745ab400d7aac11bf2f9bd4ce99355de607355357ef7fcf82af664631e3d",
+      "bytes": 38400,
+      "format": "hwp",
+      "programIds": [
+        "g48310.gov24-537000000125"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "2026 회차자료 · 접수종료(4.6~4.10) — 고등학교 우수 장학금 지급 신청서",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "agency-48310-geoje-payment-238390",
+      "sha256": "a2191e6b92053baeae8aa09c9ddbf1ec378992c8d49e3bb5be23eb6868ed0da4",
+      "bytes": 38400,
+      "format": "hwp",
+      "programIds": [
+        "g48310.gov24-537000000125"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "2026 회차자료 · 접수종료(4.6~4.10) — 대학교 입학 우수 장학금 지급 신청서",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "agency-43745-gazette825-independent-14",
+      "sha256": "ba6d5ce8245e005bac71e369a8933a5f7fe2243942f12283bcd141015a83a3ee",
+      "bytes": 415730,
+      "format": "pdf",
+      "programIds": [
+        "g43745.bokjiro-WLF00003002"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "독립유공자 보훈명예수당 지급 신청(변경신고)서 — 증평군보 제825호 14쪽",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "agency-44810-yesan-postpartum-36547",
+      "sha256": "9ad606e8ce71741d2d094325c5b9acd164f2fc18808a4bacf65ca3556d0162c9",
+      "bytes": 54521,
+      "format": "hwpx",
+      "programIds": [
+        "g44810.bokjiro-WLF00006603"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "산후조리 비용 지원 신청서",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "agency-47000-bokjiro-wlf00003658-20260713-1",
+      "sha256": "0058363ddb46393e957f4a4ed1c4d807fee8baab40ac783ddfcaa89022a62026",
+      "bytes": 364718,
+      "format": "pdf",
+      "programIds": [
+        "s47000.bokjiro-WLF00003658"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "2026년 산모신생아 본인부담금 지원 안내·서식 — 서비스 해지 통보서(15쪽)",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "agency-44210-health-cts2393-initial-voucher",
+      "sha256": "369b21f72eae53a8d7bee4c7292e915d488cd76733e3fe9cc30778081cc21d39",
+      "bytes": 108032,
+      "format": "hwp",
+      "programIds": [
+        "n.gov24-PTR000050390"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "서산시 보건소 접수용 산모·신생아 건강관리 이용권 신청서",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "ordin-20589281",
+      "sha256": "27a18064215adb1a12ca5239a277cb8cb1a2f76a3c7908dbf932cec7b8401990",
+      "bytes": 94840,
+      "format": "hwpx",
+      "programIds": [
+        "g41480.gov24-406000000102",
+        "g41480.bokjiro-WLF00001658"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "파주시 출생축하금 최초 신청 부분 · 통합서식",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "ordin-21184717",
+      "sha256": "256bbe9a374517c2a7379d20f652da70e22877888f263518f80918a1f0415b0f",
+      "bytes": 49152,
+      "format": "hwp",
+      "programIds": [
+        "g51770.bokjiro-WLF00006371"
+      ],
+      "use": "additional",
+      "role": "supporting",
+      "reviewTitle": "정선군 결혼장려금 지원 이행서약서",
+      "screenWritingHeld": false
+    },
+    {
+      "formId": "ordin-22425545",
+      "sha256": "6c0773a9cdb1fa6e1d51a49bfede485dd863142c2b05fc3fb6092d62a615c7df",
+      "bytes": 46484,
+      "format": "hwpx",
+      "programIds": [
+        "g11215.gov24-304000000236"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "2026 회차자료 · 접수종료(6.29~7.22) — 인문학 강좌 수강료 감면·반환 신청서",
+      "screenWritingHeld": false
+    },
+    {
+      "formId": "ordin-19859351",
+      "sha256": "edcd9c693939aa6a9ced5850205899ff83b14fd10cdfffa2265b9ec699537b74",
+      "bytes": 48640,
+      "format": "hwp",
+      "programIds": [
+        "g51170.gov24-421000000638"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "지류 등록 가맹점의 동해사랑상품권 환전 청구서",
+      "screenWritingHeld": true
+    },
+    {
+      "formId": "ordin-22282177",
+      "sha256": "2129a6988fb231bf180d5b4ad537edd2d82e91cf5900b360ef2029f7e4eef29b",
+      "bytes": 12288,
+      "format": "hwp",
+      "programIds": [
+        "g41610.gov24-554000000158"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "자연채 포장재 사용신청서",
+      "screenWritingHeld": false
+    },
+    {
+      "formId": "ordin-19976627",
+      "sha256": "9b711e559913fd9d4b80143320c71681dfe82243c11d180120b67d7da2fa7795",
+      "bytes": 30720,
+      "format": "hwp",
+      "programIds": [
+        "g41830.gov24-417000000101"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "군립어린이집 입소 절차용 신청서 · 준비금 청구와 별도",
+      "screenWritingHeld": false
+    },
+    {
+      "formId": "ordin-21934315",
+      "sha256": "cc4395b5fc3dbfb998035293ee8e776379b40461bb812bc3529916998142e86e",
+      "bytes": 50688,
+      "format": "hwp",
+      "programIds": [
+        "g51760.gov24-O00002700004"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "기존 15년 허가 장사시설의 사용허가 변경 신청서",
+      "screenWritingHeld": false
+    },
+    {
+      "formId": "rule-3211501",
+      "sha256": "f922a89ff89c09bfb6325d493d03104bdc23c123fc1c4b469bfc77bb1597bde1",
+      "bytes": 41935,
+      "format": "hwpx",
+      "programIds": [
+        "n.gov24-PTR000050390"
+      ],
+      "use": "main",
+      "role": "application",
+      "reviewTitle": "사회보장급여(사회서비스이용권) 신청(변경)서",
+      "screenWritingHeld": false
+    },
+    {
+      "formId": "rule-3249997",
+      "sha256": "0a23cbf184e7bf01e088ede8eab4b8cb32948250cc9a322890460a80e5c753ba",
+      "bytes": 39280,
+      "format": "hwpx",
+      "programIds": [
+        "n.gov24-PTR000050390"
+      ],
+      "use": "conditional",
+      "role": "application",
+      "reviewTitle": "임신서비스 통합처리 신청서",
+      "screenWritingHeld": true
+    }
+  ],
+  "writing": {
+    "verifiedConversions": 2509,
+    "verifiedPages": 4285,
+    "partialEntryManifests": 1219,
+    "unsupportedConvertedOriginals": 1290,
+    "exactSourceWritingHolds": 15,
+    "newVerifiedConversions": 8,
+    "newPartialEntryManifests": 1,
+    "sourceByteEdits": false,
+    "signaturesOrConsentGenerated": false
+  },
+  "validation": {
+    "productionBuildAndTypeScript": "passed",
+    "eslint": "passed",
+    "vitest": {
+      "passed": 1205,
+      "failed": 0
+    },
+    "python": {
+      "passed": 336,
+      "failed": 0
+    },
+    "browser": {
+      "startTime": "2026-10-22T23:08:54.472Z",
+      "duration": 131673.403,
+      "expected": 239,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "stagedBytes": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "allPublishedOriginalBlobsVerified": 2835,
+      "newOriginalAndArchiveBlobsVerified": 14,
+      "stagedConversionBlobsVerified": 2509,
+      "stagedManifestBlobsVerified": 1219,
+      "unsupported": 1290,
+      "sourceResultHashReferencesVerified": 7,
+      "original4006ScopeUnchanged": true,
+      "welfareBundlesUnchanged": true,
+      "currentLawMetadataDatesPreserved": true,
+      "sourceLawCurrencyChangedOnlyIndividuallyRecheckedLaws": [
+        "1645749",
+        "1995491",
+        "2058863",
+        "2060801",
+        "2069271",
+        "2133271",
+        "2156975",
+        "793158"
+      ],
+      "sourceBytesEdited": false,
+      "deploymentConfigUnchanged": true
+    },
+    "nativeOriginals": 15,
+    "nativeOriginalPages": 72,
+    "nativeViewingMethod": "13 Hangul originals rendered to22pages; two complete official PDF originals50pages reviewed as contact sheets with selected application pages at full size. Official national PDF7pages also compared separately.",
+    "liveCardScreenshots": 10,
+    "liveNationalDefaultScreenshots": 2,
+    "mobileWidth": 390,
+    "horizontalOverflows": 0,
+    "filledHwpX": {
+      "example": "synthetic name/address only, not a fully completed signed application",
+      "browserOutputs": 2,
+      "hancomPagesEach": 1,
+      "sha256": "5fb76024ebb7c57364a9aca3873a525743697769ea23f0512de20fbea40d18d6"
+    },
+    "sourceResultHashReferencesVerified": 7,
+    "sourceResultJsonLineEndings": "LF to preserve frozen hash references in Git"
+  },
+  "orchestration": {
+    "coordinator": "Codex",
+    "claudeCode": "Actual Herdr Claude implemented the commencement-date parser/tests and municipal intake draft. Its session usage limit interrupted the latter. Codex completed and validated the integration.",
+    "grok": "Actual Herdr Grok opposed the source matches and independently audited latest municipal/national gates and commencement proof.",
+    "nativeCodex": "Independent Codex source reviewers and contract reviewer; not represented as Claude or Grok.",
+    "independentReviews": [
+      {
+        "path": "logs/forms-followup-20261023f/grok/three-route-crossreview.json",
+        "sha256": "45012687888103c6b2a3f9a7f10b053efc070c0e6fd7ed623709cf69e939418f"
+      },
+      {
+        "path": "logs/forms-followup-20261023h/grok/five-original-crossreview.json",
+        "sha256": "5c03caa890b146c4fe0c8012e91310436de27dfed314f4bdafa6cee10b97f83c"
+      },
+      {
+        "path": "logs/forms-followup-20261023h/grok/next/four-original-and-datecode-crossreview.json",
+        "sha256": "4c627a38882cf771d547729ba44d59fa0a3a7c21050c70b8c83c24be14f821ce"
+      },
+      {
+        "path": "logs/forms-followup-20261023h/grok/seosan-national-final/seosan-national-final-crossreview.json",
+        "sha256": "c1cfada7bc10c0c910fdcbd6b33b1d9f5130fd1d6c675efb60cffe4633232c4b"
+      },
+      {
+        "path": "logs/forms-followup-20261023h/native-contract-review/review-v1.json",
+        "sha256": "2fad08095254433658412bf20e9e07905689c640b5081c10c68ce8005b7bec95"
+      },
+      {
+        "path": "logs/forms-followup-20261023h/native-contract-review/postfix-verification.json",
+        "sha256": "fd2582f6a628f0c7cdab5eb2fe6963c7a1d62f31f1ea50868a51ccbb9d691438"
+      }
+    ]
+  },
+  "knownLimits": [
+    "The 23,578 benefit detail records are source records, not a national count of unique welfare entitlements.",
+    "Full4006 matching remains false:53 external confirmations and1 replacement-confirmation status remain. Protected originals were hashed without decrypting.",
+    "Jan1 2025 Jeungpyeong commencement follows actual current addendum while API metadata remains Dec20 2024. Bound official HTML, original file-byte hash, promulgation metadata and known verified commencement prevent metadata fallback for this case.",
+    "Common notice3211501 overall effective May1 and printed revisedJuly1 with partially deferred guidance are distinguished in the programme condition. No retrospective all-parts date claim.",
+    "Closed2026 rounds and selected supporting/followup parts are explicitly limited; other source IDs are not automatically covered.",
+    "The generic metadata-agreement law-date path remains unchanged for laws without explicit reviewed commencement evidence.",
+    "I-round Daegu agency HWPX, Yeongjong official PNG and Ulju statutory-chain proposals are private followups, not included in current published totals."
+  ],
+  "initialFailuresResolved": [
+    "Publication initially validated a municipal intake before output file metadata was emitted. Binding now uses registered agency source SHA; actual original bytes are independently mandatory in the publication build.",
+    "A test fixture widened authorityBasis.kind to string, which TypeScript rejected; fixture now declares the exact literal.",
+    "Independent boundary audit found Python accepted empty region objects while TypeScript rejected them; both now accept only absent/null, with malformed-region regression tests."
+  ]
+}

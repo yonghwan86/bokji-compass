@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "sourceProposalSHA256": "5d0a66a0feaa2e56ec46a2fe84b96c1e831ff7c454575cf4b8bc51885a8d7e72",
+  "verificationMethod": "Coordinator exact current national annex and cited local-law route; private actual importer gate passed. Previous municipal originals are not automatically approved or covered.",
+  "rows": [
+    {
+      "id": "rule-3249999",
+      "sourceKind": "rule",
+      "title": "출산서비스 통합처리 신청서",
+      "declaredKind": "별지",
+      "lawTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+      "lawId": "2100000281394",
+      "stableLawId": "50693",
+      "annexId": "3249999",
+      "annexNumber": "000200",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "effectiveDate": "2026-06-30",
+      "dateKind": "effective",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166471293",
+      "officialPdfUrl": null,
+      "lawUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281394",
+      "fetchedAt": "2026-10-16T07:54:27.895597+00:00",
+      "formId": "rule-3249999",
+      "formTitle": "출산서비스 통합처리 신청서",
+      "sha256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+      "bytes": 37825,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-followup-20261023e/root/evidence/rule-3249999.hwpx",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "role": "application",
+      "use": "conditional",
+      "scopeBasis": "official-application-reference",
+      "publicationApproved": true,
+      "screenWritingApproved": false,
+      "programIds": [
+        "g47110.gov24-502000000209"
+      ],
+      "programNames": [
+        "출산장려금 지원"
+      ],
+      "condition": "포항시 출생축하금의 출생·입양·전입 신고 후90일 이내 통합신청에 사용하는 현행 국가 별지2 원본입니다. 공통 신청인·출생아·가족·급여계좌 정보와 해당 지방서비스 부분을 작성하며, 원본의 지방서비스는 지자체별 작성 예시이므로 실제 포항 출생축하금 명칭과 기재 방법을 읍·면·동 안내에 맞춰 확인하세요. 예시의 둘째 이상 선택지를 이유로 첫째아를 제외하거나 거짓 출생순위에 표시하지 않습니다. 보호자 또는 출생아 명의 통장 사본을 준비합니다. 다자녀 특별양육금의 별도 연간 신청이나 원본 안의 다른 국가급여까지 이 연결로 승인한 것은 아닙니다. 옛 포항 첨부 별지1과 동일 판본으로 표시하지 않으며, 제출만으로 지급이 결정되지 않습니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2125237",
+      "evidenceNote": "포항 현행 조례 제6조제1항제1호가 국가 규정 별지2 출산서비스 통합처리 신청서를 직접 지정한다. 정확 정부24 502000000209는 출생축하금과 특별양육금을 함께 안내하지만 이 연결은 조례6조의 출생축하금 신청에만 한정한다. 옛 포항 첨부21785751의 국가별지1 머리말을 현행2로 재명명하지 않고 실제 국가현행별지2를 제공한다.",
+      "roleBasis": "포항 현행 조례 제6조제1항제1호가 국가 규정 별지2 출산서비스 통합처리 신청서를 직접 지정한다. 정확 정부24 502000000209는 출생축하금과 특별양육금을 함께 안내하지만 이 연결은 조례6조의 출생축하금 신청에만 한정한다. 옛 포항 첨부21785751의 국가별지1 머리말을 현행2로 재명명하지 않고 실제 국가현행별지2를 제공한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281394",
+      "roleCheckedAt": "2026-10-23",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/502000000209",
+      "scopeReference": {
+        "kind": "cited-local-law",
+        "sourceLawId": "2125237",
+        "sourceLawTitle": "포항시 출산장려 등 지원에 관한 조례",
+        "article": "제6조제1항",
+        "referencedLawTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+        "annexNumber": "000200",
+        "basis": "포항 현행 조례 제6조제1항제1호가 국가 규정 별지2 출산서비스 통합처리 신청서를 직접 지정한다. 정확 정부24 502000000209는 출생축하금과 특별양육금을 함께 안내하지만 이 연결은 조례6조의 출생축하금 신청에만 한정한다. 옛 포항 첨부21785751의 국가별지1 머리말을 현행2로 재명명하지 않고 실제 국가현행별지2를 제공한다."
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "출산서비스 통합처리 신청서 중 해당 지방서비스 신청 부분",
+          "use": "conditional",
+          "author": "해당 지방급여 신청인 또는 규정상 허용 대리신청인",
+          "condition": "포항시 출생축하금의 출생·입양·전입 신고 후90일 이내 통합신청에 사용하는 현행 국가 별지2 원본입니다. 공통 신청인·출생아·가족·급여계좌 정보와 해당 지방서비스 부분을 작성하며, 원본의 지방서비스는 지자체별 작성 예시이므로 실제 포항 출생축하금 명칭과 기재 방법을 읍·면·동 안내에 맞춰 확인하세요. 예시의 둘째 이상 선택지를 이유로 첫째아를 제외하거나 거짓 출생순위에 표시하지 않습니다. 보호자 또는 출생아 명의 통장 사본을 준비합니다. 다자녀 특별양육금의 별도 연간 신청이나 원본 안의 다른 국가급여까지 이 연결로 승인한 것은 아닙니다. 옛 포항 첨부 별지1과 동일 판본으로 표시하지 않으며, 제출만으로 지급이 결정되지 않습니다."
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "출산서비스 통합처리 신청서 중 해당 지방서비스 신청 부분",
+          "use": "conditional",
+          "author": "해당 지방급여 신청인 또는 규정상 허용 대리신청인",
+          "condition": "포항시 출생축하금의 출생·입양·전입 신고 후90일 이내 통합신청에 사용하는 현행 국가 별지2 원본입니다. 공통 신청인·출생아·가족·급여계좌 정보와 해당 지방서비스 부분을 작성하며, 원본의 지방서비스는 지자체별 작성 예시이므로 실제 포항 출생축하금 명칭과 기재 방법을 읍·면·동 안내에 맞춰 확인하세요. 예시의 둘째 이상 선택지를 이유로 첫째아를 제외하거나 거짓 출생순위에 표시하지 않습니다. 보호자 또는 출생아 명의 통장 사본을 준비합니다. 다자녀 특별양육금의 별도 연간 신청이나 원본 안의 다른 국가급여까지 이 연결로 승인한 것은 아닙니다. 옛 포항 첨부 별지1과 동일 판본으로 표시하지 않으며, 제출만으로 지급이 결정되지 않습니다."
+        }
+      ],
+      "coordinatorSourceProof": {
+        "nationalRuleCurrentMCP": "af96e225bd8a92408507851563569af55b2b7ec9f0040de3a139883765ceb9ea",
+        "localCurrentLaw": {
+          "lawId": "2125237",
+          "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2125237&gubun=ELIS",
+          "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2125237&gubun=ELIS",
+          "httpStatus": 200,
+          "sha256": "ab540ff36d08982aa8771da556060ed4642e70ef81994a807027083ff61302c2",
+          "bytes": 30755,
+          "checkedAt": "2026-10-23"
+        },
+        "sourceSHA256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+        "allBodySectionsRead": true
+      },
+      "coordinatorApproved": true,
+      "coordinatorReason": "총괄이 현행국가규정과지방조례의정확통합신청지정/준용을직접대조하고6872자전체본문및실제한글3쪽을확인했다. 고정구형원본의판본또는추가제출채택을추정하지않고 현행국가별지2 자체를 해당통합신청경로에제공한다. 지자체서비스기재예시·다른급여를각사업의자격기준으로확대하지않는다.",
+      "coordinatorNativeReview": {
+        "label": "rule-3249999",
+        "sourceSHA256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+        "sourceBytes": 37825,
+        "hancomPages": 3,
+        "pdfSHA256": "3754e9d6d9e53fc9e132d1b1dec4a40cefdbb06f0aeee241ab844ad99d76af49",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "id": "rule-3249999",
+      "sourceKind": "rule",
+      "title": "출산서비스 통합처리 신청서",
+      "declaredKind": "별지",
+      "lawTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+      "lawId": "2100000281394",
+      "stableLawId": "50693",
+      "annexId": "3249999",
+      "annexNumber": "000200",
+      "regionCode": "national",
+      "regionLabel": "전국 공통",
+      "effectiveDate": "2026-06-30",
+      "dateKind": "effective",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166471293",
+      "officialPdfUrl": null,
+      "lawUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281394",
+      "fetchedAt": "2026-10-16T07:54:27.895597+00:00",
+      "formId": "rule-3249999",
+      "formTitle": "출산서비스 통합처리 신청서",
+      "sha256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+      "bytes": 37825,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/forms-followup-20261023e/root/evidence/rule-3249999.hwpx",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "textScope": "all_body_sections_or_pages",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "role": "application",
+      "use": "conditional",
+      "scopeBasis": "official-application-reference",
+      "publicationApproved": true,
+      "screenWritingApproved": false,
+      "programIds": [
+        "g51800.gov24-432000000240"
+      ],
+      "programNames": [
+        "출생아 건강보험가입 지원"
+      ],
+      "condition": "양구군 출생아 건강보험가입 지원을 현행 조례 제5조의 출산서비스 통합처리로 신청할 때 쓰는 국가 별지2 원본입니다. 공통 신청인·출생아·가족정보를 작성하며 지방서비스의 보험가입 지원 명칭과 기재 방법은 읍·면 안내에 맞춰 확인하세요. 지방서비스의 둘째 이상 등은 지자체별 작성 예시로, 쌍생아·입양아 등 실제 지원대상은 양구 조례의 기준을 따릅니다. 현재 조례의2025년 이후 출생아 월3만원 이하·5년 지원, 정부24의 월2만원, 보건소의3년납5년보장 안내가 서로 달라 해당 아동의 적용계약과 보험기간은 확인이 필요합니다. 이 통합원본에는 그 보험료·기간이 인쇄되어 있지 않습니다. 보험사 계약서·가입승인서나 모든 신청인에게 별도 개별신청서를 더 요구한다는 뜻이 아닙니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1986069",
+      "evidenceNote": "양구 현행 조례 제5조제2호가 국가 규정6조부터9조의 출산서비스 통합처리 부분을 준용한다. 국가5조제2항·8조·9조제2항과제4항은 실제 현행별지2의 출산자/가족/지방서비스 통합신청 경로를 정한다. 정확 정부24 432000000240와 같은 보험가입 급여의 접수에 한정한다. 잔존 개별첨부20232531의 추가제출 실무 채택을 추정하여 승인하지 않고 통합신청 자체를 지정한 현행경로에 현재 국가원본을 연결한다.",
+      "roleBasis": "양구 현행 조례 제5조제2호가 국가 규정6조부터9조의 출산서비스 통합처리 부분을 준용한다. 국가5조제2항·8조·9조제2항과제4항은 실제 현행별지2의 출산자/가족/지방서비스 통합신청 경로를 정한다. 정확 정부24 432000000240와 같은 보험가입 급여의 접수에 한정한다. 잔존 개별첨부20232531의 추가제출 실무 채택을 추정하여 승인하지 않고 통합신청 자체를 지정한 현행경로에 현재 국가원본을 연결한다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000281394",
+      "roleCheckedAt": "2026-10-23",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/432000000240",
+      "scopeReference": {
+        "kind": "cited-local-law",
+        "sourceLawId": "1986069",
+        "sourceLawTitle": "양구군 출생아 건강보험 가입지원에 관한 조례",
+        "article": "제5조",
+        "referencedLawTitle": "임신ㆍ출산 관련 서비스 통합처리에 관한 규정",
+        "annexNumber": "000200",
+        "basis": "양구 현행 조례 제5조제2호가 국가 규정6조부터9조의 출산서비스 통합처리 부분을 준용한다. 국가5조제2항·8조·9조제2항과제4항은 실제 현행별지2의 출산자/가족/지방서비스 통합신청 경로를 정한다. 정확 정부24 432000000240와 같은 보험가입 급여의 접수에 한정한다. 잔존 개별첨부20232531의 추가제출 실무 채택을 추정하여 승인하지 않고 통합신청 자체를 지정한 현행경로에 현재 국가원본을 연결한다."
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "출산서비스 통합처리 신청서 중 해당 지방서비스 신청 부분",
+          "use": "conditional",
+          "author": "해당 지방급여 신청인 또는 규정상 허용 대리신청인",
+          "condition": "양구군 출생아 건강보험가입 지원을 현행 조례 제5조의 출산서비스 통합처리로 신청할 때 쓰는 국가 별지2 원본입니다. 공통 신청인·출생아·가족정보를 작성하며 지방서비스의 보험가입 지원 명칭과 기재 방법은 읍·면 안내에 맞춰 확인하세요. 지방서비스의 둘째 이상 등은 지자체별 작성 예시로, 쌍생아·입양아 등 실제 지원대상은 양구 조례의 기준을 따릅니다. 현재 조례의2025년 이후 출생아 월3만원 이하·5년 지원, 정부24의 월2만원, 보건소의3년납5년보장 안내가 서로 달라 해당 아동의 적용계약과 보험기간은 확인이 필요합니다. 이 통합원본에는 그 보험료·기간이 인쇄되어 있지 않습니다. 보험사 계약서·가입승인서나 모든 신청인에게 별도 개별신청서를 더 요구한다는 뜻이 아닙니다."
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "별지 제2호",
+          "title": "출산서비스 통합처리 신청서 중 해당 지방서비스 신청 부분",
+          "use": "conditional",
+          "author": "해당 지방급여 신청인 또는 규정상 허용 대리신청인",
+          "condition": "양구군 출생아 건강보험가입 지원을 현행 조례 제5조의 출산서비스 통합처리로 신청할 때 쓰는 국가 별지2 원본입니다. 공통 신청인·출생아·가족정보를 작성하며 지방서비스의 보험가입 지원 명칭과 기재 방법은 읍·면 안내에 맞춰 확인하세요. 지방서비스의 둘째 이상 등은 지자체별 작성 예시로, 쌍생아·입양아 등 실제 지원대상은 양구 조례의 기준을 따릅니다. 현재 조례의2025년 이후 출생아 월3만원 이하·5년 지원, 정부24의 월2만원, 보건소의3년납5년보장 안내가 서로 달라 해당 아동의 적용계약과 보험기간은 확인이 필요합니다. 이 통합원본에는 그 보험료·기간이 인쇄되어 있지 않습니다. 보험사 계약서·가입승인서나 모든 신청인에게 별도 개별신청서를 더 요구한다는 뜻이 아닙니다."
+        }
+      ],
+      "coordinatorSourceProof": {
+        "nationalRuleCurrentMCP": "af96e225bd8a92408507851563569af55b2b7ec9f0040de3a139883765ceb9ea",
+        "localCurrentLaw": {
+          "lawId": "1986069",
+          "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1986069&gubun=ELIS",
+          "finalUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=1986069&gubun=ELIS",
+          "httpStatus": 200,
+          "sha256": "794ee5ddd1f308ab39b5384e842ed1026208eaa5c25db91362dd5573bd9a5788",
+          "bytes": 18831,
+          "checkedAt": "2026-10-23"
+        },
+        "sourceSHA256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+        "allBodySectionsRead": true
+      },
+      "coordinatorApproved": true,
+      "coordinatorReason": "총괄이 현행국가규정과지방조례의정확통합신청지정/준용을직접대조하고6872자전체본문및실제한글3쪽을확인했다. 고정구형원본의판본또는추가제출채택을추정하지않고 현행국가별지2 자체를 해당통합신청경로에제공한다. 지자체서비스기재예시·다른급여를각사업의자격기준으로확대하지않는다.",
+      "coordinatorNativeReview": {
+        "label": "rule-3249999",
+        "sourceSHA256": "4b3961ff5ce2888a76c3c51fd62d7a1b3ce3507af323ce92369ace06bdc65daa",
+        "sourceBytes": 37825,
+        "hancomPages": 3,
+        "pdfSHA256": "3754e9d6d9e53fc9e132d1b1dec4a40cefdbb06f0aeee241ab844ad99d76af49",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true
+      }
+    }
+  ]
+}

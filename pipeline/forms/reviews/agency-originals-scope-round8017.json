@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "formCount": 1,
+  "forms": [
+    {
+      "formId": "agency-52180-jeongeup-249275",
+      "lawId": "",
+      "lawTitle": "",
+      "title": "2026 회차자료 · 접수종료(2025.12.17~12.30) — 별별꿈 재능바우처 지원사업 신청서",
+      "sourceKind": "agency",
+      "regionCode": "52180",
+      "sourceUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+      "sourcePageUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+      "attachmentId": "249275",
+      "sha256": "70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9",
+      "bytes": 77176,
+      "format": "hwpx",
+      "relativePath": "agency-52180-jeongeup-249275.hwpx"
+    }
+  ],
+  "note": "Separate municipal/agency official-source originals. Existing portal IDs and immutable scopes are unchanged."
+}

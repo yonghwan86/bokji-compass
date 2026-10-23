@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "operatingRepository": "yonghwan86/bokji-compass",
+  "operatingBaseCommit": "110be2e44c988a15abdcae9f319803d01b0109aa",
+  "importedSourceCommit": "198dbc5a7bc0ad6ad3d465eec61c6688de4a2847",
+  "verifiedProductTreeCommit": "16efe3543d32c5dc15d01036159177139bd9cff4",
+  "productCodeChangedAfterBuild": false,
+  "nextProductionBuild": "passed",
+  "unit": {
+    "passed": 1506,
+    "failed": 0
+  },
+  "browser": {
+    "distinctCases": 652,
+    "passed": 649,
+    "conditionalSkips": 3,
+    "failedAfterTargetedRecheck": 0,
+    "firstFullRun": {
+      "passed": 647,
+      "failed": 2,
+      "skipped": 3
+    },
+    "qa8CorrectedSetupRecheck": {
+      "passed": 13,
+      "failed": 0
+    },
+    "testSetupCorrection": "Wait for rendered example results before navigating to a page that uses its saved situation.",
+    "skips": [
+      "Desktop-only exclusion of touch interaction (mobile passed)",
+      "Opt-in real OpenAI STT test requires fixture/key",
+      "Opt-in real realtime voice test requires fixture"
+    ]
+  },
+  "upstreamPreservation": {
+    "operatingMain": "110be2e44c988a15abdcae9f319803d01b0109aa",
+    "sourceCommit": "198dbc5a7bc0ad6ad3d465eec61c6688de4a2847",
+    "upstreamOnlyChangedPathsExactlyPreserved": 1498,
+    "upstreamDeletionsPreserved": 1,
+    "allOperatingWelfareBundleBlobsPreserved": 505,
+    "intentionalTestOnlyPortabilityAdjustment": [
+      "pipeline/tests/mohw-parse.test.ts"
+    ],
+    "allChecksPassed": true
+  },
+  "productionDeployed": false,
+  "proofs": [
+    {
+      "path": "logs/hwpx-live-20261023/vitest-final-v2.json",
+      "bytes": 565225,
+      "sha256": "368392c61761f94c213dd6203122be8067e736c9a4a860e528654b77c1928faf"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/e2e-all-final.json",
+      "bytes": 798434,
+      "sha256": "f2cf30a03c96b8bb82fe7ea4e7fade7600b4c009ce980e615fcb1b0627c91c70"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/qa8-hydration-recheck.json",
+      "bytes": 18332,
+      "sha256": "21cd22a3e6afaf1d33fc3d606e37edfac5ba23663c8a07cc8d4749dc5b740dad"
+    },
+    {
+      "path": "logs/hwpx-live-20261023/upstream-preservation-audit-v2.json",
+      "bytes": 385,
+      "sha256": "00adcdce73c82dfdcbe0a8d7e6cd10698db9a91d254a4cd4479ff4d3bf82f2ea"
+    }
+  ],
+  "operatingPullRequest": "https://github.com/yonghwan86/bokji-compass/pull/61",
+  "productionAccess": "READ; push=false"
+}

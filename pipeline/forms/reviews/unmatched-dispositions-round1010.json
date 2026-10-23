@@ -880,57 +880,80 @@
         "sourceArticlesAvailable": true,
         "sourceArticleCount": 5
       },
-      "disposition": "requires_external_confirmation",
-      "reason": "공식MCP 재검색에서2026.10.12 시행의 새 상위조례2178167을 확보하고 전체9조를 읽었다. 현행은 지정마을 주민·외국인, 바우처카드 결제 및 운송사업자 비용청구를 규정하고 기존 시행규칙1633745도 검색된다. 그러나 읍면장 신규마을 지정 신청서를 통합돌봄 메뉴판의 선정마을 주민 이용사업 신청자료로 제공한다는 직접 안내는 없으며 새 상위조례 제5조의 별지1은 운송사업자 지원청구로 원본과 다른 문서이다. 입법예고/현행 제명변경은 확인했으나 기존 원본의 해당사업 접수용도는 미해소이다.",
+      "disposition": "non_applicant",
+      "reason": "2026-10-23 원본12288바이트/SHA와 전체239자, 현행 규칙1633745 제2조제2항·제3조 및 새 상위조례2178167 제3조·제5조·부칙을 대조하고 독립 재검토했다. 별지1은 읍·면장이 마을 위치·가구·거리·버스 현황을 작성해 군수에게 제출하는 행정 마을선정용이다. 사이트의 정확한 희망택시 사업은 이미 지정된 마을 주민의 탑승 이용으로, 규칙은 주민의 위성콜 요청을, 새 조례는 지정마을 주민 이용과 운송사업자 비용청구를 구분한다. 주민이 직접 내는 택시 이용신청서나 운송업자 청구서로 붙이지 않는다. 검색 실패가 아니라 작성 주체와 행정 단계의 적극적 불일치로 비신청인으로 분류하며 해당 교통복지나 주민 이용권이 없다는 뜻은 아니다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51810.icare-0083-1489635-1-3-6",
           "disposition": "not_connected",
-          "reason": "인제군 제2조제2항과 별지1 전체는 읍면장이 가구수·승강장거리·버스운행·이동수단을 조사해 마을 자체를 운행대상으로 선정 신청하는 문서이다. icare 후보는 이미 선정된 대상마을 주민의 희망택시 이용을 안내하며 신청절차·지역법 근거가 없고 owner도 전국공통으로 표시돼 있다. 신규 대상마을 선정 서식을 그 이용사업의 기관용 신청으로 연결할 관계를 추가 확인해야 한다.",
-          "applyType": "unknown",
-          "applyMethod": null,
-          "target": "희망택시 대상마을 거주자"
+          "reason": "2026-10-23 원본12288바이트/SHA와 전체239자, 현행 규칙1633745 제2조제2항·제3조 및 새 상위조례2178167 제3조·제5조·부칙을 대조하고 독립 재검토했다. 별지1은 읍·면장이 마을 위치·가구·거리·버스 현황을 작성해 군수에게 제출하는 행정 마을선정용이다. 사이트의 정확한 희망택시 사업은 이미 지정된 마을 주민의 탑승 이용으로, 규칙은 주민의 위성콜 요청을, 새 조례는 지정마을 주민 이용과 운송사업자 비용청구를 구분한다. 주민이 직접 내는 택시 이용신청서나 운송업자 청구서로 붙이지 않는다. 검색 실패가 아니라 작성 주체와 행정 단계의 적극적 불일치로 비신청인으로 분류하며 해당 교통복지나 주민 이용권이 없다는 뜻은 아니다."
         }
       ],
       "relatedArticles": [
         "제2조(대상마을 선정기준)① 「인제군 농어촌버스 미운행지역 희망택시 운행 및 이용주민 지원에 관한 조례」(이하 \"조례\"라 한다) 제2조제2호의 희망택시 운행대상마을은 다음 각 호의 어느 하나에 해당하는 마을 중, 읍·면장의 추천을 받아 인제군수(이하 “군수”라 한다)가 정한다.1. 마을과 최단거리에 있는 버스승강장(버스 승하차 표지판 포함)에서 마을회관(마을회관이 없는 경우 마을정자, 경로당, 마을 중심건물)까지 도로(「도로법」 제10조의 도로 및 비법정도로, 농로 포함)기준으로 500미터 이상 떨어져 있으며 5가구 이상 거주하는 마을2. 농어촌버스 및 공영버스 노선폐지로 버스 운행이 중단된 마을② 제1항에 해당하는 경우 읍·면장은 별지 제1호서식 희망택시 운행   대상마을 신청서를 작성하여 군수에게 신청하고, 군수는 현지 확인을   거쳐 대상마을을 선정한다.③ 제1항에도 불구하고 군수가 그 밖에 도로여건, 대중교통과 연계성, 생활 편의시설 및 터미널 등 대중교통 시설 접근성 개선 등을 위해 희망택시가 필요하다고 인정하는 경우에는 희망택시 운행대상마을로 선정할 수 있다.",
         "제3조(이용방법) 희망택시를 이용하고자 하는 자는 인제브랜드택시(이하 “위성 콜”이라 한다)를 이용하여 희망택시 운송사업자에게 운행을 요청하여야 한다.(택시 정류장 등에 정차하고 있는 택시를 이용할 경우 위성콜을 사용하지 아니하여도 된다.) 이 경우 위성 콜을 접수한 운송사업자는 최대한 빠른 시간 안에 이용객에게 희망택시를 제공하여야 한다."
       ],
-      "reviewedBy": "codex-national_form_audit",
-      "reviewedAt": "2026-10-18",
+      "reviewedBy": "codex-coordinator-with-independent-review",
+      "reviewedAt": "2026-10-23",
       "sourceBodyPath": "logs/forms-completion/law-bodies/1633745.json.gz",
       "sourceBodySHA256": "f7c337a0aef9e83d7825f834e2a3796bfe90304fecc9607cc69bc95001d0c857",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2178167",
-            "status": "official_mcp_full_articles_read",
-            "newEvidence": "2026.10.12 새 상위조례 제2·3·5조의 주민 이용/운송사업자 비용청구 구별",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/inje-current-law-mcp.json",
-                "sha256": "5218adf3d17a3d171f0381792da0daea6118ebe9ccbc30e90db366cf51f6490a",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://inje.go.kr/mobile/notice/notify?articleSeq=244621",
-            "status": "official_indexed_notice_reviewed",
-            "newEvidence": "2026 정주형택시 운행사업자 모집은 사업자 참여절차이며 읍면장 신규대상마을 신청과 다름",
-            "savedEvidence": []
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResultSHA256": "f2d639115f7d99860d41af5c055e41fa3c01f79d3fe8dec132926685c6d945a0",
+        "proposedStatus": "non_applicant_administrative_village_selection",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g51810.icare-0083-1489635-1-3-6"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "공식MCP 재검색에서2026.10.12 시행의 새 상위조례2178167을 확보하고 전체9조를 읽었다. 현행은 지정마을 주민·외국인, 바우처카드 결제 및 운송사업자 비용청구를 규정하고 기존 시행규칙1633745도 검색된다. 그러나 읍면장 신규마을 지정 신청서를 통합돌봄 메뉴판의 선정마을 주민 이용사업 신청자료로 제공한다는 직접 안내는 없으며 새 상위조례 제5조의 별지1은 운송사업자 지원청구로 원본과 다른 문서이다. 입법예고/현행 제명변경은 확인했으나 기존 원본의 해당사업 접수용도는 미해소이다.",
+          "relatedProgramIds": [
+            "g51810.icare-0083-1489635-1-3-6"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51810.icare-0083-1489635-1-3-6",
+              "disposition": "not_connected",
+              "reason": "인제군 제2조제2항과 별지1 전체는 읍면장이 가구수·승강장거리·버스운행·이동수단을 조사해 마을 자체를 운행대상으로 선정 신청하는 문서이다. icare 후보는 이미 선정된 대상마을 주민의 희망택시 이용을 안내하며 신청절차·지역법 근거가 없고 owner도 전국공통으로 표시돼 있다. 신규 대상마을 선정 서식을 그 이용사업의 기관용 신청으로 연결할 관계를 추가 확인해야 한다.",
+              "applyType": "unknown",
+              "applyMethod": null,
+              "target": "희망택시 대상마을 거주자"
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2178167",
+                "status": "official_mcp_full_articles_read",
+                "newEvidence": "2026.10.12 새 상위조례 제2·3·5조의 주민 이용/운송사업자 비용청구 구별",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/inje-current-law-mcp.json",
+                    "sha256": "5218adf3d17a3d171f0381792da0daea6118ebe9ccbc30e90db366cf51f6490a",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://inje.go.kr/mobile/notice/notify?articleSeq=244621",
+                "status": "official_indexed_notice_reviewed",
+                "newEvidence": "2026 정주형택시 운행사업자 모집은 사업자 참여절차이며 읍면장 신규대상마을 신청과 다름",
+                "savedEvidence": []
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
       ]
     },
     {
@@ -1319,17 +1342,18 @@
         "sourceArticlesAvailable": true,
         "sourceArticleCount": 9
       },
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 정부24 원문(2026-09-02 수정)은 개인 신청절차와 신청 시기가 없고 법정 저소득 자격자에게 별도 신청 없이 지원한다고 명시한다. 공통 사회복지 신청서의 지역 급여 선택·변경 접수 용도를 보완하는 예외 절차나 현행 첨부는 찾지 못했다. 자동지원 안내를 근거로 이 종이서식을 현재 주신청서로 승격하지 않는다.",
+      "disposition": "approved",
+      "reason": "조례제6조본문의신청권과단서의무신청지원허용은동시에규정되어있다. 정확사이트사업이법정저소득층에게자동지원함을안내하는것은본문신청경로를폐지하거나금지했다는증거가아니다. 규칙3조가바로그조례6조신청에별지1을지정하므로확인된지방급여의개별신청/변경부분만conditional제공가능하다. 기타긴급지원의범위를같은사이트사업에추가하지않는다. 고정원본전체 BodyText/Section0 6135자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g44250.gov24-558000000116",
-          "disposition": "not_connected",
-          "reason": "계룡시 시행규칙 제3조는 급여 신청에 별지1을 사용하도록 하지만 현재 사업은 법정저소득 자격자에 대한 별도 신청 없는 자동지원을 명시한다. 원본3면 전체는 기초노령연금 등 과거 전국급여를 포함한 공통신청서이며 지역 월동·교육·건강증진 급여 항목을 특정하지 않는다. 현행 자동지원의 별도 신청이 필요한 예외 또는 변경절차에 실제 사용하는지 확인 전에는 승인하지 않는다. 원문이 없다는 판단은 아니다.",
-          "applyType": "auto",
-          "applyMethod": "○ 개인 신청절차 없음\n- 별도의 신청없이 법정저소득 자격이 책정된 자에게 지원",
-          "target": "○ 기초생활보장수급자, 차상위계층, 한부모"
+          "formId": "ordin-15092343",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "계룡시 저소득 주민 생활안정 지원 중 월동대책비·건강증진보조비·교육활동지원비에 관하여 조례 제6조 본문의 개별 급여 신청 경로를 이용하거나 해당 급여의 변경을 신청하는 경우에만 사용합니다. 신청구분·신청인·가구정보·해당 급여명을 적을 수 있는 기타란·급여계좌 부분의 용도입니다. 법정 저소득 자격자의 일반 지원은 별도 신청 없이 진행된다는 현재 안내를 유지하며, 모든 수급자에게 새 신청을 요구하지 않습니다. 포괄서식에 인쇄된 기초노령연금·국가급여·다른 바우처 및 별도 긴급지원이나 연장 절차로 확대하지 않습니다. 해당 급여의 작성 항목과 추가 증빙은 면·동 또는 시 접수 안내에 따르세요.",
+          "reason": "조례제6조본문의신청권과단서의무신청지원허용은동시에규정되어있다. 정확사이트사업이법정저소득층에게자동지원함을안내하는것은본문신청경로를폐지하거나금지했다는증거가아니다. 규칙3조가바로그조례6조신청에별지1을지정하므로확인된지방급여의개별신청/변경부분만conditional제공가능하다. 기타긴급지원의범위를같은사이트사업에추가하지않는다. 고정원본전체 BodyText/Section0 6135자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         }
       ],
       "relatedArticles": [
@@ -1337,34 +1361,77 @@
         "제5조(지원내용) 조례 제5조제7호의 기타 시장이 필요하다고 정하는 사항은 긴급생계비ㆍ의료비ㆍ주거비를 말한다. <개정 2013.6.3>, <개정, 2021.10.20>",
         "제6조(지급시기) 지원대상자에게 지급하는 지원금의 지급 시기는 다음 각 호와 같다.1. 월동대책비는 매년 10월에 지급한다.2. 교육활동지원비는 3월과 지급한다. <개정, 2021.10.20>3. 건강증진보조비는 매 분기별로 다음분기 첫 월에 지급한다.4. 삭제<2021.10.20>5. 삭제<2021.10.20>6. 삭제<2021.10.20>.4. 시장이 필요하다고 정한 급여 중 긴급생계비ㆍ의료비ㆍ주거비는 신청 30일 이내 지급한다.<개정, 2013.6.3> <개정, 2021.10.20>"
       ],
-      "reviewedBy": "codex-national_form_audit",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
       "reviewedAt": "2026-10-18",
       "sourceBodyPath": "logs/forms-completion/law-bodies/1634557.json.gz",
       "sourceBodySHA256": "4796b3388dd726e483d8f1e1101cf5016cf1f744a5423740a7c28f1b02c0d8ef",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/558000000116",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case00-gov24.json",
-                "sha256": "19d60cd0dc2936be4495cd237ae977a2848f7736b01aa7155fb8cd93a24ea2fb",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8205.json",
+        "sourceResultSHA256": "7efc2c2e3d6dd1925c531e4c815c29e4b031331e06842a145396923b3501c461",
+        "sourceProposalSHA256": "2383b6c9e221a6d1d7e71f750530f59a69f9fc46d4a3983264a85d15d4f7954f",
+        "coordinatorDecisionSHA256": "a2da956c9d4bc732984517d47d50072774aad05ed2bc3e4327de1f54637fc2ff",
+        "proposedStatus": "approved_exact_current_annex_conditional_path",
+        "allOriginalsMatched": false,
+        "actualGrokCrossreviewSHA256": "a97131fd8b4c1d451724604ad99a91b39d5616834a61f3d2d7d80242ba6458ce"
       },
       "relatedProgramIds": [
         "g44250.gov24-558000000116"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 정부24 원문(2026-09-02 수정)은 개인 신청절차와 신청 시기가 없고 법정 저소득 자격자에게 별도 신청 없이 지원한다고 명시한다. 공통 사회복지 신청서의 지역 급여 선택·변경 접수 용도를 보완하는 예외 절차나 현행 첨부는 찾지 못했다. 자동지원 안내를 근거로 이 종이서식을 현재 주신청서로 승격하지 않는다.",
+          "relatedProgramIds": [
+            "g44250.gov24-558000000116"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g44250.gov24-558000000116",
+              "disposition": "not_connected",
+              "reason": "계룡시 시행규칙 제3조는 급여 신청에 별지1을 사용하도록 하지만 현재 사업은 법정저소득 자격자에 대한 별도 신청 없는 자동지원을 명시한다. 원본3면 전체는 기초노령연금 등 과거 전국급여를 포함한 공통신청서이며 지역 월동·교육·건강증진 급여 항목을 특정하지 않는다. 현행 자동지원의 별도 신청이 필요한 예외 또는 변경절차에 실제 사용하는지 확인 전에는 승인하지 않는다. 원문이 없다는 판단은 아니다.",
+              "applyType": "auto",
+              "applyMethod": "○ 개인 신청절차 없음\n- 별도의 신청없이 법정저소득 자격이 책정된 자에게 지원",
+              "target": "○ 기초생활보장수급자, 차상위계층, 한부모"
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/558000000116",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case00-gov24.json",
+                    "sha256": "19d60cd0dc2936be4495cd237ae977a2848f7736b01aa7155fb8cd93a24ea2fb",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "approvedAssociations": [
+        {
+          "programId": "g44250.gov24-558000000116",
+          "formId": "ordin-15092343",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "1634557",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22618057",

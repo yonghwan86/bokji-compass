@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { DataSources } from "@/components/DataSources";
 import meta from "../../../public/bundles/v1/meta.json";
 import { TIER_PLAIN } from "@/lib/client/howto";
 import { LOW_INCOME_PCT } from "@/lib/client/v2";
@@ -31,8 +32,13 @@ export default function About() {
         데이터 생성: {new Date(meta.generatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" })} (KST)
       </p>
 
+      <DataSources />
+
       <section>
-        <h2 className="h2">담고 있는 서비스 {n(c.uniquePrograms)}개 (중복 병합 후)</h2>
+        <h2 className="h2">중복 통합 후 사업자료 {n(c.uniquePrograms)}건</h2>
+        <p className="small muted" style={{ marginTop: "0.5rem" }}>
+          지역마다 따로 올린 상세 자료는 {n(c.placements)}건입니다. 출처별 건수는 <a href="#sources">어디서 모았나</a>에서 그 상세 자료를 다시 세어 적습니다.
+        </p>
         <table className="median-table" style={{ marginTop: "0.75rem" }}>
           <caption className="sr-only">기관 유형별 서비스 수</caption>
           <thead>
@@ -75,16 +81,11 @@ export default function About() {
           </tbody>
         </table>
         <h3 className="h3" style={{ marginTop: "2rem" }}>출처</h3>
+        <p className="body">
+          정부24·복지로·통합돌봄 메뉴판·핵심 복지 100선·수동 보강의 건수, 수집일, 공식 페이지는 위 <a href="#sources">어디서 모았나</a>에 있습니다.
+          여기의 {n(c.uniquePrograms)}건과 출처를 더한 수를 전체 복지 수로 읽지 않습니다.
+        </p>
         <ul className="bullets">
-          <li>
-            정부24 공공서비스(혜택) 정보 (행정안전부, 공공데이터포털 15113968) —{" "}
-            {meta.gov24.status === "ok" ? `${n((meta.gov24 as { services?: number }).services ?? 0)}건 · ${meta.dataAsOf.gov24}` : "연동 준비 중"}
-          </li>
-          <li>
-            복지로 중앙부처·지자체 복지서비스 (한국사회보장정보원 OpenAPI 15090532·15108347) — 목록 {n(c.bokjiroApi.list.central)}+{n(c.bokjiroApi.list.local)}건 · {meta.dataAsOf.bokjiro}
-          </li>
-          <li>보건복지부 통합돌봄 지방정부 서비스 메뉴판 — {n(c.raw.icare)}건 · {meta.dataAsOf.icare}</li>
-          <li>복지로 기반 핵심 복지 100선 요약 — {n(c.raw.welfare100)}건</li>
           <li>
             시·군·구 경계(&lsquo;현재 위치로 내 지역 예시 보기&rsquo;에만 사용) — 통계청 SGIS 행정동 경계를 정리한{" "}
             <a href="https://github.com/vuski/admdongkor" target="_blank" rel="noopener noreferrer">
@@ -99,6 +100,7 @@ export default function About() {
         </p>
         <p className="small muted" style={{ marginTop: "0.5rem" }}>
           같은 사업이 여러 출처에 있으면 이름·기관 단계·지역을 대조해 하나로 합칩니다(교차 병합 {n(c.dedup.crossMerged.reduce((a, x) => a + x.count, 0))}건, 전국 사업의 지역 운영분 {n(c.dedup.absorbedAsLocalOps)}건).
+          이 병합 건수는 묶음을 만들 때 남긴 로그이고, ‘어디서 모았나’의 출처 연결과 같은 계산이 아닙니다.
           읍면동 단독 사업은 목록에서 제외하고, 읍면동은 신청처로만 안내합니다.
         </p>
       </section>

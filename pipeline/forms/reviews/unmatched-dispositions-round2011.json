@@ -851,18 +851,21 @@
       "candidateProgramIds": [
         "g51170.gov24-421000000638"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g51170.gov24-421000000638",
           "formId": "ordin-19859351",
-          "decision": "requires_external_confirmation",
-          "reason": "사이트는 카드형 가맹점 혜택을 안내하여 지류 환전청구 사용 범위를 확인할 근거가 부족함."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "동해시 지류형 상품권 가맹점으로 별도 등록한 가맹점주가 실제 상품·용역 대금으로 받은 지류형 동해사랑상품권을 취급 금융기관에 환전 청구할 때만 사용합니다. 상호·사업자등록번호·가맹점번호·권종별 매수/금액·등록계좌를 작성하여 지류권과 함께 제출합니다. 일반 소비자의 현금교환·개인 할인구매, 카드형 동해페이 충전·캐시백·카드매출 자동정산 신청에는 사용하지 않습니다. 카드형 동해페이 가맹점 등록만으로 지류형 환전을 할 수 있는 것은 아니며 별도 지류 가맹점 등록이 필요합니다. 아래 환전청구서 접수증은 접수 금융기관의 작성 부분입니다. 동해시 현재 지류 안내는 등록계좌로 익일 이체를 안내하고 규칙은 영업일 기준 3일 이내를 정하므로 실제 접수·이체일은 취급 금융기관 안내를 따릅니다.",
+          "reason": "종전에는 지류환전의 현재 실제 접수 안내가 없다는 이유로 보류했다. 이번 공식 홈페이지의 독립 지류형 상품권 메뉴(key1922)를 실제 GET하여 지류가맹점주→금융기관→환전청구서 작성→등록계좌 익일 이체 절차와15개 금융기관을 확인했다. 현행규칙1645749 제9조①은 이 청구에 별지11을 직접 지정하며 원본의 가맹점번호·상호·권종·매수·금액·계좌와 정확히 맞는다. 원본은 미리 채워진 신청인이나 고정 할인율/한도가 없는 빈 청구서이고 전체388자와 내장WMF1개의 빈 렌더를 확인했다. 정확 수록사업Gov638은 같은 동해사랑상품권 조례를 근거로 가맹점의 수수료 절감·홍보·매출증대도 안내한다. 해당 사업의 일반 소비자 카드발급 절차를 지류권으로 바꾸지 않고, 같은 상품권의 별도 지류가맹점 후속환전 경로에만 제한하는 연결을 제안한다. 이 프로그램의 지류 경로 포함 판단은 공식시청 추가근거에 기초한 검토 제안이며 총괄 독립검증 전 공개승인하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "verifiedDocumentTitle": "동해사랑상품권 환전 청구서",
-      "reason": "현재 정부24(2026.7.28 수정)는 그리고앱·충전 캐시백과 카드가맹점 수수료를 안내한다. 2025 공식 의회자료의 관광시설 지류발행 언급만으로 이 서비스의 카드 정산에 지류 환전 제11호가 쓰인다고 확정할 수 없다. 원본의 지류 환전 용도는 확인되며 해당 사업쌍 적용만 미확인이다.",
+      "reason": "종전에는 지류환전의 현재 실제 접수 안내가 없다는 이유로 보류했다. 이번 공식 홈페이지의 독립 지류형 상품권 메뉴(key1922)를 실제 GET하여 지류가맹점주→금융기관→환전청구서 작성→등록계좌 익일 이체 절차와15개 금융기관을 확인했다. 현행규칙1645749 제9조①은 이 청구에 별지11을 직접 지정하며 원본의 가맹점번호·상호·권종·매수·금액·계좌와 정확히 맞는다. 원본은 미리 채워진 신청인이나 고정 할인율/한도가 없는 빈 청구서이고 전체388자와 내장WMF1개의 빈 렌더를 확인했다. 정확 수록사업Gov638은 같은 동해사랑상품권 조례를 근거로 가맹점의 수수료 절감·홍보·매출증대도 안내한다. 해당 사업의 일반 소비자 카드발급 절차를 지류권으로 바꾸지 않고, 같은 상품권의 별도 지류가맹점 후속환전 경로에만 제한하는 연결을 제안한다. 이 프로그램의 지류 경로 포함 판단은 공식시청 추가근거에 기초한 검토 제안이며 총괄 독립검증 전 공개승인하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -880,34 +883,73 @@
       "excludedParts": [],
       "role": "application",
       "regionSearch": {},
-      "approvedAssociations": [],
-      "checkedAt": "2026-10-19",
+      "approvedAssociations": [
+        {
+          "programId": "g51170.gov24-421000000638",
+          "formId": "ordin-19859351",
+          "use": "conditional"
+        }
+      ],
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000638",
-            "httpStatus": 200,
-            "status": "GET_200_full_page_reviewed",
-            "responseSHA256": "2a15abd915c1df617fcb28e6e1165ceedfd0db6f0d73207f43bed3ba938adb43",
-            "newEvidence": "현재 정부24 서비스 전체 핵심내용·신청경로·신청서/서류·수정일 직접 확인",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/gov24-current-13.json",
-                "sha256": "6a9cacdad8145182352484fb54cc968dc304599542d7a42b6689c1cd68d72554",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8210.json",
+        "sourceResultSHA256": "3b762e7bde5f9a7d180612030dd16ea0e51521e2ea86b4a422d0e202c18a9cdd",
+        "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g51170.gov24-421000000638"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 정부24(2026.7.28 수정)는 그리고앱·충전 캐시백과 카드가맹점 수수료를 안내한다. 2025 공식 의회자료의 관광시설 지류발행 언급만으로 이 서비스의 카드 정산에 지류 환전 제11호가 쓰인다고 확정할 수 없다. 원본의 지류 환전 용도는 확인되며 해당 사업쌍 적용만 미확인이다.",
+          "relatedProgramIds": [
+            "g51170.gov24-421000000638"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g51170.gov24-421000000638",
+              "formId": "ordin-19859351",
+              "decision": "requires_external_confirmation",
+              "reason": "사이트는 카드형 가맹점 혜택을 안내하여 지류 환전청구 사용 범위를 확인할 근거가 부족함."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/421000000638",
+                "httpStatus": 200,
+                "status": "GET_200_full_page_reviewed",
+                "responseSHA256": "2a15abd915c1df617fcb28e6e1165ceedfd0db6f0d73207f43bed3ba938adb43",
+                "newEvidence": "현재 정부24 서비스 전체 핵심내용·신청경로·신청서/서류·수정일 직접 확인",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/gov24-current-13.json",
+                    "sha256": "6a9cacdad8145182352484fb54cc968dc304599542d7a42b6689c1cd68d72554",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "1645749",
+        "state": "source_current"
+      }
     },
     {
       "index": 12,

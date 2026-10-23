@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-52180-jeongeup-249275",
+      "sha256": "70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "2026-10-23 총괄이 정읍시 공식2026모집 공고를 새로 조회하고 정확한 fileSid249275·접수기간2025-12-17~12-30·지원기간2026-02~12·학원비분담65/25/10을 직접 확인했다. 원본77176바이트/SHA와전체3섹션3892자, 실제한글출력4쪽을전부대조하여 신청·동의란이비어있음을확인했다. 현재진행중인2026지원사업의이미종료된모집회차원본을제공하며,제목과다운로드앞조건에접수종료및신규/다음회차용아님을명시한다. 화면작성허용목록에넣지않고원문다운로드만제공한다. 옛법령첨부19617443의60/30비율이나그바이트를승인·교체·covered처리하지않는다.",
+      "evidenceUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+      "checkedAt": "2026-10-23",
+      "relatedProgramIds": [
+        "g52180.bokjiro-WLF00001439"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g52180.bokjiro-WLF00001439",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8017.json",
+      "sourceProposalSHA256": "0b658ab4c8163ecec73da2b8c7cd65c610cae66b8ab6e5c32ad77a8fc3b0be7b",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "8cfec456018a2e560952ef5abbfac1f9c2f11bc28ed17fd96c53198a4f1d4488",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 별별꿈 재능바우처 지원 사업 참여 대상자 모집 안내",
+        "evidenceUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "2026-10-23 총괄이 정읍시 공식2026모집 공고를 새로 조회하고 정확한 fileSid249275·접수기간2025-12-17~12-30·지원기간2026-02~12·학원비분담65/25/10을 직접 확인했다. 원본77176바이트/SHA와전체3섹션3892자, 실제한글출력4쪽을전부대조하여 신청·동의란이비어있음을확인했다. 현재진행중인2026지원사업의이미종료된모집회차원본을제공하며,제목과다운로드앞조건에접수종료및신규/다음회차용아님을명시한다. 화면작성허용목록에넣지않고원문다운로드만제공한다. 옛법령첨부19617443의60/30비율이나그바이트를승인·교체·covered처리하지않는다.",
+        "pageSHA256": "8cfec456018a2e560952ef5abbfac1f9c2f11bc28ed17fd96c53198a4f1d4488"
+      },
+      "selectedParts": [
+        {
+          "number": "붙임 1",
+          "title": "「별별꿈 재능바우처 지원 사업」신청서",
+          "use": "main",
+          "author": "해당2026회차 지원대상 아동·청소년의 신청인/보호자",
+          "scope": "앞면 신청인·세대주·지원대상자·자부담 선택·서명 및 뒷면 이용안내 전체"
+        },
+        {
+          "number": "붙임 2",
+          "title": "개인정보 수집 활용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "지원대상자와 부·모 등 원문상 동의자",
+          "scope": "수집·이용 및 제3자 제공에 대한 비선택 상태의 동의/비동의란과 서명란 전체"
+        },
+        {
+          "number": "붙임 3",
+          "title": "사업 신청시 안내사항",
+          "use": "additional",
+          "author": "정읍시 안내; 신청인이 값을 작성하는 별도 신청서는 아님",
+          "scope": "2026회차 지원원칙·중복지원·카드 이용·중단 안내"
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8017.json",
+  "scopeSHA256": "18fcb3741f2879a967ff0c026270f9fd5658821c88bf7f7ed28102b8097bed49"
+}

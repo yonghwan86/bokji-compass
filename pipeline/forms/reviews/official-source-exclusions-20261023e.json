@@ -1,0 +1,368 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "baselineCommit": "b18b65fd3f07d5b5f4307e323cd4dc347dc717ff",
+  "scope": "Four exact original identities and their current programme pairs; no new positive association or global SHA block. Underlying missing correct applications remain separately unresolved.",
+  "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+  "independentGrokReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+  "items": [
+    {
+      "formId": "ordin-20113043",
+      "sha256": "1e45a2022a94a7ee868dc67dc4925074f90c78c22ec7b110963bd1989c5ac50c",
+      "disposition": "no_matching_site_program",
+      "checkedAt": "2026-10-23",
+      "reason": "실제원본은신고일·신고기관·피신고인·위반행위·포상금계좌를기재하는별지2이다. 긴급생계·화재보험·전기교체·명절위문어느절차와도목적과사실관계가다르다. 현재별도포상금규칙1578617제7조①의정확별지2(20113099)를새로받아전체272자동일함을확인했다. 2016생활안정규칙1149호부칙2가청소년포상금규칙별지2를함께개정한경위가양쪽규칙에명시되어,본문의실제포상금용도를직접뒷받침한다. 타법개정첨부의존재를저소득지원신청서로오인한후보연결을제외할수있다. 현재 공개 합천54개 고유사업·별칭3·출처58 전체에서 정확 청소년 위반신고 포상금 사업은 확인되지 않았다. 생활안정 규칙의2016부칙 타법개정 첨부를 긴급지원 신청서로 오인하지 않는다. 이 현재 로컬 범위 밖의 사업 부재를 주장하지 않는다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
+      "fullBodyReviewed": true,
+      "relatedProgramIds": [
+        "g48890.bokjiro-WLF00000614",
+        "g48890.bokjiro-WLF00002897",
+        "g48890.gov24-548000000102",
+        "g48890.gov24-548000000104",
+        "g48890.gov24-548000000105",
+        "g48890.gov24-548000000107"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g48890.bokjiro-WLF00000614",
+          "formId": "ordin-20113043",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
+        },
+        {
+          "programId": "g48890.bokjiro-WLF00002897",
+          "formId": "ordin-20113043",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
+        },
+        {
+          "programId": "g48890.gov24-548000000102",
+          "formId": "ordin-20113043",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
+        },
+        {
+          "programId": "g48890.gov24-548000000104",
+          "formId": "ordin-20113043",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
+        },
+        {
+          "programId": "g48890.gov24-548000000105",
+          "formId": "ordin-20113043",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
+        },
+        {
+          "programId": "g48890.gov24-548000000107",
+          "formId": "ordin-20113043",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "위반신고포상금과해당저소득생활/보험/교체/위문급여의목적불일치"
+        }
+      ],
+      "sourceLawId": "1220731",
+      "actualPurpose": "청소년보호법 위반신고자 포상금 신청",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152490437&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EC%86%8C%EB%85%84%EB%B3%B4%ED%98%B8%EB%B2%95+%EC%9C%84%EB%B0%98%EC%8B%A0%EA%B3%A0%EC%9E%90+%ED%8F%AC%EC%83%81%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1220731",
+      "correctCounterpart": {
+        "formId": "ordin-20113099",
+        "lawId": "1578617",
+        "lawTitle": "합천군 청소년 유해환경 신고포상금 지급 규칙",
+        "annexId": "20113099",
+        "annexNumber": "000300",
+        "verifiedAnnexNumber": "2",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152490533&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EC%86%8C%EB%85%84%EB%B3%B4%ED%98%B8%EB%B2%95+%EC%9C%84%EB%B0%98%EC%8B%A0%EA%B3%A0%EC%9E%90+%ED%8F%AC%EC%83%81%EA%B8%88+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "sha256": "94b32b1e7b0b9070148d3a90737cedf4cb2a685f950aa31b53503ac77c9a4e93",
+        "bytes": 23552,
+        "format": "hwp",
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textScope": "all_body_sections_or_pages",
+        "fullBodyReviewed": true,
+        "resources": [],
+        "sameTextAsOriginal20113043": true,
+        "sameSHAAsOriginal20113043": false,
+        "originalPath": "logs/forms-followup-20261023e/team3/new-counterpart/ordin-20113099.hwp",
+        "officialLawHTMLPath": "logs/forms-followup-20261023e/team3/laws/1578617.html",
+        "currentAnnexIdFoundInOfficialHTML": true,
+        "role": "application",
+        "applicant": "청소년유해환경 위반 신고자로서 현행규칙6조의 포상금 지급대상자",
+        "purpose": "위반행위로확인된신고의포상금신청",
+        "lawArticles": [
+          "제6조",
+          "제7조제1항",
+          "2016년 규칙1149호 부칙 제2조"
+        ],
+        "programmeAssociations": [],
+        "publicationApproved": false,
+        "reason": "현재검토한사이트사업6개와목적이다르며새사업을만들어연결하지않는다."
+      },
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "sourceReadProof": {
+        "formId": "ordin-20113043",
+        "sourceSHA256": "1e45a2022a94a7ee868dc67dc4925074f90c78c22ec7b110963bd1989c5ac50c",
+        "bytes": 13824,
+        "fullBodyReextracted": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 272,
+        "sourceUnchanged": true
+      },
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true
+    },
+    {
+      "formId": "ordin-22429465",
+      "sha256": "8e1bf9df8dfe1bbc6e7f66a7b1466cafd2b44174fdce0976281cc41d7aeb302f",
+      "disposition": "excluded",
+      "checkedAt": "2026-10-23",
+      "reason": "실제본문은부모·신생아·출생순위·출생신고일·출산장려금근거및지급계좌이고백내장진단·수술·의료비항목이없다. 정상출산법2164361/22429439/flSeq168367907의원본과46225B 및SHA8e1bf9...가완전히동일하며해당출산사업에이미공개되어있다. 의료비법2164367제2·3·5조는백내장65세이상·수술신청으로다르므로잘못결속된22429465/flSeq168367933을의료비2사업에서제외하는직접근거가충분하다. 제외는 의료비법2164367/fl168367933에 잘못 결속된 이원본identity와 정확의료비2쌍에 한정한다. 동일SHA 정상출산22429439의 기존공개를 유지하며 SHA전역차단을하지않는다. 올바른백내장별지1은 여전히 별도확보가필요하다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
+      "fullBodyReviewed": true,
+      "relatedProgramIds": [
+        "g44250.bokjiro-WLF00006176",
+        "g44250.icare-0087-1489655-1-2-5"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g44250.bokjiro-WLF00006176",
+          "formId": "ordin-22429465",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "출산장려금빈서식은백내장의료비신청이아니다."
+        },
+        {
+          "programId": "g44250.icare-0087-1489655-1-2-5",
+          "formId": "ordin-22429465",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "출산장려금빈서식은백내장의료비신청이아니다."
+        }
+      ],
+      "sourceLawId": "2164367",
+      "actualPurpose": "계룡 출산장려금 신청",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168367933&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%88%98%EC%88%A0%EB%B9%84+%EB%93%B1+%EC%9D%98%EB%A3%8C%EB%B9%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2164367",
+      "correctCounterpart": {
+        "formId": "ordin-22429439",
+        "programId": "g44250.gov24-558000000112",
+        "lawId": "2164361",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168367907&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%B6%9C%EC%82%B0%EC%9E%A5%EB%A0%A4%EA%B8%88+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "sha256": "8e1bf9df8dfe1bbc6e7f66a7b1466cafd2b44174fdce0976281cc41d7aeb302f",
+        "bytes": 46225,
+        "publicFilePath": "public/forms/files/ordin-22429439-8e1bf9df8dfe.hwpx",
+        "publicFileSHA256Verified": true,
+        "publicCataloguePath": "public/forms/v1/catalog.json",
+        "publicProgrammePath": "public/forms/v1/programs/g44250.json",
+        "publicProgrammeSHA256": "f195bf64bd515dd92c18f1eb77c3cc49bca6a4ee372f5c2c2bb692f1ff14be76",
+        "existingLink": {
+          "formId": "ordin-22429439",
+          "use": "main",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2164361",
+          "evidenceNote": "계룡 출생아 순위·출생신고일·양육자·지급계좌를 작성하는 별지1로 조례 제5조③ 및 출산장려금 사업과 일치한다. 잘못된 의료비 법규의 동형 첨부는 별도 승인하지 않는다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+          "checkedAt": "2026-10-19"
+        }
+      },
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "sourceReadProof": {
+        "formId": "ordin-22429465",
+        "sourceSHA256": "8e1bf9df8dfe1bbc6e7f66a7b1466cafd2b44174fdce0976281cc41d7aeb302f",
+        "bytes": 46225,
+        "fullBodyReextracted": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 598,
+        "sourceUnchanged": true
+      },
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true
+    },
+    {
+      "formId": "ordin-22562413",
+      "sha256": "f0855cd3633e79746071926d95564335a0069a244cd9741306765deb90c369e1",
+      "disposition": "requires_external_confirmation",
+      "checkedAt": "2026-10-23",
+      "reason": "제목과규칙3조⑤의별지10은검진후3개월내신혼검진지원신청이지만실제본문은임신부주수·초음파1~3회·쿠폰·임산부수첩/임신확인이다. 현정부24exact106은그쿠폰사업을명시하고군모자보건안내는지원신청서작성(별지1)→쿠폰발급→검사→병원청구를명시한다. 따라서현재파일이쿠폰용본문임은확정되지만별지10오제목파일을현재별지1대신접수한다는근거는없다. 무관한8개사업쌍은명확한목적차이로제외하고쿠폰1개쌍만미해소로유지한다. 정확 초음파497000000106 한쌍은 현행별지1 대신 이오제목별지10을쓰는접수근거가미해소여서추가확인을유지한다. 나머지무관8쌍만제외하며 다른정상급여서식을변경하지않는다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
+      "fullBodyReviewed": true,
+      "relatedProgramIds": [
+        "g12830.bokjiro-WLF00002427",
+        "g12830.bokjiro-WLF00006042",
+        "g12830.gov24-497000000105",
+        "g12830.gov24-497000000116",
+        "g12830.gov24-497000000106",
+        "g12830.gov24-497000000118",
+        "g12830.bokjiro-WLF00002312",
+        "g12830.gov24-497000000102",
+        "g12830.gov24-497000000111"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g12830.bokjiro-WLF00002427",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.bokjiro-WLF00006042",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.gov24-497000000105",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.gov24-497000000116",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.gov24-497000000106",
+          "formId": "ordin-22562413",
+          "decision": "requires_external_confirmation",
+          "disposition": "requires_external_confirmation",
+          "reason": "쿠폰목적일치하나정확현재서식번호/배포결속미해소"
+        },
+        {
+          "programId": "g12830.gov24-497000000118",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.bokjiro-WLF00002312",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.gov24-497000000102",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        },
+        {
+          "programId": "g12830.gov24-497000000111",
+          "formId": "ordin-22562413",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "교통카드·산후조리·난임·출산용품·건강관리바우처·결혼장려금은이초음파쿠폰서식의급여가아님"
+        }
+      ],
+      "sourceLawId": "2160643",
+      "actualPurpose": "본문은임신부초음파3회쿠폰신청,인쇄제목은신혼예비부부건강검진",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168989541&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%8B%A0%ED%98%BC%28%EC%98%88%EB%B9%84%29%EB%B6%80%EB%B6%80+%EA%B1%B4%EA%B0%95%EA%B2%80%EC%A7%84+%EC%A7%80%EC%9B%90+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160643",
+      "correctCounterpart": null,
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "sourceReadProof": {
+        "formId": "ordin-22562413",
+        "sourceSHA256": "f0855cd3633e79746071926d95564335a0069a244cd9741306765deb90c369e1",
+        "bytes": 50176,
+        "fullBodyReextracted": true,
+        "sectionsRead": [
+          "BodyText/Section0"
+        ],
+        "textLength": 473,
+        "sourceUnchanged": true
+      },
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true
+    },
+    {
+      "formId": "ordin-22583083",
+      "sha256": "232590f1ebaedfbf2cdc6a78d03a57724a1aead4058f1319633e5e4d0c14d742",
+      "disposition": "excluded",
+      "checkedAt": "2026-10-23",
+      "reason": "실제전체본문은참전유공자·참전대상자·참전법제6조를명시한다. 일반국가보훈법2165359제8조④는참전명예수당수급자를제외하고제9조②가일반사망별지2를요구하므로이본문을일반보훈사망용으로확대할수없다. 올바른참전법2165413/22484275가같은전체665자본문을가지며정확복합WLF00004138의참전사망부분에이미조건부공개되어있다. 명절위문Gov108은사망급여조차아니다. 따라서잘못된일반보훈출처22583083을별도공개하지않고정확한참전출처기존연결을유지하는판정이적합하다. 일반보훈 출처의 이identity를 승인하지않고 정상참전22484275의 참전사망부분 기존공개를유지한다. 본문같음은 바이너리/SHA동일이라는뜻이아니다. 일반보훈사망의올바른별지는별도미해소다. 2026-10-23 총괄이 실제고정SHA와전체본문을재추출하고 현행공식조문을새로대조했으며, 실제Herdr Grok의반대검토와정상비교원본공개SHA/관계를확인했다. 이검토는현재4원본과명시한사업쌍범위이다.",
+      "fullBodyReviewed": true,
+      "relatedProgramIds": [
+        "g51820.gov24-434000000108",
+        "g51820.bokjiro-WLF00004138"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "g51820.gov24-434000000108",
+          "formId": "ordin-22583083",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "명절위문품과사망위로금목적불일치"
+        },
+        {
+          "programId": "g51820.bokjiro-WLF00004138",
+          "formId": "ordin-22583083",
+          "decision": "excluded",
+          "disposition": "excluded",
+          "reason": "참전사망부분은정상22484275로이미공개;일반보훈사망부분에는22583083의참전전용본문불가"
+        }
+      ],
+      "sourceLawId": "2165359",
+      "actualPurpose": "강원고성 참전유공자 사망위로금",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=169190135&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%8C%80%EC%83%81%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165359",
+      "correctCounterpart": {
+        "formId": "ordin-22484275",
+        "programId": "g51820.bokjiro-WLF00004138",
+        "lawId": "2165413",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168698639&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B0%B8%EC%A0%84%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%82%AC%EB%A7%9D%EC%9C%84%EB%A1%9C%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+        "sha256": "246c9952832946ff8e2149a3cdb4feab0c035422e23437084bffcc26476bc46b",
+        "bytes": 40765,
+        "publicFilePath": "public/forms/files/ordin-22484275-246c99528329.hwpx",
+        "publicFileSHA256Verified": true,
+        "publicCataloguePath": "public/forms/v1/catalog.json",
+        "publicProgrammePath": "public/forms/v1/programs/g51820.json",
+        "publicProgrammeSHA256": "11f499520074bd59d65e313ed340ea2a1605b3f3b90beda71dc10ee57b5bede5",
+        "existingLink": {
+          "formId": "ordin-22484275",
+          "use": "conditional",
+          "condition": "참전유공자 사망위로금에 한하여 사용합니다. 일반 국가보훈대상자 사망위로금용으로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2165413",
+          "evidenceNote": "참전유공자 사망정보·유족관계·계좌를 기재하는 별지2이며 정확 출처인 참전 조례 제6조가 지정한다. 일반 국가보훈 조례에 잘못 붙은 별도22583083 원본과 구분하여 이 정확 출처를 승인한다. 실제 원본 전체 본문, 출처 법규ID에 연결된 별지, 원본 SHA256 및 flSeq를 대조했다.",
+          "checkedAt": "2026-10-19"
+        }
+      },
+      "sourceResultSHA256": "3bdfc7762307e767c6e5c40717b711d47cfa5f1b0cd4b7ca217fafa9c2646c72",
+      "independentReviewSHA256": "540b25f3b986ed6a1d65323e0c0fd56d0d4f398edb67e4058f369a156e9ad8b1",
+      "sourceReadProof": {
+        "formId": "ordin-22583083",
+        "sourceSHA256": "232590f1ebaedfbf2cdc6a78d03a57724a1aead4058f1319633e5e4d0c14d742",
+        "bytes": 40767,
+        "fullBodyReextracted": true,
+        "sectionsRead": [
+          "Contents/section0.xml"
+        ],
+        "textLength": 665,
+        "sourceUnchanged": true
+      },
+      "originalBytesPreserved": true,
+      "noGlobalSHAExclusion": true,
+      "underlyingServiceCorrectApplicationStillNeeded": true
+    }
+  ],
+  "fullScopeMatchingComplete": false,
+  "publicationExecuted": false
+}

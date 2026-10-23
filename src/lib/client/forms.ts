@@ -1,6 +1,6 @@
 import type { ApplicationForm, FormsCatalog, FormsCoverage, FormsRegionBundle, ProgramFormEntry } from "../data/forms";
 import { detailBucket } from "../data/bucket";
-import { formAssetUrl, externalFormUrl, validateAgencyForm, agencyProgramLinkMatches } from "../data/formPublication";
+import { formAssetUrl, externalFormUrl, validateAgencyForm, agencyProgramLinkMatches, statutoryApplicationMatches } from "../data/formPublication";
 
 const pending = new Map<string, Promise<unknown | null>>();
 const BASE = "/forms/v1";
@@ -102,6 +102,9 @@ export async function loadProgramForms(id: string): Promise<LoadedProgramForms |
   // Missing/corrupt assets must not produce an apparently complete download panel.
   if (linkedIds.length !== forms.length) return invalid();
   if (forms.some(form => form.sourceKind === "agency" && !entry.links.some(link => agencyProgramLinkMatches(id,form,link)))) return invalid();
+  // 법정 체인 경로는 내려받은 원본이 등록된 사업·서식·바이트와 그대로 같을 때만 보여 준다.
+  if (entry.links.some(link => link.scopeReference?.kind === "statutory-chain"
+      && !statutoryApplicationMatches(id, catalog.forms[link.formId], link))) return invalid();
   const linked = new Set(linkedIds);
   // 후보는 시민이 직접 작성하는 서식만 — 지급대장 같은 기관 서류는 후보로도 보여 주지 않는다.
   const candidateForms = candidateIds.filter(formId => !linked.has(formId)).map(formId => catalog.forms[formId])

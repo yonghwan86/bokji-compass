@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "verificationMethod": "Fixed original SHA, current official merchant paper-exchange guidance and current exact ordinance annex independently reviewed; native one-page blank original reviewed.",
+  "rows": [
+    {
+      "formId": "ordin-22498207",
+      "programIds": [
+        "g51130.gov24-419000000129"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2165511",
+      "lawTitle": "원주사랑상품권 발행 및 운영 조례 시행규칙",
+      "annexId": "22498207",
+      "annexNumber": "10",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168772559&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9B%90%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "formTitle": "[별지 제10호서식] 원주사랑상품권 환전 청구서",
+      "sourceMetadataTitle": "[별지 제10호서식] 원주사랑상품권 환전 청구서",
+      "dateKind": "effective",
+      "effectiveDate": "2026-08-28",
+      "lawEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165511",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "regionCode": "51130",
+      "regionLabel": "강원특별자치도 원주시",
+      "role": "application",
+      "use": "conditional",
+      "condition": "원주시 등록가맹점이 실제 물품 판매나 용역 제공으로 받은 지류 원주사랑상품권을 지정 판매대행점(은행)에서 환전할 때 쓰는 청구서입니다. 가맹점 번호·권종별 수량과 금액·대표자·입금계좌를 적고 원본의 서명란을 준비합니다. 카드·모바일 QR 결제 자동정산이나 소비자 잔액환불, 상품권 할인구매 신청에는 쓰지 않습니다. 지류 발행은 축소 중이므로 현재 취급 권종과 방문은행은 원주시 공식 가맹점 안내 및 담당부서에서 확인합니다. 하단 접수증의 접수일·담당자란은 접수기관 작성 부분입니다.",
+      "evidenceUrl": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=10",
+      "evidenceNote": "2026-10-23 새 GET한 원주시 전용 공식 소개는 카드·모바일·지류를 함께 명시하고 지류발행 축소와2천원권을 안내한다. 공식 가맹점 준수사항은 지정은행 방문→환전신청서 작성→가맹점 지정여부 및 상품권금액 확인→입금 순서를 직접 안내하고 실제 매출없는 수취·과다거래 환전을 금지한다. 같은 날 현행규칙2165511(2026-08-28시행) 본문 제8조는 등록가맹점의 별지10 환전청구서와 접수후3일 환전을 명시하고 별지목록의22498207을 확인했다. 고정원본과 새 다운로드의36352바이트/SHA914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9가 같고 전체401자를 읽었다. 한글에서1쪽을 렌더링하여 빈 가맹점 신청서·하단 접수증,2천원권 포함권종,은행수신/계좌/서명과 원본불변을 확인했다. 현재 정확 정부24 원주사랑상품권 사업은 소비자와 가맹점 혜택을 함께 안내한다. 기존 카드앱 안내만으로는 부족했던 지류 가맹점 환전 사용근거를 공식 별도 안내와 현행 별지 지정으로 보완한다. 개인 현금할인구매 별지12의 현재판매 여부는 이 승인에 포함하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS&chrClsCd=010202",
+      "roleBasis": "2026-10-23 새 GET한 원주시 전용 공식 소개는 카드·모바일·지류를 함께 명시하고 지류발행 축소와2천원권을 안내한다. 공식 가맹점 준수사항은 지정은행 방문→환전신청서 작성→가맹점 지정여부 및 상품권금액 확인→입금 순서를 직접 안내하고 실제 매출없는 수취·과다거래 환전을 금지한다. 같은 날 현행규칙2165511(2026-08-28시행) 본문 제8조는 등록가맹점의 별지10 환전청구서와 접수후3일 환전을 명시하고 별지목록의22498207을 확인했다. 고정원본과 새 다운로드의36352바이트/SHA914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9가 같고 전체401자를 읽었다. 한글에서1쪽을 렌더링하여 빈 가맹점 신청서·하단 접수증,2천원권 포함권종,은행수신/계좌/서명과 원본불변을 확인했다. 현재 정확 정부24 원주사랑상품권 사업은 소비자와 가맹점 혜택을 함께 안내한다. 기존 카드앱 안내만으로는 부족했던 지류 가맹점 환전 사용근거를 공식 별도 안내와 현행 별지 지정으로 보완한다. 개인 현금할인구매 별지12의 현재판매 여부는 이 승인에 포함하지 않는다.",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sha256": "914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9",
+      "bytes": 36352,
+      "originalFormat": "hwp",
+      "originalPath": "logs/forms-followup-20261023b/root/evidence/ordin-22498207.body",
+      "sectionsRead": [
+        "BodyText/Section0"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "reviewedParts": [
+        {
+          "number": "별지 제10호서식",
+          "title": "원주사랑상품권 환전 청구서",
+          "use": "conditional",
+          "author": "원주시 등록가맹점 대표자",
+          "scope": "실제매출 수취 지류권의 지정은행 환전 청구 및 접수증 전체"
+        }
+      ],
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_and_independent_exact_current_paper_exchange_verified",
+      "currentDistributionProof": {
+        "sourcePageUrl": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=10",
+        "sourcePageSha256": "8e9b24455dbd86bb94d92c455c3e44d188de84dbf64c1bc84421a9a58f8575ec",
+        "sourcePageHttpStatus": 200,
+        "officialCurrentNotice": true,
+        "currentOperationEvidenceKind": "live_official_dedicated_site_merchant_paper_exchange_procedure_and_current_rule",
+        "introductionUrl": "https://www.wonju.go.kr/wonjusarang/user_sub.php?gid=www&mu_idx=6",
+        "introductionSHA256": "ac6ee050209dc1512dab0f128c05db0b4cd25b408a78ea3923141e5d9f2d37d5",
+        "lawBodyUrl": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2165511&gubun=ELIS&chrClsCd=010202",
+        "lawBodySHA256": "ed101232d2b274085ee317e52c7320dfee437b017c5a3a9c8a4ce3422d13d2f2",
+        "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168772559&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C10%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9B%90%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%99%98%EC%A0%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+        "sha256": "914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9",
+        "bytes": 36352,
+        "sameAsOriginal": true,
+        "coordinatorNativeReview": {
+          "label": "wonju-exchange",
+          "sourceSHA256": "914df6e674262f770d618cad658293179b27a6963bd230737a75a6d37094d3c9",
+          "sourceBytes": 36352,
+          "hancomPages": 1,
+          "pdfSHA256": "f33b39365b660bffe4ed089f3a36718cb917f96e7a8f09c3c9396161d9b9adb3",
+          "sourceUnchanged": true,
+          "allPagesViewed": true,
+          "blankApplicantForm": true,
+          "noFilledPersonalDataObserved": true,
+          "checkedAt": "2026-10-23"
+        }
+      },
+      "programmeProof": {
+        "exactGovernment24": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/419000000129",
+        "scope": "원주사랑상품권의 등록가맹점 실제판매 지류환전 절차만; 일반소비자/앱충전/QR자동정산으로 확대금지"
+      },
+      "coordinatorApproved": true,
+      "sourceProposalSHA256": "b7bc72086cc70c0853575cd23ef4e24d1f648bef0d5e8ea88727891611f6c519",
+      "independentReviewSHA256": "ba1d6001eaf6bc0f6acb86f1b5c23eae0351707eb2a5ab3af47b000356a17be6"
+    }
+  ]
+}

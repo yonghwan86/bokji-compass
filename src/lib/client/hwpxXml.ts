@@ -8,6 +8,8 @@
 
 /** `<hp:t>` 안쪽 글자 한 토막 (XML 원본에서의 위치와, 실체 참조를 푼 글자). */
 export interface TextSegment {
+  /** 실제 글자 토막이 속한 런의 글자 모양. 혼합 글꼴의 입력 폭 검증에 쓴다. */
+  charPrIDRef: number;
   /** `<hp:t>` 여는 태그 바로 뒤 */
   start: number;
   /** `</hp:t>` 여는 꺾쇠 자리 */
@@ -23,7 +25,16 @@ export interface ParagraphIndex {
   text: string;
   /** 글자가 하나도 없는 문단에 글자를 넣을 자리 */
   emptyRun: { contentStart: number; selfClosingAt: number | null } | null;
+  /** 이 문단의 문단 모양 — header.xml의 paraPr id. 칸 너비를 잴 때 쓴다. */
+  paraPrIDRef: number;
+  /** 첫 런의 글자 모양 — header.xml의 charPr id. */
+  charPrIDRef: number;
+  /** 줄바꿈·탭·그림·필드 등 단순 한 줄 글자 폭으로 검증할 수 없는 내용. */
+  hasNonTextContent: boolean;
 }
+
+/** HWPUNIT 네 변 여백 */
+export interface BoxMargin { left: number; right: number; top: number; bottom: number }
 
 export interface CellIndex {
   row: number;
@@ -31,15 +42,36 @@ export interface CellIndex {
   rowSpan: number;
   colSpan: number;
   paragraphs: ParagraphIndex[];
+  /** `<hp:cellSz>` — 없으면 null */
+  size: { width: number; height: number } | null;
+  /** `<hp:cellMargin>` — 없으면 표의 `<hp:inMargin>`을 쓴다 */
+  margin: BoxMargin | null;
+  /** hasMargin이 참일 때만 셀 전용 여백을 쓰고, 아니면 표의 기본 여백을 쓴다. */
+  hasOwnMargin: boolean;
 }
+
+/**
+ * 그 표가 원문에서 어디에 놓여 있는지.
+ * HWPX의 표는 언제나 어떤 문단 안에 들어 있다 — 섹션 본문 문단이거나, 다른 표의 칸 안 문단이다.
+ * 원문 배치를 그대로 보여 주려면 어느 문단 뒤에 오는지를 알아야 한다.
+ */
+export type TableHost =
+  | { kind: "body"; p: number }
+  | { kind: "cell"; table: number; row: number; col: number; p: number };
 
 export interface TableIndex {
   /** `<hp:tr>` 차례대로, 그 줄에 적힌 칸들 */
   rows: CellIndex[][];
+  /** `<hp:inMargin>` — 칸에 여백이 적혀 있지 않을 때의 기본값 */
+  inMargin: BoxMargin | null;
+  /** 이 표를 담고 있는 문단. 글상자처럼 담은 문단을 찾지 못하면 null */
+  host: TableHost | null;
 }
 
 export interface SectionIndex {
   tables: TableIndex[];
+  /** 표 밖 본문 문단 (`<hs:sec>`의 바로 아래 `<hp:p>`) — 원문 순서대로 */
+  body: ParagraphIndex[];
   /** 전체 `<hp:p>` 수 (문단 수가 그대로인지 확인할 때 쓴다) */
   paragraphCount: number;
   /** 전체 `<hp:tbl>` 수 */
@@ -93,19 +125,47 @@ function attributes(tag: string): Record<string, string> {
   return out;
 }
 
+const margin = (tag: string): BoxMargin => {
+  const attrs = attributes(tag);
+  return { left: Number(attrs.left) || 0, right: Number(attrs.right) || 0, top: Number(attrs.top) || 0, bottom: Number(attrs.bottom) || 0 };
+};
+
 /**
  * section0.xml을 한 번 훑어 표·칸·문단·글자 토막의 위치를 모은다.
  * 표 안의 표가 있어도 안쪽 칸의 문단이 바깥 칸에 섞이지 않도록 부모 관계로 가른다.
  */
 export function indexSection(xml: string): SectionIndex {
   const tables: TableIndex[] = [];
+  const body: ParagraphIndex[] = [];
   const stack: StackEntry[] = [];
+  const deferredCellHosts: { host: Extract<TableHost, { kind: "cell" }>; cell: CellIndex }[] = [];
   let paragraphCount = 0;
   let cursor = 0;
 
   const parentOf = (name: string): StackEntry | undefined => {
     const top = stack[stack.length - 1];
     return top && top.name === name ? top : undefined;
+  };
+
+  /** 지금 열려 있는 가장 가까운 문단이 어디에 있는지 — 표를 그 문단 뒤에 놓으려고 쓴다. */
+  const hostOfOpenParagraph = (): TableHost | null => {
+    for (let level = stack.length - 1; level >= 0; level -= 1) {
+      if (stack[level].name !== "hp:p") continue;
+      const cellEntry = stack[level - 2];
+      if (cellEntry?.name === "hp:tc" && stack[level - 1]?.name === "hp:subList") {
+        const cell = cellEntry.node as CellIndex | undefined;
+        const table = stack.slice(0, level - 2).reverse().find(entry => entry.name === "hp:tbl")?.node as TableIndex | undefined;
+        if (!cell || !table) return null;
+        const host: Extract<TableHost, { kind: "cell" }> = { kind: "cell", table: tables.indexOf(table), row: cell.row, col: cell.col, p: cell.paragraphs.length - 1 };
+        // cellAddr can follow subList; a nested table is read before the
+        // containing cell's actual address is known.
+        deferredCellHosts.push({ host, cell });
+        return host;
+      }
+      if (stack[level - 1]?.name === "hs:sec") return { kind: "body", p: body.length - 1 };
+      return null;
+    }
+    return null;
   };
 
   while (cursor < xml.length) {
@@ -136,9 +196,18 @@ export function indexSection(xml: string): SectionIndex {
     const name = tag.slice(1, nameEnd < 0 ? tag.length - 1 : nameEnd);
     let node: unknown;
 
+    if (/^hp:(?:tbl|pic|rect|ellipse|arc|polygon|curve|line|connectLine|ole|equation|container|video|chart|textart|ctrl|fieldBegin|fieldEnd|tab|lineBreak|compose|dutmal)$/.test(name)) {
+      const paragraph = [...stack].reverse().find(entry => entry.name === "hp:p")?.node as ParagraphIndex | undefined;
+      if (paragraph) paragraph.hasNonTextContent = true;
+    }
+
     if (name === "hp:tbl") {
-      node = { rows: [] } as TableIndex;
+      const host = hostOfOpenParagraph();
+      node = { rows: [], inMargin: null, host } as TableIndex;
       tables.push(node as TableIndex);
+    } else if (name === "hp:inMargin") {
+      const table = parentOf("hp:tbl")?.node as TableIndex | undefined;
+      if (table) table.inMargin = margin(tag);
     } else if (name === "hp:tr") {
       const table = parentOf("hp:tbl")?.node as TableIndex | undefined;
       if (table) {
@@ -148,19 +217,24 @@ export function indexSection(xml: string): SectionIndex {
     } else if (name === "hp:tc") {
       const row = parentOf("hp:tr")?.node as CellIndex[] | undefined;
       if (row) {
-        node = { row: -1, col: -1, rowSpan: 1, colSpan: 1, paragraphs: [] } as CellIndex;
+        node = { row: -1, col: -1, rowSpan: 1, colSpan: 1, paragraphs: [], size: null, margin: null,
+          hasOwnMargin: /^(?:1|true)$/i.test(attributes(tag).hasMargin ?? "0") } as CellIndex;
         row.push(node as CellIndex);
       }
-    } else if (name === "hp:cellAddr" || name === "hp:cellSpan") {
+    } else if (name === "hp:cellAddr" || name === "hp:cellSpan" || name === "hp:cellSz" || name === "hp:cellMargin") {
       const cell = parentOf("hp:tc")?.node as CellIndex | undefined;
       if (cell) {
         const attrs = attributes(tag);
         if (name === "hp:cellAddr") {
           cell.row = Number(attrs.rowAddr);
           cell.col = Number(attrs.colAddr);
-        } else {
+        } else if (name === "hp:cellSpan") {
           cell.rowSpan = Number(attrs.rowSpan) || 1;
           cell.colSpan = Number(attrs.colSpan) || 1;
+        } else if (name === "hp:cellSz") {
+          cell.size = { width: Number(attrs.width) || 0, height: Number(attrs.height) || 0 };
+        } else {
+          if (cell.hasOwnMargin) cell.margin = margin(tag);
         }
       }
     } else if (name === "hp:p") {
@@ -169,22 +243,27 @@ export function indexSection(xml: string): SectionIndex {
       const cell = subList && stack[stack.length - 2]?.name === "hp:tc"
         ? (stack[stack.length - 2].node as CellIndex | undefined)
         : undefined;
-      if (cell) {
-        node = { segments: [], text: "", emptyRun: null } as ParagraphIndex;
-        cell.paragraphs.push(node as ParagraphIndex);
+      // 표 안의 칸, 아니면 섹션 바로 아래의 본문 문단. 글상자 같은 다른 자리는 담지 않는다.
+      const target = cell ? cell.paragraphs : parentOf("hs:sec") ? body : null;
+      if (target) {
+        node = { segments: [], text: "", emptyRun: null, paraPrIDRef: Number(attributes(tag).paraPrIDRef) || 0, charPrIDRef: 0, hasNonTextContent: false } as ParagraphIndex;
+        target.push(node as ParagraphIndex);
       }
     } else if (name === "hp:run") {
       const paragraph = parentOf("hp:p")?.node as ParagraphIndex | undefined;
+      node = { charPrIDRef: Number(attributes(tag).charPrIDRef) || 0 };
       if (paragraph && !paragraph.emptyRun) {
         paragraph.emptyRun = { contentStart: close + 1, selfClosingAt: selfClosing ? close - 1 : null };
+        paragraph.charPrIDRef = Number(attributes(tag).charPrIDRef) || 0;
       }
     } else if (name === "hp:t") {
       const paragraph = stack[stack.length - 2]?.name === "hp:p" && parentOf("hp:run")
         ? (stack[stack.length - 2].node as ParagraphIndex | undefined)
         : undefined;
       if (paragraph) {
+        const charPrIDRef = (parentOf("hp:run")?.node as { charPrIDRef?: number } | undefined)?.charPrIDRef ?? paragraph.charPrIDRef;
         if (selfClosing) {
-          paragraph.segments.push({ start: close, end: close, text: "", selfClosingAt: close - 1 });
+          paragraph.segments.push({ start: close, end: close, text: "", selfClosingAt: close - 1, charPrIDRef });
         } else {
           const end = xml.indexOf("</hp:t>", close);
           if (end < 0) throw new HwpxMismatchError("본문 XML을 읽지 못했습니다.");
@@ -196,7 +275,7 @@ export function indexSection(xml: string): SectionIndex {
             const mark = xml.indexOf("<", pos);
             const stop = mark < 0 || mark > end ? end : mark;
             if (stop > pos) {
-              paragraph.segments.push({ start: pos, end: stop, text: decodeXmlText(xml.slice(pos, stop)), selfClosingAt: null });
+              paragraph.segments.push({ start: pos, end: stop, text: decodeXmlText(xml.slice(pos, stop)), selfClosingAt: null, charPrIDRef });
               found = true;
             }
             if (stop >= end) break;
@@ -204,7 +283,7 @@ export function indexSection(xml: string): SectionIndex {
             if (inner < 0 || inner > end) throw new HwpxMismatchError("본문 XML을 읽지 못했습니다.");
             pos = inner + 1;
           }
-          if (!found) paragraph.segments.push({ start: close + 1, end: close + 1, text: "", selfClosingAt: null });
+          if (!found) paragraph.segments.push({ start: close + 1, end: close + 1, text: "", selfClosingAt: null, charPrIDRef });
         }
       }
     }
@@ -212,6 +291,7 @@ export function indexSection(xml: string): SectionIndex {
     if (!selfClosing) stack.push({ name, contentStart: close + 1, node });
   }
 
+  for (const { host, cell } of deferredCellHosts) { host.row = cell.row; host.col = cell.col; }
   for (const table of tables) {
     for (const row of table.rows) {
       for (const cell of row) {
@@ -219,7 +299,8 @@ export function indexSection(xml: string): SectionIndex {
       }
     }
   }
-  return { tables, paragraphCount, tableCount: tables.length };
+  for (const paragraph of body) paragraph.text = paragraph.segments.map(s => s.text).join("");
+  return { tables, body, paragraphCount, tableCount: tables.length };
 }
 
 export function findCell(index: SectionIndex, table: number, row: number, col: number): CellIndex {
@@ -248,6 +329,22 @@ export interface ParagraphOp {
   from: number;
   to: number;
   value: string;
+}
+
+/** 경계에서 시작하는 입력은 오른쪽 런에 넣는다. 문단 끝에만 마지막 런을 쓴다. */
+function insertionSegment(paragraph: ParagraphIndex, position: number, to = position): number {
+  let offset = 0;
+  for (let index = 0; index < paragraph.segments.length; index += 1) {
+    const end = offset + paragraph.segments[index].text.length;
+    if ((to === position && position === offset && end === offset) || (position >= offset && position < end)) return index;
+    offset = end;
+  }
+  return position === offset ? paragraph.segments.length - 1 : -1;
+}
+
+export function paragraphInsertionStyle(paragraph: ParagraphIndex, position: number, to = position): number {
+  const index = insertionSegment(paragraph, position, to);
+  return index < 0 ? paragraph.charPrIDRef : paragraph.segments[index].charPrIDRef;
 }
 
 /**
@@ -281,11 +378,13 @@ export function replaceParagraphRanges(paragraph: ParagraphIndex, ops: Paragraph
   const edits: SourceEdit[] = [];
   const placed = new Set<ParagraphOp>();
   let offset = 0;
-  for (const segment of paragraph.segments) {
+  for (const [segmentIndex, segment] of paragraph.segments.entries()) {
     const segFrom = offset;
     const segTo = offset + segment.text.length;
     offset = segTo;
-    const touching = sorted.filter(op => op.to >= segFrom && op.from <= segTo);
+    const touching = sorted.filter(op => op.from === op.to
+      ? insertionSegment(paragraph, op.from) === segmentIndex
+      : op.from < segTo && op.to > segFrom);
     if (!touching.length) continue;
     let cursor = segFrom;
     let content = "";

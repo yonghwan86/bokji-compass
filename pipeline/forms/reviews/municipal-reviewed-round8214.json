@@ -1,0 +1,411 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "sourceProposals": [
+    {
+      "path": "logs/hwpx-rematch-20261023/team2/phase2/priority-provider-proposed-reviewed-v1.json",
+      "sha256": "c9ec20f744d48a964a0decda05256cf0b91686c5b1e4af5dc3df633f8b30ed70"
+    }
+  ],
+  "scopeNote": "Exact follow-up costs/property reporting only. No citizen main-application reclassification or global role relaxation.",
+  "rows": [
+    {
+      "formId": "ordin-13620757",
+      "programIds": [
+        "g11680.gov24-322000000108"
+      ],
+      "programNames": [
+        "남성 난임 지원"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "1729361",
+      "lawTitle": "서울특별시 강남구 난임극복을 위한 지원 조례 시행규칙",
+      "annexId": "13620757",
+      "annexNumber": "000800",
+      "officialFlSeq": "119724631",
+      "flSeq": "119724631",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=119724631&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%82%9C%EC%9E%84%EC%B9%98%EB%A3%8C+%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85+%EC%B9%98%EB%A3%8C%EB%B9%84+%EC%B2%AD%EA%B5%AC%EC%84%9C%28%EA%B0%9C%EC%A0%95+2022.9.23.%29",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1729361",
+      "regionCode": "11680",
+      "regionLabel": "서울특별시 강남구",
+      "dateKind": "effective",
+      "effectiveDate": "2022-09-23",
+      "sourceMetadataEffectiveDate": "20220923",
+      "formTitle": "[별지 제7호서식] 난임치료 지원사업 치료비 청구서(개정 2022.9.23.)",
+      "sourceMetadataTitle": "[별지 제7호서식] 난임치료 지원사업 치료비 청구서(개정 2022.9.23.)",
+      "verifiedDocumentTitle": "난임치료 지원사업 치료비 청구서",
+      "printedAnnexNumber": "7",
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "강남구 남성 난임 지원사업에서 지원결정을 받은 대상자에게 사업 범위의 검진·상담을 시행한 지정 난임치료 수행기관(비뇨의학과 병·의원)이 진료 종료 후 비용을 청구할 때 쓰는 기관작성 부속서류입니다. 기관계좌·대표자 서명·치료자 명단을 작성하고 지원결정통지서, 진료영수증·진료상세내역, 사업자등록증·통장사본 등 법정 증빙을 준비합니다. 남성 주민의 최초 보건소 신청서나 모든 의료기관의 일반 진료비 청구서가 아닙니다. 같은 파일의 한방치료용 선택적 첨부 안내를 근거로 이 사업 연결을 한방난임·국가 난임시술비 또는 여성 난임치료에 확대하지 않습니다. 지원결정된 남성 난임 검진·상담의 인정 비용만 청구합니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1729361",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000108",
+      "evidenceNote": "정부24 exact322000000108을2026-10-23 GET200/서비스ID일치로 읽어 강남거주 이상소견 남성의 난임검진·상담 비용과 같은조례 인용을 확인했다. 현행 상위조례1886217 제5조2항1호·제6조·제8조·제9조 및 시행규칙1729361 제4~6조를 읽었다. 규칙 별표1은 이 남성사업의 정액검사·고환검진·음낭초음파 등 검진과 지정 비뇨의학과 수행기관을 직접 특정한다. 원본7호 전체 앞뒤596자는 기관명/사업자/기관계좌/기관장서명과 치료자명단으로서 바로 그 수행기관의 진료종료후 청구다. 기관이라는 이유나 주민신청 안내만을 이유로 배제하던 이전판정을, 이 법정 제공기관 단계에만 한정해 정정한다. 원본의 한방조건부 첨부항목은 보존하되 이번 남성사업의 적용범위를 넓히지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleBasis": "정부24 exact322000000108을2026-10-23 GET200/서비스ID일치로 읽어 강남거주 이상소견 남성의 난임검진·상담 비용과 같은조례 인용을 확인했다. 현행 상위조례1886217 제5조2항1호·제6조·제8조·제9조 및 시행규칙1729361 제4~6조를 읽었다. 규칙 별표1은 이 남성사업의 정액검사·고환검진·음낭초음파 등 검진과 지정 비뇨의학과 수행기관을 직접 특정한다. 원본7호 전체 앞뒤596자는 기관명/사업자/기관계좌/기관장서명과 치료자명단으로서 바로 그 수행기관의 진료종료후 청구다. 기관이라는 이유나 주민신청 안내만을 이유로 배제하던 이전판정을, 이 법정 제공기관 단계에만 한정해 정정한다. 원본의 한방조건부 첨부항목은 보존하되 이번 남성사업의 적용범위를 넓히지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1729361",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "sha256": "db70d822483995fc3c673a333579dab9514764a86cbc939cae5410e6ffc89bc0",
+      "bytes": 89002,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence-priority/ordin-13620757.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 596,
+      "textSha256": "42f3f6269a361db2b74ffb822b684f8ac4940482ee4629b6e01e4b0cfa56b5a8",
+      "reviewedParts": [
+        {
+          "number": "7",
+          "title": "난임치료 지원사업 치료비 청구서",
+          "use": "conditional",
+          "author": "강남구가 지정한 남성 난임치료 수행기관인 비뇨의학과 병·의원장",
+          "scope": "기관/업소의 실제 제공비용청구와 그에 부속된 명단·정보동의 등 원문전체. 주민 최초신청 범위로 승격하지 않음.",
+          "condition": "강남구 남성 난임 지원사업에서 지원결정을 받은 대상자에게 사업 범위의 검진·상담을 시행한 지정 난임치료 수행기관(비뇨의학과 병·의원)이 진료 종료 후 비용을 청구할 때 쓰는 기관작성 부속서류입니다. 기관계좌·대표자 서명·치료자 명단을 작성하고 지원결정통지서, 진료영수증·진료상세내역, 사업자등록증·통장사본 등 법정 증빙을 준비합니다. 남성 주민의 최초 보건소 신청서나 모든 의료기관의 일반 진료비 청구서가 아닙니다. 같은 파일의 한방치료용 선택적 첨부 안내를 근거로 이 사업 연결을 한방난임·국가 난임시술비 또는 여성 난임치료에 확대하지 않습니다. 지원결정된 남성 난임 검진·상담의 인정 비용만 청구합니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "7",
+          "title": "난임치료 지원사업 치료비 청구서",
+          "use": "conditional",
+          "author": "강남구가 지정한 남성 난임치료 수행기관인 비뇨의학과 병·의원장",
+          "scope": "기관/업소의 실제 제공비용청구와 그에 부속된 명단·정보동의 등 원문전체. 주민 최초신청 범위로 승격하지 않음.",
+          "condition": "강남구 남성 난임 지원사업에서 지원결정을 받은 대상자에게 사업 범위의 검진·상담을 시행한 지정 난임치료 수행기관(비뇨의학과 병·의원)이 진료 종료 후 비용을 청구할 때 쓰는 기관작성 부속서류입니다. 기관계좌·대표자 서명·치료자 명단을 작성하고 지원결정통지서, 진료영수증·진료상세내역, 사업자등록증·통장사본 등 법정 증빙을 준비합니다. 남성 주민의 최초 보건소 신청서나 모든 의료기관의 일반 진료비 청구서가 아닙니다. 같은 파일의 한방치료용 선택적 첨부 안내를 근거로 이 사업 연결을 한방난임·국가 난임시술비 또는 여성 난임치료에 확대하지 않습니다. 지원결정된 남성 난임 검진·상담의 인정 비용만 청구합니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "embeddedResources": [],
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "importReady": true,
+      "reviewedBy": "Codex /root/municipal_form_audit",
+      "screenWritingApproved": false,
+      "priorDisposition": "non_applicant",
+      "priorReason": "규칙 제6조는 난임치료 수행기관이 치료 종료 후 비용을 청구하도록 정한다. 실제 원본은 의료기관 사업자번호·기관 계좌·기관장 서명 및 여러 치료자의 명단이며 신청인인 남성 환자의 지원 신청서가 아니다. 현 사업의 환자 보건소 신청 절차와 구분하여 연결하지 않는다.",
+      "criterionChange": "카탈로그가 주민 최초신청만 설명한다는 이유로 법정 제공기관의 같은급여 비용청구까지 배제하던 기준을 수정. 별도업체급여/등록이나 주민main으로 재분류하지 않음.",
+      "bodyEvidencePath": "logs/hwpx-rematch-20261023/team2/packets/ordin-13620757.json",
+      "bodyEvidenceSHA256": "14e581117ee01fd08202365aabfad1d7c2c698037819f9146d1a4189f4b76cb1",
+      "lawBodyEvidencePath": "logs/hwpx-rematch-20261023/team2/laws/1729361.json",
+      "lawBodyEvidenceSHA256": "5f92e10e7660a804ebdd83948757c45d1c9c549f995f6a1188ce763c1b80d736",
+      "lawCurrentIdentityEvidencePath": "logs/hwpx-rematch-20261023/team2/phase2/current-law-identities-v1.json",
+      "relevantArticlesRead": [
+        "시행규칙제4조",
+        "시행규칙제5조",
+        "시행규칙제6조",
+        "상위조례1886217제5조제2항제1호·제6조·제8조·제9조",
+        "별표1 남성난임지원"
+      ],
+      "programmeEvidencePath": "logs/hwpx-rematch-20261023/team2/phase2/gangnam-current-programme.json",
+      "programmeEvidenceSHA256": "6e45c9b061cd313ce053d79f77edbd92a818b6b08d157fd73901e2538c6b3ee5",
+      "programmeResponseSHA256": "44aea7c946231e7bde43a7e5ba608464559cdff48285d0b6fe815693e8200e00",
+      "extraEvidencePaths": [
+        "logs/hwpx-rematch-20261023/team2/phase2/gangnam-parent-current-articles.json",
+        "logs/hwpx-rematch-20261023/team2/phase2/gangnam-treatment-cost-schedule.json"
+      ],
+      "coordinatorExactRoleReviewRequired": {
+        "sourceOriginalIdentityUnchanged": true,
+        "proposedRole": "supporting",
+        "use": "conditional",
+        "reason": "법정 서비스제공기관 실제비용청구. 주민 최초신청을 안내하는 main으로 사용하지 않음."
+      },
+      "displayTitle": "지정 의료기관 작성용 · 남성 난임 검진·상담 비용 청구서",
+      "coordinatorApproved": true,
+      "independentBodyReview": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "1729361",
+        "currentLawId": "1729361",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2022-09-23",
+        "bodyCachePath": "logs/forms-completion/law-bodies/1729361.json.gz",
+        "bodyCacheSHA256": "945faf0254c1d6bdae134bcd87181f21072aeea787c57110d8343ddb35e806d1",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team2/phase2/current-law-identities-v1.json",
+        "currentSearchSHA256": "90ba8291a71a2c7c611e32b8cab38cdb3a85a1592afcef9ab197f9889204e5e7",
+        "officialAnnexId": "13620757",
+        "officialFlSeq": "119724631"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-13620757",
+        "sourceSHA256": "db70d822483995fc3c673a333579dab9514764a86cbc939cae5410e6ffc89bc0",
+        "sourceBytes": 89002,
+        "hancomPages": 2,
+        "pdfSHA256": "6c63eb1060343a969edfb666a0c264874a19f16168a911e2f0ee90153aaf6f01",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "ordin-21494683",
+      "programIds": [
+        "g44200.gov24-452000000340"
+      ],
+      "programNames": [
+        "저소득층 아동 치과 치료비 지원"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "2018635",
+      "lawTitle": "아산시 저소득층 아동 치과 치료비 지원에 관한 조례",
+      "annexId": "21494683",
+      "annexNumber": "000100",
+      "officialFlSeq": "161351525",
+      "flSeq": "161351525",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=161351525&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2018635",
+      "regionCode": "44200",
+      "regionLabel": "충청남도 아산시",
+      "dateKind": "effective",
+      "effectiveDate": "2025-03-05",
+      "sourceMetadataEffectiveDate": "20250305",
+      "formTitle": "[별지 제1호서식] 청구서",
+      "sourceMetadataTitle": "[별지 제1호서식] 청구서",
+      "verifiedDocumentTitle": "저소득층 아동 치과 치료비 지원 비용 청구서",
+      "printedAnnexNumber": "1",
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "아산시 저소득층 아동 치과 치료비 지원사업에 참여한 치과 병·의원이 보호자 동의 등 사업 절차를 거쳐 지원대상으로 결정된 아동에게 실제 치료를 제공한 후, 지원결정 범위의 치료비를 청구할 때 쓰는 의료기관 작성 부속서류입니다. 조례 제7조의 관내 치과 병·의원을 원칙으로 하며 장애아동의 관외 치과 병·의원 예외를 포함합니다. 기관정보·진료내역·기관계좌와 의원장 서명을 작성하고 원문이 요구하는 진료기록 사본과 방사선사진을 첨부합니다. 미용·교정 목적이나 지원대상이 아닌 아동의 비용으로 확대하지 않습니다. 아동·보호자의 최초 보건소 전화신청이나 개인에게 직접 환급받는 청구서가 아닙니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2018635",
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/452000000340",
+      "evidenceNote": "정부24 exact452000000340을2026-10-23 GET200/서비스ID일치로 읽어 관내 저소득2~18세 아동의 미용·교정 제외 치료비와 장애아동 전신마취비,1인최대100만원 의료기관지급을 확인했다. 현행2018635 제5조는 보호자동의 지원대상, 제6조는 치료범위, 제7조는 관내 참여치과 및 장애아동 관외예외, 제8조는 참여의료기관의 정확별지1 비용청구를 직접 규정한다. 원본전체715자는 기관계좌·진료받은아동·치료내역·청구액·치과의원장서명과 진료기록/방사선사진이다. 같은 혜택의 법정 사후의료기관청구로 supporting/conditional을 제안하며, 주민최초신청이라는 이전분류로 승격하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleBasis": "정부24 exact452000000340을2026-10-23 GET200/서비스ID일치로 읽어 관내 저소득2~18세 아동의 미용·교정 제외 치료비와 장애아동 전신마취비,1인최대100만원 의료기관지급을 확인했다. 현행2018635 제5조는 보호자동의 지원대상, 제6조는 치료범위, 제7조는 관내 참여치과 및 장애아동 관외예외, 제8조는 참여의료기관의 정확별지1 비용청구를 직접 규정한다. 원본전체715자는 기관계좌·진료받은아동·치료내역·청구액·치과의원장서명과 진료기록/방사선사진이다. 같은 혜택의 법정 사후의료기관청구로 supporting/conditional을 제안하며, 주민최초신청이라는 이전분류로 승격하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2018635",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "sha256": "f7b6b6e2bbcdeb0d116fec1894c50c26f6a74fc4f24ec45bb0ac4c72c1e87b43",
+      "bytes": 54694,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence-priority/ordin-21494683.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 715,
+      "textSha256": "1af882fce8b124c8efbd60533aafd1cdfb37eb3a4afde7d9e428f2c4b4b8aca0",
+      "reviewedParts": [
+        {
+          "number": "1",
+          "title": "저소득층 아동 치과 치료비 지원 비용 청구서",
+          "use": "conditional",
+          "author": "아산시 해당 사업에 참여한 치과 병·의원장",
+          "scope": "기관/업소의 실제 제공비용청구와 그에 부속된 명단·정보동의 등 원문전체. 주민 최초신청 범위로 승격하지 않음.",
+          "condition": "아산시 저소득층 아동 치과 치료비 지원사업에 참여한 치과 병·의원이 보호자 동의 등 사업 절차를 거쳐 지원대상으로 결정된 아동에게 실제 치료를 제공한 후, 지원결정 범위의 치료비를 청구할 때 쓰는 의료기관 작성 부속서류입니다. 조례 제7조의 관내 치과 병·의원을 원칙으로 하며 장애아동의 관외 치과 병·의원 예외를 포함합니다. 기관정보·진료내역·기관계좌와 의원장 서명을 작성하고 원문이 요구하는 진료기록 사본과 방사선사진을 첨부합니다. 미용·교정 목적이나 지원대상이 아닌 아동의 비용으로 확대하지 않습니다. 아동·보호자의 최초 보건소 전화신청이나 개인에게 직접 환급받는 청구서가 아닙니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "1",
+          "title": "저소득층 아동 치과 치료비 지원 비용 청구서",
+          "use": "conditional",
+          "author": "아산시 해당 사업에 참여한 치과 병·의원장",
+          "scope": "기관/업소의 실제 제공비용청구와 그에 부속된 명단·정보동의 등 원문전체. 주민 최초신청 범위로 승격하지 않음.",
+          "condition": "아산시 저소득층 아동 치과 치료비 지원사업에 참여한 치과 병·의원이 보호자 동의 등 사업 절차를 거쳐 지원대상으로 결정된 아동에게 실제 치료를 제공한 후, 지원결정 범위의 치료비를 청구할 때 쓰는 의료기관 작성 부속서류입니다. 조례 제7조의 관내 치과 병·의원을 원칙으로 하며 장애아동의 관외 치과 병·의원 예외를 포함합니다. 기관정보·진료내역·기관계좌와 의원장 서명을 작성하고 원문이 요구하는 진료기록 사본과 방사선사진을 첨부합니다. 미용·교정 목적이나 지원대상이 아닌 아동의 비용으로 확대하지 않습니다. 아동·보호자의 최초 보건소 전화신청이나 개인에게 직접 환급받는 청구서가 아닙니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "embeddedResources": [],
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "importReady": true,
+      "reviewedBy": "Codex /root/municipal_form_audit",
+      "screenWritingApproved": false,
+      "priorDisposition": "non_applicant",
+      "priorReason": "아산시 제8조는 참여 의료기관이 비용을 청구하도록 명시하며 실제 원문은 기관 사업자번호·병원 계좌·여러 환자 진료내역·치과의원장 서명을 받는다. 사이트는 아동의 보건소 전화신청을 안내하고 의료기관 지급만 언급한다. 돈을 병원에 지급한다는 사실만으로 병원 비용청구 단계가 시민 신청 양식이라고 확정하지 않는다.",
+      "criterionChange": "카탈로그가 주민 최초신청만 설명한다는 이유로 법정 제공기관의 같은급여 비용청구까지 배제하던 기준을 수정. 별도업체급여/등록이나 주민main으로 재분류하지 않음.",
+      "bodyEvidencePath": "logs/hwpx-rematch-20261023/team2/packets/ordin-21494683.json",
+      "bodyEvidenceSHA256": "89df351c6e9cddebdbc7cdfa6587c4587fe4ecc837ce8da8a26a4176351e6ba2",
+      "lawBodyEvidencePath": "logs/hwpx-rematch-20261023/team2/laws/2018635.json",
+      "lawBodyEvidenceSHA256": "a9b7286410a775904eecd4f7575d399667517733863920e95540b4937ee53134",
+      "lawCurrentIdentityEvidencePath": "logs/hwpx-rematch-20261023/team2/phase2/current-law-identities-v1.json",
+      "relevantArticlesRead": [
+        "제2조",
+        "제5조",
+        "제6조",
+        "제7조",
+        "제8조",
+        "제9조"
+      ],
+      "programmeEvidencePath": "logs/hwpx-rematch-20261023/team2/phase2/asan-current-programme.json",
+      "programmeEvidenceSHA256": "cc5cc45cb496e1327fe9f7d763e49e377134cc093c99e97869102cd979673e5f",
+      "programmeResponseSHA256": "5ff1a23e25026dfd1c54f19d29002d2f0b8cd38632625f7e0547a2bb74b22a65",
+      "extraEvidencePaths": [],
+      "coordinatorExactRoleReviewRequired": {
+        "sourceOriginalIdentityUnchanged": true,
+        "proposedRole": "supporting",
+        "use": "conditional",
+        "reason": "법정 서비스제공기관 실제비용청구. 주민 최초신청을 안내하는 main으로 사용하지 않음."
+      },
+      "displayTitle": "참여 치과 작성용 · 저소득층 아동 치료비 청구서",
+      "coordinatorApproved": true,
+      "independentBodyReview": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "2018635",
+        "currentLawId": "2018635",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2025-03-05",
+        "bodyCachePath": "logs/forms-completion/law-bodies/2018635.json.gz",
+        "bodyCacheSHA256": "3f690c87096b885c1f98f24699e2d2fb6a2647249ff3de624b6acbb55ea6a240",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team2/phase2/current-law-identities-v1.json",
+        "currentSearchSHA256": "90ba8291a71a2c7c611e32b8cab38cdb3a85a1592afcef9ab197f9889204e5e7",
+        "officialAnnexId": "21494683",
+        "officialFlSeq": "161351525"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-21494683",
+        "sourceSHA256": "f7b6b6e2bbcdeb0d116fec1894c50c26f6a74fc4f24ec45bb0ac4c72c1e87b43",
+        "sourceBytes": 54694,
+        "hancomPages": 1,
+        "pdfSHA256": "e86da17e982844f9fa3ce7888d8d1f92dd0e7bbdca8489f11416c707f2f42ed0",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "ordin-20017903",
+      "programIds": [
+        "g47750.bokjiro-WLF00003661"
+      ],
+      "programNames": [
+        "어르신 목욕비 지원"
+      ],
+      "sourceKind": "ordin",
+      "lawId": "1832389",
+      "lawTitle": "청송군 노인목욕비 지원 조례",
+      "annexId": "20017903",
+      "annexNumber": "000500",
+      "officialFlSeq": "152260709",
+      "flSeq": "152260709",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=152260709&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C5%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%85%B8%EC%9D%B8+%EB%AA%A9%EC%9A%95%EB%B9%84+%EC%B2%AD%EA%B5%AC%EC%84%9C",
+      "lawUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1832389",
+      "regionCode": "47750",
+      "regionLabel": "경상북도 청송군",
+      "dateKind": "effective",
+      "effectiveDate": "2023-07-06",
+      "sourceMetadataEffectiveDate": "20230706",
+      "formTitle": "[별지 제5호서식] 노인 목욕비 청구서",
+      "sourceMetadataTitle": "[별지 제5호서식] 노인 목욕비 청구서",
+      "verifiedDocumentTitle": "노인 목욕비 청구서",
+      "printedAnnexNumber": "5",
+      "role": "supporting",
+      "use": "conditional",
+      "condition": "청송군과 목욕권 사용 협약을 체결한 관내 목욕장 운영자가 지원대상 어르신에게 실제 목욕서비스를 제공하고 받은 목욕권의 비용을 정산할 때 쓰는 업소작성 부속서류입니다. 업소대표가 사용기간·매수·단가·청구금액·업소계좌를 작성하고 사용한 목욕권, 통장사본 및 원문의 사업자등록·영업허가 증빙을 준비합니다. 조례 제3조에 따라 어르신 본인부담금 1,000원을 제외한 지원대상 비용만 청구합니다. 어르신 본인의 목욕권 최초신청은 별지2로 구분하며, 방문목욕·이동목욕 서비스나 신규 가맹협약 신청에 사용하는 서식이 아닙니다.",
+      "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1832389",
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003661&wlfareInfoReldBztpCd=02",
+      "evidenceNote": "복지로 exactWLF00003661의현재공개본문을2026-10-23 GET200/동일프로그램ID로읽었다. 청송거주70세이상에게 목욕권을 반기별로 주고 목욕업소 이용시1000원 본인부담을 초과하는 비용을 지원하는 서비스다. 현행1832389 제5조는 관내협약목욕장 사용을, 제6조2항은 운영자가 별지5 비용청구와 사용목욕권·통장사본을 제출할 것을 직접 정한다. 실제원본전체372자는 업체대표·사용매수/기간·단가·청구액·업소계좌이며 같은쿠폰 제공비의 정산이다. 주민최초발급과 다른 작성주체이지만 같은혜택의 법정비용청구라 조건부부속으로 제안한다. 별개icare방문목욕에는 연결하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleBasis": "복지로 exactWLF00003661의현재공개본문을2026-10-23 GET200/동일프로그램ID로읽었다. 청송거주70세이상에게 목욕권을 반기별로 주고 목욕업소 이용시1000원 본인부담을 초과하는 비용을 지원하는 서비스다. 현행1832389 제5조는 관내협약목욕장 사용을, 제6조2항은 운영자가 별지5 비용청구와 사용목욕권·통장사본을 제출할 것을 직접 정한다. 실제원본전체372자는 업체대표·사용매수/기간·단가·청구액·업소계좌이며 같은쿠폰 제공비의 정산이다. 주민최초발급과 다른 작성주체이지만 같은혜택의 법정비용청구라 조건부부속으로 제안한다. 별개icare방문목욕에는 연결하지 않는다. 총괄은 정확 원본 SHA와 전체 XML 본문·새 한글 출력 전체 쪽를 읽고 현행법의 실제 별표키/flSeq 및 해당 사업의 지급·보고 단계를 대조했다. 주민 최초신청으로 분류하지 않고 표시한 제공기관 또는 선정 보조사업자의 조건부 후속 제출에만 한정한다. 원본은 수정하지 않으며 자동작성 범위는 승인하지 않는다.",
+      "roleEvidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1832389",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "fullBodyReviewed": true,
+      "sha256": "5882b9f13617e5e84d676f30ada6973568f13c940c1b20058dc1361c3221c5bd",
+      "bytes": 37740,
+      "originalFormat": "hwpx",
+      "originalPath": "logs/hwpx-rematch-20261023/root/evidence-priority/ordin-20017903.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 372,
+      "textSha256": "ffcda06e17d1f07470e0c6f785204f61588120e5906adc3203fc0201bc46d4db",
+      "reviewedParts": [
+        {
+          "number": "5",
+          "title": "노인 목욕비 청구서",
+          "use": "conditional",
+          "author": "청송군과 목욕권 사용 협약을 체결한 관내 목욕장 운영자",
+          "scope": "기관/업소의 실제 제공비용청구와 그에 부속된 명단·정보동의 등 원문전체. 주민 최초신청 범위로 승격하지 않음.",
+          "condition": "청송군과 목욕권 사용 협약을 체결한 관내 목욕장 운영자가 지원대상 어르신에게 실제 목욕서비스를 제공하고 받은 목욕권의 비용을 정산할 때 쓰는 업소작성 부속서류입니다. 업소대표가 사용기간·매수·단가·청구금액·업소계좌를 작성하고 사용한 목욕권, 통장사본 및 원문의 사업자등록·영업허가 증빙을 준비합니다. 조례 제3조에 따라 어르신 본인부담금 1,000원을 제외한 지원대상 비용만 청구합니다. 어르신 본인의 목욕권 최초신청은 별지2로 구분하며, 방문목욕·이동목욕 서비스나 신규 가맹협약 신청에 사용하는 서식이 아닙니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "5",
+          "title": "노인 목욕비 청구서",
+          "use": "conditional",
+          "author": "청송군과 목욕권 사용 협약을 체결한 관내 목욕장 운영자",
+          "scope": "기관/업소의 실제 제공비용청구와 그에 부속된 명단·정보동의 등 원문전체. 주민 최초신청 범위로 승격하지 않음.",
+          "condition": "청송군과 목욕권 사용 협약을 체결한 관내 목욕장 운영자가 지원대상 어르신에게 실제 목욕서비스를 제공하고 받은 목욕권의 비용을 정산할 때 쓰는 업소작성 부속서류입니다. 업소대표가 사용기간·매수·단가·청구금액·업소계좌를 작성하고 사용한 목욕권, 통장사본 및 원문의 사업자등록·영업허가 증빙을 준비합니다. 조례 제3조에 따라 어르신 본인부담금 1,000원을 제외한 지원대상 비용만 청구합니다. 어르신 본인의 목욕권 최초신청은 별지2로 구분하며, 방문목욕·이동목욕 서비스나 신규 가맹협약 신청에 사용하는 서식이 아닙니다.",
+          "fullBodyReviewed": true
+        }
+      ],
+      "embeddedResources": [],
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "publicationApproved": true,
+      "importReady": true,
+      "reviewedBy": "Codex /root/municipal_form_audit",
+      "screenWritingApproved": false,
+      "priorDisposition": "non_applicant",
+      "priorReason": "목욕업소 대표가 사용된 목욕권 매수·단가·기간을 정산하고 비용을 청구하는 서식이다. 사이트의 노인 본인 목욕권 신청 단계가 아니며 별지2호 주민신청과 구분한다.",
+      "criterionChange": "카탈로그가 주민 최초신청만 설명한다는 이유로 법정 제공기관의 같은급여 비용청구까지 배제하던 기준을 수정. 별도업체급여/등록이나 주민main으로 재분류하지 않음.",
+      "bodyEvidencePath": "logs/hwpx-rematch-20261023/team2/packets/ordin-20017903.json",
+      "bodyEvidenceSHA256": "b3061a564189501e8c25136fd74ab6298e6f9d3eb4c8b0bcd225bf7ee44d243c",
+      "lawBodyEvidencePath": "logs/hwpx-rematch-20261023/team2/laws/1832389.json",
+      "lawBodyEvidenceSHA256": "18592499179a51a48bc5bf46d3c21150ebbcdc88384912a97ff4ec94232b14d0",
+      "lawCurrentIdentityEvidencePath": "logs/hwpx-rematch-20261023/team2/phase2/current-law-identities-v1.json",
+      "relevantArticlesRead": [
+        "제2조",
+        "제3조",
+        "제4조",
+        "제5조",
+        "제6조",
+        "제8조"
+      ],
+      "programmeEvidencePath": "logs/hwpx-rematch-20261023/team2/phase2/cheongsong-current-programme.json",
+      "programmeEvidenceSHA256": "0d228f8636164abf39200b54c16d8e107d940c2193dea32ad108a054351fe072",
+      "programmeResponseSHA256": "65fb536d8631685896edf7ea0feb3ee91604f08b8395e4e41b2cde49d0a6287d",
+      "extraEvidencePaths": [],
+      "coordinatorExactRoleReviewRequired": {
+        "sourceOriginalIdentityUnchanged": true,
+        "proposedRole": "supporting",
+        "use": "conditional",
+        "reason": "법정 서비스제공기관 실제비용청구. 주민 최초신청을 안내하는 main으로 사용하지 않음."
+      },
+      "displayTitle": "협약 목욕업소 작성용 · 청송군 목욕비 청구서",
+      "coordinatorApproved": true,
+      "independentBodyReview": true,
+      "coordinatorCurrentLawProof": {
+        "lawId": "1832389",
+        "currentLawId": "1832389",
+        "checkedAt": "2026-10-23",
+        "state": "source_current",
+        "effectiveDate": "2023-07-06",
+        "bodyCachePath": "logs/forms-completion/law-bodies/1832389.json.gz",
+        "bodyCacheSHA256": "416b7e61b05a639723a0a7b1a63872f1ddf71f635238f11ce77bd76af76b0141",
+        "currentSearchPath": "logs/hwpx-rematch-20261023/team2/phase2/current-law-identities-v1.json",
+        "currentSearchSHA256": "90ba8291a71a2c7c611e32b8cab38cdb3a85a1592afcef9ab197f9889204e5e7",
+        "officialAnnexId": "20017903",
+        "officialFlSeq": "152260709"
+      },
+      "coordinatorNativeReview": {
+        "label": "ordin-20017903",
+        "sourceSHA256": "5882b9f13617e5e84d676f30ada6973568f13c940c1b20058dc1361c3221c5bd",
+        "sourceBytes": 37740,
+        "hancomPages": 1,
+        "pdfSHA256": "73d81400cabc069f31b5aafc96ed7a6baff8cee1b6f7e0168899af891c0a1e8c",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "noFilledPersonalDataObserved": true
+      }
+    }
+  ]
+}

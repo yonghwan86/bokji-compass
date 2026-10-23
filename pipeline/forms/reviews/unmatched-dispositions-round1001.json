@@ -1965,63 +1965,106 @@
         "allSectionInventoryMatches": true,
         "exactLawBody": true
       },
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 구리도시공사 체육관 접수안내를 직접 확인했으나 회원가입·온라인 수강등록·납부 절차만 안내한다. 원본 제2호는 기존 경기장/세미나실 전용허가 변경이며, 감면 변경·승계 때 이 원본을 접수한다는 새 근거를 찾지 못했다. 유효한 법정 변경서식의 존재와 해당 감면사업의 실제 제출관계를 구별하여 미해소로 유지한다.",
+      "disposition": "approved",
+      "reason": "정확 정부24 O00005100001의 실제 저장된 HTTP200 본문은 50% 감면대상에 체육진흥 경기·행사를 명시하고 방문 접수시설에 구리시체육관을 포함한다. 현행 상위조례2119333 제2조제3호는 전용사용, 제4조제1항은 사용허가 내용변경, 제17조제1항제2호가목은 체육진흥 경기·행사의 50% 감면, 같은 조제2항은 증빙을 규정한다. 현행규칙1162698 제2조제1항은 이미 허가받은 전용사용 내용변경에 정확 별지2를 지정한다. 14336B 원본 SHA와 전체541자·BodyText/Section0 및 BinData0을 독립 확인했고, 신청인·행사명·허가내용 대 변경내용·변경사용료·구리시장 수신은 이 후속단계와 일치한다. 회원·수강 안내만으로 사업전체를 강좌로 축소한 종전 판단을 정정한다. 감면승계의 자동권리나 신규감면 신청용도로 확대하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g41310.gov24-O00005100001",
-          "disposition": "not_connected",
-          "reason": "구리시 제2조제1항과 전체 별지2는 기존 전용사용허가의 목적·기간·부대시설·사용료 변경 신청이다. 후보의 감면을 변경·승계할 때 이 서식을 요구하는 직접 근거 또는 감면 항목은 확인되지 않았다. 유효한 변경신청서이지만 해당 감면사업의 후속서류로 연결하는 관계는 추가 확인이 필요하다.",
-          "applyType": "self",
-          "applyMethod": "○ 온라인 신청\n- http://guriuc.or.kr\n○ 방문 신청\n- 이용희망시설을 방문하여 신청하여 주시기 바랍니다.(구리시멀티스포츠센터, 갈매멀티스포츠센터, 검배체육문화센터, 구리시체육관, 구리국민체육센터)",
-          "target": "- 자원봉사자(구리시 자원봉사센터에서 인정한자) 30% 감면 제공\n- 체육진흥을 위하여 필요하다고 인정되는 경기ㆍ행사\n-「구리시 저출산대책 지원에 관한 조례」 제2조제3호에 따라 다자녀증명서를 제출한 다자녀가정의 부모 및 자녀. 다만, 강습프로그램 사용료에 한정함\n-「장애인복지법」에 따른 등록장애인(동행하는 보호자 1명 포함)\n-「국가유공자 등 예우 및 지원에 관한 법률 시행령」 제86조제1항 각 호의 어느 하나에 해당하는 사람\n-「특수임무유공자 예우 및 단체설립에 관한 법률 시행령」 제58조에 해당하는 사람\n- 「5ㆍ18민주유공자 예우 및 단체설립에 관한 법률 시행령」 제52조제1항 각 호의 어느 하나에 해당하는 사람\n- 국민기초생활 보장법」에 따른 수급자\n-「의사상자 등 예우 및 지원에 관한 법률 시행령」제17조의2제1항 각 호에서 정한 사람\n-「구리시 장기기증 등록 장려 및 지원에 관한 조례」제9조제2항에 따른 장기기증자\n- 구리시 병역명문가 예우 및 지원에 관한 조례」에 따른 예우대상자와 가족\n- 구리시 효행 장려 및 지원에 관한 조례」에 따른 부양자\n-「참전유공자 예우 및 단체설립에 관한 법률」 제2조제2호에 해당하는 사람\n-「독립유공자예우에 관한 법률」 제15조에 해당하는 사람\n- 「고엽제후유의증 등 환자지원 및 단체설립에 관한 법률」 제8조의3 각 호의 어느 하나에 해당하는 사람\n- 「국군포로의 송환 및 대우 등에 관한 법률」 제2조제5호에 따른 등록포로 및 같은 조 제3호에 따른 억류지 출신 포로가족\n-「보훈보상대상자 지원에 관한 법률」에 따른 보훈보상대상자\n-「학교체육 진흥법」에 따른 학교운동부의 훈련 및 경기\n-「구리시 시민대상 조례」에 따른 구리시 시민대상 수상자\n○ 기타\n- 어린이, 청소년, 노인에게 별도의 요금제를 운영하여 20% ~ 50% 적용"
+          "formId": "ordin-13732705",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "구리시체육관의 경기장·세미나실을 이미 전용사용 허가받은 경기·행사 주최자 또는 신청인이 사용목적·기간·부대시설·사용료 등 허가받은 내용을 변경할 때만 사용하는 후속 신청서입니다. 이 사업의 체육진흥 경기·행사 감면에 해당하더라도 감면사유 증빙과 변경허가는 별도이며, 이 변경신청서 제출만으로 감면의 신규 승인·변경·승계가 자동으로 인정되지는 않습니다. 일반 강좌 가입, 개인 연습사용 또는 신규 감면신청서로 쓰지 않습니다. 원본의 사용기간 칸에 선인쇄된 200년 표기는 실제 사용연도에 맞게 작성해야 합니다.",
+          "reason": "정확 정부24 O00005100001의 실제 저장된 HTTP200 본문은 50% 감면대상에 체육진흥 경기·행사를 명시하고 방문 접수시설에 구리시체육관을 포함한다. 현행 상위조례2119333 제2조제3호는 전용사용, 제4조제1항은 사용허가 내용변경, 제17조제1항제2호가목은 체육진흥 경기·행사의 50% 감면, 같은 조제2항은 증빙을 규정한다. 현행규칙1162698 제2조제1항은 이미 허가받은 전용사용 내용변경에 정확 별지2를 지정한다. 14336B 원본 SHA와 전체541자·BodyText/Section0 및 BinData0을 독립 확인했고, 신청인·행사명·허가내용 대 변경내용·변경사용료·구리시장 수신은 이 후속단계와 일치한다. 회원·수강 안내만으로 사업전체를 강좌로 축소한 종전 판단을 정정한다. 감면승계의 자동권리나 신규감면 신청용도로 확대하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "relatedArticles": [
         "제2조(사용신청 및 허가) ①조례 제2조제3호 및 제4조제1항의 규정에 의하여 체육시설을 전용 사용하고자 하는 자는 사용허가신청서(별지 제1호서식)를 시장에게 제출하여야 하며, 허가받은 내용을 변경하고자 할 때에는 변경허가신청서(별지 제2호서식)를 제출하여야 한다.②조례 제2조제4호 규정에 의한 연습사용의 사용신청 및 허가는 자동발매기 티켓 또는 영수증으로 갈음한다.③ 시장은 제1항의 신청서를 접수한 때에는 접수일로부터 3일이내에 사용허가여부를 별지 제3호서식에 의거 신청인에게 통지하여야 한다."
       ],
-      "reviewedBy": "codex-national_form_audit",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
       "reviewedAt": "2026-10-18",
       "sourceBodyPath": "logs/forms-completion/law-bodies/1162698.json.gz",
       "sourceBodySHA256": "4dcc019150f02f4c10013a17858aab34f96ec65bffe9b595d6a63846ea7a7abe",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.guriuc.or.kr/cmsManage/contents.do?cmsSeq=99",
-            "status": "http_200_content_read",
-            "newEvidence": "회원 온라인 수강신청 및 결제 절차를 안내하며 전용사용 변경허가 서식 적용 안내는 없음",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/guri-registration.json",
-                "sha256": "62a61d1f7959d53a929ecdbe5aebed012a4fd741255bcd0525dd0b4a2364c3a4",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.guriuc.or.kr/cmsManage/contents.do?cmsSeq=92",
-            "status": "http_200_content_read",
-            "newEvidence": "해당 체육관 공식 시설 및 이용안내 메뉴 확인",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team1/guri-gym.json",
-                "sha256": "1d703bcaf63951487f0730cddaee4b8e972ff29b76aa4c5408692dab7a61ed45",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
         "g41310.gov24-O00005100001"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 구리도시공사 체육관 접수안내를 직접 확인했으나 회원가입·온라인 수강등록·납부 절차만 안내한다. 원본 제2호는 기존 경기장/세미나실 전용허가 변경이며, 감면 변경·승계 때 이 원본을 접수한다는 새 근거를 찾지 못했다. 유효한 법정 변경서식의 존재와 해당 감면사업의 실제 제출관계를 구별하여 미해소로 유지한다.",
+          "relatedProgramIds": [
+            "g41310.gov24-O00005100001"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41310.gov24-O00005100001",
+              "disposition": "not_connected",
+              "reason": "구리시 제2조제1항과 전체 별지2는 기존 전용사용허가의 목적·기간·부대시설·사용료 변경 신청이다. 후보의 감면을 변경·승계할 때 이 서식을 요구하는 직접 근거 또는 감면 항목은 확인되지 않았다. 유효한 변경신청서이지만 해당 감면사업의 후속서류로 연결하는 관계는 추가 확인이 필요하다.",
+              "applyType": "self",
+              "applyMethod": "○ 온라인 신청\n- http://guriuc.or.kr\n○ 방문 신청\n- 이용희망시설을 방문하여 신청하여 주시기 바랍니다.(구리시멀티스포츠센터, 갈매멀티스포츠센터, 검배체육문화센터, 구리시체육관, 구리국민체육센터)",
+              "target": "- 자원봉사자(구리시 자원봉사센터에서 인정한자) 30% 감면 제공\n- 체육진흥을 위하여 필요하다고 인정되는 경기ㆍ행사\n-「구리시 저출산대책 지원에 관한 조례」 제2조제3호에 따라 다자녀증명서를 제출한 다자녀가정의 부모 및 자녀. 다만, 강습프로그램 사용료에 한정함\n-「장애인복지법」에 따른 등록장애인(동행하는 보호자 1명 포함)\n-「국가유공자 등 예우 및 지원에 관한 법률 시행령」 제86조제1항 각 호의 어느 하나에 해당하는 사람\n-「특수임무유공자 예우 및 단체설립에 관한 법률 시행령」 제58조에 해당하는 사람\n- 「5ㆍ18민주유공자 예우 및 단체설립에 관한 법률 시행령」 제52조제1항 각 호의 어느 하나에 해당하는 사람\n- 국민기초생활 보장법」에 따른 수급자\n-「의사상자 등 예우 및 지원에 관한 법률 시행령」제17조의2제1항 각 호에서 정한 사람\n-「구리시 장기기증 등록 장려 및 지원에 관한 조례」제9조제2항에 따른 장기기증자\n- 구리시 병역명문가 예우 및 지원에 관한 조례」에 따른 예우대상자와 가족\n- 구리시 효행 장려 및 지원에 관한 조례」에 따른 부양자\n-「참전유공자 예우 및 단체설립에 관한 법률」 제2조제2호에 해당하는 사람\n-「독립유공자예우에 관한 법률」 제15조에 해당하는 사람\n- 「고엽제후유의증 등 환자지원 및 단체설립에 관한 법률」 제8조의3 각 호의 어느 하나에 해당하는 사람\n- 「국군포로의 송환 및 대우 등에 관한 법률」 제2조제5호에 따른 등록포로 및 같은 조 제3호에 따른 억류지 출신 포로가족\n-「보훈보상대상자 지원에 관한 법률」에 따른 보훈보상대상자\n-「학교체육 진흥법」에 따른 학교운동부의 훈련 및 경기\n-「구리시 시민대상 조례」에 따른 구리시 시민대상 수상자\n○ 기타\n- 어린이, 청소년, 노인에게 별도의 요금제를 운영하여 20% ~ 50% 적용"
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.guriuc.or.kr/cmsManage/contents.do?cmsSeq=99",
+                "status": "http_200_content_read",
+                "newEvidence": "회원 온라인 수강신청 및 결제 절차를 안내하며 전용사용 변경허가 서식 적용 안내는 없음",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/guri-registration.json",
+                    "sha256": "62a61d1f7959d53a929ecdbe5aebed012a4fd741255bcd0525dd0b4a2364c3a4",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.guriuc.or.kr/cmsManage/contents.do?cmsSeq=92",
+                "status": "http_200_content_read",
+                "newEvidence": "해당 체육관 공식 시설 및 이용안내 메뉴 확인",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team1/guri-gym.json",
+                    "sha256": "1d703bcaf63951487f0730cddaee4b8e972ff29b76aa4c5408692dab7a61ed45",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "approvedAssociations": [
+        {
+          "programId": "g41310.gov24-O00005100001",
+          "formId": "ordin-13732705",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "1162698",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-13732709",

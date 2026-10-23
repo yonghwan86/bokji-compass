@@ -21,7 +21,7 @@ test("월 소득: '100.5'는 그대로, '-100'은 오류를 보여 주고 결과
 
 test("내 복지 답이 부모님 복지로 넘어가지 않고, 돌아오면 그대로 @mobile", async ({ page }) => {
   await page.goto("/results?example=goyang-youth");
-  await expect(page.getByTestId("v2-results").or(page.locator("main"))).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });
   await page.goto("/situation?for=parent&details=1");
   const inc = page.getByTestId("v2-income");
   await expect(inc).toBeVisible({ timeout: 20_000 });
@@ -40,6 +40,7 @@ test("내 복지 답이 부모님 복지로 넘어가지 않고, 돌아오면 �
 
 test("부모님 문장 '일하지 않아요' → 하는 일 '아니요', 지난 구직 답이 남지 않음", async ({ page }) => {
   await page.goto("/results?example=goyang-youth");
+  await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });
   await page.goto("/situation?for=self&details=1");
   await expect(page.getByRole("group", { name: /지금 하고 있는 일/ }).getByRole("radio", { name: "일자리를 찾고 있어요" })).toBeChecked({ timeout: 20_000 });
   await page.getByTestId("v2-text").fill("수원시에 사시는 59년생 부모님 두 분, 아버지가 거동이 불편하세요. 두 분 소득은 월 300만원이고 자가에 살아요. 일하지 않아요.");
@@ -59,6 +60,7 @@ test("자녀 없음(고양 청년 예시) → 한부모 질문 없음, 성남 �
 
 test("검색: 저장된 상황이 있으면 맞춤 결과와 같은 판정 말, 지역 안내에 실린 중앙부처 사업 표시", async ({ page }) => {
   await page.goto("/results?example=parent-care&for=parent");
+  await expect(page.getByTestId("v2-results")).toBeVisible({ timeout: 20_000 });
   await page.goto("/search?life=senior");
   const card = page.getByTestId("program-card").first();
   await expect(card).toBeVisible({ timeout: 20_000 });

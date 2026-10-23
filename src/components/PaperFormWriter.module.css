@@ -1,0 +1,176 @@
+/* 원본 양식을 그대로 보며 빈칸만 채우는 화면. 원문 글자는 절대 줄이거나 자르지 않는다. */
+.page { padding-bottom: 64px; }
+.back { display: inline-block; margin: 8px 0 12px; color: var(--muted); }
+.title { margin: 0 0 4px; font-size: 1.5rem; line-height: 1.35; }
+.basis { margin: 0 0 2px; color: var(--muted); font-size: 0.92rem; }
+
+.notice {
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-2, #f7f8fa);
+}
+.notice p { margin: 0 0 6px; font-size: 0.95rem; line-height: 1.6; }
+.notice p:last-child { margin-bottom: 0; }
+
+.converted {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--primary-60);
+  border-radius: 8px;
+  font-size: 0.93rem;
+  line-height: 1.6;
+}
+.converted a { margin-left: 4px; }
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 0;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.count { margin-right: auto; font-size: 0.92rem; color: var(--muted); }
+
+/* ── 원문 보기 ───────────────────────────────────────────────────── */
+
+.doc { margin-top: 18px; }
+.viewPicker { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.fieldGroups { display: grid; gap: 20px; margin-top: 16px; }
+.fieldGroup { min-width: 0; margin: 0; padding: 18px; border: 1px solid var(--line); border-radius: 8px; }
+.fieldGroup legend { max-width: 100%; padding: 0 8px; font-size: 1rem; font-weight: 700; overflow-wrap: anywhere; }
+.fieldList { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+.fieldList .slot { width: 100%; min-width: 0; }
+.fieldList .slotName { max-width: none; white-space: normal; font-size: 1rem; font-weight: 600; color: var(--ink); }
+.fieldList .slot input { box-sizing: border-box; width: 100%; min-width: 0; }
+.fieldList .box { white-space: normal; }
+.fieldList .box span { max-width: none; white-space: normal; overflow: visible; }
+.sheet {
+  overflow-x: auto;
+  padding: 10px 0;
+  /* 원문 표가 좁은 화면에서 줄어들지 않게, 가로로 밀어 볼 수 있게 둔다. */
+  -webkit-overflow-scrolling: touch;
+}
+.bodyLine {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: keep-all;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 560px;
+  margin: 10px 0 18px;
+  table-layout: fixed;
+}
+.table td {
+  border: 1px solid var(--line);
+  padding: 6px 8px;
+  vertical-align: top;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.table td[data-role="printed"] { background: var(--surface-2, #f7f8fa); }
+.table .nested { min-width: 0; margin: 4px 0; }
+.cellLine { white-space: pre-wrap; word-break: keep-all; }
+.cellLine + .cellLine { margin-top: 2px; }
+
+/* ── 입력칸 ──────────────────────────────────────────────────────── */
+
+.slot { display: inline-flex; flex-direction: column; gap: 2px; vertical-align: top; max-width: 100%; }
+.slot input {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 4px 6px;
+  border: 1px solid var(--primary-60);
+  border-radius: 6px;
+  font: inherit;
+  font-size: 1.0625rem;
+  min-height: 44px;
+  background: #fff;
+  color: inherit;
+}
+.slot input:focus-visible { outline: 3px solid var(--focus, #ffbf47); outline-offset: 1px; }
+.slot[data-invalid="1"] input { border-color: var(--danger, #c0392b); }
+.slotName {
+  font-size: 0.875rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 22ch;
+}
+.slotError { margin: 2px 0 0; color: var(--danger, #c0392b); font-size: 0.78rem; line-height: 1.5; }
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 2px 6px 2px 4px;
+  border: 1px solid var(--primary-60);
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+.box input { width: 22px; height: 22px; margin: 0; accent-color: var(--primary-60); }
+.box span { font-size: 0.86rem; max-width: 24ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.locked {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 6px;
+  border: 1px dashed var(--muted);
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.lockedMark { font-weight: 700; }
+
+/* ── 아래 정리 ───────────────────────────────────────────────────── */
+
+.review { margin: 24px 0 0; }
+.review h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.reviewList { list-style: none; padding: 0; margin: 0 0 16px; }
+.reviewList li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+}
+.reviewLabel { color: var(--muted); font-size: 0.9rem; min-width: 12ch; }
+.reviewValue { font-weight: 600; word-break: break-all; }
+.empty { color: var(--muted); font-size: 0.92rem; }
+
+.manual { margin: 18px 0; }
+.manual h3 { font-size: 1rem; margin: 0 0 6px; }
+.manual ul, .held ul { margin: 0; padding-left: 20px; }
+.manual li, .held li { margin: 4px 0; font-size: 0.93rem; line-height: 1.6; }
+.held { margin: 16px 0; }
+.held summary { cursor: pointer; font-size: 0.93rem; }
+
+.failure { color: var(--danger, #c0392b); font-weight: 600; }
+.done { color: var(--ok, #1e7a46); font-weight: 600; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.btnWide { flex: 1 1 220px; }
+
+@media (max-width: 640px) {
+  .fieldList { grid-template-columns: minmax(0, 1fr); }
+  .fieldGroup { padding: 14px; }
+  .table { min-width: 520px; }
+  .toolbar { position: static; }
+  .slotName { max-width: 14ch; }
+}

@@ -846,8 +846,8 @@
     {
       "formId": "ordin-22876359",
       "sha256": "912ba7b4bcce0ee9a3fe01ab15b223281bf97b60066e135eef4a369d34e020ea",
-      "disposition": "requires_external_confirmation",
-      "reason": "현재 정부24의 아리수 품질확인제는 5항목 현장검사와 온라인·120·방문을 안내한다. 아리수 공식 페이지에서 연결된 수질검사 온라인 신청도 열었으나 일반 민원접수 화면이며 별지40 다운로드·지정은 확인되지 않는다. 연구원 수질검사 안내와 무료 현장 품질확인제의 실제 서식 사용을 동일하다고 단정하지 않는다.",
+      "disposition": "approved",
+      "reason": "원본36868B/전체BodyTextSection0 215자를독립재추출하고전체판독했다. 실제인쇄번호40·고객번호·사용자명·시설물주소·민원내용·사용자와의관계·○○수도사업소장수신으로소비자의수돗물검사신청임을확인했다. 현행2178947 제39조①은별지39또는40을연구원장또는사업소장에게제출하도록정하며전체법규캐시에annex22876359/fl170598879/number40이삭제아닌현재첨부로직접존재한다. 제한된MCP목록에서못찾은사실을원본부재로간주할수없다. 상위2024149 제35조및39조②·40조②의수돗물검사경로와정부24의정확Arisu174 수용가·수도사업소·전화/온라인/방문수질민원,운영기관품질확인제안내및i121편람의수질검사신청을대조했다. 현장5항목과소비자민원경로의한정연결이며실험실검체의뢰/다른급수지원으로확대하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
@@ -863,16 +863,19 @@
           "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
         },
         {
-          "programId": "s11000.gov24-611000000174",
-          "programName": "아리수 품질 확인제 지원",
-          "disposition": "requires_external_confirmation",
-          "reason": "법정수질검사 별지40을 무료 현장 아리수품질확인제에도 접수하는지 확인 필요."
-        },
-        {
           "programId": "s11000.bokjiro-WLF00006194",
           "programName": "중증장애인 세대 수도요금 감면",
           "disposition": "not_applicable",
           "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+        },
+        {
+          "programId": "s11000.gov24-611000000174",
+          "formId": "ordin-22876359",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "서울시 수돗물을 사용하는 가구 등이 아리수 품질확인제의 수용가 수질민원을 관할 수도사업소에 서면으로 신청하는 경우에만 사용하는 소비자용 별지40입니다. 고객번호·사용자명·시설물 주소·민원내용과 신청인 관계를 기재하는 용도입니다. 전화·온라인 신청자에게 이 종이서식을 추가로 반드시 제출하도록 안내하지 않습니다. 서울물연구원에 검체·수처리제·수도용 자재를 보내는 실험실 검사 의뢰서(별지39)나 급수관 교체·요금감면 신청서에는 적용하지 않습니다. 원본에는 처리기간20일이 인쇄되어 있으며 현장 검사일정·검사범위는 수도사업소의 실제 안내에 따릅니다.",
+          "reason": "원본36868B/전체BodyTextSection0 215자를독립재추출하고전체판독했다. 실제인쇄번호40·고객번호·사용자명·시설물주소·민원내용·사용자와의관계·○○수도사업소장수신으로소비자의수돗물검사신청임을확인했다. 현행2178947 제39조①은별지39또는40을연구원장또는사업소장에게제출하도록정하며전체법규캐시에annex22876359/fl170598879/number40이삭제아닌현재첨부로직접존재한다. 제한된MCP목록에서못찾은사실을원본부재로간주할수없다. 상위2024149 제35조및39조②·40조②의수돗물검사경로와정부24의정확Arisu174 수용가·수도사업소·전화/온라인/방문수질민원,운영기관품질확인제안내및i121편람의수질검사신청을대조했다. 현장5항목과소비자민원경로의한정연결이며실험실검체의뢰/다른급수지원으로확대하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -905,7 +908,7 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "sameJurisdictionSearch": "서울시 및 자치구 수도·급수·수질 관련 전체 사업에서 수급·중증장애 감면, 다자녀 하수감면, 아리수품질확인제와 비교함.",
       "additionalEvidence": {
         "officialCurrentGuide": {
@@ -915,80 +918,139 @@
         }
       },
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
-        "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2178947&gubun=ELIS",
-            "httpStatus": 200,
-            "responseSha256": "4a3d06e66bc061f84522fe735dd3d559434b4731cef3204753d47b765f10bf6f",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/law-2178947.json",
-                "sha256": "d2559aef75a8aff6fdfbfce7f01f6331e11c4dd57b32cc5059d76bf1c891e7d9",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://arisu.seoul.go.kr/home/sub?dsn=1773792396-749-206&menukey=7205&mode=view",
-            "httpStatus": 200,
-            "responseSha256": "85cd29be139382ca2327c7d868e8272fb8c30420a600d96cfb2afca7c4e942f5",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/arisu-current.json",
-                "sha256": "ee8dfb49e9377c52b758d8545aa2330de34fb52b0fd266ceb1b8bf9277200258",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://i121.seoul.go.kr/cs/cyber/front/cvplsvc/NR_onlineCvplPopup.do?pageNm=A07_Form&_m=m2_1",
-            "httpStatus": 200,
-            "responseSha256": "75b4f5bb7703c3124a640510e4cd3d2352af7789d072b2c4cb5f9160157271b9",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/arisu-apply.json",
-                "sha256": "60d536f1b92b4d59493eaf20ab4aebda51ad6271d34ed6591b8754578b168620",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://arisu.seoul.go.kr/home/sub?menukey=7717",
-            "httpStatus": 200,
-            "responseSha256": "ebccd99d247fbd608b5efd714a0521018cdc87f869f6d5b236987c0e3673083f",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/arisu-guide.json",
-                "sha256": "5257914663535aaf366353431b111640d149937d1aac7cfa13c07fb03acf1b5c",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000174",
-            "httpStatus": 200,
-            "bodyTextSha256": "9a3c3929748685d146cf0fe1f607dbcce4500a94f58bc87dabd66c716676d628",
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team3/program-s11000.gov24-611000000174.json",
-                "sha256": "48b795e7a33701f1f1cbfabae5d99f02ae1ea82bb3891752b2538b1e2c107c21",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
-        "s11000.gov24-611000019608",
-        "s11000.bokjiro-WLF00006195",
-        "s11000.gov24-611000000174",
-        "s11000.bokjiro-WLF00006194"
-      ]
+        "s11000.gov24-611000000174"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 정부24의 아리수 품질확인제는 5항목 현장검사와 온라인·120·방문을 안내한다. 아리수 공식 페이지에서 연결된 수질검사 온라인 신청도 열었으나 일반 민원접수 화면이며 별지40 다운로드·지정은 확인되지 않는다. 연구원 수질검사 안내와 무료 현장 품질확인제의 실제 서식 사용을 동일하다고 단정하지 않는다.",
+          "relatedProgramIds": [
+            "s11000.gov24-611000019608",
+            "s11000.bokjiro-WLF00006195",
+            "s11000.gov24-611000000174",
+            "s11000.bokjiro-WLF00006194"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "s11000.gov24-611000019608",
+              "programName": "서울특별시 수도요금 감면",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "s11000.bokjiro-WLF00006195",
+              "programName": "국민기초생활수급자 세대 수도요금 감면",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            },
+            {
+              "programId": "s11000.gov24-611000000174",
+              "programName": "아리수 품질 확인제 지원",
+              "disposition": "requires_external_confirmation",
+              "reason": "법정수질검사 별지40을 무료 현장 아리수품질확인제에도 접수하는지 확인 필요."
+            },
+            {
+              "programId": "s11000.bokjiro-WLF00006194",
+              "programName": "중증장애인 세대 수도요금 감면",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team3-results.json",
+            "sourceResultSHA256": "7e8e63b2e007e7deed1d20ab71367066ef036d087d892df780147ee63e67b764",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoR.do?ordinSeq=2178947&gubun=ELIS",
+                "httpStatus": 200,
+                "responseSha256": "4a3d06e66bc061f84522fe735dd3d559434b4731cef3204753d47b765f10bf6f",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/law-2178947.json",
+                    "sha256": "d2559aef75a8aff6fdfbfce7f01f6331e11c4dd57b32cc5059d76bf1c891e7d9",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://arisu.seoul.go.kr/home/sub?dsn=1773792396-749-206&menukey=7205&mode=view",
+                "httpStatus": 200,
+                "responseSha256": "85cd29be139382ca2327c7d868e8272fb8c30420a600d96cfb2afca7c4e942f5",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/arisu-current.json",
+                    "sha256": "ee8dfb49e9377c52b758d8545aa2330de34fb52b0fd266ceb1b8bf9277200258",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://i121.seoul.go.kr/cs/cyber/front/cvplsvc/NR_onlineCvplPopup.do?pageNm=A07_Form&_m=m2_1",
+                "httpStatus": 200,
+                "responseSha256": "75b4f5bb7703c3124a640510e4cd3d2352af7789d072b2c4cb5f9160157271b9",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/arisu-apply.json",
+                    "sha256": "60d536f1b92b4d59493eaf20ab4aebda51ad6271d34ed6591b8754578b168620",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://arisu.seoul.go.kr/home/sub?menukey=7717",
+                "httpStatus": 200,
+                "responseSha256": "ebccd99d247fbd608b5efd714a0521018cdc87f869f6d5b236987c0e3673083f",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/arisu-guide.json",
+                    "sha256": "5257914663535aaf366353431b111640d149937d1aac7cfa13c07fb03acf1b5c",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000174",
+                "httpStatus": 200,
+                "bodyTextSha256": "9a3c3929748685d146cf0fe1f607dbcce4500a94f58bc87dabd66c716676d628",
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team3/program-s11000.gov24-611000000174.json",
+                    "sha256": "48b795e7a33701f1f1cbfabae5d99f02ae1ea82bb3891752b2538b1e2c107c21",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "s11000.gov24-611000000174",
+          "formId": "ordin-22876359",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "2178947",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-22876367",
@@ -2392,15 +2454,18 @@
     {
       "formId": "ordin-19976627",
       "sha256": "9b711e559913fd9d4b80143320c71681dfe82243c11d180120b67d7da2fa7795",
-      "disposition": "requires_external_confirmation",
-      "reason": "정확한 정부24 및 병합 복지로 WLF00002613은 어린이집 원복·체육복 등 10만원 준비금과 어린이집 입금 방식을 안내한다. 복지로에는 실질 신청서 대신 첨부파일없음 항목만 있다. 입소신청서가 이 준비금의 신청을 겸한다는 작성란·공식 제출 지시는 찾지 못했으므로 입소 시점이 같다는 이유로 승인하지 않는다.",
+      "disposition": "approved",
+      "reason": "정확 Gov417000000101은 관내 저소득·다문화 어린이집 입학아동을 대상으로 관할 어린이집 입소시 방문접수를 안내하고, 병합 원천 Bokjiro WLF00002613은 어린이집 입학준비금과 시설 입금방식을 명시한다. 현행 상위조례1926225 제16조 군립어린이집 및 제25조2호 아동입소료 지원과 규칙793158 제4조1항의 의무 입소신청 별지2를 대조했다. 원본320자는 군립어린이집 입소 의사·보호자 서명·우선순위 증빙과 시설장 수신이며 청구액·계좌란은 없다. 따라서 준비금 겸용이 아니라 해당 지원의 실제 입소 전제에 필요한 군립 입소 경로로 조건부 연결한다. 규칙 문장은 이에 준하는 정부지원 시설도 포함하나 원본의 군립이라는 신청인 문구를 바꾸거나 그밖의 시설까지 확장하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g41830.gov24-417000000101",
-          "programName": "저소득 및 다문화가정 아동 입학준비금 지원",
-          "disposition": "not_applicable",
-          "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+          "formId": "ordin-19976627",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "양평군 저소득·다문화가정 입학준비금 대상 아동이 군립어린이집에 입소할 때 보호자가 시설장에게 제출하는 입소 절차용 서류입니다. 해당 입소순위 증빙을 함께 제출합니다. 준비금 10만원 청구나 지급계좌 신고를 겸하는 서식은 아니며, 입학준비금 지원 절차는 해당 어린이집에서 별도로 진행합니다. 이미 입소한 아동에게 재제출을 요구하는 안내가 아닙니다. 원본에 군립어린이집 입소라고 인쇄되어 있어 다른 유형 어린이집의 입소신청서로 확대하지 않습니다.",
+          "reason": "정확 Gov417000000101은 관내 저소득·다문화 어린이집 입학아동을 대상으로 관할 어린이집 입소시 방문접수를 안내하고, 병합 원천 Bokjiro WLF00002613은 어린이집 입학준비금과 시설 입금방식을 명시한다. 현행 상위조례1926225 제16조 군립어린이집 및 제25조2호 아동입소료 지원과 규칙793158 제4조1항의 의무 입소신청 별지2를 대조했다. 원본320자는 군립어린이집 입소 의사·보호자 서명·우선순위 증빙과 시설장 수신이며 청구액·계좌란은 없다. 따라서 준비금 겸용이 아니라 해당 지원의 실제 입소 전제에 필요한 군립 입소 경로로 조건부 연결한다. 규칙 문장은 이에 준하는 정부지원 시설도 포함하나 원본의 군립이라는 신청인 문구를 바꾸거나 그밖의 시설까지 확장하지 않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "sourceEvidence": {
@@ -2433,41 +2498,81 @@
           "annexBinding": "bound"
         }
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/417000000101",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case07-gov24.json",
-                "sha256": "5e1b373168afabbbb23ccbecbbf8aebbd2d18a846c9733446ffa7a34bd9074a5",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002613&wlfareInfoReldBztpCd=02",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case07-bokjiro-merged.json",
-                "sha256": "f489c836dff052a87d80af124a8510aa68b35f874d170656fc196f675548ae02",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8210.json",
+        "sourceResultSHA256": "3b762e7bde5f9a7d180612030dd16ea0e51521e2ea86b4a422d0e202c18a9cdd",
+        "coordinatorPlanSHA256": "a3aa9cfb7bf546454d97628fb287ecdc4978c73c966b3f91d8222698c0cc7183",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false
       },
       "relatedProgramIds": [
         "g41830.gov24-417000000101"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "정확한 정부24 및 병합 복지로 WLF00002613은 어린이집 원복·체육복 등 10만원 준비금과 어린이집 입금 방식을 안내한다. 복지로에는 실질 신청서 대신 첨부파일없음 항목만 있다. 입소신청서가 이 준비금의 신청을 겸한다는 작성란·공식 제출 지시는 찾지 못했으므로 입소 시점이 같다는 이유로 승인하지 않는다.",
+          "relatedProgramIds": [
+            "g41830.gov24-417000000101"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41830.gov24-417000000101",
+              "programName": "저소득 및 다문화가정 아동 입학준비금 지원",
+              "disposition": "not_applicable",
+              "reason": "원본 신청 주체·목적과 이 사업의 지원 범위를 대조했으며 이 연결은 승인하지 않음."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/417000000101",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case07-gov24.json",
+                    "sha256": "5e1b373168afabbbb23ccbecbbf8aebbd2d18a846c9733446ffa7a34bd9074a5",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002613&wlfareInfoReldBztpCd=02",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case07-bokjiro-merged.json",
+                    "sha256": "f489c836dff052a87d80af124a8510aa68b35f874d170656fc196f675548ae02",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
+      "approvedAssociations": [
+        {
+          "programId": "g41830.gov24-417000000101",
+          "formId": "ordin-19976627",
+          "use": "conditional"
+        }
+      ],
+      "sourceLawCurrency": {
+        "checkedAt": "2026-10-23",
+        "currentLawId": "793158",
+        "state": "source_current"
+      }
     },
     {
       "formId": "ordin-20121685",

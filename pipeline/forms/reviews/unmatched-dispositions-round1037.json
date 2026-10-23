@@ -2356,22 +2356,23 @@
       },
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-23",
         "currentLawId": "2032093",
         "currentBodyUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2032093",
         "currentAnnexBinding": "bound"
       },
-      "disposition": "requires_external_confirmation",
-      "reason": "공식 MCP의 현행 전남광주통합특별시 5 검색16건과 국가법령센터의 생활지원금 검색을 재확인했으나 정확 통합특별시 승계급여 조례·부칙·현재 배포파일을 확보하지 못했다. 구 광주2032093의 생계·민주명예·장제비 원본을 통합시 전체 사업에 확대하지 않는다. 검색 미확보이며 서식 부재 판정이 아니다.",
+      "disposition": "approved",
+      "reason": "현행목록2032093과공식본문제41~45조는종전광주주소·10/5/100만원·별지3의동장제출을직접정한다. 정확Gov629000000179의현재저장본문은같은세급여와5개구접수기관을표시하고현재공식5·18페이지도광주거주대상·같은금액을안내한다. 특별법부칙10①·14의종전지역법규/서비스존속과함께구광주급여부분만연결한다. Gov에인용된예전생활지원금조례는2032093제정부칙에서폐지되어현재본문제41~45조로통합된사실을보존한다. 합쳐진프로그램의구전남source646000000164/WLF00003806까지이서식을확대하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다.",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "s12000.gov24-629000000179",
-          "disposition": "not_connected",
-          "reason": "구 광주광역시 조례 제41조~제43조와 별지 제3호 전체는 생계지원비·민주명예수당·장제비 신청에 정확히 대응한다. 다만 현 사업은 전남광주통합특별시 주민과 별도의 통합특별시 생활지원금 조례를 인용한다. 공식 MCP의 정확 제명 및 넓은 전남광주통합특별시 5 검색에서 해당 승계 조례를 확보하지 못했다. 구 기관 원본이 현재 관할 전체에 계속 적용되는지 부칙·승계 근거를 확인하기 전 보류한다. 검색 실패를 서식 부재로 판정하지 않는다.",
-          "applyType": "self",
-          "applyMethod": "○ 방문 신청 : 거주지 관할 동 주민센터에 방문 신청",
-          "target": "○ 신청일을 기준으로 국가보훈처에 등록된 5·18민주유공자와 그 유족 중 전남광주통합특별시에 주민등록을 두고 실제로 거주하고 있는 자\n- 생계지원비 : 월 소득액이 「국민기초생활보장법」에 따른 중위소득의 100% 이하인 가구(세대) 또는 만 65세 이상인 자\n- 민주명예수당 : 생계지원비를 지급받지 못하는 대상자\n- 장제비 : 5·18민주유공자 본인이 사망한 가구"
+          "formId": "ordin-19755173",
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "종전 광주광역시 5개 구(동구·서구·남구·북구·광산구)에 주민등록을 두고 실제 거주하는 해당 5·18민주유공자·유가족의 생계지원비(월10만원), 민주명예수당(월5만원) 또는 유공자 본인 사망 시 장제비(100만원) 신청에만 사용합니다. 해당 지급구분을 선택하고 주소지 동 행정복지센터에 제출합니다. 생계지원비와 민주명예수당은 중복 지급되지 않으며, 장제비는 유가족 또는 실제 장례를 치른 사람의 법정 신청요건과 증빙을 갖추어야 합니다. 아래 확인사항 표는 담당자 작성 부분입니다. 원본의 광주광역시 명칭은 보존되어 있으며, 종전 전남 지역의 다른 금액·요건이나 통합특별시 전역으로 확대하지 않습니다.",
+          "reason": "현행목록2032093과공식본문제41~45조는종전광주주소·10/5/100만원·별지3의동장제출을직접정한다. 정확Gov629000000179의현재저장본문은같은세급여와5개구접수기관을표시하고현재공식5·18페이지도광주거주대상·같은금액을안내한다. 특별법부칙10①·14의종전지역법규/서비스존속과함께구광주급여부분만연결한다. Gov에인용된예전생활지원금조례는2032093제정부칙에서폐지되어현재본문제41~45조로통합된사실을보존한다. 합쳐진프로그램의구전남source646000000164/WLF00003806까지이서식을확대하지않는다. 2026-10-23 총괄이 고정 원본SHA·전체본문·실제한글출력을 확인하고 현행공식본문의 정확별표키/flSeq를 새로 대조했다. 표시한 용도·관할·신청주체·선택부분에 한정해 원본 다운로드를 제공한다. 다른 급여·다른 지역·단계까지 승인하지 않으며 원본 바이트는 변경하지 않는다."
         }
       ],
       "relatedArticles": [
@@ -2379,42 +2380,79 @@
         "제42조(지급액) 시장은 제41조에 따른 생활지원금 지급대상자에게 예산의 범위에서 생계지원비는 매월 10만 원, 민주명예수당은 매월 5만 원, 장제비는 100만 원을 지급한다.",
         "제43조(지급신청)① 생활지원금의 지급을 신청하고자 하는 5ㆍ18민주유공자와 유가족은 별지 제3호서식의 5ㆍ18민주유공자 생활지원금 지급신청서(이하 “지급신청서”라 한다)를 주민등록지 동장에게 제출하여야 한다. 다만, 장제비는 유가족 또는 실제로 장례를 치른 사람이 신청할 수 있다.② 제1항에 따라 생활지원금의 지급을 신청할 경우에는 다음 각 호의 서류를 첨부하여야 한다.1. 지급신청서 1부2. 5ㆍ18민주유공자증 또는 5ㆍ18민주유공자 유족증(회원으로 등록된 사람의 경우 회원증명서) 사본 1부3. 지급대상자의 통장 사본 1부4. 사망진단서(장제비의 경우에 한한다) 1부5. 사실확인서(유가족 대신 장례를 실제로 치른 경우에 한한다) 1부6. 가족관계를 증명할 수 있는 서류(신청자가 형제자매인 경우에 한한다) 1부③ 생계지원비 및 민주명예수당은 지급신청서 접수 후 15일 이내에 지급 여부를 결정하여 신청자에게 별지 제4호서식의 5ㆍ18민주유공자 생활지원금 지급 결정 통지서를 송부하고, 지급대상자에게는 매월 말일까지 통장으로 지급한다.④ 장제비는 지급신청서 접수 후 7일 이내에 신청자에게 지급결정을 통지하고 지급한다.⑤ 그 밖에 생활지원금 지급절차 등에 관하여 필요한 세부 사항은 시장이 정한다."
       ],
-      "reviewedBy": "codex-national_form_audit",
+      "reviewedBy": "codex-coordinator-with-independent-source-review",
       "reviewedAt": "2026-10-19",
       "unresolvedNotes": [
         "공식 MCP 2026-10-19 검색: 전남광주통합특별시 5·18민주유공자 생활지원금 지급 조례 정확 제명 0건; 전남광주통합특별시 5 검색 16건 중 해당 생활지원금 승계 법규 없음. source_current는 구 광주광역시 2032093의 목록 잔존을 확인한 상태이며 관할 승계 적용 확인을 대신하지 않음."
       ],
       "sourceBodyPath": "logs/forms-completion/law-bodies/2032093.json.gz",
       "sourceBodySHA256": "7157f242edd9fb773461ae3ef1d02f5148c4807d0937c0a32e9eb1244deb908d",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
-        "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2032093",
-            "status": "prior_full_body_review_reused",
-            "newEvidence": "기존 구 광주법규와 통합시 사업 법규가 다름",
-            "savedEvidence": []
-          },
-          {
-            "status": "official_MCP_current_search_16_results_exact_benefit_not_located",
-            "newEvidence": "정확 승계급여의 법규/부칙을 확보하지 못함",
-            "savedEvidence": []
-          },
-          {
-            "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2094225",
-            "status": "official_indexed_text_reviewed",
-            "newEvidence": "검색에 잡힌 전라남도 명예수당 조례는 구 광주원본의 통합시 적용을 증명하지 않음",
-            "savedEvidence": []
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8206.json",
+        "sourceResultSHA256": "5c79bf1a9f130b0d774c64d9397c9da3e91e30ab3fc673ce4f6a5ec8b5f0da2d",
+        "coordinatorPlanSHA256": "b39f6a7c51239b1120ef335232e62f0037fc4ffe7f8b521260284282fd9b1128",
+        "proposedStatus": "approved_exact_current_conditional_route",
+        "allOriginalsMatched": false,
+        "coordinatorEvidenceCorrectionSHA256": "8e0139b5c97a33309492eda40b740676dc0303670a1d093c9505c1700d19bd57"
       },
       "relatedProgramIds": [
         "s12000.gov24-629000000179"
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "공식 MCP의 현행 전남광주통합특별시 5 검색16건과 국가법령센터의 생활지원금 검색을 재확인했으나 정확 통합특별시 승계급여 조례·부칙·현재 배포파일을 확보하지 못했다. 구 광주2032093의 생계·민주명예·장제비 원본을 통합시 전체 사업에 확대하지 않는다. 검색 미확보이며 서식 부재 판정이 아니다.",
+          "relatedProgramIds": [
+            "s12000.gov24-629000000179"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "s12000.gov24-629000000179",
+              "disposition": "not_connected",
+              "reason": "구 광주광역시 조례 제41조~제43조와 별지 제3호 전체는 생계지원비·민주명예수당·장제비 신청에 정확히 대응한다. 다만 현 사업은 전남광주통합특별시 주민과 별도의 통합특별시 생활지원금 조례를 인용한다. 공식 MCP의 정확 제명 및 넓은 전남광주통합특별시 5 검색에서 해당 승계 조례를 확보하지 못했다. 구 기관 원본이 현재 관할 전체에 계속 적용되는지 부칙·승계 근거를 확인하기 전 보류한다. 검색 실패를 서식 부재로 판정하지 않는다.",
+              "applyType": "self",
+              "applyMethod": "○ 방문 신청 : 거주지 관할 동 주민센터에 방문 신청",
+              "target": "○ 신청일을 기준으로 국가보훈처에 등록된 5·18민주유공자와 그 유족 중 전남광주통합특별시에 주민등록을 두고 실제로 거주하고 있는 자\n- 생계지원비 : 월 소득액이 「국민기초생활보장법」에 따른 중위소득의 100% 이하인 가구(세대) 또는 만 65세 이상인 자\n- 민주명예수당 : 생계지원비를 지급받지 못하는 대상자\n- 장제비 : 5·18민주유공자 본인이 사망한 가구"
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team1/team1-results.json",
+            "sourceResultSHA256": "1636a6e15bbf67808ab71c4d605f84f84d98ec0f4e389ea11ddb598de11ab1b8",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2032093",
+                "status": "prior_full_body_review_reused",
+                "newEvidence": "기존 구 광주법규와 통합시 사업 법규가 다름",
+                "savedEvidence": []
+              },
+              {
+                "status": "official_MCP_current_search_16_results_exact_benefit_not_located",
+                "newEvidence": "정확 승계급여의 법규/부칙을 확보하지 못함",
+                "savedEvidence": []
+              },
+              {
+                "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2094225",
+                "status": "official_indexed_text_reviewed",
+                "newEvidence": "검색에 잡힌 전라남도 명예수당 조례는 구 광주원본의 통합시 적용을 증명하지 않음",
+                "savedEvidence": []
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "approvedAssociations": [
+        {
+          "programId": "s12000.gov24-629000000179",
+          "formId": "ordin-19755173",
+          "use": "conditional"
+        }
       ]
     },
     {

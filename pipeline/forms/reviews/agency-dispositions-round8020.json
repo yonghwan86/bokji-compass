@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "status": "complete",
+  "items": [
+    {
+      "formId": "agency-44210-health-cts2393-initial-voucher",
+      "sha256": "369b21f72eae53a8d7bee4c7292e915d488cd76733e3fe9cc30778081cc21d39",
+      "disposition": "approved",
+      "fullBodyReviewed": true,
+      "reason": "서산시보건소 primary2393의 실제 GET200 HTML/SHAed39eba16ff6b9f76927650cd6b650d5d09c7d8c4d9ce927e038833a411f6a5d를 독립 판독했다. 신청대상은 서산시 주민등록 모든 산모이며 같은 안내의 가형(수급·차상위),통합형(중위150%이하),라형(초과)을 함께 제시하고 구비서류 사회보장급여 신청서가 정확 cts2393_file01.hwp를 직접 링크한다. 실제기관HWP108032바이트/SHA369b21f72eae53a8d7bee4c7292e915d488cd76733e3fe9cc30778081cc21d39의전체Section0 2685자와BinData0 및원본미리보기를읽었다. 기본지원 자격확인/소득기준이하와 예외지원대상(해당자만)이 병렬이고 국가·도지원을 받지못한다는 공통확약이나 서산3개월거주 일괄확약이 없다. 국가PTR000050390의수급·차상위/150%이하,시도·시군구예외,주소지보건소접수·초기가정방문서비스이용권과직접대응한다. 따라서국가기본대상접수에도이기관배포원본을쓴다는직접근거가있으며종전미확인은해소된다. 다만서산조례2161415의국가/도지원밖시추가지원별지22392705와같은원본으로치환하지않는다. 기관파일의기저귀·조제분유영역과사후본인부담금환급은이번연결밖이며,30일/60일공식안내차이는접수기한확인문제로별도보존한다. 총괄은 현재공식페이지의 전체대상·가/통합/라형 및 직접CTS첨부, 원본SHA·전체2685자·실제한글1쪽을 확인했다. 국가기본과지역예외의 초기이용권 접수라는 의미관계를 독립재검증하고 exact프로그램·서산지역·원본·안내페이지SHA에 결속된 별도선택경로만 승인한다. 기존지방조례22392705를 승인/covered하지 않는다.",
+      "evidenceUrl": "https://www.seosan.go.kr/health/contents.do?key=2393",
+      "checkedAt": "2026-10-23",
+      "relatedProgramIds": [
+        "n.gov24-PTR000050390"
+      ],
+      "reviewedProgramPairs": [
+        {
+          "programId": "n.gov24-PTR000050390",
+          "disposition": "approved"
+        }
+      ],
+      "sourceProposal": "logs/forms-completion/gyeonggi-20261019/root/normalized-round8020.json",
+      "sourceProposalSHA256": "874078e09720941c5ef282d0b5d326aee1c2f0dd6f663f867de452b0550c67b9",
+      "sourceLawBodySHA256": null,
+      "sourcePageSHA256": "ed39eba16ff6b9f76927650cd6b650d5d09c7d8c4d9ce927e038833a411f6a5d",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "서산시 보건소 접수용 산모·신생아 건강관리 이용권 신청서",
+        "evidenceUrl": "https://www.seosan.go.kr/health/contents.do?key=2393",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "서산시보건소 primary2393의 실제 GET200 HTML/SHAed39eba16ff6b9f76927650cd6b650d5d09c7d8c4d9ce927e038833a411f6a5d를 독립 판독했다. 신청대상은 서산시 주민등록 모든 산모이며 같은 안내의 가형(수급·차상위),통합형(중위150%이하),라형(초과)을 함께 제시하고 구비서류 사회보장급여 신청서가 정확 cts2393_file01.hwp를 직접 링크한다. 실제기관HWP108032바이트/SHA369b21f72eae53a8d7bee4c7292e915d488cd76733e3fe9cc30778081cc21d39의전체Section0 2685자와BinData0 및원본미리보기를읽었다. 기본지원 자격확인/소득기준이하와 예외지원대상(해당자만)이 병렬이고 국가·도지원을 받지못한다는 공통확약이나 서산3개월거주 일괄확약이 없다. 국가PTR000050390의수급·차상위/150%이하,시도·시군구예외,주소지보건소접수·초기가정방문서비스이용권과직접대응한다. 따라서국가기본대상접수에도이기관배포원본을쓴다는직접근거가있으며종전미확인은해소된다. 다만서산조례2161415의국가/도지원밖시추가지원별지22392705와같은원본으로치환하지않는다. 기관파일의기저귀·조제분유영역과사후본인부담금환급은이번연결밖이며,30일/60일공식안내차이는접수기한확인문제로별도보존한다. 총괄은 현재공식페이지의 전체대상·가/통합/라형 및 직접CTS첨부, 원본SHA·전체2685자·실제한글1쪽을 확인했다. 국가기본과지역예외의 초기이용권 접수라는 의미관계를 독립재검증하고 exact프로그램·서산지역·원본·안내페이지SHA에 결속된 별도선택경로만 승인한다. 기존지방조례22392705를 승인/covered하지 않는다.",
+        "pageSHA256": "ed39eba16ff6b9f76927650cd6b650d5d09c7d8c4d9ce927e038833a411f6a5d"
+      },
+      "selectedParts": [
+        {
+          "number": "별지 제1호의4서식 중 산모신생아 부분",
+          "title": "사회보장급여(사회서비스이용권) 신청(변경)서",
+          "use": "conditional",
+          "author": "서산시 주소지의 산모 본인 또는 국가안내·원문에서 허용하는 대리신청인",
+          "scope": "공통인적·가족사항,산모신생아건강관리지원 선택·기본/해당예외유형,관련개인정보동의·유의사항·증빙·서명. 기저귀·조제분유지원선택영역은제외."
+        }
+      ]
+    }
+  ],
+  "scopeFile": "pipeline/forms/reviews/agency-originals-scope-round8020.json",
+  "scopeSHA256": "04a9b9d3ad16b8735d0deaf62af8ffd5dc32c5ef5a09e834ec1e47244f5f3897"
+}

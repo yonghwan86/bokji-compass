@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "baselineCommit": "3d18964c8bce6af8fd955e309a00cc2d6346b1ec",
+  "scope": "Bounded reassessment of13 fixed-scope originals and one separate agency original. Publish10 fixed originals plus one closed2026-round agency original as12 exact conditional associations. The full4006 scope remains incomplete.",
+  "reviewedFixedOriginals": 13,
+  "reviewedAgencyOriginals": 1,
+  "newlyPublishedOriginals": [
+    {
+      "formId": "agency-52180-jeongeup-249275",
+      "sourceKind": "agency",
+      "sha256": "70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9",
+      "bytes": 77176,
+      "format": "hwpx",
+      "publicPath": "/forms/files/agency-52180-jeongeup-249275-70f20a2cf418.hwpx",
+      "sourceUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+      "associations": [
+        {
+          "programId": "g52180.bokjiro-WLF00001439",
+          "displayTitle": "2026 회차자료 · 접수종료(2025.12.17~12.30) — 별별꿈 재능바우처 지원사업 신청서",
+          "use": "conditional",
+          "condition": "2026년 별별꿈 재능바우처 지원사업의 모집 회차 자료입니다. 신청 접수는 2025.12.17~12.30에 종료됐으며 현재 신규 접수나 다음 회차 신청용을 뜻하지 않습니다. 해당 회차의 지원기간은 2026.2~12월입니다. 신청서(붙임1), 개인정보 동의서(붙임2), 이용안내(붙임3)를 원문 그대로 제공합니다. 월 학원비15만원 기준 시65%·협력학원25%·학생10% 조건이며, 지원대상과 구비서류는 해당 공고의 정확한 기준을 확인하세요. 화면작성 기능은 제공하지 않으며 내려받기는 접수 완료를 뜻하지 않습니다.",
+          "evidenceUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-13732705",
+      "sourceKind": "ordin",
+      "sha256": "43f7375af96a950e56400412361c62e65c4960d26040a800d3aed78672a83b06",
+      "bytes": 14336,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-13732705-43f7375af96a.hwp",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=120080069&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%B2%B4%EC%9C%A1%EC%8B%9C%EC%84%A4+%EC%82%AC%EC%9A%A9+%EB%B3%80%EA%B2%BD%ED%97%88%EA%B0%80+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "associations": [
+        {
+          "programId": "g41310.gov24-O00005100001",
+          "displayTitle": "구리시 체육시설 전용사용 변경허가 신청서(기존 허가 행사)",
+          "use": "conditional",
+          "condition": "구리시체육관의 경기장·세미나실을 이미 전용사용 허가받은 경기·행사 주최자 또는 신청인이 사용목적·기간·부대시설·사용료 등 허가받은 내용을 변경할 때만 사용하는 후속 신청서입니다. 이 사업의 체육진흥 경기·행사 감면에 해당하더라도 감면사유 증빙과 변경허가는 별도이며, 이 변경신청서 제출만으로 감면의 신규 승인·변경·승계가 자동으로 인정되지는 않습니다. 일반 강좌 가입, 개인 연습사용 또는 신규 감면신청서로 쓰지 않습니다. 원본의 사용기간 칸에 선인쇄된 200년 표기는 실제 사용연도에 맞게 작성해야 합니다.",
+          "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00005100001"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-19755173",
+      "sourceKind": "ordin",
+      "sha256": "82757c4193ccddec079f70bf6af7acb1f6896d95c93cbcb411b3ba8f9289486e",
+      "bytes": 57856,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-19755173-82757c4193cc.hwp",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=151339149&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D+5%C2%B718%EB%AF%BC%EC%A3%BC%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%83%9D%ED%99%9C%EC%A7%80%EC%9B%90%EA%B8%88+%EC%A7%80%EA%B8%89%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "associations": [
+        {
+          "programId": "s12000.gov24-629000000179",
+          "displayTitle": "5·18 생활지원금 신청서(종전 광주 5개 구)",
+          "use": "conditional",
+          "condition": "종전 광주광역시 5개 구(동구·서구·남구·북구·광산구)에 주민등록을 두고 실제 거주하는 해당 5·18민주유공자·유가족의 생계지원비(월10만원), 민주명예수당(월5만원) 또는 유공자 본인 사망 시 장제비(100만원) 신청에만 사용합니다. 해당 지급구분을 선택하고 주소지 동 행정복지센터에 제출합니다. 생계지원비와 민주명예수당은 중복 지급되지 않으며, 장제비는 유가족 또는 실제 장례를 치른 사람의 법정 신청요건과 증빙을 갖추어야 합니다. 아래 확인사항 표는 담당자 작성 부분입니다. 원본의 광주광역시 명칭은 보존되어 있으며, 종전 전남 지역의 다른 금액·요건이나 통합특별시 전역으로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/629000000179"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22255373",
+      "sourceKind": "ordin",
+      "sha256": "759684c3fc44726049fa8753aef0593b8ac8a8fad82b845681dfca94e53a3e18",
+      "bytes": 35296,
+      "format": "hwpx",
+      "publicPath": "/forms/files/ordin-22255373-759684c3fc44.hwpx",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167693541&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84+%EC%B6%9C%EC%83%9D%EA%B8%B0%EB%B3%B8%EC%86%8C%EB%93%9D+%EB%B0%B0%EC%9A%B0%EC%9E%90+%EB%93%B1+%EC%88%98%EB%A0%B9+%EB%8F%99%EC%9D%98%EC%84%9C",
+      "associations": [
+        {
+          "programId": "s12000.gov24-646000000234",
+          "displayTitle": "출생기본소득 배우자 수령 동의서(종전 전남 도급여)",
+          "use": "conditional",
+          "condition": "종전 전라남도 지역에 적용되는 출생기본소득의 도급여(월10만원 한도) 부분에서, 같은 아동의 보호자가 2명 이상이고 배우자인 다른 보호자가 수령하도록 동의하는 경우에만 쓰는 부속서류입니다. 수령을 양보하는 배우자가 본인의 성명·주소·생년월일 및 수령 배우자 성명을 적고 자필 서명합니다. 원본 본문은 배우자 수령 동의이므로 친족·제3자의 일반 대리신청 위임장이나 모든 타인계좌 수령에 사용하지 않습니다. 종전 광주 지역 또는 통합시 전역으로 확대하지 않으며, 시군의 추가10만원 급여에는 각 시군의 별도 적용근거 없이 자동 적용하지 않습니다.",
+          "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/646000000234"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22255375",
+      "sourceKind": "ordin",
+      "sha256": "9be92b87549e1410ba24d69f4a8319f7317ca9da33b4e75adf93e6c2344d6a58",
+      "bytes": 28517,
+      "format": "hwpx",
+      "publicPath": "/forms/files/ordin-22255375-9be92b87549e.hwpx",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167693543&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84+%EC%B6%9C%EC%83%9D%EA%B8%B0%EB%B3%B8%EC%86%8C%EB%93%9D+%EC%86%8C%EA%B8%89+%EC%A7%80%EA%B8%89+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "associations": [
+        {
+          "programId": "s12000.gov24-646000000234",
+          "displayTitle": "출생기본소득 예외 소급 신청서(종전 전남 도급여)",
+          "use": "conditional",
+          "condition": "종전 전라남도 지역의 도급여 출생기본소득을 이미 받다가 조례 제7조제1항제2~5호 사유(아동의 사망·행방불명·실종 신고, 거주불명 등록, 수급 거부 또는 그 밖에 지급중단이 필요하다고 인정된 사유)로 지급이 중단되었고 그 사유가 해소되어 재지급하는 경우의 예외 소급 신청에만 사용합니다. 신청인은 중단 통보와 소명 내용을 적어 제출하며, 운영위원회 심의와 소급 필요 인정이 있어야 지급할 수 있습니다. 늦은 최초신청 이전 기간이나 전출·자격상실인 제1호의 중단기간에 대한 소급신청으로 쓰지 않습니다. 제출만으로 소급 지급이 보장되지 않으며, 통합시 전역이나 시군 추가급여로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/646000000234"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22321711",
+      "sourceKind": "ordin",
+      "sha256": "852577bd8fa941dce0b78aee814b339864f3b8d376024fb8040465b39732cd8b",
+      "bytes": 97750,
+      "format": "hwpx",
+      "publicPath": "/forms/files/ordin-22321711-852577bd8fa9.hwpx",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=167893977&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%B6%9C%EC%82%B0%EC%84%9C%EB%B9%84%EC%8A%A4+%ED%86%B5%ED%95%A9%EC%B2%98%EB%A6%AC+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "associations": [
+        {
+          "programId": "g12740.gov24-488000000129",
+          "displayTitle": "고흥군 출산장려금 통합신청서(지자체 기재 확인)",
+          "use": "conditional",
+          "condition": "고흥군 출산장려금·양육비 지원을 조례 제6조의 출산서비스 통합처리로 신청하는 경우에만 제공합니다. 공통 신청인·출생아·가족관계·출생순위·지급계좌와 대상서비스 기재 부분을 이용하며 고흥군의 실제 지원명을 기재하는 방식은 읍·면의 접수 안내에 따릅니다. 지방자치단체 서비스란은 「지자체별 작성」으로 표시된 예시 영역이므로 둘째 이상 선택지·00은행·000보건소를 고흥의 지원자격이나 실제 기관으로 적용하지 않습니다. 첫째아를 제외하거나 다른 출생순위에 체크하도록 안내하지 않습니다. 원본을 임의로 고쳐 완성된 고흥 전용 양식으로 만들지 않으며, 다른 전국 공통급여·사진/축하금·산후회복비·교육비 신청으로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2157025"
+        },
+        {
+          "programId": "g12740.gov24-488000000107",
+          "displayTitle": "고흥군 산모건강회복비 통합신청서(지자체 기재 확인)",
+          "use": "conditional",
+          "condition": "고흥군 산모건강회복비(현행 조례 제14조제2항제1호·별표2의 산후조리비)를 읍·면에서 통합 신청하는 경우에만 사용합니다. 출산일 현재 출생아와 산모가 고흥군에 주소를 두고 거주하는 경우의 분만당1회 지원이며, 분만지역·출생순위·소득·장애 유형에 따른 증빙을 별도로 준비합니다. 현재 정확한 사업 안내는 아이 출생등록일부터3개월 이내 접수와 관내 출산의 산후조리원 영수증·이용확인서 등을 안내합니다. 공통 신청인·출생아·가족/출생순위·급여계좌·대상서비스 부분에 실제 고흥 산후조리비 지원을 특정하며 지방서비스 예시의 둘째 이상 선택지·00은행·000보건소를 자격요건으로 적용하지 않습니다. 첫째아를 제외하거나 거짓 출생순위에 체크하지 않습니다. 별표2의 별도 급여인 관내 산부인과 분만의료비 최대50만원 신청이나 산모신생아 바우처 본인부담금 환급으로 확대하지 않습니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2157025"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22337089",
+      "sourceKind": "ordin",
+      "sha256": "498d5b69f13835160ba157e1f80858a695d227e4417dc0241737796b564d8221",
+      "bytes": 256473,
+      "format": "hwpx",
+      "publicPath": "/forms/files/ordin-22337089-498d5b69f138.hwpx",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168010753&flNm=%EB%B3%84%EC%A7%80%EC%84%9C%EC%8B%9D",
+      "associations": [
+        {
+          "programId": "s30000.gov24-630000000660",
+          "displayTitle": "대전 다자녀 수도요금 감면 신청서(서식 모음 중 제21호)",
+          "use": "conditional",
+          "condition": "대전광역시에 주민등록을 두고 거주하는 자녀가 2명 이상이고 막내자녀가 18세 이하인 가정의 상수도요금 감면 신청에 사용합니다. 이 파일은 시행규칙의 별지서식을 모두 담고 있으며 그중 「별지 제21호서식」 상수도요금 감면신청서만 해당합니다. 신청구분에서는 대전광역시에 주민등록을 두고 거주하는 자녀의 수를 기준으로 「다자녀가정(2자녀)」 또는 「다자녀가정(3자녀 이상)」에 표시합니다. 이 자녀 수는 나이로 줄지 않으므로 18세를 넘은 자녀도 포함해 셉니다. 아래 다자녀 표에는 서식 안내에 따라 신청일 현재 18세 이하 (손)자녀만 적으며, 표에 적지 않은 자녀도 자녀 수에는 포함됩니다. 자녀 수와 막내 나이는 담당자가 세대별 주민등록표 등본과 필요시 가족관계증명서로 확인합니다. 관할 상수도 지역사업소장에게 제출하며 정부24 온라인 신청도 가능합니다. 국민기초생활수급자(생계·의료)의 가정용 10세제곱미터 요금 감면과는 중복 신청할 수 없습니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2158539"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22371299",
+      "sourceKind": "ordin",
+      "sha256": "49b5991d6753869d07b09067f5108d9359e405aca330073bc42cc4f597157ee7",
+      "bytes": 30208,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-22371299-49b5991d6753.hwp",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168161869&flNm=%EB%B3%84%EC%A7%80+%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D",
+      "associations": [
+        {
+          "programId": "g12850.bokjiro-WLF00004578",
+          "displayTitle": "완도군 출산장려금 통합신청서(별지 제1호)",
+          "use": "conditional",
+          "condition": "완도군에 계속하여 1년 이상 주민등록을 두고 실제 거주하는 부 또는 모(양부 또는 양모를 포함합니다)가 완도군에 출생신고하거나 입양 후 주민등록을 둔 자녀의 출산장려금을 신청할 때 사용합니다. 원칙은 출생(입양)신고 때 읍ㆍ면사무소에서 대상 여부를 확인받고 출생(입양)신고일부터 90일 이내에 이 서식과 구비서류를 내는 것입니다. 다만 부 또는 모의 완도군 주민등록이 1년 미만이면 이 기한 대신, 1년 거주와 실거주 요건을 충족한 날부터 90일 이내에 신청하며 충족한 날부터 지원대상이 됩니다. 앞면의 「완도군 출산장려금」 칸에서 자녀 순위를 표시하고 이전자녀 거주기간란과 부 또는 모 거주기간란을 적습니다. 이전자녀가 13세 이상이면 주민등록과 관계없이 자녀 순위에 포함되므로 거주기간란을 채우기 어려우면 가족관계증명서(상세)를 갖추고 읍ㆍ면사무소에 문의하세요. 자녀 순위와 거주기간은 담당공무원이 주민등록 초본과 가족관계증명서로 확인합니다. 통장 사본은 출생아의 부 또는 모 명의로 준비합니다. 부모 또는 양부모의 전입신고일은 출생신고일(입양아는 가족관계등록부에 등록된 날)보다 이전이어야 합니다. 부모가 모두 사망한 경우에는 출생아와 완도군 주민등록상 세대를 같이 하는 법정부양자가 지원대상자가 됩니다. 입양·재혼 가정의 이전자녀 순위는 가족관계증명서(상세)상 친자관계와 신청일 현재 부 또는 모와 같은 주민등록 세대라는 추가 요건도 확인해야 합니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160269"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22371301",
+      "sourceKind": "ordin",
+      "sha256": "64ee7db80102b2e8058b39e981b3dc35ca07575221f451bd1d6350b6f928e25c",
+      "bytes": 55136,
+      "format": "hwpx",
+      "publicPath": "/forms/files/ordin-22371301-64ee7db80102.hwpx",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168161871&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C2%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EB%91%98%EC%A7%B8%EC%95%84+%EC%9D%B4%EC%83%81+%EB%8F%8C%EB%A7%9E%EC%9D%B4+%EC%B6%95%ED%95%98%EA%B8%88+%EC%A7%80%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "associations": [
+        {
+          "programId": "g12850.bokjiro-WLF00000233",
+          "displayTitle": "완도군 둘째아 이상 돌맞이 축하금 신청서",
+          "use": "conditional",
+          "condition": "완도군에 출생신고한 뒤 출생아와 부 또는 모(양부 또는 양모를 포함합니다)가 계속하여 1년 이상 주민등록을 둔 둘째아 이상 아동의 돌맞이 축하금 신청에 사용합니다. 완도군에 출생신고를 한 뒤 1년이 지난 시점부터 60일 이내에 읍ㆍ면사무소에 제출합니다. 자녀순위 칸에서 둘째 이상을 표시하고 신청인 예금통장 사본, 주민등록등본, 가족관계증명서, 이전자녀 주민등록 초본을 함께 준비합니다. 뒷면은 담당공무원이 거주기간을 대조하는 확인란입니다. 뒷면에 적힌 이전자녀 거주 조건과 달리 현행 조례는 이전자녀가 13세 이상이면 주민등록과 관계없이 자녀 순위에 포함하므로, 해당하면 가족관계증명서(상세)를 갖추고 읍ㆍ면사무소에 문의하세요. 출산장려금은 이 서식이 아니라 별지 제1호서식으로 신청합니다. 입양·재혼 가정의 이전자녀 순위에는 가족관계증명서(상세)상 친자관계와 신청일 현재 부 또는 모와 같은 주민등록 세대라는 추가 요건도 적용됩니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160269"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22498211",
+      "sourceKind": "ordin",
+      "sha256": "8018eecb694d4c1ccd89aae3ed9f62825f45d006c92d7094e39c3e1e8ea4733d",
+      "bytes": 48640,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-22498211-8018eecb694d.hwp",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?gubun=ELIS&flSeq=168772563&flNm=%5B%EB%B3%84%EC%A7%80+%EC%A0%9C12%ED%98%B8%EC%84%9C%EC%8B%9D%5D+%EC%9B%90%EC%A3%BC%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C+%ED%98%84%EA%B8%88%ED%95%A0%EC%9D%B8%EA%B5%AC%EB%A7%A4+%EC%8B%A0%EC%B2%AD%EC%84%9C",
+      "associations": [
+        {
+          "programId": "g51130.gov24-419000000129",
+          "displayTitle": "원주사랑상품권 개인 지류 현금할인구매 신청서",
+          "use": "conditional",
+          "condition": "원주사랑상품권을 개인이 지류권으로 현금(계좌이체 포함) 할인구매하는 법정 경로를 이용할 때만 사용하는 별지12입니다. 개인 구분과 구매금액·현재 판매하는 권종/매수·서명 및 해당 개인정보 동의를 작성하고 실명확인증표를 준비하여 취급 운영대행사 또는 판매대행점에 제출합니다. 앱의 카드·모바일 충전에 필요한 서식이라는 뜻은 아니며 법인·단체 구매에 연결하지 않습니다. 실제 지류 판매 여부·취급 영업점·권종·할인율·개인한도는 판매 당시 원주시 및 취급점 안내를 따릅니다. 규칙의 최대100만원을 현재 구매한도로 안내하지 않으며, 현재 일반 안내의 월30만원·6~10% 지원과 달라질 수 있는 지류 판매조건은 별도로 확인해야 합니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2165511"
+        }
+      ]
+    },
+    {
+      "formId": "ordin-22876359",
+      "sourceKind": "ordin",
+      "sha256": "912ba7b4bcce0ee9a3fe01ab15b223281bf97b60066e135eef4a369d34e020ea",
+      "bytes": 36868,
+      "format": "hwp",
+      "publicPath": "/forms/files/ordin-22876359-912ba7b4bcce.hwp",
+      "sourceUrl": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170598879",
+      "associations": [
+        {
+          "programId": "s11000.gov24-611000000174",
+          "displayTitle": "서울시 수용가 수질검사 신청서(수도사업소 제출)",
+          "use": "conditional",
+          "condition": "서울시 수돗물을 사용하는 가구 등이 아리수 품질확인제의 수용가 수질민원을 관할 수도사업소에 서면으로 신청하는 경우에만 사용하는 소비자용 별지40입니다. 고객번호·사용자명·시설물 주소·민원내용과 신청인 관계를 기재하는 용도입니다. 전화·온라인 신청자에게 이 종이서식을 추가로 반드시 제출하도록 안내하지 않습니다. 서울물연구원에 검체·수처리제·수도용 자재를 보내는 실험실 검사 의뢰서(별지39)나 급수관 교체·요금감면 신청서에는 적용하지 않습니다. 원본에는 처리기간20일이 인쇄되어 있으며 현장 검사일정·검사범위는 수도사업소의 실제 안내에 따릅니다.",
+          "evidenceUrl": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2178947"
+        }
+      ]
+    }
+  ],
+  "newPublishedOriginals": 11,
+  "newFixedOriginalsLinked": 10,
+  "newAgencyOriginals": 1,
+  "newProgramAssociations": 12,
+  "newlyConnectedProgramRecords": 9,
+  "publishedOriginals": 2816,
+  "publishedPrograms": 2546,
+  "publishedAssociations": 3543,
+  "savedOriginals": 4906,
+  "uniqueOriginalContents": 4870,
+  "fixedScopeCounts": {
+    "reviewed_not_linked": 1983,
+    "linked": 1943,
+    "covered_by_existing": 14,
+    "requires_external_confirmation": 65,
+    "replacement_available": 1
+  },
+  "remainingExternalOriginals": 65,
+  "protectedOriginalReplacementPending": 1,
+  "fullScopeMatchingComplete": false,
+  "allOriginalsMatched": false,
+  "notPublishedThisBatch": [
+    {
+      "formId": "ordin-17576457",
+      "currentState": "requires_external_confirmation",
+      "reason": "옹진 묶음은 최초신청과 기관 대장·통지로 구성되어 있으며 신규 접수 중단 이후의 해당 원본 사용 근거가 이번 회차에 확정되지 않았다."
+    },
+    {
+      "formId": "ordin-20232531",
+      "currentState": "requires_external_confirmation",
+      "reason": "D회차는 통합처리 준용과 개별 보험정보 별지의 접수 관계를 추가 확인 대상으로 남겼다. 이후 E회차 제안은 별도 검증·반영 전이며 이 집계에 합산하지 않는다."
+    },
+    {
+      "formId": "ordin-22255241",
+      "currentState": "requires_external_confirmation",
+      "reason": "종전 전남 자체 입양지원과 현재 수록된 전국법 근거 입양축하금의 급여 동일성이 확정되지 않았다."
+    }
+  ],
+  "sourceReviewFiles": [
+    "municipal-reviewed-round8206.json",
+    "municipal-reviewed-round8017.json"
+  ],
+  "originalNativePageReview": {
+    "originals": 11,
+    "pages": 49,
+    "daejeonBundlePages": 30,
+    "daejeonSelectedFormPages": [
+      21,
+      22
+    ],
+    "method": "All original body sections were inspected. Every native page was viewed; Daejeon all30 in contact sheets plus selected21/22 full-size, all other19 pages full-size. This does not approve the28 other annex purposes in the Daejeon bundle."
+  },
+  "specialActBasis": {
+    "lawId": "015064",
+    "mst": "291147",
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=291147",
+    "snapshotSHA256": "c15876541390275a1e22a8a9c03537625920b83f8da40db96bd43f88143be7c7",
+    "scope": "Addendum10(1) retains prior ordinances only within their former region until replacement; addendum14 retains existing regional services. The60-day old-name document provision is not extended."
+  },
+  "writing": {
+    "newVerifiedConversions": 5,
+    "verifiedConversions": 2497,
+    "verifiedPages": 4265,
+    "writableManifests": 1218,
+    "unsupported": 1279,
+    "newWandoHold": {
+      "formId": "ordin-22371299",
+      "sourceSHA256": "49b5991d6753869d07b09067f5108d9359e405aca330073bc42cc4f597157ee7",
+      "openedBeforeHold": 106,
+      "otherBenefitSlots": 13,
+      "coreWandoSelectionSlotsSupported": 5,
+      "actualClaudeReviewSHA256": "3d87f400da38337a20dad45a991508991fcb8b261d3db04154e94f32e9b52059",
+      "originalAndConversionRetained": true,
+      "previouslyReportedCounts": {
+        "openedBeforeHold": 109,
+        "staffSlots": 22
+      },
+      "manifestSlotsTotal": 109,
+      "manifestSlotsLocked": 3,
+      "staffSlotsTotal": 22,
+      "staffSlotsOpen": 20,
+      "staffSlotsLocked": 2,
+      "otherBenefitSlotsOpen": 13,
+      "slotCountCorrectedAt": "2026-10-23",
+      "correctionFile": "official-writing-slot-recount-20261023e.json"
+    },
+    "newlyPublishedOriginalsHaveScreenWriterEnabled": false
+  },
+  "orchestration": {
+    "codex": "Coordinator original/native-page/current-law/annex and byte verification, integration and final tests. Native Codex researchers are not represented as Claude or Grok.",
+    "claude": {
+      "actualPane": "w4:p2",
+      "completed": true,
+      "normalizationReviewSHA256": "1af301b60ee170fadf5671441be85b8e78948ff090b921de7019e2d2d1cf77d8",
+      "conditionReviewSHA256": "c43f659bf429405c8c9539ed92b3ed4c96f361adfe75558adb9efc91b7a75c1c",
+      "requiredConditionCorrectionsAdopted": true,
+      "writerScopeReviewSHA256": "3d87f400da38337a20dad45a991508991fcb8b261d3db04154e94f32e9b52059"
+    },
+    "grok": {
+      "actualPane": "w4:p3",
+      "completed": true,
+      "twoRouteCrossreviewSHA256": "8d52328f72237650268a3e5b40dd4b169ba276d04a4af375e1777dd94cfeb43f",
+      "testImplementationReportSHA256": "22f41898087882cbeb87e7552d417a0d5bc208d79d50c6adeb9d5eb49f6451e2",
+      "addedStaticAssociationCases": 12,
+      "e2eRunByCoordinator": true,
+      "finalSourceFollowupSpecSHA256": "0ecb942379e9cb8461a7974f310017f6616734aebee14aa2c435227fe95abe83",
+      "coordinatorFollowup": "Added exact Wando held-manifest404 assertion after the Grok static-case patch; ran the complete158-case suite."
+    }
+  },
+  "validation": {
+    "productionBuild": "passed",
+    "unitTests": 1185,
+    "pythonTests": 277,
+    "desktopAndMobileE2E": 158,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "runtimeManifestsValidated": 1218,
+    "stagedVerification": {
+      "schema": 1,
+      "checkedAt": "2026-10-23",
+      "stagedConversionBlobsVerified": 2497,
+      "stagedManifestBlobsVerified": 1218,
+      "newOfficialOriginalBlobsVerified": 11,
+      "allPublishedOriginalBlobsVerified": 2816,
+      "originalArchiveCopiesMatch": true,
+      "writingScopeHoldRetainsSourceAndConversion": true,
+      "sourceLawCurrencyChangedOnlyEightRecheckedLaws": true,
+      "original4006ScopeUnchanged": true,
+      "welfareBundlesUnchanged": true,
+      "protectedOriginalUnchanged": true
+    },
+    "uiScreens": 4,
+    "horizontalOverflowObserved": false,
+    "boundarySpecSHA256": "f5ee68bbc09f4c78c16f76f93c55aaa3cae9380ac456531de032735ddaead284"
+  },
+  "limitations": [
+    "Jeongeup is a closed2026 intake round, not a claim of current or next-round intake. The old19617443 original is not replaced or automatically covered.",
+    "Original downloads retain official bytes including former names, examples and disclosed staff-instruction differences. Each association has an explicit use condition.",
+    "The Wando screen-writing hold concerns this source ID and SHA only. Other forms are not claimed to have been comprehensively repaired for the same semantic issue.",
+    "New E-round proposals and rejection audits are separate and have not changed the counts in this publication batch."
+  ],
+  "deploymentPerformed": false
+}

@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "rows": [
+    {
+      "formId": "agency-52180-jeongeup-249275",
+      "sourceKind": "agency",
+      "programIds": [
+        "g52180.bokjiro-WLF00001439"
+      ],
+      "programNames": [
+        "별별꿈 재능 바우처 지원"
+      ],
+      "programs": [
+        {
+          "id": "g52180.bokjiro-WLF00001439",
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001439&wlfareInfoReldBztpCd=02"
+        }
+      ],
+      "formTitle": "2026 회차자료 · 접수종료(2025.12.17~12.30) — 별별꿈 재능바우처 지원사업 신청서",
+      "displayTitle": "2026 회차자료 · 접수종료(2025.12.17~12.30) — 별별꿈 재능바우처 지원사업 신청서",
+      "verifiedDocumentTitle": "「별별꿈 재능바우처 지원 사업」신청서",
+      "sourceMetadataTitle": "2026년도별별꿈재능바우처지원사업신청서(동의서포함)양식.hwpx",
+      "role": "application",
+      "use": "conditional",
+      "condition": "2026년 별별꿈 재능바우처 지원사업의 모집 회차 자료입니다. 신청 접수는 2025.12.17~12.30에 종료됐으며 현재 신규 접수나 다음 회차 신청용을 뜻하지 않습니다. 해당 회차의 지원기간은 2026.2~12월입니다. 신청서(붙임1), 개인정보 동의서(붙임2), 이용안내(붙임3)를 원문 그대로 제공합니다. 월 학원비15만원 기준 시65%·협력학원25%·학생10% 조건이며, 지원대상과 구비서류는 해당 공고의 정확한 기준을 확인하세요. 화면작성 기능은 제공하지 않으며 내려받기는 접수 완료를 뜻하지 않습니다.",
+      "regionCode": "52180",
+      "regionLabel": "전북특별자치도 정읍시",
+      "agencyName": "정읍시 인재양성과·초산동",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+      "authorityEvidenceNote": "2026회차 정읍시 공식공고 제2025-2087호(2025-12-15 발행) 및 초산동 게시1395754(2025-12-22)가 직접 배포한 fileSid249275 HWPX를 재다운로드하지 않고 보관된 실제77176바이트를 재해시했다. SHA70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9, Contents/section0~2 전본문3892자, BinData0개를 읽었다. 이번에는 같은공고의 공식PDF249273도 GET하여192425바이트/SHA를 확인하고7쪽 전부 렌더·시각대조했다. PDF4~7쪽의 신청서·동의서·안내와 HWPX의 선택부분이 일치하며 실제개인정보나 선체크된 동의가 없다. 정확사업g52180.bokjiro-WLF00001439의 학원비15만원·시97500원/학원37500원/학생15000원과 목적·관할·수신인·신청주체가 일치한다. 현행조례1938411 제3조는 시장의 기준일·세부선정을, 제4조는 예산범위 지원금액을, 제5조는 읍면동 신청을 정한다. 원법령첨부의60/30비율을 승인한 것이 아니며 이 별도기관배포본의2026회차 사용만 확인한다. 접수종료는 문서의 출처·해당회차 적합성을 없애지 않지만 현재접수 가능성을 뜻하지 않으므로 명확한 종료표시와 작성기차단을 적용하기 전에는 공개수입하지 않는다. D회차는 2026년2~12월 지원 중인 같은 사업에 대한 이미 종료된 모집 원본을 제공하는 목적이다. 새모집으로 표시하지 않도록 현재 카드가 버튼 전에 표시하는 제목과 조건을 구체화했다. 별도신규UI메타데이터를 필수로 요구하지 않으며 HWPX작성허용목록에 등록하지 않는다.",
+      "authorityBasis": {
+        "kind": "official-program",
+        "title": "2026년 별별꿈 재능바우처 지원 사업 참여 대상자 모집 안내",
+        "evidenceUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+        "checkedAt": "2026-10-23",
+        "evidenceNote": "2026-10-23 총괄이 정읍시 공식2026모집 공고를 새로 조회하고 정확한 fileSid249275·접수기간2025-12-17~12-30·지원기간2026-02~12·학원비분담65/25/10을 직접 확인했다. 원본77176바이트/SHA와전체3섹션3892자, 실제한글출력4쪽을전부대조하여 신청·동의란이비어있음을확인했다. 현재진행중인2026지원사업의이미종료된모집회차원본을제공하며,제목과다운로드앞조건에접수종료및신규/다음회차용아님을명시한다. 화면작성허용목록에넣지않고원문다운로드만제공한다. 옛법령첨부19617443의60/30비율이나그바이트를승인·교체·covered처리하지않는다.",
+        "pageSHA256": "8cfec456018a2e560952ef5abbfac1f9c2f11bc28ed17fd96c53198a4f1d4488"
+      },
+      "sourcePageUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+      "sourcePageSHA256": "8cfec456018a2e560952ef5abbfac1f9c2f11bc28ed17fd96c53198a4f1d4488",
+      "sourceUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+      "finalUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+      "attachmentId": "249275",
+      "attachmentIdentifier": {
+        "queryParam": "fileSid",
+        "value": "249275"
+      },
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001439&wlfareInfoReldBztpCd=02",
+      "evidenceUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+      "evidenceNote": "2026회차 정읍시 공식공고 제2025-2087호(2025-12-15 발행) 및 초산동 게시1395754(2025-12-22)가 직접 배포한 fileSid249275 HWPX를 재다운로드하지 않고 보관된 실제77176바이트를 재해시했다. SHA70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9, Contents/section0~2 전본문3892자, BinData0개를 읽었다. 이번에는 같은공고의 공식PDF249273도 GET하여192425바이트/SHA를 확인하고7쪽 전부 렌더·시각대조했다. PDF4~7쪽의 신청서·동의서·안내와 HWPX의 선택부분이 일치하며 실제개인정보나 선체크된 동의가 없다. 정확사업g52180.bokjiro-WLF00001439의 학원비15만원·시97500원/학원37500원/학생15000원과 목적·관할·수신인·신청주체가 일치한다. 현행조례1938411 제3조는 시장의 기준일·세부선정을, 제4조는 예산범위 지원금액을, 제5조는 읍면동 신청을 정한다. 원법령첨부의60/30비율을 승인한 것이 아니며 이 별도기관배포본의2026회차 사용만 확인한다. 접수종료는 문서의 출처·해당회차 적합성을 없애지 않지만 현재접수 가능성을 뜻하지 않으므로 명확한 종료표시와 작성기차단을 적용하기 전에는 공개수입하지 않는다. D회차는 2026년2~12월 지원 중인 같은 사업에 대한 이미 종료된 모집 원본을 제공하는 목적이다. 새모집으로 표시하지 않도록 현재 카드가 버튼 전에 표시하는 제목과 조건을 구체화했다. 별도신규UI메타데이터를 필수로 요구하지 않으며 HWPX작성허용목록에 등록하지 않는다.",
+      "sha256": "70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9",
+      "bytes": 77176,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-52180-jeongeup-249275.hwpx",
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml",
+        "Contents/section2.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 3892,
+      "embeddedResourceCount": 0,
+      "blankApplicantForm": true,
+      "noFilledPersonalDataObserved": true,
+      "reviewedParts": [
+        {
+          "number": "붙임 1",
+          "title": "「별별꿈 재능바우처 지원 사업」신청서",
+          "use": "main",
+          "author": "해당2026회차 지원대상 아동·청소년의 신청인/보호자",
+          "scope": "앞면 신청인·세대주·지원대상자·자부담 선택·서명 및 뒷면 이용안내 전체"
+        },
+        {
+          "number": "붙임 2",
+          "title": "개인정보 수집 활용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "지원대상자와 부·모 등 원문상 동의자",
+          "scope": "수집·이용 및 제3자 제공에 대한 비선택 상태의 동의/비동의란과 서명란 전체"
+        },
+        {
+          "number": "붙임 3",
+          "title": "사업 신청시 안내사항",
+          "use": "additional",
+          "author": "정읍시 안내; 신청인이 값을 작성하는 별도 신청서는 아님",
+          "scope": "2026회차 지원원칙·중복지원·카드 이용·중단 안내"
+        }
+      ],
+      "selectedParts": [
+        {
+          "number": "붙임 1",
+          "title": "「별별꿈 재능바우처 지원 사업」신청서",
+          "use": "main",
+          "author": "해당2026회차 지원대상 아동·청소년의 신청인/보호자",
+          "scope": "앞면 신청인·세대주·지원대상자·자부담 선택·서명 및 뒷면 이용안내 전체"
+        },
+        {
+          "number": "붙임 2",
+          "title": "개인정보 수집 활용 및 제3자 제공 동의서",
+          "use": "additional",
+          "author": "지원대상자와 부·모 등 원문상 동의자",
+          "scope": "수집·이용 및 제3자 제공에 대한 비선택 상태의 동의/비동의란과 서명란 전체"
+        },
+        {
+          "number": "붙임 3",
+          "title": "사업 신청시 안내사항",
+          "use": "additional",
+          "author": "정읍시 안내; 신청인이 값을 작성하는 별도 신청서는 아님",
+          "scope": "2026회차 지원원칙·중복지원·카드 이용·중단 안내"
+        }
+      ],
+      "applicant": "해당2026회차 지원대상 아동·청소년의 신청인/보호자",
+      "roleBasis": "2026회차 정읍시 공식공고 제2025-2087호(2025-12-15 발행) 및 초산동 게시1395754(2025-12-22)가 직접 배포한 fileSid249275 HWPX를 재다운로드하지 않고 보관된 실제77176바이트를 재해시했다. SHA70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9, Contents/section0~2 전본문3892자, BinData0개를 읽었다. 이번에는 같은공고의 공식PDF249273도 GET하여192425바이트/SHA를 확인하고7쪽 전부 렌더·시각대조했다. PDF4~7쪽의 신청서·동의서·안내와 HWPX의 선택부분이 일치하며 실제개인정보나 선체크된 동의가 없다. 정확사업g52180.bokjiro-WLF00001439의 학원비15만원·시97500원/학원37500원/학생15000원과 목적·관할·수신인·신청주체가 일치한다. 현행조례1938411 제3조는 시장의 기준일·세부선정을, 제4조는 예산범위 지원금액을, 제5조는 읍면동 신청을 정한다. 원법령첨부의60/30비율을 승인한 것이 아니며 이 별도기관배포본의2026회차 사용만 확인한다. 접수종료는 문서의 출처·해당회차 적합성을 없애지 않지만 현재접수 가능성을 뜻하지 않으므로 명확한 종료표시와 작성기차단을 적용하기 전에는 공개수입하지 않는다. D회차는 2026년2~12월 지원 중인 같은 사업에 대한 이미 종료된 모집 원본을 제공하는 목적이다. 새모집으로 표시하지 않도록 현재 카드가 버튼 전에 표시하는 제목과 조건을 구체화했다. 별도신규UI메타데이터를 필수로 요구하지 않으며 HWPX작성허용목록에 등록하지 않는다.",
+      "roleEvidenceUrl": "https://www.jeongeup.go.kr/board/download.jeongeup?boardId=BBS_0000012&paging=ok&startPage=1&dataSid=1395754&command=update&fileSid=249275",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "published",
+      "effectiveDate": "2025-12-22",
+      "publishedAt": "2025-12-22",
+      "noticeIssuedAt": "2025-12-15",
+      "noticeNumber": "정읍시 공고 제2025-2087호",
+      "annexId": "",
+      "annexNumber": "",
+      "lawId": "",
+      "lawTitle": "",
+      "lawEvidenceUrl": "",
+      "lawEffectiveDate": "",
+      "lawCurrentCheckedAt": "",
+      "legalReferencesAsCited": [
+        "정읍시 방과후 교육지원에 관한 조례(현행1938411), 제3조·제4조·제5조"
+      ],
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "roundSpecificUseConfirmed": true,
+      "currentNewApplicationConfirmed": false,
+      "currentUseConfirmed": false,
+      "publicationApproved": true,
+      "proposalStatus": "coordinator_verified_closed_2026_round_original_download_only",
+      "relatedUnmatchedOriginalId": "ordin-19617443",
+      "relatedUnmatchedOriginalSHA256": "5d4321fe899bff69eb11c50ddee3f4f4c33e5c099d655791ba87e9101cda9b47",
+      "oldOriginalStatusUnchanged": true,
+      "applicationWindow": {
+        "roundYear": 2026,
+        "applicationStartsAt": "2025-12-17",
+        "applicationEndsAt": "2025-12-30",
+        "closedAtCheck": true,
+        "benefitStartsMonth": "2026-02",
+        "benefitEndsMonth": "2026-12",
+        "currentOrFutureApplicationNotAuthorized": true
+      },
+      "ageLabelPreservation": "공고의2026년 기준7~19세 및2008-01-01~2020-12-31 이전 출생자 문구를 그대로 보존. 사이트의만5~17세 및 조례의시장기준일 문구를 임의로 나이 변환하거나 넓히지 않는다.",
+      "sourceProof": {
+        "downloadRecord": "logs/forms-followup-20261023/team1/jeongeup/latest-application.json",
+        "extractedRecord": "logs/forms-followup-20261023/team1/jeongeup/latest-application-extracted.json",
+        "pageRecord": "logs/forms-followup-20261023/team1/jeongeup/latest-notice.json",
+        "actualRawSHARechecked": true,
+        "fetchedAtAsStored": "2026-10-22T17:24:46.337184+00:00",
+        "evidenceReusedWithoutRepeatGET": true,
+        "officialPDFRecord": "logs/forms-followup-20261023c/team2/jeongeup-2026-official-notice-pdf.json",
+        "cProposalPath": "logs/forms-followup-20261023c/team2/jeongeup-2026-closed-round-proposed-v1.json",
+        "cProposalSHA256": "251ff39f6891a2960decc20c4724ec34553885b7bc75e584f921b0adf273aed4"
+      },
+      "wholeBodyCorroboration": {
+        "pdfOriginalPath": "logs/forms-followup-20261023c/team2/jeongeup-2026-official-notice-pdf.pdf",
+        "pdfSHA256": "1c95984ad9d51ec39c6522e63fc42a18901236bba5e9a97094b21ef9aa1bc466",
+        "pdfPagesRead": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7"
+        ],
+        "applicationPages": [
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7"
+        ],
+        "method": "HWPX3개전체섹션과공식PDF7쪽전체시각검토; PDF4~7쪽의동일붙임내용대조",
+        "consentSelectionObserved": "blank",
+        "fullPDFVisualReview": true
+      },
+      "presentationPlan": {
+        "usesExistingFields": true,
+        "newProductCodeRequired": false,
+        "displayTitleAndFormTitleEqual": true,
+        "conditionIsUncollapsedBeforeDownload": true,
+        "writerAllowed": false,
+        "noNewTemplateRegistration": true,
+        "noPaperConversionRegistration": true
+      },
+      "normalizationNote": "C의 별도 archive UI metadata 선행조건을 제거하고 기존 formTitle/displayTitle/conditional condition으로 종료회차를 제목과 다운로드 직전 문단에 명시했다. 원본문자·바이트·SHA·사업·관할·역할·부분·법규·PDF7쪽 근거는 유지한다.",
+      "sourcePageSha256": "8cfec456018a2e560952ef5abbfac1f9c2f11bc28ed17fd96c53198a4f1d4488",
+      "coordinatorApproved": true,
+      "coordinatorReason": "2026-10-23 총괄이 정읍시 공식2026모집 공고를 새로 조회하고 정확한 fileSid249275·접수기간2025-12-17~12-30·지원기간2026-02~12·학원비분담65/25/10을 직접 확인했다. 원본77176바이트/SHA와전체3섹션3892자, 실제한글출력4쪽을전부대조하여 신청·동의란이비어있음을확인했다. 현재진행중인2026지원사업의이미종료된모집회차원본을제공하며,제목과다운로드앞조건에접수종료및신규/다음회차용아님을명시한다. 화면작성허용목록에넣지않고원문다운로드만제공한다. 옛법령첨부19617443의60/30비율이나그바이트를승인·교체·covered처리하지않는다.",
+      "coordinatorNativeReview": {
+        "label": "agency-52180-jeongeup-249275",
+        "sourceSHA256": "70f20a2cf41858b903ce218f2319ff895f8b0059d34d2b928108b25fd19256d9",
+        "sourceBytes": 77176,
+        "hancomPages": 4,
+        "pdfSHA256": "81246d84c6501fee26e675a4482358292dad1e2ec265f6ecd6bb2b1604298afd",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "blankApplicantForm": true,
+        "noFilledPersonalDataObserved": true,
+        "checkedAt": "2026-10-23"
+      },
+      "coordinatorSourcePageProof": {
+        "url": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+        "finalUrl": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1395754",
+        "httpStatus": 200,
+        "sha256": "8cfec456018a2e560952ef5abbfac1f9c2f11bc28ed17fd96c53198a4f1d4488",
+        "bytes": 7089,
+        "checkedAt": "2026-10-23"
+      },
+      "sourceProposalSHA256": "69f396fd316d65a8684d861120e58b5de62720df264465424241c50af9767afa"
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "c0473e1d143e33c4cd905b354442834225acd9f3dbbc4dab2eea3f830e469645",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8017.json",
+    "frozenScopeSHA256": "18fcb3741f2879a967ff0c026270f9fd5658821c88bf7f7ed28102b8097bed49"
+  }
+}

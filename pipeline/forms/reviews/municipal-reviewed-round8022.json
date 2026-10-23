@@ -1,0 +1,327 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-23",
+  "rows": [
+    {
+      "formId": "agency-43720-notice1415-current-application",
+      "sourceKind": "agency",
+      "formTitle": "독립유공자 보훈명예수당 지급·변경 신청서 — 10쪽 현행 신청서",
+      "displayTitle": "독립유공자 보훈명예수당 지급·변경 신청서 — 10쪽 현행 신청서",
+      "verifiedDocumentTitle": "보훈명예수당 지급(변경) 신청서",
+      "sourceMetadataTitle": "보은군 독립유공자 지원 조례 일부개정조례안(입법예고).hwpx",
+      "role": "application",
+      "use": "conditional",
+      "condition": "전체10쪽 중10쪽의 보훈명예수당 지급(변경) 신청서만 사용합니다. 보은군 독립유공자 및 국가보훈부에 등록된 수권 유족의 현행 보훈명예수당 최초 신청 또는 주소·계좌·신분 변경에 사용합니다. 전체 파일 뒤 【현행조례】에 이어지는 ‘보훈명예수당 지급(변경) 신청서’만 작성하며 국가보훈등록증 사본 또는 확인서와 통장사본을 준비합니다. 앞부분은 2026.10.7~10.27 입법예고 중인 2027년 월25만원 인상안으로, 현재 지급액이나 시행 확정을 뜻하지 않습니다. 현행 군비수당은 월20만원이며 다른 보훈 유형·도비수당·입법의견 제출용으로 확대하지 않습니다. 새 파일에 수록된 현행 신청부분을 원문 그대로 제공하며 화면작성·서명·동의생성은 제공하지 않습니다.",
+      "regionCode": "43720",
+      "regionLabel": "충청북도 보은군",
+      "agencyName": "보은군 복지정책과 / 행정안전부 ELIS 공식 입법예고 첨부 배포",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "authorityEvidenceNote": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다.",
+      "sourcePageUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "sourcePageSHA256": "7403aa5a9d2392e340f1f58c3c25829d8dad36fe0745296b2fbb4dea65ec93a3",
+      "sourceUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "finalUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "attachmentId": "4420000_보은군 독립유공자 지원 조례 일부개정조례안(입법예고)_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "attachmentIdentifier": {
+        "queryParam": "realFileNm",
+        "value": "4420000_보은군 독립유공자 지원 조례 일부개정조례안(입법예고)_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx"
+      },
+      "evidenceUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "evidenceNote": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다.",
+      "sha256": "fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd",
+      "bytes": 58188,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-43720-notice1415-current-application.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 5025,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "embeddedResourceCount": 0,
+      "blankApplicantForm": true,
+      "blankApplicantFormMeaning": "선택한 신청서의 신청인 인적사항·선택·서명은 비어 있다. 공식 자료의 담당공무원 명칭·문의처와 법규/입법안 인쇄까지 백지라는 뜻이 아님.",
+      "noFilledPersonalDataObserved": true,
+      "preselectedConsentObserved": false,
+      "selectedParts": [
+        {
+          "number": "인쇄번호 없음(현행조례 뒤 신청서)",
+          "title": "보훈명예수당 지급(변경) 신청서",
+          "use": "conditional",
+          "author": "보은군의 독립유공자 또는 국가보훈부 등록 수권 유족",
+          "scope": "현행조례 뒤 신청구분·보훈번호·본인계좌·주소/계좌/신분 변경사유·신청 및 공동이용동의 서명. 앞부분 미래 금액 인상안은 신청 범위에서 제외.",
+          "condition": "전체10쪽 중10쪽의 보훈명예수당 지급(변경) 신청서만 사용합니다. 보은군 독립유공자 및 국가보훈부에 등록된 수권 유족의 현행 보훈명예수당 최초 신청 또는 주소·계좌·신분 변경에 사용합니다. 전체 파일 뒤 【현행조례】에 이어지는 ‘보훈명예수당 지급(변경) 신청서’만 작성하며 국가보훈등록증 사본 또는 확인서와 통장사본을 준비합니다. 앞부분은 2026.10.7~10.27 입법예고 중인 2027년 월25만원 인상안으로, 현재 지급액이나 시행 확정을 뜻하지 않습니다. 현행 군비수당은 월20만원이며 다른 보훈 유형·도비수당·입법의견 제출용으로 확대하지 않습니다. 새 파일에 수록된 현행 신청부분을 원문 그대로 제공하며 화면작성·서명·동의생성은 제공하지 않습니다."
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄번호 없음(현행조례 뒤 신청서)",
+          "title": "보훈명예수당 지급(변경) 신청서",
+          "use": "conditional",
+          "author": "보은군의 독립유공자 또는 국가보훈부 등록 수권 유족",
+          "scope": "현행조례 뒤 신청구분·보훈번호·본인계좌·주소/계좌/신분 변경사유·신청 및 공동이용동의 서명. 앞부분 미래 금액 인상안은 신청 범위에서 제외.",
+          "condition": "전체10쪽 중10쪽의 보훈명예수당 지급(변경) 신청서만 사용합니다. 보은군 독립유공자 및 국가보훈부에 등록된 수권 유족의 현행 보훈명예수당 최초 신청 또는 주소·계좌·신분 변경에 사용합니다. 전체 파일 뒤 【현행조례】에 이어지는 ‘보훈명예수당 지급(변경) 신청서’만 작성하며 국가보훈등록증 사본 또는 확인서와 통장사본을 준비합니다. 앞부분은 2026.10.7~10.27 입법예고 중인 2027년 월25만원 인상안으로, 현재 지급액이나 시행 확정을 뜻하지 않습니다. 현행 군비수당은 월20만원이며 다른 보훈 유형·도비수당·입법의견 제출용으로 확대하지 않습니다. 새 파일에 수록된 현행 신청부분을 원문 그대로 제공하며 화면작성·서명·동의생성은 제공하지 않습니다."
+        }
+      ],
+      "applicant": "보은군의 독립유공자 또는 국가보훈부 등록 수권 유족",
+      "roleBasis": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다.",
+      "roleEvidenceUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "published",
+      "effectiveDate": "2026-10-07",
+      "publishedAt": "2026-10-07",
+      "lawId": "1971921",
+      "lawTitle": "보은군 독립유공자 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1971921",
+      "lawEffectiveDate": "2024-10-01",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "annexId": "",
+      "annexNumber": "",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "publicationApproved": true,
+      "proposalStatus": "positive_proposal_current_law_appendix_in_future_amendment_notice",
+      "relatedUnmatchedOriginalId": "ordin-18580613",
+      "relatedUnmatchedOriginalSHA256": "0ba7d94ad45a76b7d8ee08072a4744027ebd9be14f518335ad2bab17e96cfee2",
+      "oldOriginalStatusUnchanged": true,
+      "automaticCoveredByExisting": false,
+      "excludedParts": [
+        "입법예고 의견제출 안내",
+        "2027년 월25만원 인상 제안·신구조문 대비표",
+        "비용추계와 관계법령은 근거자료이며 주민 작성란 아님"
+      ],
+      "limitations": [
+        "공식 자료가 현행조례에 수록한 정상 신청서이며 별도 민원편람의 단독 배포본은 아님",
+        "원문 전체에 미래 인상 제안이 함께 있어 선택부분·현재20만원·인상미확정 안내 및 작성보류를 반드시 유지",
+        "삭제표시 옛18580613의 문구나 원본 바이트는 변경하지 않음"
+      ],
+      "sourceProof": {
+        "pageRecord": "logs/forms-followup-20261023j/team2/boeun-2026-notice-detail-bound.json",
+        "downloadRecord": "logs/forms-followup-20261023j/team2/boeun-2026-proposed-amendment.json",
+        "currentLawELISRecord": "logs/forms-followup-20261023j/team2/boeun-elis-current-body.json",
+        "currentLawELISResponseSHA256": "f44cc5897470e88e9271e03231f8f15c9804e7ec503496314ece8c47750c9b82",
+        "officialPageHTTPStatus": 200,
+        "officialDownloadHTTPStatus": 200,
+        "allBodySectionsRead": true,
+        "rawSHARechecked": true,
+        "noProtectedOriginalOpened": true
+      },
+      "presentationPlan": {
+        "writerAllowed": false,
+        "exactSHAWritingHoldRequiredBeforeImport": true,
+        "selectedPartAndExcludedPartsBeforeDownload": true,
+        "noOriginalEditing": true
+      },
+      "futureProposalExcluded": {
+        "proposalEffectiveDate": "2027-01-01",
+        "proposedMonthlyAmountWon": 250000,
+        "currentMonthlyCountyAmountWon": 200000,
+        "proposalConsultationEndsAt": "2026-10-27",
+        "proposalIsCurrentlyEffective": false,
+        "applicationPartHasPrintedAmount": false,
+        "currentLawAppendixLabel": "【현행조례】"
+      },
+      "programs": [
+        {
+          "id": "g43720.bokjiro-WLF00003867",
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003867&wlfareInfoReldBztpCd=02"
+        },
+        {
+          "id": "g43720.gov24-442000000126",
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/442000000126"
+        }
+      ],
+      "programIds": [
+        "g43720.bokjiro-WLF00003867"
+      ],
+      "programNames": [
+        "공훈선양 지원"
+      ],
+      "programEvidenceUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003867&wlfareInfoReldBztpCd=02",
+      "coordinatorApproved": true,
+      "coordinatorReason": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다. 총괄이 공식 입법예고와 ELIS 현행 조례를 다시 GET200으로 읽고 정확 첨부ID·현행2943호/2024-10-01 시행·월20만원·제5조/제7조를 대조했다. 새 한글 출력10쪽 전체와 마지막10쪽의 빈 신청서·독립유공자/유족 선택·구비서류·서명/동의 공란을 확인했다. 현행조례 재록 부분의 원본 다운로드만 승인하며 앞의2027년25만원 인상 제안이나 의견제출 서식을 현재 급여 신청으로 제공하지 않는다. 옛18580613의 삭제표시와 미해소 처분은 유지한다.",
+      "sourcePageSha256": "7403aa5a9d2392e340f1f58c3c25829d8dad36fe0745296b2fbb4dea65ec93a3",
+      "coordinatorNativeReview": {
+        "label": "agency-43720-notice1415-current-application",
+        "sourceSHA256": "fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd",
+        "sourceBytes": 58188,
+        "hancomPages": 10,
+        "pdfSHA256": "7684545e3406cb6616daff7d359666d67108d2bea2585374c9e4aa77172a6cc7",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "selectedApplicationPages": [
+          10
+        ],
+        "noFilledPersonalDataObserved": true
+      }
+    },
+    {
+      "formId": "agency-43720-notice1415-current-application",
+      "sourceKind": "agency",
+      "formTitle": "독립유공자 보훈명예수당 지급·변경 신청서 — 10쪽 현행 신청서",
+      "displayTitle": "독립유공자 보훈명예수당 지급·변경 신청서 — 10쪽 현행 신청서",
+      "verifiedDocumentTitle": "보훈명예수당 지급(변경) 신청서",
+      "sourceMetadataTitle": "보은군 독립유공자 지원 조례 일부개정조례안(입법예고).hwpx",
+      "role": "application",
+      "use": "conditional",
+      "condition": "전체10쪽 중10쪽의 보훈명예수당 지급(변경) 신청서만 사용합니다. 보은군 독립유공자 및 국가보훈부에 등록된 수권 유족의 현행 보훈명예수당 최초 신청 또는 주소·계좌·신분 변경에 사용합니다. 전체 파일 뒤 【현행조례】에 이어지는 ‘보훈명예수당 지급(변경) 신청서’만 작성하며 국가보훈등록증 사본 또는 확인서와 통장사본을 준비합니다. 앞부분은 2026.10.7~10.27 입법예고 중인 2027년 월25만원 인상안으로, 현재 지급액이나 시행 확정을 뜻하지 않습니다. 현행 군비수당은 월20만원이며 다른 보훈 유형·도비수당·입법의견 제출용으로 확대하지 않습니다. 새 파일에 수록된 현행 신청부분을 원문 그대로 제공하며 화면작성·서명·동의생성은 제공하지 않습니다.",
+      "regionCode": "43720",
+      "regionLabel": "충청북도 보은군",
+      "agencyName": "보은군 복지정책과 / 행정안전부 ELIS 공식 입법예고 첨부 배포",
+      "authorityKind": "government",
+      "authorityEvidenceKind": "government",
+      "authorityEvidenceUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "authorityEvidenceNote": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다.",
+      "sourcePageUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "sourcePageSHA256": "7403aa5a9d2392e340f1f58c3c25829d8dad36fe0745296b2fbb4dea65ec93a3",
+      "sourceUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "finalUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "attachmentId": "4420000_보은군 독립유공자 지원 조례 일부개정조례안(입법예고)_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "attachmentIdentifier": {
+        "queryParam": "realFileNm",
+        "value": "4420000_보은군 독립유공자 지원 조례 일부개정조례안(입법예고)_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx"
+      },
+      "evidenceUrl": "https://www.elis.go.kr/lgsltntc/lgsltNtcDtl?pbancSn=1198&srchCtpvCd=43&srchSggCd=720",
+      "evidenceNote": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다.",
+      "sha256": "fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd",
+      "bytes": 58188,
+      "originalFormat": "hwpx",
+      "originalPath": "pipeline/forms/originals/agency-43720-notice1415-current-application.hwpx",
+      "sectionsRead": [
+        "Contents/section0.xml",
+        "Contents/section1.xml"
+      ],
+      "textScope": "all_body_sections_or_pages",
+      "textLength": 5025,
+      "fullBodyReviewed": true,
+      "independentBodyReview": true,
+      "embeddedResourceCount": 0,
+      "blankApplicantForm": true,
+      "blankApplicantFormMeaning": "선택한 신청서의 신청인 인적사항·선택·서명은 비어 있다. 공식 자료의 담당공무원 명칭·문의처와 법규/입법안 인쇄까지 백지라는 뜻이 아님.",
+      "noFilledPersonalDataObserved": true,
+      "preselectedConsentObserved": false,
+      "selectedParts": [
+        {
+          "number": "인쇄번호 없음(현행조례 뒤 신청서)",
+          "title": "보훈명예수당 지급(변경) 신청서",
+          "use": "conditional",
+          "author": "보은군의 독립유공자 또는 국가보훈부 등록 수권 유족",
+          "scope": "현행조례 뒤 신청구분·보훈번호·본인계좌·주소/계좌/신분 변경사유·신청 및 공동이용동의 서명. 앞부분 미래 금액 인상안은 신청 범위에서 제외.",
+          "condition": "전체10쪽 중10쪽의 보훈명예수당 지급(변경) 신청서만 사용합니다. 보은군 독립유공자 및 국가보훈부에 등록된 수권 유족의 현행 보훈명예수당 최초 신청 또는 주소·계좌·신분 변경에 사용합니다. 전체 파일 뒤 【현행조례】에 이어지는 ‘보훈명예수당 지급(변경) 신청서’만 작성하며 국가보훈등록증 사본 또는 확인서와 통장사본을 준비합니다. 앞부분은 2026.10.7~10.27 입법예고 중인 2027년 월25만원 인상안으로, 현재 지급액이나 시행 확정을 뜻하지 않습니다. 현행 군비수당은 월20만원이며 다른 보훈 유형·도비수당·입법의견 제출용으로 확대하지 않습니다. 새 파일에 수록된 현행 신청부분을 원문 그대로 제공하며 화면작성·서명·동의생성은 제공하지 않습니다."
+        }
+      ],
+      "reviewedParts": [
+        {
+          "number": "인쇄번호 없음(현행조례 뒤 신청서)",
+          "title": "보훈명예수당 지급(변경) 신청서",
+          "use": "conditional",
+          "author": "보은군의 독립유공자 또는 국가보훈부 등록 수권 유족",
+          "scope": "현행조례 뒤 신청구분·보훈번호·본인계좌·주소/계좌/신분 변경사유·신청 및 공동이용동의 서명. 앞부분 미래 금액 인상안은 신청 범위에서 제외.",
+          "condition": "전체10쪽 중10쪽의 보훈명예수당 지급(변경) 신청서만 사용합니다. 보은군 독립유공자 및 국가보훈부에 등록된 수권 유족의 현행 보훈명예수당 최초 신청 또는 주소·계좌·신분 변경에 사용합니다. 전체 파일 뒤 【현행조례】에 이어지는 ‘보훈명예수당 지급(변경) 신청서’만 작성하며 국가보훈등록증 사본 또는 확인서와 통장사본을 준비합니다. 앞부분은 2026.10.7~10.27 입법예고 중인 2027년 월25만원 인상안으로, 현재 지급액이나 시행 확정을 뜻하지 않습니다. 현행 군비수당은 월20만원이며 다른 보훈 유형·도비수당·입법의견 제출용으로 확대하지 않습니다. 새 파일에 수록된 현행 신청부분을 원문 그대로 제공하며 화면작성·서명·동의생성은 제공하지 않습니다."
+        }
+      ],
+      "applicant": "보은군의 독립유공자 또는 국가보훈부 등록 수권 유족",
+      "roleBasis": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다.",
+      "roleEvidenceUrl": "https://www.elis.go.kr/lgsltntc/attFileDown.do?adFileNm=%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29.hwpx&realFileNm=4420000_%EB%B3%B4%EC%9D%80%EA%B5%B0+%EB%8F%85%EB%A6%BD%EC%9C%A0%EA%B3%B5%EC%9E%90+%EC%A7%80%EC%9B%90+%EC%A1%B0%EB%A1%80+%EC%9D%BC%EB%B6%80%EA%B0%9C%EC%A0%95%EC%A1%B0%EB%A1%80%EC%95%88%28%EC%9E%85%EB%B2%95%EC%98%88%EA%B3%A0%29_ofr_ofr_T9ds9GGEEHh6ggC4_20261006180813570_1.hwpx",
+      "roleCheckedAt": "2026-10-23",
+      "checkedAt": "2026-10-23",
+      "dateKind": "published",
+      "effectiveDate": "2026-10-07",
+      "publishedAt": "2026-10-07",
+      "lawId": "1971921",
+      "lawTitle": "보은군 독립유공자 지원 조례",
+      "lawEvidenceUrl": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1971921",
+      "lawEffectiveDate": "2024-10-01",
+      "lawCurrentCheckedAt": "2026-10-23",
+      "annexId": "",
+      "annexNumber": "",
+      "verificationStatus": "verified",
+      "officialAttachmentMatched": true,
+      "publicationApproved": true,
+      "proposalStatus": "positive_proposal_current_law_appendix_in_future_amendment_notice",
+      "relatedUnmatchedOriginalId": "ordin-18580613",
+      "relatedUnmatchedOriginalSHA256": "0ba7d94ad45a76b7d8ee08072a4744027ebd9be14f518335ad2bab17e96cfee2",
+      "oldOriginalStatusUnchanged": true,
+      "automaticCoveredByExisting": false,
+      "excludedParts": [
+        "입법예고 의견제출 안내",
+        "2027년 월25만원 인상 제안·신구조문 대비표",
+        "비용추계와 관계법령은 근거자료이며 주민 작성란 아님"
+      ],
+      "limitations": [
+        "공식 자료가 현행조례에 수록한 정상 신청서이며 별도 민원편람의 단독 배포본은 아님",
+        "원문 전체에 미래 인상 제안이 함께 있어 선택부분·현재20만원·인상미확정 안내 및 작성보류를 반드시 유지",
+        "삭제표시 옛18580613의 문구나 원본 바이트는 변경하지 않음"
+      ],
+      "sourceProof": {
+        "pageRecord": "logs/forms-followup-20261023j/team2/boeun-2026-notice-detail-bound.json",
+        "downloadRecord": "logs/forms-followup-20261023j/team2/boeun-2026-proposed-amendment.json",
+        "currentLawELISRecord": "logs/forms-followup-20261023j/team2/boeun-elis-current-body.json",
+        "currentLawELISResponseSHA256": "f44cc5897470e88e9271e03231f8f15c9804e7ec503496314ece8c47750c9b82",
+        "officialPageHTTPStatus": 200,
+        "officialDownloadHTTPStatus": 200,
+        "allBodySectionsRead": true,
+        "rawSHARechecked": true,
+        "noProtectedOriginalOpened": true
+      },
+      "presentationPlan": {
+        "writerAllowed": false,
+        "exactSHAWritingHoldRequiredBeforeImport": true,
+        "selectedPartAndExcludedPartsBeforeDownload": true,
+        "noOriginalEditing": true
+      },
+      "futureProposalExcluded": {
+        "proposalEffectiveDate": "2027-01-01",
+        "proposedMonthlyAmountWon": 250000,
+        "currentMonthlyCountyAmountWon": 200000,
+        "proposalConsultationEndsAt": "2026-10-27",
+        "proposalIsCurrentlyEffective": false,
+        "applicationPartHasPrintedAmount": false,
+        "currentLawAppendixLabel": "【현행조례】"
+      },
+      "programs": [
+        {
+          "id": "g43720.bokjiro-WLF00003867",
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003867&wlfareInfoReldBztpCd=02"
+        },
+        {
+          "id": "g43720.gov24-442000000126",
+          "url": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/442000000126"
+        }
+      ],
+      "programIds": [
+        "g43720.gov24-442000000126"
+      ],
+      "programNames": [
+        "공훈선양 지원"
+      ],
+      "programEvidenceUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/442000000126",
+      "coordinatorApproved": true,
+      "coordinatorReason": "2026-10-07 보은군 공고2026-1415 공식 입법예고 상세를 ELIS에서 GET200으로 읽고 정확한 첨부식별자의 HWPX를 GET200으로 받았다. 실제58188바이트/SHA fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd, 전체2섹션5025자/BinData0을 읽었다. 앞부분은2027-01-01부터 월20만원을25만원으로 바꾸려는 예고안이고 아직 예고기간 중이다. 그러나 뒤의 명시적 【현행조례】에는 현행1971921의20만원·제5조 신청·제7조 변경을 포함한10개 조문과 삭제표시 없는 보훈명예수당 지급(변경) 신청서가 직접 수록돼 있다. 신청부분에는 고정금액·연도·삭제머리말이 없고 독립유공자/유족 선택, 계좌·주소/변경사유, 국가보훈등록증/확인서·통장사본, 빈 신청/공동이용동의 서명이 있다. 두 보은 통합보훈사업의 독립유공자·유족 군비수당 부분에만 대응한다. 현재 ELIS 별지 다운로드는 여전히 옛 삭제표시 파일과 동일SHA임을 확인했으므로 옛18580613을 정정·대체·covered 처리하지 않는다. 새 기관의 현행조례 재록 부분을 별개 원본 후보로 제안하며 앞의 미래25만원 인상안이나 입법의견 제출서식을 현재 급여 신청으로 승인하지 않는다. 원본 전체가 내려가므로 제목과 조건에서 현행조례 뒤 신청서 선택 및 미확정 인상안 제외를 명시하고 exactSHA 화면작성을 보류한다. 공무상 작성자/문의처는 공적 표시이고 신청인 개인정보 기입은 없다. 총괄이 공식 입법예고와 ELIS 현행 조례를 다시 GET200으로 읽고 정확 첨부ID·현행2943호/2024-10-01 시행·월20만원·제5조/제7조를 대조했다. 새 한글 출력10쪽 전체와 마지막10쪽의 빈 신청서·독립유공자/유족 선택·구비서류·서명/동의 공란을 확인했다. 현행조례 재록 부분의 원본 다운로드만 승인하며 앞의2027년25만원 인상 제안이나 의견제출 서식을 현재 급여 신청으로 제공하지 않는다. 옛18580613의 삭제표시와 미해소 처분은 유지한다.",
+      "sourcePageSha256": "7403aa5a9d2392e340f1f58c3c25829d8dad36fe0745296b2fbb4dea65ec93a3",
+      "coordinatorNativeReview": {
+        "label": "agency-43720-notice1415-current-application",
+        "sourceSHA256": "fc9f3c06dd962a1c7a41845041b490c4cccba34abac282874068b60c111845fd",
+        "sourceBytes": 58188,
+        "hancomPages": 10,
+        "pdfSHA256": "7684545e3406cb6616daff7d359666d67108d2bea2585374c9e4aa77172a6cc7",
+        "sourceUnchanged": true,
+        "allPagesViewed": true,
+        "selectedApplicationPages": [
+          10
+        ],
+        "noFilledPersonalDataObserved": true
+      }
+    }
+  ],
+  "sourceReview": {
+    "coordinatorPlanSHA256": "748bd5b7fa343bb248c5efbf58af564405e402c3030df25729a1856793c52d40",
+    "frozenScopeFile": "pipeline/forms/reviews/agency-originals-scope-round8022.json",
+    "frozenScopeSHA256": "4cd6b63836f1b8a3cf12975566f7615593150ea9e03d60bd5ae67a46becb1330"
+  }
+}

@@ -19,7 +19,8 @@ describe("메뉴판 표 읽기: 순서와 무관하게 같은 결과", () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bundles-"));
     for (const d of ["sido", "sigungu"]) fs.mkdirSync(path.join(dir, d));
     for (const f of ["sigungu/41110.json", "sido/41000.json", "sigungu/11110.json", "sido/11000.json"]) fs.writeFileSync(path.join(dir, f), "{}");
-    const files: string[] = py(`print(json.dumps([p.replace(${JSON.stringify(dir)} + "/", "") for p in m.bundle_files(${JSON.stringify(dir)})]))`);
+    const files: string[] = py(`print(json.dumps(m.bundle_files(${JSON.stringify(dir)})))`)
+      .map((file: string) => path.relative(dir, file).split(path.sep).join("/"));
     expect(files).toEqual(["national.json", "sido/11000.json", "sido/41000.json", "sigungu/11110.json", "sigungu/41110.json"]);
   });
   it("행 ID에서 글 열쇠(게시판:글번호:첨부)", () => {

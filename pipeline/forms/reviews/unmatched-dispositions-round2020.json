@@ -5236,18 +5236,21 @@
       "candidateProgramIds": [
         "g41650.gov24-560000000105"
       ],
-      "disposition": "requires_external_confirmation",
+      "disposition": "approved",
       "fullBodyReviewed": true,
       "reviewedProgramPairs": [
         {
           "programId": "g41650.gov24-560000000105",
           "formId": "ordin-18291051",
-          "decision": "requires_external_confirmation",
-          "reason": "현행첨부 존재와 별도로 미지급수당의 수령순위·청구서 지정조항을 확인하지 못함."
+          "decision": "matched",
+          "disposition": "approved",
+          "use": "conditional",
+          "condition": "포천시 장수수당을 받던 사람이 사망하여 사망월까지 지급 대상인 수당 중 미지급액을 청구하는 경우에만 사용하는 현행 별지2입니다. 원본은 배우자 1순위, 자녀 2순위(생계 및 부양의무자)를 표시하며 청구인·사망자·사망일·청구액·미지급기간·지급계좌를 작성하여 읍·면·동장에게 제출하도록 되어 있습니다. 일반 장수수당 신규 신청이나 모든 상속인의 승계 신청으로 확대하지 않습니다. 접수기한·가족관계 및 부양관계 증빙·동순위 청구 처리 방법은 확보한 자료에 없으므로 별도 확인이 필요합니다.",
+          "reason": "기존수급자가사망한후발생한미지급청구는신규장수수당수급자선정과다르다. 현행법에결속되고동일개정에서신설된별지2가사망자의미지급분청구를명시한다. 따라서일반사업안내에미지급부분이별도로반복되지않았다는사실만으로원본목적을부정할수없다. 본문이별지2번호를직접인용한다고주장하지않고,일반계좌조항의기초연금준용을포괄상속권의근거로사용하지않는다. 고정원본전체 BodyText/Section0 288자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다."
         }
       ],
       "verifiedDocumentTitle": "장수수당 미지급 청구서",
-      "reason": "현재 포천시 장수수당 안내와 정확한 병합 복지로 WLF00004621은 1943년 이전 출생·2023년 말 주소 기준의 월 2만원 지급과 일반 별지1 신청을 안내한다. 복지로 첨부는 별지1과 조례이고 사망한 수급자의 미지급금 상속·대표수령 절차나 이 별지2의 사용 안내는 없다. 일반 지급계좌 조항을 미지급 승계로 확장할 근거를 찾지 못했다.",
+      "reason": "기존수급자가사망한후발생한미지급청구는신규장수수당수급자선정과다르다. 현행법에결속되고동일개정에서신설된별지2가사망자의미지급분청구를명시한다. 따라서일반사업안내에미지급부분이별도로반복되지않았다는사실만으로원본목적을부정할수없다. 본문이별지2번호를직접인용한다고주장하지않고,일반계좌조항의기초연금준용을포괄상속권의근거로사용하지않는다. 고정원본전체 BodyText/Section0 288자를재판독하고실제바이트SHA/크기및내장자료없음을재확인했다. 구명칭이나미확인실무사항은sourceIssues에보존하며원본문구를수정하지않는다. 2026-10-23 총괄이 고정 원본 SHA·전체 본문 및 실제 한글 출력 전체 쪽을 독립 확인하고, 공식 현행 본문·정확 별표키와 flSeq 결속을 새로 확인했다. 일반 사업안내에 예외 경로가 다시 적혀 있지 않다는 사유만으로 현행 별지의 명시 용도를 배제하지 않되, 해당 조건부 신청·변경·부속 경로에 한정한다. 원본 다른 급여나 일반 신규신청 요건까지 승인한 것은 아니다.",
       "lawClausesReviewed": true,
       "relatedArticles": [
         {
@@ -5277,49 +5280,85 @@
           "checkedAt": "2026-10-18"
         }
       ],
-      "approvedAssociations": [],
+      "approvedAssociations": [
+        {
+          "programId": "g41650.gov24-560000000105",
+          "formId": "ordin-18291051",
+          "use": "conditional"
+        }
+      ],
       "sourceLawCurrency": {
         "state": "source_current",
-        "checkedAt": "2026-10-18",
+        "checkedAt": "2026-10-23",
         "currentLawId": "1858535",
         "binding": "bound",
         "officialFlSeq": "142999735"
       },
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-23",
       "officialFollowup": {
-        "checkedAt": "2026-10-19",
-        "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
-        "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
-        "proposedStatus": "confirmed_unresolved",
-        "officialEvidence": [
-          {
-            "url": "https://www.pocheon.go.kr/welfare/contents.do?key=9880",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case03-municipal.json",
-                "sha256": "ddf7025d3e287f6fd794bbb4b68786c97580e7b4f2cbbcd389ee2e2a12da8e37",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          },
-          {
-            "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004621&wlfareInfoReldBztpCd=02",
-            "httpStatus": 200,
-            "savedEvidence": [
-              {
-                "path": "logs/forms-completion/official-followup/team2/case03-bokjiro-merged.json",
-                "sha256": "37971f69543001b56bf7f35c5d810705e4f81dcd6557c11a2d9b5041ced60643",
-                "kind": "official_evidence_metadata"
-              }
-            ]
-          }
-        ],
-        "allFormsConnected": false
+        "checkedAt": "2026-10-23",
+        "sourceResult": "pipeline/forms/reviews/municipal-reviewed-round8205.json",
+        "sourceResultSHA256": "7efc2c2e3d6dd1925c531e4c815c29e4b031331e06842a145396923b3501c461",
+        "sourceProposalSHA256": "2383b6c9e221a6d1d7e71f750530f59a69f9fc46d4a3983264a85d15d4f7954f",
+        "coordinatorDecisionSHA256": "a2da956c9d4bc732984517d47d50072774aad05ed2bc3e4327de1f54637fc2ff",
+        "proposedStatus": "approved_exact_current_annex_conditional_path",
+        "allOriginalsMatched": false,
+        "actualGrokCrossreviewSHA256": "a97131fd8b4c1d451724604ad99a91b39d5616834a61f3d2d7d80242ba6458ce"
       },
       "relatedProgramIds": [
         "g41650.gov24-560000000105"
-      ]
+      ],
+      "priorDispositions": [
+        {
+          "checkedAt": "2026-10-19",
+          "disposition": "requires_external_confirmation",
+          "reason": "현재 포천시 장수수당 안내와 정확한 병합 복지로 WLF00004621은 1943년 이전 출생·2023년 말 주소 기준의 월 2만원 지급과 일반 별지1 신청을 안내한다. 복지로 첨부는 별지1과 조례이고 사망한 수급자의 미지급금 상속·대표수령 절차나 이 별지2의 사용 안내는 없다. 일반 지급계좌 조항을 미지급 승계로 확장할 근거를 찾지 못했다.",
+          "relatedProgramIds": [
+            "g41650.gov24-560000000105"
+          ],
+          "reviewedProgramPairs": [
+            {
+              "programId": "g41650.gov24-560000000105",
+              "formId": "ordin-18291051",
+              "decision": "requires_external_confirmation",
+              "reason": "현행첨부 존재와 별도로 미지급수당의 수령순위·청구서 지정조항을 확인하지 못함."
+            }
+          ],
+          "officialFollowup": {
+            "checkedAt": "2026-10-19",
+            "sourceResult": "logs/forms-completion/official-followup/team2/team2-results.json",
+            "sourceResultSHA256": "badd63d72d5f96dcc6815ad79e43ba695490e25777144516a69934cdab93a48a",
+            "proposedStatus": "confirmed_unresolved",
+            "officialEvidence": [
+              {
+                "url": "https://www.pocheon.go.kr/welfare/contents.do?key=9880",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case03-municipal.json",
+                    "sha256": "ddf7025d3e287f6fd794bbb4b68786c97580e7b4f2cbbcd389ee2e2a12da8e37",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              },
+              {
+                "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004621&wlfareInfoReldBztpCd=02",
+                "httpStatus": 200,
+                "savedEvidence": [
+                  {
+                    "path": "logs/forms-completion/official-followup/team2/case03-bokjiro-merged.json",
+                    "sha256": "37971f69543001b56bf7f35c5d810705e4f81dcd6557c11a2d9b5041ced60643",
+                    "kind": "official_evidence_metadata"
+                  }
+                ]
+              }
+            ],
+            "allFormsConnected": false
+          }
+        }
+      ],
+      "reviewCheckedAt": "2026-10-23",
+      "reviewedBy": "codex-coordinator-with-independent-source-review"
     }
   ],
   "summary": {

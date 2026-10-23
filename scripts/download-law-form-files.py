@@ -133,6 +133,18 @@ def inspect_document(data,format_hint=None):
             doc.load()
             return {'format':'jpg','sectionsRead':['frame-1'],'text':'','textLength':0,
                     'textScope':'all_original_image_frames','imageWidth':doc.width,'imageHeight':doc.height,'imageFrames':1}
+    elif data.startswith(b'\x89PNG\r\n\x1a\n'):
+        # A scanned original has no body text to extract. Reading the one frame
+        # here is mechanical only: it proves the bytes are one decodable PNG
+        # image, never that the form is blank. That judgement stays with the
+        # registered whole-image review. Bytes are kept as the official PNG;
+        # they are not re-encoded to JPEG or PDF.
+        with Image.open(io.BytesIO(data)) as doc:
+            if doc.format!='PNG' or getattr(doc,'n_frames',1)!=1:raise ValueError('invalid_png')
+            if doc.width<1 or doc.height<1 or doc.width*doc.height>50_000_000:raise ValueError('invalid_png')
+            doc.load()
+            return {'format':'png','sectionsRead':['frame-1'],'text':'','textLength':0,
+                    'textScope':'all_original_image_frames','imageWidth':doc.width,'imageHeight':doc.height,'imageFrames':1}
     elif data.startswith((b'GIF87a',b'GIF89a')):
         with Image.open(io.BytesIO(data)) as doc:
             if doc.format!='GIF' or doc.width*doc.height>50_000_000 or doc.n_frames>100:raise ValueError('invalid_gif')
@@ -286,7 +298,7 @@ def cached_original(form,archive):
     # Fresh checkouts can reuse committed originals only through their manifest.
     if MANIFEST.exists():
         entry=read(MANIFEST).get('forms',{}).get(fid,{})
-        if entry.get('sourceUrl')==form['sourceUrl'] and entry.get('format') in ('hwp','hwpx','pdf','txt','gif','jpg'):
+        if entry.get('sourceUrl')==form['sourceUrl'] and entry.get('format') in ('hwp','hwpx','pdf','txt','gif','jpg','png'):
             expected_path=f"originals/{fid}.{entry['format']}"
             path=ROOT/'pipeline/forms'/expected_path
             if entry.get('path')==expected_path and path.is_file():
@@ -368,7 +380,7 @@ def main():
             if fid in approved:
                 # An image original is publishable only as a registered agency
                 # attachment, whose own whole-image review already bound it.
-                if info['format'] not in ('hwp','hwpx','pdf','txt','gif') and not (registered and info['format']=='jpg'):raise ValueError('unsupported_approved_original')
+                if info['format'] not in ('hwp','hwpx','pdf','txt','gif') and not (registered and info['format'] in ('jpg','png')):raise ValueError('unsupported_approved_original')
                 if info['format'] in ('txt','gif') or info['textScope']=='legacy_hwp_requires_external_review':
                     evidence=body_evidence.get(fid,{})
                     expected_format='hwp3' if info['textScope']=='legacy_hwp_requires_external_review' else info['format']
