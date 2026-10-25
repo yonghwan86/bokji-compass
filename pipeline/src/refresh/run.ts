@@ -18,7 +18,7 @@ import { execFileSync } from "node:child_process";
 import { GOV24_NOISE, readCached, readTotalCount } from "../gov24/ingest";
 import { LIST_NOISE, listFingerprints, listTotalCount, readDetail, readList, type Kind } from "../bokjiro/ingest";
 import { parseCsv } from "../sources/icare";
-import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, missingFields, moneyChanges, summarize, type SourceReport } from "./diff";
+import { compareSnapshots, fieldCounts, fingerprint, gateCheck, menuDrift, menuParserOutdated, missingFields, moneyChanges, summarize, type SourceReport } from "./diff";
 
 const ROOT = path.resolve(__dirname, "../../..");
 const RAW = path.join(ROOT, "pipeline/raw");
@@ -114,7 +114,9 @@ function main() {
   const mohwAfter = mohwFingerprints();
   const mohwDiff = compareSnapshots(before.mohw, mohwAfter);
   // 바뀐·새 PDF만 다시 읽고 나머지 글은 어제 표 그대로 (표가 아직 없으면 전부 읽기)
-  const reparsed = new Set([...mohwDiff.added, ...mohwDiff.changed]);
+  // 표 읽는 방식이 바뀌었으면 모든 PDF를 다시 읽는다 (parse_menus.py가 판을 보고 전부 읽음 — 어긋남 검사도 전부로)
+  const outdated = menuParserOutdated(fs.readFileSync(path.join(ROOT, "pipeline/mohw/parse_menus.py"), "utf8"), readJson("mohw/parse-report.json"));
+  const reparsed = new Set(outdated ? mohwAfter.keys() : [...mohwDiff.added, ...mohwDiff.changed]);
   if (!skip && (reparsed.size || mohwDiff.removed.length || !menuBefore.length)) {
     errors.mohwParse = run("pipeline/mohw/parse_menus.py", menuBefore.length ? [`--changed=${[...reparsed].join(",")}`] : []);
   }

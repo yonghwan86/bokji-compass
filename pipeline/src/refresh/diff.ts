@@ -128,6 +128,15 @@ const byPost = (rows: readonly Record<string, string>[]) => {
   return m;
 };
 
+/**
+ * 메뉴판 표 읽는 방식(parse_menus.py PARSER_VERSION)이 어제 결과(parse-report.json parserVersion, 없으면 1)와 다른가.
+ * 다르면 바뀌지 않은 PDF까지 모두 다시 읽어야 고친 결과가 들어간다 (2026-10-25)
+ */
+export function menuParserOutdated(pySource: string, report: { parserVersion?: number } | null | undefined): boolean {
+  const now = Number(/^PARSER_VERSION\s*=\s*(\d+)/m.exec(pySource)?.[1] ?? 1);
+  return now !== (report?.parserVersion ?? 1);
+}
+
 /** 메뉴판: 다시 읽지 않은 글(바뀌지 않은 PDF)인데 행이 어제와 달라진 글 수 — 0이어야 정상 */
 export function menuDrift(before: readonly Record<string, string>[], after: readonly Record<string, string>[], reparsed: Set<string>): number {
   const a = byPost(before);

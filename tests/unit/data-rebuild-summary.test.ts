@@ -47,3 +47,24 @@ describe("머지 가능 여부", () => {
     expect(r.reasons.join(" ")).toContain("120");
   });
 });
+
+describe("(2026-10-25) 빠진 사업이 어디로 갔는지", () => {
+  it("운영 정보로 옮김 · 같은 원천 ID로 합쳐짐 · 이름만 바뀜 · 새 결과에 없음", () => {
+    const src = (source: string, id: string) => ({ sources: [{ source, id }] });
+    const a = dir({
+      "national.json": { programs: [] },
+      "sigungu/41110.json": { programs: [p("g41110.icare-1", "다제약물 관리사업"), p("g41110.bokjiro-W1", "효행수당", src("bokjiro", "W1")), p("g41110.icare-2", "가사지원"), p("g41110.icare-3", "도시락 배달")] },
+    });
+    const b = dir({
+      "national.json": { programs: [p("n.icare-poly", "다제약물 관리사업")] },
+      "sigungu/41110.json": {
+        programs: [p("g41110.gov24-9", "효행지원금", { sources: [{ source: "gov24", id: "9" }, { source: "bokjiro", id: "W1" }] }), p("g41110.icare-7", "함께돌봄 가사지원")],
+        localOps: { "n.icare-poly": [{ name: "다제약물 관리 사업" }] },
+      },
+    });
+    const r = compareBundles(a, b);
+    expect(Object.fromEntries(Object.entries(r.removedBy).map(([k, v]) => [k, v.map((x) => x.name)]))).toEqual({
+      ops: ["다제약물 관리사업"], merged: ["효행수당"], renamed: ["가사지원"], gone: ["도시락 배달"],
+    });
+  });
+});
