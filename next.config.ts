@@ -13,6 +13,13 @@ const nextConfig: NextConfig = {
         source: "/bundles/:path*",
         headers: [{ key: "Cache-Control", value: "public, max-age=600, stale-while-revalidate=86400" }],
       },
+      // 신청서 원본·HWPX 변환본: 운영(Vercel)이 정적 파일마다 'inline; filename="저장용 이름"'을 붙여
+      // 화면의 download="사업 신청서 제목.hwpx"보다 앞서 저장용 이름(ordin-…-27a18064215a.hwpx)으로 받아지던 것 —
+      // 이름 없는 inline으로 덮어 미리보기는 그대로, 받을 때는 화면에서 정한 제목으로 (2026-10-25)
+      ...["/forms/files/:path*", "/forms/writing/v1/converted/:path*"].map((source) => ({
+        source,
+        headers: [{ key: "Content-Disposition", value: "inline" }],
+      })),
     ];
   },
 };
