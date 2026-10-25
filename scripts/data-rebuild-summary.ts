@@ -8,7 +8,8 @@
 import fs from "node:fs";
 import path from "node:path";
 
-type P = { id: string; name: string; [k: string]: unknown };
+type P = { id: string; name: string; sources?: { source: string; id: string }[]; [k: string]: unknown };
+type Op = { name: string };
 
 function bundleFiles(root: string): string[] {
   const out: string[] = [];
@@ -23,6 +24,10 @@ const programsOf = (root: string, f: string): P[] => {
   const file = path.join(root, f);
   return fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, "utf8")).programs ?? []) : [];
 };
+const localOpsOf = (root: string, f: string): Op[] => {
+  const file = path.join(root, f);
+  return fs.existsSync(file) ? Object.values((JSON.parse(fs.readFileSync(file, "utf8")).localOps ?? {}) as Record<string, Op[]>).flat() : [];
+};
 const strip = (file: string) => {
   if (!fs.existsSync(file)) return "";
   const j = JSON.parse(fs.readFileSync(file, "utf8"));
@@ -30,20 +35,48 @@ const strip = (file: string) => {
   return JSON.stringify(j);
 };
 
+const nameKey = (s: string) => s.normalize("NFC").replace(/[^0-9A-Za-z가-힣]/g, "");
+const srcKeys = (p: P) => (p.sources ?? []).map((s) => `${s.source}:${s.id}`);
+
+/** 빠진 사업이 어디로 갔는지 (2026-10-25: #62가 1,466개를 '빠짐'으로 셌는데 1,179개는 10-22 결정대로 전국 사업 안으로 옮겨진 것) */
+export type RemovedKind = "ops" | "merged" | "renamed" | "gone";
+export const REMOVED_LABEL: Record<RemovedKind, string> = {
+  ops: "전국 사업의 '우리 지역 운영 정보'로 옮김",
+  merged: "다른 사업과 합쳐짐·지역 옮김 (같은 원천 ID가 새 결과에 있음)",
+  renamed: "이름·ID만 바뀜 (같은 지역에 비슷한 이름)",
+  gone: "새 결과에 없음",
+};
+
 /** 전후 번들의 사업 비교 (전국·시도·시군구 파일, 생성 시각 제외) */
 export function compareBundles(oldDir: string, newDir: string) {
   const files = [...new Set([...bundleFiles(oldDir), ...bundleFiles(newDir)])].sort();
   const a = new Map<string, P>(), b = new Map<string, P>();
+  const fileOf = new Map<string, string>();
+  const newNames = new Map<string, string[]>(), newOps = new Map<string, Set<string>>();
   let changedFiles = 0;
   for (const f of files) {
     if (strip(path.join(oldDir, f)) !== strip(path.join(newDir, f))) changedFiles++;
-    for (const p of programsOf(oldDir, f)) if (!a.has(p.id)) a.set(p.id, p);
-    for (const p of programsOf(newDir, f)) if (!b.has(p.id)) b.set(p.id, p);
+    for (const p of programsOf(oldDir, f)) if (!a.has(p.id)) (a.set(p.id, p), fileOf.set(p.id, f));
+    const progs = programsOf(newDir, f);
+    for (const p of progs) if (!b.has(p.id)) b.set(p.id, p);
+    newNames.set(f, progs.map((p) => nameKey(p.name)));
+    newOps.set(f, new Set(localOpsOf(newDir, f).map((o) => nameKey(o.name))));
   }
   const added = [...b.values()].filter((p) => !a.has(p.id));
   const removed = [...a.values()].filter((p) => !b.has(p.id));
   const changed = [...b.values()].filter((p) => a.has(p.id) && JSON.stringify(a.get(p.id)) !== JSON.stringify(p));
-  return { before: a.size, after: b.size, added, removed, changed, changedFiles };
+  const newSources = new Set([...b.values()].flatMap(srcKeys));
+  const kindOf = (p: P): RemovedKind => {
+    const f = fileOf.get(p.id)!;
+    const k = nameKey(p.name);
+    if (newOps.get(f)?.has(k)) return "ops";
+    if (srcKeys(p).some((s) => newSources.has(s))) return "merged";
+    if ((newNames.get(f) ?? []).some((q) => q === k || (k.length >= 4 && q.length >= 4 && (q.includes(k) || k.includes(q))))) return "renamed";
+    return "gone";
+  };
+  const removedBy: Record<RemovedKind, P[]> = { ops: [], merged: [], renamed: [], gone: [] };
+  for (const p of removed) removedBy[kindOf(p)].push(p);
+  return { before: a.size, after: b.size, added, removed, removedBy, changed, changedFiles };
 }
 
 export function personaDiff(before: Record<string, string[]>, after: Record<string, string[]>) {
@@ -94,7 +127,9 @@ function main() {
     "## 바뀌는 것",
     `- 사업 ${n(cmp.before)} → ${n(cmp.after)} · 바뀐 번들 파일 ${n(cmp.changedFiles)}개`,
     `- 새 사업 ${n(cmp.added.length)}: ${list(cmp.added) || "없음"}`,
-    `- 빠지는 사업 ${n(cmp.removed.length)} (상세 주소가 없어짐): ${list(cmp.removed) || "없음"}`,
+    `- 빠지는 사업 ${n(cmp.removed.length)} (예전 상세 주소가 없어짐) — 어디로 갔는지:`,
+    ...(["ops", "merged", "renamed"] as const).map((k) => `  - ${REMOVED_LABEL[k]} ${n(cmp.removedBy[k].length)}`),
+    `  - **${REMOVED_LABEL.gone} ${n(cmp.removedBy.gone.length)}** (원천에서 내려갔거나 표 읽기가 달라진 것 — 이것만 살펴보면 돼요): ${list(cmp.removedBy.gone) || "없음"}`,
     `- 내용이 바뀐 사업 ${n(cmp.changed.length)}`,
     `- 금액이 바뀐 사업 (매일 확인 기준, 원문과 맞춰 볼 것): ${n(report.moneyChanged?.count ?? 0)}건 — 사이트 '데이터 현황'에 목록`,
     "",

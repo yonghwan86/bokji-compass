@@ -168,3 +168,14 @@ describe("조회수는 저장하지 않음 (2026-10-22: 매일 모든 사업의 
     expect(missingFields(prev, { servNm: 100 }, [...GOV24_NOISE, ...LIST_NOISE])).toEqual(["serviceList.서비스ID"]);
   });
 });
+
+describe("(2026-10-25) 메뉴판 표 읽는 방식이 바뀌었는지", () => {
+  it("parse_menus.py의 PARSER_VERSION과 어제 parse-report.json의 parserVersion(없으면 1)을 비교", async () => {
+    const { menuParserOutdated } = await import("../src/refresh/diff");
+    const py = "COLS = {}\nPARSER_VERSION = 2\n";
+    expect(menuParserOutdated(py, { parserVersion: 2 })).toBe(false);
+    expect(menuParserOutdated(py, {})).toBe(true);
+    expect(menuParserOutdated(py, null)).toBe(true);
+    expect(menuParserOutdated("x = 1\n", null)).toBe(false);
+  });
+});

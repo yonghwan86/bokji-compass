@@ -38,6 +38,11 @@ COLS = {
     "provider": ("제공기관", "서비스제공기관", "제공주체", "담당부서(제공기관)", "수행기관", "기관"),
     "type": ("사업구분", "국가/지자체", "구분"),
 }
+# 번호 칸 머리글 (이름이 옆 칸으로 밀린 행을 새 행으로 알아보는 데만 쓴다)
+NO_COLS = ("연번", "번호", "순번", "no", "No", "NO")
+# 표 읽는 방식의 판. 바꾸면 매일 확인이 바뀌지 않은 PDF까지 한 번 모두 다시 읽는다 (어제 표를 그대로 쓰면 고친 결과가 안 들어가서)
+# 2 (2026-10-25): 이름 칸 번호 '2(줄바꿈)신규'(무주), 이름·내용·기관이 한 칸씩 밀린 행(광주 동구·남구, 울산 북구·동구 등)
+PARSER_VERSION = 2
 # 위아래로 합친 칸 — 빈칸이면 윗줄 값을 이어받는다
 FILL_DOWN = ("category", "subcategory", "type")
 JUNK = re.compile(r"[\ue000-\uf8ff□■◆◇○●▶▷※]|^\d+")
@@ -65,9 +70,20 @@ def key_of(post):
     return f"{post['bid']}:{post['listNo']}:{post['seq']}"
 
 
-def posts_to_parse(posts, prev_by_post, changed):
-    """다시 읽을 글: 바뀐 글 + 어제 결과에 없는 글 (나머지는 어제 행을 그대로 쓴다)"""
+def posts_to_parse(posts, prev_by_post, changed, prev_version=PARSER_VERSION):
+    """다시 읽을 글: 바뀐 글 + 어제 결과에 없는 글 (나머지는 어제 행을 그대로 쓴다). 표 읽는 방식(판)이 바뀌었으면 모두"""
+    if prev_version != PARSER_VERSION:
+        return {key_of(p) for p in posts}
     return {key_of(p) for p in posts if key_of(p) in changed or key_of(p) not in prev_by_post}
+
+
+def prev_parser_version():
+    """어제 결과를 만든 표 읽기 판 (parse-report.json, 기록이 없으면 1)"""
+    try:
+        with open(os.path.join(RAW, "parse-report.json"), encoding="utf-8") as fh:
+            return json.load(fh).get("parserVersion", 1)
+    except (OSError, ValueError):
+        return 1
 
 
 def assemble(posts, prev_by_post, parsed_by_post):
@@ -193,16 +209,78 @@ def header_map(row):
     nm = m.get("name")
     if nm is not None and nm + 1 < len(cells) and cells[nm + 1] == "" and nm + 1 not in m.values():
         m["name_next"] = nm + 1
+    no = next((i for i, c in enumerate(cells) if c in NO_COLS and i not in m.values()), None)
+    if no is not None:
+        m["no"] = no
     return m
+
+
+# 이름 칸의 번호: '12', '2(줄바꿈)신규' (무주: 새로 생긴 사업에 '신규' 표시)
+ROW_NO = re.compile(r"\s*\d+(?:\s*신규)?\s*")
+FIELD_KEYS = ("name_next", "no")  # 머리글 칸이 아닌 열쇠
+
+
+def spill_cols(table, hmap):
+    """칸마다 '밀린 칸': 그 머리글과 다음 머리글 사이의 칸 중, 이 표에서 제자리 칸과 한 줄에 함께 차 있는 적이 없는 칸.
+    광주 동구는 몇몇 행만 이름 5→6, 내용 8→9, 기관 12→13으로 밀려 읽힌다. 진주처럼 기관 옆 칸에 늘 '전국'(머리글이 두 줄로
+    나뉜 사업구분)이 함께 차 있으면 밀린 칸이 아니다."""
+    heads = [v for k, v in hmap.items() if k not in FIELD_KEYS]
+    width = max((len(r) for r in table), default=0)
+    out = {}
+    for f in COLS:
+        if f not in hmap:
+            continue
+        i = hmap[f]
+        end = min([x for x in heads if x > i], default=width)
+        cols = []
+        for j in range(i + 1, end):
+            used = [r for r in table if j < len(r) and nospace(r[j])]
+            if used and not any(i < len(r) and nospace(r[i]) for r in used):
+                cols.append(j)
+        out[f] = cols
+    return out
+
+
+def span_cell(row, hmap, f, spill):
+    """칸 f의 글자. 비었으면 이 표의 밀린 칸(spill_cols)에서 찾는다"""
+    v = row[hmap[f]] or ""
+    if nospace(v):
+        return v
+    for j in spill.get(f, ()):
+        if j < len(row) and nospace(row[j]):
+            return row[j]
+    return v
 
 
 def row_name(row, hmap):
     """사업명: 이름 칸이 번호뿐이고 옆(빈 머리글) 칸에 글자가 있으면 그 칸"""
     v = row[hmap["name"]] or ""
     nxt = hmap.get("name_next")
-    if nxt is not None and re.fullmatch(r"\s*\d+\s*", v) and nospace(row[nxt]):
+    if nxt is not None and ROW_NO.fullmatch(v) and nospace(row[nxt]):
         return row[nxt]
     return v
+
+
+def read_row(row, hmap, after_shifted=False, spill=None):
+    """표 한 줄 → (종류, 칸 값, 밀린 칸에서 읽은 값이 있는지). 종류:
+    - "new": 새 행. 이름 칸에 글자가 있으면 (예전과 같음 — 빈 칸만 밀린 칸에서 채움),
+      또는 이름 칸이 비고 밀린 칸에 이름이 있으면서 번호 칸에 번호가 있을 때 (밀린 행)
+    - "cont+name": 앞 행에 이어지는 줄, 이름도 이어 붙임 — 밀린 행 다음 줄 ('[광주다움통합돌봄]' + '식사지원')
+    - "cont": 앞 행에 이어지는 줄 (이름 없음 — 쪽이 넘어가며 이어지는 줄, 예전과 같음)"""
+    direct = {f: (row[hmap[f]] or "") if f in hmap else "" for f in COLS}
+    shifted = {f: span_cell(row, hmap, f, spill or {}) if f in hmap else "" for f in COLS}
+    no = hmap.get("no")
+    numbered = no is not None and bool(re.search(r"\d", row[no] or ""))
+    name = row_name(row, hmap)
+    if nospace(name):
+        # 이름은 제자리인데 내용·기관만 밀린 행(광주 동구 'The 조아 건강지킴이': 내용 8→9)도 빈 칸은 밀린 칸에서
+        vals = {**shifted, "name": name}
+        return "new", vals, vals != {**direct, "name": name}
+    if nospace(shifted["name"]) and numbered:
+        return "new", shifted, True
+    if after_shifted:
+        return "cont+name", shifted, False
+    return "cont", direct, False
 
 
 def norm_category(raw):
@@ -269,7 +347,7 @@ def main():
     arg = next((a for a in sys.argv[1:] if a.startswith("--changed=")), None)
     prev_by_post = read_prev() if arg is not None else {}
     changed = set(filter(None, arg.split("=", 1)[1].split(","))) if arg else set()
-    todo = posts_to_parse(index["posts"], prev_by_post, changed)
+    todo = posts_to_parse(index["posts"], prev_by_post, changed, prev_parser_version())
     spaced, vocab, old_ids = corpus([r for rows in prev_by_post.values() for r in rows])
     # 글(게시판:글번호)별 예전 이름 → 예전 ID (메뉴판 파일이 새 판으로 바뀌어 쪽·행이 밀려도 같은 사업은 같은 ID)
     old_by_name = {}
@@ -297,34 +375,41 @@ def main():
             for pi, page in enumerate(pdf.pages, start=1):
                 ri = 0
                 for table in page.extract_tables():
+                    spill = None
                     for row in table:
                         h = header_map(row)
                         if h:
                             hmap = h
+                            spill = None
                             continue
                         if not hmap or len(row) <= max(hmap.values()):
                             stats["skipped_rows"] += 1
                             continue
-                        get = lambda f: row_name(row, hmap) if f == "name" else (row[hmap[f]] if f in hmap else "")
-                        if not nospace(get("name")):
-                            # 앞 쪽에서 이어지는 줄 → 앞 행에 붙인다
-                            if rows and rows[-1]["_post"] == post["listNo"]:
+                        prev_shifted = bool(rows and rows[-1]["_post"] == post["listNo"] and rows[-1].get("_shifted"))
+                        if spill is None:
+                            spill = spill_cols(table, hmap)
+                        same_post = bool(rows and rows[-1]["_post"] == post["listNo"])
+                        kind, raw, shifted = read_row(row, hmap, prev_shifted, spill)
+                        if kind != "new":
+                            # 앞 쪽에서 이어지는 줄 → 앞 행에 붙인다 (밀린 행 다음 줄이면 둘째 줄 이름도)
+                            if same_post:
                                 prev = rows[-1]
-                                for f in ("description", "target", "provider"):
-                                    extra = (get(f) or "").strip()
+                                for f in ("name", "description", "target", "provider") if kind == "cont+name" else ("description", "target", "provider"):
+                                    extra = (raw[f] or "").strip()
                                     if extra:
                                         prev["_raw"][f] = (prev["_raw"][f] + "\n" + extra).strip()
                                 stats["continued"] += 1
                             continue
+                        if shifted:
+                            stats["shifted"] += 1
                         ri += 1
                         n += 1
-                        raw = {f: (get(f) or "") for f in COLS}
                         for f in FILL_DOWN:
                             if nospace(raw[f]):
                                 last[f] = raw[f]
                             else:
                                 raw[f] = last.get(f, "")
-                        rows.append({"_key": key_of(post), "_post": post["listNo"], "_raw": raw, "_id": f"{post['bid']}:{post['listNo']}:{post['seq']}:{pi}:{ri}",
+                        rows.append({"_key": key_of(post), "_post": post["listNo"], "_raw": raw, "_shifted": shifted, "_id": f"{post['bid']}:{post['listNo']}:{post['seq']}:{pi}:{ri}",
                                      "_sigungu": sigungu, "_board": post["boardSido"], "_updated": updated, "_url": post["viewUrl"]})
         per_post.append({"title": post["title"], "sigungu": sigungu, "updated": updated, "rows": n})
     parsed = {k: [] for k in todo}
@@ -347,7 +432,7 @@ def main():
         w = csv.DictWriter(fh, fieldnames=FIELDS)
         w.writeheader()
         w.writerows(out)
-    report = {"posts": len(index["posts"]), "parsed": len(todo), "rows": len(out), "stats": dict(stats),
+    report = {"parserVersion": PARSER_VERSION, "posts": len(index["posts"]), "parsed": len(todo), "rows": len(out), "stats": dict(stats),
               "byBoard": dict(Counter(r["display_sido"] for r in out)), "categories": dict(Counter(r["category"] for r in out)),
               "types": dict(Counter(r["type"] for r in out)), "perPost": per_post}
     with open(os.path.join(RAW, "parse-report.json"), "w", encoding="utf-8") as fh:
