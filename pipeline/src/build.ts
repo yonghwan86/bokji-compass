@@ -365,6 +365,8 @@ function main() {
     gov24: gov24Status
       ? { status: gov24Status.status, detail: gov24Status.detail, services: gov24.length || undefined }
       : { status: "unavailable", detail: "수집 기록 없음 (npm run ingest:gov24 미실행)" },
+    // 출처 안내(/about)가 통합돌봄 자료의 출처 문구를 고르는 근거 (2026-10-26)
+    icareOrigin: useMohw ? "mohw" : "dashboard",
   };
   write("meta.json", meta);
 

@@ -67,10 +67,16 @@ const APART: [string, string][] = [
   ["생계급여", "긴급복지 생계지원"],
 ];
 
+/**
+ * 원천에서 내려간 이름 — 지금 배포 데이터에는 있어 묶음 목록(SAME_SETS)에 남겨 두지만, 다음 재생성부터는 없어도 된다.
+ * 유아학비 (누리과정) 지원: 정부24 000000465790, 2026-10-25 수집부터 없음 (같은 제도의 복지로 이름은 남음)
+ */
+const RETIRED = new Set(["유아학비 (누리과정) 지원"]);
+
 describe("출처마다 이름이 다른 같은 전국 제도", () => {
-  it("목록의 이름이 모두 전국 데이터에 있다", () => {
+  it("목록의 이름이 모두 전국 데이터에 있다 (원천에서 내려간 이름 제외)", () => {
     const names = new Set(national.map((p) => p.name));
-    for (const n of [...SAME.flat(), ...APART.flat()]) expect(names.has(n), n).toBe(true);
+    for (const n of [...SAME.flat(), ...APART.flat()]) expect(names.has(n) || RETIRED.has(n), n).toBe(true);
   });
   for (const set of SAME) {
     it(`한 묶음: ${set.join(" = ")}`, () => {

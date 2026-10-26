@@ -64,6 +64,7 @@ export function buildDataProvenance(root = ROOT): DataProvenance {
   const meta = JSON.parse(fs.readFileSync(path.join(root, "public/bundles/v1/meta.json"), "utf8")) as {
     generatedAt?: unknown;
     counts?: { uniquePrograms?: unknown; placements?: unknown; localOps?: unknown; raw?: Record<string, unknown> };
+    icareOrigin?: unknown;
   };
   const coverage = JSON.parse(fs.readFileSync(path.join(root, "public/forms/v1/coverage.json"), "utf8")) as {
     generatedAt?: unknown;
@@ -98,6 +99,7 @@ export function buildDataProvenance(root = ROOT): DataProvenance {
     forms,
     pipelineInputs,
     ...(localOps == null ? {} : { regionalOperations: numberField(localOps, "localOps") }),
+    ...(meta.icareOrigin === "mohw" || meta.icareOrigin === "dashboard" ? { icareOrigin: meta.icareOrigin } : {}),
   });
   assertPublicProvenance(doc);
   return doc;

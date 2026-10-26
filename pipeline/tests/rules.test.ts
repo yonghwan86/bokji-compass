@@ -85,3 +85,15 @@ describe("공공서비스(혜택) supportConditions → 규칙 (설계서 6.6)",
     expect(d.badges).toContain("business");
   });
 });
+
+describe("(2026-10-26) 성인 나이 상한에 '아동(자녀)' 갈래를 붙이지 않는다", () => {
+  it("국민내일배움카드 '75세 미만 모든 국민' — 제외 대상의 '재학생' 때문에 아동 문맥으로 보지 않음", () => {
+    const t = extractFromText("75세 미만 모든 국민을 대상으로 지원합니다. 단, 현직 공무원, 졸업예정학년이 아닌 고등학교 재학생, 대학 재학생 등은 제외");
+    expect(JSON.stringify(t.logic)).not.toContain("childAge");
+    expect(t.logic).toMatchObject({ field: "age", max: 74 });
+  });
+  it("아동 문맥의 18세 이하는 그대로 본인 또는 자녀", () => {
+    const t = extractFromText("만 18세 미만 아동이 있는 가구");
+    expect(JSON.stringify(t.logic)).toContain("childAge");
+  });
+});

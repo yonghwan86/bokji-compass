@@ -5,6 +5,7 @@ import {
   assertPublicProvenance,
   createSourceCensus,
   koCount,
+  kstStamp,
   provenanceView,
   publicHttpsUrl,
   type DataProvenance,
@@ -120,89 +121,83 @@ describe("세부 자료 전수", () => {
     expect(raw).not.toMatch(/[A-Za-z]:\\Users\\|\/root\/|\\\\Users\\/);
   }, 120_000);
 
-  it("256조각의 고유 자료 23578건과 출처 연결을 구분한다", () => {
-    expect(doc.basis).toMatchObject({ shardFiles: 256, programRecords: 23578, duplicateIds: 0, programsWithoutSources: 0 });
-    expect(doc.metaUniquePrograms).toBe(23575);
-    expect(doc.metaPlacements).toBe(23578);
-    expect(doc.districtCopies).toMatchObject({
-      extraRecords: 3,
-      groups: 3,
-      regions: ["인천 영종구", "인천 제물포구"],
-      sourceKinds: ["bokjiro"],
-    });
-    const links = Object.fromEntries(doc.sources.map((source) => [source.id, source.programLinks]));
-    expect(links).toEqual({ gov24: 9336, bokjiro: 5232, icare: 10218, welfare100: 100, manual: 3 });
-    const refs = Object.fromEntries(doc.sources.map((source) => [source.id, source.sourceRefs]));
-    expect(refs).toEqual({ gov24: 9703, bokjiro: 5271, icare: 10294, welfare100: 100, manual: 3 });
-    expect(doc.overlap).toMatchObject({ sourceKindLinkSum: 24889, programsWithMultipleSourceKinds: 1263, byKindCount: { "2": 1215, "3": 48 } });
-    expect(9336 + 5232 + 10218 + 100 + 3).toBe(24889);
+  // 건수·날짜는 지금 번들(meta.json)·서식 집계(coverage.json)에서 읽는다 — 매일 확인 뒤 자동 재생성마다
+  // 숫자가 바뀌어 고정값 테스트가 실패했다 (2026-10-26 #62). 집계 사이의 관계와 문구 규칙은 그대로 검사한다.
+  const meta = JSON.parse(readFileSync("public/bundles/v1/meta.json", "utf8"));
+  const coverage = JSON.parse(readFileSync("public/forms/v1/coverage.json", "utf8"));
+  const src = (id: string) => doc.sources.find((source) => source.id === id)!;
+  const sum = (xs: number[]) => xs.reduce((a, b) => a + b, 0);
+
+  it("256조각의 고유 자료와 출처 연결을 구분한다 (건수는 지금 번들 meta와 같음)", () => {
+    expect(doc.basis).toMatchObject({ shardFiles: 256, programRecords: meta.counts.placements, duplicateIds: 0, programsWithoutSources: 0 });
+    expect(doc.metaUniquePrograms).toBe(meta.counts.uniquePrograms);
+    expect(doc.metaPlacements).toBe(meta.counts.placements);
+    // 같은 사업이 개편 전후 두 구에 함께 실린 수 = 배치 수 − 고유 사업 수
+    expect(doc.districtCopies.extraRecords).toBe(meta.counts.placements - meta.counts.uniquePrograms);
+    if (doc.districtCopies.extraRecords > 0) expect(doc.districtCopies.regions.length).toBeGreaterThan(0);
+    expect(doc.overlap.sourceKindLinkSum).toBe(sum(doc.sources.map((source) => source.programLinks)));
     expect(doc.overlap.sourceKindLinkSum).not.toBe(doc.basis.programRecords);
-    expect(doc.sources.find((source) => source.id === "welfare100")?.refsWithoutUrl).toBe(100);
+    expect(doc.overlap.programsWithMultipleSourceKinds).toBe(sum(Object.values(doc.overlap.byKindCount)));
+    expect(src("welfare100").refsWithoutUrl).toBe(src("welfare100").sourceRefs);
     for (const source of doc.sources) {
-      if (source.id !== "welfare100") expect(source.refsWithoutUrl).toBe(0);
+      if (source.id !== "welfare100") expect(source.refsWithoutUrl, source.id).toBe(0);
     }
-    expect(doc.urlCoverage).toEqual({ programsWithRecordedUrl: 23528, programsWithoutAnyUrl: 50, welfare100OnlyWithoutUrl: 50 });
-    expect(doc.urlCoverage.programsWithRecordedUrl + doc.urlCoverage.programsWithoutAnyUrl).toBe(23578);
-    expect(doc.outsideDetail).toEqual({ rawInputRecords: 28861, regionalOperations: 2359 });
-    expect(doc.pipelineInputs.reduce((sum, row) => sum + row.records, 0)).toBe(28861);
-    expect(doc.sources.find((source) => source.id === "icare")).toMatchObject({ distinctUrls: 230, distinctBoards: 17 });
+    expect(doc.urlCoverage.programsWithRecordedUrl + doc.urlCoverage.programsWithoutAnyUrl).toBe(doc.basis.programRecords);
+    expect(doc.outsideDetail.rawInputRecords).toBe(sum(Object.values(meta.counts.raw as Record<string, number>)));
+    expect(doc.pipelineInputs.reduce((total, row) => total + row.records, 0)).toBe(doc.outsideDetail.rawInputRecords);
+    if (meta.counts.localOps != null) expect(doc.outsideDetail.regionalOperations).toBe(meta.counts.localOps);
+    expect(src("icare")).toMatchObject({ distinctBoards: 17 }); // 시·도 게시판 17곳 (메뉴판 목록 주소는 세지 않음)
+    expect(src("icare").distinctUrls).toBeGreaterThanOrEqual(200);
   });
 
   it("수집일·원문 기준일·법령 검토일·서식 건수를 섞지 않는다", () => {
-    const fetched = Object.fromEntries(doc.sources.map((source) => [source.id, source.fetchedAt && [source.fetchedAt.min, source.fetchedAt.max, source.fetchedAt.datedRefs]]));
-    expect(fetched).toEqual({
-      gov24: ["2026-10-02", "2026-10-02", 9703],
-      bokjiro: ["2026-10-06", "2026-10-06", 5271],
-      icare: ["2026-10-01", "2026-10-01", 10294],
-      welfare100: ["2026-10-06", "2026-10-06", 100],
-      manual: ["2026-10-07", "2026-10-07", 3],
-    });
-    expect(doc.sources.find((source) => source.id === "bokjiro")?.documentDate).toMatchObject({
-      min: "2022-06-29", max: "2026-10-02", datedRefs: 5271, missingRefs: 0,
-      precision: "mixed", granularity: { year: 461, month: 0, day: 4810 },
-    });
-    expect(doc.sources.find((source) => source.id === "icare")?.documentDate).toMatchObject({
-      min: "2026-03", max: "2026-07", precision: "mixed", label: "기준 시점",
-    });
-    expect(doc.sources.find((source) => source.id === "icare")?.documentDate?.meaning).toContain("수집일이 아닙니다");
-    expect(doc.sources.find((source) => source.id === "welfare100")?.documentDate?.min).toBe("2026-09-24");
-    expect(doc.bundleGeneratedAt).toBe("2026-10-08T14:57:47.456Z");
+    for (const source of doc.sources) {
+      const f = source.fetchedAt;
+      if (!f) continue;
+      expect(f.min <= f.max, source.id).toBe(true);
+      expect(f.datedRefs + f.missingRefs, source.id).toBe(source.sourceRefs);
+    }
+    expect(src("bokjiro").documentDate).toMatchObject({ missingRefs: 0 });
+    // 메뉴판 기준 시점: 월만 있으면 '메뉴판 기준월', 날짜까지 섞이면 '기준 시점' — 어느 쪽이든 수집일이 아니라고 적는다
+    expect(["기준 시점", "메뉴판 기준월"]).toContain(src("icare").documentDate?.label);
+    expect(src("icare").documentDate?.meaning).toContain("수집일이 아닙니다");
+    expect(src("welfare100").documentDate?.min).toBe("2026-09-24");
+    expect(doc.bundleGeneratedAt).toBe(meta.generatedAt);
     expect(doc.forms).toMatchObject({
-      downloadOriginals: 2844,
-      linkedPrograms: 2564,
-      censusPrograms: 23578,
-      lawReviewCheckedAt: "2026-10-23",
+      downloadOriginals: coverage.publishedForms,
+      linkedPrograms: coverage.counts.available,
+      censusPrograms: coverage.totalPrograms,
+      lawReviewCheckedAt: coverage.investigationSummary.checkedAt,
     });
-    expect(doc.forms.portalListCheckedAt).toBe("2026-10-16T16:26:04.977154+00:00");
+    expect(doc.forms.portalListCheckedAt).toBe(coverage.portalScan.checkedAt);
     expect(doc.forms.formBundleGeneratedAt).not.toBe(doc.bundleGeneratedAt);
   });
 
   it("화면 문구는 건수·한계·공식 링크를 드러내고 완료 선언을 하지 않는다", () => {
     const text = [view.fetchedNote, view.linkNote, ...view.paragraphs, view.tableCaption, ...view.rows.map((row) => `${row.title} ${row.programs} ${row.fetched}`), view.refNote, ...view.dates, view.forms, ...view.limits, ...view.links.map((link) => `${link.label} ${link.roleLabel} ${link.href}`)].join("\n");
-    expect(text).toContain("23,578");
-    expect(text).toContain("23,575");
-    expect(text).toContain("9,336");
-    expect(text).toContain("5,232");
-    expect(text).toContain("10,218");
-    expect(text).toContain("24,889");
-    expect(text).toContain("1,263");
-    expect(text).toContain("2,844");
-    expect(text).toContain("2,564");
+    for (const n of [doc.basis.programRecords, doc.metaUniquePrograms, doc.overlap.sourceKindLinkSum, doc.overlap.programsWithMultipleSourceKinds, doc.forms.downloadOriginals, doc.forms.linkedPrograms, doc.urlCoverage.programsWithRecordedUrl, doc.outsideDetail.rawInputRecords]) {
+      expect(text).toContain(koCount(n));
+    }
+    for (const source of doc.sources) expect(text).toContain(koCount(source.programLinks));
+    if (doc.outsideDetail.regionalOperations != null) expect(text).toContain(koCount(doc.outsideDetail.regionalOperations));
     expect(text).toContain("총 복지 수가 아닙니다");
     expect(text).toContain("개별 원문 주소가 비어");
-    expect(text).toContain("23,528");
-    expect(text).toContain("50건");
+    expect(text).toContain(`${koCount(doc.urlCoverage.programsWithoutAnyUrl)}건`);
     expect(text).toContain("오류나 예전 값이 아닙니다");
     expect(text).toContain("자료에 기록된 수집일");
     expect(text).toContain("목록 캐시 파일의 수정 시각");
-    expect(text).toContain("2026-10-08");
-    expect(text).toContain("선행 대시보드 수집본");
-    expect(text).toContain("230개");
-    expect(text).toContain("17곳");
-    expect(text).toContain("다시 만든 것은 아닙니다");
+    expect(text).toContain(kstStamp(doc.bundleGeneratedAt).slice(0, 10));
+    // 통합돌봄 출처 문구는 번들이 메뉴판을 어디서 읽었는지(meta.icareOrigin)에 따라
+    if (doc.icareOrigin === "mohw") {
+      expect(text).toContain("메뉴판 PDF를 받아 표를 읽은 것");
+      expect(text).not.toContain("선행 대시보드 수집본");
+    } else {
+      expect(text).toContain("선행 대시보드 수집본");
+      expect(text).toContain("다시 만든 것은 아닙니다");
+    }
+    expect(text).toContain(`${koCount(src("icare").distinctUrls)}개`);
+    expect(text).toContain(`${koCount(src("icare").distinctBoards)}곳`);
     expect(text).toContain("공식 API가 아닙니다");
-    expect(text).toContain("2,359");
-    expect(text).toContain("28,861");
     expect(text).toContain("지금 모두 열어 확인한 것은 아닙니다");
     expect(text).not.toMatch(/재수집(을|으로)? 완료|원문 재수집 완료/);
     expect(text).toContain("제공 API");
@@ -217,10 +212,8 @@ describe("세부 자료 전수", () => {
     expect(text).toContain("https://www.suwon.go.kr/sw-www/saebitinfo/saebitinfo-01.jsp");
     expect(text).not.toContain("전국 모든 복지 수집완료");
     expect(text).not.toMatch(/serviceKey|DATA_GO_KR_SERVICE_KEY/);
-    expect(view.rows.map((row) => row.programs)).toEqual(["9,336건", "5,232건", "10,218건", "100건", "3건"]);
-    expect(koCount(doc.basis.programRecords)).toBe("23,578");
-    const welfareLinks = doc.sources.find((source) => source.id === "welfare100")?.links ?? [];
-    expect(welfareLinks).toEqual([]);
+    expect(view.rows.map((row) => row.programs)).toEqual(doc.sources.map((source) => `${koCount(source.programLinks)}건`));
+    expect(src("welfare100").links ?? []).toEqual([]);
   });
 });
 

@@ -87,6 +87,8 @@ export interface DataProvenance {
   };
   /** 묶음 생성 로그의 원천 입력. 제외·병합 전이며 상세 자료 건수가 아니다. */
   pipelineInputs: { id: SourceId; records: number }[];
+  /** 통합돌봄 자료를 보건복지부 메뉴판 PDF에서 직접 읽었으면 "mohw" (meta.icareOrigin). 없으면 선행 대시보드 수집본 */
+  icareOrigin?: "mohw" | "dashboard";
   /** 상세 자료 건수 밖에 있는 수. 더해서 전체 복지 수로 쓰지 않는다. */
   outsideDetail: {
     rawInputRecords: number;
@@ -228,7 +230,7 @@ export function provenanceView(doc: DataProvenance): ProvenanceView {
       if (!fetched) return `${source.title}에는 자료에 기록된 수집일이 없습니다.`;
       const when = spanText(fetched);
       const missing = fetched.missingRefs > 0 ? ` 수집일이 없는 출처 표기 ${koCount(fetched.missingRefs)}건은 범위에 넣지 않았습니다.` : "";
-      return `${source.title}에 기록된 수집일은 ${when}입니다.${missing}${fetchedCaveat(source, buildDay)}`;
+      return `${source.title}에 기록된 수집일은 ${when}입니다.${missing}${fetchedCaveat(source, buildDay, doc.icareOrigin)}`;
     }),
   ];
   for (const source of doc.sources) {
@@ -299,7 +301,7 @@ export function provenanceView(doc: DataProvenance): ProvenanceView {
   };
 }
 
-function fetchedCaveat(source: ProvenanceSource, buildDay: string): string {
+function fetchedCaveat(source: ProvenanceSource, buildDay: string, icareOrigin?: DataProvenance["icareOrigin"]): string {
   if (source.id === "bokjiro") {
     return ` 이 값은 목록 캐시 파일의 수정 시각에서 옮긴 것입니다. 묶음 안내문에 복지로 수집일로 적힌 ${buildDay}는 묶음을 만든 날이고, 이 기록일과 다릅니다.`;
   }
@@ -307,6 +309,9 @@ function fetchedCaveat(source: ProvenanceSource, buildDay: string): string {
     const measured = source.distinctUrls > 0
       ? ` 이 묶음에 남은 서로 다른 메뉴판 주소는 ${koCount(source.distinctUrls)}개${source.distinctBoards > 0 ? `, 시·도 게시판은 ${koCount(source.distinctBoards)}곳` : ""}입니다.`
       : "";
+    if (icareOrigin === "mohw") {
+      return ` 이 값은 보건복지부 통합돌봄 메뉴판 게시판에서 PDF 목록을 확인한 날입니다. 원문의 기준 시점은 메뉴판 문서마다 다릅니다.${measured}`;
+    }
     return ` 이 값은 선행 대시보드 수집본을 읽을 때 붙인 날짜입니다. 공적 원출처는 보건복지부 통합돌봄 메뉴판입니다.${measured} 원문을 다시 받는 코드가 있어도 이 묶음을 그 재수집으로 다시 만든 것은 아닙니다.`;
   }
   if (source.id === "welfare100") {
@@ -484,7 +489,9 @@ export function createSourceCensus(shardFiles: number) {
           const host = new URL(source.safeUrl).hostname;
           bucket.hosts.set(host, (bucket.hosts.get(host) ?? 0) + 1);
           bucket.urls.add(source.safeUrl);
-          const board = new URL(source.safeUrl).searchParams.get("mid");
+          // 시·도 게시판은 게시판 글(board.es)에서만 센다 — 전국으로 올린 사업의 메뉴판 목록 주소(menu.es)는 게시판이 아님
+          const url = new URL(source.safeUrl);
+          const board = url.pathname.endsWith("/board.es") ? url.searchParams.get("mid") : null;
           if (board) bucket.boards.add(board);
           if (source.id === "manual" && !bucket.evidence.has(source.safeUrl)) {
             bucket.evidence.set(source.safeUrl, program.name?.trim() || program.id);
@@ -606,6 +613,7 @@ export interface ProvenanceContext {
   forms: DataProvenance["forms"];
   pipelineInputs: DataProvenance["pipelineInputs"];
   regionalOperations?: number;
+  icareOrigin?: DataProvenance["icareOrigin"];
 }
 
 export function assembleProvenance(census: SourceCensus, context: ProvenanceContext): DataProvenance {
@@ -637,7 +645,9 @@ export function assembleProvenance(census: SourceCensus, context: ProvenanceCont
     const limitation = source.id === "welfare100" && source.refsWithoutUrl === source.sourceRefs && source.sourceRefs > 0
       ? "핵심 복지 100선은 운영자가 정리한 요약이고 공식 API가 아닙니다. 개별 원문 주소가 비어 있어 복지로 페이지로 이어 주지 않습니다."
       : source.id === "icare"
-        ? "이 묶음의 통합돌봄 자료는 OpenAPI로 직접 수집한 것이 아니라 선행 대시보드 수집본을 읽은 것이고, 공적 원출처는 보건복지부 통합돌봄 메뉴판입니다. 나중에 원문을 다시 받는 코드가 이 묶음에 반영된 것은 아닙니다."
+        ? context.icareOrigin === "mohw"
+          ? "이 묶음의 통합돌봄 자료는 OpenAPI가 아니라 보건복지부가 공개한 시·군·구 메뉴판 PDF를 받아 표를 읽은 것입니다. 표 읽기는 규칙으로 하며, 원문 PDF와 글자·띄어쓰기가 다를 수 있습니다."
+          : "이 묶음의 통합돌봄 자료는 OpenAPI로 직접 수집한 것이 아니라 선행 대시보드 수집본을 읽은 것이고, 공적 원출처는 보건복지부 통합돌봄 메뉴판입니다. 나중에 원문을 다시 받는 코드가 이 묶음에 반영된 것은 아닙니다."
         : undefined;
     return {
       id: source.id,
@@ -672,6 +682,7 @@ export function assembleProvenance(census: SourceCensus, context: ProvenanceCont
     sources,
     forms: context.forms,
     pipelineInputs: context.pipelineInputs,
+    ...(context.icareOrigin ? { icareOrigin: context.icareOrigin } : {}),
     outsideDetail: {
       rawInputRecords: context.pipelineInputs.reduce((sum, row) => sum + row.records, 0),
       ...(context.regionalOperations != null ? { regionalOperations: context.regionalOperations } : {}),

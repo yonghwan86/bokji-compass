@@ -50,7 +50,10 @@ jobs:
           npx tsx scripts/persona-top5.ts "$RUNNER_TEMP/before.json"
 
       - name: 다시 만들기
-        run: npm run pipeline
+        run: |
+          npm run pipeline
+          # 출처 안내(/about)의 건수·수집일은 번들에서 다시 센다 — 안 하면 저장된 집계가 예전 번들 기준으로 남음 (2026-10-26)
+          npx tsx scripts/build-data-provenance.ts
 
       - name: 페르소나 상위 5개 (후) · 단위 테스트
         run: |
@@ -76,7 +79,7 @@ jobs:
           git config user.name "bokji-compass-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B auto/data-rebuild
-          git add public/bundles pipeline/out
+          git add public/bundles pipeline/out src/lib/data/dataProvenance.json
           git commit -q -m "data: 사이트 데이터 자동 재생성 ($day)"
           git push -f origin auto/data-rebuild
           title="data: 사이트 데이터 자동 재생성 ($day)"

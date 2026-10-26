@@ -70,6 +70,8 @@ describe("검토표 결정 반영", () => {
     expect(p).toMatchObject({ source: "icare", sourceId: "national-health-screening", name: "국가건강검진", scope: "national", orgType: "central", summary: "고혈압, 당뇨병 등 조기 치료 유도", target: "노인, 장애인" });
     expect(p.sidoCode).toBeUndefined();
     expect(p.sigunguCodes).toBeUndefined();
+    // 원문 주소: 한 지역 메뉴판 글이 아니라 보건복지부 통합돌봄 메뉴판 목록 (2026-10-26 재생성에서 주소 없는 출처 7개)
+    expect(p.url).toBe("https://www.mohw.go.kr/menu.es?mid=a60600000000");
     const { records, localOps } = mergeAcrossSources(input, fresh());
     expect(records).toEqual([p]);
     expect([...(localOps.get(p)?.keys() ?? [])].sort()).toEqual(["41110", "41130", "41150"]);
