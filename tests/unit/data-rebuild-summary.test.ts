@@ -3,7 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { compareBundles, personaDiff, readiness } from "../../scripts/data-rebuild-summary";
+import { compareBundles, failedFromVitest, personaDiff, readiness } from "../../scripts/data-rebuild-summary";
 
 const dir = (files: Record<string, unknown>) => {
   const d = fs.mkdtempSync(path.join(os.tmpdir(), "bundles-"));
@@ -66,5 +66,16 @@ describe("(2026-10-25) 빠진 사업이 어디로 갔는지", () => {
     expect(Object.fromEntries(Object.entries(r.removedBy).map(([k, v]) => [k, v.map((x) => x.name)]))).toEqual({
       ops: ["다제약물 관리사업"], merged: ["효행수당"], renamed: ["가사지원"], gone: ["도시락 배달"],
     });
+  });
+});
+
+describe("(2026-10-26) 실패한 테스트에 이유 첫 줄", () => {
+  it("시간 초과처럼 이유가 보이게, 색 코드는 지움", () => {
+    const f = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "vitest-")), "v.json");
+    fs.writeFileSync(f, JSON.stringify({ testResults: [{ name: "/x/tests/unit/guided.test.ts", assertionResults: [
+      { status: "failed", fullName: "경로 1", failureMessages: ["\u001b[31mError: Test timed out in 5000ms.\u001b[39m\nIf this is a long-running test…"] },
+      { status: "passed", fullName: "경로 2" },
+    ] }] }));
+    expect(failedFromVitest(f)).toEqual(["guided > 경로 1 — Error: Test timed out in 5000ms."]);
   });
 });

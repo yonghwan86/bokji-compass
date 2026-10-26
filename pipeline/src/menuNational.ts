@@ -15,6 +15,9 @@ export interface MenuDecisions {
 }
 
 /** 검토표의 이름 묶음 열쇠: 괄호 설명을 떼고 띄어쓰기·가운뎃점·쉼표 등을 뺀다 */
+/** 보건복지부 지방정부 통합돌봄 서비스 메뉴판 목록 (시·도 게시판 17곳의 첫 화면) */
+export const MENU_INDEX_URL = "https://www.mohw.go.kr/menu.es?mid=a60600000000";
+
 export const menuKey = (name: string) => name.replace(/\([^)]*\)/g, "").replace(/[^가-힣A-Za-z0-9.:]/g, "");
 
 /** 가장 많이 쓴 (설명, 대상) 원문의 행 — 같으면 행 ID가 앞선 것 */
@@ -45,7 +48,8 @@ export function applyMenuDecisions(records: SourceRecord[], dec: MenuDecisions):
     const rep = representative(rows);
     const updated = rows.map((r) => r.updatedAt).filter((x): x is string => !!x).sort().at(-1);
     return {
-      source: "icare", sourceId: p.slug, name: p.name, key: nameKey(p.name),
+      // 원문 주소는 보건복지부 통합돌봄 메뉴판 목록 — 지역 행마다 다른 글이라 한 곳을 고르지 않는다
+      source: "icare", sourceId: p.slug, name: p.name, key: nameKey(p.name), url: MENU_INDEX_URL,
       summary: rep.summary, target: rep.target,
       orgType: "central", scope: "national", owner: "중앙부처 (전국 공통 사업)",
       category: rep.category, tags: rep.tags, updatedAt: updated, fetchedAt: rep.fetchedAt,

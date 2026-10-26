@@ -195,4 +195,6 @@ export interface BuildMeta {
   dataAsOf: Record<string, string>;
   counts: Record<string, unknown>;
   gov24: { status: "ok" | "unavailable" | "error"; detail: string; services?: number };
+  /** 통합돌봄 메뉴판을 어디서 읽었나: 보건복지부 PDF 직접(mohw) · 선행 대시보드 수집본(dashboard). 예전 번들엔 없음 (= dashboard) */
+  icareOrigin?: "mohw" | "dashboard";
 }

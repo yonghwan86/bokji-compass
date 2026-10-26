@@ -48,7 +48,9 @@ export function extractFromText(rawText: string | undefined): TextRule {
     const n = Number(under[1]) - (under[2] === "미만" ? 1 : 0);
     numericAge = true;
     matched.push(under[0]);
-    groups.push(any(undefined, kid(0, n, `만 ${n}세 이하 아동 (자녀)`), age(0, n, `만 ${n}세 이하`)));
+    // 성인 나이 상한(19세 이상)은 본인 나이만 — '고등학교 재학생 제외'처럼 학생 낱말이 있어도 자녀 갈래를 붙이지 않는다
+    // (국민내일배움카드 '75세 미만 모든 국민' → '만 74세 이하 아동 (자녀)', 2026-10-26 재생성)
+    groups.push(n <= 18 ? any(undefined, kid(0, n, `만 ${n}세 이하 아동 (자녀)`), age(0, n, `만 ${n}세 이하`)) : age(0, n, `만 ${n}세 이하`));
   }
 
   if (!numericAge) {

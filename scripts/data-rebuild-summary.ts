@@ -96,11 +96,16 @@ export function readiness(x: { failedTests: string[]; bokjiroRemaining: number }
   return { ready: reasons.length === 0, reasons };
 }
 
-function failedFromVitest(file: string): string[] {
+/** 실패한 테스트 '파일 > 이름 — 이유 첫 줄' (워크플로는 테스트 출력을 버려서 이유를 여기 남긴다 — 2026-10-26 시간 초과를 못 알아봄) */
+export function failedFromVitest(file: string): string[] {
   if (!fs.existsSync(file)) return ["(테스트 결과 파일 없음)"];
   const j = JSON.parse(fs.readFileSync(file, "utf8"));
-  return (j.testResults ?? []).flatMap((r: { name: string; assertionResults?: { status: string; fullName: string }[] }) =>
-    (r.assertionResults ?? []).filter((t) => t.status === "failed").map((t) => `${path.basename(r.name).replace(/\.test\.ts$/, "")} > ${t.fullName}`));
+  const reason = (msgs?: string[]) => {
+    const line = (msgs?.[0] ?? "").replace(/\u001b\[[0-9;]*m/g, "").split("\n").map((x) => x.trim()).find(Boolean) ?? "";
+    return line ? ` — ${line.length > 120 ? line.slice(0, 119) + "…" : line}` : "";
+  };
+  return (j.testResults ?? []).flatMap((r: { name: string; assertionResults?: { status: string; fullName: string; failureMessages?: string[] }[] }) =>
+    (r.assertionResults ?? []).filter((t) => t.status === "failed").map((t) => `${path.basename(r.name).replace(/\.test\.ts$/, "")} > ${t.fullName}${reason(t.failureMessages)}`));
 }
 
 function main() {
