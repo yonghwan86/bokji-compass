@@ -3,7 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { compareBundles, failedFromVitest, personaDiff, readiness } from "../../scripts/data-rebuild-summary";
+import { GONE_LIMIT, autoMerge, compareBundles, failedFromVitest, personaDiff, readiness } from "../../scripts/data-rebuild-summary";
 
 const dir = (files: Record<string, unknown>) => {
   const d = fs.mkdtempSync(path.join(os.tmpdir(), "bundles-"));
@@ -77,5 +77,21 @@ describe("(2026-10-26) 실패한 테스트에 이유 첫 줄", () => {
       { status: "passed", fullName: "경로 2" },
     ] }] }));
     expect(failedFromVitest(f)).toEqual(["guided > 경로 1 — Error: Test timed out in 5000ms."]);
+  });
+});
+
+describe("(2026-10-27) 자동 머지 — 점검을 모두 통과한 날만", () => {
+  const ok = { ready: { ready: true, reasons: [] }, personaChanged: 0, gone: 0 };
+  it("테스트 통과 · 페르소나 그대로 · 없어진 사업 기준 이하면 자동 머지", () => {
+    expect(autoMerge(ok)).toEqual({ ok: true, reasons: [] });
+    expect(autoMerge({ ...ok, gone: GONE_LIMIT }).ok).toBe(true);
+  });
+  it("하나라도 걸리면 보류, 이유를 모두 적는다", () => {
+    const r = autoMerge({ ready: { ready: false, reasons: ["테스트 2개 실패"] }, personaChanged: 3, gone: GONE_LIMIT + 1 });
+    expect(r.ok).toBe(false);
+    expect(r.reasons).toHaveLength(3);
+    expect(r.reasons[0]).toBe("테스트 2개 실패");
+    expect(r.reasons[1]).toContain("페르소나 3개");
+    expect(r.reasons[2]).toContain(String(GONE_LIMIT + 1));
   });
 });
