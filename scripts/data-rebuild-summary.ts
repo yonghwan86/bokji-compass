@@ -1,7 +1,7 @@
 /**
  * 사이트 데이터 자동 재생성 PR 요약 (2026-10-22 보완대책 7, .github/workflows/data-rebuild.yml).
  * 재생성 전후 번들(생성 시각은 무시)·페르소나 상위 5개·테스트 결과·매일 확인 보고서를 모아 PR 본문과 머지 가능 여부를 만든다.
- * 머지는 사람이 한다 — 테스트 실패(서식 재대조 포함)나 복지로 상세가 남아 있으면 초안으로 둔다.
+ * 점검을 모두 통과하면 워크플로가 자동으로 머지한다(2026-10-27) — 하나라도 걸리면 초안으로 두고 '사이트 데이터 반영 보류' 이슈로 알린다.
  * 사용: npx tsx scripts/data-rebuild-summary.ts --old <전 번들> --new public/bundles/v1 --before <전.json> --after <후.json> \
  *        --vitest <vitest.json> --report pipeline/raw/_report.json --source <data 커밋> --md <본문.md> --json <결과.json>
  */
@@ -96,6 +96,17 @@ export function readiness(x: { failedTests: string[]; bokjiroRemaining: number }
   return { ready: reasons.length === 0, reasons };
 }
 
+/** 자동 머지 기준: 빠지는 사업 중 '새 결과에 없음'이 이보다 많으면 사람이 본다 */
+export const GONE_LIMIT = 50;
+
+/** 자동 머지 여부 (2026-10-27): 머지 가능 + 페르소나 상위 5개 그대로 + '새 결과에 없음' 기준 이하. 수집 점검 7가지는 통과해야 이 워크플로가 돈다. */
+export function autoMerge(x: { ready: { ready: boolean; reasons: string[] }; personaChanged: number; gone: number }): { ok: boolean; reasons: string[] } {
+  const reasons = [...x.ready.reasons];
+  if (x.personaChanged) reasons.push(`페르소나 ${x.personaChanged.toLocaleString("ko-KR")}개의 상위 5개가 바뀜 — 판정이 바뀌는 날은 사람이 확인`);
+  if (x.gone > GONE_LIMIT) reasons.push(`빠지는 사업 중 '새 결과에 없음' ${x.gone.toLocaleString("ko-KR")}개 (자동 머지 기준 ${GONE_LIMIT}개 초과)`);
+  return { ok: reasons.length === 0, reasons };
+}
+
 /** 실패한 테스트 '파일 > 이름 — 이유 첫 줄' (워크플로는 테스트 출력을 버려서 이유를 여기 남긴다 — 2026-10-26 시간 초과를 못 알아봄) */
 export function failedFromVitest(file: string): string[] {
   if (!fs.existsSync(file)) return ["(테스트 결과 파일 없음)"];
@@ -122,12 +133,15 @@ function main() {
   const remaining = Object.values((report.bokjiroDetail ?? {}) as Record<string, { remaining?: number } | null>).reduce((s, d) => s + (d?.remaining ?? 0), 0);
   const ready = readiness({ failedTests: failed, bokjiroRemaining: remaining });
   const changed = cmp.changedFiles > 0;
+  const auto = autoMerge({ ready, personaChanged: personas.length, gone: cmp.removedBy.gone.length });
   const list = (ps: P[]) => ps.slice(0, 15).map((p) => `\`${p.id}\` ${p.name}`).join(" · ") + (ps.length > 15 ? ` 외 ${n(ps.length - 15)}개` : "");
   const md = [
-    `매일 확인(${report.date}, data 브랜치 \`${arg("source").slice(0, 8)}\`)을 통과한 원천으로 사이트 데이터를 다시 만들었어요. **머지는 사람이 해요.**`,
+    `매일 확인(${report.date}, data 브랜치 \`${arg("source").slice(0, 8)}\`)을 통과한 원천으로 사이트 데이터를 다시 만들었어요.`,
     "",
-    ready.ready ? "## 머지 전 확인: 막는 것 없음" : "## 머지 전에 끝나야 할 것",
-    ...(ready.ready ? ["- 테스트 모두 통과, 복지로 상세 모두 받음. 아래 바뀐 내용과 페르소나 변화를 보고 머지해 주세요."] : ready.reasons.map((r) => `- ${r}`)),
+    auto.ok ? "## 자동 머지: 점검 모두 통과" : "## 자동 머지 보류 — 사람이 확인할 것",
+    ...(auto.ok
+      ? ["- 테스트 모두 통과, 복지로 상세 모두 받음, 페르소나 상위 5개 그대로, '새 결과에 없음' 기준 이하. 워크플로가 바로 머지하고 운영 사이트 반영까지 확인해요."]
+      : [...auto.reasons.map((r) => `- ${r}`), ...(ready.ready ? ["- 위 내용을 보고 괜찮으면 직접 머지해 주세요."] : [])]),
     "",
     "## 바뀌는 것",
     `- 사업 ${n(cmp.before)} → ${n(cmp.after)} · 바뀐 번들 파일 ${n(cmp.changedFiles)}개`,
@@ -147,7 +161,7 @@ function main() {
     "🤖 data-rebuild.yml 이 자동으로 만들었어요. 다음 재생성 때 이 PR을 새 결과로 덮어써요.",
   ].join("\n");
   fs.writeFileSync(arg("md"), md);
-  fs.writeFileSync(arg("json"), JSON.stringify({ changed, ready: ready.ready }));
+  fs.writeFileSync(arg("json"), JSON.stringify({ changed, ready: ready.ready, autoMerge: auto.ok, reasons: auto.reasons }));
   console.log(md);
 }
 

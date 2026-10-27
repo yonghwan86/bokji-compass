@@ -1,8 +1,13 @@
 # 사이트 데이터 다시 만들기 (2026-10-22 보완대책 7): '데이터 매일 확인'이 점검을 통과하면 이어서 돈다.
 # data 브랜치 원천으로 번들을 다시 만들고 → 페르소나 상위 5개 전후 비교 · 전체 단위 테스트 → auto/data-rebuild 브랜치에 올려 PR을 만들거나 덮어쓴다.
-# 머지는 사람이 한다. 테스트 실패(사업 ID가 바뀌면 서식 재대조 필요)나 복지로 상세가 남아 있으면 PR을 초안으로 둔다. 바뀐 게 없으면 아무것도 안 한다.
+# (2026-10-27) 점검을 모두 통과하면 자동으로 머지하고 운영 사이트(meta.json)에 새 데이터가 올라갔는지까지 확인한다.
+#   자동 머지 조건: 수집 점검 통과(그래야 이 워크플로가 돈다) · 단위 테스트 전부 통과(서식 연결 포함) · 복지로 상세 다 받음
+#                  · 페르소나 상위 5개 그대로 · 빠지는 사업 중 '새 결과에 없음' 50개 이하 (scripts/data-rebuild-summary.ts autoMerge)
+#   하나라도 걸리거나, 실행이 실패하거나, 머지 뒤 반영이 안 보이면 PR을 초안으로 두고 '사이트 데이터 반영 보류' 이슈를 열어(있으면 댓글) 알린다.
+#   반영까지 확인되면 그 이슈를 닫는다. 바뀐 게 없으면 아무것도 안 한다.
 # 필요한 설정: 저장소 Settings → Actions → General → Workflow permissions →
 #   'Allow GitHub Actions to create and approve pull requests' (꺼져 있으면 브랜치만 올리고 실행 요약에 PR 만들기 링크를 남김)
+# 선택 설정: Secrets → VERCEL_DEPLOY_HOOK_URL (Vercel Settings → Git → Deploy Hooks, main). 머지 뒤 10분이 지나도 반영이 안 보이면 한 번 부른다.
 name: 사이트 데이터 다시 만들기
 
 on:
@@ -14,6 +19,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   group: data-rebuild
@@ -23,7 +29,7 @@ jobs:
   rebuild:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - name: 코드 받기 (main)
         uses: actions/checkout@v7
@@ -67,14 +73,17 @@ jobs:
             --before "$RUNNER_TEMP/before.json" --after "$RUNNER_TEMP/after.json" --vitest "$RUNNER_TEMP/vitest.json" \
             --report pipeline/raw/_report.json --source "$(git -C pipeline/raw rev-parse HEAD)" \
             --md "$RUNNER_TEMP/body.md" --json "$RUNNER_TEMP/result.json" >> "$GITHUB_STEP_SUMMARY"
-          node -e 'const r = require(process.env.RUNNER_TEMP + "/result.json"); console.log(`changed=${r.changed}\nready=${r.ready}`)' >> "$GITHUB_OUTPUT"
+          node -e 'const r = require(process.env.RUNNER_TEMP + "/result.json"); console.log(`changed=${r.changed}\nready=${r.ready}\nauto=${r.autoMerge}`)' >> "$GITHUB_OUTPUT"
 
-      - name: PR 만들기 · 덮어쓰기
+      - name: PR 만들기 · 덮어쓰기 · 자동 머지
+        id: pr
         if: steps.sum.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           READY: ${{ steps.sum.outputs.ready }}
+          AUTO: ${{ steps.sum.outputs.auto }}
         run: |
+          base=$(git rev-parse HEAD)
           day=$(TZ=Asia/Seoul date +%F)
           git config user.name "bokji-compass-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -88,10 +97,79 @@ jobs:
             if ! gh pr create --base main --head auto/data-rebuild --draft --title "$title" --body-file "$RUNNER_TEMP/body.md"; then
               echo "" >> "$GITHUB_STEP_SUMMARY"
               echo "PR을 만들지 못했어요 (Actions의 PR 만들기 권한이 꺼져 있을 수 있어요). 직접 만들기: ${{ github.server_url }}/${{ github.repository }}/compare/main...auto/data-rebuild" >> "$GITHUB_STEP_SUMMARY"
+              echo "hold=PR을 만들지 못했어요 (Actions의 PR 만들기 권한 확인)" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             num=$(gh pr list --head auto/data-rebuild --state open --json number --jq '.[0].number')
           else
             gh pr edit "$num" --title "$title" --body-file "$RUNNER_TEMP/body.md"
           fi
+          echo "num=$num" >> "$GITHUB_OUTPUT"
           if [ "$READY" = "true" ]; then gh pr ready "$num"; else gh pr ready "$num" --undo || true; fi
+          [ "$AUTO" = "true" ] || exit 0
+          # 재생성하는 동안 main에 다른 머지가 들어왔으면 합친 결과는 테스트하지 않은 것 → 다음 실행에 맡긴다
+          if [ "$(git ls-remote origin refs/heads/main | cut -f1)" != "$base" ]; then
+            echo "hold=재생성하는 동안 main이 바뀌어 자동 머지를 건너뜀 (다음 실행 때 다시 만들어요)" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # 초안을 막 풀면 GitHub이 머지 가능 여부를 계산하는 동안 잠깐 거절할 수 있어 몇 번 다시 시도
+          for i in 1 2 3 4 5; do
+            gh pr merge "$num" --merge --subject "Merge pull request #$num from auto/data-rebuild (자동 머지 $day)" && break
+            [ "$i" = 5 ] && { echo "hold=자동 머지를 시도했지만 GitHub이 거절했어요 — PR 화면 확인" >> "$GITHUB_OUTPUT"; exit 0; }
+            sleep 15
+          done
+          echo "merged=$(gh pr view "$num" --json mergeCommit --jq .mergeCommit.oid)" >> "$GITHUB_OUTPUT"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "점검을 모두 통과해 PR #$num 을 자동으로 머지했어요." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 운영 사이트 반영 확인
+        id: live
+        if: steps.pr.outputs.merged != ''
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          # 번들 meta.json의 생성 시각이 운영 사이트에 보이면 반영된 것 (Vercel이 봇 머지를 배포 안 하는 경우를 잡는다)
+          want=$(node -p 'require("./public/bundles/v1/meta.json").generatedAt')
+          for i in $(seq 1 50); do
+            got=$(curl -fsS "https://bokji-compass.vercel.app/bundles/v1/meta.json?check=$(date +%s)" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).generatedAt)}catch{console.log("")}})' || true)
+            if [ "$got" = "$want" ]; then
+              echo "운영 사이트 반영 확인 ($want, $((i * 30))초)" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$i" = 20 ] && [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" > /dev/null && echo "10분 지나도 안 보여 배포 훅을 불렀어요" >> "$GITHUB_STEP_SUMMARY"; fi
+            sleep 30
+          done
+          echo "hold=머지했지만 25분이 지나도 운영 사이트에 새 데이터가 안 보여요 — Vercel Deployments 확인 (임시: ⋯ → Create Deployment → main)" >> "$GITHUB_OUTPUT"
+          exit 1
+
+      - name: 알림 (보류·실패면 이슈 열기·댓글, 반영되면 닫기)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          JOB: ${{ job.status }}
+          CHANGED: ${{ steps.sum.outputs.changed }}
+          NUM: ${{ steps.pr.outputs.num }}
+          MERGED: ${{ steps.pr.outputs.merged }}
+          LIVE: ${{ steps.live.outcome }}
+          HOLD: ${{ steps.pr.outputs.hold }}${{ steps.live.outputs.hold }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="사이트 데이터 반영 보류"
+          day=$(TZ=Asia/Seoul date +%F)
+          num=$(gh issue list --state open --search "in:title \"$title\"" --json number,title --jq "map(select(.title == \"$title\")) | .[0].number // empty")
+          if [ -n "$MERGED" ] && [ "$LIVE" = "success" ]; then
+            [ -n "$num" ] && gh issue close "$num" --comment "$day 점검을 모두 통과해 PR #$NUM 을 자동 머지했고 운영 사이트 반영까지 확인했어요. $RUN_URL"
+            exit 0
+          fi
+          [ "$JOB" != "success" ] || [ "$CHANGED" = "true" ] || exit 0
+          reasons=$(node -e '
+            const fs = require("fs");
+            const out = [];
+            if (process.env.HOLD) out.push(process.env.HOLD);
+            try { out.push(...JSON.parse(fs.readFileSync(process.env.RUNNER_TEMP + "/result.json", "utf8")).reasons); } catch {}
+            if (!out.length) out.push("재생성 실행이 중간에 멈췄어요 — 실행 기록을 확인하세요");
+            console.log(out.map((x) => `- ${x}`).join("\n"));
+          ')
+          pr=""; [ -n "$NUM" ] && pr="PR: ${{ github.server_url }}/${{ github.repository }}/pull/$NUM"
+          body=$(printf '**%s 사이트 데이터 자동 반영 보류**\n\n%s\n\n%s\n실행 기록: %s\n대응 방법: docs/DATA_OPERATIONS.md' "$day" "$reasons" "$pr" "$RUN_URL")
+          if [ -n "$num" ]; then gh issue comment "$num" --body "$body"; else gh issue create --title "$title" --body "$body"; fi

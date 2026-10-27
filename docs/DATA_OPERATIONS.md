@@ -8,14 +8,15 @@
 |---|---|---|---|
 | 1. 매일 확인 | `.github/workflows/data-refresh.yml` | 매일 0시 10분(한국 시간) · 수동 실행 | `data` 브랜치 커밋, `_report.json`·`_history.json` → 사이트 `/data` |
 | 2. 점검 | `pipeline/src/refresh/diff.ts` `gateCheck` | 1단계 끝 | 경고면 실패 표시 + '데이터 매일 확인 경고' 이슈 |
-| 3. 사이트 데이터 다시 만들기 | `.github/workflows/data-rebuild.yml` | 1단계가 점검을 통과하면 이어서 · 수동 실행 | `auto/data-rebuild` 브랜치와 PR (머지는 사람) |
+| 3. 사이트 데이터 다시 만들기 | `.github/workflows/data-rebuild.yml` | 1단계가 점검을 통과하면 이어서 · 수동 실행 | `auto/data-rebuild` 브랜치와 PR |
 | 4. 서식 재대조 | 서식 담당 (`docs/FORM_ORIGINAL_MATCHING.md`) | 3단계 PR에서 사업 ID가 바뀌었을 때 | `public/forms/v1` 갱신 → forms-catalog 테스트 통과 |
-| 5. 머지 | 소유자 | 3단계 PR이 초안이 아닐 때 | main 머지 = Vercel 운영 배포 |
+| 5. 머지 | 3단계 워크플로 (자동) · 보류된 날은 소유자 | 아래 자동 머지 조건을 모두 통과했을 때 | main 머지 = Vercel 운영 배포 → 운영 `meta.json`으로 반영 확인 |
 
 - 키: `DATA_GO_KR_SERVICE_KEY`는 GitHub Secret으로만 쓴다. 출력·로그·커밋에 넣지 않는다.
 - 복지로 개발계정 하루 한도(중앙 100 · 지자체 1,000)는 Actions가 혼자 쓴다. 다른 곳(맥 예약 작업 등)에서 같은 키로 받지 않는다.
 - 메뉴판 표는 바뀐 PDF만 다시 읽는다. 표 읽는 방식을 고쳤으면 `parse_menus.py`의 `PARSER_VERSION`을 올린다 — 다음 매일 확인이 `parse-report.json`의 판과 비교해 모든 PDF를 한 번 다시 읽는다 (2026-10-25부터). 판을 올리기 전에 전체 다시 읽기 결과를 이전 파서와 글별로 비교해 의도한 글만 바뀌는지 확인한다.
 - 자동 재생성은 번들과 함께 출처 안내 집계(`src/lib/data/dataProvenance.json`, `scripts/build-data-provenance.ts`)도 다시 만든다. 통합돌봄 출처 문구는 `meta.json`의 `icareOrigin`(메뉴판 PDF 직접 = mohw)으로 고른다. 실패한 테스트는 PR 본문에 이유 첫 줄까지 적는다.
+- 자동 머지 (2026-10-27): 수집 점검 통과 · 단위 테스트 전부 통과(서식 연결 포함) · 복지로 상세 다 받음 · 페르소나 31개 상위 5개 그대로 · 빠지는 사업 중 '새 결과에 없음' 50개 이하(`GONE_LIMIT`)를 모두 만족하면 워크플로가 PR을 머지하고, 운영 사이트 `bundles/v1/meta.json`의 생성 시각이 새 값이 될 때까지 25분 기다려 확인한다. 하나라도 걸리거나 실행이 실패하거나 반영이 안 보이면 PR을 초안으로 두고 '사이트 데이터 반영 보류' 이슈를 열어(있으면 댓글) 알린다 → PR 본문의 이유를 보고 괜찮으면 직접 머지. 반영까지 확인되면 이슈를 자동으로 닫는다. 재생성 중 main에 다른 머지가 들어오면 그날은 자동 머지를 건너뛴다.
 - 자동 재생성 PR의 '빠지는 사업'은 어디로 갔는지 나눠 적는다(운영 정보로 옮김 · 합쳐짐·지역 옮김 · 이름만 바뀜 · 새 결과에 없음). 살펴볼 것은 '새 결과에 없음'뿐이다.
 
 ## 점검 경고와 대응
@@ -59,4 +60,5 @@ git push origin HEAD:data
 ## 저장소 설정 (소유자)
 - Secrets: `DATA_GO_KR_SERVICE_KEY`
 - Actions → General → Workflow permissions: 'Allow GitHub Actions to create and approve pull requests' (사이트 데이터 PR 자동 생성에 필요. 꺼져 있으면 브랜치만 올라가고 실행 요약에 PR 만들기 링크가 남는다)
-- 이슈 사용 켜짐 (경고 알림)
+- 이슈 사용 켜짐 (경고·보류 알림)
+- (선택) Secrets: `VERCEL_DEPLOY_HOOK_URL` — Vercel Settings → Git → Deploy Hooks에서 main으로 만든 주소. 자동 머지 뒤 10분이 지나도 반영이 안 보이면 워크플로가 한 번 부른다(봇 머지를 Vercel이 배포하지 않는 경우 대비).
