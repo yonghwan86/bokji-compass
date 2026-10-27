@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "detail": "수집 완료",
-  "checkedAt": "2026-10-26T20:28:32.708Z",
+  "checkedAt": "2026-10-27T20:03:24.521Z",
   "counts": {
-    "serviceList": 10957,
-    "supportConditions": 10957,
-    "serviceDetail": 10957
+    "serviceList": 10946,
+    "supportConditions": 10946,
+    "serviceDetail": 10946
   }
 }
