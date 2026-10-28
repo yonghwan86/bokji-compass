@@ -42,7 +42,8 @@ COLS = {
 NO_COLS = ("연번", "번호", "순번", "no", "No", "NO")
 # 표 읽는 방식의 판. 바꾸면 매일 확인이 바뀌지 않은 PDF까지 한 번 모두 다시 읽는다 (어제 표를 그대로 쓰면 고친 결과가 안 들어가서)
 # 2 (2026-10-25): 이름 칸 번호 '2(줄바꿈)신규'(무주), 이름·내용·기관이 한 칸씩 밀린 행(광주 동구·남구, 울산 북구·동구 등)
-PARSER_VERSION = 2
+# 3 (2026-10-28): 칸 수가 머리글과 다른 표는 가로 위치로 맞춤(강진·노원), 왼쪽으로 밀린 행(김해), 세부 사업명 칸(익산)
+PARSER_VERSION = 3
 # 위아래로 합친 칸 — 빈칸이면 윗줄 값을 이어받는다
 FILL_DOWN = ("category", "subcategory", "type")
 JUNK = re.compile(r"[\ue000-\uf8ff□■◆◇○●▶▷※]|^\d+")
@@ -261,17 +262,67 @@ def row_name(row, hmap):
     return v
 
 
-def read_row(row, hmap, after_shifted=False, spill=None):
+def realign(row, xs, head_x):
+    """칸 수가 머리글과 다른 표의 한 줄 → 머리글 칸 수의 줄. 칸마다 가로 가운데(xs)가 들어가는 머리글 칸(head_x: [왼쪽, 오른쪽])에
+    넣고, 한 머리글 칸에 여러 칸이 들어가면 줄바꿈으로 잇는다.
+    강진은 머리글 없이 다음 쪽으로 넘어간 표가 9칸→8칸(대분류 칸 없음)이라 행이 통째로 버려졌고, 노원은 한 칸이 여러 칸으로
+    쪼개져(8→10·17·22칸) 사업명이 다른 행의 내용 칸에 들어갔다."""
+    out = [""] * len(head_x)
+    for cell, x in zip(row, xs):
+        if not nospace(cell) or x is None:
+            continue
+        k = next((i for i, (a, b) in enumerate(head_x) if a <= x < b), None)
+        if k is None:
+            k = min(range(len(head_x)), key=lambda i: abs((head_x[i][0] + head_x[i][1]) / 2 - x))
+        out[k] = (out[k] + "\n" + cell) if out[k] else cell
+    return out
+
+
+def covers_header(bbox, head_x):
+    """머리글 표 너비의 80% 이상을 덮는 표인지 — 칸 안의 작은 글상자(노원 사업명·기관 칸, 익산·김제 '특화·신규' 표시)도
+    pdfplumber가 표로 읽어서, 이것까지 맞추면 이름 뒤에 '특화 신규'나 다음 사업명이 붙는다"""
+    return (bbox[2] - bbox[0]) >= 0.8 * (head_x[-1][1] - head_x[0][0])
+
+
+def left_shifted(row, hmap):
+    """김해 '인공지능 통합돌봄': 이름이 번호 칸에, 내용·대상·기관·구분도 한 칸씩 왼쪽으로 밀려 사업구분 칸이 빈 행 → 오른쪽으로 되돌린 줄.
+    아니면 None"""
+    no, name, typ = hmap.get("no"), hmap.get("name"), hmap.get("type")
+    if no is None or typ is None or name != no + 1 or typ >= len(row):
+        return None
+    cell = row[no] or ""
+    if not HANGUL.search(cell) or ROW_NO.fullmatch(cell) or nospace(row[typ]) or not norm_type(row[typ - 1] or ""):
+        return None
+    return list(row[:no]) + [""] + list(row[no:typ])
+
+
+def has_subnames(table, hmap):
+    """익산 'ICT 융합 방문건강관리 사업': 사업명 칸 옆(빈 머리글) 칸에 세부 사업명이 나뉜 표 — 사업명 칸과 옆 칸에 함께 글자가 있는 줄이 있음.
+    군산형(사업명 머리글이 번호 칸과 이름 칸에 걸친 표)은 사업명 칸이 번호뿐이라 해당하지 않는다"""
+    nm, nxt = hmap.get("name"), hmap.get("name_next")
+    if nxt is None:
+        return False
+    return any(nxt < len(r) and HANGUL.search(r[nm] or "") and not ROW_NO.fullmatch(r[nm] or "") and HANGUL.search(r[nxt] or "") for r in table)
+
+
+def read_row(row, hmap, after_shifted=False, spill=None, sub=False, realigned=False):
     """표 한 줄 → (종류, 칸 값, 밀린 칸에서 읽은 값이 있는지). 종류:
     - "new": 새 행. 이름 칸에 글자가 있으면 (예전과 같음 — 빈 칸만 밀린 칸에서 채움),
       또는 이름 칸이 비고 밀린 칸에 이름이 있으면서 번호 칸에 번호가 있을 때 (밀린 행)
     - "cont+name": 앞 행에 이어지는 줄, 이름도 이어 붙임 — 밀린 행 다음 줄 ('[광주다움통합돌봄]' + '식사지원')
-    - "cont": 앞 행에 이어지는 줄 (이름 없음 — 쪽이 넘어가며 이어지는 줄, 예전과 같음)"""
+    - "cont": 앞 행에 이어지는 줄 (이름 없음 — 쪽이 넘어가며 이어지는 줄, 예전과 같음)
+    sub: 세부 사업명 칸이 있는 표(has_subnames) — 사업명 칸이 비고 옆 칸에 세부 사업명이 있으면 새 행
+    realigned: 가로 위치로 맞춘 표(realign) — 번호 없이 이름만 있는 줄은 앞 행 이름의 이어지는 줄 (쪼개진 칸이 줄마다 읽힘)"""
     direct = {f: (row[hmap[f]] or "") if f in hmap else "" for f in COLS}
     shifted = {f: span_cell(row, hmap, f, spill or {}) if f in hmap else "" for f in COLS}
     no = hmap.get("no")
     numbered = no is not None and bool(re.search(r"\d", row[no] or ""))
+    nxt = hmap.get("name_next")
+    if sub and not nospace(row[hmap["name"]]) and nxt is not None and HANGUL.search(row[nxt] or ""):
+        return "new", {**direct, "name": row[nxt]}, False
     name = row_name(row, hmap)
+    if realigned and no is not None and not numbered and nospace(name):
+        return "cont+name", {**direct, "name": name}, False
     if nospace(name):
         # 이름은 제자리인데 내용·기관만 밀린 행(광주 동구 'The 조아 건강지킴이': 내용 8→9)도 빈 칸은 밀린 칸에서
         vals = {**shifted, "name": name}
@@ -281,6 +332,17 @@ def read_row(row, hmap, after_shifted=False, spill=None):
     if after_shifted:
         return "cont+name", shifted, False
     return "cont", direct, False
+
+
+def column_centers(found):
+    """pdfplumber 표의 칸마다 가로 가운데 (그 칸에 글자 상자가 있는 첫 줄 기준)"""
+    n = max((len(r.cells) for r in found.rows), default=0)
+    xs = [None] * n
+    for r in found.rows:
+        for j, c in enumerate(r.cells):
+            if c and xs[j] is None:
+                xs[j] = (c[0] + c[2]) / 2
+    return xs
 
 
 def norm_category(raw):
@@ -370,17 +432,33 @@ def main():
         updated = updated_of(post["title"], post["postedAt"])
         n = 0
         hmap = None
+        head_x = None
         last = {}
         with pdfplumber.open(pdf_path) as pdf:
             for pi, page in enumerate(pdf.pages, start=1):
                 ri = 0
-                for table in page.extract_tables():
+                for found in page.find_tables():
+                    table = found.extract()
                     spill = None
-                    for row in table:
+                    # 머리글이 없는 표의 칸 수가 머리글 표와 다르면 가로 위치로 머리글 칸에 맞춘다 (realign)
+                    realigned = bool(head_x and table and not any(header_map(r) for r in table) and len(table[0]) != len(head_x) and covers_header(found.bbox, head_x))
+                    if realigned:
+                        xs = column_centers(found)
+                        moved = [realign(r, xs, head_x) for r in table]
+                        # 사업명 칸에 글자가 하나도 없으면 메뉴판 표가 아니다 (화순 끝쪽 '기관명·연락처' 목록이 앞 행에 붙었음)
+                        if hmap and any(nospace(r[hmap["name"]]) for r in moved):
+                            table = moved
+                            stats["realigned_tables"] += 1
+                        else:
+                            realigned = False
+                    sub = None
+                    for ti, row in enumerate(table):
                         h = header_map(row)
                         if h:
                             hmap = h
+                            head_x = [(c[0], c[2]) for c in found.rows[ti].cells] if all(found.rows[ti].cells) else None
                             spill = None
+                            sub = None
                             continue
                         if not hmap or len(row) <= max(hmap.values()):
                             stats["skipped_rows"] += 1
@@ -388,8 +466,14 @@ def main():
                         prev_shifted = bool(rows and rows[-1]["_post"] == post["listNo"] and rows[-1].get("_shifted"))
                         if spill is None:
                             spill = spill_cols(table, hmap)
+                        if sub is None:
+                            sub = has_subnames(table, hmap)
+                        moved = left_shifted(row, hmap)
+                        if moved:
+                            row = moved
+                            stats["left_shifted"] += 1
                         same_post = bool(rows and rows[-1]["_post"] == post["listNo"])
-                        kind, raw, shifted = read_row(row, hmap, prev_shifted, spill)
+                        kind, raw, shifted = read_row(row, hmap, prev_shifted, spill, sub, realigned)
                         if kind != "new":
                             # 앞 쪽에서 이어지는 줄 → 앞 행에 붙인다 (밀린 행 다음 줄이면 둘째 줄 이름도)
                             if same_post:

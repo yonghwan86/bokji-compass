@@ -11,13 +11,14 @@
 import { OWNER_FIX, refineRule } from "../../src/lib/data/refine";
 import applyPlacesJson from "../curated/apply-places.json";
 import menuNationalJson from "../curated/menu-national.json";
+import menuNameFixesJson from "../curated/menu-name-fixes.json";
 /** 수동 보강 신청처 (id → 창구·방법·문의·출처) */
 const APPLY_PLACES = new Map(applyPlacesJson.items.map((x: { id: string; place: string; applyMethod: string; contact: string; applyUrl?: string; source: string; override?: boolean }) => [x.id, x]));
 import fs from "node:fs";
 import path from "node:path";
 import { RegionIndex, PILOT_SIDO } from "./normalize/regions";
 import { loadWelfare100 } from "./sources/welfare100";
-import { loadIcare } from "./sources/icare";
+import { loadIcare, type MenuNameFix } from "./sources/icare";
 import { applyMenuDecisions, type MenuDecisions } from "./menuNational";
 import { loadGov24 } from "./sources/gov24";
 import { loadManual } from "./sources/manual";
@@ -89,7 +90,7 @@ function main() {
   })();
   log(`[icare] 메뉴판 출처: ${useMohw ? "보건복지부 원문 (pipeline/raw/mohw)" : "선행 대시보드 수집본 (ICDASH_DIR)"}`);
   // 메뉴판 '전국' 행: 소유자 검토표 결정(같은 사업으로 묶기 · 전국으로 올리기) 반영 (2026-10-22 P1-1)
-  const { records: icare, promoted } = applyMenuDecisions(loadIcare(useMohw ? mohwCsv : path.join(ICDASH, "policies.csv"), icareFetched, regions, log), menuNationalJson as MenuDecisions);
+  const { records: icare, promoted } = applyMenuDecisions(loadIcare(useMohw ? mohwCsv : path.join(ICDASH, "policies.csv"), icareFetched, regions, log, menuNameFixesJson.fixes as MenuNameFix[]), menuNationalJson as MenuDecisions);
   log(`[icare] 검토표 결정: 전국으로 올림 ${promoted.length}개 (${promoted.map((p) => p.name).join(", ")}) · 같은 사업으로 묶을 행 ${icare.filter((r) => r.menuTarget && !r.menuTarget.startsWith("icare:")).length}`);
   const g24list = readCached("serviceList");
   const gov24 = g24list.rows.length

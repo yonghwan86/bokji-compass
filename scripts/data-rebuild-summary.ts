@@ -38,12 +38,39 @@ const strip = (file: string) => {
 const nameKey = (s: string) => s.normalize("NFC").replace(/[^0-9A-Za-z가-힣]/g, "");
 const srcKeys = (p: P) => (p.sources ?? []).map((s) => `${s.source}:${s.id}`);
 
+/** 두 이름 사이 편집(바꾸기·넣기·빼기) 수와, 편집이 일어난 a 쪽 위치 */
+function edits(a: string, b: string): { n: number; at: number[] } {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => Array.from({ length: b.length + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)));
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  const at: number[] = [];
+  for (let i = a.length, j = b.length; i > 0 || j > 0; ) {
+    if (i > 0 && j > 0 && d[i][j] === d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)) { if (a[i - 1] !== b[j - 1]) at.push(i - 1); i--; j--; }
+    else if (i > 0 && d[i][j] === d[i - 1][j] + 1) { at.push(i - 1); i--; }
+    else { at.push(i); j--; }
+  }
+  return { n: d[a.length][b.length], at };
+}
+
+/** 원문 오타로 한두 글자만 달라진 같은 이름인지 (2026-10-28: 메뉴판 PDF의 '임플라트'·'AI·loT' 등 42개가 '새 결과에 없음'으로 잡힘).
+ * 6글자 이상에서 1글자 차이, 또는 10글자 이상에서 떨어진 2글자 차이(14글자 이상이면 붙어 있어도). 붙은 두 글자가 바뀐 짧은 이름
+ * ('…방문요양' / '…방문간호')은 다른 세부 사업으로 본다. */
+export function nearName(a: string, b: string): boolean {
+  const len = Math.min(a.length, b.length);
+  if (len < 6) return false;
+  const e = edits(a, b);
+  if (e.n === 1) return true;
+  if (e.n !== 2) return false;
+  if (len >= 14) return true;
+  return len >= 10 && Math.abs(e.at[0] - e.at[1]) > 1;
+}
+
 /** 빠진 사업이 어디로 갔는지 (2026-10-25: #62가 1,466개를 '빠짐'으로 셌는데 1,179개는 10-22 결정대로 전국 사업 안으로 옮겨진 것) */
 export type RemovedKind = "ops" | "merged" | "renamed" | "gone";
 export const REMOVED_LABEL: Record<RemovedKind, string> = {
   ops: "전국 사업의 '우리 지역 운영 정보'로 옮김",
   merged: "다른 사업과 합쳐짐·지역 옮김 (같은 원천 ID가 새 결과에 있음)",
-  renamed: "이름·ID만 바뀜 (같은 지역에 비슷한 이름)",
+  renamed: "이름·ID만 바뀜 (같은 지역에 비슷한 이름·한두 글자 오타)",
   gone: "새 결과에 없음",
 };
 
@@ -69,9 +96,10 @@ export function compareBundles(oldDir: string, newDir: string) {
   const kindOf = (p: P): RemovedKind => {
     const f = fileOf.get(p.id)!;
     const k = nameKey(p.name);
-    if (newOps.get(f)?.has(k)) return "ops";
+    // 하나였던 항목이 세부 항목으로 나뉘어 옮겨진 것도 ('장기요양서비스' → '장기요양서비스 (방문요양)', 2026-10-28)
+    if ([...(newOps.get(f) ?? [])].some((q) => q === k || (k.length >= 4 && q.startsWith(k)))) return "ops";
     if (srcKeys(p).some((s) => newSources.has(s))) return "merged";
-    if ((newNames.get(f) ?? []).some((q) => q === k || (k.length >= 4 && q.length >= 4 && (q.includes(k) || k.includes(q))))) return "renamed";
+    if ((newNames.get(f) ?? []).some((q) => q === k || (k.length >= 4 && q.length >= 4 && (q.includes(k) || k.includes(q))) || nearName(k, q))) return "renamed";
     return "gone";
   };
   const removedBy: Record<RemovedKind, P[]> = { ops: [], merged: [], renamed: [], gone: [] };
