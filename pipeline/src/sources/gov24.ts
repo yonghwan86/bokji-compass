@@ -57,6 +57,17 @@ export function formatContacts(raw: string | undefined): string | undefined {
   return lines.length ? [...new Set(lines)].join("\n") : undefined;
 }
 
+/** 상세 주소 (2026-10-29): 정부24 API가 plus.gov.kr 새 주소를 주기 시작했지만, 서식 연결 검증이 옛 주소와 정확히 같은지로 확인하므로
+ * 새 주소의 svcId가 이 서비스ID와 같을 때만 같은 서비스의 옛 주소 형식(지금도 열림)으로 둔다. 그 밖에는 원천 그대로. */
+export function gov24DetailUrl(raw: string | undefined, id: string): string | undefined {
+  if (!raw) return raw;
+  try {
+    const u = new URL(raw);
+    if (u.hostname === "plus.gov.kr" && u.searchParams.get("svcId") === id) return `https://www.gov.kr/portal/rcvfvrSvc/dtlEx/${encodeURIComponent(id)}`;
+  } catch { /* 주소가 아니면 원천 그대로 */ }
+  return raw;
+}
+
 export function loadGov24(
   list: Record<string, unknown>[], conditions: Record<string, unknown>[], details: Record<string, unknown>[],
   fetchedAt: string, regions: RegionIndex, log: (m: string) => void,
@@ -105,7 +116,7 @@ export function loadGov24(
       provider: str("접수기관명", d) ?? str("접수기관"),
       category: gov24Category(str("서비스분야")),
       tags: [str("서비스분야"), str("지원유형")].filter(Boolean) as string[],
-      url: str("상세조회URL"),
+      url: gov24DetailUrl(str("상세조회URL"), id),
       applyUrl: str("온라인신청사이트URL", d),
       laws: [str("법령", d), str("자치법규", d), str("행정규칙", d)].filter(Boolean).flatMap((x) => String(x).split("||")).map((x) => x.trim()).filter(Boolean),
       updatedAt: (str("수정일시", d) ?? str("수정일시"))?.slice(0, 10),
