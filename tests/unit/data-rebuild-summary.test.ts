@@ -3,7 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { GONE_LIMIT, autoMerge, compareBundles, failedFromVitest, personaDiff, readiness } from "../../scripts/data-rebuild-summary";
+import { GONE_LIMIT, autoMerge, compareBundles, failedFromVitest, nearName, personaDiff, readiness } from "../../scripts/data-rebuild-summary";
 
 const dir = (files: Record<string, unknown>) => {
   const d = fs.mkdtempSync(path.join(os.tmpdir(), "bundles-"));
@@ -93,5 +93,38 @@ describe("(2026-10-27) 자동 머지 — 점검을 모두 통과한 날만", () 
     expect(r.reasons[0]).toBe("테스트 2개 실패");
     expect(r.reasons[1]).toContain("페르소나 3개");
     expect(r.reasons[2]).toContain(String(GONE_LIMIT + 1));
+  });
+});
+
+describe("(2026-10-28) 원문 오타로 이름이 한두 글자 달라진 사업은 '이름만 바뀜'", () => {
+  it("글자 몇 개만 다른 이름 (메뉴판 PDF 원문 오타 42개)", () => {
+    expect(nearName("노인치과임플란트비용지원", "노인치과임플라트비용지원")).toBe(true);
+    expect(nearName("AIIoT기반어르신건강관리", "AIloT기반어르신건강관리")).toBe(true);
+    expect(nearName("방문운동지원", "방문문동지원")).toBe(true);
+    expect(nearName("노인장기요양주야간보호기관내단기보호시범사업", "노인장기요양주야간보호기관내단기보험시법사업")).toBe(true);
+    expect(nearName("주야간보호기관내단기보호서비스", "주야간보호관리내단기보호서비스")).toBe(true);
+  });
+  it("짧은 이름이나 다른 사업은 아님", () => {
+    expect(nearName("주거지원", "주거환경")).toBe(false);
+    expect(nearName("방문요양", "방문간호")).toBe(false);
+    expect(nearName("노인맞춤돌봄서비스", "장애인활동지원")).toBe(false);
+    // 붙은 두 글자가 바뀐 짧은 이름은 다른 세부 사업
+    expect(nearName("장기요양재가급여방문요양", "장기요양재가급여방문간호")).toBe(false);
+  });
+  it("번들 비교에서 같은 지역의 오타 이름은 renamed로", () => {
+    const a = dir({ "national.json": { programs: [] }, "sigungu/11200.json": { programs: [p("g11200.icare-1", "노인 치과 임플란트 비용지원")] } });
+    const b = dir({ "national.json": { programs: [] }, "sigungu/11200.json": { programs: [p("g11200.icare-9", "노인 치과 임플라트 비용지원")] } });
+    expect(compareBundles(a, b).removedBy.renamed.map((x) => x.name)).toEqual(["노인 치과 임플란트 비용지원"]);
+  });
+});
+
+describe("(2026-10-28) 하나였던 항목이 세부 항목으로 나뉘어 전국 사업 운영 정보로 옮겨진 경우", () => {
+  it("'장기요양서비스' → 운영 정보 '장기요양서비스 (방문요양)'·'(방문간호)'면 ops", () => {
+    const a = dir({ "national.json": { programs: [] }, "sigungu/11290.json": { programs: [p("g11290.icare-1", "장기요양서비스")] } });
+    const b = dir({
+      "national.json": { programs: [p("n.ltc", "노인장기요양보험")] },
+      "sigungu/11290.json": { programs: [], localOps: { "n.ltc": [{ name: "장기요양서비스 (방문요양)" }, { name: "장기요양서비스 (방문간호)" }] } },
+    });
+    expect(compareBundles(a, b).removedBy.ops.map((x) => x.name)).toEqual(["장기요양서비스"]);
   });
 });

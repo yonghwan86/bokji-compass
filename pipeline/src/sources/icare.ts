@@ -34,10 +34,21 @@ export function parseCsv(text: string): Record<string, string>[] {
 
 const PUBLIC_INST = /(국민건강보험공단|건강보험공단|건보|국민연금공단|근로복지공단|공단|한국장애인고용공단|LH|주택도시보증공사)/;
 
-export function loadIcare(csvPath: string, fetchedAt: string, regions: RegionIndex, log: (m: string) => void): SourceRecord[] {
+/** 메뉴판 원문 사업명 오타 → 바른 표기 (pipeline/curated/menu-name-fixes.json, 2026-10-28) */
+export type MenuNameFix = { name: string; alias: string; where: string; evidence: string };
+const looseName = (s: string) => s.normalize("NFKC").replace(/\s/g, "");
+
+/** 원문 이름이 오타 목록에 있으면 바른 표기 — 화면 이름은 원문 그대로 두고 검색 별칭으로만 쓴다 */
+export function menuNameAlias(name: string, fixes: MenuNameFix[]): string | undefined {
+  const k = looseName(name);
+  return fixes.find((f) => looseName(f.name) === k)?.alias;
+}
+
+export function loadIcare(csvPath: string, fetchedAt: string, regions: RegionIndex, log: (m: string) => void, nameFixes: MenuNameFix[] = []): SourceRecord[] {
   const rows = parseCsv(fs.readFileSync(csvPath, "utf8"));
   const out: SourceRecord[] = [];
   let unmapped = 0;
+  const usedFixes = new Set<string>();
   for (const r of rows) {
     const sido = regions.sido(r.display_sido || r.sido);
     if (!sido) { unmapped++; continue; }
@@ -86,9 +97,13 @@ export function loadIcare(csvPath: string, fetchedAt: string, regions: RegionInd
       draft: { origin: tx.logic ? "text_extract" : "none", logic: tx.logic, unstructured: tx.unstructured, core: tx.core },
       icareType: r.type,
     };
+    const alias = menuNameAlias(name, nameFixes);
+    if (alias) { rec.aliases = [alias]; usedFixes.add(looseName(name)); }
     if (isEupmyeondongLevel(name, r.sigungu)) rec.excluded = "eupmyeondong_level";
     out.push(rec);
   }
   if (unmapped) log(`[icare] 지역 매핑 실패로 제외: ${unmapped}건`);
+  const unused = nameFixes.filter((f) => !usedFixes.has(looseName(f.name)));
+  if (unused.length) log(`[icare] 오타 별칭 중 메뉴판에 없는 이름 ${unused.length}개 (원문이 고쳐졌으면 목록에서 지워도 됨): ${unused.map((f) => f.name).join(" · ")}`);
   return out;
 }
