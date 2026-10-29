@@ -3,13 +3,13 @@
   "basis": {
     "detailDir": "public/bundles/v1/details",
     "shardFiles": 256,
-    "programRecords": 23578,
+    "programRecords": 22885,
     "duplicateIds": 0,
     "programsWithoutSources": 0
   },
-  "bundleGeneratedAt": "2026-10-08T14:57:47.456Z",
-  "metaUniquePrograms": 23575,
-  "metaPlacements": 23578,
+  "bundleGeneratedAt": "2026-10-29T20:23:16.274Z",
+  "metaUniquePrograms": 22882,
+  "metaPlacements": 22885,
   "districtCopies": {
     "extraRecords": 3,
     "groups": 3,
@@ -22,15 +22,15 @@
     ]
   },
   "overlap": {
-    "sourceKindLinkSum": 24889,
-    "programsWithMultipleSourceKinds": 1263,
+    "sourceKindLinkSum": 24198,
+    "programsWithMultipleSourceKinds": 1266,
     "byKindCount": {
-      "2": 1215,
-      "3": 48
+      "2": 1219,
+      "3": 47
     }
   },
   "urlCoverage": {
-    "programsWithRecordedUrl": 23528,
+    "programsWithRecordedUrl": 22835,
     "programsWithoutAnyUrl": 50,
     "welfare100OnlyWithoutUrl": 50
   },
@@ -38,31 +38,31 @@
     {
       "id": "gov24",
       "title": "정부24 공공서비스(혜택)",
-      "programLinks": 9336,
-      "sourceRefs": 9703,
+      "programLinks": 9339,
+      "sourceRefs": 9711,
       "refsWithoutUrl": 0,
       "fetchedAt": {
-        "min": "2026-10-02",
-        "max": "2026-10-02",
-        "datedRefs": 9703,
+        "min": "2026-10-29",
+        "max": "2026-10-29",
+        "datedRefs": 9711,
         "missingRefs": 0,
         "precision": "day",
         "granularity": {
           "year": 0,
           "month": 0,
-          "day": 9703
+          "day": 9711
         }
       },
       "documentDate": {
         "min": "2025-11-27",
-        "max": "2026-10-02",
-        "datedRefs": 9703,
+        "max": "2026-10-28",
+        "datedRefs": 9711,
         "missingRefs": 0,
         "precision": "day",
         "granularity": {
           "year": 0,
           "month": 0,
-          "day": 9703
+          "day": 9711
         },
         "label": "서비스 수정일",
         "meaning": "원문이 수정된 날이며 수집일이 아닙니다."
@@ -70,10 +70,10 @@
       "urlHosts": [
         {
           "host": "www.gov.kr",
-          "refs": 9703
+          "refs": 9711
         }
       ],
-      "distinctUrls": 9703,
+      "distinctUrls": 9711,
       "distinctBoards": 0,
       "links": [
         {
@@ -91,31 +91,31 @@
     {
       "id": "bokjiro",
       "title": "복지로 복지서비스",
-      "programLinks": 5232,
-      "sourceRefs": 5271,
+      "programLinks": 5239,
+      "sourceRefs": 5277,
       "refsWithoutUrl": 0,
       "fetchedAt": {
-        "min": "2026-10-06",
-        "max": "2026-10-06",
-        "datedRefs": 5271,
+        "min": "2026-10-30",
+        "max": "2026-10-30",
+        "datedRefs": 5277,
         "missingRefs": 0,
         "precision": "day",
         "granularity": {
           "year": 0,
           "month": 0,
-          "day": 5271
+          "day": 5277
         }
       },
       "documentDate": {
         "min": "2022-06-29",
-        "max": "2026-10-02",
-        "datedRefs": 5271,
+        "max": "2026-10-30",
+        "datedRefs": 5277,
         "missingRefs": 0,
         "precision": "mixed",
         "granularity": {
           "year": 461,
           "month": 0,
-          "day": 4810
+          "day": 4816
         },
         "label": "기준 시점·최종수정일",
         "meaning": "연도만 기록된 기준값 461개를 포함합니다. 연도 기준 표기는 정확한 수정 날짜나 수집일이 아니며, 날짜까지 있는 기록과 구분해서 보아야 합니다."
@@ -123,10 +123,10 @@
       "urlHosts": [
         {
           "host": "www.bokjiro.go.kr",
-          "refs": 5271
+          "refs": 5277
         }
       ],
-      "distinctUrls": 5268,
+      "distinctUrls": 5274,
       "distinctBoards": 0,
       "links": [
         {
@@ -149,42 +149,42 @@
     {
       "id": "icare",
       "title": "통합돌봄 메뉴판",
-      "programLinks": 10218,
-      "sourceRefs": 10294,
+      "programLinks": 9517,
+      "sourceRefs": 9602,
       "refsWithoutUrl": 0,
       "fetchedAt": {
-        "min": "2026-10-01",
-        "max": "2026-10-01",
-        "datedRefs": 10294,
+        "min": "2026-10-30",
+        "max": "2026-10-30",
+        "datedRefs": 9602,
         "missingRefs": 0,
         "precision": "day",
         "granularity": {
           "year": 0,
           "month": 0,
-          "day": 10294
+          "day": 9602
         }
       },
       "documentDate": {
         "min": "2026-03",
-        "max": "2026-07",
-        "datedRefs": 10294,
+        "max": "2026-09",
+        "datedRefs": 9602,
         "missingRefs": 0,
-        "precision": "mixed",
+        "precision": "month",
         "granularity": {
           "year": 0,
-          "month": 7140,
-          "day": 3154
+          "month": 9602,
+          "day": 0
         },
-        "label": "기준 시점",
-        "meaning": "메뉴판 문서에 적힌 기준 시점입니다. 월만 있는 값과 날짜까지 있는 값이 함께 있으며, 수집일이 아닙니다."
+        "label": "메뉴판 기준월",
+        "meaning": "메뉴판 문서의 기준월이며 수집일이 아닙니다."
       },
       "urlHosts": [
         {
           "host": "www.mohw.go.kr",
-          "refs": 10294
+          "refs": 9602
         }
       ],
-      "distinctUrls": 230,
+      "distinctUrls": 231,
       "distinctBoards": 17,
       "links": [
         {
@@ -193,7 +193,7 @@
           "role": "original"
         }
       ],
-      "limitation": "이 묶음의 통합돌봄 자료는 OpenAPI로 직접 수집한 것이 아니라 선행 대시보드 수집본을 읽은 것이고, 공적 원출처는 보건복지부 통합돌봄 메뉴판입니다. 나중에 원문을 다시 받는 코드가 이 묶음에 반영된 것은 아닙니다."
+      "limitation": "이 묶음의 통합돌봄 자료는 OpenAPI가 아니라 보건복지부가 공개한 시·군·구 메뉴판 PDF를 받아 표를 읽은 것입니다. 표 읽기는 규칙으로 하며, 원문 PDF와 글자·띄어쓰기가 다를 수 있습니다."
     },
     {
       "id": "welfare100",
@@ -202,8 +202,8 @@
       "sourceRefs": 100,
       "refsWithoutUrl": 100,
       "fetchedAt": {
-        "min": "2026-10-06",
-        "max": "2026-10-06",
+        "min": "2026-09-24",
+        "max": "2026-09-24",
         "datedRefs": 100,
         "missingRefs": 0,
         "precision": "day",
@@ -307,15 +307,15 @@
   "pipelineInputs": [
     {
       "id": "gov24",
-      "records": 10949
+      "records": 10942
     },
     {
       "id": "bokjiro",
-      "records": 5283
+      "records": 5288
     },
     {
       "id": "icare",
-      "records": 12526
+      "records": 12593
     },
     {
       "id": "welfare100",
@@ -326,8 +326,9 @@
       "records": 3
     }
   ],
+  "icareOrigin": "mohw",
   "outsideDetail": {
-    "rawInputRecords": 28861,
-    "regionalOperations": 2359
+    "rawInputRecords": 28926,
+    "regionalOperations": 3112
   }
 }
