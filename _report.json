@@ -1,10 +1,14 @@
 {
- "checkedAt": "2026-10-29T20:21:51.929Z",
- "date": "2026-10-30",
+ "checkedAt": "2026-10-30T19:57:22.226Z",
+ "date": "2026-10-31",
  "mode": "daily",
  "gate": {
-  "ok": true,
-  "warnings": []
+  "ok": false,
+  "warnings": [
+   "bokjiro-central: 수집 실패 — fetch failed",
+   "bokjiro-local: 수집 실패 — fetch failed",
+   "mohw: 수집 실패 — 실행 실패: ingest.ts (Command failed: npx tsx pipeline/src/mohw/ingest.ts)"
+  ]
  },
  "sources": [
   {
@@ -24,7 +28,8 @@
   },
   {
    "source": "bokjiro-central",
-   "status": "ok",
+   "status": "error",
+   "detail": "fetch failed",
    "total": 461,
    "previous": 461,
    "added": 0,
@@ -39,75 +44,24 @@
   },
   {
    "source": "bokjiro-local",
-   "status": "ok",
+   "status": "error",
+   "detail": "fetch failed",
    "total": 4827,
-   "previous": 4826,
-   "added": 1,
+   "previous": 4827,
+   "added": 0,
    "removed": 0,
-   "changed": 165,
+   "changed": 0,
    "expected": 4827,
    "sample": {
-    "added": [
-     "WLF00006804"
-    ],
+    "added": [],
     "removed": [],
-    "changed": [
-     "WLF00005942",
-     "WLF00004763",
-     "WLF00003366",
-     "WLF00006802",
-     "WLF00006799",
-     "WLF00004481",
-     "WLF00006787",
-     "WLF00006783",
-     "WLF00000942",
-     "WLF00001756",
-     "WLF00004416",
-     "WLF00006110",
-     "WLF00006044",
-     "WLF00003664",
-     "WLF00004017",
-     "WLF00001022",
-     "WLF00000224",
-     "WLF00004558",
-     "WLF00005800",
-     "WLF00003473",
-     "WLF00005890",
-     "WLF00005851",
-     "WLF00005272",
-     "WLF00006230",
-     "WLF00005512",
-     "WLF00005438",
-     "WLF00001782",
-     "WLF00003293",
-     "WLF00000766",
-     "WLF00005239",
-     "WLF00004024",
-     "WLF00006735",
-     "WLF00004949",
-     "WLF00003396",
-     "WLF00004711",
-     "WLF00003395",
-     "WLF00005039",
-     "WLF00004719",
-     "WLF00005324",
-     "WLF00003905",
-     "WLF00003607",
-     "WLF00004503",
-     "WLF00005545",
-     "WLF00004922",
-     "WLF00004385",
-     "WLF00006715",
-     "WLF00005215",
-     "WLF00001872",
-     "WLF00001615",
-     "WLF00005583"
-    ]
+    "changed": []
    }
   },
   {
    "source": "mohw",
-   "status": "ok",
+   "status": "error",
+   "detail": "실행 실패: ingest.ts (Command failed: npx tsx pipeline/src/mohw/ingest.ts)",
    "total": 230,
    "previous": 230,
    "added": 0,
@@ -122,18 +76,8 @@
   }
  ],
  "bokjiroDetail": {
-  "central": {
-   "fetched": 0,
-   "cached": 461,
-   "remaining": 0,
-   "stale": 0
-  },
-  "local": {
-   "fetched": 166,
-   "cached": 4661,
-   "remaining": 0,
-   "stale": 0
-  }
+  "central": null,
+  "local": null
  },
  "moneyChanged": {
   "count": 0,

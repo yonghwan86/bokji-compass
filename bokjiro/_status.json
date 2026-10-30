@@ -1,30 +1,16 @@
 {
-  "checkedAt": "2026-10-29T20:16:40.614Z",
+  "checkedAt": "2026-10-30T19:56:15.186Z",
   "central": {
-    "status": "ok",
-    "list": 461,
-    "refreshed": 0,
-    "detail": {
-      "fetched": 0,
-      "cached": 461,
-      "remaining": 0,
-      "stale": 0
-    }
+    "status": "error",
+    "message": "fetch failed"
   },
   "local": {
-    "status": "ok",
-    "list": 4827,
-    "refreshed": 165,
-    "detail": {
-      "fetched": 166,
-      "cached": 4661,
-      "remaining": 0,
-      "stale": 0
-    }
+    "status": "error",
+    "message": "fetch failed"
   },
   "budget": {
     "central": 1,
-    "local": 176,
-    "date": "2026-10-30"
+    "local": 1,
+    "date": "2026-10-31"
   }
 }
