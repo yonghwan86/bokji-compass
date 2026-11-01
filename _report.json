@@ -1,6 +1,6 @@
 {
- "checkedAt": "2026-10-31T19:19:15.978Z",
- "date": "2026-11-01",
+ "checkedAt": "2026-11-01T19:40:32.207Z",
+ "date": "2026-11-02",
  "mode": "daily",
  "gate": {
   "ok": true,
@@ -41,19 +41,14 @@
    "source": "bokjiro-local",
    "status": "ok",
    "total": 4828,
-   "previous": 4827,
-   "added": 2,
-   "removed": 1,
+   "previous": 4828,
+   "added": 0,
+   "removed": 0,
    "changed": 0,
    "expected": 4828,
    "sample": {
-    "added": [
-     "WLF00006784",
-     "WLF00006583"
-    ],
-    "removed": [
-     "WLF00006523"
-    ],
+    "added": [],
+    "removed": [],
     "changed": []
    }
   },
@@ -81,8 +76,8 @@
    "stale": 0
   },
   "local": {
-   "fetched": 2,
-   "cached": 4826,
+   "fetched": 0,
+   "cached": 4828,
    "remaining": 0,
    "stale": 0
   }

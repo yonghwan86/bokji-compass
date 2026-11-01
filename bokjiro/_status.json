@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T19:17:30.370Z",
+  "checkedAt": "2026-11-01T19:38:33.870Z",
   "central": {
     "status": "ok",
     "list": 461,
@@ -16,15 +16,15 @@
     "list": 4828,
     "refreshed": 0,
     "detail": {
-      "fetched": 2,
-      "cached": 4826,
+      "fetched": 0,
+      "cached": 4828,
       "remaining": 0,
       "stale": 0
     }
   },
   "budget": {
     "central": 1,
-    "local": 12,
-    "date": "2026-11-01"
+    "local": 10,
+    "date": "2026-11-02"
   }
 }
