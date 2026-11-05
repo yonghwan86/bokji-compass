@@ -1,6 +1,6 @@
 {
- "checkedAt": "2026-11-04T21:20:27.688Z",
- "date": "2026-11-05",
+ "checkedAt": "2026-11-05T21:31:00.947Z",
+ "date": "2026-11-06",
  "mode": "daily",
  "gate": {
   "ok": true,
@@ -44,18 +44,12 @@
    "previous": 4828,
    "added": 0,
    "removed": 0,
-   "changed": 5,
+   "changed": 0,
    "expected": 4828,
    "sample": {
     "added": [],
     "removed": [],
-    "changed": [
-     "WLF00005449",
-     "WLF00004802",
-     "WLF00003872",
-     "WLF00003833",
-     "WLF00000441"
-    ]
+    "changed": []
    }
   },
   {
@@ -82,8 +76,8 @@
    "stale": 0
   },
   "local": {
-   "fetched": 5,
-   "cached": 4823,
+   "fetched": 0,
+   "cached": 4828,
    "remaining": 0,
    "stale": 0
   }
