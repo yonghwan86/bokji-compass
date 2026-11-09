@@ -1,6 +1,6 @@
 {
- "checkedAt": "2026-11-08T19:40:42.663Z",
- "date": "2026-11-09",
+ "checkedAt": "2026-11-09T23:50:17.731Z",
+ "date": "2026-11-10",
  "mode": "daily",
  "gate": {
   "ok": true,
@@ -29,12 +29,14 @@
    "previous": 461,
    "added": 0,
    "removed": 0,
-   "changed": 0,
+   "changed": 1,
    "expected": 461,
    "sample": {
     "added": [],
     "removed": [],
-    "changed": []
+    "changed": [
+     "WLF00003254"
+    ]
    }
   },
   {
@@ -44,12 +46,63 @@
    "previous": 4828,
    "added": 0,
    "removed": 0,
-   "changed": 0,
+   "changed": 185,
    "expected": 4828,
    "sample": {
     "added": [],
     "removed": [],
-    "changed": []
+    "changed": [
+     "WLF00005234",
+     "WLF00004691",
+     "WLF00000203",
+     "WLF00002456",
+     "WLF00000007",
+     "WLF00002629",
+     "WLF00000993",
+     "WLF00002138",
+     "WLF00000739",
+     "WLF00002566",
+     "WLF00001284",
+     "WLF00001558",
+     "WLF00000569",
+     "WLF00003664",
+     "WLF00001518",
+     "WLF00000133",
+     "WLF00000132",
+     "WLF00000196",
+     "WLF00000725",
+     "WLF00003652",
+     "WLF00000397",
+     "WLF00000710",
+     "WLF00002231",
+     "WLF00002752",
+     "WLF00000731",
+     "WLF00003497",
+     "WLF00000767",
+     "WLF00002044",
+     "WLF00002841",
+     "WLF00002249",
+     "WLF00001361",
+     "WLF00003880",
+     "WLF00003447",
+     "WLF00003493",
+     "WLF00000652",
+     "WLF00001253",
+     "WLF00000541",
+     "WLF00002824",
+     "WLF00001049",
+     "WLF00000353",
+     "WLF00002996",
+     "WLF00000994",
+     "WLF00001569",
+     "WLF00000003",
+     "WLF00001491",
+     "WLF00000248",
+     "WLF00001787",
+     "WLF00001765",
+     "WLF00003494",
+     "WLF00000890"
+    ]
    }
   },
   {
@@ -70,14 +123,14 @@
  ],
  "bokjiroDetail": {
   "central": {
-   "fetched": 0,
-   "cached": 461,
+   "fetched": 1,
+   "cached": 460,
    "remaining": 0,
    "stale": 0
   },
   "local": {
-   "fetched": 0,
-   "cached": 4828,
+   "fetched": 185,
+   "cached": 4643,
    "remaining": 0,
    "stale": 0
   }
@@ -203,14 +256,14 @@
    "ctpvNm": 4828,
    "intrsThemaNmArray": 3607,
    "lastModYmd": 4828,
+   "lifeNmArray": 3358,
    "servDgst": 4828,
    "servDtlLink": 4828,
    "servId": 4828,
    "servNm": 4828,
+   "sggNm": 4098,
    "sprtCycNm": 4828,
    "srvPvsnNm": 4827,
-   "sggNm": 4098,
-   "lifeNmArray": 3358,
    "trgterIndvdlNmArray": 2049
   },
   "mohw": {

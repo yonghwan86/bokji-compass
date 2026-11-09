@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-08T19:38:56.821Z",
+  "checkedAt": "2026-11-09T23:47:23.400Z",
   "central": {
     "status": "ok",
     "list": 461,
-    "refreshed": 0,
+    "refreshed": 1,
     "detail": {
-      "fetched": 0,
-      "cached": 461,
+      "fetched": 1,
+      "cached": 460,
       "remaining": 0,
       "stale": 0
     }
@@ -14,17 +14,17 @@
   "local": {
     "status": "ok",
     "list": 4828,
-    "refreshed": 0,
+    "refreshed": 185,
     "detail": {
-      "fetched": 0,
-      "cached": 4828,
+      "fetched": 185,
+      "cached": 4643,
       "remaining": 0,
       "stale": 0
     }
   },
   "budget": {
-    "central": 1,
-    "local": 10,
-    "date": "2026-11-09"
+    "central": 2,
+    "local": 195,
+    "date": "2026-11-10"
   }
 }
