@@ -1,6 +1,6 @@
 {
- "checkedAt": "2026-11-15T20:25:52.080Z",
- "date": "2026-11-16",
+ "checkedAt": "2026-11-16T23:49:52.336Z",
+ "date": "2026-11-17",
  "mode": "daily",
  "gate": {
   "ok": true,
@@ -29,12 +29,14 @@
    "previous": 461,
    "added": 0,
    "removed": 0,
-   "changed": 0,
+   "changed": 1,
    "expected": 461,
    "sample": {
     "added": [],
     "removed": [],
-    "changed": []
+    "changed": [
+     "WLF00004639"
+    ]
    }
   },
   {
@@ -44,12 +46,63 @@
    "previous": 4828,
    "added": 0,
    "removed": 0,
-   "changed": 0,
+   "changed": 330,
    "expected": 4828,
    "sample": {
     "added": [],
     "removed": [],
-    "changed": []
+    "changed": [
+     "WLF00006061",
+     "WLF00003587",
+     "WLF00004549",
+     "WLF00003833",
+     "WLF00006799",
+     "WLF00002456",
+     "WLF00000891",
+     "WLF00004632",
+     "WLF00003485",
+     "WLF00006783",
+     "WLF00001707",
+     "WLF00001040",
+     "WLF00001755",
+     "WLF00003326",
+     "WLF00006044",
+     "WLF00001558",
+     "WLF00000687",
+     "WLF00002285",
+     "WLF00000132",
+     "WLF00003862",
+     "WLF00003692",
+     "WLF00003765",
+     "WLF00005176",
+     "WLF00000196",
+     "WLF00000725",
+     "WLF00003652",
+     "WLF00002321",
+     "WLF00003945",
+     "WLF00004558",
+     "WLF00005296",
+     "WLF00001389",
+     "WLF00000587",
+     "WLF00000991",
+     "WLF00002352",
+     "WLF00001292",
+     "WLF00000710",
+     "WLF00000385",
+     "WLF00002109",
+     "WLF00005007",
+     "WLF00000498",
+     "WLF00004255",
+     "WLF00000714",
+     "WLF00002790",
+     "WLF00000686",
+     "WLF00001811",
+     "WLF00001835",
+     "WLF00002092",
+     "WLF00005963",
+     "WLF00005512",
+     "WLF00005193"
+    ]
    }
   },
   {
@@ -70,14 +123,14 @@
  ],
  "bokjiroDetail": {
   "central": {
-   "fetched": 0,
-   "cached": 461,
+   "fetched": 1,
+   "cached": 460,
    "remaining": 0,
    "stale": 0
   },
   "local": {
-   "fetched": 0,
-   "cached": 4828,
+   "fetched": 330,
+   "cached": 4498,
    "remaining": 0,
    "stale": 0
   }
@@ -201,17 +254,17 @@
    "aplyMtdNm": 3863,
    "bizChrDeptNm": 4828,
    "ctpvNm": 4828,
+   "intrsThemaNmArray": 3607,
    "lastModYmd": 4828,
-   "lifeNmArray": 3358,
    "servDgst": 4828,
    "servDtlLink": 4828,
    "servId": 4828,
    "servNm": 4828,
    "sprtCycNm": 4828,
    "srvPvsnNm": 4827,
-   "intrsThemaNmArray": 3607,
-   "sggNm": 4098,
-   "trgterIndvdlNmArray": 2049
+   "trgterIndvdlNmArray": 2049,
+   "lifeNmArray": 3358,
+   "sggNm": 4098
   },
   "mohw": {
    "display_sido": 12586,
