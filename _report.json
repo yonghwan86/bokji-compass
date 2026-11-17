@@ -1,25 +1,180 @@
 {
- "checkedAt": "2026-11-16T23:49:52.336Z",
- "date": "2026-11-17",
+ "checkedAt": "2026-11-17T22:56:34.013Z",
+ "date": "2026-11-18",
  "mode": "daily",
  "gate": {
-  "ok": true,
-  "warnings": []
+  "ok": false,
+  "warnings": [
+   "gov24: 하루에 53%가 '변경'으로 잡혔어요 (5,783건) — 매번 바뀌는 칸이 섞였는지 확인"
+  ]
  },
  "sources": [
   {
    "source": "gov24",
    "status": "ok",
-   "total": 10942,
+   "total": 10887,
    "previous": 10942,
-   "added": 0,
-   "removed": 0,
-   "changed": 0,
-   "expected": 10942,
+   "added": 56,
+   "removed": 111,
+   "changed": 5783,
+   "expected": 10887,
    "sample": {
-    "added": [],
-    "removed": [],
-    "changed": []
+    "added": [
+     "128200000001",
+     "134200005050",
+     "154300005050",
+     "303000000348",
+     "303000000349",
+     "304000000238",
+     "304000000239",
+     "304000000240",
+     "310000000377",
+     "313000000127",
+     "316000000165",
+     "319000000176",
+     "319000000184",
+     "325000000250",
+     "345000000108",
+     "392000000170",
+     "420000000167",
+     "447000000157",
+     "470000000110",
+     "481000000362",
+     "497000000644",
+     "531000000651",
+     "535000000612",
+     "535000000613",
+     "544000000153",
+     "553000000596",
+     "559000000457",
+     "567000000102",
+     "567000000104",
+     "628000000176",
+     "631000000722",
+     "643000000744",
+     "644000000864",
+     "650000000259",
+     "650000001105",
+     "650000001106",
+     "650000001144",
+     "650000001146",
+     "650000001149",
+     "650000001150",
+     "650000001153",
+     "650000001156",
+     "650000001157",
+     "650000001158",
+     "650000001159",
+     "650000001160",
+     "650000001161",
+     "650000001162",
+     "650000001163",
+     "650000001164"
+    ],
+    "removed": [
+     "154300000136",
+     "304000000108",
+     "304000000243",
+     "312000000107",
+     "312000000115",
+     "312000000121",
+     "320000000102",
+     "320000000298",
+     "320000000317",
+     "363000000235",
+     "371000000103",
+     "383000000107",
+     "383000000114",
+     "383000000122",
+     "383000000160",
+     "383000000176",
+     "383000000180",
+     "383000000181",
+     "383000000182",
+     "383000000554",
+     "399000000112",
+     "401000000485",
+     "404000000118",
+     "406000000102",
+     "406000000515",
+     "406000000532",
+     "444000000107",
+     "444000000131",
+     "444000000132",
+     "444000000133",
+     "450000000138",
+     "452000000103",
+     "452000000107",
+     "452000000109",
+     "452000000112",
+     "452000000114",
+     "452000000121",
+     "452000000127",
+     "452000000143",
+     "452000000144",
+     "452000000146",
+     "452000000155",
+     "452000000156",
+     "452000000172",
+     "452000000177",
+     "452000000308",
+     "452000000320",
+     "452000000325",
+     "452000000333",
+     "452000000340"
+    ],
+    "changed": [
+     "105100000001",
+     "119200000001",
+     "119200000010",
+     "119200000012",
+     "119200000027",
+     "119200000044",
+     "119200000045",
+     "119200000053",
+     "119200000056",
+     "119200000059",
+     "119200000066",
+     "119200000070",
+     "119200000073",
+     "119200000074",
+     "119200000076",
+     "119200000077",
+     "119200000078",
+     "119200000082",
+     "119200000110",
+     "119200000111",
+     "119200000113",
+     "119200000115",
+     "119200000116",
+     "119200000117",
+     "119200000120",
+     "119200000126",
+     "119200000153",
+     "119200000154",
+     "119200000157",
+     "119200000166",
+     "119200000168",
+     "119200000174",
+     "119200000176",
+     "119200000192",
+     "119200000195",
+     "125000000004",
+     "125000000014",
+     "125000000015",
+     "127000000002",
+     "127000000022",
+     "127000000023",
+     "127000000037",
+     "128000000001",
+     "128000000002",
+     "128000000003",
+     "129000000007",
+     "129000000013",
+     "129000000014",
+     "129000000015",
+     "129000000032"
+    ]
    }
   },
   {
@@ -29,14 +184,12 @@
    "previous": 461,
    "added": 0,
    "removed": 0,
-   "changed": 1,
+   "changed": 0,
    "expected": 461,
    "sample": {
     "added": [],
     "removed": [],
-    "changed": [
-     "WLF00004639"
-    ]
+    "changed": []
    }
   },
   {
@@ -46,62 +199,62 @@
    "previous": 4828,
    "added": 0,
    "removed": 0,
-   "changed": 330,
+   "changed": 197,
    "expected": 4828,
    "sample": {
     "added": [],
     "removed": [],
     "changed": [
      "WLF00006061",
-     "WLF00003587",
-     "WLF00004549",
-     "WLF00003833",
-     "WLF00006799",
-     "WLF00002456",
-     "WLF00000891",
-     "WLF00004632",
-     "WLF00003485",
+     "WLF00006804",
+     "WLF00006802",
+     "WLF00006800",
+     "WLF00001796",
+     "WLF00001734",
+     "WLF00006788",
+     "WLF00006786",
      "WLF00006783",
      "WLF00001707",
+     "WLF00006777",
+     "WLF00003980",
+     "WLF00004596",
      "WLF00001040",
-     "WLF00001755",
-     "WLF00003326",
+     "WLF00002255",
      "WLF00006044",
-     "WLF00001558",
+     "WLF00001284",
      "WLF00000687",
-     "WLF00002285",
-     "WLF00000132",
-     "WLF00003862",
-     "WLF00003692",
-     "WLF00003765",
-     "WLF00005176",
-     "WLF00000196",
-     "WLF00000725",
-     "WLF00003652",
-     "WLF00002321",
-     "WLF00003945",
-     "WLF00004558",
+     "WLF00004718",
+     "WLF00004017",
      "WLF00005296",
-     "WLF00001389",
-     "WLF00000587",
-     "WLF00000991",
-     "WLF00002352",
-     "WLF00001292",
-     "WLF00000710",
-     "WLF00000385",
-     "WLF00002109",
+     "WLF00000553",
+     "WLF00005272",
+     "WLF00005170",
      "WLF00005007",
-     "WLF00000498",
      "WLF00004255",
-     "WLF00000714",
+     "WLF00001810",
      "WLF00002790",
      "WLF00000686",
-     "WLF00001811",
-     "WLF00001835",
-     "WLF00002092",
-     "WLF00005963",
+     "WLF00006230",
+     "WLF00006178",
+     "WLF00005912",
      "WLF00005512",
-     "WLF00005193"
+     "WLF00005438",
+     "WLF00005212",
+     "WLF00000731",
+     "WLF00001361",
+     "WLF00000766",
+     "WLF00001003",
+     "WLF00002636",
+     "WLF00000354",
+     "WLF00004815",
+     "WLF00000541",
+     "WLF00005397",
+     "WLF00004537",
+     "WLF00001262",
+     "WLF00000573",
+     "WLF00006138",
+     "WLF00006134",
+     "WLF00004784"
     ]
    }
   },
@@ -123,116 +276,542 @@
  ],
  "bokjiroDetail": {
   "central": {
-   "fetched": 1,
-   "cached": 460,
+   "fetched": 0,
+   "cached": 461,
    "remaining": 0,
    "stale": 0
   },
   "local": {
-   "fetched": 330,
-   "cached": 4498,
+   "fetched": 197,
+   "cached": 4631,
    "remaining": 0,
    "stale": 0
   }
  },
  "moneyChanged": {
-  "count": 0,
-  "items": []
+  "count": 32,
+  "items": [
+   {
+    "source": "gov24",
+    "id": "119200000059",
+    "name": "어업활동 지원",
+    "after": {
+     "per": "max",
+     "won": 120000,
+     "quote": "- 1일 기준 지원대상 비용 한도는 12만 원이며,"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "119200000166",
+    "name": "이동수리소 운영",
+    "before": {
+     "per": "once",
+     "won": 200000,
+     "quote": "…1인당 2회 40만원 이내에서 지원이 가능하고 1회 20만원을 초과하여 지원할 수 없으며 이를 초과한 금액은 수요…"
+    },
+    "after": {
+     "per": "max",
+     "won": 400000,
+     "quote": "…교체를 지원하며, 1인당 해당 연도 최대 2회, 총 40만 원 이내에서 지원합니다."
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "149200005016",
+    "name": "청년일자리도약장려금",
+    "before": {
+     "per": "max",
+     "won": 4800000,
+     "quote": "…빈일자리 기업에서 18개월 이상 재직한 청년에게 최대 480만원을 지원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "303000000315",
+    "name": "성동구 구민생활안전보험",
+    "before": {
+     "per": "max",
+     "won": 15000000,
+     "quote": "상해사고로 인한 사망시 장례비 지원(1,500만원 한도) 1,500"
+    },
+    "after": {
+     "per": "max",
+     "won": 20000000,
+     "quote": "…(13세 미만) 통학버스 사고 부상치료비(사고당 최대 2,000만원 한도)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "304000000198",
+    "name": "기초생활(생계·의료)보장가구 이사비용 지원",
+    "before": {
+     "per": "max",
+     "won": 400000,
+     "quote": "- 가구당 40만원 이내 이사비용(실비) 지원"
+    },
+    "after": {
+     "per": "max",
+     "won": 300000,
+     "quote": "- 가구당 30만원 이내 이사비용(실비) 지원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "317000000112",
+    "name": "금천구 보훈대상자 위문금 지원",
+    "before": {
+     "per": "max",
+     "won": 20000,
+     "quote": "…또는 그 유족에게 설, 보훈의달, 추석에 위문금(현금 2만원)을 지급"
+    },
+    "after": {
+     "per": "max",
+     "won": 30000,
+     "quote": "…또는 그 유족에게 설, 보훈의달, 추석에 위문금(현금 3만원)을 지급"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "317000000115",
+    "name": "금천구 보훈대상자 보훈예우수당",
+    "before": {
+     "per": "month",
+     "won": 50000,
+     "quote": "국가유공자 유족증 소지자에게 월5만원 금천구 보훈예우수당 지급"
+    },
+    "after": {
+     "per": "month",
+     "won": 70000,
+     "quote": "국가유공자 유족증 소지자에게 월7만원 금천구 보훈예우수당 지급"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "378000000157",
+    "name": "보훈명예수당",
+    "before": {
+     "per": "month",
+     "won": 130000,
+     "quote": "…주 국가유공자 및 유족 중 만 65세 이상자에게 매월 130,000원 보훈명예수당 지급"
+    },
+    "after": {
+     "per": "month",
+     "won": 200000,
+     "quote": "…1일 현재 성남시 거주 국가유공자 및 유족에게 매월 200,000원 보훈명예수당 지급"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "378000000167",
+    "name": "성남시 다자녀가구 대학생 등록금 지원",
+    "before": {
+     "per": "year",
+     "won": 2000000,
+     "quote": "*지원한도: 학기별 최대 100만원(연 최대 200만원)"
+    },
+    "after": {
+     "per": "max",
+     "won": 1000000,
+     "quote": "*지원금액: 학기 당 본인 실제 부담 등록금 중 최대 100만원 내"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "393000000270",
+    "name": "안산시 시민안전보험",
+    "after": {
+     "per": "max",
+     "won": 20000000,
+     "quote": "…사망한 경우 (만15세 미만자 제외)(전세버스포함) 2000만원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "419000000121",
+    "name": "국가보훈대상자 지원",
+    "before": {
+     "per": "month",
+     "won": 180000,
+     "quote": "- 보훈영예수당 대상자에 월 18만원 지급 (보국수훈자 월 8만원)"
+    },
+    "after": {
+     "per": "month",
+     "won": 100000,
+     "quote": "* 배우자수당: 10만원/월(매월20일지급)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "422000000126",
+    "name": "가정위탁아동 양육보조금 지원",
+    "before": {
+     "per": "month",
+     "won": 300000,
+     "quote": "○ 가정위탁아동 1인당 월 30만원의 양육보조금 현금 지원"
+    },
+    "after": {
+     "per": "month",
+     "won": 450000,
+     "quote": "만 13세 이상 아동: 월 45만 원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "423000000362",
+    "name": "아이돌봄 서비스",
+    "before": {
+     "per": "max",
+     "won": 9136,
+     "quote": "…% 이하) : A형 시간당 10,354원 지원, B형 9,136원 지원"
+    },
+    "after": {
+     "per": "max",
+     "won": 10232,
+     "quote": "…중위소득 75%): 시간당 A형 10,872원, B형 10,232원 지원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "444000000109",
+    "name": "국가보훈대상자 수당",
+    "before": {
+     "per": "max",
+     "won": 300000,
+     "quote": "○ 사망위로금 : 참전유공자 본인 사망시 30만원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "445000000101",
+    "name": "고령운전자 운전면허 자진반납 지원",
+    "before": {
+     "per": "max",
+     "won": 100000,
+     "quote": "…록상 관내거주자)중 운전면허 자진 반납자에게 지역화폐(10만원상당 진천사랑상품권) 지급"
+    },
+    "after": {
+     "per": "max",
+     "won": 200000,
+     "quote": "- 1인당 1회 한정 지급 (실운전 증빙자 20만원 상당 지급)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "448000000654",
+    "name": "단양군 군민안전보험",
+    "after": {
+     "per": "max",
+     "won": 25000000,
+     "quote": "농기계사고상해사망 2,500만원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "473100000005",
+    "name": "진안군 군민안전보험/상해보험",
+    "after": {
+     "per": "max",
+     "won": 30000,
+     "quote": "- 일반상해 의료비 30 (사고당 3만원 공제)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "474000000107",
+    "name": "국가보훈대상자 보훈수당",
+    "before": {
+     "per": "month",
+     "won": 130000,
+     "quote": "○ 보훈수당 지급: 참전유공자 월 13만원, 그 외 보훈대상자 월 11만원 지급"
+    },
+    "after": {
+     "per": "month",
+     "won": 150000,
+     "quote": "○ 보훈수당 지급: 참전유공자 월 15만원, 그 외 보훈대상자 월 13만원 지급"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "511000000144",
+    "name": "보훈명예수당",
+    "before": {
+     "per": "month",
+     "won": 100000,
+     "quote": "○ 지원내용 : 월 10만원"
+    },
+    "after": {
+     "per": "month",
+     "won": 150000,
+     "quote": "○ 지원내용 : 월 15만원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "516000000117",
+    "name": "보훈관련 수당 및 위로금 지원",
+    "before": {
+     "per": "month",
+     "won": 130000,
+     "quote": "3.보훈예우수당 지원 : 월 13만원(군비), 사망위로금(30만원)"
+    },
+    "after": {
+     "per": "month",
+     "won": 200000,
+     "quote": "3.보훈예우수당 지원 : 월 20만원(군비)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "544000000142",
+    "name": "하동 반값여행",
+    "before": {
+     "per": "max",
+     "won": 200000,
+     "quote": "- 하동군에서 여행한 경비 50% 지원(최대 20만원)"
+    },
+    "after": {
+     "per": "max",
+     "won": 500000,
+     "quote": "- 청년 최대 14만 원, 가족 최대 50만 원 지원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "546000000128",
+    "name": "함양형 영유아 양육비 지원",
+    "before": {
+     "per": "month",
+     "won": 200000,
+     "quote": "…전 달까지(신청일이 속하는 달부터 60개월까지) 매월 20만원 지원"
+    },
+    "after": {
+     "per": "month",
+     "won": 500000,
+     "quote": "○ 지원내용 : 1인당 매월 50만원 모바일 함양사랑상품권 지급"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "569000000391",
+    "name": "세종시 정장대여 지원",
+    "before": {
+     "per": "max",
+     "won": 50000,
+     "quote": "(정장대여) 선정자 대상 쿠폰(5만원) 발급 후 협약기관에서 사용(열린옷장)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "627000000145",
+    "name": "초등학생 치과주치의 사업 지원",
+    "before": {
+     "per": "max",
+     "won": 40000,
+     "quote": "(1인당 4만원 이내)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "630000000153",
+    "name": "누리과정 아동 차액보육료 지원",
+    "before": {
+     "per": "month",
+     "won": 103000,
+     "quote": "- 3세반 월 10만 3천원, 4~5세반 월 8만 4천원"
+    },
+    "after": {
+     "per": "month",
+     "won": 118000,
+     "quote": "- 3세반 최대 월 11만 8천원, 4~5세반 최대 월 9만 9천원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "643000000130",
+    "name": "벼 재배농업인 경영안정 지원",
+    "before": {
+     "per": "max",
+     "won": 45000,
+     "quote": "○ 지원금액 : 경영안정자금 농가별 ha당 4.5만원(단, 지원면적 : 벼 재배면적 0.1ha ~ 5ha/…"
+    },
+    "after": {
+     "per": "max",
+     "won": 90000,
+     "quote": "○ 지원금액 : 경영안정자금 농가별 ha당 9만원(단, 지원면적 : 벼 재배면적 0.1ha ~ 5ha/…"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "650000000310",
+    "name": "노인 백내장 수술비 지원",
+    "after": {
+     "per": "max",
+     "won": 120000,
+     "quote": "○ 지원내용 : 백내장 수술비 연 1회 1인당 120천원(1인당 1안구) 본인부담금 지원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "999000000048",
+    "name": "특별현금급여 (가족요양비)",
+    "before": {
+     "per": "max",
+     "won": 233400,
+     "quote": "○ 가족요양비 지급액 : 매월 수급자에게 233,400원 지급('25년 기준)"
+    },
+    "after": {
+     "per": "max",
+     "won": 240450,
+     "quote": "○ 가족요양비 지급액 : 매월 수급자에게 240,450원 지급('26년 기준)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "O00043100001",
+    "name": "평창인재육성장학재단 장학금",
+    "before": {
+     "per": "max",
+     "won": 600000,
+     "quote": "- 중고등학생 : 생활비 60만원"
+    },
+    "after": {
+     "per": "max",
+     "won": 1000000,
+     "quote": "…범위 내(타 장학금 수령시 차액지원), 생활비 학기당 100만원"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "O00046700008",
+    "name": "웹콘텐츠 역량 강화 지원",
+    "before": {
+     "per": "max",
+     "won": 5000000,
+     "quote": "○ 아래의 사항에 대한 비용 기업당 최대 500만원까지 지원(총 비용의 70%)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "O00046700025",
+    "name": "웹콘텐츠 제작 지원",
+    "before": {
+     "per": "max",
+     "won": 26000000,
+     "quote": "(웹소설 800만원, 웹툰 1,800만원, 웹애니 2,600만원)"
+    }
+   },
+   {
+    "source": "gov24",
+    "id": "O00114000001",
+    "name": "(재)충북인재평생교육진흥원 장학금",
+    "before": {
+     "per": "max",
+     "won": 300000,
+     "quote": "…금 지급 : 장학생 종류별, 학제별 장학금 차등 지급(30만원 ~ 200백만원)"
+    },
+    "after": {
+     "per": "max",
+     "won": 2000000,
+     "quote": "…장학생 종류별, 학제별 장학금 차등 지급(30만원 ~ 200만원)"
+    }
+   }
+  ]
  },
  "schema": {
   "gov24": {
-   "serviceList.등록일시": 10942,
-   "serviceList.부서명": 10942,
-   "serviceList.사용자구분": 10942,
-   "serviceList.상세조회URL": 10942,
-   "serviceList.서비스ID": 10942,
-   "serviceList.서비스명": 10942,
-   "serviceList.서비스목적요약": 10942,
-   "serviceList.서비스분야": 10942,
-   "serviceList.선정기준": 10942,
-   "serviceList.소관기관명": 10942,
-   "serviceList.소관기관유형": 10942,
-   "serviceList.소관기관코드": 10942,
-   "serviceList.수정일시": 10942,
-   "serviceList.신청기한": 10942,
-   "serviceList.신청기한유형": 10942,
-   "serviceList.신청방법": 10942,
-   "serviceList.전화문의": 10942,
-   "serviceList.접수기관": 10942,
-   "serviceList.지원내용": 10942,
-   "serviceList.지원대상": 10942,
-   "serviceList.지원유형": 10942,
-   "supportConditions.JA0101": 10942,
-   "supportConditions.JA0102": 10942,
-   "supportConditions.JA0110": 10942,
-   "supportConditions.JA0111": 10942,
-   "supportConditions.JA0201": 10942,
-   "supportConditions.JA0202": 10942,
-   "supportConditions.JA0203": 10942,
-   "supportConditions.JA0204": 10942,
-   "supportConditions.JA0205": 10942,
-   "supportConditions.JA0301": 10942,
-   "supportConditions.JA0302": 10942,
-   "supportConditions.JA0303": 10942,
-   "supportConditions.JA0313": 10942,
-   "supportConditions.JA0314": 10942,
-   "supportConditions.JA0315": 10942,
-   "supportConditions.JA0316": 10942,
-   "supportConditions.JA0317": 10942,
-   "supportConditions.JA0318": 10942,
-   "supportConditions.JA0319": 10942,
-   "supportConditions.JA0320": 10942,
-   "supportConditions.JA0322": 10942,
-   "supportConditions.JA0326": 10942,
-   "supportConditions.JA0327": 10942,
-   "supportConditions.JA0328": 10942,
-   "supportConditions.JA0329": 10942,
-   "supportConditions.JA0330": 10942,
-   "supportConditions.JA0401": 10942,
-   "supportConditions.JA0402": 10942,
-   "supportConditions.JA0403": 10942,
-   "supportConditions.JA0404": 10942,
-   "supportConditions.JA0410": 10942,
-   "supportConditions.JA0411": 10942,
-   "supportConditions.JA0412": 10942,
-   "supportConditions.JA0413": 10942,
-   "supportConditions.JA0414": 10942,
-   "supportConditions.JA1101": 10942,
-   "supportConditions.JA1102": 10942,
-   "supportConditions.JA1103": 10942,
-   "supportConditions.JA1201": 10942,
-   "supportConditions.JA1202": 10942,
-   "supportConditions.JA1299": 10942,
-   "supportConditions.JA2101": 10942,
-   "supportConditions.JA2102": 10942,
-   "supportConditions.JA2103": 10942,
-   "supportConditions.JA2201": 10942,
-   "supportConditions.JA2202": 10942,
-   "supportConditions.JA2203": 10942,
-   "supportConditions.JA2299": 10942,
-   "supportConditions.서비스ID": 10942,
-   "supportConditions.서비스명": 10942,
-   "serviceDetail.공무원확인구비서류": 10942,
-   "serviceDetail.구비서류": 10942,
-   "serviceDetail.문의처": 10942,
-   "serviceDetail.법령": 10942,
-   "serviceDetail.본인확인필요구비서류": 10942,
-   "serviceDetail.서비스ID": 10942,
-   "serviceDetail.서비스명": 10942,
-   "serviceDetail.서비스목적": 10942,
-   "serviceDetail.선정기준": 10942,
-   "serviceDetail.소관기관명": 10942,
-   "serviceDetail.수정일시": 10942,
-   "serviceDetail.신청기한": 10942,
-   "serviceDetail.신청기한유형": 10942,
-   "serviceDetail.신청방법": 10942,
-   "serviceDetail.온라인신청사이트URL": 10942,
-   "serviceDetail.자치법규": 10942,
-   "serviceDetail.접수기관명": 10942,
-   "serviceDetail.지원내용": 10942,
-   "serviceDetail.지원대상": 10942,
-   "serviceDetail.지원유형": 10942,
-   "serviceDetail.행정규칙": 10942
+   "serviceList.등록일시": 10887,
+   "serviceList.부서명": 10887,
+   "serviceList.사용자구분": 10887,
+   "serviceList.상세조회URL": 10887,
+   "serviceList.서비스ID": 10887,
+   "serviceList.서비스명": 10887,
+   "serviceList.서비스목적요약": 10887,
+   "serviceList.서비스분야": 10887,
+   "serviceList.선정기준": 10887,
+   "serviceList.소관기관명": 10887,
+   "serviceList.소관기관유형": 10887,
+   "serviceList.소관기관코드": 10887,
+   "serviceList.수정일시": 10887,
+   "serviceList.신청기한": 10887,
+   "serviceList.신청기한유형": 10887,
+   "serviceList.신청방법": 10887,
+   "serviceList.전화문의": 10887,
+   "serviceList.접수기관": 10887,
+   "serviceList.지원내용": 10887,
+   "serviceList.지원대상": 10887,
+   "serviceList.지원유형": 10887,
+   "supportConditions.JA0101": 10887,
+   "supportConditions.JA0102": 10887,
+   "supportConditions.JA0110": 10887,
+   "supportConditions.JA0111": 10887,
+   "supportConditions.JA0201": 10887,
+   "supportConditions.JA0202": 10887,
+   "supportConditions.JA0203": 10887,
+   "supportConditions.JA0204": 10887,
+   "supportConditions.JA0205": 10887,
+   "supportConditions.JA0301": 10887,
+   "supportConditions.JA0302": 10887,
+   "supportConditions.JA0303": 10887,
+   "supportConditions.JA0313": 10887,
+   "supportConditions.JA0314": 10887,
+   "supportConditions.JA0315": 10887,
+   "supportConditions.JA0316": 10887,
+   "supportConditions.JA0317": 10887,
+   "supportConditions.JA0318": 10887,
+   "supportConditions.JA0319": 10887,
+   "supportConditions.JA0320": 10887,
+   "supportConditions.JA0322": 10887,
+   "supportConditions.JA0326": 10887,
+   "supportConditions.JA0327": 10887,
+   "supportConditions.JA0328": 10887,
+   "supportConditions.JA0329": 10887,
+   "supportConditions.JA0330": 10887,
+   "supportConditions.JA0401": 10887,
+   "supportConditions.JA0402": 10887,
+   "supportConditions.JA0403": 10887,
+   "supportConditions.JA0404": 10887,
+   "supportConditions.JA0410": 10887,
+   "supportConditions.JA0411": 10887,
+   "supportConditions.JA0412": 10887,
+   "supportConditions.JA0413": 10887,
+   "supportConditions.JA0414": 10887,
+   "supportConditions.JA1101": 10887,
+   "supportConditions.JA1102": 10887,
+   "supportConditions.JA1103": 10887,
+   "supportConditions.JA1201": 10887,
+   "supportConditions.JA1202": 10887,
+   "supportConditions.JA1299": 10887,
+   "supportConditions.JA2101": 10887,
+   "supportConditions.JA2102": 10887,
+   "supportConditions.JA2103": 10887,
+   "supportConditions.JA2201": 10887,
+   "supportConditions.JA2202": 10887,
+   "supportConditions.JA2203": 10887,
+   "supportConditions.JA2299": 10887,
+   "supportConditions.서비스ID": 10887,
+   "supportConditions.서비스명": 10887,
+   "serviceDetail.공무원확인구비서류": 10887,
+   "serviceDetail.구비서류": 10887,
+   "serviceDetail.문의처": 10887,
+   "serviceDetail.법령": 10887,
+   "serviceDetail.본인확인필요구비서류": 10887,
+   "serviceDetail.서비스ID": 10887,
+   "serviceDetail.서비스명": 10887,
+   "serviceDetail.서비스목적": 10887,
+   "serviceDetail.선정기준": 10887,
+   "serviceDetail.소관기관명": 10887,
+   "serviceDetail.수정일시": 10887,
+   "serviceDetail.신청기한": 10887,
+   "serviceDetail.신청기한유형": 10887,
+   "serviceDetail.신청방법": 10887,
+   "serviceDetail.온라인신청사이트URL": 10887,
+   "serviceDetail.자치법규": 10887,
+   "serviceDetail.접수기관명": 10887,
+   "serviceDetail.지원내용": 10887,
+   "serviceDetail.지원대상": 10887,
+   "serviceDetail.지원유형": 10887,
+   "serviceDetail.행정규칙": 10887
   },
   "bokjiro-central": {
    "intrsThemaArray": 449,
