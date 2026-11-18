@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "detail": "수집 완료",
-  "checkedAt": "2026-11-17T22:53:42.533Z",
+  "checkedAt": "2026-11-18T22:36:44.394Z",
   "counts": {
     "serviceList": 10887,
     "supportConditions": 10887,
