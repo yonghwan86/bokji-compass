@@ -1,96 +1,96 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T14:57:47.456Z",
+  "generatedAt": "2026-11-27T23:33:39.542Z",
   "dataAsOf": {
-    "bokjiro": "복지로 OpenAPI 수집 2026-10-08 (서비스별 최종수정일 표시) · 색인 2026-09-24",
-    "icare": "2026-04 등 (메뉴판 문서별 원문 기준월), 수집 2026-10-01",
-    "gov24": "수집 2026-10-02"
+    "bokjiro": "복지로 OpenAPI 수집 2026-11-27 (서비스별 최종수정일 표시) · 색인 2026-09-24",
+    "icare": "2026-04 등 (메뉴판 문서별 원문 기준월), 수집 2026-11-28",
+    "gov24": "수집 2026-11-27"
   },
   "counts": {
     "raw": {
-      "gov24": 10949,
-      "bokjiro": 5283,
+      "gov24": 10891,
+      "bokjiro": 5298,
       "welfare100": 100,
-      "icare": 12526,
+      "icare": 12593,
       "manual": 3
     },
     "excluded": {
-      "not_individual": 1014,
-      "business_only": 69,
+      "not_individual": 997,
+      "business_only": 74,
       "eupmyeondong_level": 26,
       "region_unresolved": 5
     },
-    "uniquePrograms": 23575,
-    "placements": 23578,
+    "uniquePrograms": 22846,
+    "placements": 22849,
     "byOrg": {
-      "central": 1061,
-      "public_inst": 2203,
-      "local": 18091,
-      "metro": 1967,
+      "central": 1065,
+      "public_inst": 1890,
+      "local": 17780,
+      "metro": 1858,
       "edu_office": 253
     },
     "byScope": {
-      "national": 1422,
-      "sigungu": 19892,
-      "sido": 2261
+      "national": 1424,
+      "sigungu": 19135,
+      "sido": 2287
     },
     "bySector": {
-      "agri": 1694,
+      "agri": 1691,
       "business": 89,
-      "operator": 29
+      "operator": 27
     },
     "byApplyType": {
-      "self": 11610,
-      "auto": 735,
-      "institution": 211,
-      "unknown": 11019
+      "self": 11600,
+      "auto": 728,
+      "institution": 210,
+      "unknown": 10308
     },
     "bySource": {
-      "gov24": 9336,
-      "bokjiro": 5229,
+      "gov24": 9292,
+      "bokjiro": 5246,
       "welfare100": 100,
-      "manual": 3,
-      "icare": 10218
+      "icare": 9517,
+      "manual": 3
     },
     "bySourceOrg": {
       "gov24": {
-        "central": 741,
-        "public_inst": 1161,
-        "local": 5956,
-        "metro": 1225,
+        "central": 737,
+        "public_inst": 1153,
+        "local": 5910,
+        "metro": 1239,
         "edu_office": 253
       },
       "bokjiro": {
-        "central": 274,
-        "metro": 569,
-        "local": 3241
+        "central": 275,
+        "metro": 572,
+        "local": 3255
       },
       "welfare100": {
         "central": 46,
-        "local": 3,
-        "metro": 1
+        "local": 3
+      },
+      "icare": {
+        "central": 7,
+        "public_inst": 735,
+        "local": 8611,
+        "metro": 47
       },
       "manual": {
         "public_inst": 2,
         "local": 1
-      },
-      "icare": {
-        "local": 8890,
-        "public_inst": 1040,
-        "metro": 172
       }
     },
     "dedup": {
-      "d1Exact": 19,
-      "d2Substantive": 75,
+      "d1Exact": 9,
+      "d2Substantive": 89,
       "crossMerged": [
         {
           "pair": "gov24+bokjiro",
-          "count": 1152
+          "count": 1151
         },
         {
           "pair": "gov24+welfare100",
-          "count": 41
+          "count": 42
         },
         {
           "pair": "bokjiro+welfare100",
@@ -98,90 +98,95 @@
         },
         {
           "pair": "gov24+gov24",
-          "count": 367
+          "count": 373
         },
         {
           "pair": "bokjiro+bokjiro",
-          "count": 32
-        },
-        {
-          "pair": "bokjiro+icare",
-          "count": 59
+          "count": 31
         },
         {
           "pair": "gov24+icare",
-          "count": 59
+          "count": 58
+        },
+        {
+          "pair": "bokjiro+icare",
+          "count": 61
         }
       ],
-      "absorbedAsLocalOps": 2379,
-      "blockedByLevel": 402,
-      "keptRegionalAddons": 48,
-      "absorbedRegionalCopies": 166
+      "absorbedAsLocalOps": 3128,
+      "blockedByLevel": 940,
+      "keptRegionalAddons": 42,
+      "absorbedRegionalCopies": 157
     },
-    "localOps": 2359,
+    "localOps": 3114,
     "rulesByReview": {
-      "structured": 1869,
-      "auto": 21631,
+      "structured": 8045,
+      "auto": 14726,
       "curated": 78
     },
     "rulesByOrigin": {
-      "gov24_conditions": 8084,
-      "none": 2423,
+      "gov24_conditions": 8045,
+      "none": 2376,
       "curated": 78,
-      "bokjiro_tags": 3631,
-      "text_extract": 9362
+      "bokjiro_tags": 3649,
+      "text_extract": 8701
     },
     "pilot": {
-      "programs": 3001,
+      "programs": 2858,
       "curatedOrVerified": 12,
-      "structured": 979,
-      "autoRules": 1672,
-      "noRule": 338
+      "structured": 959,
+      "autoRules": 1561,
+      "noRule": 326
     },
     "nationalCurated": 65,
-    "nationalStructured": 890,
+    "nationalStructured": 888,
     "coverage": {
-      "applyMethod": 12885,
-      "contact": 13405,
-      "either": 13439,
-      "total": 23575
+      "applyMethod": 12861,
+      "contact": 13383,
+      "either": 13415,
+      "total": 22846
     },
     "moneyDue": {
-      "benefitText": 13421,
-      "deadlineText": 3532,
+      "benefitText": 13397,
+      "deadlineText": 3527,
       "money": {
-        "max": 2978,
+        "max": 2969,
         "year": 387,
-        "month": 1084,
-        "once": 235
+        "month": 1087,
+        "once": 236
       },
       "due": {
-        "period": 464,
-        "after": 432,
-        "annual": 455
+        "period": 447,
+        "after": 435,
+        "annual": 464
       }
     },
     "bokjiroApi": {
       "list": {
         "central": 461,
-        "local": 4819
+        "local": 4837
       },
       "detail": {
         "central": 461,
-        "local": 4819
+        "local": 4837
       },
-      "enriched": 5201,
-      "added": 79,
-      "indexOnly": 3
+      "enriched": 0,
+      "added": 5298,
+      "indexOnly": 0
     }
   },
   "gov24": {
     "status": "ok",
     "detail": "수집 완료",
-    "services": 10949
+    "services": 10891
   },
+  "icareOrigin": "mohw",
   "logs": [
-    "[bokjiro-api] 목록 중앙 461 · 지자체 4819 / 상세 중앙 461 · 지자체 4819 / 보강 5201 · 신규 79 · 색인에만 있음 3",
+    "[w100] 원 수집본 없음 → 복지제도100 고정본 100건 (복지로 사업은 복지로 OpenAPI로)",
+    "[bokjiro-api] 목록 중앙 461 · 지자체 4837 / 상세 중앙 461 · 지자체 4837 / 보강 0 · 신규 5298 · 색인에만 있음 0",
+    "[icare] 메뉴판 출처: 보건복지부 원문 (pipeline/raw/mohw)",
+    "[icare] 오타 별칭 중 메뉴판에 없는 이름 1개 (원문이 고쳐졌으면 목록에서 지워도 됨): 주·야간보호기관내 단기호보 시범사업",
+    "[icare] 검토표 결정: 전국으로 올림 7개 (다제약물 관리사업, 지역사회중심 재활사업, 재가 의료급여, 일차의료 만성질환관리 사업, 의료급여 사례관리, 정신건강증진사업, 국가건강검진) · 같은 사업으로 묶을 행 1943",
     "[gov24] 지역 해석 실패: 6건",
     "[manual] 수동 보강 3건"
   ],
@@ -196,10 +201,10 @@
     "부산 사하구 · 신평1동 식식(⾷⾷)가게",
     "인천 남동구 · 간석3동 영양드림",
     "인천 제물포구 · 송림6동 행복마을 집수리 지원사업",
-    "전북 진안군 · 읍면 지역사회보장협의체 특화사업",
-    "충남 아산시 · 도고면 행복키움추진단 특화사업",
-    "충남 아산시 · 둔포면 행복키움추진단 특화사업",
+    "충남 아산시 · 염치읍 행복키움추진단 특화사업",
     "충남 아산시 · 배방읍 행복키움추진단 특화사업",
-    "충남 아산시 · 송악면 행복키움추진단 특화사업"
+    "충남 아산시 · 송악면 행복키움추진단 특화사업",
+    "충남 아산시 · 음봉면 행복키움추진단 특화사업",
+    "충남 아산시 · 둔포면 행복키움추진단 특화사업"
   ]
 }
